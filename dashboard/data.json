@@ -1,0 +1,164 @@
+{
+  "_sample": "SAMPLE DATA — a fictional job search, shipped so you can see the dashboard before you have any data of your own. Every name, company, and number below is made up. Run /dashboard to overwrite this file with yours.",
+  "generated_at": "2026-08-03",
+  "scraped_at": "2026-08-01",
+  "user": { "name": "Sample (demo data)", "target_role": "Senior Product Manager", "streak_days": 12, "week": 4 },
+
+  "health": {
+    "experience_library": { "state": "rich", "detail": "34 entries" },
+    "career_plan": { "state": "filled", "detail": "Senior PM · SF Bay / Remote · $220k floor" },
+    "qa_master": { "state": "partial", "detail": "3 of 9 answered" },
+    "target_companies": { "state": "filled", "detail": "82 companies ranked" },
+    "connection_tracker": { "state": "filled", "detail": "147 people · 41 warm" },
+    "interview_history": { "state": "partial", "detail": "8 debriefs logged" },
+    "apify": { "state": "ok", "detail": "set · $1.90 spent this month" },
+    "voyage": { "state": "ok", "detail": "set · fit scores and clustering on" }
+  },
+
+  "funnel": [
+    { "stage": "sourced", "count": 312 },
+    { "stage": "applied", "count": 48, "conversion": 0.15, "benchmark": 0.30 },
+    { "stage": "screen", "count": 11, "conversion": 0.23, "benchmark": 0.25 },
+    { "stage": "onsite", "count": 4, "conversion": 0.36, "benchmark": 0.35 },
+    { "stage": "offer", "count": 1, "conversion": 0.25, "benchmark": 0.25 }
+  ],
+
+  "bottleneck": {
+    "stage": "applied→screen",
+    "why": "15% vs 30% benchmark — half the rate you should be getting",
+    "fix": "Referral coverage on your applications is 19%. Raise it to 60% and this number roughly doubles.",
+    "command": "/build-referral-graph"
+  },
+
+  "next_actions": [
+    {
+      "type": "referral",
+      "title": "Referral ask → Priya M. (Stripe, Payments PM)",
+      "why": "Ex-Amazon like you, overlapped 2019-21 · posted about latency work 2 days ago · connected 6d ago, no reply to your note yet",
+      "buttons": [
+        { "label": "Draft ask", "command": "/referral-request Priya M. — Stripe, Product Manager Payments" },
+        { "label": "Not now", "command": "/app-tracker snooze stripe-pm-pay --days 3" }
+      ]
+    },
+    {
+      "type": "apply",
+      "title": "Apply → Anthropic, Product Manager Growth · fit 91 · posted 1d ago",
+      "why": "Highest fit in the feed. Your \"AI / 0-to-1\" resume variant already covers 8 of its 10 keywords. Two referral paths open.",
+      "buttons": [
+        { "label": "Tailor resume", "command": "/resume-tailor https://www.linkedin.com/jobs/view/4021887301" },
+        { "label": "Referral path", "command": "/build-referral-graph Anthropic" },
+        { "label": "Not for me", "command": "/app-tracker hide anthropic-pm-growth" }
+      ]
+    },
+    {
+      "type": "prep",
+      "title": "Prep → Figma onsite, Thu Aug 6, 2pm · 3 days out",
+      "why": "Weakest dimension across your last 3 debriefs is metrics depth (5.7/10). Figma's onsite has a product-sense round that always goes there.",
+      "buttons": [
+        { "label": "Prep package", "command": "/interview-prep Figma Senior PM Design Systems onsite" },
+        { "label": "Mock interview", "command": "/mock-interview product sense — focus on metrics depth" }
+      ]
+    }
+  ],
+
+  "jobs": [
+    { "id": "anthropic-pm-growth", "company": "Anthropic", "role": "Product Manager, Growth", "location": "San Francisco (hybrid)", "posted_at": "2026-08-02", "salary": "$220–280k", "url": "https://www.linkedin.com/jobs/view/4021887301", "source": "apify:linkedin-job-search", "fit": 91, "matches": ["activation experiments", "0-to-1 product launches", "AI product surface"], "gaps": ["enterprise sales motion"], "referral_path": 2, "duplicates": 0, "archetype": "growth-pm", "status": "sourced" },
+    { "id": "cursor-pm-growth", "company": "Anysphere (Cursor)", "role": "Product Manager, Growth", "location": "San Francisco", "posted_at": "2026-07-29", "salary": "$220–300k", "url": "https://www.linkedin.com/jobs/view/4019442188", "source": "apify:linkedin-job-search", "fit": 86, "matches": ["developer activation", "self-serve funnel", "usage-based pricing"], "gaps": ["IDE / developer tooling depth"], "referral_path": 0, "duplicates": 0, "archetype": "ai-product", "status": "sourced" },
+    { "id": "vercel-spm-ai", "company": "Vercel", "role": "Senior Product Manager, AI", "location": "Remote (US)", "posted_at": "2026-08-01", "salary": "$210–255k", "url": "https://www.linkedin.com/jobs/view/4021103944", "source": "apify:linkedin-job-search", "fit": 87, "matches": ["AI product surface", "developer funnel", "pricing and packaging"], "gaps": ["infrastructure / edge runtime"], "referral_path": 1, "duplicates": 0, "archetype": "ai-product", "status": "sourced" },
+    { "id": "stripe-pm-pay", "company": "Stripe", "role": "Product Manager, Payments", "location": "San Francisco (hybrid)", "posted_at": "2026-07-21", "salary": "$215–265k", "url": "https://www.linkedin.com/jobs/view/4014772019", "source": "apify:linkedin-job-search", "fit": 88, "matches": ["payments platform", "API product ownership", "merchant onboarding"], "gaps": ["card network economics"], "referral_path": 3, "duplicates": 1, "archetype": "platform-pm", "status": "applied" },
+    { "id": "figma-spm-design-systems", "company": "Figma", "role": "Senior Product Manager, Design Systems", "location": "San Francisco", "posted_at": "2026-07-18", "salary": "$200–250k", "url": "https://www.linkedin.com/jobs/view/4012004555", "source": "apify:linkedin-job-search", "fit": 86, "matches": ["platform primitives", "design-to-dev workflow", "enterprise adoption"], "gaps": ["design tooling background"], "referral_path": 2, "duplicates": 0, "archetype": "platform-pm", "status": "onsite" },
+    { "id": "sierra-pm-agents", "company": "Sierra", "role": "Product Manager, Agents", "location": "San Francisco", "posted_at": "2026-07-27", "salary": "$220–270k", "url": "https://www.linkedin.com/jobs/view/4018330271", "source": "apify:linkedin-job-search", "fit": 85, "matches": ["AI agent evaluation", "0-to-1 product launches", "enterprise pilot design"], "gaps": ["contact center domain"], "referral_path": 1, "duplicates": 0, "archetype": "ai-product", "status": "sourced" },
+    { "id": "amplitude-spm-experimentation", "company": "Amplitude", "role": "Senior Product Manager, Experimentation", "location": "San Francisco / Remote", "posted_at": "2026-07-22", "salary": "$200–245k", "url": "https://www.linkedin.com/jobs/view/4015228710", "source": "apify:linkedin-job-search", "fit": 85, "matches": ["experimentation platform", "activation metrics", "analytics instrumentation"], "gaps": ["seller enablement"], "referral_path": 2, "duplicates": 0, "archetype": "growth-pm", "status": "sourced" },
+    { "id": "ramp-spm-spend", "company": "Ramp", "role": "Senior Product Manager, Spend", "location": "New York", "posted_at": "2026-07-31", "salary": "$240–290k", "url": "https://www.linkedin.com/jobs/view/4020551067", "source": "apify:linkedin-job-search", "fit": 84, "matches": ["activation experiments", "finance workflows", "0-to-1 product launches"], "gaps": ["accounting / ERP integrations"], "referral_path": 1, "duplicates": 2, "archetype": "growth-pm", "status": "offer" },
+    { "id": "notion-spm-growth", "company": "Notion", "role": "Senior Product Manager, Growth", "location": "San Francisco (hybrid)", "posted_at": "2026-07-30", "salary": "$210–260k", "url": "https://www.linkedin.com/jobs/view/4020018842", "source": "apify:linkedin-job-search", "fit": 83, "matches": ["self-serve funnel", "activation experiments", "team virality loops"], "gaps": ["international pricing"], "referral_path": 1, "duplicates": 0, "archetype": "growth-pm", "status": "sourced" },
+    { "id": "perplexity-pm-consumer", "company": "Perplexity", "role": "Product Manager, Consumer Growth", "location": "San Francisco", "posted_at": "2026-07-28", "salary": "$200–260k", "url": "https://www.linkedin.com/jobs/view/4018991202", "source": "apify:linkedin-job-search", "fit": 82, "matches": ["retention experiments", "consumer onboarding", "AI product surface"], "gaps": ["mobile app growth", "paid acquisition budget ownership"], "referral_path": 0, "duplicates": 0, "archetype": "growth-pm", "status": "sourced" },
+    { "id": "airtable-spm-ai-apps", "company": "Airtable", "role": "Senior Product Manager, AI Apps", "location": "San Francisco (hybrid)", "posted_at": "2026-07-23", "salary": "$210–260k", "url": "https://www.linkedin.com/jobs/view/4016003318", "source": "apify:linkedin-job-search", "fit": 81, "matches": ["AI product surface", "no-code builders", "workspace adoption"], "gaps": ["enterprise governance"], "referral_path": 0, "duplicates": 0, "archetype": "ai-product", "status": "sourced" },
+    { "id": "brex-pm-activation", "company": "Brex", "role": "Product Manager, Activation", "location": "New York / Remote", "posted_at": "2026-07-24", "salary": "$195–240k", "url": "https://www.linkedin.com/jobs/view/4016885529", "source": "apify:linkedin-job-search", "fit": 80, "matches": ["activation experiments", "onboarding funnel", "KYC flows"], "gaps": ["credit underwriting"], "referral_path": 1, "duplicates": 0, "archetype": "growth-pm", "status": "sourced" },
+    { "id": "linear-pm-core", "company": "Linear", "role": "Product Manager", "location": "Remote (US)", "posted_at": "2026-07-29", "salary": "$190–230k", "url": "https://www.linkedin.com/jobs/view/4019220874", "source": "apify:linkedin-job-search", "fit": 79, "matches": ["platform primitives", "API product ownership", "developer workflow"], "gaps": ["design craft bar"], "referral_path": 0, "duplicates": 0, "archetype": "platform-pm", "status": "sourced" },
+    { "id": "zapier-spm-ai-automation", "company": "Zapier", "role": "Senior Product Manager, AI Automation", "location": "Remote", "posted_at": "2026-07-21", "salary": "$195–245k", "url": "https://www.linkedin.com/jobs/view/4014901760", "source": "apify:linkedin-job-search", "fit": 79, "matches": ["AI product surface", "workflow automation", "self-serve funnel"], "gaps": ["partner ecosystem management"], "referral_path": 0, "duplicates": 0, "archetype": "ai-product", "status": "sourced" },
+    { "id": "mercury-spm-payments", "company": "Mercury", "role": "Senior Product Manager, Payments", "location": "San Francisco (hybrid)", "posted_at": "2026-07-24", "salary": "$205–250k", "url": "https://www.linkedin.com/jobs/view/4016770903", "source": "apify:linkedin-job-search", "fit": 78, "matches": ["payments platform", "merchant onboarding", "risk review flows"], "gaps": ["banking compliance"], "referral_path": 0, "duplicates": 0, "archetype": "platform-pm", "status": "sourced" },
+    { "id": "retool-pm-growth", "company": "Retool", "role": "Product Manager, Growth", "location": "San Francisco", "posted_at": "2026-07-22", "salary": "$190–240k", "url": "https://www.linkedin.com/jobs/view/4015340155", "source": "apify:linkedin-job-search", "fit": 77, "matches": ["self-serve funnel", "activation experiments", "developer onboarding"], "gaps": ["outbound sales partnership"], "referral_path": 0, "duplicates": 0, "archetype": "growth-pm", "status": "sourced" },
+    { "id": "databricks-spm-ml-platform", "company": "Databricks", "role": "Senior Product Manager, ML Platform", "location": "San Francisco", "posted_at": "2026-07-26", "salary": "$230–285k", "url": "https://www.linkedin.com/jobs/view/4017812244", "source": "apify:linkedin-job-search", "fit": 76, "matches": ["ML platform primitives", "enterprise pilot design", "API product ownership"], "gaps": ["data engineering depth", "lakehouse architecture"], "referral_path": 2, "duplicates": 1, "archetype": "ai-product", "status": "sourced" },
+    { "id": "rippling-spm-onboarding", "company": "Rippling", "role": "Senior Product Manager, Onboarding", "location": "San Francisco", "posted_at": "2026-07-25", "salary": "$215–265k", "url": "https://www.linkedin.com/jobs/view/4017290631", "source": "apify:linkedin-job-search", "fit": 74, "matches": ["onboarding funnel", "activation metrics", "cross-product bundling"], "gaps": ["HR / payroll domain"], "referral_path": 0, "duplicates": 0, "archetype": "growth-pm", "status": "sourced" },
+    { "id": "webflow-pm-ai-builder", "company": "Webflow", "role": "Product Manager, AI Site Builder", "location": "Remote (US)", "posted_at": "2026-07-26", "salary": "$190–240k", "url": "https://www.linkedin.com/jobs/view/4017944012", "source": "apify:linkedin-job-search", "fit": 73, "matches": ["AI product surface", "no-code builders", "self-serve funnel"], "gaps": ["visual design tooling"], "referral_path": 0, "duplicates": 0, "archetype": "ai-product", "status": "sourced" },
+    { "id": "plaid-pm-identity", "company": "Plaid", "role": "Product Manager, Identity", "location": "San Francisco", "posted_at": "2026-07-23", "salary": "$200–245k", "url": "https://www.linkedin.com/jobs/view/4016011478", "source": "apify:linkedin-job-search", "fit": 72, "matches": ["API product ownership", "KYC flows", "developer onboarding"], "gaps": ["identity fraud modeling"], "referral_path": 1, "duplicates": 0, "archetype": "platform-pm", "status": "sourced" },
+    { "id": "gusto-spm-onboarding", "company": "Gusto", "role": "Senior Product Manager, Onboarding", "location": "San Francisco / Denver", "posted_at": "2026-07-20", "salary": "$190–235k", "url": "https://www.linkedin.com/jobs/view/4013663890", "source": "apify:linkedin-job-search", "fit": 71, "matches": ["onboarding funnel", "activation experiments", "SMB self-serve"], "gaps": ["payroll compliance"], "referral_path": 0, "duplicates": 0, "archetype": "growth-pm", "status": "sourced" },
+    { "id": "scaleai-pm-data-engine", "company": "Scale AI", "role": "Product Manager, Data Engine", "location": "San Francisco", "posted_at": "2026-07-21", "salary": "$215–270k", "url": "https://www.linkedin.com/jobs/view/4014455092", "source": "apify:linkedin-job-search", "fit": 70, "matches": ["AI evaluation workflows", "enterprise pilot design", "0-to-1 product launches"], "gaps": ["labeling operations", "government contracting"], "referral_path": 1, "duplicates": 0, "archetype": "ai-product", "status": "sourced" },
+    { "id": "deel-spm-activation", "company": "Deel", "role": "Senior Product Manager, Activation", "location": "Remote", "posted_at": "2026-07-20", "salary": "$180–225k", "url": "https://www.linkedin.com/jobs/view/4013779016", "source": "apify:linkedin-job-search", "fit": 68, "matches": ["activation experiments", "self-serve funnel"], "gaps": ["global employment law", "multi-entity billing"], "referral_path": 0, "duplicates": 0, "archetype": "growth-pm", "status": "sourced" },
+    { "id": "attentive-spm-messaging", "company": "Attentive", "role": "Senior Product Manager, Messaging", "location": "New York", "posted_at": "2026-07-20", "salary": "$185–230k", "url": "https://www.linkedin.com/jobs/view/4013411285", "source": "apify:linkedin-job-search", "fit": 64, "matches": ["lifecycle messaging", "retention experiments"], "gaps": ["retail / ecommerce domain", "SMS deliverability"], "referral_path": 0, "duplicates": 0, "archetype": "growth-pm", "status": "sourced" }
+  ],
+
+  "archetypes": [
+    { "key": "growth-pm", "label": "Growth PM", "count": 11 },
+    { "key": "ai-product", "label": "AI Product", "count": 8 },
+    { "key": "platform-pm", "label": "Platform PM", "count": 5 }
+  ],
+
+  "pipeline": [
+    { "id": "anthropic-pm-growth", "company": "Anthropic", "role": "Product Manager, Growth", "stage": "sourced", "days_in_stage": 1, "fit": 91, "has_referral": true, "next_action": "tailor resume", "command": "/resume-tailor https://www.linkedin.com/jobs/view/4021887301" },
+    { "id": "vercel-spm-ai", "company": "Vercel", "role": "Senior PM, AI", "stage": "sourced", "days_in_stage": 2, "fit": 87, "has_referral": true, "next_action": "score it", "command": "/job-fit-scorer https://www.linkedin.com/jobs/view/4021103944" },
+    { "id": "amplitude-spm-experimentation", "company": "Amplitude", "role": "Senior PM, Experimentation", "stage": "sourced", "days_in_stage": 12, "fit": 85, "has_referral": true, "next_action": "decide or drop", "command": "/job-fit-scorer https://www.linkedin.com/jobs/view/4015228710" },
+    { "id": "stripe-pm-pay", "company": "Stripe", "role": "PM, Payments", "stage": "applied", "days_in_stage": 14, "fit": 88, "has_referral": false, "next_action": "follow up — no referral attached", "command": "/referral-request Priya M. — Stripe, Product Manager Payments" },
+    { "id": "notion-spm-growth", "company": "Notion", "role": "Senior PM, Growth", "stage": "applied", "days_in_stage": 6, "fit": 83, "has_referral": true, "next_action": "wait", "command": "/app-tracker update notion-spm-growth --stage screen" },
+    { "id": "sierra-pm-agents", "company": "Sierra", "role": "PM, Agents", "stage": "applied", "days_in_stage": 9, "fit": 85, "has_referral": true, "next_action": "nudge referrer", "command": "/referral-request Alex T. — Sierra, Product Manager Agents" },
+    { "id": "databricks-spm-ml-platform", "company": "Databricks", "role": "Senior PM, ML Platform", "stage": "applied", "days_in_stage": 24, "fit": 76, "has_referral": false, "next_action": "stale — close it out", "command": "/app-tracker update databricks-spm-ml-platform --stage rejected" },
+    { "id": "brex-pm-activation", "company": "Brex", "role": "PM, Activation", "stage": "applied", "days_in_stage": 4, "fit": 80, "has_referral": false, "next_action": "find a referral", "command": "/build-referral-graph Brex" },
+    { "id": "figma-spm-design-systems", "company": "Figma", "role": "Senior PM, Design Systems", "stage": "onsite", "days_in_stage": 5, "fit": 86, "has_referral": true, "next_action": "onsite Thu 2pm — prep", "command": "/interview-prep Figma Senior PM Design Systems onsite" },
+    { "id": "linear-pm-core", "company": "Linear", "role": "Product Manager", "stage": "screen", "days_in_stage": 3, "fit": 79, "has_referral": false, "next_action": "recruiter screen prep", "command": "/interview-prep Linear Product Manager recruiter screen" },
+    { "id": "perplexity-pm-consumer", "company": "Perplexity", "role": "PM, Consumer Growth", "stage": "screen", "days_in_stage": 11, "fit": 82, "has_referral": false, "next_action": "chase scheduling", "command": "/app-tracker note perplexity-pm-consumer --text \"chased recruiter for onsite dates\"" },
+    { "id": "airtable-spm-ai-apps", "company": "Airtable", "role": "Senior PM, AI Apps", "stage": "screen", "days_in_stage": 2, "fit": 81, "has_referral": false, "next_action": "send work product", "command": "/work-product Airtable Senior PM AI Apps in-process" },
+    { "id": "cursor-pm-growth", "company": "Anysphere (Cursor)", "role": "PM, Growth", "stage": "onsite", "days_in_stage": 8, "fit": 86, "has_referral": false, "next_action": "final loop scheduling", "command": "/interview-prep Anysphere Cursor PM Growth onsite" },
+    { "id": "ramp-spm-spend", "company": "Ramp", "role": "Senior PM, Spend", "stage": "offer", "days_in_stage": 3, "fit": 84, "has_referral": true, "next_action": "$265k base offer — counter", "command": "/negotiate Ramp Senior PM Spend — $265k base, $180k equity/4yr, NYC" }
+  ],
+
+  "network": [
+    {
+      "company": "Stripe",
+      "in_pipeline": 4,
+      "referrals": 0,
+      "people": [
+        { "name": "Priya M.", "title": "Product Manager, Payments", "url": "https://www.linkedin.com/in/priya-m-payments", "warmth": 0.81, "why_warm": ["ex-Amazon, overlapped 2019-21", "Seattle", "both went Amazon → fintech"], "recent_post": { "text": "Shaved 340ms off the checkout confirm path. The win wasn't the cache — it was killing two synchronous risk calls nobody could explain.", "url": "https://www.linkedin.com/posts/priya-m-payments_latency-checkout-activity", "posted_at": "2026-08-01" }, "status": "connected", "last_contact": "2026-07-28", "likely_hm": false },
+        { "name": "Dan R.", "title": "Engineering Manager, Payments", "url": "https://www.linkedin.com/in/dan-r-eng", "warmth": 0.44, "why_warm": ["San Francisco Bay Area"], "recent_post": null, "status": "cold", "last_contact": null, "likely_hm": true },
+        { "name": "Sofia L.", "title": "Group Product Manager, Merchant Platform", "url": "https://www.linkedin.com/in/sofia-l-gpm", "warmth": 0.62, "why_warm": ["UC Berkeley", "led an activation team like yours"], "recent_post": { "text": "Hiring a PM for merchant onboarding. If you have shipped a KYC flow that people did not hate, my DMs are open.", "url": "https://www.linkedin.com/posts/sofia-l-gpm_hiring-activity", "posted_at": "2026-07-30" }, "status": "requested", "last_contact": "2026-07-30", "likely_hm": true },
+        { "name": "Marcus O.", "title": "Product Manager, Billing", "url": "https://www.linkedin.com/in/marcus-o-billing", "warmth": 0.38, "why_warm": ["San Francisco Bay Area"], "recent_post": null, "status": "cold", "last_contact": null, "likely_hm": false }
+      ]
+    },
+    {
+      "company": "Anthropic",
+      "in_pipeline": 1,
+      "referrals": 1,
+      "people": [
+        { "name": "Jon K.", "title": "Product Lead, Growth", "url": "https://www.linkedin.com/in/jon-k-growth", "warmth": 0.77, "why_warm": ["ex-Google, overlapped on Chrome growth 2017-19", "San Francisco Bay Area"], "recent_post": { "text": "The hardest part of growth on an AI product is that your activation metric changes every time the model gets better.", "url": "https://www.linkedin.com/posts/jon-k-growth_activation-activity", "posted_at": "2026-07-31" }, "status": "referred", "last_contact": "2026-08-01", "likely_hm": false },
+        { "name": "Elena V.", "title": "Product Manager, Claude Consumer", "url": "https://www.linkedin.com/in/elena-v-pm", "warmth": 0.58, "why_warm": ["Stanford GSB", "San Francisco Bay Area"], "recent_post": null, "status": "connected", "last_contact": "2026-07-25", "likely_hm": false },
+        { "name": "Ravi S.", "title": "Head of Product, Growth", "url": "https://www.linkedin.com/in/ravi-s-product", "warmth": 0.51, "why_warm": ["ex-Amazon", "spoke at the same 2024 growth conference"], "recent_post": { "text": "We are growing the growth team. Looking for people who have owned a funnel end to end, not just an experiment queue.", "url": "https://www.linkedin.com/posts/ravi-s-product_growth-hiring-activity", "posted_at": "2026-07-29" }, "status": "cold", "last_contact": null, "likely_hm": true }
+      ]
+    },
+    {
+      "company": "Figma",
+      "in_pipeline": 1,
+      "referrals": 1,
+      "people": [
+        { "name": "Hana T.", "title": "Product Manager, Design Systems", "url": "https://www.linkedin.com/in/hana-t-ds", "warmth": 0.69, "why_warm": ["ex-Amazon", "San Francisco Bay Area", "referred you on Jul 14"], "recent_post": null, "status": "referred", "last_contact": "2026-07-22", "likely_hm": false },
+        { "name": "Chris B.", "title": "Director of Product, Platform", "url": "https://www.linkedin.com/in/chris-b-platform", "warmth": 0.55, "why_warm": ["ex-Google", "your onsite panel includes his team"], "recent_post": { "text": "Design systems adoption is a distribution problem dressed up as a tooling problem.", "url": "https://www.linkedin.com/posts/chris-b-platform_designsystems-activity", "posted_at": "2026-07-27" }, "status": "connected", "last_contact": "2026-07-27", "likely_hm": true },
+        { "name": "Mei W.", "title": "Product Manager, Dev Mode", "url": "https://www.linkedin.com/in/mei-w-devmode", "warmth": 0.42, "why_warm": ["San Francisco Bay Area"], "recent_post": null, "status": "cold", "last_contact": null, "likely_hm": false }
+      ]
+    }
+  ],
+
+  "referral_coverage": { "current": 0.19, "target": 0.60 },
+
+  "interviews": {
+    "upcoming": [
+      { "company": "Figma", "round": "onsite", "when": "2026-08-06T14:00", "command": "/interview-prep Figma Senior PM Design Systems onsite" },
+      { "company": "Ramp", "round": "final", "when": "2026-08-11T11:00", "command": "/interview-prep Ramp Senior PM Spend final" }
+    ],
+    "heatmap": [
+      { "dimension": "Structure", "score": 7.8 },
+      { "dimension": "Specificity", "score": 6.4 },
+      { "dimension": "Skill demonstration", "score": 5.7, "drill": true },
+      { "dimension": "Metrics depth", "score": 5.7, "drill": true },
+      { "dimension": "Executive presence", "score": 7.1 }
+    ],
+    "last_debrief": { "company": "Figma", "round": "R2", "score": 7.1, "note": "Went shallow on the metric tree. Named the north star but never decomposed it into inputs you could actually move." }
+  }
+}

@@ -1,0 +1,12 @@
+.DS_Store
+*.DS_Store
+
+# Uncomment the line below if you don't want your personal data synced to GitHub.
+# Your context-library contains salary expectations, visa status, and career details.
+# context-library/
+
+# Secrets and local data (never commit)
+.env
+**/.env
+job-lab/data/
+node_modules/

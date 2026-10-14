@@ -1,0 +1,9 @@
+{
+  "titles": ["Product Manager", "Senior Product Manager"],
+  "locations": ["San Francisco Bay Area", "Remote"],
+  "posted_within_days": 14,
+  "companies": [],
+  "exclude_keywords": ["clearance", "unpaid"],
+  "max_jobs_per_run": 120,
+  "max_people_per_company": 25
+}

@@ -1,0 +1,1103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Job Search OS — dashboard</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fbfbfa; --fg: #16161a; --muted: #6b6b76;
+    --card: #fff; --line: #e4e4e2; --accent: #1d4ed8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #131316; --fg: #ececf1; --muted: #9a9aa5;
+            --card: #1c1c21; --line: #2c2c33; --accent: #93b4ff; }
+  }
+  :root { --amber: #b45309; --red: #b91c1c; --good: #15803d; }
+  @media (prefers-color-scheme: dark) {
+    :root { --amber: #f0b429; --red: #f27171; --good: #6ee7a5; }
+  }
+
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 15px/1.5 ui-sans-serif, -apple-system, "Segoe UI", sans-serif; }
+  h1 { font-size: 20px; margin: 0 0 4px; font-weight: 650; }
+  h2 { font-size: 13px; margin: 0 0 10px; font-weight: 650; letter-spacing: .06em;
+       text-transform: uppercase; color: var(--muted); }
+  h3 { font-size: 15px; margin: 0 0 2px; font-weight: 620; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 13px; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+         font-size: 12.5px; background: var(--bg); border: 1px solid var(--line);
+         border-radius: 5px; padding: 1px 5px; }
+
+  /* layout */
+  #app { display: flex; min-height: 100%; align-items: stretch; }
+  .rail { flex: none; width: 210px; border-right: 1px solid var(--line);
+          background: var(--card); padding: 20px 14px; display: flex; flex-direction: column;
+          gap: 4px; position: sticky; top: 0; height: 100vh; overflow-y: auto; }
+  .brand { font-weight: 700; font-size: 13px; letter-spacing: .08em; text-transform: uppercase;
+           margin-bottom: 16px; line-height: 1.3; }
+  .brand span { display: block; color: var(--muted); font-weight: 600; }
+  .navbtn { display: flex; align-items: center; gap: 8px; width: 100%; text-align: left;
+            font: inherit; background: none; border: 0; color: var(--fg); cursor: pointer;
+            padding: 7px 9px; border-radius: 7px; }
+  .navbtn:hover { background: var(--bg); }
+  .navbtn[aria-current="true"] { background: var(--accent); color: var(--bg); font-weight: 620; }
+  .navbtn .n { margin-left: auto; font-size: 12px; color: var(--muted);
+               background: var(--bg); border: 1px solid var(--line);
+               border-radius: 999px; padding: 0 7px; }
+  .navbtn[aria-current="true"] .n { color: var(--fg); }
+  .railfoot { margin-top: auto; padding-top: 16px; border-top: 1px solid var(--line); }
+  .railfoot .row { display: flex; align-items: center; gap: 7px; font-size: 13px;
+                   color: var(--muted); padding: 3px 0; }
+
+  main { flex: 1; min-width: 0; padding: 24px 26px 60px; }
+  .wrap { max-width: 1040px; }
+  .topline { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline;
+             margin-bottom: 20px; }
+  .topline .right { margin-left: auto; color: var(--muted); font-size: 13px; }
+
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+          padding: 14px; margin-bottom: 12px; }
+  .card.tight { padding: 12px 14px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; align-items: start; }
+  .split { display: grid; grid-template-columns: minmax(0,1fr) 250px; gap: 16px; align-items: start; }
+
+  /* buttons */
+  .btn { font: inherit; font-size: 13px; padding: 5px 10px; border-radius: 7px;
+         border: 1px solid var(--line); background: var(--bg); color: var(--fg); cursor: pointer; }
+  .btn:hover { border-color: var(--accent); color: var(--accent); }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent);
+                 font-weight: 600; }
+  .btn.primary:hover { opacity: .88; color: var(--bg); }
+  .btnrow { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  input, select { font: inherit; font-size: 14px; padding: 5px 8px; border-radius: 7px;
+                  border: 1px solid var(--line); background: var(--bg); color: var(--fg); }
+  input[type=search] { min-width: 150px; }
+  label.chk { display: inline-flex; align-items: center; gap: 5px; font-size: 13px;
+              color: var(--muted); }
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 10px 12px;
+         background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+         margin-bottom: 12px; }
+  .bar .count { margin-left: auto; color: var(--muted); font-size: 13px; }
+
+  /* funnel */
+  .funnel { display: grid; grid-template-columns: 74px minmax(0,1fr) 54px 132px; gap: 6px 10px;
+            align-items: center; }
+  .funnel .lab { font-size: 13.5px; text-transform: capitalize; }
+  .track { background: var(--bg); border: 1px solid var(--line); border-radius: 5px; height: 16px;
+           overflow: hidden; }
+  .fill { height: 100%; background: var(--accent); }
+  .funnel .num { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .funnel .conv { font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .conv .ok { color: var(--good); } .conv .bad { color: var(--red); }
+
+  .callout { border: 1px solid var(--amber); border-left-width: 4px; border-radius: 10px;
+             padding: 12px 14px; background: var(--card); margin-bottom: 16px; }
+  .callout .hd { font-weight: 640; margin-bottom: 4px; }
+
+  .action { border-top: 1px solid var(--line); padding: 12px 0; display: flex; gap: 12px; }
+  .action:first-child { border-top: 0; padding-top: 2px; }
+  .action .rank { flex: none; width: 22px; height: 22px; border-radius: 999px;
+                  background: var(--accent); color: var(--bg); font-size: 12px; font-weight: 700;
+                  display: flex; align-items: center; justify-content: center; margin-top: 2px; }
+
+  /* kanban */
+  .scrollx { overflow-x: auto; padding-bottom: 6px; }
+  .board { display: grid; grid-auto-flow: column; grid-auto-columns: 230px; gap: 12px;
+           align-items: start; min-width: min-content; }
+  .col h2 { margin-bottom: 8px; }
+  .col h2 .c { color: var(--fg); }
+  .kcard { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+           padding: 11px 12px; margin-bottom: 8px; }
+  .kcard .co { font-weight: 620; font-size: 14px; }
+  .kcard .ro { font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; align-items: center; }
+  .chip { font-size: 11.5px; border: 1px solid var(--line); border-radius: 999px;
+          padding: 1px 7px; color: var(--muted); white-space: nowrap; }
+  .chip.fit { border-color: var(--accent); color: var(--accent); font-weight: 620; }
+  .chip.amber { border-color: var(--amber); color: var(--amber); }
+  .chip.red { border-color: var(--red); color: var(--red); }
+  .chip.ref { border-color: var(--good); color: var(--good); }
+
+  /* jobs */
+  .job { background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+         padding: 14px; margin-bottom: 10px; display: flex; gap: 14px; }
+  .fitbig { flex: none; width: 42px; text-align: center; font-weight: 700; font-size: 19px;
+            color: var(--accent); font-variant-numeric: tabular-nums; }
+  .fitbig small { display: block; font-size: 10px; font-weight: 600; color: var(--muted);
+                  letter-spacing: .06em; }
+  .kv { font-size: 13.5px; margin-top: 3px; }
+  .kv b { font-weight: 620; }
+  .strip .item { display: flex; align-items: baseline; gap: 8px; padding: 5px 0;
+                 border-top: 1px solid var(--line); font-size: 13.5px; }
+  .strip .item:first-of-type { border-top: 0; }
+  .strip .item .n { margin-left: auto; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+  /* network */
+  .dot { flex: none; width: 10px; height: 10px; border-radius: 999px;
+         border: 1.5px solid var(--accent); display: inline-block; }
+  .dot.full { background: var(--accent); }
+  .dot.half { background: linear-gradient(90deg, var(--accent) 50%, transparent 50%); }
+  .dot.hollow { background: none; border-color: var(--muted); }
+  .dot.ok { border-color: var(--good); background: var(--good); }
+  .dot.warn { border-color: var(--amber); background: var(--amber); }
+  .dot.off { border-color: var(--muted); background: none; }
+  .person { border-top: 1px solid var(--line); padding: 11px 0; display: flex; gap: 10px; }
+  .person:first-of-type { border-top: 0; }
+  .cohead { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline;
+            margin-bottom: 8px; }
+  .cohead .right { margin-left: auto; font-size: 13px; color: var(--muted); }
+
+  /* prep */
+  .heat { display: grid; grid-template-columns: 150px minmax(0,1fr) 40px auto; gap: 5px 10px;
+          align-items: center; font-size: 13.5px; }
+  .heat .num { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .heat .drill { font-size: 12.5px; color: var(--amber); }
+
+  /* setup */
+  .check { display: flex; gap: 10px; align-items: flex-start; padding: 9px 0;
+           border-top: 1px solid var(--line); }
+  .check:first-of-type { border-top: 0; }
+  .check .nm { font-weight: 600; min-width: 190px; }
+  .check .st { color: var(--muted); font-size: 13.5px; flex: 1; min-width: 140px; }
+
+  .empty { border: 1px dashed var(--line); border-radius: 10px; padding: 22px;
+           background: var(--card); color: var(--muted); }
+  .empty b { color: var(--fg); display: block; margin-bottom: 6px; font-size: 15px; }
+
+  /* loader + toast */
+  #loader { position: fixed; inset: 0; background: var(--bg); z-index: 40; display: none;
+            align-items: center; justify-content: center; padding: 24px; }
+  #loader.on { display: flex; }
+  .drop { border: 1px dashed var(--line); border-radius: 12px; padding: 34px 28px;
+          text-align: center; background: var(--card); max-width: 520px; }
+  .drop.hot { border-color: var(--accent); }
+  .drop h1 { margin-bottom: 8px; }
+  .drop p { color: var(--muted); margin: 0 0 14px; }
+  #toast { position: fixed; left: 50%; bottom: 26px; transform: translate(-50%, 14px);
+           background: var(--fg); color: var(--bg); padding: 9px 16px; border-radius: 999px;
+           font-size: 14px; font-weight: 560; opacity: 0; pointer-events: none;
+           transition: opacity .16s, transform .16s; z-index: 60; }
+  #toast.on { opacity: 1; transform: translate(-50%, 0); }
+
+  .amberTxt { color: var(--amber); }
+  .redTxt { color: var(--red); }
+  .goodTxt { color: var(--good); }
+
+  @media (max-width: 720px) {
+    #app { display: block; }
+    .rail { width: auto; height: auto; position: static; flex-direction: row; overflow-x: auto;
+            border-right: 0; border-bottom: 1px solid var(--line); padding: 10px 12px;
+            gap: 6px; align-items: center; }
+    .brand { display: none; }
+    .navbtn { width: auto; white-space: nowrap; padding: 6px 10px; }
+    .railfoot { display: none; }
+    main { padding: 18px 14px 50px; }
+    .grid2, .split { grid-template-columns: minmax(0,1fr); }
+    .funnel { grid-template-columns: 62px minmax(0,1fr) 44px; }
+    .funnel .conv { grid-column: 1 / -1; padding-left: 62px; margin-top: -4px; }
+    .job { flex-direction: column; gap: 6px; }
+    .fitbig { width: auto; text-align: left; }
+    .fitbig small { display: inline; margin-left: 6px; }
+  }
+</style>
+</head>
+<body>
+
+<div id="app" hidden>
+  <nav class="rail" id="rail">
+    <div class="brand">Job Search<span>OS</span></div>
+    <button class="navbtn" data-screen="today">Today</button>
+    <button class="navbtn" data-screen="pipeline">Pipeline<span class="n" id="n-pipeline"></span></button>
+    <button class="navbtn" data-screen="jobs">Jobs<span class="n" id="n-jobs"></span></button>
+    <button class="navbtn" data-screen="network">Network<span class="n" id="n-network"></span></button>
+    <button class="navbtn" data-screen="prep">Prep<span class="n" id="n-prep"></span></button>
+    <button class="navbtn" data-screen="setup">Setup</button>
+    <div class="railfoot" id="railfoot"></div>
+  </nav>
+  <main><div class="wrap" id="view"></div></main>
+</div>
+
+<div id="loader" class="on">
+  <div class="drop" id="drop">
+    <h1>Open your dashboard</h1>
+    <p>Drop <code>data.json</code> anywhere on this page, or pick it from your computer.
+       It stays in this browser tab — nothing is uploaded anywhere.</p>
+    <input type="file" id="file" accept="application/json,.json" />
+    <p style="margin:16px 0 0">Don't have the file yet? Ask Claude:<br>
+       <code>/dashboard</code> — it writes <code>dashboard/data.json</code> from your context library.</p>
+    <p id="droperr" style="margin:10px 0 0" hidden></p>
+    <button class="btn" id="dropclose" style="margin-top:14px" hidden>Back to the dashboard</button>
+  </div>
+</div>
+
+<div id="toast">Copied — paste into Claude</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var D = null;                 // the loaded data
+  var screen = "today";
+  var HAS = { fit: false, warmth: false, archetype: false, dupes: false };
+
+  var el = function (id) { return document.getElementById(id); };
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function dash(v) { return (v == null || v === "") ? '<span class="meta">—</span>' : esc(v); }
+  function num(v) { return v == null ? null : Number(v); }
+  function pct(v) { return v == null ? null : Math.round(v * 100) + "%"; }
+
+  /* ---------- dates ---------- */
+  function parseDate(s) {
+    if (!s) return null;
+    var d = new Date(String(s).length <= 10 ? String(s) + "T12:00:00" : s);
+    return isNaN(d.getTime()) ? null : d;
+  }
+  function today() {
+    var d = parseDate(D && D.generated_at);
+    return d || new Date();
+  }
+  function midnight(d) { return Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()); }
+  // Whole calendar days between two dates — never a fractional "4 days out" for a 3-day gap.
+  function dayDiff(from, to) { return Math.round((midnight(to) - midnight(from)) / 86400000); }
+  function daysAgo(s) {
+    var d = parseDate(s); if (!d) return null;
+    return dayDiff(d, today());
+  }
+  function ago(s) {
+    var n = daysAgo(s);
+    if (n == null) return "—";
+    if (n <= 0) return "today";
+    if (n === 1) return "1d ago";
+    return n + "d ago";
+  }
+  var DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function longDate(d) { return DAYS[d.getDay()] + " " + MONTHS[d.getMonth()] + " " + d.getDate(); }
+  function when(s) {
+    var d = parseDate(s); if (!d) return "—";
+    var t = "";
+    if (String(s).indexOf("T") > -1) {
+      var h = d.getHours(), m = d.getMinutes();
+      var ampm = h >= 12 ? "pm" : "am";
+      var hh = h % 12; if (hh === 0) hh = 12;
+      t = " " + hh + (m ? ":" + (m < 10 ? "0" + m : m) : "") + ampm;
+    }
+    return longDate(d) + t;
+  }
+
+  /* ---------- clipboard ---------- */
+  var toastTimer = null;
+  function toast(msg) {
+    var t = el("toast");
+    t.textContent = msg || "Copied — paste into Claude";
+    t.classList.add("on");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { t.classList.remove("on"); }, 2000);
+  }
+  function copy(text) {
+    var done = function () { toast("Copied — paste into Claude"); };
+    var fallback = function () {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed"; ta.style.top = "-1000px";
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); done(); }
+      catch (e) { toast("Copy it by hand: " + text); }
+      document.body.removeChild(ta);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, fallback);
+    } else { fallback(); }
+  }
+  // one delegated listener: every element with data-copy copies and toasts. Nothing mutates.
+  document.addEventListener("click", function (e) {
+    var t = e.target;
+    while (t && t !== document.body && !t.getAttribute) t = t.parentNode;
+    while (t && t !== document.body) {
+      if (t.getAttribute && t.getAttribute("data-copy") != null) {
+        e.preventDefault();
+        copy(t.getAttribute("data-copy"));
+        return;
+      }
+      t = t.parentNode;
+    }
+  });
+  function cmdBtn(label, command, primary) {
+    if (!command) return "";
+    return '<button class="btn' + (primary ? " primary" : "") + '" data-copy="' +
+      esc(command) + '" title="Copies: ' + esc(command) + '">' + esc(label) + "</button>";
+  }
+  function cmdCode(command) {
+    return '<code data-copy="' + esc(command) + '" style="cursor:pointer" ' +
+      'title="Click to copy">' + esc(command) + "</code>";
+  }
+  function emptyState(title, line, command) {
+    return '<div class="empty"><b>' + esc(title) + "</b>" + esc(line) +
+      (command ? "<br><br>Run this in Claude: " + cmdCode(command) : "") + "</div>";
+  }
+
+  /* ---------- capability detection (never render 0 for absent) ---------- */
+  function detect() {
+    var jobs = (D && D.jobs) || [];
+    var pipe = (D && D.pipeline) || [];
+    var net = (D && D.network) || [];
+    HAS.fit = jobs.some(function (j) { return num(j.fit) != null; }) ||
+              pipe.some(function (p) { return num(p.fit) != null; });
+    HAS.archetype = !!(D && D.archetypes && D.archetypes.length) ||
+              jobs.some(function (j) { return j.archetype; });
+    HAS.dupes = jobs.some(function (j) { return num(j.duplicates) != null; });
+    HAS.warmth = net.some(function (c) {
+      return (c.people || []).some(function (p) { return num(p.warmth) != null; });
+    });
+  }
+
+  /* ================= SCREEN 1 — TODAY ================= */
+  function viewToday() {
+    var u = D.user || {};
+    var out = "";
+    var bits = [];
+    if (u.week != null) bits.push("Week " + esc(u.week));
+    if (u.target_role) bits.push(esc(u.target_role));
+    if (u.streak_days != null) bits.push(esc(u.streak_days) + " day streak");
+    out += '<div class="topline"><div><h1>Today · ' + esc(longDate(today())) + "</h1>" +
+      '<div class="meta">' + (u.name ? esc(u.name) + " · " : "") +
+      (bits.length ? bits.join(" · ") : "—") + "</div></div></div>";
+
+    /* funnel */
+    var f = D.funnel || [];
+    if (!f.length) {
+      out += emptyState("No funnel yet",
+        "Your funnel builds from tracked applications.",
+        "/app-tracker pipeline");
+    } else {
+      var max = Math.max.apply(null, f.map(function (s) { return num(s.count) || 0; })) || 1;
+      var rows = f.map(function (s) {
+        var c = num(s.count);
+        var w = c == null ? 0 : Math.max(c > 0 ? 2 : 0, (c / max) * 100);
+        var conv = "";
+        if (s.conversion != null) {
+          var b = num(s.benchmark);
+          var cls = "", tail = "";
+          if (b != null) {
+            if (s.conversion >= b) { cls = "ok"; tail = " vs " + pct(b) + " ✓"; }
+            else { cls = "bad"; tail = " vs " + pct(b) + " benchmark"; }
+          }
+          conv = '<span class="' + cls + '">' + pct(s.conversion) + "</span>" + esc(tail);
+        } else {
+          conv = '<span class="meta">—</span>';
+        }
+        return '<div class="lab">' + esc(s.stage) + "</div>" +
+          '<div class="track"><div class="fill" style="width:' + w.toFixed(1) + '%"></div></div>' +
+          '<div class="num">' + (c == null ? "—" : c) + "</div>" +
+          '<div class="conv">' + conv + "</div>";
+      }).join("");
+      out += '<div class="card"><h2>Funnel</h2><div class="funnel">' + rows + "</div></div>";
+    }
+
+    /* exactly one bottleneck */
+    var b = D.bottleneck;
+    if (b && b.stage) {
+      out += '<div class="callout"><div class="hd">⚠ Bottleneck: ' + esc(b.stage) + "</div>" +
+        '<div class="meta" style="color:var(--fg)">' + dash(b.why) + "</div>" +
+        (b.fix ? '<div style="margin-top:6px">' + esc(b.fix) + "</div>" : "") +
+        (b.command ? '<div class="btnrow">' + cmdBtn("Fix it", b.command, true) + "</div>" : "") +
+        "</div>";
+    }
+
+    /* exactly three next actions */
+    var acts = (D.next_actions || []).slice(0, 3);
+    out += '<div class="card"><h2>Do these three</h2>';
+    if (!acts.length) {
+      out += emptyState("No actions queued",
+        "Actions are ranked from your funnel, your feed and your calendar.",
+        "/dashboard");
+    } else {
+      out += acts.map(function (a, i) {
+        var btns = (a.buttons || []).map(function (bt, j) {
+          return cmdBtn(bt.label, bt.command, j === 0);
+        }).join("");
+        return '<div class="action"><div class="rank">' + (i + 1) + "</div><div style=\"min-width:0\">" +
+          "<h3>" + dash(a.title) + "</h3>" +
+          '<div class="meta">' + dash(a.why) + "</div>" +
+          (btns ? '<div class="btnrow">' + btns + "</div>" : "") +
+          "</div></div>";
+      }).join("");
+    }
+    out += "</div>";
+
+    /* scrape freshness */
+    var n = daysAgo(D.scraped_at);
+    var stale = n != null && n > 7;
+    out += '<div class="meta" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">' +
+      "<span" + (stale ? ' class="amberTxt"' : "") + ">Last job scrape: " +
+      (D.scraped_at ? esc(ago(D.scraped_at)) + " (" + esc(D.scraped_at) + ")" : "never") +
+      (stale ? " — over a week old" : "") + "</span>" +
+      cmdBtn("Refresh feed", "/find-jobs refresh") +
+      "<span>Costs Apify credits (~$0.30 a run). Free without keys — paste a JD instead.</span></div>";
+    return out;
+  }
+
+  /* ================= SCREEN 2 — PIPELINE ================= */
+  var STAGES = ["sourced", "applied", "screen", "onsite", "offer"];
+  var pipeState = { q: "", minfit: "", refonly: false, staleonly: false };
+
+  function stageAge(d) {
+    if (d == null) return { cls: "", txt: null };
+    if (d > 21) return { cls: "red", txt: "d" + d + " · stalled" };
+    if (d > 10) return { cls: "amber", txt: "d" + d + " · cold" };
+    return { cls: "", txt: "d" + d };
+  }
+
+  function viewPipeline() {
+    var rows = D.pipeline || [];
+    var out = '<div class="topline"><div><h1>Pipeline</h1>' +
+      '<div class="meta">' + rows.length + " tracked applications. Cards never move on their own — " +
+      "the button copies the command that moves them.</div></div></div>";
+
+    if (!rows.length) {
+      return out + emptyState("Nothing tracked yet",
+        "The pipeline reads your application tracker.",
+        "/app-tracker add <company> <role>");
+    }
+
+    out += '<div class="bar">' +
+      '<input type="search" id="p-q" placeholder="Company or role" value="' + esc(pipeState.q) + '" />' +
+      (HAS.fit ? '<label class="chk">min fit <input type="number" id="p-fit" min="0" max="100" ' +
+        'step="5" style="width:70px" value="' + esc(pipeState.minfit) + '" /></label>' : "") +
+      '<label class="chk"><input type="checkbox" id="p-ref"' + (pipeState.refonly ? " checked" : "") +
+        " /> referral only</label>" +
+      '<label class="chk"><input type="checkbox" id="p-stale"' + (pipeState.staleonly ? " checked" : "") +
+        " /> stale only (>10d)</label>" +
+      '<button class="btn" id="p-reset">Reset</button>' +
+      '<span class="count" id="p-count"></span></div>';
+
+    var q = pipeState.q.toLowerCase();
+    var minf = parseFloat(pipeState.minfit);
+    var shown = rows.filter(function (r) {
+      if (q && ((r.company || "") + " " + (r.role || "")).toLowerCase().indexOf(q) === -1) return false;
+      if (!isNaN(minf) && HAS.fit && !(num(r.fit) >= minf)) return false;
+      if (pipeState.refonly && !r.has_referral) return false;
+      if (pipeState.staleonly && !(num(r.days_in_stage) > 10)) return false;
+      return true;
+    });
+
+    var funnelBy = {};
+    (D.funnel || []).forEach(function (s) { funnelBy[s.stage] = num(s.count); });
+
+    var cols = STAGES.map(function (st) {
+      var mine = shown.filter(function (r) { return r.stage === st; });
+      var total = funnelBy[st];
+      var head = '<h2>' + esc(st) + ' <span class="c">' + mine.length + "</span>" +
+        (total != null && total !== mine.length ? ' <span style="font-weight:500">of ' + total + "</span>" : "") +
+        "</h2>";
+      var body = mine.length ? mine.map(kanbanCard).join("") :
+        '<div class="meta" style="padding:8px 2px">—</div>';
+      return '<div class="col">' + head + body + "</div>";
+    }).join("");
+
+    out += '<div class="scrollx"><div class="board">' + cols + "</div></div>";
+    out += '<div class="meta" style="margin-top:10px">Days-in-stage turns ' +
+      '<span class="amberTxt">amber past 10 days</span> and ' +
+      '<span class="redTxt">red past 21</span>.</div>';
+    return out;
+  }
+
+  function kanbanCard(r) {
+    var age = stageAge(num(r.days_in_stage));
+    var chips = "";
+    if (HAS.fit && num(r.fit) != null) chips += '<span class="chip fit">fit ' + num(r.fit) + "</span>";
+    if (age.txt) chips += '<span class="chip ' + age.cls + '">' + esc(age.txt) + "</span>";
+    if (r.has_referral) chips += '<span class="chip ref">★ referral</span>';
+    return '<div class="kcard"><div class="co">' + dash(r.company) + "</div>" +
+      '<div class="ro">' + dash(r.role) + "</div>" +
+      (chips ? '<div class="chips">' + chips + "</div>" : "") +
+      (r.next_action ? '<div class="meta" style="margin-top:7px">next: ' + esc(r.next_action) + "</div>" : "") +
+      '<div class="btnrow">' +
+        cmdBtn(shortAction(r), r.command) +
+        cmdBtn("Move stage", "/app-tracker update " + (r.id || r.company) + " --stage <sourced|applied|screen|onsite|offer>") +
+      "</div></div>";
+  }
+  function shortAction(r) {
+    if (!r.command) return "";
+    var c = String(r.command);
+    if (c.indexOf("/resume-tailor") === 0) return "Tailor resume";
+    if (c.indexOf("/interview-prep") === 0) return "Prep";
+    if (c.indexOf("/referral-request") === 0) return "Referral ask";
+    if (c.indexOf("/negotiate") === 0) return "Negotiate";
+    if (c.indexOf("/work-product") === 0) return "Work product";
+    if (c.indexOf("/job-fit-scorer") === 0) return "Score it";
+    if (c.indexOf("/build-referral-graph") === 0) return "Find referral";
+    return "Do it";
+  }
+
+  /* ================= SCREEN 3 — JOBS ================= */
+  var jobState = { q: "", company: "", minfit: "", within: "", refonly: "", sort: "" , arch: "" };
+
+  function viewJobs() {
+    var jobs = D.jobs || [];
+    var sourced = null;
+    (D.funnel || []).forEach(function (s) { if (s.stage === "sourced") sourced = num(s.count); });
+
+    var out = '<div class="topline"><div><h1>Jobs feed</h1>' +
+      '<div class="meta">' + (D.scraped_at ? "Scraped " + esc(ago(D.scraped_at)) : "Never scraped") +
+      (daysAgo(D.scraped_at) > 7 ? ' <span class="amberTxt">— over a week old</span>' : "") +
+      ". Nothing here was applied to for you.</div></div></div>";
+
+    if (!jobs.length) {
+      return out + emptyState("No jobs in the feed",
+        "The feed fills from a LinkedIn job search, or you can skip it entirely and paste a JD to Claude.",
+        "/find-jobs");
+    }
+
+    if (!jobState.sort) jobState.sort = HAS.fit ? "fit" : "posted_at";
+
+    var companies = Array.from(new Set(jobs.map(function (j) { return j.company; }).filter(Boolean))).sort();
+    out += '<div class="bar">' +
+      '<input type="search" id="j-q" placeholder="Search role, company, keyword" value="' + esc(jobState.q) + '" />' +
+      '<select id="j-co"><option value="">All companies</option>' +
+        companies.map(function (c) {
+          return '<option value="' + esc(c) + '"' + (jobState.company === c ? " selected" : "") +
+            ">" + esc(c) + "</option>"; }).join("") + "</select>" +
+      (HAS.fit ? '<label class="chk">min fit <input type="number" id="j-fit" min="0" max="100" step="5" ' +
+        'style="width:70px" value="' + esc(jobState.minfit) + '" /></label>' : "") +
+      '<select id="j-when"><option value="">Any date</option>' +
+        [["3", "posted ≤ 3d"], ["7", "posted ≤ 7d"], ["14", "posted ≤ 14d"]].map(function (o) {
+          return '<option value="' + o[0] + '"' + (jobState.within === o[0] ? " selected" : "") +
+            ">" + o[1] + "</option>"; }).join("") + "</select>" +
+      '<select id="j-ref"><option value="">Any referral path</option>' +
+        '<option value="has"' + (jobState.refonly === "has" ? " selected" : "") + ">Has a referral path</option>" +
+        '<option value="none"' + (jobState.refonly === "none" ? " selected" : "") + ">No path yet</option></select>" +
+      (HAS.archetype ? '<select id="j-arch"><option value="">All archetypes</option>' +
+        (D.archetypes || []).map(function (a) {
+          return '<option value="' + esc(a.key) + '"' + (jobState.arch === a.key ? " selected" : "") +
+            ">" + esc(a.label) + "</option>"; }).join("") + "</select>" : "") +
+      '<select id="j-sort">' +
+        (HAS.fit ? '<option value="fit"' + (jobState.sort === "fit" ? " selected" : "") + ">Sort: fit</option>" : "") +
+        '<option value="posted_at"' + (jobState.sort === "posted_at" ? " selected" : "") + ">Sort: newest</option>" +
+        '<option value="company"' + (jobState.sort === "company" ? " selected" : "") + ">Sort: company</option>" +
+        "</select>" +
+      '<button class="btn" id="j-reset">Reset</button>' +
+      '<span class="count" id="j-count"></span></div>';
+
+    var q = jobState.q.toLowerCase();
+    var minf = parseFloat(jobState.minfit);
+    var within = parseInt(jobState.within, 10);
+    var rows = jobs.filter(function (j) {
+      if (j.status === "hidden") return false;
+      if (jobState.company && j.company !== jobState.company) return false;
+      if (jobState.arch && j.archetype !== jobState.arch) return false;
+      if (!isNaN(minf) && HAS.fit && !(num(j.fit) >= minf)) return false;
+      if (!isNaN(within)) { var a = daysAgo(j.posted_at); if (a == null || a > within) return false; }
+      if (jobState.refonly === "has" && !(num(j.referral_path) > 0)) return false;
+      if (jobState.refonly === "none" && num(j.referral_path) > 0) return false;
+      if (q) {
+        var hay = [j.company, j.role, j.location, (j.matches || []).join(" "),
+                   (j.gaps || []).join(" ")].join(" ").toLowerCase();
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+    rows.sort(function (a, b) {
+      if (jobState.sort === "company") return String(a.company).localeCompare(String(b.company));
+      if (jobState.sort === "posted_at") return String(b.posted_at || "").localeCompare(String(a.posted_at || ""));
+      return (num(b.fit) || 0) - (num(a.fit) || 0);
+    });
+
+    var list = rows.length ? rows.map(jobRow).join("") :
+      emptyState("Nothing matches those filters",
+        "Widen the filters, or pull a fresh batch.", "/find-jobs");
+
+    var strip = "";
+    if (HAS.archetype && (D.archetypes || []).length) {
+      strip = '<div class="card strip"><h2>Archetypes</h2>' +
+        '<div class="meta" style="margin-bottom:8px">Your feed clusters into ' +
+        D.archetypes.length + " roles. Build one resume variant per cluster instead of " +
+        "tailoring every application from scratch.</div>" +
+        D.archetypes.map(function (a) {
+          return '<div class="item"><span>' + esc(a.label) + '</span><span class="n">' +
+            (num(a.count) == null ? "—" : a.count) + "</span></div>";
+        }).join("") +
+        '<div class="btnrow">' + cmdBtn("Build variants",
+          "/resume-tailor build variants for " + D.archetypes.map(function (a) {
+            return a.label; }).join(", "), true) + "</div></div>";
+    }
+
+    out += '<div class="split"><div>' + list + "</div><div>" + strip + "</div></div>";
+    setTimeout(function () {
+      var c = el("j-count");
+      if (c) c.textContent = (sourced != null ? sourced + " sourced → " : "") +
+        rows.length + " of " + jobs.length + " shown";
+    }, 0);
+    return out;
+  }
+
+  function jobRow(j) {
+    var head = [j.company, j.role].filter(Boolean).map(esc).join(" · ");
+    var line2 = [];
+    if (j.location) line2.push(esc(j.location));
+    if (j.posted_at) line2.push("posted " + esc(ago(j.posted_at)));
+    line2.push(j.salary ? esc(j.salary) : '<span class="meta">salary —</span>');
+
+    var body = "";
+    if ((j.matches || []).length) body += '<div class="kv"><b>Matches:</b> ' + esc(j.matches.join(", ")) + "</div>";
+    if ((j.gaps || []).length) body += '<div class="kv"><b>Gaps:</b> ' + esc(j.gaps.join(", ")) + "</div>";
+    var rp = num(j.referral_path);
+    body += '<div class="kv"><b>Referral path:</b> ' +
+      (rp == null ? '<span class="meta">— run /build-referral-graph</span>'
+        : rp > 0 ? esc(rp + (rp === 1 ? " person" : " people")) + " at " + esc(j.company || "this company")
+        : '<span class="meta">none found yet</span>') + "</div>";
+    if (HAS.dupes && num(j.duplicates) > 0) {
+      body += '<div class="meta">⧉ also posted ' + j.duplicates +
+        (j.duplicates === 1 ? " other time" : " other times") + " — collapsed into this row</div>";
+    }
+    if (HAS.archetype && j.archetype) {
+      body += '<div class="chips" style="margin-top:6px"><span class="chip">' + esc(j.archetype) + "</span>" +
+        (j.status && j.status !== "sourced" ? '<span class="chip">' + esc(j.status) + "</span>" : "") + "</div>";
+    }
+
+    var ref = j.url || j.id || (j.company + " " + j.role);
+    var buttons = '<div class="btnrow">' +
+      cmdBtn("Score it", "/job-fit-scorer " + ref) +
+      cmdBtn("Tailor resume", "/resume-tailor " + ref, true) +
+      cmdBtn("Referral path", "/build-referral-graph " + (j.company || "")) +
+      cmdBtn("Track it", "/app-tracker add " + (j.id || "") + " --company \"" + (j.company || "") +
+        "\" --role \"" + (j.role || "") + "\" --stage sourced") +
+      cmdBtn("Hide", "/app-tracker hide " + (j.id || ref)) +
+      (j.url ? ' <a class="btn" href="' + esc(j.url) + '" target="_blank" rel="noreferrer noopener">Open posting</a>' : "") +
+      "</div>";
+
+    var fit = HAS.fit
+      ? '<div class="fitbig">' + (num(j.fit) == null ? "—" : num(j.fit)) + "<small>FIT</small></div>"
+      : "";
+
+    return '<div class="job">' + fit + '<div style="min-width:0;flex:1">' +
+      "<h3>" + head + "</h3>" +
+      '<div class="meta">' + line2.join(" · ") + "</div>" +
+      body + buttons + "</div></div>";
+  }
+
+  /* ================= SCREEN 4 — NETWORK ================= */
+  function statusDot(status) {
+    if (status === "referred" || status === "replied" || status === "connected") return "full";
+    if (status === "requested") return "half";
+    return "hollow";
+  }
+  function viewNetwork() {
+    var net = D.network || [];
+    var out = '<div class="topline"><div><h1>Network</h1>' +
+      '<div class="meta">Everything here is a draft you send by hand. Nothing connects, ' +
+      "messages or follows on your behalf.</div></div></div>";
+
+    var cov = D.referral_coverage;
+    if (cov && cov.current != null) {
+      var w = Math.min(100, (cov.current / (num(cov.target) || 1)) * 100);
+      out += '<div class="card"><h2>Referral coverage</h2>' +
+        '<div class="track" style="height:18px"><div class="fill" style="width:' + w.toFixed(1) + '%"></div></div>' +
+        '<div class="meta" style="margin-top:6px">Referral path on <b>' + pct(cov.current) +
+        "</b> of your applications" + (cov.target != null ? " — target " + pct(cov.target) : "") +
+        ". This is the single highest-leverage number in the whole search.</div>" +
+        '<div class="btnrow">' + cmdBtn("Close the gap", "/build-referral-graph", true) + "</div></div>";
+    }
+
+    if (!net.length) {
+      return out + emptyState("No people mapped yet",
+        "The network map lists real people at your target companies, ranked by how much you " +
+        "actually have in common.", "/build-referral-graph");
+    }
+
+    out += net.map(function (c) {
+      var people = (c.people || []).slice();
+      if (HAS.warmth) {
+        people.sort(function (a, b) { return (num(b.warmth) || 0) - (num(a.warmth) || 0); });
+      }
+      var gap = num(c.referrals) === 0 && num(c.in_pipeline) > 0;
+      var head = '<div class="cohead"><h3>' + dash(c.company) + "</h3>" +
+        '<div class="right">' +
+          (num(c.in_pipeline) == null ? "—" : c.in_pipeline + " in pipeline") + " · " +
+          (num(c.referrals) == null ? "—" : c.referrals + " referrals") +
+          (gap ? ' <span class="amberTxt">· ⚠ gap</span>' : "") +
+        "</div></div>";
+      var body = people.length ? people.map(function (p) { return personRow(p, c.company); }).join("") :
+        '<div class="meta">No people found for ' + esc(c.company) + " yet. Run " +
+        cmdCode("/build-referral-graph " + c.company) + "</div>";
+      return '<div class="card">' + head + body + "</div>";
+    }).join("");
+    return out;
+  }
+
+  function personRow(p, company) {
+    var d = statusDot(p.status);
+    var line1 = "<h3>" + dash(p.name) + '</h3><div class="meta">' + dash(p.title) +
+      (HAS.warmth && num(p.warmth) != null ? " · warmth " + num(p.warmth).toFixed(2) : "") +
+      (p.likely_hm ? ' · <span class="amberTxt">likely hiring manager</span>' : "") + "</div>";
+
+    var why = (p.why_warm || []).filter(Boolean);
+    var whyLine = why.length
+      ? '<div class="kv"><b>Why warm:</b> ' + esc(why.join(" · ")) + "</div>"
+      : '<div class="kv meta">No overlap found in public data — treat as a cold outreach.</div>';
+
+    var status = '<div class="meta">Status: ' + dash(p.status) +
+      (p.last_contact ? " · last contact " + esc(ago(p.last_contact)) : " · never contacted") + "</div>";
+
+    var post = "";
+    if (p.recent_post && p.recent_post.text) {
+      post = '<div class="kv" style="margin-top:6px"><b>Posted ' + esc(ago(p.recent_post.posted_at)) +
+        ':</b> "' + esc(String(p.recent_post.text).slice(0, 180)) +
+        (String(p.recent_post.text).length > 180 ? "…" : "") + '"</div>';
+    }
+
+    var btns = [];
+    var who = (p.name || "") + " — " + company;
+    if (p.status === "cold" || !p.status) {
+      btns.push(cmdBtn("Connection request", "/connection-request " + who, true));
+    } else {
+      btns.push(cmdBtn("Referral ask", "/referral-request " + who, true));
+    }
+    if (p.likely_hm) {
+      btns.push(cmdBtn("HM message + work product", "/hiring-manager-msg " + who +
+        (p.url ? " " + p.url : "")));
+    }
+    btns.push(cmdBtn("Log a reply", "/app-tracker log-contact " + who + " --note \"<what they said>\""));
+    if (p.recent_post && p.recent_post.url) {
+      btns.push('<a class="btn" href="' + esc(p.recent_post.url) +
+        '" target="_blank" rel="noreferrer noopener">See the post</a>');
+    }
+    if (p.url) {
+      btns.push('<a class="btn" href="' + esc(p.url) +
+        '" target="_blank" rel="noreferrer noopener">Profile</a>');
+    }
+
+    return '<div class="person"><span class="dot ' + d + '" style="margin-top:7px"></span>' +
+      '<div style="min-width:0;flex:1">' + line1 + whyLine + status + post +
+      '<div class="btnrow">' + btns.join("") + "</div></div></div>";
+  }
+
+  /* ================= SCREEN 5 — PREP ================= */
+  function viewPrep() {
+    var iv = D.interviews || {};
+    var out = '<div class="topline"><div><h1>Prep</h1>' +
+      '<div class="meta">Three Laws grading: structure, specificity, skill demonstration.' +
+      "</div></div></div>";
+
+    var up = iv.upcoming || [];
+    var left = '<div class="card"><h2>Upcoming</h2>';
+    if (!up.length) {
+      left += emptyState("No interviews scheduled",
+        "Log one as soon as it lands so prep starts on time.",
+        "/app-tracker update <company> --stage screen");
+    } else {
+      left += up.map(function (u) {
+        var d = parseDate(u.when);
+        var out2 = d ? dayDiff(today(), d) : null;
+        return '<div class="check"><div style="flex:1;min-width:0">' +
+          "<h3>" + dash(u.company) + " · " + dash(u.round) + "</h3>" +
+          '<div class="meta">' + esc(when(u.when)) +
+          (out2 != null ? " · " + (out2 <= 0 ? "today" : out2 + " days out") : "") + "</div>" +
+          '<div class="btnrow">' + cmdBtn("Prep package", u.command, true) +
+          cmdBtn("Mock interview", "/mock-interview " + (u.company || "") + " " + (u.round || "")) +
+          "</div></div></div>";
+      }).join("");
+    }
+    left += "</div>";
+
+    var ld = iv.last_debrief;
+    if (ld && ld.company) {
+      left += '<div class="card"><h2>Last debrief</h2>' +
+        "<h3>" + dash(ld.company) + " · " + dash(ld.round) + " · " +
+        (num(ld.score) == null ? "—" : num(ld.score).toFixed(1) + "/10") + "</h3>" +
+        '<div class="meta">' + dash(ld.note) + "</div>" +
+        '<div class="btnrow">' +
+          cmdBtn("Full history + patterns", "/weekly-retro") +
+          cmdBtn("Debrief a new one", "/interview-debrief") +
+        "</div></div>";
+    }
+
+    var heat = iv.heatmap || [];
+    var right = '<div class="card"><h2>Weakness heatmap</h2>';
+    if (!heat.length) {
+      right += emptyState("No debriefs scored yet",
+        "The heatmap comes from your graded interview answers.",
+        "/interview-debrief");
+    } else {
+      right += '<div class="heat">' + heat.map(function (h) {
+        var s = num(h.score);
+        var w = s == null ? 0 : Math.max(0, Math.min(100, s * 10));
+        return "<div>" + dash(h.dimension) + "</div>" +
+          '<div class="track"><div class="fill" style="width:' + w + '%;background:' +
+          (h.drill ? "var(--amber)" : "var(--accent)") + '"></div></div>' +
+          '<div class="num">' + (s == null ? "—" : s.toFixed(1)) + "</div>" +
+          '<div class="drill">' + (h.drill ? "← drill this" : "") + "</div>";
+      }).join("") + "</div>";
+      var drills = heat.filter(function (h) { return h.drill; });
+      if (drills.length) {
+        right += '<div class="btnrow">' + drills.map(function (h) {
+          return cmdBtn("Mock: " + h.dimension, "/mock-interview focus on " + h.dimension,
+            h === drills[0]);
+        }).join("") + "</div>";
+      }
+    }
+    right += "</div>";
+
+    return out + '<div class="grid2"><div>' + left + "</div><div>" + right + "</div></div>";
+  }
+
+  /* ================= SCREEN 6 — SETUP / HEALTH ================= */
+  var HEALTH_META = {
+    experience_library: { label: "experience-library.md", fix: "Help me build my experience library" },
+    career_plan:        { label: "career-plan.md", fix: "Help me fill out my career plan" },
+    qa_master:          { label: "qa-master.md", fix: "Help me fill out qa-master.md" },
+    target_companies:   { label: "target-companies.md", fix: "/company-research generate target list" },
+    connection_tracker: { label: "connection-tracker.md", fix: "/build-referral-graph" },
+    interview_history:  { label: "interview-history.md", fix: "/interview-debrief" },
+    apify:              { label: "APIFY_TOKEN", fix: "Walk me through adding APIFY_TOKEN to job-lab/.env", env: true },
+    voyage:             { label: "VOYAGE_API_KEY", fix: "Walk me through adding VOYAGE_API_KEY to job-lab/.env", env: true }
+  };
+  function healthClass(state) {
+    if (state === "rich" || state === "filled" || state === "ok" || state === "set") return "ok";
+    if (state === "partial") return "warn";
+    return "off";
+  }
+  function viewSetup() {
+    var h = D.health || {};
+    var keys = Object.keys(HEALTH_META).filter(function (k) { return h[k]; });
+    Object.keys(h).forEach(function (k) { if (keys.indexOf(k) === -1) keys.push(k); });
+
+    var out = '<div class="topline"><div><h1>Setup &amp; health</h1>' +
+      '<div class="meta">If a file is empty the OS will tell you rather than quietly ' +
+      "producing generic output.</div></div></div>";
+
+    if (!keys.length) {
+      return out + emptyState("No health data",
+        "Health is written whenever the dashboard file is regenerated.", "/dashboard");
+    }
+
+    var ctx = keys.filter(function (k) { return !(HEALTH_META[k] && HEALTH_META[k].env); });
+    var env = keys.filter(function (k) { return HEALTH_META[k] && HEALTH_META[k].env; });
+
+    function block(list, title, note) {
+      if (!list.length) return "";
+      return '<div class="card"><h2>' + esc(title) + "</h2>" + list.map(function (k) {
+        var v = h[k] || {};
+        var m = HEALTH_META[k] || { label: k.replace(/_/g, "-") + ".md", fix: "/dashboard" };
+        var cls = healthClass(v.state);
+        var needsFix = cls !== "ok";
+        return '<div class="check"><span class="dot ' + cls + '" style="margin-top:6px"></span>' +
+          '<span class="nm">' + esc(m.label) + "</span>" +
+          '<span class="st">' + dash(v.state) + (v.detail ? " · " + esc(v.detail) : "") + "</span>" +
+          (needsFix ? '<span>' + cmdBtn(m.env ? "How to add" : "Fill with Claude", m.fix) + "</span>" : "") +
+          "</div>";
+      }).join("") + (note ? '<div class="meta" style="margin-top:10px">' + note + "</div>" : "") + "</div>";
+    }
+
+    out += block(ctx, "Context library",
+      "These markdown files are the source of truth. The dashboard only reads them.");
+    out += block(env, "Optional API keys",
+      "Both keys are optional. With neither one set, every skill still works — paste a job " +
+      "description into Claude and run " + cmdCode("/quick-start") + ".");
+
+    out += '<div class="card"><h2>File</h2>' +
+      '<div class="meta">Generated ' + dash(D.generated_at) + " · last scrape " +
+      (D.scraped_at ? esc(ago(D.scraped_at)) : "never") + ".</div>" +
+      '<div class="btnrow">' +
+        cmdBtn("Regenerate this dashboard", "/dashboard", true) +
+        cmdBtn("Refresh the job feed", "/find-jobs") +
+        cmdBtn("Rebuild the referral graph", "/build-referral-graph") +
+        '<button class="btn" id="reload-file">Load a different data.json</button>' +
+      "</div></div>";
+    return out;
+  }
+
+  /* ================= router ================= */
+  var VIEWS = { today: viewToday, pipeline: viewPipeline, jobs: viewJobs,
+                network: viewNetwork, prep: viewPrep, setup: viewSetup };
+
+  function render() {
+    el("view").innerHTML = VIEWS[screen] ? VIEWS[screen]() : viewToday();
+    Array.prototype.forEach.call(el("rail").querySelectorAll(".navbtn"), function (b) {
+      b.setAttribute("aria-current", b.getAttribute("data-screen") === screen ? "true" : "false");
+    });
+    wire();
+    window.scrollTo(0, 0);
+  }
+
+  function wire() {
+    /* pipeline filters */
+    function bindP(id, key, type) {
+      var n = el(id); if (!n) return;
+      n.addEventListener(type === "check" ? "change" : "input", function () {
+        pipeState[key] = type === "check" ? n.checked : n.value;
+        render();
+        var again = el(id);
+        if (again && type !== "check") { again.focus(); try { again.setSelectionRange(9999, 9999); } catch (e) {} }
+      });
+    }
+    bindP("p-q", "q"); bindP("p-fit", "minfit");
+    bindP("p-ref", "refonly", "check"); bindP("p-stale", "staleonly", "check");
+    if (el("p-reset")) el("p-reset").addEventListener("click", function () {
+      pipeState = { q: "", minfit: "", refonly: false, staleonly: false }; render();
+    });
+    if (el("p-count")) {
+      var tot = (D.pipeline || []).length;
+      var vis = el("view").querySelectorAll(".kcard").length;
+      el("p-count").textContent = vis + " of " + tot + " shown";
+    }
+
+    /* jobs filters */
+    function bindJ(id, key, ev) {
+      var n = el(id); if (!n) return;
+      n.addEventListener(ev || "input", function () {
+        jobState[key] = n.value; render();
+        var again = el(id);
+        if (again && (ev || "input") === "input") {
+          again.focus(); try { again.setSelectionRange(9999, 9999); } catch (e) {}
+        }
+      });
+    }
+    bindJ("j-q", "q"); bindJ("j-fit", "minfit");
+    bindJ("j-co", "company", "change"); bindJ("j-when", "within", "change");
+    bindJ("j-ref", "refonly", "change"); bindJ("j-arch", "arch", "change");
+    bindJ("j-sort", "sort", "change");
+    if (el("j-reset")) el("j-reset").addEventListener("click", function () {
+      jobState = { q: "", company: "", minfit: "", within: "", refonly: "", sort: "", arch: "" };
+      render();
+    });
+
+    if (el("reload-file")) el("reload-file").addEventListener("click", openLoader);
+  }
+
+  /* rail counts + health dots */
+  function chrome() {
+    var openJobs = (D.jobs || []).filter(function (j) { return j.status !== "hidden"; }).length;
+    var setCount = function (id, v) {
+      var n = el(id); if (!n) return;
+      if (v) { n.textContent = v; } else { n.remove(); }
+    };
+    setCount("n-jobs", openJobs);
+    setCount("n-pipeline", (D.pipeline || []).length);
+    setCount("n-network", (D.network || []).reduce(function (a, c) {
+      return a + ((c.people || []).length); }, 0));
+    setCount("n-prep", ((D.interviews || {}).upcoming || []).length);
+
+    var h = D.health || {};
+    var ctxKeys = ["experience_library", "career_plan", "qa_master",
+                   "target_companies", "connection_tracker", "interview_history"];
+    var states = ctxKeys.map(function (k) { return h[k] && healthClass(h[k].state); }).filter(Boolean);
+    var ctxCls = !states.length ? "off"
+      : states.indexOf("off") > -1 || states.indexOf("warn") > -1 ? "warn" : "ok";
+    var ctxTxt = !states.length ? "context —"
+      : ctxCls === "ok" ? "context ready" : "context has gaps";
+
+    function row(cls, label, title) {
+      return '<div class="row" title="' + esc(title || "") + '">' +
+        '<span class="dot ' + cls + '"></span><span>' + esc(label) + "</span></div>";
+    }
+    var out = "<h2>Health</h2>" + row(ctxCls, ctxTxt, "Open Setup for the file-by-file breakdown");
+    ["apify", "voyage"].forEach(function (k) {
+      var v = h[k];
+      out += row(v ? healthClass(v.state) : "off", k,
+        v ? (v.state + (v.detail ? " · " + v.detail : "")) : "not reported");
+    });
+    var n = daysAgo(D.scraped_at);
+    out += '<div class="row"><span>scrape ' + (D.scraped_at ? esc(ago(D.scraped_at)) : "never") +
+      "</span></div>";
+    if (n != null && n > 7) out += '<div class="row amberTxt"><span>feed is stale</span></div>';
+    el("railfoot").innerHTML = out;
+  }
+
+  /* ================= loading ================= */
+  function openLoader() {
+    el("loader").classList.add("on");
+    el("dropclose").hidden = !D;
+  }
+  function closeLoader() {
+    if (!D) return;                       // nothing to go back to yet
+    el("loader").classList.remove("on");
+    el("drop").classList.remove("hot");
+  }
+
+  function load(data) {
+    if (!data || typeof data !== "object") return false;
+    D = data;
+    detect();
+    el("loader").classList.remove("on");
+    el("app").hidden = false;
+    chrome();
+    render();
+    return true;
+  }
+
+  function readFile(f) {
+    var r = new FileReader();
+    r.onload = function () {
+      var parsed = null;
+      try { parsed = JSON.parse(String(r.result)); }
+      catch (e) { parsed = null; }
+      if (!parsed) {
+        var p = el("droperr");
+        p.hidden = false;
+        p.className = "amberTxt";
+        p.textContent = "That file isn't readable JSON. Regenerate it with /dashboard and try again.";
+        return;
+      }
+      load(parsed);
+    };
+    r.readAsText(f);
+  }
+
+  el("file").addEventListener("change", function (e) {
+    if (e.target.files && e.target.files[0]) readFile(e.target.files[0]);
+  });
+  el("dropclose").addEventListener("click", closeLoader);
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeLoader();
+  });
+  ["dragover", "dragenter"].forEach(function (ev) {
+    document.addEventListener(ev, function (e) {
+      e.preventDefault();
+      openLoader();
+      el("drop").classList.add("hot");
+    });
+  });
+  document.addEventListener("dragleave", function (e) {
+    el("drop").classList.remove("hot");
+    if (e.relatedTarget == null) closeLoader();   // pointer left the window entirely
+  });
+  document.addEventListener("drop", function (e) {
+    e.preventDefault();
+    el("drop").classList.remove("hot");
+    if (e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0]) {
+      readFile(e.dataTransfer.files[0]);
+    }
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll(".navbtn"), function (b) {
+    b.addEventListener("click", function () {
+      screen = b.getAttribute("data-screen");
+      render();
+    });
+  });
+
+  // Try the file sitting next to this page. Chrome blocks this over file:// — that is expected,
+  // so the failure is silent and the drop zone stays up. Safari and any local server will succeed.
+  try {
+    fetch("./data.json", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) { if (d) load(d); })
+      .catch(function () { /* silent: drop zone is already showing */ });
+  } catch (e) { /* silent */ }
+})();
+</script>
+</body>
+</html>

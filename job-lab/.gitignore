@@ -1,0 +1,8 @@
+# Secrets and machine-local state. Nothing here should ever ship.
+.env
+node_modules/
+data/
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
