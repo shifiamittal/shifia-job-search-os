@@ -26,13 +26,17 @@ This is the single source of truth. Every skill draws from this file. Anything m
 
 1. **Amazon title on resume:** "Sr. Product Manager – Technical, Amazon, 2016–2024" (user's choice, for simplicity). Note: LinkedIn shows PM (2016–2020), then Sr. PM-T (2020–2024). Employment verification and recruiters comparing against LinkedIn may see the difference. Lower-risk option with the same simplicity: "Amazon · 2016–2024 · Sr. PM-T (most recent)".
 2. **Amazon tenure:** Oct 2016 – Jun 2024 (~8 years).
-3. **Keystone tenure:** Jun 2024 – present (~2 yrs 4 mos as of Oct 2026). Update the stale "1.5+ years" on the resume.
+3. **Keystone tenure:** Jun 2024 – Mar 2026 (actual). User's choice is to show "Present" on the resume and LinkedIn. Claude advised against "Present" on the resume because employment verification will show Mar 2026. Lower-risk option: "2024 – 2026" (years only). Never say "I'm currently at Keystone" in interviews.
 4. **Company name:** Keystone.ai.
-5. **Keystone metrics:** all can be used together ($10M ARR, $25M client savings, WAPE −21%, 3 months → 3 weeks, 5 enterprises, 4 hrs/day → 4 hrs/week, data discovery to 2 weeks, ~2 weeks/model).
+5. **Keystone metrics:** all can be used together ($5M ARR [canonical], $25M client savings, WAPE −21%, Deep Enterprise deployment 6 → 4 months, data platform deployment 3 months → 3 weeks, 5 enterprises, 4 hrs/day → 4 hrs/week, data discovery to 2 weeks, ~2 weeks/model).
 6. **HAT-AI, REI-Agent, AI Evaluation framework:** all Keystone.ai work.
 7. **Supply chain products:** SPORT = inventory optimization, TRACE = causal attribution, MOQ = MOQ recommendations.
 8. **Causal attribution bullet:** ends at "drove $40M in savings."
-9. **People management:** none. No direct reports.
+9. **People management:** no solid-line direct reports. Had **dotted-line PM reports** at Keystone (Story K20). Mentored 4–5 people (junior PMs, interns); onboarded new PMs; 50+ hiring interviews at Keystone and Amazon (not a bar raiser).
+12. **Client names:** do not name clients (Hershey's, Michelin, Corning, Kroger) in interviews or external materials. Say "a Fortune 500 CPG client," "a global manufacturer," "a national grocery retailer."
+13. **Override rate 50% → 20%:** cumulative result of all interventions (explainability, retraining cadence, agent, tiered autonomy, RAG pipeline). Present it as cumulative; individual stories claim only their own step.
+14. **Credit losses:** losses ran high in the pilot (A6), were fixed, and there were no credit losses after full launch.
+11. **Story doc:** "Interview Questions" Google Doc, merged into the Story Bank below.
 10. **Patent search:** personal project; no metrics beyond the LinkedIn About description.
 
 ---
@@ -43,19 +47,30 @@ This is the single source of truth. Every skill draws from this file. Anything m
 Jun 2024 – Present · Seattle, WA · On-site · Full-time
 
 LinkedIn bullets:
-- Led product strategy and go-to-market for an agentic AI supply chain platform serving Fortune 500 clients; drove Keystone's pivot from consulting to a product-led model, $25M in annualized client savings and $10M in ARR.
+- Led product strategy and go-to-market for an agentic AI supply chain platform serving Fortune 500 clients; drove Keystone's pivot from consulting to a product-led model, $25M in annualized client savings and $10M in ARR. ⚠ Update LinkedIn: canonical figure is $5M ARR.
 - Prototyped and deployed a multi-agent system that monitors forecast cycles, identifies exceptions, diagnoses root causes, and recommends retrain/override actions using routing, tools, RAG, human approval, and risk-tiered autonomy; reduced manual planning effort from 4 hrs/day to 4 hrs/week.
 - Designed a multi-tenant Data Platform to automate the end-to-end data lifecycle (ingestion → transformation → consumption), improving data quality, governance, onboarding speed, and data scientist productivity.
 
 Resume bullets:
-- **Enterprise AI Product Strategy:** Led 0→1 strategy and roadmap for Deep Enterprise, an agentic AI platform turning complex supply-chain decisions into reusable enterprise workflows; improved forecast WAPE by 21%, reduced deployment from 3 months to 3 weeks, and scaled to 5 enterprises.
+- **Enterprise AI Product Strategy:** Led 0→1 strategy and roadmap for Deep Enterprise, an agentic AI platform turning complex supply-chain decisions into reusable enterprise workflows; improved forecast WAPE by 21%, reduced deployment from 6 months to 4 months, and scaled to 5 enterprises. (Canonical; current resume says 3 months → 3 weeks here, so update it.)
 - **Customer Discovery & Adoption:** Led enterprise rollout and product iteration through planner interviews, workflow observations, user feedback, and performance metrics; turned recurring customer needs into reusable AI capabilities and adoption improvements.
 - **Executive & Cross-Functional Leadership:** Partnered with CEO/CTO, enterprise executives, and 20+ engineers and scientists to prioritize investments, align technical and business requirements, and balance customer-specific needs with platform scalability.
-- **Enterprise Data Platform:** Built the enterprise data platform across ingestion, transformation, validation, lineage, APIs, and model-ready contracts; cut client data discovery to 2 weeks and saved ~2 weeks/model in data wrangling.
+- **Enterprise Data Platform:** Built the enterprise data platform across ingestion, transformation, validation, lineage, APIs, and model-ready contracts; reduced deployment from 3 months to 3 weeks, cut client data discovery to 2 weeks, and saved ~2 weeks/model in data wrangling.
 - **Forecasting Agent:** Launched a multi-agent enterprise forecasting system combining exception detection, tool-based root-cause diagnosis, grounded recommendations, and human approval; reduced planner effort from 4 hrs/day to 4 hrs/week.
 - **HAT-AI:** Launched and scaled an AI assistant automating roadmap reporting, leadership newsletters, and knowledge discovery across 15 finance products; served 30 PMs and saved 120 hours/week.
 - **REI-Agent:** Led a multi-agent financial analysis assistant enabling natural-language investigation of cost drivers through automated data retrieval, variance analysis, governed enterprise metrics, and auditable calculations.
 - **AI Evaluation & Governance:** Established evaluation frameworks covering task correctness, groundedness, retrieval quality, tool compliance, action safety, and regression testing; combined automated checks and human review to support trusted AI rollouts.
+
+Additional facts from the story doc (usable, but check against the Metric Conflicts table in the Story Bank):
+- Data catalog + semantic layer + metadata generation for agent grounding: recommendation acceptance 50% → 80%; retrieval similarity 0.6 → 0.8; clarification rate 50% → 30%.
+- Forecasting agent: client overstock cost $5M → $2M; override rate 50% → 20% (cumulative across all interventions); shadow-mode launch gates (>70% exception recall, >70% acceptance).
+- Model explainability (SHAP) + retraining cadence change: forecast adoption 50% → 70%.
+- Domain-adapted embeddings: retrieval precision@5 0.58 → 0.87.
+- Data readiness agent with a 10-dimension eval framework (no outcome metrics yet).
+- Agent model routing (cheap vs. strong models) to fix pilot unit economics.
+- Managed-services-in-client-environment model + modular microservices; passed the flagship client's security review; second client onboarded with no refactor.
+- Clients: do not name externally (see Source Decision 12).
+- Tech stack familiarity: AWS (Bedrock, SageMaker, Lambda, SQS, EventBridge, RDS, Glue, EMR Serverless, Step Functions), Qdrant, FastAPI, Next.js, Pulumi, Argo Workflows; ReAct and LLM-as-judge patterns.
 
 ### Amazon: Sr. Product Manager – Technical (resume title), Oct 2016 – Jun 2024 (~8 yrs)
 LinkedIn role-level titles are kept below for reference only.
@@ -75,7 +90,7 @@ Nov 2018 – Jun 2020
 - Built and scaled ML recommendation and causal attribution products (SPORT, TRACE, MOQ) improving inventory, pricing, and shipping decisions; delivered $100M+ cost savings across Amazon and thousands of sellers.
 - **Inventory Optimization (SPORT):** Built and scaled an ML inventory-optimization product recommending moves from high- to lower-cost fulfillment channels; used seller research and behavioral data to redesign discoverability and execution, improving adoption ~10%.
 - **MOQ Recommendations:** Built an ML recommendation product optimizing item-level purchase thresholds across shipping cost and conversion; scaled to 20K merchants and 120K offers, driving ~60% higher adherence and lower shipping cost with no measurable conversion decline before full rollout.
-- **Causal Decision Support (TRACE):** Launched a causal-attribution product unifying operational and financial data across 20+ shipping-cost drivers into actionable recommendations; drove $40M in savings.
+- **Causal Decision Support (TRACE):** Launched a causal-attribution product unifying operational and financial data across 50+ shipping-cost drivers into actionable recommendations; drove $40M in savings. (Resume says 20+; update to 50+.)
 
 #### Product Manager, Amazon Pricing
 Oct 2016 – Oct 2018
@@ -119,7 +134,7 @@ Jul 2012 – Dec 2012 · Gurugram, India
 
 ### AI Agents / Generative AI
 - Multi-agent forecasting system (Keystone): exception detection, tool-based root-cause diagnosis, RAG-grounded retrain/override recommendations, human approval, risk-tiered autonomy; planner effort 4 hrs/day → 4 hrs/week.
-- Deep Enterprise agentic platform (Keystone): 0→1 strategy; forecast WAPE −21%; deployment 3 months → 3 weeks; 5 enterprises.
+- Deep Enterprise agentic platform (Keystone): 0→1 strategy; forecast WAPE −21%; deployment 6 → 4 months; 5 enterprises.
 - HAT-AI assistant (Keystone.ai): 15 finance products, 30 PMs, 120 hrs/week saved.
 - REI-Agent (Keystone.ai): multi-agent NL financial analysis with governed metrics and auditable calculations.
 - AI evaluation frameworks: task correctness, groundedness, retrieval quality, tool compliance, action safety, regression testing; automated + human review.
@@ -132,7 +147,7 @@ Jul 2012 – Dec 2012 · Gurugram, India
 ### Growth / Revenue / Metrics
 - $71M incremental revenue, ML financing product, 50K+ customers (Amazon).
 - $15M incremental revenue from ML-personalized marketing; +17% data coverage; +7% approval lift; −50% onboarding abandonment (Amazon).
-- $10M ARR and $25M annualized client savings (Keystone).
+- $5M ARR and $25M annualized client savings (Keystone).
 - $100M+ cost savings across SPORT, TRACE, MOQ (Amazon), including $40M from causal attribution.
 - MOQ: 20K merchants, 120K offers, ~60% higher adherence, no measurable conversion drop.
 
@@ -145,7 +160,9 @@ Jul 2012 – Dec 2012 · Gurugram, India
 - Partnered with CEO/CTO, enterprise executives, and 20+ engineers and scientists (Keystone).
 - Insight tools adopted by 40+ global pricing leaders (Amazon Pricing).
 - Pre-sales with solution architects on $25M APAC deals (Cognizant).
-- No direct reports (confirmed). Leadership is through influence: CEO/CTO, Fortune 500 executives, 20+ engineers and scientists.
+- Dotted-line PM reports at Keystone (no solid-line reports). Leadership through influence: CEO/CTO, Fortune 500 executives, 20+ engineers and scientists.
+- Mentored 4–5 people (junior PMs, interns); onboarded new PMs; 50+ hiring interviews across Keystone and Amazon (not a bar raiser).
+- Organized Keystone's product org into 3 lanes (customer data/deployment, forecasting models, planner app) with the CPO; ran weekly cross-team reviews.
 
 ### Customer Discovery / UX
 - Planner interviews, workflow observations, feedback loops driving enterprise adoption (Keystone).
@@ -162,107 +179,268 @@ Jul 2012 – Dec 2012 · Gurugram, India
 
 ## Story Bank
 
-Built from documented facts only. Sections marked **[NEEDS DETAIL]** need your input (conflict, specific decisions, what went wrong) before they're interview-ready. Run `/mock-interview` to pressure-test them.
+Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus the resume and LinkedIn. Stories are summarized; the doc has the full detail and technical deep-dive material. Template answers in the doc written about other people's companies (Spotify, Airbnb, "[Company]" examples) are NOT the user's experience and are excluded.
 
-### Story 1: The Forecasting Agent (4 hrs/day → 4 hrs/week)
-- **Situation:** Fortune 500 demand planners at Keystone clients spent ~4 hours a day manually monitoring forecast cycles and chasing exceptions.
-- **Task:** Prototype and deploy an AI system that cuts manual planning effort without losing planner trust.
-- **Action:** Designed a multi-agent system that monitors forecast cycles, flags exceptions, diagnoses root causes with tools, and recommends retrain/override actions grounded with RAG. Added human approval steps and risk-tiered autonomy so low-risk actions move faster and high-risk ones stay with planners. [NEEDS DETAIL: how you set risk tiers; one hard trade-off; how you measured trust]
-- **Result:** Planner effort dropped from 4 hrs/day to 4 hrs/week.
-- **Tags:** accomplishment, technical challenge, AI agents, customer insight
-- **Best for:** "Tell me about an AI product you shipped," "How do you design human-in-the-loop?", "Your proudest accomplishment"
+**Metric consistency:** Use the "Canonical Metrics" table at the end of this section. Where a story in the Google Doc says something different, the table wins.
 
-### Story 2: Consulting → Product: Building Deep Enterprise
-- **Situation:** Keystone was a consulting-led business delivering bespoke analytics for each client.
-- **Task:** Lead 0→1 strategy and GTM for a reusable agentic AI platform.
-- **Action:** Turned recurring client needs (from planner interviews and workflow observations) into reusable AI capabilities. Partnered with CEO/CTO and 20+ engineers and scientists. Balanced client-specific asks against platform scalability. [NEEDS DETAIL: a specific feature you said no to; how you decided]
-- **Result:** $10M ARR, $25M annualized client savings, forecast WAPE −21%, deployment 3 months → 3 weeks, 5 enterprises.
-- **Tags:** strategy, ambiguity, 0→1, say-no, prioritization, exec alignment
-- **Best for:** "Product vision/strategy," "Tell me about a 0→1 product," "How do you balance custom vs. platform?"
+**Client names:** Never name clients in interviews. Say "flagship Fortune 500 CPG client," "global manufacturer," "national grocery retailer."
 
-### Story 3: Scaling Amazon's MLOps Platform Without Adding Headcount
-- **Situation:** Amazon scientists shipped models with inconsistent pipelines, which slowed deployment and complicated compliance.
-- **Task:** Own vision and roadmap for a SageMaker-based MLOps platform.
-- **Action:** Productized standardized self-service workflows: orchestration, CI/CD, versioning, lineage, monitoring, privacy, and model governance. Drove adoption across 30+ scientists. [NEEDS DETAIL: adoption resistance and how you overcame it]
-- **Result:** Deployment time −40%; production models doubled (100+) with no added headcount.
-- **Tags:** platform, technical, adoption, cross-functional
-- **Best for:** "Platform PM questions," "How do you drive adoption of an internal tool?", "Technical depth"
+### Quick index by question type
 
-### Story 4: $71M Financing Product
-- **Situation:** Amazon Financial Services saw an opportunity to grow basket sizes through financing.
-- **Task:** Launch and scale an ML-based financing product, owning growth and risk outcomes.
-- **Action:** Owned discovery, strategy, experimentation, rollout, and performance tracking. Balanced growth against risk. [NEEDS DETAIL: one key experiment; the growth-vs-risk tension]
-- **Result:** 50K+ customers, $71M incremental revenue.
-- **Tags:** accomplishment, growth, experimentation, fintech
-- **Best for:** "Biggest impact," "Data-driven decision," "Balancing competing metrics"
+| Question type | Best stories |
+|---|---|
+| Tell me about a 0→1 / end-to-end product | K1 Deep Enterprise, K2 Forecasting Agent, A8 MDLC |
+| Proudest accomplishment | K2, K6 Data Catalog, A11 TRACE, A8 MDLC |
+| AI agent design / architecture | K2, K3, K8, K14 |
+| AI evals / quality | K4, K5, K19 |
+| Hard trade-off | K3, K7, K8, K9, K12, K13, K14, A3, A4, A5 |
+| Conflict / disagree with senior leader | K17 (CEO), K16 (CEO), K18 (Head of DS), A9 (Sr. tech manager), A10 (DS manager) |
+| Engineering pushback | K13, A9 |
+| Failure | A6 PBI economics, A12 SPORT adoption, K5 AI quality slip |
+| Customer insight / discovery | K10, K11, A2 |
+| Prioritization | K11, A1 |
+| Decision with limited information | A7 |
+| Speed / bias for action | K16, A4 |
+| Short-term vs long-term | K21, K15 |
+| When NOT to use an agent | S1 job-search system |
+| Leadership / managing people | K20 (dotted-line PMs), mentoring 4–5 people, 50+ interviews |
 
-### Story 5: Three-Pronged Credit Growth Strategy
-- **Situation:** A global consumer credit product needed to grow adoption.
-- **Task:** Find and pursue the highest-leverage growth levers.
-- **Action:** Pursued three levers in parallel: ML-personalized marketing, credit bureau integrations, and an onboarding CX redesign. [NEEDS DETAIL: how you chose these three; what you deprioritized]
-- **Result:** $15M incremental revenue; +17% data coverage; +7% approval lift; −50% abandonment.
-- **Tags:** prioritization, growth, customer insight, cross-functional
-- **Best for:** "How do you prioritize?", "Improve metric X," "Funnel optimization"
+---
 
-### Story 6: MOQ: Rolling Out Without Hurting Conversion
-- **Situation:** Item-level minimum order thresholds trade shipping cost against conversion.
-- **Task:** Build an ML recommendation product that cuts shipping cost without hurting sales.
-- **Action:** Built recommendations that optimize item-level purchase thresholds. Validated that there was no measurable conversion decline before full rollout. [NEEDS DETAIL: experiment design; seller pushback]
-- **Result:** 20K merchants, 120K offers, ~60% higher adherence, lower shipping cost, no conversion decline.
-- **Tags:** experimentation, risk management, data-driven, marketplace
-- **Best for:** "Launching with risk," "A/B testing," "Trade-off decisions"
+### K1: Deep Enterprise: Consulting → Product Pivot (Keystone.ai)
+- **Situation:** Keystone delivered forecasting through consulting. Each client needed 1–2 HC and 6+ months, and revenue scaled linearly with headcount.
+- **Action:** Noticed the same science, tech, and UX was being rebuilt for every client. Aligned the CEO and CTO on a pivot to a product. Chose forecasting as the MVP. Productized data pipelines, ML pipelines, monitoring, and the application, while keeping data and deployment client-specific. Ran 20+ engineers and scientists in parallel lanes with MVPs and milestones, with customer feedback through lightweight UIs.
+- **Result:** Deployment 6 months → 4 months; $5M ARR; PMF with 3 more engagements after launch.
+- **Learning:** Moving from consulting to product needs a deliberate boundary between what you standardize and what stays adaptable.
+- **Tags:** 0→1, strategy, exec alignment, end-to-end
 
-### Story 7: Fixing Adoption With Seller Research (Inventory Optimization)
-- **Situation:** An ML inventory-optimization product recommended moving inventory to lower-cost fulfillment channels, but sellers weren't acting on the recommendations.
-- **Task:** Increase adoption.
-- **Action:** Used seller research and behavioral data to redesign discoverability and execution.
-- **Result:** Adoption improved ~10%.
-- **Tags:** customer insight, UX, iteration
-- **Best for:** "Time you learned from customers," "Product that wasn't working"
+### K2: Forecasting Agent: Prediction System → Decision System (Keystone.ai)
+- **Situation:** The forecasting platform was 20% more accurate than the incumbent, but planners at the flagship CPG client spent ~4 hrs/day reviewing thousands of SKUs and overriding without logic. The client was carrying ~$5M in overstock cost. Losing the flagship meant losing the reference case for enterprise sales.
+- **Action:** Reframed the problem from accuracy to actionability. Designed a multi-agent system: Trigger Router → Exception Triage Agent → RCA Diagnostic Agent (enforced order: data → features → model → external signals) → Retrain/Override Agent. Added a RAG knowledge layer for institutional memory (prior incidents, overrides, trade calendar) and three-tier autonomy, with guardrails in the tool definitions rather than the prompts. An independent LLM-as-judge eval agent runs asynchronously, off the critical path. Chose ReAct for auditability; considered Plan-and-Execute, ReWOO, and Reflexion and can explain why not. Launched in shadow mode; went to production at >70% exception recall and >70% recommendation acceptance, with no autonomous forecast changes.
+- **Result:** Planner time 4 hrs/day → 4 hrs/week; overstock $5M → $2M; contributed to the cumulative override reduction 50% → 20%; 70% of recommendations adopted.
+- **Deep-dive material in doc:** retailer POS feed outage scenario (prior incident #89), seasonal weight staleness, Valentine's Day promo, multi-tenancy tiers, domain-adapted embeddings (precision@5 0.58 → 0.87).
+- **Tags:** AI agents, architecture, human-in-the-loop, flagship, accomplishment
 
-### Story 8: Causal Attribution: $40M Savings
-- **Situation:** Shipping costs had 20+ drivers spread across operational and financial data, so it was hard to see where to act.
-- **Task:** Make cost drivers actionable.
-- **Action:** Launched a causal-attribution product unifying the data into actionable recommendations.
-- **Result:** $40M in savings.
-- **Tags:** technical, analytics, decision support
-- **Best for:** "Technical/analytical depth," "Ambiguous data problem"
+### K3: Full Autonomy vs. Trust: Tiered Autonomy (Keystone.ai)
+- **Situation:** Commercial pressure pushed for maximum automation. Early automation of mid-confidence reversible actions led to 60% of actions being reversed, because the agent couldn't show convincing evidence.
+- **Action:** Principle: "accuracy of an action is not the same as acceptability of an action." Reset to tiered autonomy: Tier 1 autonomous (low-risk, reversible, above a confidence threshold), Tier 2 recommend-and-approve with pre-filled evidence, Tier 3 surface-only. Added independent faithfulness and tier-accuracy evals, audit logs, and a canary rollout.
+- **Result:** Action acceptance 30% → 80%; contributed to the cumulative override reduction ~50% → ~20%.
+- **Tags:** trade-off, AI safety vs. speed, responsible AI, trust
 
-### Story 9: Agent vs. Deterministic Workflow (Job-Search System)
-- **Situation:** Shifia's LLM-driven job search agent missed jobs she knew existed.
-- **Task:** Diagnose why and fix recall.
-- **Action:** Found the issue was workflow design, not model reasoning: the agent declared success without knowing whether its search was complete. Split the system into deterministic discovery (integrations, pagination, retries, coverage checks) and agentic evaluation.
-- **Result:** 100% recall on Adobe (41/41), NVIDIA (35/35), CrowdStrike (10/10). Explicit visibility into partial and failed integrations (3 complete, 16 partial, 7 failed).
-- **Tags:** failure/learning, technical judgment, AI evaluation, builder
-- **Best for:** "When would you NOT use an agent?", "How do you evaluate AI systems?", "A mistake you learned from," "Are you hands-on?"
+### K4: AI Evaluation Strategy (Keystone.ai)
+- **Action:** Reference cases with an expert baseline (including unsafe actions), an execution harness to compare agent versions, tools, prompts, and retrieval, and launch thresholds: >70% acceptance, expert quality >8/10, no direct forecast changes. Evaluators: automated checks (precision/recall, tool success, data freshness, citations, routing, policy compliance), LLM-as-judge for grounding, and expert rubric scoring. Post-production: adoption, edits, rejection reasons, tool failures, cost per accepted recommendation, sampled traces.
+- **Result:** 70% adoption at launch; >80% recommendation accuracy.
+- **Learning:** A plausible recommendation can still be wrong in production.
+- **Tags:** evals, AI quality, launch criteria
 
-### Story 10: HAT-AI: 120 Hours/Week Saved (Keystone.ai)
-- **Situation:** 30 PMs across 15 finance products spent heavy time on roadmap reporting and leadership newsletters.
-- **Task:** Automate with an AI assistant.
-- **Action:** Launched and scaled an assistant for reporting, newsletters, and knowledge discovery. [NEEDS DETAIL]
-- **Result:** 120 hrs/week saved across 30 PMs.
-- **Tags:** GenAI, internal tools, productivity
-- **Best for:** "GenAI product you've shipped," "Internal adoption"
+### K5: AI Product Quality Slip (Keystone.ai)
+- **Situation:** Adoption at one retailer fell 70% → 50% over 4 weekly cycles.
+- **Action:** Traces showed the retailer had moved its warehouse. The agent lacked location data and gave a confident recommendation instead of escalating. Added the location dataset and an "act only with sufficient information" guardrail.
+- **Result:** Adoption back to 70%.
+- **Learning:** Agents degrade in production on new cases; continuous monitoring and regression testing are essential.
+- **Tags:** AI failure, monitoring, "AI feature that didn't work"
 
-### Story 11: Data Platform: Unblocking Data Scientists
-- **Situation:** Client onboarding at Keystone was slowed by data discovery and wrangling.
-- **Task:** Design a multi-tenant data platform.
-- **Action:** Built ingestion, transformation, validation, lineage, APIs, and model-ready contracts.
-- **Result:** Client data discovery cut to 2 weeks; ~2 weeks/model saved in wrangling.
-- **Tags:** platform, technical, B2B
-- **Best for:** "Platform trade-offs," "Data infra"
+### K6: Data Catalog + Semantic Layer for Agent Grounding (Keystone.ai)
+- **Situation:** At the flagship client, only ~50–55% of recommendations were accepted, users kept re-asking the chatbot, and it hallucinated. The problem would repeat at every new client.
+- **Action:** Evals showed a schema grounding gap, not a model or prompt problem: >60% of diagnostic failures involved a field with no description, and cosine similarity was 0.6. Built a runtime data catalog injected into prompts (descriptions, interpretability notes, trust tiers, sensitivity tiers incl. PII blocking), a metadata generation service (7+ signals, confidence gates), a semantic layer (synonym index → concept layer → disambiguation engine), and lineage/provenance with severity-tiered impact analysis. Governance: CI/CD fails on undescribed fields. Rejected alternatives: embedding fine-tuning, more chunks, prompt-only fixes.
+- **Result:** Acceptance 50% → 80%; similarity 0.6 → 0.8; field-level failures 60% → 40%; clarification rate 50% → 30%.
+- **Takeaway:** Catalog quality isn't a documentation problem; it's a product reliability problem.
+- **Tags:** RAG, grounding, platform, technical depth
 
-### Story 12: Pricing Insights at Global Scale
-- **Situation:** Amazon pricing leaders needed visibility into price perception against competitors.
-- **Task:** Benchmark and productize insights.
-- **Action:** Benchmarked 800+ retailers across 17 countries; launched self-service insight tools.
-- **Result:** Adopted by 40+ global pricing leaders.
-- **Tags:** analytics, self-service, global
-- **Best for:** "Early-career impact," "Building for senior stakeholders"
+### K7: Speed vs. Correctness in Metadata Generation (Keystone.ai)
+- **Action:** Decision rule: "imperfect grounding beats no grounding if you contain the blast radius." Three-tier trust policy: >0.85 auto-publish with an "AI-generated" label, 0.70–0.84 human review with an SLA, <0.70 blocked. Recalibrated thresholds from edit rates.
+- **Result:** Planner approval 50% → 80%; 95% of auto-generated descriptions approved; coverage 60% → 80%.
+- **Tags:** trade-off, AI risk
 
-### Gaps in the Story Bank [NEEDS DETAIL]
-You don't yet have documented stories for these common question types. Bring real examples:
-- **Conflict** with an engineer, scientist, or executive
-- **Failure** at work (Story 9 is a side project; interviewers will want a work failure too)
-- **Disagree and commit / pushing back on a leader**
-- **People leadership / mentoring** (needed for Group PM or Director roles)
+### K8: Static RAG vs. Continuously Learning Pipeline (Keystone.ai)
+- **Situation:** Heavy pressure to ship fast for the flagship client.
+- **Action:** Prototyped static RAG first: 58% retrieval precision, and it recommended actions that were already resolved. Built an incremental pipeline (multi-source ingestion, per-source chunking, quality gates, domain-adapted embeddings, feedback loop) with weekly acceptance tests with the client.
+- **Result:** Precision 0.58 → 0.72 → 0.81; override 50% → 35% → 20%.
+- **Tags:** trade-off, speed vs. quality
+
+### K9: Model Sophistication vs. Adoption (Keystone.ai)
+- **Situation:** A complex ensemble model was accurate, but forecasts were volatile and hard to explain; 50% override rate.
+- **Action:** Kept the ensemble and built the missing product layer: SHAP feature explainability for planners, top-2 model weights per SKU for scientists. Moved retraining from weekly to quarterly plus on-demand to reduce volatility. Productized both as platform features.
+- **Result:** Contributed to the cumulative override reduction 50% → 20%. [NEEDS DETAIL: this step's own share, if known]
+- **Learning:** Explainability is a product problem, not just an ML problem.
+- **Tags:** trade-off, ML product, adoption
+
+### K10: Forecast Platform Adoption: Customer Discovery (Keystone.ai)
+- **Action:** Triangulated adoption metrics with planner interviews and workflow observation. Found 3 issues: explainability, manual review load, accuracy gaps. Sequenced deliberately: manual explanation support → explainability feature → agent → model roadmap.
+- **Result:** Forecast adoption 50% → 70%; support cost reduced to 0.5 HC per customer.
+- **Learning:** Do things that don't scale early, to learn what to build.
+- **Tags:** customer insight, sequencing
+
+### K11: Deprioritizing Accuracy Work for the Agent (Keystone.ai)
+- **Action:** With resources already constrained, prototyped an agent in Codex to prove value (>70% recommendations adopted), then used the data to align leadership on swapping 2 months of planned accuracy work for agentic capabilities.
+- **Result:** Forecast adoption +12–15%; agent recommendation adoption +15%.
+- **Tags:** prioritization, influence with data, hands-on prototyping
+
+### K12: Managed Services vs. Pure SaaS (Keystone.ai)
+- **Situation:** Leadership and investors wanted multi-tenant SaaS (high margin). Customers had hard data-residency and environment-control requirements.
+- **Action:** Recommended deploying as a managed service inside the client's environment. Prevented a slide back into consulting by productizing deployment (IaC, reusable components, upgrade processes). Framed it as sequencing: prove repeatable deployment, then platformize.
+- **Result:** [NEEDS DETAIL: 3 months → 3 weeks now belongs to the data platform. What did this decision deliver for Deep Enterprise, e.g., faster security approvals or contributing to 6 → 4 months?]
+- **Learning:** In enterprise AI: earn trust, productize operations, then platformize.
+- **Tags:** strategy, disagreeing with leadership/investors
+
+### K13: Microservices vs. Monolith (Keystone.ai)
+- **Action:** Chose modular services based on selective deployability (Fortune 500 procurement), reliability isolation, and cost of change. Engineering pushed back on the timeline; reframed it as business risk, not tech debt (6 weeks upfront vs. a 10× rewrite later). Aligned on interface contracts early.
+- **Result:** Passed the flagship client's security review on time; a second client onboarded 6 months later with no refactor.
+- **Tags:** engineering pushback, technical trade-off
+
+### K14: Agent Cost vs. Model Quality (Keystone.ai)
+- **Situation:** In the pilot, model cost exceeded the cost of doing the work manually.
+- **Action:** Experimented across models on cost, latency, quality, and adoption. Routed simple cases to cheap models and ambiguous cases to strong models.
+- **Result:** Lower cost and latency with the same quality and adoption. [NEEDS DETAIL: numbers]
+- **Tags:** trade-off, unit economics
+
+### K15: Data Platform (Keystone.ai)
+- **Situation:** Client data was scattered across SharePoint, Box, S3, and laptops, a security and trust risk. Data models were rebuilt for every client; onboarding took ~2 months.
+- **Action:** Standardized core data models (orders, shipments), reusable transforms and data-quality checks, data contracts and APIs, and Pulumi IaC across AWS and Azure.
+- **Result:** Onboarding 2 months → 2 weeks; scientist data discovery 2 hrs/day → 2 hrs/week.
+- **Tags:** platform, data infra
+
+### K16: Event-Stream Demo in 2–3 Weeks (Keystone.ai)
+- **Situation:** The CEO needed an event-stream capability for a high-stakes prospect demo; the full build would take 3 months.
+- **Action:** Met the CEO 1:1 to find the real need (event-based features and a credible innovation story). Split the work: event-stream features from existing data now, live ingestion later. Partnered with the VP Engineering; ring-fenced the team.
+- **Result:** Shipped in 2–3 weeks; demo on time; prospect became a paying customer; +5% forecast accuracy; the work became the data platform's foundation.
+- **Learning:** Find the smallest customer outcome worth solving now, and make sure the investment compounds.
+- **Tags:** speed, conflict with CEO, short vs. long term
+
+### K17: Canonical SAP Schema vs. Client-Native (Keystone.ai)
+- **Situation:** The CEO wanted every client normalized into one canonical schema.
+- **Action:** Aligned on the CEO's goals (faster onboarding, consistent model inputs). Quantified the weeks of mapping cost on existing clients. Proposed keeping client data native and standardizing model-facing contracts (keys, timestamps, time-variant/invariant features).
+- **Result:** Onboarding −2 weeks; −2 weeks/model of data wrangling.
+- **Learning:** Separate the outcome a senior leader cares about from the solution they proposed.
+- **Tags:** conflict, influencing senior leaders
+
+### K18: Semantic Layer Disagreement with Head of Data Science (Keystone.ai)
+- **Situation:** The Head of DS pushed back: don't add an abstraction until we know planners use natural language.
+- **Action:** Agreed on a decision rule upfront. Analyzed the data: 70% of planner queries were natural language. Built a minimal synonym index for the top 20 query patterns, with logging.
+- **Result:** Synonym index handled 90% of high-frequency queries; wrong-answer rate dropped.
+- **Learning:** Make disagreements testable.
+- **Tags:** conflict, data-driven alignment
+
+### K19: Data Readiness Agent + Eval Loop (Keystone.ai)
+- **Situation:** Scientists spent hours validating data by hand, and rules libraries (Great Expectations) couldn't judge blocker vs. warning in context. Silent failures were reaching training.
+- **Action:** Agent with a 7-dimension validation battery (structure, grain, time-series health, target quality, leakage, readiness) and a go/no-go report. Eval framework scored the agent against dataset fact sheets across 10 dimensions, with critical-failure rules, and detected drift in production.
+- **Result:** [NEEDS DETAIL: metrics. The doc only says "data quality" and "scientist productivity".]
+- **Tags:** agents, evals
+
+### K20: Leading Dotted-Line PMs / Managing Performance (Keystone.ai)
+- **Relationship:** dotted-line PM reports (no solid-line). Always say "dotted-line" or "PMs I led"; never "direct reports."
+- **Situation:** During the consulting → product pivot, a dotted-line PM struggled to balance client requests against platform work. Their team fell behind on an end-to-end integration roadmap, and engineering felt stretched between company and team direction.
+- **Action:** Gave specific feedback and set an improvement plan: assess requests against product priorities, then delegate, defer, adjust, or escalate changes that displaced committed work. Weekly 1:1s to review their recommendations and coach their reasoning; reduced oversight as they improved. Also ran weekly cross-team reviews across the 3 lanes set up with the CPO.
+- **Result:** Performance improved; engineering met the product goals with no delays.
+- **Supporting evidence:** mentored 4–5 people; onboarded new PMs; 50+ hiring interviews.
+- **Tags:** people leadership, performance management, Director-track
+
+### K21: High-Touch Support Before Automating (Keystone.ai)
+- **Action:** Deliberately ran ~3 months of manual high-touch support (~1 HC) after launch to learn the most painful workflows.
+- **Result:** Fed the explainability and agent roadmap; support later fell to 0.5 HC.
+- **Tags:** short vs. long term, customer obsession
+
+### A1: PBI 2.0: Segment-Specific Credit Growth Strategy (Amazon)
+- **Situation:** Owned a multi-year credit growth strategy. SMBs drove ~60% of GMS but only 4% were approved for credit; ~100K SMBs abandoned Amazon yearly, partly for lack of credit. Only ~7–10% of approved enterprise customers were active users (7-page onboarding, generic email marketing). Competitors (Staples, Grainger) were partnering with fintechs.
+- **Action:** Built a segment-specific roadmap. SMBs: new underwriting on Amazon behavioral data, credit at checkout, transaction-level controls. Enterprise: simplified onboarding, propensity model, personalized marketing. Launched to 5%, iterated, scaled. Ran it with annual OKRs, quarterly milestones, and biweekly sprints.
+- **Result:** SMB approval 4% → 15%; $71M incremental revenue; $15M from personalization.
+- **Learning:** At portfolio scale, find each segment's constraint and allocate investment against it.
+- **Tags:** strategy, growth, prioritization
+
+### A2: Credit Visibility vs. Risk: Pivot from Customer Feedback (Amazon)
+- **Action:** The checkout-only credit reveal got a lukewarm response in the 5% test. Interviews showed SMBs needed to know monthly eligibility to plan purchases. Redesigned around monthly eligibility, with lower limits, transaction controls, and a pause on delinquency.
+- **Result:** $71M incremental revenue with positive economics.
+- **Tags:** customer insight, iteration
+
+### A3: SMB Approvals vs. Credit Losses (Amazon)
+- **Action:** Redesigned underwriting rather than lowering thresholds. Capped exposure by risk tier and restricted financing on high-loss categories. Optimized for economic profit, not approvals.
+- **Result:** SMB approval 4% → 15%; $71M incremental spend. Pilot losses ran high and were fixed (A6); no credit losses after full launch.
+- **Tags:** trade-off, risk
+
+### A4: Batch vs. Real-Time Underwriting (Amazon)
+- **Action:** Chose weekly batch underwriting with exposure limits for V1 and kept real-time on the roadmap.
+- **Result:** Eligibility 4% → 15%; impact pulled forward 3 months.
+- **Learning:** Speed doesn't mean cutting safeguards.
+- **Tags:** speed, trade-off
+
+### A5: Build vs. Buy Underwriting (Amazon)
+- **Action:** Built in-house as a differentiating capability; bounded the downside with a small launch and progressive exposure.
+- **Result:** Approval 4% → 15%; $71M.
+- **Tags:** strategy, trade-off
+
+### A6: PBI 2.0 SMB Economics Miss (Amazon): Failure
+- **Situation:** In the 5% soft launch, credit losses came in higher than expected; couldn't scale to the full segment.
+- **Ownership:** "I didn't sufficiently validate whether the controls would deliver acceptable portfolio economics."
+- **Action:** Found a safer enterprise sub-segment that fit the product; had Science simulate a blended portfolio (projected losses −6–8%).
+- **Result:** Soft-launched to the blended segment with positive economics.
+- **Learning:** Validate the customer opportunity and the portfolio economics separately.
+- **Tags:** failure, ownership
+
+### A7: Launching with Limited Information (Amazon)
+- **Action:** 5% controlled launch, smaller limits, purchase-level controls; monitored approvals, acceptance, spend, and repayment before expanding. This surfaced the loss issue early (see A6).
+- **Learning:** With limited information, the decision should include a way to learn safely.
+- **Tags:** ambiguity, risk management
+
+### A8: MDLC: Self-Serve ML Platform for Amazon Lending (Amazon)
+- **Situation:** Lending extended $8B in credit; 50+ risk models from 30+ scientists, growing 30% YoY. Each model took 3–4 months of engineering to ship, and there was no governance.
+- **Action:** Interviewed scientists, engineers, and risk/compliance. Three pillars: self-service ML pipelines (UI-first, a deliberate cost trade-off), model governance and privacy (monitoring, versioning, lineage, inventory; EU/US privacy: OD3, DSAR, PD2), and scaling onboarding as a product (templates, docs, community). Auto-containerization from a git link. Built on SageMaker, Step Functions, Lambda, Glue, ECR.
+- **Result:** 100+ models with no added headcount; audit-ready; NPS 8+ across 30+ scientists; 5 teams onboarded outside lending; 6 science HC saved; ~2 eng HC saved via containerization; deployment −40%.
+- **Tags:** platform, 0→1, technical depth
+
+### A9: Governance Disagreement with Senior Technical Manager (Amazon)
+- **Action:** Met 1:1; found the disagreement was an adoption assumption (past governance features went unused). Explained the new ones were fully automated; validated with customers together; set up recurring syncs before roadmap reviews.
+- **Result:** Features launched; 6 science HC saved; lasting trust.
+- **Learning:** Treat technical disagreement as a dispute over an assumption, and validate the assumption together.
+- **Tags:** conflict, engineering
+
+### A10: Privacy Compliance Conflict with a DS Manager (Amazon)
+- **Action:** Listened 1:1 to a frustrated science manager; found no one owned privacy compliance. Took ownership, worked with 10 privacy bar raisers and legal/tech partners, defined the science team's actions, and built a semi-automated platform solution (a deliberate trade-off vs. a year-long full automation).
+- **Result:** Requirements identified that had been missed org-wide; 6 science HC saved; the manager emailed praise to your manager and skip-level.
+- **Tags:** conflict, ownership, customer obsession
+
+### A11: TRACE: Causal Shipping-Cost Attribution (Amazon)
+- **Situation:** Shipping was ~50% of item cost (~$50B/year). Org goal: $60M in seller savings. 50+ cost factors across 14 systems owned by 14 teams.
+- **Action:** Strategy: explain the cost changes, then prescribe the top action. Aligned Finance, Ops, DS, DE, and Eng. Built a causal recommendation engine surfaced through Seller Central APIs. Trade-offs: pushed for 15 months of training data vs. Finance's 2 years (met 95% of needs, avoided huge compute); item-level normalization from shipment data; EMR Serverless for a multi-TB pipeline; data contracts and SLAs with upstream owners.
+- **Result:** $40M in savings from TRACE ($100M+ across SPORT, TRACE, and MOQ combined); foundation for expanding to other marketplaces.
+- **Tags:** proudest, cross-functional, technical trade-off
+
+### A12: SPORT Adoption Miss (Amazon): Failure
+- **Situation:** SPORT recommended sellers move inventory from high- to low-cost warehouses. Post-launch adoption and the business goal were missed.
+- **Action:** Research with adhering and non-adhering sellers showed you'd neglected the experience of acting on the recommendation, plus discoverability. Ran an opt-in auto-adherence pilot (most consented, but too few to move the goal) and marketing for discoverability.
+- **Result:** Missed the goal that year; built a roadmap that hit the adoption goal in 1–1.5 years (~10% adoption lift per resume).
+- **Learning:** The end-to-end customer experience matters as much as your own product's.
+- **Tags:** failure, customer insight
+
+### S1: Agent vs. Deterministic Workflow (Personal Project)
+- **Situation:** Shifia's LLM-driven job-search agent missed jobs she knew existed.
+- **Action:** Diagnosed a workflow-design flaw (the agent couldn't know if its search was complete). Split it into deterministic discovery and agentic evaluation.
+- **Result:** 100% recall: Adobe 41/41, NVIDIA 35/35, CrowdStrike 10/10; coverage visible (3 complete, 16 partial, 7 failed).
+- **Tags:** when NOT to use an agent, builder, evals
+
+### Gaps (no real story yet)
+- **SPORT / MOQ** sections in the doc are empty. MOQ results exist on the resume (20K merchants, 120K offers, ~60% adherence) but have no story.
+- **"Killed an AI project"** — doc has only a template.
+- **"Handled bias in ML"** — doc has only a template. Credit underwriting may have a real fair-lending angle. [NEEDS DETAIL]
+- **"Translate ML to non-technical stakeholders"** — K9 (SHAP for planners) could fit; not written up.
+- **"Responsible AI framework" / "Where is AI PM going"** — no prepared answer.
+- **PBI 1.0 onboarding simplification** and **in-house vs. 3rd-party lender** — headings only.
+- **Mentoring** — 4–5 mentees and 50+ interviews confirmed, but no specific story yet (e.g., a mentee's growth, or how you raised the hiring bar). Needed for Director roles.
+
+### Canonical Metrics (confirmed by user 2026-10-14; these override any number in the Google Doc)
+| Metric | Use this | Notes |
+|---|---|---|
+| Keystone ARR | **$5M** | LinkedIn and resume say $10M; update both |
+| Deep Enterprise deployment time | **6 months → 4 months** | Drop "6 → 2 months" and "6 → 3 months" |
+| Data platform deployment time | **3 months → 3 weeks** | Separately: client data discovery → 2 weeks; ~2 weeks/model saved |
+| Data platform client onboarding | **2 months → 2 weeks** | Same as "data discovery → 2 weeks" on the resume |
+| Planner review time | 4 hrs/day → 4 hrs/week | Drop "4 days/week" and "2–3 hrs/day" |
+| Override rate | 50% → 20%, **cumulative across all interventions** | Individual stories claim only their contribution |
+| SMB credit approval | **4% → 15%** | Drop 11% |
+| PBI revenue | $71M incremental | "$7 Million" in doc is a typo |
+| PBI losses | Pilot losses fixed; **no losses after full launch** | Fits with A6 |
+| PBI scale | **50K+ customers** | Drop "millions" |
+| TRACE savings | **$40M** | $100M+ is the SPORT + TRACE + MOQ total |
+| Shipping-cost drivers | **50+** | Resume says 20+; update it |
+| MDLC HC saved | **6 science HC** | Drop 5 |
+| Deep Enterprise platform MVP launch | **3 months** | Drop 5 |
+| Agent recommendation acceptance | **70%** | Use 70% everywhere. Drop ">80%" and the K6/K7 50% → 80% figure (confirmed 2026-10-15) |

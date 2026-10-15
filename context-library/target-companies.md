@@ -195,6 +195,12 @@ Intel = profile exists in `insider-data/company-intel/`.
 - **Product focus:** Supply chain orchestration
 - **Notes:** Intel: no.
 
+## Rank 33a: Anaplan
+- **Product focus:** Connected planning (supply chain, finance), AI planning agents
+- **Connections:** none yet
+- **Hiring status:** LinkedIn's export records an application to "Senior Principal Product Manager, Applications" on 2026-04-27 (likely Easy Apply). You don't remember it, so treat it as cold with no response. A fresh application with a referral is fine.
+- **Notes:** Direct domain fit (planning + AI). Intel: no.
+
 ## Rank 34: Oracle
 - **Product focus:** OCI GenAI, Fusion SCM / ERP AI agents
 - **Notes:** Seattle OCI hub. Intel: yes.

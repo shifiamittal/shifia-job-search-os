@@ -36,14 +36,15 @@ Top companies: OpenAI, Anthropic, Google, Microsoft, Salesforce, and other big t
 ### Weakness 1: No direct reports, but targeting Head of Product / Director
 This is the biggest gap for the preferred path. Director JDs usually ask for "X+ years managing PMs."
 **How to address:**
-- Target Series C/D/E Head of Product or first-PM-leader roles, where the bar is "can own product end-to-end and work with the CEO," not "has managed 8 PMs." Your Keystone scope fits: consulting → product pivot, $10M ARR, CEO/CTO partner, 20+ engineers and scientists.
+- Target Series C/D/E Head of Product or first-PM-leader roles, where the bar is "can own product end-to-end and work with the CEO," not "has managed 8 PMs." Your Keystone scope fits: consulting → product pivot, $5M ARR, CEO/CTO partner, 20+ engineers and scientists.
 - Frame leadership through influence with specifics: set product direction for 20+ engineers and scientists, aligned Fortune 500 executives, and drove a company-level business-model change.
-- Gather any mentoring evidence you have: interns, junior PMs, onboarding, hiring loops. Add it to the experience library.
+- Use your people-leadership evidence: **dotted-line PM reports** at Keystone (Story K20, including a performance turnaround), mentored 4–5 people, onboarded new PMs, 50+ hiring interviews at Keystone and Amazon, and organized Keystone's product work into 3 lanes with the CPO.
+- Always say "dotted-line," never "direct reports." Interviewers will probe it, and LinkedIn's saved answer says 0 years of people management.
 - For big tech, go in as Principal IC and grow into management from there. Don't let a Director search stall the IC track.
 
 ### Weakness 2: Principal title is from a smaller, consulting-origin company
 Big-tech interviewers may read "Principal at Keystone" as a startup title and level you at Senior.
-**How to address:** Lead with Principal-scope evidence: the pivot to product, $10M ARR, $25M client savings, 5 enterprises, CEO/CTO partnership. Pair it with 8 years of Amazon depth ($71M revenue, $100M+ savings, 100+ production models). In leveling conversations, anchor on scope and ambiguity, not title.
+**How to address:** Lead with Principal-scope evidence: the pivot to product, $5M ARR, $25M client savings, 5 enterprises, CEO/CTO partnership. Pair it with 8 years of Amazon depth ($71M revenue, $100M+ savings, 100+ production models). In leveling conversations, anchor on scope and ambiguity, not title.
 
 ### Weakness 3: GenAI/agent experience is ~2 years; most of the career is "classic" ML
 **How to address:** Present production ML depth as an edge. You know evaluation, monitoring, and governance, where most new GenAI PMs are weak. Back it with shipped agents: the forecasting agent (4 hrs/day → 4 hrs/week), HAT-AI (120 hrs/week saved), REI-Agent, and the eval framework (groundedness, tool compliance, action safety). Add hands-on builds: the job-search system (100% recall on benchmarks) and patent retrieval. The "agent vs. deterministic workflow" story is a strong differentiator for platform AI roles.
@@ -56,8 +57,8 @@ Resume uses "Sr. PM-T, 2016–2024" (your choice). LinkedIn shows PM for 2016–
 **Company:** Anthropic, OpenAI, Google, or Microsoft
 **Role:** Head of Product / Director, or Principal PM, for enterprise or platform AI (agents, agent platform, evals)
 **Comp target:** $600K total comp. Current: $400K.
-**Why this specifically:** These companies are where enterprise agent reliability is the core product problem. That's the overlap of your production ML platform work and your agentic workflow work. [Your words welcome here]
-**What would make you say no:** Total comp below $380–400K; role requires relocating from Seattle; non-AI scope. [GUESS on the last two]
+**Why this specifically:** The opportunity to build real AI products, the brand name, the compensation, and a long-term step up for your career. (External version: building real AI products at the frontier, where enterprise agent reliability is the core problem.)
+**What would make you say no:** Total comp below $380–400K; role requires relocating from Seattle; non-AI scope.
 
 ---
 
@@ -69,7 +70,7 @@ Everything in this section stays local. The OS will never put any of this into r
 None noted.
 
 ### Departure Context
-Laid off from Keystone.ai. [CONFIRM: last day — LinkedIn still shows "Present"]. External positioning: looking for larger scale. Don't volunteer the layoff, but don't deny it if asked directly. Background checks will show an end date. See qa-master.md for the scripts.
+Laid off from Keystone.ai; last day Mar 2026. User's choice: keep "Present" on LinkedIn and the resume, with no end date. Claude's advice (given 2026-10-14): fine on LinkedIn as the user's call, but on the resume use "2024 – 2026" instead of "Present", because employment verification will report Mar 2026, and a false current-employment claim on a resume is a common reason offers get rescinded. In interviews, never claim current employment; use the restructuring script in qa-master.md. External positioning: looking for larger scale.
 
 ### Background Check Considerations
 Amazon title: resume says Sr. PM-T 2016–2024; Amazon's records will show PM for 2016–2020. Keystone end date must match what you tell employers.
