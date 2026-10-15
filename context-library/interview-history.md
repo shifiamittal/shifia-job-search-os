@@ -1,8 +1,8 @@
 # Interview History
 
 Last updated: 2026-10-15
-Total interviews: 4 (3 companies) + 1 recruiter call (Albert Squiers, company unknown, rejected)
-Outcomes: 1 rejected (LawnStarter), 1 pending decision (Count), 1 stalled (Ascerta)
+Total interviews: 4 (3 companies), plus a recruiter screen for Count (Albert Squiers, not recorded)
+Outcomes: 2 rejected (LawnStarter at HM review, Count after Round 2), 1 stalled (Ascerta)
 
 Auto-maintained by `/interview-debrief`. After each real interview, run the debrief and this file updates automatically with questions, scores, signals, and patterns. Full debriefs with rewrites are in `interview-debriefs/`.
 
@@ -49,6 +49,7 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
   6. Diagnose a payment API failing for 5% of users - Score: 5/10 - Type: technical
   7. Candidate questions - Score: 8/10
 - **Overall assessment:** adequate-to-strong (6.5/10). Interviewer: "your answers were phenomenal."
+- **Outcome:** **Rejected 2026-10-13** (via recruiter Albert Squiers), the day after this round. No feedback yet (requested 2026-10-15). Lesson: positive in-room signals ("phenomenal") didn't predict the outcome; the weaker answers (30–60 days 4.5, intake process 5.5, troubleshooting 5) were on the exact problems Chris said the role exists to solve.
 - **Signals:** Probed prioritization and intake process hardest (that's the job). Sold the company (runway, revenue doubling, IPO).
 - **Key improvement:** Tailor plans to the company's stated problems; on incidents, segment and mitigate first.
 - **Next round prediction:** Offer or final round with both founders; possible backlog/90-day take-home. Check comp against your floor first (seed-stage).

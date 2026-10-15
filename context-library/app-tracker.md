@@ -6,23 +6,6 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 
 ---
 
-## Phone Interview / Founder Rounds
-
-### Count - Head of Product
-- **Status:** phone-interview (Round 2 complete, awaiting decision)
-- **Date applied:** [CONFIRM] (coordinated via FUEL, probably a recruiting agency)
-- **Referral:** No
-- **Connection at company:** None
-- **Company tier:** Unranked (seed-stage, ~30 people; below your Series C/D/E target)
-- **Location:** Seattle, Pioneer Square, hybrid 3 days/week
-- **Comp-range-confirmed:** No. ⚠ Likely below your $380–400K floor in cash; confirm before the next round.
-- **Last action:** Round 2 with Chris Smith (co-founder) 2026-10-12. "Answers were phenomenal; deciding really quickly."
-- **Next action:** Send thank-you notes to Chris and Derek today (overdue). Run `/salary-research` before any offer.
-- **Notes:** Employment status correction needed (said "currently at Keystone").
-- **History:**
-  - 2026-10-05 Round 1: Derek Harn (COO, co-founder). Advanced.
-  - 2026-10-12 Round 2: Chris Smith (co-founder, acting CTO). Positive signals.
-
 ## Recruiter Screen
 
 ### Ascerta - Principal Product Manager - AI Startup
@@ -39,8 +22,8 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
   - [date] Recruiter: team yet to review recording
 
 ## Needs Attention
-- **Count:** thank-you notes overdue (Round 2 was 3 days ago). Correct employment status before an offer. Get the full comp package (base + equity) early.
 - **Ascerta:** stalled; send one final follow-up.
+- **Count:** send the post-rejection notes (interview-debriefs/2026-10-15-count-followup-notes.md).
 
 ---
 
@@ -57,17 +40,24 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
   - 2026-09-28 Recruiter screen (Kate Acuzar), endorsed to HM
   - [date] Rejected after HM review (no feedback)
 
-### [CONFIRM company] - via recruiter Albert Squiers
-- **Status:** rejected
+### Count - Head of Product
+- **Status:** rejected (2026-10-13)
+- **Source:** Recruiter Albert Squiers (FUEL, probably a recruiting agency)
+- **Stage rejected:** After Round 2 (co-founder interview)
+- **Location:** Seattle, Pioneer Square, hybrid 3 days/week
+- **Notes:** Seed-stage, ~30 people. Round 2 felt positive ("answers were phenomenal") but was rejected the next day. Feedback requested 2026-10-15.
 - **History:**
-  - 2026-09-28 Recruiter call failed to connect; rescheduled
-  - [date] Rescheduled call held [CONFIRM]
-  - [date] Rejected
+  - 2026-09-28 Recruiter call with Albert Squiers failed to connect; rescheduled
+  - [date] Recruiter screen (Albert Squiers)
+  - 2026-10-05 Round 1: Derek Harn (COO, co-founder). Advanced.
+  - 2026-10-12 Round 2: Chris Smith (co-founder, acting CTO)
+  - 2026-10-13 Rejected (via Albert)
+  - 2026-10-15 Follow-up notes drafted (Chris, Derek, Albert)
 
 ### Anaplan - Senior Principal Product Manager, Applications
 - **Status:** rejected
 - **Date applied:** 2026-04-27 (LinkedIn Easy Apply)
-- **Stage rejected:** Applied (no interview) [CONFIRM]
+- **Stage rejected:** Applied (no interview)
 - **History:**
   - 2026-04-27 Applied
   - [date unknown] Rejected
@@ -75,9 +65,8 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 ---
 
 ## Pipeline Health (2026-10-15)
-- **Active:** 2 (Count: decision pending; Ascerta: stalled) · **Offers:** 0 · **Rejected:** 3
-- **Sources:** all active and recent processes came from inbound or recruiters. Cold applications: 1 (Anaplan), 0 screens.
-- **Screen → next round:** 1 of 4 (Count). LawnStarter and Albert's company rejected; Ascerta stalled.
-- **Referral rate:** 0%. None of these are your target companies (Anthropic, OpenAI, Google, Microsoft, Salesforce). Biggest gap in the pipeline. Next: `/build-referral-graph` once Connections.csv arrives.
-- **Top of funnel:** 0 applications in the last 7 days. At Principal/Director level, 1–3 quality applications a week is healthy.
-- **Comp pattern:** both company-stage roles (Count seed, LawnStarter ~$250K base) are at risk against your floor. Ask about the full package at the first screen.
+- **Active:** 1 (Ascerta, stalled) · **Offers:** 0 · **Rejected:** 3 (Count, LawnStarter, Anaplan)
+- **Funnel, 2026:** 1 cold application → 0 screens. 3 recruiter/inbound processes → 3 screens → 1 second round (Count) → 0 offers.
+- **Where it breaks:** after the first or second conversation (LawnStarter at HM review, Count after the co-founder round). That points to interview performance, not resume or sourcing. See the patterns in `interview-history.md`: long answers, generic leadership and planning answers.
+- **Referral rate:** 0%. No process at a target company (Anthropic, OpenAI, Google, Microsoft, Salesforce). Next: `/build-referral-graph` once Connections.csv arrives.
+- **Top of funnel:** effectively empty. At Principal/Director level, 1–3 quality applications a week is healthy, and right now there are none.
