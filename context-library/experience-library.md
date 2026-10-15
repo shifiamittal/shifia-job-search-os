@@ -1,6 +1,6 @@
 # Experience Library
 
-Last updated: 2026-10-14
+Last updated: 2026-10-15
 Sources: LinkedIn profile PDF export (Profile (5).pdf), LinkedIn profile page text, and `Resume variants/Shifia_Mittal_Resume.docx`.
 
 This is the single source of truth. Every skill draws from this file. Anything marked **[CONFIRM]** has a conflict or gap between sources. Resolve it before using it in an application.
@@ -291,7 +291,7 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 ### K14: Agent Cost vs. Model Quality (Keystone.ai)
 - **Situation:** In the pilot, model cost exceeded the cost of doing the work manually.
 - **Action:** Experimented across models on cost, latency, quality, and adoption. Routed simple cases to cheap models and ambiguous cases to strong models.
-- **Result:** Lower cost and latency with the same quality and adoption. [NEEDS DETAIL: numbers]
+- **Result:** Lower cost and latency with the same quality and adoption. Told LawnStarter (2026-09-28) "almost 30%" cost reduction, validated with a small pilot (adoption unchanged). [CONFIRM 30% before reusing]
 - **Tags:** trade-off, unit economics
 
 ### K15: Data Platform (Keystone.ai)
