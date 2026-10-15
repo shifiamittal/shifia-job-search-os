@@ -1,6 +1,6 @@
 # Q&A Master Document
 
-Last updated: 2026-10-14
+Last updated: 2026-10-15
 Status: First draft. **[DRAFT]** = written by Claude from your LinkedIn/resume; edit it into your own voice. **[CONFIRM]** = needs a fact only you know.
 
 ## Compensation
@@ -61,7 +61,7 @@ Say "dotted-line PMs" or "PMs I led," never "my direct reports." Use K20 for "ma
 (From your story doc, adapted.) "Leading a product organization and accountable for product direction and customer and business outcomes in enterprise AI. I'll get there by building a strong cross-functional team, scaling products that drive measurable customer impact, and growing future product leaders."
 
 ### "Tell me about yourself" (2 min max)
-Your latest version (from the story doc): "I am a Principal PM-T with 11+ years building ML/AI products that solve customer problems at scale. Most recently at Keystone, I led a 0→1 agentic AI platform to help Fortune 500 clients make supply chain decisions, and led Keystone's pivot from consulting-led to product-led, enabling $5M ARR with flagship deployments at Fortune 500 manufacturers. I've built and scaled AI products including forecasting, credit decisioning, and supply chain optimization that drove up to $100M in top- and bottom-line impact, plus the platforms underneath them (MLOps and a data platform). A big part of my role has been aligning C-suite executives and leading large cross-functional teams. [Company-specific close]"
+Your latest version (from the story doc): "I am a Principal PM-T with 11+ years building ML/AI products that solve customer problems at scale. Most recently at Keystone, I led a 0→1 agentic AI platform to help Fortune 500 clients make supply chain decisions, and led Keystone's pivot from consulting-led to product-led, enabling $5M ARR with flagship deployments at Fortune 500 manufacturers. I've built and scaled AI products including forecasting, credit decisioning, and supply chain optimization that drove over $100M in cost savings and $71M in incremental revenue, plus the platforms underneath them (MLOps and a data platform). A big part of my role has been aligning C-suite executives and leading large cross-functional teams. [Company-specific close]"
 
 Fuller alternative (Claude draft):
 "I'm a Principal Technical Product Manager with 11+ years building AI and ML products, eight of them at Amazon and almost two at Keystone.ai.
@@ -83,9 +83,9 @@ US Green Card holder. Authorized to work in the US; no sponsorship required now 
 "I'm based in Seattle and not looking to relocate. I'm open to Seattle-area on-site or hybrid roles, and to fully remote roles."
 
 ### LinkedIn Easy Apply saved answers (from export, update these)
-- "Years of Product Management": saved as **8**. Update to 10–11 (Amazon 2016 → present).
+- "Years of Product Management": saved as **8**. Update to **9** (Oct 2016 – Mar 2026 ≈ 9.4 years; don't round up to 10–11).
 - "Years of People Management": saved as **0**. Accurate for formal reports; fine to leave.
-- "Years of IT experience" / "Working experience": saved as **9**. Update to 11.
+- "Years of IT experience" / "Working experience": saved as **9**. Update to **10** (May 2015 – Mar 2026 ≈ 10.9 years; 11 if you round up).
 - Sponsorship required: No. Authorized to work in the US: Yes.
 
 ### Start Date Availability

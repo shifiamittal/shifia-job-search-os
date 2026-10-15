@@ -1,6 +1,6 @@
 # Experience Library
 
-Last updated: 2026-10-14
+Last updated: 2026-10-15
 Sources: LinkedIn profile PDF export (Profile (5).pdf), LinkedIn profile page text, and `Resume variants/Shifia_Mittal_Resume.docx`.
 
 This is the single source of truth. Every skill draws from this file. Anything marked **[CONFIRM]** has a conflict or gap between sources. Resolve it before using it in an application.
@@ -33,18 +33,18 @@ This is the single source of truth. Every skill draws from this file. Anything m
 7. **Supply chain products:** SPORT = inventory optimization, TRACE = causal attribution, MOQ = MOQ recommendations.
 8. **Causal attribution bullet:** ends at "drove $40M in savings."
 9. **People management:** no solid-line direct reports. Had **dotted-line PM reports** at Keystone (Story K20). Mentored 4–5 people (junior PMs, interns); onboarded new PMs; 50+ hiring interviews at Keystone and Amazon (not a bar raiser).
+10. **Patent search:** personal project; no metrics beyond the LinkedIn About description.
+11. **Story doc:** "Interview Questions" Google Doc, merged into the Story Bank below.
 12. **Client names:** do not name clients (Hershey's, Michelin, Corning, Kroger) in interviews or external materials. Say "a Fortune 500 CPG client," "a global manufacturer," "a national grocery retailer."
 13. **Override rate 50% → 20%:** cumulative result of all interventions (explainability, retraining cadence, agent, tiered autonomy, RAG pipeline). Present it as cumulative; individual stories claim only their own step.
 14. **Credit losses:** losses ran high in the pilot (A6), were fixed, and there were no credit losses after full launch.
-11. **Story doc:** "Interview Questions" Google Doc, merged into the Story Bank below.
-10. **Patent search:** personal project; no metrics beyond the LinkedIn About description.
 
 ---
 
 ## Work History (chronological, verified against both sources)
 
 ### Keystone.ai: Principal Product Manager – Technical
-Jun 2024 – Present · Seattle, WA · On-site · Full-time
+Jun 2024 – Mar 2026 (actual end date; resume/LinkedIn display per Source Decision 3) · Seattle, WA · On-site · Full-time
 
 LinkedIn bullets:
 - Led product strategy and go-to-market for an agentic AI supply chain platform serving Fortune 500 clients; drove Keystone's pivot from consulting to a product-led model, $25M in annualized client savings and $10M in ARR. ⚠ Update LinkedIn: canonical figure is $5M ARR.
@@ -62,7 +62,7 @@ Resume bullets:
 - **AI Evaluation & Governance:** Established evaluation frameworks covering task correctness, groundedness, retrieval quality, tool compliance, action safety, and regression testing; combined automated checks and human review to support trusted AI rollouts.
 
 Additional facts from the story doc (usable, but check against the Metric Conflicts table in the Story Bank):
-- Data catalog + semantic layer + metadata generation for agent grounding: recommendation acceptance 50% → 80%; retrieval similarity 0.6 → 0.8; clarification rate 50% → 30%.
+- Data catalog + semantic layer + metadata generation for agent grounding: recommendation acceptance ~50% → 70%; retrieval similarity 0.6 → 0.8; clarification rate 50% → 30%.
 - Forecasting agent: client overstock cost $5M → $2M; override rate 50% → 20% (cumulative across all interventions); shadow-mode launch gates (>70% exception recall, >70% acceptance).
 - Model explainability (SHAP) + retraining cadence change: forecast adoption 50% → 70%.
 - Domain-adapted embeddings: retrieval precision@5 0.58 → 0.87.
@@ -229,7 +229,7 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 
 ### K4: AI Evaluation Strategy (Keystone.ai)
 - **Action:** Reference cases with an expert baseline (including unsafe actions), an execution harness to compare agent versions, tools, prompts, and retrieval, and launch thresholds: >70% acceptance, expert quality >8/10, no direct forecast changes. Evaluators: automated checks (precision/recall, tool success, data freshness, citations, routing, policy compliance), LLM-as-judge for grounding, and expert rubric scoring. Post-production: adoption, edits, rejection reasons, tool failures, cost per accepted recommendation, sampled traces.
-- **Result:** 70% adoption at launch; >80% recommendation accuracy.
+- **Result:** 70% recommendation adoption at launch.
 - **Learning:** A plausible recommendation can still be wrong in production.
 - **Tags:** evals, AI quality, launch criteria
 
@@ -243,19 +243,19 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 ### K6: Data Catalog + Semantic Layer for Agent Grounding (Keystone.ai)
 - **Situation:** At the flagship client, only ~50–55% of recommendations were accepted, users kept re-asking the chatbot, and it hallucinated. The problem would repeat at every new client.
 - **Action:** Evals showed a schema grounding gap, not a model or prompt problem: >60% of diagnostic failures involved a field with no description, and cosine similarity was 0.6. Built a runtime data catalog injected into prompts (descriptions, interpretability notes, trust tiers, sensitivity tiers incl. PII blocking), a metadata generation service (7+ signals, confidence gates), a semantic layer (synonym index → concept layer → disambiguation engine), and lineage/provenance with severity-tiered impact analysis. Governance: CI/CD fails on undescribed fields. Rejected alternatives: embedding fine-tuning, more chunks, prompt-only fixes.
-- **Result:** Acceptance 50% → 80%; similarity 0.6 → 0.8; field-level failures 60% → 40%; clarification rate 50% → 30%.
+- **Result:** Acceptance ~50% → 70%; similarity 0.6 → 0.8; field-level failures 60% → 40%; clarification rate 50% → 30%.
 - **Takeaway:** Catalog quality isn't a documentation problem; it's a product reliability problem.
 - **Tags:** RAG, grounding, platform, technical depth
 
 ### K7: Speed vs. Correctness in Metadata Generation (Keystone.ai)
 - **Action:** Decision rule: "imperfect grounding beats no grounding if you contain the blast radius." Three-tier trust policy: >0.85 auto-publish with an "AI-generated" label, 0.70–0.84 human review with an SLA, <0.70 blocked. Recalibrated thresholds from edit rates.
-- **Result:** Planner approval 50% → 80%; 95% of auto-generated descriptions approved; coverage 60% → 80%.
+- **Result:** Planner approval ~50% → 70%; 95% of auto-generated descriptions approved; coverage 60% → 80%.
 - **Tags:** trade-off, AI risk
 
 ### K8: Static RAG vs. Continuously Learning Pipeline (Keystone.ai)
 - **Situation:** Heavy pressure to ship fast for the flagship client.
 - **Action:** Prototyped static RAG first: 58% retrieval precision, and it recommended actions that were already resolved. Built an incremental pipeline (multi-source ingestion, per-source chunking, quality gates, domain-adapted embeddings, feedback loop) with weekly acceptance tests with the client.
-- **Result:** Precision 0.58 → 0.72 → 0.81; override 50% → 35% → 20%.
+- **Result:** Precision 0.58 → 0.72 → 0.81; contributed to the cumulative override reduction 50% → 20% (claim only this step's share). [NEEDS DETAIL: this step's own share, if known]
 - **Tags:** trade-off, speed vs. quality
 
 ### K9: Model Sophistication vs. Adoption (Keystone.ai)
@@ -354,7 +354,7 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 
 ### A3: SMB Approvals vs. Credit Losses (Amazon)
 - **Action:** Redesigned underwriting rather than lowering thresholds. Capped exposure by risk tier and restricted financing on high-loss categories. Optimized for economic profit, not approvals.
-- **Result:** SMB approval 4% → 15%; $71M incremental spend. Pilot losses ran high and were fixed (A6); no credit losses after full launch.
+- **Result:** SMB approval 4% → 15%; $71M incremental revenue. Pilot losses ran high and were fixed (A6); no credit losses after full launch.
 - **Tags:** trade-off, risk
 
 ### A4: Batch vs. Real-Time Underwriting (Amazon)
@@ -384,18 +384,18 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 ### A8: MDLC: Self-Serve ML Platform for Amazon Lending (Amazon)
 - **Situation:** Lending extended $8B in credit; 50+ risk models from 30+ scientists, growing 30% YoY. Each model took 3–4 months of engineering to ship, and there was no governance.
 - **Action:** Interviewed scientists, engineers, and risk/compliance. Three pillars: self-service ML pipelines (UI-first, a deliberate cost trade-off), model governance and privacy (monitoring, versioning, lineage, inventory; EU/US privacy: OD3, DSAR, PD2), and scaling onboarding as a product (templates, docs, community). Auto-containerization from a git link. Built on SageMaker, Step Functions, Lambda, Glue, ECR.
-- **Result:** 100+ models with no added headcount; audit-ready; NPS 8+ across 30+ scientists; 5 teams onboarded outside lending; 6 science HC saved; ~2 eng HC saved via containerization; deployment −40%.
+- **Result:** 100+ models with no added headcount; audit-ready; NPS 8+ across 30+ scientists; 5 teams onboarded outside lending; 6 science HC saved (the same 6 HC cited in A9 and A10; never add them up); ~2 eng HC saved via containerization; deployment −40%.
 - **Tags:** platform, 0→1, technical depth
 
 ### A9: Governance Disagreement with Senior Technical Manager (Amazon)
 - **Action:** Met 1:1; found the disagreement was an adoption assumption (past governance features went unused). Explained the new ones were fully automated; validated with customers together; set up recurring syncs before roadmap reviews.
-- **Result:** Features launched; 6 science HC saved; lasting trust.
+- **Result:** Features launched; contributed to the 6 science HC saved (see A8); lasting trust.
 - **Learning:** Treat technical disagreement as a dispute over an assumption, and validate the assumption together.
 - **Tags:** conflict, engineering
 
 ### A10: Privacy Compliance Conflict with a DS Manager (Amazon)
 - **Action:** Listened 1:1 to a frustrated science manager; found no one owned privacy compliance. Took ownership, worked with 10 privacy bar raisers and legal/tech partners, defined the science team's actions, and built a semi-automated platform solution (a deliberate trade-off vs. a year-long full automation).
-- **Result:** Requirements identified that had been missed org-wide; 6 science HC saved; the manager emailed praise to your manager and skip-level.
+- **Result:** Requirements identified that had been missed org-wide; contributed to the 6 science HC saved (see A8); the manager emailed praise to Shifia's manager and skip-level.
 - **Tags:** conflict, ownership, customer obsession
 
 ### A11: TRACE: Causal Shipping-Cost Attribution (Amazon)
@@ -406,7 +406,7 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 
 ### A12: SPORT Adoption Miss (Amazon): Failure
 - **Situation:** SPORT recommended sellers move inventory from high- to low-cost warehouses. Post-launch adoption and the business goal were missed.
-- **Action:** Research with adhering and non-adhering sellers showed you'd neglected the experience of acting on the recommendation, plus discoverability. Ran an opt-in auto-adherence pilot (most consented, but too few to move the goal) and marketing for discoverability.
+- **Action:** Research with adhering and non-adhering sellers showed the team had neglected the experience of acting on the recommendation, plus discoverability. Ran an opt-in auto-adherence pilot (most consented, but too few to move the goal) and marketing for discoverability.
 - **Result:** Missed the goal that year; built a roadmap that hit the adoption goal in 1–1.5 years (~10% adoption lift per resume).
 - **Learning:** The end-to-end customer experience matters as much as your own product's.
 - **Tags:** failure, customer insight
@@ -443,4 +443,4 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 | Shipping-cost drivers | **50+** | Resume says 20+; update it |
 | MDLC HC saved | **6 science HC** | Drop 5 |
 | Deep Enterprise platform MVP launch | **3 months** | Drop 5 |
-| Agent recommendation acceptance | **70%** | Use 70% everywhere. Drop ">80%" and the K6/K7 50% → 80% figure (confirmed 2026-10-15) |
+| Agent recommendation acceptance | **70%** (K2, K4, K6, K7 updated 2026-10-15) | Use 70% everywhere. Drop ">80%" and the K6/K7 50% → 80% figure (confirmed 2026-10-15) |
