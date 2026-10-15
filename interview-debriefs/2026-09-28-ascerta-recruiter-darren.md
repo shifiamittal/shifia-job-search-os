@@ -1,13 +1,13 @@
-# Interview Debrief - Pay-i / Ascerta, Product role - Round 1
+# Interview Debrief - Ascerta, Principal Product Manager - AI Startup - Round 1
 Date: 2026-09-28 per the Otter summary [VERIFY: the export file is dated Oct 1]
-Interviewer: Darren Hogben (title unknown [CONFIRM])
+Interviewer: Darren Hogben, recruiter
 Format: Screen (fit, logistics/comp, AI agent deep dive, hardest customer problem, explainability, customer engagement)
 Source: Otter transcript "Discuss Pay I _ Ascerta Product role".
 Overall Score: 7/10, **confidence LOW**
 
 **⚠ Transcript quality: poor.** Almost none of Darren's audio was captured. Only your side is transcribed, and several of your lines are cut off ("I actually did not. It wasn't listed on the…"). The questions below are **inferred from your answers**. 6 answer segments graded; logistics segments not graded. If you remember his actual questions, tell me and I'll regrade.
 
-**Company/role:** Not clear from the transcript. The Otter summary calls it "Pay I / Ascerta," an enterprise, AI-first organization. [CONFIRM: company name, role title, and whether Pay-i and Ascerta are the same company.]
+**Company/role:** Ascerta, Principal Product Manager - AI Startup ("Pay I" in the Otter title was a mis-transcription). Status 2026-10-15: the recruiter said the team hasn't yet reviewed your interview recording; no word since.
 
 ---
 

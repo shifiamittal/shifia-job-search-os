@@ -1,4 +1,4 @@
-# Interview Debrief - Count, Product Lead (product + engineering) - Round 1
+# Interview Debrief - Count, Head of Product - Round 1
 Date: 2026-10-05 (Monday)
 Interviewer: Derek Harn, COO and co-founder
 Format: Founder screen (background, startup speed, leadership, performance management, technical path, 5-year vision)

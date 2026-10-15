@@ -1,4 +1,4 @@
-# Interview Debrief - Count, Product Lead (product + engineering) - Round 2
+# Interview Debrief - Count, Head of Product - Round 2
 Date: 2026-10-12 (Monday)
 Interviewer: Chris Smith, co-founder (acting CTO; ex-Amazon, ex-Meta)
 Format: Co-founder interview (TMAY, prioritization, engineering process, 30–60 days, intake prioritization, live troubleshooting)

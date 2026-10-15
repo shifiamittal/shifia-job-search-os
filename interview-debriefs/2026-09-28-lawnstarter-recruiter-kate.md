@@ -4,7 +4,7 @@ Interviewer: Kate (Catherine) Acuzar, recruiter
 Format: Recruiter screen, but with substantive AI product questions (career, superpowers, weakness, shipped AI product, quality slip, trade-off, AI-native org, changed a leader's mind, career moves, references, comp, sponsorship)
 Source: Otter transcript "Shifia Mittal and Kate Acuzar". Transcript quality: good (one audio dropout near 20:30).
 Overall Score: 6/10
-Outcome: Kate endorsed you to the hiring manager (review in 24–48 hrs). Next: CEO Steve (chronological walkthrough) → leadership competency interviews (~40 min each) → reference checks → offer. [Status since then unknown: CONFIRM]
+Outcome: **Rejected** after hiring-manager review (confirmed 2026-10-15). Kate had endorsed you to the hiring manager (review in 24–48 hrs). Next: CEO Steve (chronological walkthrough) → leadership competency interviews (~40 min each) → reference checks → offer. [Status since then unknown: CONFIRM]
 
 **Role context:** LawnStarter, a lawn care and home services marketplace, $750M+ in sales, expanding to all home services (non-mowing services now ~51%). Principal PM = most senior IC, no direct reports, owns the **service experience** swim lane. Builds eval infrastructure so AI handles 50% of customer support (currently about a third). Arbitrates product and policy decisions between customers and pros. Base salary is in the JD.
 

@@ -33,13 +33,13 @@ Top companies: OpenAI, Anthropic, Google, Microsoft, Salesforce, and other big t
 
 ## Addressing-Weaknesses Analysis
 
-### Weakness 1: No direct reports, but targeting Head of Product / Director
-This is the biggest gap for the preferred path. Director JDs usually ask for "X+ years managing PMs."
+### Weakness 1: Limited people management (one direct report), but targeting Head of Product / Director
+This is the biggest gap for the preferred path. Director JDs usually ask for "X+ years managing PMs." Updated 2026-10-15: you directly managed one Program Manager at Amazon (Piyush Pangarkar) and promoted him from L4 to L5. That's real solid-line management, but it's one person and not a PM, so the gap shrinks without closing.
 **How to address:**
 - Target Series C/D/E Head of Product or first-PM-leader roles, where the bar is "can own product end-to-end and work with the CEO," not "has managed 8 PMs." Your Keystone scope fits: consulting → product pivot, $5M ARR, CEO/CTO partner, 20+ engineers and scientists.
 - Frame leadership through influence with specifics: set product direction for 20+ engineers and scientists, aligned Fortune 500 executives, and drove a company-level business-model change.
-- Use your people-leadership evidence: **dotted-line PM reports** at Keystone (Story K20, including a performance turnaround), mentored 4–5 people, onboarded new PMs, 50+ hiring interviews at Keystone and Amazon, and organized Keystone's product work into 3 lanes with the CPO.
-- Always say "dotted-line," never "direct reports." Interviewers will probe it, and LinkedIn's saved answer says 0 years of people management.
+- Use your people-leadership evidence: **one direct report at Amazon** (a Program Manager you promoted L4 → L5), **dotted-line PM reports** at Keystone (Story K20, including a performance turnaround), mentored 4–5 people, onboarded new PMs, 50+ hiring interviews at Keystone and Amazon, and organized Keystone's product work into 3 lanes with the CPO.
+- Be precise: "I managed a Program Manager at Amazon and promoted him to L5; at Keystone I led PMs on a dotted line." Don't say "managed a team of PMs." Interviewers will probe it, and LinkedIn's saved answer currently says 0 years of people management.
 - For big tech, go in as Principal IC and grow into management from there. Don't let a Director search stall the IC track.
 
 ### Weakness 2: Principal title is from a smaller, consulting-origin company
@@ -59,6 +59,8 @@ Resume uses "Sr. PM-T, 2016–2024" (your choice). LinkedIn shows PM for 2016–
 **Comp target:** $600K total comp. Current: $400K.
 **Why this specifically:** The opportunity to build real AI products, the brand name, the compensation, and a long-term step up for your career. (External version: building real AI products at the frontier, where enterprise agent reliability is the core problem.)
 **What would make you say no:** Total comp below $380–400K; role requires relocating from Seattle; non-AI scope.
+**Comp rule learned (LawnStarter, 2026-09-28):** a ~$250K base can still fall short of the floor once equity is valued. Ask for the full package (base + bonus + equity value) at the recruiter screen before calling it "aligned."
+**Not pursuing:** founding a startup (construction AI exploration from Aug 2026 is closed).
 
 ---
 

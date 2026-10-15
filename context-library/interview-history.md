@@ -1,7 +1,8 @@
 # Interview History
 
 Last updated: 2026-10-15
-Total interviews: 4 (3 companies)
+Total interviews: 4 (3 companies) + 1 recruiter call (Albert Squiers, company unknown, rejected)
+Outcomes: 1 rejected (LawnStarter), 1 pending decision (Count), 1 stalled (Ascerta)
 
 Auto-maintained by `/interview-debrief`. After each real interview, run the debrief and this file updates automatically with questions, scores, signals, and patterns. Full debriefs with rewrites are in `interview-debriefs/`.
 
@@ -36,7 +37,7 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 
 ## Interview Log
 
-### 2026-10-12 - Count - Product Lead (product + engineering) - Round 2
+### 2026-10-12 - Count - Head of Product - Round 2
 - **Interviewer:** Chris Smith, co-founder (acting CTO; ex-Amazon, ex-Meta)
 - **Format:** Founder interview: prioritization, engineering process, technical troubleshooting
 - **Questions asked:**
@@ -52,7 +53,7 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 - **Key improvement:** Tailor plans to the company's stated problems; on incidents, segment and mitigate first.
 - **Next round prediction:** Offer or final round with both founders; possible backlog/90-day take-home. Check comp against your floor first (seed-stage).
 
-### 2026-10-05 - Count - Product Lead (product + engineering) - Round 1
+### 2026-10-05 - Count - Head of Product - Round 1
 - **Interviewer:** Derek Harn, COO and co-founder
 - **Format:** Founder screen: background, speed, leadership
 - **Questions asked:**
@@ -68,8 +69,8 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 - **Key improvement:** Tell stories, not mechanics. Bring in the Amazon B2B payments background.
 - **Next round prediction:** Co-founder Chris on prioritization and technical judgment (confirmed).
 
-### 2026-09-28 - Pay-i / Ascerta - Product role [CONFIRM title] - Round 1
-- **Interviewer:** Darren Hogben [CONFIRM title]
+### 2026-09-28 - Ascerta - Principal Product Manager - AI Startup - Round 1
+- **Interviewer:** Darren Hogben, recruiter
 - **Format:** Screen: fit, AI agent deep dive, hardest problem
 - **Questions asked (inferred; interviewer audio missing):**
   1. Background and fit - Score: 6.5/10 - Type: behavioral
@@ -80,7 +81,8 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 - **Overall assessment:** adequate (7/10, low confidence)
 - **Signals:** Not enough audio.
 - **Key improvement:** Metric discipline: said 6 → 2 months (canonical 6 → 4) and ">80% adopted" (canonical 70%).
-- **Next round prediction:** Unknown. If the company focuses on AI cost, expect deep dives on unit economics (K14).
+- **Outcome:** Pending. The recruiter said the team hasn't reviewed the recording yet.
+- **Next round prediction:** Unknown. Expect deep dives on AI unit economics (K14).
 
 ### 2026-09-28 - LawnStarter - Principal PM, Service Experience - Round 1 (recruiter screen)
 - **Interviewer:** Kate Acuzar, recruiter
@@ -98,7 +100,7 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
   10. References + rating - Score: 7/10 - Type: logistics
   11. Comp expectations - Score: 5/10 - Type: comp
   12. Sponsorship - Score: 10/10 - Type: logistics
-- **Overall assessment:** adequate (6/10). Endorsed to the hiring manager.
+- **Overall assessment:** adequate (6/10). Endorsed to the hiring manager, then **rejected** at hiring-manager review. No feedback given. Possible factors from the transcript (hypotheses, not stated reasons): long answers, a weak weakness answer (4/10), and an AI-native org answer framed around cutting engineers.
 - **Signals:** 4 AI-quality questions (the role is eval infrastructure). Possible resume mismatch on Kate's side.
 - **Key improvement:** State launch gates; answer the weakness question with your prepared answer; keep answers under 200 words.
 - **Next round prediction:** CEO Steve chronological walkthrough → leadership competency loop → references.

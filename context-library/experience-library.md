@@ -25,14 +25,14 @@ This is the single source of truth. Every skill draws from this file. Anything m
 ## Source Decisions (confirmed by user 2026-10-14)
 
 1. **Amazon title on resume:** "Sr. Product Manager – Technical, Amazon, 2016–2024" (user's choice, for simplicity). Note: LinkedIn shows PM (2016–2020), then Sr. PM-T (2020–2024). Employment verification and recruiters comparing against LinkedIn may see the difference. Lower-risk option with the same simplicity: "Amazon · 2016–2024 · Sr. PM-T (most recent)".
-2. **Amazon tenure:** Oct 2016 – Jun 2024 (~8 years).
+2. **Amazon tenure:** Oct 2016 – Jun 2024 (~8 years). **Actual level history (confirmed 2026-10-15):** L4 Program Manager → promoted to L5 Program Manager → moved laterally to L5 Product Manager → promoted to L6 Sr. PM-Technical (2020). In interviews: "joined as a program manager, promoted twice, moved into product management along the way."
 3. **Keystone tenure:** Jun 2024 – Mar 2026 (actual). User's choice is to show "Present" on the resume and LinkedIn. Claude advised against "Present" on the resume because employment verification will show Mar 2026. Lower-risk option: "2024 – 2026" (years only). Never say "I'm currently at Keystone" in interviews.
 4. **Company name:** Keystone.ai.
 5. **Keystone metrics:** all can be used together ($5M ARR [canonical], $25M client savings, WAPE −21%, Deep Enterprise deployment 6 → 4 months, data platform deployment 3 months → 3 weeks, 5 enterprises, 4 hrs/day → 4 hrs/week, data discovery to 2 weeks, ~2 weeks/model).
 6. **HAT-AI, REI-Agent, AI Evaluation framework:** all Keystone.ai work.
 7. **Supply chain products:** SPORT = inventory optimization, TRACE = causal attribution, MOQ = MOQ recommendations.
 8. **Causal attribution bullet:** ends at "drove $40M in savings."
-9. **People management:** no solid-line direct reports. Had **dotted-line PM reports** at Keystone (Story K20). Mentored 4–5 people (junior PMs, interns); onboarded new PMs; 50+ hiring interviews at Keystone and Amazon (not a bar raiser).
+9. **People management:** **one solid-line direct report at Amazon**: Piyush Pangarkar, Program Manager, promoted L4 → L5 under you (confirmed 2026-10-15; team and dates [CONFIRM]). Had **dotted-line PM reports** at Keystone (Story K20). Mentored 4–5 people (junior PMs, interns); onboarded new PMs; 50+ hiring interviews at Keystone and Amazon (not a bar raiser).
 12. **Client names:** do not name clients (Hershey's, Michelin, Corning, Kroger) in interviews or external materials. Say "a Fortune 500 CPG client," "a global manufacturer," "a national grocery retailer."
 13. **Override rate 50% → 20%:** cumulative result of all interventions (explainability, retraining cadence, agent, tiered autonomy, RAG pipeline). Present it as cumulative; individual stories claim only their own step.
 14. **Credit losses:** losses ran high in the pilot (A6), were fixed, and there were no credit losses after full launch.
@@ -160,7 +160,7 @@ Jul 2012 – Dec 2012 · Gurugram, India
 - Partnered with CEO/CTO, enterprise executives, and 20+ engineers and scientists (Keystone).
 - Insight tools adopted by 40+ global pricing leaders (Amazon Pricing).
 - Pre-sales with solution architects on $25M APAC deals (Cognizant).
-- Dotted-line PM reports at Keystone (no solid-line reports). Leadership through influence: CEO/CTO, Fortune 500 executives, 20+ engineers and scientists.
+- One direct report at Amazon (Program Manager, promoted L4 → L5). Dotted-line PM reports at Keystone. Leadership through influence: CEO/CTO, Fortune 500 executives, 20+ engineers and scientists.
 - Mentored 4–5 people (junior PMs, interns); onboarded new PMs; 50+ hiring interviews across Keystone and Amazon (not a bar raiser).
 - Organized Keystone's product org into 3 lanes (customer data/deployment, forecasting models, planner app) with the CPO; ran weekly cross-team reviews.
 
@@ -203,7 +203,7 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 | Speed / bias for action | K16, A4 |
 | Short-term vs long-term | K21, K15 |
 | When NOT to use an agent | S1 job-search system |
-| Leadership / managing people | K20 (dotted-line PMs), mentoring 4–5 people, 50+ interviews |
+| Leadership / managing people | K20 (dotted-line PMs), A13 (direct report promoted L4 → L5), mentoring 4–5 people, 50+ interviews |
 
 ---
 
@@ -267,7 +267,7 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 
 ### K10: Forecast Platform Adoption: Customer Discovery (Keystone.ai)
 - **Action:** Triangulated adoption metrics with planner interviews and workflow observation. Found 3 issues: explainability, manual review load, accuracy gaps. Sequenced deliberately: manual explanation support → explainability feature → agent → model roadmap.
-- **Result:** Forecast adoption 50% → 70%; support cost reduced to 0.5 HC per customer.
+- **Result:** Forecast adoption 50% → 70% (explainability 50% → 60%, then agent +~10 pts to ~70%; confirmed 2026-10-15); support cost reduced to 0.5 HC per customer.
 - **Learning:** Do things that don't scale early, to learn what to build.
 - **Tags:** customer insight, sequencing
 
@@ -291,12 +291,13 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 ### K14: Agent Cost vs. Model Quality (Keystone.ai)
 - **Situation:** In the pilot, model cost exceeded the cost of doing the work manually.
 - **Action:** Experimented across models on cost, latency, quality, and adoption. Routed simple cases to cheap models and ambiguous cases to strong models.
-- **Result:** Lower cost and latency with the same quality and adoption. Told LawnStarter (2026-09-28) "almost 30%" cost reduction, validated with a small pilot (adoption unchanged). [CONFIRM 30% before reusing]
+- **Result:** ~30% cost reduction (confirmed 2026-10-15), validated in a small pilot, with lower latency and unchanged quality and adoption.
 - **Tags:** trade-off, unit economics
 
 ### K15: Data Platform (Keystone.ai)
 - **Situation:** Client data was scattered across SharePoint, Box, S3, and laptops, a security and trust risk. Data models were rebuilt for every client; onboarding took ~2 months.
 - **Action:** Standardized core data models (orders, shipments), reusable transforms and data-quality checks, data contracts and APIs, and Pulumi IaC across AWS and Azure.
+- **Team:** 7–8 engineers (confirmed 2026-10-15).
 - **Result:** Onboarding 2 months → 2 weeks; scientist data discovery 2 hrs/day → 2 hrs/week.
 - **Tags:** platform, data infra
 
@@ -328,7 +329,7 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 - **Tags:** agents, evals
 
 ### K20: Leading Dotted-Line PMs / Managing Performance (Keystone.ai)
-- **Relationship:** dotted-line PM reports (no solid-line). Always say "dotted-line" or "PMs I led"; never "direct reports."
+- **Relationship:** dotted-line PM reports at Keystone (solid-line management was at Amazon; see A13). For Keystone, say "dotted-line" or "PMs I led," never "direct reports."
 - **Situation:** During the consulting → product pivot, a dotted-line PM struggled to balance client requests against platform work. Their team fell behind on an end-to-end integration roadmap, and engineering felt stretched between company and team direction.
 - **Action:** Gave specific feedback and set an improvement plan: assess requests against product priorities, then delegate, defer, adjust, or escalate changes that displaced committed work. Weekly 1:1s to review their recommendations and coach their reasoning; reduced oversight as they improved. Also ran weekly cross-team reviews across the 3 lanes set up with the CPO.
 - **Result:** Performance improved; engineering met the product goals with no delays.
@@ -411,6 +412,14 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 - **Learning:** The end-to-end customer experience matters as much as your own product's.
 - **Tags:** failure, customer insight
 
+### A13: Managing and Promoting a Program Manager (Amazon)
+- **Relationship:** solid-line direct report: Piyush Pangarkar, Program Manager. Don't name him in interviews; say "a Program Manager on my team."
+- **When:** managed him 2018–2020 (2 years); promoted 2020. Work: Amazon Pricing price-perception program. [CONFIRM: you moved from Pricing to Supply Chain in Nov 2018. Did he move with you, or did you keep managing the price-perception work?]
+- **Situation:** To reach L5 he needed to run end-to-end projects independently: work with 30+ stakeholders on his own, do data analysis and turn insights into business decisions, handle conflicting stakeholder requirements, and manage an external vendor without help.
+- **Action:** Coached him toward independence in the role, so that he led the end-to-end price-perception surveys himself. [NEEDS DETAIL, optional: one specific thing you did, e.g., handed over the vendor relationship in stages, reviewed his analyses before leadership reviews, or wrote the promo doc]
+- **Result:** He led end-to-end price-perception surveys across 15+ countries independently and published high-quality reports on time. Promoted L4 → L5 in 2020.
+- **Tags:** people management, developing talent, Director-track
+
 ### S1: Agent vs. Deterministic Workflow (Personal Project)
 - **Situation:** Shifia's LLM-driven job-search agent missed jobs she knew existed.
 - **Action:** Diagnosed a workflow-design flaw (the agent couldn't know if its search was complete). Split it into deterministic discovery and agentic evaluation.
@@ -443,4 +452,6 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 | Shipping-cost drivers | **50+** | Resume says 20+; update it |
 | MDLC HC saved | **6 science HC** | Drop 5 |
 | Deep Enterprise platform MVP launch | **3 months** | Drop 5 |
+| AI agent cost reduction (K14 model routing) | **~30%** | Confirmed 2026-10-15 |
+| Data platform team | **7–8 engineers** | Confirmed 2026-10-15 |
 | Agent recommendation acceptance | **70%** | Use 70% everywhere. Drop ">80%" and the K6/K7 50% → 80% figure (confirmed 2026-10-15) |
