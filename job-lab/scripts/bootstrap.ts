@@ -102,16 +102,14 @@ function runStep(step: Step): string | null {
     return `I could not find scripts/${step.name}.ts, so I skipped that step.`;
   }
 
-  const tsx = path.join(
-    root,
-    "node_modules",
-    ".bin",
-    process.platform === "win32" ? "tsx.cmd" : "tsx",
-  );
-  const useLocal = fs.existsSync(tsx);
-  const command = useLocal ? tsx : "npm";
+  // Run tsx's JS entry with this same node binary and no shell. Going through
+  // tsx.cmd needs shell: true on Windows, and the shell splits any install path
+  // that contains a space ("C:\March 2026 backup\...").
+  const tsxCli = path.join(root, "node_modules", "tsx", "dist", "cli.mjs");
+  const useLocal = fs.existsSync(tsxCli);
+  const command = useLocal ? process.execPath : "npm";
   const argv = useLocal
-    ? [path.join("scripts", `${step.name}.ts`), ...step.args]
+    ? [tsxCli, path.join("scripts", `${step.name}.ts`), ...step.args]
     : ["run", step.name, "--", ...step.args];
 
   const res = spawnSync(command, argv, {
@@ -120,7 +118,7 @@ function runStep(step: Step): string | null {
     // The user already saw the price and agreed once. Do not make them wait
     // again in front of every child step.
     env: { ...process.env, JOB_LAB_YES: "1" },
-    shell: process.platform === "win32",
+    shell: !useLocal && process.platform === "win32",
   });
 
   if (res.error) {
