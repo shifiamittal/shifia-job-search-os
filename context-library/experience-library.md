@@ -32,7 +32,7 @@ This is the single source of truth. Every skill draws from this file. Anything m
 6. **HAT-AI, REI-Agent, AI Evaluation framework:** all Keystone.ai work.
 7. **Supply chain products:** SPORT = inventory optimization, TRACE = causal attribution, MOQ = MOQ recommendations.
 8. **Causal attribution bullet:** ends at "drove $40M in savings."
-9. **People management:** **one solid-line direct report at Amazon**: Piyush Pangarkar, Program Manager, promoted L4 → L5 under you (confirmed 2026-10-15; team and dates [CONFIRM]). Had **dotted-line PM reports** at Keystone (Story K20). Mentored 4–5 people (junior PMs, interns); onboarded new PMs; 50+ hiring interviews at Keystone and Amazon (not a bar raiser).
+9. **People management:** **one solid-line direct report at Amazon**: Piyush Pangarkar, Program Manager, promoted L4 → L5 under you; managed within Amazon Pricing, Oct 2016 – Oct 2018 (confirmed 2026-10-15). Had **dotted-line PM reports** at Keystone (Story K20). Mentored 4–5 people (junior PMs, interns); onboarded new PMs; 50+ hiring interviews at Keystone and Amazon (not a bar raiser).
 12. **Client names:** do not name clients (Hershey's, Michelin, Corning, Kroger) in interviews or external materials. Say "a Fortune 500 CPG client," "a global manufacturer," "a national grocery retailer."
 13. **Override rate 50% → 20%:** cumulative result of all interventions (explainability, retraining cadence, agent, tiered autonomy, RAG pipeline). Present it as cumulative; individual stories claim only their own step.
 14. **Credit losses:** losses ran high in the pilot (A6), were fixed, and there were no credit losses after full launch.
@@ -414,10 +414,10 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 
 ### A13: Managing and Promoting a Program Manager (Amazon)
 - **Relationship:** solid-line direct report: Piyush Pangarkar, Program Manager. Don't name him in interviews; say "a Program Manager on my team."
-- **When:** managed him 2018–2020 (2 years); promoted 2020. Work: Amazon Pricing price-perception program. [CONFIRM: you moved from Pricing to Supply Chain in Nov 2018. Did he move with you, or did you keep managing the price-perception work?]
+- **When:** managed him within Amazon Pricing, Oct 2016 – Oct 2018 (~2 years). He stayed in Pricing when you moved to Supply Chain. Promoted to L5 in 2018 (confirmed 2026-10-15).
 - **Situation:** To reach L5 he needed to run end-to-end projects independently: work with 30+ stakeholders on his own, do data analysis and turn insights into business decisions, handle conflicting stakeholder requirements, and manage an external vendor without help.
-- **Action:** Coached him toward independence in the role, so that he led the end-to-end price-perception surveys himself. [NEEDS DETAIL, optional: one specific thing you did, e.g., handed over the vendor relationship in stages, reviewed his analyses before leadership reviews, or wrote the promo doc]
-- **Result:** He led end-to-end price-perception surveys across 15+ countries independently and published high-quality reports on time. Promoted L4 → L5 in 2020.
+- **Action:** Mentored him to manage the external survey vendor and 30+ stakeholders across 15+ countries on his own. Coached him on deep-dive analysis of the price-perception reports. Reviewed results before they went to stakeholders. Helped him design requirements for automated price-perception dashboards. Wrote his promotion document.
+- **Result:** He led end-to-end price-perception surveys across 15+ countries independently and published high-quality reports on time. Promoted L4 → L5 in 2018.
 - **Tags:** people management, developing talent, Director-track
 
 ### S1: Agent vs. Deterministic Workflow (Personal Project)
