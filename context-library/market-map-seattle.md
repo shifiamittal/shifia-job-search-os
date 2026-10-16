@@ -1,5 +1,7 @@
 # Greater Seattle PM Market Map
 
+Count correction (2026-10-16): Microsoft is 40 roles, not 39; snapshot 6 added 7 Microsoft rows but the summary counted 6. Total is 416.
+
 Market intel on who is hiring senior PMs in the Seattle / Bellevue / Redmond / Kirkland area.
 Source: LinkedIn job search results the user pasted (keyword "product manager", Seattle 50 mi, past month, salary filter on). Missing values are `—`. Salary ranges are as listed on LinkedIn, not estimates.
 "Posted" is relative to the snapshot date.
@@ -30,18 +32,18 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 
 **Note on Meta "Product Manager (Leadership)":** Meta's title for a people-manager PM (manages other PMs). Most are paid $249K–$323K, the same band as its Director posting, but "Infrastructure Capacity PM (Leadership)" is posted at $205K–$277K, so salary band alone does not reliably reveal Meta level. Plain "Product Manager" at Meta is an IC role.
 
-**Note on Microsoft's generic "Principal Product Manager" postings:** Microsoft posts many reqs with the identical title and no team name. The same results page showed 8 distinct cards with that title (different post dates and badges), so the map counts 8. A later page showed more distinct cards (new post dates and badges), bringing the count to 12 generic postings. The real count could be higher; the team is only visible inside each JD.
+**Note on Microsoft's generic "Principal Product Manager" postings:** Microsoft posts many reqs with the identical title and no team name. The same results page showed 8 distinct cards with that title (different post dates and badges), so the map counts 8. A later page showed more distinct cards (new post dates and badges), bringing the count to 13 generic postings. The real count could be higher; the team is only visible inside each JD.
 
 **Note on Microsoft vs Microsoft AI:** LinkedIn treats "Microsoft AI" (MAI, the consumer Copilot + MAI models org led by Mustafa Suleyman) as a separate company page from "Microsoft." Its roles and connection counts show up separately, so it gets its own row here.
 
 ## Companies ranked by hiring volume
 
-Snapshot as of 2026-10-16 (415 roles, 113 companies). Parent totals: Amazon family 89 (incl. Twitch), Microsoft family 41 (incl. Microsoft AI, Mojang), Meta family 20 (incl. Instagram).
+Snapshot as of 2026-10-16 (416 roles, 113 companies). Parent totals: Amazon family 89 (incl. Twitch), Microsoft family 42 (incl. Microsoft AI, Mojang), Meta family 20 (incl. Instagram).
 
 | # | Company | Open PM roles | Connections | Target rank |
 |---|---|---|---|---|
 | 1 | Amazon (incl. AWS, Prime Video, Ring) | 88 | 107 / 15 (AWS) | Not pursuing |
-| 2 | Microsoft | 39 | 27 | #4 ★ |
+| 2 | Microsoft | 40 | 27 | #4 ★ |
 | 3 | Meta | 18 | 14 | — |
 | 4 | Stripe | 13 | 19 | #37 |
 | 5 | Google | 11 | 18 | #3 ★ |
@@ -70,7 +72,7 @@ Snapshot as of 2026-10-16 (415 roles, 113 companies). Parent totals: Amazon fami
 | Company | Open PM roles | Location(s) | Connections | Target list rank |
 |---|---|---|---|---|
 | Amazon (incl. AWS, Prime Video, Ring) | 88 | Seattle, Bellevue | 107 (Amazon), 15 (AWS), 2 school alumni (Prime Video) | Not pursuing |
-| Microsoft | 39 | Redmond (Hybrid) | 27; 6 company alumni | #4 ★ dream |
+| Microsoft | 40 | Redmond (Hybrid) | 27; 6 company alumni | #4 ★ dream |
 | Meta | 18 | Seattle, Bellevue, Redmond | 14; 9 company alumni | — |
 | Stripe | 13 | Seattle | 19 | #37 |
 | Brex | 6 | Seattle (Hybrid) | 2 | #40 |
@@ -182,7 +184,7 @@ Snapshot as of 2026-10-16 (415 roles, 113 companies). Parent totals: Amazon fami
 | Temporal Technologies | 1 | Seattle (Hybrid) | — | — |
 | Grow Therapy | 1 | Seattle (Hybrid) | — | — |
 | Haystack | 2 | Greater Seattle (Hybrid) | — | — |
-| **Total** | **415** | | | |
+| **Total** | **416** | | | |
 
 ## All open roles
 
@@ -715,8 +717,8 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
 
 ## Patterns in this snapshot
 
-- **Amazon is 88 of 415 roles** even though you are not pursuing it. Treat it as a market signal for what Seattle PM work looks like, not a target. Note: 107 connections at Amazon is your single biggest network concentration, and you have applied to Sponsored Products and Brands.
-- **All three ★ dream targets have Seattle-area roles:** Anthropic #1 (3 roles: Multi-Cloud Trust & Safety, Claude Science, Claude), Google #3 (11 roles in Kirkland/Seattle), Microsoft #4 (39 roles + 1 at MAI + 1 at Mojang). Salesforce #5 has 9, Databricks #7 has 5.
+- **Amazon is 88 of 416 roles** even though you are not pursuing it. Treat it as a market signal for what Seattle PM work looks like, not a target. Note: 107 connections at Amazon is your single biggest network concentration, and you have applied to Sponsored Products and Brands.
+- **All three ★ dream targets have Seattle-area roles:** Anthropic #1 (3 roles: Multi-Cloud Trust & Safety, Claude Science, Claude), Google #3 (11 roles in Kirkland/Seattle), Microsoft #4 (40 roles + 1 at MAI + 1 at Mojang). Salesforce #5 has 9, Databricks #7 has 5.
 - **Agentic AI is the dominant theme.** ~38 roles: Microsoft Cowork/Autopilot + Agentic Security + Agentic Platform, Meta Agent Transformation Accelerator, Google AI FinOps & Model Routing, Microsoft Responsible AI + Enterprise Security & Governance + Foundry (CoreAI), Okta for AI Agents, T-Mobile GenAI Platforms, AMD ROCm AI, Remitly Conversational Experiences, NVIDIA AI Networking, AWS Velocity Labs (x2), AWS AgentCore (x2), AWS GenAIUX, AWS Amazon Quick, AWS Healthcare AI, Amazon AI Customer Service, Google GDC Agentic Platforms, Salesforce Agent-Native Web Experiences, Stripe Agentic Commerce, JPMC Agent Services + Agent Core + Agent Building Blocks, Docusign Procurement Agentic + Conversational AI, Amperity AI & Agentic, T-Mobile Principal AI, Cisco AI Knowledge Graph, Outreach Conversational Intelligence, Talkdesk AI, Brex AI, DigitalOcean Agentic AI Infra, Storable AI Agents, Meta AI Platforms & Infra, Synthesia, Arm Physical AI.
 - **AI infrastructure / GPU cloud:** NVIDIA, CoreWeave (x3), Lambda, DigitalOcean, Meta AI Infra, Salesforce Hyperforce, Google Managed Spark.
 - **Fintech / payments / lending:** Stripe (13, incl. Billing, Treasury for Platforms, Connect, Link, IAM), Whatnot Payments, Remitly Transaction Platform, T-Mobile Money, SentiLink Prefill, Affirm (7, incl. Credit & Pricing x2, Checkout, Sr Director Card, Merchant Growth, Consumer Growth Loyalty), Expedia Loyalty Co-Brand Credit Card, Socure Identity Products, Deloitte Digital Assets & Payments, Mastercard Director, Deloitte BankingSuite, Circle Onboarding, Walmart Billing & Financial Services, T-Mobile Financial Services, Brex (5), JPMC (3), SoFi (3, incl. Commercial Banking), Affirm Bank, Possible Loan & Advance, Circle, Remitly (2), Riot Games Commerce, Amazon Selling Partner Financial Foundations, Amazon Business Payments, Amazon Stores FinTech, Amazon Profit Intelligence, TikTok Anti-Fraud Strategy.
