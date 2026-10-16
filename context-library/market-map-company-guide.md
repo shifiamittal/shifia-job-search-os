@@ -3,14 +3,14 @@
 Built 2026-10-16 from `market-map-seattle.md` (416 roles, 113 companies). Ranked by a weighted score of profile fit, aspiration fit, access, and relevant openings (see method below).
 Comp is only what LinkedIn posted; "Not posted" means no range was shown (never an estimate). Fit is judged against `experience-library.md` and `career-plan.md`; company descriptions are from general knowledge and not yet verified with `/company-research`.
 
-**Method.** Score out of 100 = profile fit (/35: how closely the best roles match `experience-library.md`: agents and AI platforms, evals and governance, ML/data platforms, credit and payments, supply chain) + aspiration fit (/35: `career-plan.md` priorities: enterprise/platform AI first, AI infra second, domain-adjacent third; Principal/Staff/Director/Head roles available; your named companies Anthropic, OpenAI, Google, Microsoft, Salesforce, plus Adobe, NVIDIA, CrowdStrike) + access (/15: connections and alumni) + relevant openings (/15: roles that fit, not total roles). On-site Seattle-area roles and client-facing roles are not penalized. Staff is treated as at-level. Scores are judgment calls; change any of them and the order updates.
+**Method.** Score out of 100 = profile fit (/40: how closely the best roles match `experience-library.md`: agents and AI platforms, evals and governance, ML/data platforms, credit and payments, supply chain) + aspiration fit (/40: `career-plan.md` priorities: enterprise/platform AI first, AI infra second, domain-adjacent third; Principal/Staff/Director/Head roles available; your named companies Anthropic, OpenAI, Google, Microsoft, Salesforce, plus Adobe, NVIDIA, CrowdStrike) + relevant openings (/20: roles that fit, not total roles). Connections are not scored, because they can be built over time; they are still listed for reference. On-site Seattle-area roles and client-facing roles are not penalized. Staff is treated as at-level. Scores are judgment calls; change any of them and the order updates.
 
 **Draft target-list rank** refers to `target-companies.md`, a first-pass list generated from your career plan on 2026-10-14. Only the top picks named in your career plan came from you.
 
 Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderate** (partial), **Weak** (little overlap), **Unknown** (company not identified).
 
 ## 1. Microsoft — 98/100 · 40 roles
-- **Score:** profile 33/35 · aspiration 35/35 · access 15/15 · relevant openings 15/15
+- **Score:** profile 38/40 · aspiration 40/40 · relevant openings 20/20
 - **About:** Azure, Microsoft 365/Copilot, CoreAI (AI platform and developer tools), Dynamics, security, gaming.
 - **Comp:** Not posted
 - **Draft target-list rank:** #4 ★
@@ -24,8 +24,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Principal Product Manager, Cowork / Autopilot
   - All 40 titles are in `market-map-seattle.md`.
 
-## 2. Salesforce — 92/100 · 9 roles
-- **Score:** profile 32/35 · aspiration 35/35 · access 15/15 · relevant openings 10/15
+## 2. Salesforce — 90/100 · 9 roles
+- **Score:** profile 37/40 · aspiration 40/40 · relevant openings 13/20
 - **About:** CRM software; Agentforce enterprise AI agents.
 - **Comp:** Not posted
 - **Draft target-list rank:** #5
@@ -41,8 +41,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Senior PM, Enterprise Security Technology
   - Product Management Director - Salesforce Success Plans
 
-## 3. Google — 86/100 · 11 roles
-- **Score:** profile 32/35 · aspiration 33/35 · access 11/15 · relevant openings 10/15
+## 3. Google — 88/100 · 11 roles
+- **Score:** profile 37/40 · aspiration 38/40 · relevant openings 13/20
 - **About:** Search, Google Cloud, YouTube, Google Distributed Cloud.
 - **Comp:** Not posted
 - **Draft target-list rank:** #3 ★
@@ -55,8 +55,19 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Senior PM, Databases & Analytics, Google Cloud
   - All 11 titles are in `market-map-seattle.md`.
 
-## 4. Stripe — 79/100 · 13 roles
-- **Score:** profile 33/35 · aspiration 20/35 · access 11/15 · relevant openings 15/15
+## 4. Anthropic — 84/100 · 3 roles
+- **Score:** profile 34/40 · aspiration 37/40 · relevant openings 13/20
+- **About:** AI lab; makes Claude.
+- **Comp:** Not posted
+- **Draft target-list rank:** #1 ★
+- **Fit: Strong.** Your #1 target. PM, Claude is the most central role; your eval and governance work (groundedness, tool compliance, action safety) is directly relevant. Levels not stated. 1 connection.
+- **Titles:**
+  - Product Manager, Multi-Cloud Trust & Safety
+  - Product Manager, Claude Science
+  - Product Manager, Claude
+
+## 5. Stripe — 81/100 · 13 roles
+- **Score:** profile 38/40 · aspiration 23/40 · relevant openings 20/20
 - **About:** Payments infrastructure for online businesses.
 - **Comp:** Not posted
 - **Draft target-list rank:** #37
@@ -70,19 +81,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Product Manager, Treasury for Platforms
   - All 13 titles are in `market-map-seattle.md`.
 
-## 5. Anthropic — 76/100 · 3 roles
-- **Score:** profile 30/35 · aspiration 32/35 · access 4/15 · relevant openings 10/15
-- **About:** AI lab; makes Claude.
-- **Comp:** Not posted
-- **Draft target-list rank:** #1 ★
-- **Fit: Strong.** Your #1 target. PM, Claude is the most central role; your eval and governance work (groundedness, tool compliance, action safety) is directly relevant. Levels not stated. 1 connection.
-- **Titles:**
-  - Product Manager, Multi-Cloud Trust & Safety
-  - Product Manager, Claude Science
-  - Product Manager, Claude
-
-## 6. Affirm — 72/100 · 7 roles
-- **Score:** profile 34/35 · aspiration 16/35 · access 7/15 · relevant openings 15/15
+## 6. Affirm — 77/100 · 7 roles
+- **Score:** profile 39/40 · aspiration 18/40 · relevant openings 20/20
 - **About:** Buy-now-pay-later and consumer credit.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -96,8 +96,90 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Staff Product Manager, Consumer Growth Loyalty
   - Senior Product Manager, Credit & Pricing
 
-## 7. Expedia Group — 67/100 · 10 roles
-- **Score:** profile 25/35 · aspiration 17/35 · access 15/15 · relevant openings 10/15
+## 7. Flexport — 72/100 · 5 roles
+- **Score:** profile 34/40 · aspiration 18/40 · relevant openings 20/20
+- **About:** Freight forwarding and supply-chain software.
+- **Comp:** Not posted
+- **Draft target-list rank:** #36
+- **Fit: Strong.** Supply-chain domain: shipping-cost attribution ($40M, TRACE), inventory placement (SPORT), MOQ. Visibility and Trucking Tech are closest. Staff (at your level) and Senior.
+- **Titles:**
+  - Staff Product Manager, Commerce
+  - Staff Product Manager, Visibility
+  - Senior Product Manager, Commerce
+  - Staff Product Manager, Trucking Tech
+  - Senior Product Manager, Visibility
+
+## 8. Databricks — 68/100 · 5 roles
+- **Score:** profile 34/40 · aspiration 21/40 · relevant openings 13/20
+- **About:** Data and AI platform (lakehouse).
+- **Comp:** Not posted
+- **Draft target-list rank:** #7
+- **Fit: Good.** Data Governance, Lakebase, Security and Compute fit your Keystone data platform (lineage, governance) and Amazon MLOps. Staff Security is at your level; the four Senior roles are one level down but may still meet your comp [VERIFY on levels.fyi]. 8 connections.
+- **Titles:**
+  - Sr. Product Manager, Databricks Repos
+  - Sr. Product Manager, Compute Platform
+  - Staff Product Manager, Security
+  - Sr. Product Manager, Lakebase/Lakehouse
+  - Sr. Product Manager, Data Governance
+
+## 9. Auger — 67/100 · 1 role
+- **Score:** profile 37/40 · aspiration 26/40 · relevant openings 4/20
+- **About:** Supply-chain AI startup (founded by ex-Amazon exec Dave Clark).
+- **Comp:** $215K–$300K
+- **Draft target-list rank:** —
+- **Fit: Strong.** Supply-chain AI platform is exactly your Keystone work; $215K–$300K.
+- **Titles:**
+  - Principal PM - Platform Experience — $215K–$300K
+
+## 10. Deloitte — 66/100 · 5 roles
+- **Score:** profile 32/40 · aspiration 21/40 · relevant openings 13/20
+- **About:** Big Four firm; builds its own software (Zora AI, BankingSuite) and consults.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Good.** Zora AI Sourcing & Procurement combines agents with supply chain; BankingSuite and Digital Assets & Payments fit fintech. Client-facing work matches your Keystone Fortune 500 delivery and Cognizant pre-sales. 10 connections.
+- **Titles:**
+  - Lead PM, BankingSuite - Products & Platforms
+  - ConvergeMOBILITY - Product Strategy & Management Lead, Seamless CX (Senior Consultant)
+  - Zora AI - Product Manager, Sourcing & Procurement (Senior Consultant)
+  - Commerce Product Manager
+  - Digital Assets and Payments Product Lead
+
+## 11. Storable — 64/100 · 2 roles
+- **Score:** profile 30/40 · aspiration 26/40 · relevant openings 8/20
+- **About:** Software for self-storage operators.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Good.** Principal PM, AI Agents & Automation and APIs, MCP & Developer Platform are agent-platform roles.
+- **Titles:**
+  - Principal PM, AI Agents & Automation
+  - Principal PM, APIs, MCP & Developer Platform
+
+## 12. Meta — 63/100 · 18 roles
+- **Score:** profile 25/40 · aspiration 25/40 · relevant openings 13/20
+- **About:** Facebook, Instagram, WhatsApp, AI infrastructure.
+- **Comp:** $146K–$323K (posted on 18 of 18)
+- **Draft target-list rank:** —
+- **Fit: Moderate.** AI Platforms & Infra, Agent Transformation Accelerator, and Supply Chain Planning fit your AI-platform and supply-chain work. Most postings are a plain "Product Manager" title, so level is unclear. 14 connections.
+- **Best-fit titles (4 of 18):**
+  - Director, PM - AI Platforms and Infra — $249K–$323K
+  - Product Manager, Agent Transformation Accelerator — $173K–$241K
+  - Product Manager, Supply Chain Planning — $205K–$277K
+  - Product Manager, Leadership — $249K–$323K
+  - All 18 titles are in `market-map-seattle.md`.
+
+## 13. Snowflake — 62/100 · 3 roles
+- **Score:** profile 29/40 · aspiration 25/40 · relevant openings 8/20
+- **About:** Data cloud.
+- **Comp:** $200K–$437K (posted on 3 of 3)
+- **Draft target-list rank:** #9
+- **Fit: Good.** Data platform fit; Director, Snowflake Transactions is at your level ($304K–$437K). 10 connections.
+- **Titles:**
+  - Director, PM - Snowflake Transactions — $304K–$437K
+  - Senior Product Manager - Interactive Analytics — $200K–$287.5K
+  - Senior PM - Identity & Access Intelligence — $200K–$287.5K
+
+## 14. Expedia Group — 61/100 · 10 roles
+- **Score:** profile 29/40 · aspiration 19/40 · relevant openings 13/20
 - **About:** Travel marketplace (Expedia, Hotels.com, Vrbo).
 - **Comp:** $137.5K–$338.5K (posted on 10 of 10)
 - **Draft target-list rank:** #45
@@ -114,91 +196,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Senior PM, EG Advertising Marketplace — $173K–$242.5K
   - Senior PM, Loyalty Co-Brand Credit Card — $173K–$242.5K
 
-## 8. Deloitte — 67/100 · 5 roles
-- **Score:** profile 28/35 · aspiration 18/35 · access 11/15 · relevant openings 10/15
-- **About:** Big Four firm; builds its own software (Zora AI, BankingSuite) and consults.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Good.** Zora AI Sourcing & Procurement combines agents with supply chain; BankingSuite and Digital Assets & Payments fit fintech. Client-facing work matches your Keystone Fortune 500 delivery and Cognizant pre-sales. 10 connections.
-- **Titles:**
-  - Lead PM, BankingSuite - Products & Platforms
-  - ConvergeMOBILITY - Product Strategy & Management Lead, Seamless CX (Senior Consultant)
-  - Zora AI - Product Manager, Sourcing & Procurement (Senior Consultant)
-  - Commerce Product Manager
-  - Digital Assets and Payments Product Lead
-
-## 9. Meta — 65/100 · 18 roles
-- **Score:** profile 22/35 · aspiration 22/35 · access 11/15 · relevant openings 10/15
-- **About:** Facebook, Instagram, WhatsApp, AI infrastructure.
-- **Comp:** $146K–$323K (posted on 18 of 18)
-- **Draft target-list rank:** —
-- **Fit: Moderate.** AI Platforms & Infra, Agent Transformation Accelerator, and Supply Chain Planning fit your AI-platform and supply-chain work. Most postings are a plain "Product Manager" title, so level is unclear. 14 connections.
-- **Best-fit titles (4 of 18):**
-  - Director, PM - AI Platforms and Infra — $249K–$323K
-  - Product Manager, Agent Transformation Accelerator — $173K–$241K
-  - Product Manager, Supply Chain Planning — $205K–$277K
-  - Product Manager, Leadership — $249K–$323K
-  - All 18 titles are in `market-map-seattle.md`.
-
-## 10. Databricks — 65/100 · 5 roles
-- **Score:** profile 30/35 · aspiration 18/35 · access 7/15 · relevant openings 10/15
-- **About:** Data and AI platform (lakehouse).
-- **Comp:** Not posted
-- **Draft target-list rank:** #7
-- **Fit: Good.** Data Governance, Lakebase, Security and Compute fit your Keystone data platform (lineage, governance) and Amazon MLOps. Staff Security is at your level; the four Senior roles are one level down but may still meet your comp [VERIFY on levels.fyi]. 8 connections.
-- **Titles:**
-  - Sr. Product Manager, Databricks Repos
-  - Sr. Product Manager, Compute Platform
-  - Staff Product Manager, Security
-  - Sr. Product Manager, Lakebase/Lakehouse
-  - Sr. Product Manager, Data Governance
-
-## 11. Flexport — 65/100 · 5 roles
-- **Score:** profile 30/35 · aspiration 16/35 · access 4/15 · relevant openings 15/15
-- **About:** Freight forwarding and supply-chain software.
-- **Comp:** Not posted
-- **Draft target-list rank:** #36
-- **Fit: Strong.** Supply-chain domain: shipping-cost attribution ($40M, TRACE), inventory placement (SPORT), MOQ. Visibility and Trucking Tech are closest. Staff (at your level) and Senior.
-- **Titles:**
-  - Staff Product Manager, Commerce
-  - Staff Product Manager, Visibility
-  - Senior Product Manager, Commerce
-  - Staff Product Manager, Trucking Tech
-  - Senior Product Manager, Visibility
-
-## 12. Snowflake — 64/100 · 3 roles
-- **Score:** profile 25/35 · aspiration 22/35 · access 11/15 · relevant openings 6/15
-- **About:** Data cloud.
-- **Comp:** $200K–$437K (posted on 3 of 3)
-- **Draft target-list rank:** #9
-- **Fit: Good.** Data platform fit; Director, Snowflake Transactions is at your level ($304K–$437K). 10 connections.
-- **Titles:**
-  - Director, PM - Snowflake Transactions — $304K–$437K
-  - Senior Product Manager - Interactive Analytics — $200K–$287.5K
-  - Senior PM - Identity & Access Intelligence — $200K–$287.5K
-
-## 13. JPMorganChase — 59/100 · 3 roles
-- **Score:** profile 28/35 · aspiration 14/35 · access 7/15 · relevant openings 10/15
-- **About:** Bank.
-- **Comp:** $133K–$215K (posted on 3 of 3)
-- **Draft target-list rank:** —
-- **Fit: Moderate.** Agent Services, Agent Core and Agent Building Blocks are agent-platform roles at a financial company, a strong topic fit, but TPM level at $133K–$215K is well below your current $400K.
-- **Titles:**
-  - Agent Services Technical Product Manager — $133K–$215K
-  - Agent Core Technical Product Manager — $133K–$215K
-  - Agent Building Blocks Technical Product Manager — $133K–$215K
-
-## 14. Auger — 58/100 · 1 role
-- **Score:** profile 32/35 · aspiration 23/35 · access 0/15 · relevant openings 3/15
-- **About:** Supply-chain AI startup (founded by ex-Amazon exec Dave Clark).
-- **Comp:** $215K–$300K
-- **Draft target-list rank:** —
-- **Fit: Strong.** Supply-chain AI platform is exactly your Keystone work; $215K–$300K.
-- **Titles:**
-  - Principal PM - Platform Experience — $215K–$300K
-
-## 15. Brex — 56/100 · 6 roles
-- **Score:** profile 26/35 · aspiration 16/35 · access 4/15 · relevant openings 10/15
+## 15. Brex — 61/100 · 6 roles
+- **Score:** profile 30/40 · aspiration 18/40 · relevant openings 13/20
 - **About:** Corporate cards and spend management.
 - **Comp:** Not posted
 - **Draft target-list rank:** #40
@@ -211,41 +210,33 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Staff Product Manager, Expenses
   - Senior Product Manager, Travel
 
-## 16. Docusign — 56/100 · 4 roles
-- **Score:** profile 25/35 · aspiration 18/35 · access 7/15 · relevant openings 6/15
-- **About:** E-signature and agreement management.
+## 16. CoreWeave (incl. Weights & Biases) — 61/100 · 6 roles
+- **Score:** profile 25/40 · aspiration 23/40 · relevant openings 13/20
+- **About:** GPU cloud for AI; owns Weights & Biases.
 - **Comp:** Not posted
-- **Draft target-list rank:** #58
-- **Fit: Good.** Procurement Agentic Experiences combines agents with procurement (supply chain); Conversational AI fits agent work. 4 connections.
+- **Draft target-list rank:** #25
+- **Fit: Good.** W&B Models and Training Infrastructure overlap with your MLOps platform (experiment tracking, versioning, deployment). Staff (at your level) and Senior.
 - **Titles:**
-  - Lead PM - Procurement Agentic Experiences
-  - Lead PM, Product-Led Growth (Onboarding & Adoption)
-  - Sr PM, Conversational AI and Agentic Experiences
-  - Sr. Product Manager - Core Services Platform
+  - Staff PM, AI Inference
+  - Staff PM, Training Infrastructure - Weights & Biases
+  - Staff PM - Containers & Kubernetes
+  - Senior Product Manager, W&B Models
+  - Staff Product Manager, Networking
+  - Senior Product Manager, Storage
 
-## 17. SoFi — 56/100 · 3 roles
-- **Score:** profile 30/35 · aspiration 16/35 · access 4/15 · relevant openings 6/15
-- **About:** Consumer fintech and bank.
-- **Comp:** $180K–$330K (posted on 3 of 3)
+## 17. JPMorganChase — 61/100 · 3 roles
+- **Score:** profile 32/40 · aspiration 16/40 · relevant openings 13/20
+- **About:** Bank.
+- **Comp:** $133K–$215K (posted on 3 of 3)
 - **Draft target-list rank:** —
-- **Fit: Strong.** Consumer and commercial credit match your Amazon credit work; Principal roles post $192K–$330K.
+- **Fit: Moderate.** Agent Services, Agent Core and Agent Building Blocks are agent-platform roles at a financial company, a strong topic fit, but TPM level at $133K–$215K is well below your current $400K.
 - **Titles:**
-  - Principal Product Manager — $240K–$330K
-  - Senior Product Manager — $180K–$247.5K
-  - Principal Product Manager, Commercial Banking — $192K–$330K
+  - Agent Services Technical Product Manager — $133K–$215K
+  - Agent Core Technical Product Manager — $133K–$215K
+  - Agent Building Blocks Technical Product Manager — $133K–$215K
 
-## 18. Storable — 55/100 · 2 roles
-- **Score:** profile 26/35 · aspiration 23/35 · access 0/15 · relevant openings 6/15
-- **About:** Software for self-storage operators.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Good.** Principal PM, AI Agents & Automation and APIs, MCP & Developer Platform are agent-platform roles.
-- **Titles:**
-  - Principal PM, AI Agents & Automation
-  - Principal PM, APIs, MCP & Developer Platform
-
-## 19. T-Mobile — 54/100 · 9 roles
-- **Score:** profile 20/35 · aspiration 15/35 · access 4/15 · relevant openings 15/15
+## 18. T-Mobile — 60/100 · 9 roles
+- **Score:** profile 23/40 · aspiration 17/40 · relevant openings 20/20
 - **About:** US wireless carrier.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -261,8 +252,31 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Sr Product Manager, Internet Wi-Fi Management
   - Product Manager – Experience Management (XM)
 
-## 20. DigitalOcean — 54/100 · 2 roles
-- **Score:** profile 24/35 · aspiration 23/35 · access 4/15 · relevant openings 3/15
+## 19. SoFi — 60/100 · 3 roles
+- **Score:** profile 34/40 · aspiration 18/40 · relevant openings 8/20
+- **About:** Consumer fintech and bank.
+- **Comp:** $180K–$330K (posted on 3 of 3)
+- **Draft target-list rank:** —
+- **Fit: Strong.** Consumer and commercial credit match your Amazon credit work; Principal roles post $192K–$330K.
+- **Titles:**
+  - Principal Product Manager — $240K–$330K
+  - Senior Product Manager — $180K–$247.5K
+  - Principal Product Manager, Commercial Banking — $192K–$330K
+
+## 20. Docusign — 58/100 · 4 roles
+- **Score:** profile 29/40 · aspiration 21/40 · relevant openings 8/20
+- **About:** E-signature and agreement management.
+- **Comp:** Not posted
+- **Draft target-list rank:** #58
+- **Fit: Good.** Procurement Agentic Experiences combines agents with procurement (supply chain); Conversational AI fits agent work. 4 connections.
+- **Titles:**
+  - Lead PM - Procurement Agentic Experiences
+  - Lead PM, Product-Led Growth (Onboarding & Adoption)
+  - Sr PM, Conversational AI and Agentic Experiences
+  - Sr. Product Manager - Core Services Platform
+
+## 21. DigitalOcean — 57/100 · 2 roles
+- **Score:** profile 27/40 · aspiration 26/40 · relevant openings 4/20
 - **About:** Developer cloud.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -271,8 +285,87 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Principal PM, Agentic AI Infrastructure
   - Staff Product Manager, Compute Platform
 
-## 21. Walmart — 53/100 · 6 roles
-- **Score:** profile 20/35 · aspiration 12/35 · access 11/15 · relevant openings 10/15
+## 22. Capgemini Invent — 56/100 · 2 roles
+- **Score:** profile 27/40 · aspiration 21/40 · relevant openings 8/20
+- **About:** Consulting firm.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Good.** Agentic Product Lead and Contact Center AI build agents for clients; your client-facing agent work at Keystone and Cognizant pre-sales fit directly.
+- **Titles:**
+  - AI Factory / Agentic Product Lead - Managing Consultant
+  - Customer AI Product Manager - Contact Center AI
+
+## 23. Weyerhaeuser — 56/100 · 1 role
+- **Score:** profile 27/40 · aspiration 25/40 · relevant openings 4/20
+- **About:** Timberland and wood products.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Good.** Principal PM, Enterprise AI builds internal AI for operations, like your Keystone enterprise agents.
+- **Titles:**
+  - Principal Product Manager, Enterprise AI
+
+## 24. Amperity — 55/100 · 1 role
+- **Score:** profile 25/40 · aspiration 26/40 · relevant openings 4/20
+- **About:** Customer data platform.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Good.** Principal Product Builder, AI & Agentic Products fits agent work.
+- **Titles:**
+  - Principal Product Builder - AI & Agentic Products
+
+## 25. Talkdesk — 55/100 · 1 role
+- **Score:** profile 25/40 · aspiration 26/40 · relevant openings 4/20
+- **About:** AI contact-center software.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Good.** Principal PM, AI fits enterprise AI agents.
+- **Titles:**
+  - Principal Product Manager - AI
+
+## 26. Temporal Technologies — 55/100 · 1 role
+- **Score:** profile 27/40 · aspiration 24/40 · relevant openings 4/20
+- **About:** Durable execution for workflows and AI agents.
+- **Comp:** $160K–$262.5K
+- **Draft target-list rank:** —
+- **Fit: Good.** Agent infrastructure and workflow reliability; your agent-vs-deterministic-workflow story (S1) fits.
+- **Titles:**
+  - Staff Product Manager, Nexus — $160K–$262.5K
+
+## 27. Rippling — 53/100 · 3 roles
+- **Score:** profile 27/40 · aspiration 18/40 · relevant openings 8/20
+- **About:** HR, payroll and IT platform.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Good.** Data Catalog matches your data catalog + semantic layer work (K6); Workflow Studio matches workflow automation.
+- **Titles:**
+  - Product Lead, IT
+  - Lead Product Manager - Data Catalog
+  - Product Lead, Workflow Studio
+
+## 28. CrowdStrike — 51/100 · 5 roles
+- **Score:** profile 17/40 · aspiration 26/40 · relevant openings 8/20
+- **About:** Cybersecurity platform.
+- **Comp:** Not posted
+- **Draft target-list rank:** #12
+- **Fit: Moderate.** Active target. Red Teaming AI (AIDR) connects to your action-safety evals; other roles need security-domain depth you don't have yet. You built a job-search system with 10/10 recall on CrowdStrike's job board.
+- **Titles:**
+  - Principal Product Manager, Exposure Management
+  - Principal PM - Threat Detection Engine and Content
+  - Sr. Product Manager, Next-Gen SIEM
+  - Sr. Product Manager, Red Teaming AI – AIDR
+  - Sr. Product Manager - Falcon Sensor
+
+## 29. Mastercard — 51/100 · 1 role
+- **Score:** profile 29/40 · aspiration 18/40 · relevant openings 4/20
+- **About:** Card network and payments.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Good.** Director-level payments role; fits your credit and payments work. 2 connections.
+- **Titles:**
+  - Director, Product Management
+
+## 30. Walmart — 50/100 · 6 roles
+- **Score:** profile 23/40 · aspiration 14/40 · relevant openings 13/20
 - **About:** Retailer; large Bellevue tech office.
 - **Comp:** $132K–$312K (posted on 6 of 6)
 - **Draft target-list rank:** —
@@ -285,148 +378,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - (USA) Principal, Platform Product Manager — $132K–$264K
   - (USA) Distinguished, Product Manager — $156K–$312K
 
-## 22. CoreWeave (incl. Weights & Biases) — 52/100 · 6 roles
-- **Score:** profile 22/35 · aspiration 20/35 · access 0/15 · relevant openings 10/15
-- **About:** GPU cloud for AI; owns Weights & Biases.
-- **Comp:** Not posted
-- **Draft target-list rank:** #25
-- **Fit: Good.** W&B Models and Training Infrastructure overlap with your MLOps platform (experiment tracking, versioning, deployment). Staff (at your level) and Senior.
-- **Titles:**
-  - Staff PM, AI Inference
-  - Staff PM, Training Infrastructure - Weights & Biases
-  - Staff PM - Containers & Kubernetes
-  - Senior Product Manager, W&B Models
-  - Staff Product Manager, Networking
-  - Senior Product Manager, Storage
-
-## 23. Capgemini Invent — 52/100 · 2 roles
-- **Score:** profile 24/35 · aspiration 18/35 · access 4/15 · relevant openings 6/15
-- **About:** Consulting firm.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Good.** Agentic Product Lead and Contact Center AI build agents for clients; your client-facing agent work at Keystone and Cognizant pre-sales fit directly.
-- **Titles:**
-  - AI Factory / Agentic Product Lead - Managing Consultant
-  - Customer AI Product Manager - Contact Center AI
-
-## 24. Rippling — 50/100 · 3 roles
-- **Score:** profile 24/35 · aspiration 16/35 · access 4/15 · relevant openings 6/15
-- **About:** HR, payroll and IT platform.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Good.** Data Catalog matches your data catalog + semantic layer work (K6); Workflow Studio matches workflow automation.
-- **Titles:**
-  - Product Lead, IT
-  - Lead Product Manager - Data Catalog
-  - Product Lead, Workflow Studio
-
-## 25. Cisco — 50/100 · 2 roles
-- **Score:** profile 18/35 · aspiration 18/35 · access 11/15 · relevant openings 3/15
-- **About:** Networking and security.
-- **Comp:** Not posted
-- **Draft target-list rank:** #50
-- **Fit: Moderate.** AI Knowledge Graph fits your semantic layer for agent grounding (K6). 16 connections.
-- **Titles:**
-  - Engineering Product Manager, Cloud Control Studio
-  - Senior Staff PM, AI Knowledge Graph & Intelligence
-
-## 26. Remitly — 49/100 · 4 roles
-- **Score:** profile 18/35 · aspiration 14/35 · access 7/15 · relevant openings 10/15
-- **About:** Cross-border money transfer.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Moderate.** Transaction Platform and Remitly Business fit payments; Conversational Experiences fits agents. 5 connections.
-- **Titles:**
-  - Senior PM, Conversational Experiences
-  - Principal Product Manager, Remitly Business
-  - Senior Product Manager, Transaction Platform
-  - Senior Product Manager, Post Submit Experience
-
-## 27. Atlassian — 49/100 · 3 roles
-- **Score:** profile 18/35 · aspiration 18/35 · access 7/15 · relevant openings 6/15
-- **About:** Jira, Confluence; Rovo AI agents.
-- **Comp:** Not posted
-- **Draft target-list rank:** #46
-- **Fit: Moderate.** Rovo is an agent product. Remote. 5 connections.
-- **Titles:**
-  - Principal Outbound PM, Service Collection
-  - Product Manager, Rovo
-  - Product Manager, Atlassian Government Cloud
-
-## 28. Weyerhaeuser — 49/100 · 1 role
-- **Score:** profile 24/35 · aspiration 22/35 · access 0/15 · relevant openings 3/15
-- **About:** Timberland and wood products.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Good.** Principal PM, Enterprise AI builds internal AI for operations, like your Keystone enterprise agents.
-- **Titles:**
-  - Principal Product Manager, Enterprise AI
-
-## 29. Adobe — 48/100 · 1 role
-- **Score:** profile 10/35 · aspiration 20/35 · access 15/15 · relevant openings 3/15
-- **About:** Creative and document software.
-- **Comp:** Not posted
-- **Draft target-list rank:** #11
-- **Fit: Moderate.** Active target (41/41 job-board recall in your search system); Adobe Express is a consumer product. 35 connections.
-- **Titles:**
-  - Principal Product Manager, Adobe Express
-
-## 30. Amperity — 48/100 · 1 role
-- **Score:** profile 22/35 · aspiration 23/35 · access 0/15 · relevant openings 3/15
-- **About:** Customer data platform.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Good.** Principal Product Builder, AI & Agentic Products fits agent work.
-- **Titles:**
-  - Principal Product Builder - AI & Agentic Products
-
-## 31. Mastercard — 48/100 · 1 role
-- **Score:** profile 25/35 · aspiration 16/35 · access 4/15 · relevant openings 3/15
-- **About:** Card network and payments.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Good.** Director-level payments role; fits your credit and payments work. 2 connections.
-- **Titles:**
-  - Director, Product Management
-
-## 32. Talkdesk — 48/100 · 1 role
-- **Score:** profile 22/35 · aspiration 23/35 · access 0/15 · relevant openings 3/15
-- **About:** AI contact-center software.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Good.** Principal PM, AI fits enterprise AI agents.
-- **Titles:**
-  - Principal Product Manager - AI
-
-## 33. Temporal Technologies — 48/100 · 1 role
-- **Score:** profile 24/35 · aspiration 21/35 · access 0/15 · relevant openings 3/15
-- **About:** Durable execution for workflows and AI agents.
-- **Comp:** $160K–$262.5K
-- **Draft target-list rank:** —
-- **Fit: Good.** Agent infrastructure and workflow reliability; your agent-vs-deterministic-workflow story (S1) fits.
-- **Titles:**
-  - Staff Product Manager, Nexus — $160K–$262.5K
-
-## 34. Metropolis Technologies — 47/100 · 1 role
-- **Score:** profile 24/35 · aspiration 16/35 · access 4/15 · relevant openings 3/15
-- **About:** Computer-vision parking and payments.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Good.** Director of Product, Payments fits payments.
-- **Titles:**
-  - Director of Product, Payments
-
-## 35. Microsoft AI (MAI) — 47/100 · 1 role
-- **Score:** profile 15/35 · aspiration 22/35 · access 7/15 · relevant openings 3/15
-- **About:** Microsoft's consumer AI division (Copilot, MAI models).
-- **Comp:** Not posted
-- **Draft target-list rank:** — (part of Microsoft #4)
-- **Fit: Moderate.** Consumer AI rather than enterprise; 5 connections.
-- **Titles:**
-  - Senior Product Manager
-
-## 36. Lambda — 46/100 · 5 roles
-- **Score:** profile 12/35 · aspiration 20/35 · access 4/15 · relevant openings 10/15
+## 31. Lambda — 50/100 · 5 roles
+- **Score:** profile 14/40 · aspiration 23/40 · relevant openings 13/20
 - **About:** GPU cloud for AI training and inference.
 - **Comp:** $291K–$500K (posted on 5 of 5)
 - **Draft target-list rank:** —
@@ -438,8 +391,49 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Staff Product Manager - Storage & Networking — $291K–$430K
   - Principal PM - Nvidia Technology Partnerships — $338K–$500K
 
-## 37. Whatnot — 45/100 · 3 roles
-- **Score:** profile 25/35 · aspiration 10/35 · access 4/15 · relevant openings 6/15
+## 32. Remitly — 50/100 · 4 roles
+- **Score:** profile 21/40 · aspiration 16/40 · relevant openings 13/20
+- **About:** Cross-border money transfer.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Moderate.** Transaction Platform and Remitly Business fit payments; Conversational Experiences fits agents. 5 connections.
+- **Titles:**
+  - Senior PM, Conversational Experiences
+  - Principal Product Manager, Remitly Business
+  - Senior Product Manager, Transaction Platform
+  - Senior Product Manager, Post Submit Experience
+
+## 33. Atlassian — 50/100 · 3 roles
+- **Score:** profile 21/40 · aspiration 21/40 · relevant openings 8/20
+- **About:** Jira, Confluence; Rovo AI agents.
+- **Comp:** Not posted
+- **Draft target-list rank:** #46
+- **Fit: Moderate.** Rovo is an agent product. Remote. 5 connections.
+- **Titles:**
+  - Principal Outbound PM, Service Collection
+  - Product Manager, Rovo
+  - Product Manager, Atlassian Government Cloud
+
+## 34. Metropolis Technologies — 49/100 · 1 role
+- **Score:** profile 27/40 · aspiration 18/40 · relevant openings 4/20
+- **About:** Computer-vision parking and payments.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Good.** Director of Product, Payments fits payments.
+- **Titles:**
+  - Director of Product, Payments
+
+## 35. Possible — 49/100 · 1 role
+- **Score:** profile 34/40 · aspiration 11/40 · relevant openings 4/20
+- **About:** Small-dollar loans and credit building.
+- **Comp:** $202.3K–$238K
+- **Draft target-list rank:** —
+- **Fit: Strong.** Loan and Advance is consumer lending, your Amazon credit domain. Posting is a month old.
+- **Titles:**
+  - Product Lead, Loan and Advance — $202.3K–$238K
+
+## 36. Whatnot — 48/100 · 3 roles
+- **Score:** profile 29/40 · aspiration 11/40 · relevant openings 8/20
 - **About:** Live-shopping marketplace.
 - **Comp:** $240K–$405K (posted on 3 of 3)
 - **Draft target-list rank:** —
@@ -449,8 +443,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Product Manager, Logistics — $250K–$405K
   - Product Manager, Payments — $240K–$344K
 
-## 38. NVIDIA — 45/100 · 2 roles
-- **Score:** profile 12/35 · aspiration 26/35 · access 4/15 · relevant openings 3/15
+## 37. NVIDIA — 48/100 · 2 roles
+- **Score:** profile 14/40 · aspiration 30/40 · relevant openings 4/20
 - **About:** AI chips and DGX Cloud.
 - **Comp:** Not posted
 - **Draft target-list rank:** #10
@@ -459,21 +453,37 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Principal PM - DSX and DGXC Storage
   - Senior PM, AI Software Defined Networking
 
-## 39. CrowdStrike — 44/100 · 5 roles
-- **Score:** profile 15/35 · aspiration 23/35 · access 0/15 · relevant openings 6/15
-- **About:** Cybersecurity platform.
+## 38. Cisco — 46/100 · 2 roles
+- **Score:** profile 21/40 · aspiration 21/40 · relevant openings 4/20
+- **About:** Networking and security.
 - **Comp:** Not posted
-- **Draft target-list rank:** #12
-- **Fit: Moderate.** Active target. Red Teaming AI (AIDR) connects to your action-safety evals; other roles need security-domain depth you don't have yet. You built a job-search system with 10/10 recall on CrowdStrike's job board.
+- **Draft target-list rank:** #50
+- **Fit: Moderate.** AI Knowledge Graph fits your semantic layer for agent grounding (K6). 16 connections.
 - **Titles:**
-  - Principal Product Manager, Exposure Management
-  - Principal PM - Threat Detection Engine and Content
-  - Sr. Product Manager, Next-Gen SIEM
-  - Sr. Product Manager, Red Teaming AI – AIDR
-  - Sr. Product Manager - Falcon Sensor
+  - Engineering Product Manager, Cloud Control Studio
+  - Senior Staff PM, AI Knowledge Graph & Intelligence
 
-## 40. Okta — 43/100 · 4 roles
-- **Score:** profile 20/35 · aspiration 16/35 · access 4/15 · relevant openings 3/15
+## 39. EY-Parthenon — 46/100 · 2 roles
+- **Score:** profile 21/40 · aspiration 21/40 · relevant openings 4/20
+- **About:** EY's strategy arm; builds its own AI products.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Moderate.** Director-level product role building EY's own AI products; client-facing culture suits your Keystone background.
+- **Titles:**
+  - Growth Platforms - Product Manager - Director
+  - Growth Platforms - Neuro-symbolic AI - Business - Director
+
+## 40. Microsoft AI (MAI) — 46/100 · 1 role
+- **Score:** profile 17/40 · aspiration 25/40 · relevant openings 4/20
+- **About:** Microsoft's consumer AI division (Copilot, MAI models).
+- **Comp:** Not posted
+- **Draft target-list rank:** — (part of Microsoft #4)
+- **Fit: Moderate.** Consumer AI rather than enterprise; 5 connections.
+- **Titles:**
+  - Senior Product Manager
+
+## 41. Okta — 45/100 · 4 roles
+- **Score:** profile 23/40 · aspiration 18/40 · relevant openings 4/20
 - **About:** Identity and access management.
 - **Comp:** Not posted
 - **Draft target-list rank:** #57
@@ -484,27 +494,17 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Senior Product Manager - Auth0
   - Senior Product Manager - Policies
 
-## 41. EY-Parthenon — 43/100 · 2 roles
-- **Score:** profile 18/35 · aspiration 18/35 · access 4/15 · relevant openings 3/15
-- **About:** EY's strategy arm; builds its own AI products.
+## 42. SentiLink — 45/100 · 1 role
+- **Score:** profile 25/40 · aspiration 16/40 · relevant openings 4/20
+- **About:** Identity-fraud detection for lenders.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
-- **Fit: Moderate.** Director-level product role building EY's own AI products; client-facing culture suits your Keystone background.
+- **Fit: Good.** Prefill fills verified identity into credit applications, close to your credit onboarding work.
 - **Titles:**
-  - Growth Platforms - Product Manager - Director
-  - Growth Platforms - Neuro-symbolic AI - Business - Director
+  - Product Leader, Prefill
 
-## 42. Possible — 43/100 · 1 role
-- **Score:** profile 30/35 · aspiration 10/35 · access 0/15 · relevant openings 3/15
-- **About:** Small-dollar loans and credit building.
-- **Comp:** $202.3K–$238K
-- **Draft target-list rank:** —
-- **Fit: Strong.** Loan and Advance is consumer lending, your Amazon credit domain. Posting is a month old.
-- **Titles:**
-  - Product Lead, Loan and Advance — $202.3K–$238K
-
-## 43. Spring Health — 43/100 · 1 role
-- **Score:** profile 20/35 · aspiration 16/35 · access 4/15 · relevant openings 3/15
+## 43. Spring Health — 45/100 · 1 role
+- **Score:** profile 23/40 · aspiration 18/40 · relevant openings 4/20
 - **About:** Mental-health benefits.
 - **Comp:** $182K–$243K
 - **Draft target-list rank:** —
@@ -512,8 +512,30 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Lead PM, AI Safety and Platform — $182K–$243K
 
-## 44. Oracle — 41/100 · 6 roles
-- **Score:** profile 12/35 · aspiration 16/35 · access 7/15 · relevant openings 6/15
+## 44. Outreach — 43/100 · 1 role
+- **Score:** profile 18/40 · aspiration 21/40 · relevant openings 4/20
+- **About:** Sales engagement platform.
+- **Comp:** $210K–$260K
+- **Draft target-list rank:** —
+- **Fit: Moderate.** Director, Conversational Intelligence is AI on sales calls.
+- **Titles:**
+  - Director, PM – Conversational Intelligence — $210K–$260K
+
+## 45. Pinterest — 41/100 · 5 roles
+- **Score:** profile 17/40 · aspiration 16/40 · relevant openings 8/20
+- **About:** Visual discovery and shopping platform.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Moderate.** Ads Quality Ranking and Content-to-Discovery are ML products; trust-and-safety roles are outside your domain. Remote options.
+- **Titles:**
+  - Sr. Staff PM, Adversarial Actors
+  - Sr. Staff PM, Ads Quality Ranking
+  - Staff PM, Ads Quality Ranking
+  - Staff PM, Content-to-Discovery Infrastructure
+  - Product Manager II, Content Compliance
+
+## 46. Oracle — 40/100 · 6 roles
+- **Score:** profile 14/40 · aspiration 18/40 · relevant openings 8/20
 - **About:** Database, Oracle Cloud Infrastructure, enterprise apps.
 - **Comp:** Not posted
 - **Draft target-list rank:** #34
@@ -526,8 +548,62 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Principal Product Manager
   - Principal Product Manager
 
-## 45. TikTok — 40/100 · 11 roles
-- **Score:** profile 15/35 · aspiration 8/35 · access 11/15 · relevant openings 6/15
+## 47. DAT Freight & Analytics — 40/100 · 1 role
+- **Score:** profile 27/40 · aspiration 9/40 · relevant openings 4/20
+- **About:** Truckload freight marketplace and rate analytics.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Good.** Freight and shipping cost fits your supply-chain work (TRACE).
+- **Titles:**
+  - Staff Product Manager
+
+## 48. KPMG US — 40/100 · 1 role
+- **Score:** profile 18/40 · aspiration 18/40 · relevant openings 4/20
+- **About:** Big Four firm.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Moderate.** Director, Growth Technology Platforms; 6 school alumni.
+- **Titles:**
+  - Director, Growth Technology Platforms
+
+## 49. Adobe — 38/100 · 1 role
+- **Score:** profile 11/40 · aspiration 23/40 · relevant openings 4/20
+- **About:** Creative and document software.
+- **Comp:** Not posted
+- **Draft target-list rank:** #11
+- **Fit: Moderate.** Active target (41/41 job-board recall in your search system); Adobe Express is a consumer product. 35 connections.
+- **Titles:**
+  - Principal Product Manager, Adobe Express
+
+## 50. Crusoe — 38/100 · 1 role
+- **Score:** profile 18/40 · aspiration 16/40 · relevant openings 4/20
+- **About:** AI cloud and data centers.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Moderate.** Orchestration of AI workloads relates to your MLOps platform.
+- **Titles:**
+  - Senior Product Manager, Orchestration
+
+## 51. PwC — 36/100 · 1 role
+- **Score:** profile 18/40 · aspiration 14/40 · relevant openings 4/20
+- **About:** Big Four firm.
+- **Comp:** Not posted
+- **Draft target-list rank:** —
+- **Fit: Moderate.** CTIO product role; 3 connections.
+- **Titles:**
+  - CTIO - Product Manager
+
+## 52. Socure — 36/100 · 1 role
+- **Score:** profile 23/40 · aspiration 9/40 · relevant openings 4/20
+- **About:** Identity verification and fraud for banks.
+- **Comp:** $179K–$210K
+- **Draft target-list rank:** —
+- **Fit: Good.** Fraud and KYC sit next to your credit-risk work; $179K–$210K is below your level.
+- **Titles:**
+  - Senior Product Manager, Identity Products — $179K–$210K
+
+## 53. TikTok — 34/100 · 11 roles
+- **Score:** profile 17/40 · aspiration 9/40 · relevant openings 8/20
 - **About:** Short-video app plus TikTok Shop e-commerce.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -545,84 +621,72 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Product Manager - Anti-Fraud Strategy
   - PM, LLM Evaluation & User Insight (E-Commerce Recommendations)
 
-## 46. Pinterest — 39/100 · 5 roles
-- **Score:** profile 15/35 · aspiration 14/35 · access 4/15 · relevant openings 6/15
-- **About:** Visual discovery and shopping platform.
+## 54. LVT (LiveView Technologies) — 34/100 · 1 role
+- **Score:** profile 14/40 · aspiration 16/40 · relevant openings 4/20
+- **About:** Mobile security cameras and video analytics.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
-- **Fit: Moderate.** Ads Quality Ranking and Content-to-Discovery are ML products; trust-and-safety roles are outside your domain. Remote options.
+- **Fit: Moderate.** Sr Director, Intelligence is senior; domain is video AI.
 - **Titles:**
-  - Sr. Staff PM, Adversarial Actors
-  - Sr. Staff PM, Ads Quality Ranking
-  - Staff PM, Ads Quality Ranking
-  - Staff PM, Content-to-Discovery Infrastructure
-  - Product Manager II, Content Compliance
+  - Senior Director, PM - Intelligence
 
-## 47. KPMG US — 39/100 · 1 role
-- **Score:** profile 16/35 · aspiration 16/35 · access 4/15 · relevant openings 3/15
-- **About:** Big Four firm.
+## 55. Pulumi — 31/100 · 1 role
+- **Score:** profile 16/40 · aspiration 11/40 · relevant openings 4/20
+- **About:** Infrastructure-as-code.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
-- **Fit: Moderate.** Director, Growth Technology Platforms; 6 school alumni.
+- **Fit: Moderate.** You've used Pulumi at Keystone; developer-infrastructure product.
 - **Titles:**
-  - Director, Growth Technology Platforms
+  - Senior/Principal PM, IaC Cloud
 
-## 48. SentiLink — 39/100 · 1 role
-- **Score:** profile 22/35 · aspiration 14/35 · access 0/15 · relevant openings 3/15
-- **About:** Identity-fraud detection for lenders.
+## 56. Chewy — 29/100 · 1 role
+- **Score:** profile 14/40 · aspiration 11/40 · relevant openings 4/20
+- **About:** Online pet retailer.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
-- **Fit: Good.** Prefill fills verified identity into credit applications, close to your credit onboarding work.
+- **Fit: Moderate.** Associate Director, Emerging Customer Experiences; 7 connections.
 - **Titles:**
-  - Product Leader, Prefill
+  - Associate Director, PM – Emerging Customer Experiences
 
-## 49. Crusoe — 37/100 · 1 role
-- **Score:** profile 16/35 · aspiration 14/35 · access 4/15 · relevant openings 3/15
-- **About:** AI cloud and data centers.
+## 57. Riot Games — 29/100 · 1 role
+- **Score:** profile 14/40 · aspiration 11/40 · relevant openings 4/20
+- **About:** Game studio (League of Legends).
 - **Comp:** Not posted
 - **Draft target-list rank:** —
-- **Fit: Moderate.** Orchestration of AI workloads relates to your MLOps platform.
+- **Fit: Moderate.** Director, Commerce touches payments.
 - **Titles:**
-  - Senior Product Manager, Orchestration
+  - Director, Technical Product Management: Commerce
 
-## 50. Outreach — 37/100 · 1 role
-- **Score:** profile 16/35 · aspiration 18/35 · access 0/15 · relevant openings 3/15
-- **About:** Sales engagement platform.
-- **Comp:** $210K–$260K
-- **Draft target-list rank:** —
-- **Fit: Moderate.** Director, Conversational Intelligence is AI on sales calls.
-- **Titles:**
-  - Director, PM – Conversational Intelligence — $210K–$260K
-
-## 51. DAT Freight & Analytics — 35/100 · 1 role
-- **Score:** profile 24/35 · aspiration 8/35 · access 0/15 · relevant openings 3/15
-- **About:** Truckload freight marketplace and rate analytics.
+## 58. Siemens Digital Industries Software — 29/100 · 1 role
+- **Score:** profile 14/40 · aspiration 11/40 · relevant openings 4/20
+- **About:** Industrial design and simulation software.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
-- **Fit: Good.** Freight and shipping cost fits your supply-chain work (TRACE).
+- **Fit: Moderate.** Data & AI Services; 11 school alumni.
 - **Titles:**
-  - Staff Product Manager
+  - Senior PM - Data & AI Services
 
-## 52. PwC — 35/100 · 1 role
-- **Score:** profile 16/35 · aspiration 12/35 · access 4/15 · relevant openings 3/15
-- **About:** Big Four firm.
-- **Comp:** Not posted
+## 59. AMD — 27/100 · 2 roles
+- **Score:** profile 7/40 · aspiration 16/40 · relevant openings 4/20
+- **About:** Chipmaker (CPUs, GPUs, ROCm AI software).
+- **Comp:** $205.7K–$396K (posted on 2 of 2)
 - **Draft target-list rank:** —
-- **Fit: Moderate.** CTIO product role; 3 connections.
+- **Fit: Weak.** Chips are outside your domain, but the Sr Director role pays $264K–$396K and 53 school alumni work there.
 - **Titles:**
-  - CTIO - Product Manager
+  - Sr. Manager, Product Management - ROCm AI — $205.7K–$308.5K
+  - Sr. Director, Product Management — $264K–$396K
 
-## 53. Socure — 35/100 · 1 role
-- **Score:** profile 20/35 · aspiration 8/35 · access 4/15 · relevant openings 3/15
-- **About:** Identity verification and fraud for banks.
-- **Comp:** $179K–$210K
+## 60. REI — 27/100 · 1 role
+- **Score:** profile 14/40 · aspiration 9/40 · relevant openings 4/20
+- **About:** Outdoor retail co-op.
+- **Comp:** $144K–$244.8K
 - **Draft target-list rank:** —
-- **Fit: Good.** Fraud and KYC sit next to your credit-risk work; $179K–$210K is below your level.
+- **Fit: Moderate.** Senior Manager, Platform PM; remote.
 - **Titles:**
-  - Senior Product Manager, Identity Products — $179K–$210K
+  - Senior Manager, Platform Product Management — $144K–$244.8K
 
-## 54. Uber — 34/100 · 3 roles
-- **Score:** profile 10/35 · aspiration 10/35 · access 11/15 · relevant openings 3/15
+## 61. Uber — 26/100 · 3 roles
+- **Score:** profile 11/40 · aspiration 11/40 · relevant openings 4/20
 - **About:** Rides and delivery.
 - **Comp:** Not posted
 - **Draft target-list rank:** #43
@@ -632,35 +696,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Lead Product Manager - Catalog
   - Lead PM, Autonomous Vehicle Integrations
 
-## 55. Chewy — 32/100 · 1 role
-- **Score:** profile 12/35 · aspiration 10/35 · access 7/15 · relevant openings 3/15
-- **About:** Online pet retailer.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Moderate.** Associate Director, Emerging Customer Experiences; 7 connections.
-- **Titles:**
-  - Associate Director, PM – Emerging Customer Experiences
-
-## 56. LVT (LiveView Technologies) — 29/100 · 1 role
-- **Score:** profile 12/35 · aspiration 14/35 · access 0/15 · relevant openings 3/15
-- **About:** Mobile security cameras and video analytics.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Moderate.** Sr Director, Intelligence is senior; domain is video AI.
-- **Titles:**
-  - Senior Director, PM - Intelligence
-
-## 57. Siemens Digital Industries Software — 29/100 · 1 role
-- **Score:** profile 12/35 · aspiration 10/35 · access 4/15 · relevant openings 3/15
-- **About:** Industrial design and simulation software.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Moderate.** Data & AI Services; 11 school alumni.
-- **Titles:**
-  - Senior PM - Data & AI Services
-
-## 58. DoorDash — 28/100 · 1 role
-- **Score:** profile 10/35 · aspiration 8/35 · access 7/15 · relevant openings 3/15
+## 62. DoorDash — 24/100 · 1 role
+- **Score:** profile 11/40 · aspiration 9/40 · relevant openings 4/20
 - **About:** Delivery marketplace.
 - **Comp:** Not posted
 - **Draft target-list rank:** #44
@@ -668,27 +705,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Product Manager (Multiple Levels)
 
-## 59. AMD — 27/100 · 2 roles
-- **Score:** profile 6/35 · aspiration 14/35 · access 4/15 · relevant openings 3/15
-- **About:** Chipmaker (CPUs, GPUs, ROCm AI software).
-- **Comp:** $205.7K–$396K (posted on 2 of 2)
-- **Draft target-list rank:** —
-- **Fit: Weak.** Chips are outside your domain, but the Sr Director role pays $264K–$396K and 53 school alumni work there.
-- **Titles:**
-  - Sr. Manager, Product Management - ROCm AI — $205.7K–$308.5K
-  - Sr. Director, Product Management — $264K–$396K
-
-## 60. Pulumi — 27/100 · 1 role
-- **Score:** profile 14/35 · aspiration 10/35 · access 0/15 · relevant openings 3/15
-- **About:** Infrastructure-as-code.
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Moderate.** You've used Pulumi at Keystone; developer-infrastructure product.
-- **Titles:**
-  - Senior/Principal PM, IaC Cloud
-
-## 61. Marsh — 25/100 · 1 role
-- **Score:** profile 10/35 · aspiration 8/35 · access 4/15 · relevant openings 3/15
+## 63. Marsh — 24/100 · 1 role
+- **Score:** profile 11/40 · aspiration 9/40 · relevant openings 4/20
 - **About:** Insurance broker.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -696,26 +714,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Product Leader, Data and Digital
 
-## 62. Riot Games — 25/100 · 1 role
-- **Score:** profile 12/35 · aspiration 10/35 · access 0/15 · relevant openings 3/15
-- **About:** Game studio (League of Legends).
-- **Comp:** Not posted
-- **Draft target-list rank:** —
-- **Fit: Moderate.** Director, Commerce touches payments.
-- **Titles:**
-  - Director, Technical Product Management: Commerce
-
-## 63. REI — 23/100 · 1 role
-- **Score:** profile 12/35 · aspiration 8/35 · access 0/15 · relevant openings 3/15
-- **About:** Outdoor retail co-op.
-- **Comp:** $144K–$244.8K
-- **Draft target-list rank:** —
-- **Fit: Moderate.** Senior Manager, Platform PM; remote.
-- **Titles:**
-  - Senior Manager, Platform Product Management — $144K–$244.8K
-
-## 64. Circle — 19/100 · 2 roles
-- **Score:** profile 12/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 64. Circle — 23/100 · 2 roles
+- **Score:** profile 14/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** USDC stablecoin issuer.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -724,8 +724,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Principal Product Manager, Arc Consumer
   - Principal Product Manager, Onboarding
 
-## 65. Axon — 12/100 · 4 roles
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 65. Axon — 15/100 · 4 roles
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Tasers, body cameras, police evidence software.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -736,8 +736,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Senior Product Manager, Software
   - Senior Product Manager II - Body Worn Cameras
 
-## 66. Blue Origin — 12/100 · 4 roles
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 66. Blue Origin — 15/100 · 4 roles
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Space company (rockets, lunar lander).
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -748,8 +748,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Technical Product Manager III
   - AI & Automation Technical Product Manager
 
-## 67. Nordstrom — 12/100 · 4 roles
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 67. Nordstrom — 15/100 · 4 roles
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Fashion retailer.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -760,8 +760,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Product Manager 2 — Customer Data Platform & Marketing Technology
   - Product Manager 2 - Customer Care Experience
 
-## 68. eBay — 12/100 · 3 roles
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 68. eBay — 15/100 · 3 roles
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Online marketplace.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -771,8 +771,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Sr. PM–T, Offers & Marketplace Conversion
   - Sr. Product Manager, CRM Communications
 
-## 69. Netflix — 12/100 · 3 roles
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 69. Netflix — 15/100 · 3 roles
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Streaming.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -782,8 +782,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Product Manager, Ads (Live Ad Serving)
   - PM, Ads Platform - Experimentation & Incrementality Measurement
 
-## 70. Snap Inc. — 12/100 · 3 roles
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 70. Snap Inc. — 15/100 · 3 roles
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Snapchat.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -793,8 +793,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Staff Product Manager, Ad Marketplace Growth
   - Product Manager, Safety and Law Enforcement
 
-## 71. Instagram (Meta) — 12/100 · 2 roles
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 71. Instagram (Meta) — 15/100 · 2 roles
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Meta's photo and video app.
 - **Comp:** $146K–$204K (posted on 2 of 2)
 - **Draft target-list rank:** —
@@ -803,8 +803,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Product Manager — $146K–$204K
   - Product Manager — $146K–$204K
 
-## 72. PEMCO — 12/100 · 2 roles
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 72. PEMCO — 15/100 · 2 roles
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Northwest insurer.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -813,8 +813,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Digital Product Manager
   - Senior Product Manager
 
-## 73. The Trade Desk — 12/100 · 2 roles
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 73. The Trade Desk — 15/100 · 2 roles
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Ad-buying platform.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -823,8 +823,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Staff Product Manager, Generalist
   - Staff PM, Data Flows and Governance
 
-## 74. Unity — 12/100 · 2 roles
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 74. Unity — 15/100 · 2 roles
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Game engine and mobile ads.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -833,8 +833,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Principal Product Manager, LevelPlay
   - Staff Product Manager, Vector
 
-## 75. Alaska Airlines — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 75. Alaska Airlines — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Airline.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -842,8 +842,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Principal Mobile PM
 
-## 76. Anduril Industries — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 76. Anduril Industries — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Defense technology.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -851,8 +851,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Product Manager, Forward Deployed
 
-## 77. Arm — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 77. Arm — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Chip architecture licensing.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -860,8 +860,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Principal Product Manager, Physical AI
 
-## 78. ClickHouse — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 78. ClickHouse — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Analytics database.
 - **Comp:** $210K–$310K
 - **Draft target-list rank:** —
@@ -869,8 +869,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Principal Product Manager, Security — $210K–$310K
 
-## 79. Cognitiv — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 79. Cognitiv — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Deep-learning ad targeting.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -878,8 +878,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Product Manager, Custom Algorithms
 
-## 80. Deep Sync — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 80. Deep Sync — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Consumer data for marketers.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -887,8 +887,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Product Manager - Technical
 
-## 81. F5 — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 81. F5 — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Application delivery and security.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -896,8 +896,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Principal Technical Product Manager
 
-## 82. Flywheel — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 82. Flywheel — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Marketplace e-commerce agency/software.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -905,8 +905,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Product Manager, TikTok Shop
 
-## 83. Fractal — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 83. Fractal — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Analytics and AI services firm.
 - **Comp:** $125K–$185K
 - **Draft target-list rank:** —
@@ -914,8 +914,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Lead PM, Agentic Quality Engineering Hub — $125K–$185K
 
-## 84. GaggleAMP — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 84. GaggleAMP — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Employee advocacy software.
 - **Comp:** $100K–$150K
 - **Draft target-list rank:** —
@@ -923,8 +923,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Product Manager — $100K–$150K
 
-## 85. Grow Therapy — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 85. Grow Therapy — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Therapy marketplace.
 - **Comp:** $200K–$250K
 - **Draft target-list rank:** —
@@ -932,8 +932,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Staff PM, New Models & Markets — $200K–$250K
 
-## 86. LawnStarter — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 86. LawnStarter — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Lawn-care marketplace.
 - **Comp:** $185K–$230K
 - **Draft target-list rank:** —
@@ -941,8 +941,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Principal Product Manager — $185K–$230K
 
-## 87. Liberty Mutual Insurance — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 87. Liberty Mutual Insurance — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Insurer.
 - **Comp:** $137K–$257K
 - **Draft target-list rank:** —
@@ -950,8 +950,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Product Owner — $137K–$257K
 
-## 88. McKinstry — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 88. McKinstry — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Construction and building-energy services.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -959,8 +959,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Technical Product Manager, AI Delivery
 
-## 89. Mojang Studios (Microsoft) — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 89. Mojang Studios (Microsoft) — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Makes Minecraft.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -968,8 +968,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior PM, Gameplay Systems - Minecraft
 
-## 90. Moloco — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 90. Moloco — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** ML ad platform.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -977,8 +977,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Director of Product Management, Consumer
 
-## 91. MongoDB — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 91. MongoDB — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Document database.
 - **Comp:** Not posted
 - **Draft target-list rank:** #55
@@ -986,8 +986,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Product Manager, Post Sales
 
-## 92. Nametag — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 92. Nametag — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Identity verification for help desks.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -995,8 +995,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Technical Product Manager, Integrations
 
-## 93. NewsBreak — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 93. NewsBreak — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Local-news app.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1004,8 +1004,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Product Manager, Ads Signals & Measurement
 
-## 94. NexHealth — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 94. NexHealth — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Healthcare scheduling and APIs.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1013,8 +1013,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Product Manager
 
-## 95. Nscale — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 95. Nscale — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** AI cloud / GPU data centers.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1022,8 +1022,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Principal TPM, Hardware & AI Infrastructure
 
-## 96. ProductWind — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 96. ProductWind — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Brand launch / reviews platform.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1031,8 +1031,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Product Manager
 
-## 97. Redfin — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 97. Redfin — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Real-estate brokerage.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1040,8 +1040,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Product Manager, Growth & Conversion
 
-## 98. RentSpree — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 98. RentSpree — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Rental application software.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1049,8 +1049,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Principal Product Manager
 
-## 99. Rover — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 99. Rover — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Pet-sitting marketplace.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1058,8 +1058,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Product Manager - Search Experience
 
-## 100. Signal & Strand — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 100. Signal & Strand — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Likely a recruiter posting.
 - **Comp:** $150K–$200K
 - **Draft target-list rank:** —
@@ -1067,8 +1067,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Director of PM - Media & Publishing — $150K–$200K
 
-## 101. Sinclair Inc. — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 101. Sinclair Inc. — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Broadcast TV.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1076,8 +1076,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Product Manager, Revenue and Ad Tech
 
-## 102. Superhuman — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 102. Superhuman — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Productivity software (formerly Grammarly).
 - **Comp:** $206K–$258K
 - **Draft target-list rank:** —
@@ -1085,8 +1085,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior PM, Admin & Buyer Experience — $206K–$258K
 
-## 103. Synthesia — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 103. Synthesia — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** AI video avatars.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1094,8 +1094,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - PM, Interactive Avatars (Staff/Principal)
 
-## 104. Tanium — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 104. Tanium — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Endpoint management and security.
 - **Comp:** Not posted
 - **Draft target-list rank:** #60
@@ -1103,8 +1103,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Product Manager - Virtual & Physical Appliances
 
-## 105. Twitch (Amazon) — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 105. Twitch (Amazon) — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Live-streaming.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1112,8 +1112,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Product Manager, Commerce
 
-## 106. Veriff — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 106. Veriff — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Online identity verification.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1121,8 +1121,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Technical PM (Biometric Authentication)
 
-## 107. Vivint — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 107. Vivint — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Smart home (owned by NRG Energy).
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1130,8 +1130,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Principal Product Manager, Energy
 
-## 108. Warner Bros. Discovery — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 108. Warner Bros. Discovery — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Media and streaming.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1139,8 +1139,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Staff Product Manager, Experimentation
 
-## 109. Yoodli — 12/100 · 1 role
-- **Score:** profile 5/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 109. Yoodli — 15/100 · 1 role
+- **Score:** profile 6/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** AI communication coach.
 - **Comp:** $174K–$200K
 - **Draft target-list rank:** —
@@ -1148,8 +1148,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Senior Product Manager (Growth) — $174K–$200K
 
-## 110. Haystack — 7/100 · 2 roles
-- **Score:** profile 0/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 110. Haystack — 9/100 · 2 roles
+- **Score:** profile 0/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Unconfirmed (likely employee intranet software).
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1158,8 +1158,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Product Manager
   - Technical Product Manager
 
-## 111. Outpost — 7/100 · 1 role
-- **Score:** profile 0/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 111. Outpost — 9/100 · 1 role
+- **Score:** profile 0/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Unconfirmed.
 - **Comp:** $210K–$250K
 - **Draft target-list rank:** —
@@ -1167,8 +1167,8 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
 - **Titles:**
   - Principal Product Manager — $210K–$250K
 
-## 112. Scotch — 7/100 · 1 role
-- **Score:** profile 0/35 · aspiration 4/35 · access 0/15 · relevant openings 3/15
+## 112. Scotch — 9/100 · 1 role
+- **Score:** profile 0/40 · aspiration 5/40 · relevant openings 4/20
 - **About:** Unconfirmed.
 - **Comp:** Not posted
 - **Draft target-list rank:** —
@@ -1177,4 +1177,4 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Product Manager
 
 ## Set aside
-- **Amazon (incl. AWS, Prime Video, Ring) (88 roles):** On your not-pursuing list. On paper it would score about 85 (old domains, 107 connections, 88 roles), so it would rank #4 if you reopened it.
+- **Amazon (incl. AWS, Prime Video, Ring) (88 roles):** On your not-pursuing list. On paper it would score about 83 (old domains, many relevant roles), so it would rank #5 if you reopened it.
