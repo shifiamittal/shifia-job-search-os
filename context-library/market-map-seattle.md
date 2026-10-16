@@ -34,6 +34,37 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 
 **Note on Microsoft vs Microsoft AI:** LinkedIn treats "Microsoft AI" (MAI, the consumer Copilot + MAI models org led by Mustafa Suleyman) as a separate company page from "Microsoft." Its roles and connection counts show up separately, so it gets its own row here.
 
+## Companies ranked by hiring volume
+
+Snapshot as of 2026-10-16 (415 roles, 113 companies). Parent totals: Amazon family 89 (incl. Twitch), Microsoft family 41 (incl. Microsoft AI, Mojang), Meta family 20 (incl. Instagram).
+
+| # | Company | Open PM roles | Connections | Target rank |
+|---|---|---|---|---|
+| 1 | Amazon (incl. AWS, Prime Video, Ring) | 88 | 107 / 15 (AWS) | Not pursuing |
+| 2 | Microsoft | 39 | 27 | #4 ★ |
+| 3 | Meta | 18 | 14 | — |
+| 4 | Stripe | 13 | 19 | #37 |
+| 5 | Google | 11 | 18 | #3 ★ |
+| 5 | TikTok | 11 | 12 | — |
+| 7 | Expedia Group | 10 | 36 | #45 |
+| 8 | Salesforce | 9 | 26 | #5 |
+| 8 | T-Mobile | 9 | 1 | — |
+| 10 | Affirm | 7 | 3 | — |
+| 11 | Brex | 6 | 2 | #40 |
+| 11 | CoreWeave | 6 | — | #25 |
+| 11 | Oracle | 6 | 5 | #34 |
+| 11 | Walmart | 6 | 10 | — |
+| 15 | CrowdStrike | 5 | — | #12 |
+| 15 | Databricks | 5 | 8 | #7 |
+| 15 | Deloitte | 5 | 10 | — |
+| 15 | Flexport | 5 | 2 school alumni | #36 |
+| 15 | Lambda | 5 | 1 | — |
+| 15 | Pinterest | 5 | 1 | — |
+| 21 | Axon, Blue Origin, Docusign, Nordstrom, Okta, Remitly | 4 each | — | Docusign #58, Okta #57 |
+| 27 | Anthropic, Atlassian, eBay, JPMorganChase, Netflix, Rippling, Snap, Snowflake, SoFi, Uber, Whatnot | 3 each | — | Anthropic #1 ★, Snowflake #9, Uber #43, Atlassian #46 |
+| 38 | AMD, Capgemini Invent, Circle, Cisco, DigitalOcean, EY-Parthenon, Haystack, Instagram, NVIDIA, PEMCO, Storable, The Trade Desk, Unity | 2 each | — | NVIDIA #10, Cisco #50 |
+| 51 | 63 companies with 1 role each (see summary table) | 1 each | — | Adobe #11, DoorDash #44, MongoDB #55, Tanium #60 |
+
 ## Summary by company
 
 | Company | Open PM roles | Location(s) | Connections | Target list rank |
