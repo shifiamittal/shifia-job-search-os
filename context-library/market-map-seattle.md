@@ -10,6 +10,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 - Snapshot 4: 2026-10-16 (23 new roles; 2 duplicates skipped: AWS AgentCore External Services, Google GDC Senior PM). Generic titles counted as separate reqs because their post dates differ, but may overlap: Oracle Lead Principal PM (1 week vs 1 day), Microsoft Principal PM (1 week), Meta Seattle PM $173K–$241K (1 week).
 - Snapshot 5: 2026-10-16 (21 new roles; 3 duplicates skipped: Microsoft Principal PM 1 week, Meta Seattle PM $205K–$277K, Meta Bellevue PM $173K–$241K, which now shows its full title "Central Product"; 1 excluded: Salesforce Sr. Product Owner, which the user hid on LinkedIn).
 - Snapshot 6: 2026-10-16 (14 new roles; duplicates skipped: Meta Director AI Platforms & Infra, Meta Redmond PM (14 connections), Meta Seattle PM $205K–$277K, JPMC Agent Core TPM, Stripe Startup Products, Microsoft Principal PM (27, 1 week). Meta Seattle PM $173K–$241K (1 week) now shows its full title "Agent Transformation Accelerator". NVIDIA AI Software Defined Networking appeared twice (Seattle and Redmond) and is counted once. 1 excluded: SentiLink "New Leader – Pitch Us," an open call for leaders, not a PM posting).
+- Snapshot 7: 2026-10-16 (1 new role: Amazon Business Payments. Everything else on the page was a repeat. Cisco "Engineering Product Manager" now shows its full title "Cloud Control Studio" and 16 connections).
 
 **Note on Microsoft's generic "Principal Product Manager" postings:** Microsoft posts many reqs with the identical title and no team name. The same results page showed 8 distinct cards with that title (different post dates and badges), so the map counts 8. The real count could be higher; the team is only visible inside each JD.
 
@@ -19,7 +20,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 
 | Company | Open PM roles | Location(s) | Connections | Target list rank |
 |---|---|---|---|---|
-| Amazon (incl. AWS, Prime Video) | 26 | Seattle, Bellevue | 107 (Amazon), 15 (AWS), 2 school alumni (Prime Video) | Not pursuing |
+| Amazon (incl. AWS, Prime Video) | 27 | Seattle, Bellevue | 107 (Amazon), 15 (AWS), 2 school alumni (Prime Video) | Not pursuing |
 | Microsoft | 14 | Redmond (Hybrid) | 27 | #4 ★ dream |
 | Meta | 8 | Seattle, Bellevue, Redmond | 14; 9 company alumni | — |
 | Stripe | 6 | Seattle | 19 | #37 |
@@ -32,7 +33,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | CoreWeave (incl. Weights & Biases) | 3 | Bellevue | — | #25 (via Weights & Biases) |
 | Google | 2 | Kirkland (On-site) | 18 | #3 ★ dream |
 | Anthropic | 3 | Seattle (Hybrid) | 1 | #1 ★ dream |
-| Cisco | 2 | Seattle | — | #50 |
+| Cisco | 2 | Seattle | 16 | #50 |
 | EY-Parthenon | 2 | Seattle | 2 company alumni | — |
 | Expedia Group | 1 | Seattle (On-site) | 36 | #45 |
 | Adobe | 1 | Seattle | 35 | #11 |
@@ -75,7 +76,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Synthesia | 1 | Seattle (Hybrid) | — | — |
 | Outpost | 1 | Seattle (Hybrid) | — | — |
 | LawnStarter | 1 | Seattle (Remote) | — | — |
-| **Total** | **129** | | | |
+| **Total** | **130** | | | |
 
 ## All open roles
 
@@ -124,6 +125,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Amazon | Principal PM - Tech, New Product Success | Principal | Seattle, WA | — | 107 | — (viewed) |
 | Amazon | Principal PM - Tech, Sponsored Products and Brands | Principal | Seattle, WA | — | — | **Applied** |
 | Amazon | Principal PM - Tech, Amazon Devices, Marketing Measurement | Principal | Seattle, WA | — | — | — (viewed) |
+| Amazon | Principal PM - Tech, Amazon Business Payments | Principal | Seattle, WA | — | — | 2 weeks ago |
 | Amazon | Principal PM - Tech, éShop, Premium Ads CX | Principal | Seattle, WA | — | — | 2 weeks ago |
 | Amazon Web Services (AWS) | Principal Technical PM, Amazon Quick | Principal | Bellevue, WA | — | — | 1 week ago |
 | Amazon Web Services (AWS) | Product Leader, Specialist Technology Team | Leader | Seattle, WA | — | 15 | 2 weeks ago |
@@ -179,7 +181,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Docusign | Sr PM, Conversational AI and Agentic Experiences | Senior | Seattle, WA (Hybrid) | — | 4 | 2 weeks ago |
 | Outreach | Director, PM – Conversational Intelligence | Director | Seattle, WA (Hybrid) | $210K–$260K | — | 2 weeks ago |
 | Talkdesk | Principal Product Manager - AI | Principal | Seattle, WA (Hybrid) | — | — | 1 month ago |
-| Cisco | Engineering Product Manager | — | Seattle, WA | — | — | 1 week ago |
+| Cisco | Engineering Product Manager, Cloud Control Studio | — | Seattle, WA | — | 16 | 1 week ago |
 | Cisco | Senior Staff PM, AI Knowledge Graph & Intelligence | Sr Staff | Seattle, WA | — | — | 2 days ago |
 | T-Mobile | Principal AI Product Manager, Technical | Principal | Bellevue, WA | — | — | 6 days ago |
 | T-Mobile | Sr Manager, Technical PM: GenAI Platforms & Adoption | Sr Manager | Bellevue, WA | — | 1 | 3 days ago |
@@ -259,7 +261,7 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
 | F5 | Application delivery and security: load balancers, NGINX, API and web app security. Public company. | Seattle-headquartered. |
 | DigitalOcean | Simple cloud hosting for developers and small/mid businesses; now pushing GPU/AI infrastructure. Public company. | HQ in NYC; Seattle hybrid role. |
 | CoreWeave | GPU cloud provider for AI training/inference. Public company (2025 IPO); acquired Weights & Biases. | Bellevue office. |
-| Arm | Designs the chip architecture inside nearly every phone and a growing share of servers and cars; licenses designs rather than making chips. "Physical AI" = robotics, autonomous vehicles, edge devices. | HQ in Cambridge, UK; Seattle-area office. |
+| Arm | Designs the processor architecture inside ~99% of smartphones and a growing share of data-center chips (AWS Graviton, NVIDIA Grace, Microsoft Cobalt, Google Axion). Licenses designs and earns a royalty on every chip shipped rather than manufacturing. Public (Nasdaq, 2023 IPO), majority-owned by SoftBank. "Physical AI" = AI running in robots, cars, and other devices that act in the physical world; the PM role likely builds the platform/software that developers use to run AI on Arm-based hardware. [VERIFY via JD] | HQ in Cambridge, UK; Seattle-area office. 21 school alumni. |
 | Rippling | All-in-one HR, payroll, IT (device and app management), and spend platform. The role is for the IT product line. | HQ in San Francisco; Seattle on-site office. |
 | The Trade Desk | Ad-tech: the largest independent platform advertisers use to buy digital ads (CTV, display, audio). Public company. | HQ in Ventura, CA; large Bellevue office. |
 | SoFi | Consumer fintech and chartered bank: loans, banking, investing; also owns Galileo and Technisys (banking infrastructure for other fintechs). Public company. | HQ in San Francisco; Seattle office. |
@@ -269,11 +271,11 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
 
 ## Patterns in this snapshot
 
-- **Amazon is 26 of 129 roles** even though you are not pursuing it. Treat it as a market signal for what Seattle PM work looks like, not a target. Note: 107 connections at Amazon is your single biggest network concentration, and you have applied to Sponsored Products and Brands.
+- **Amazon is 27 of 130 roles** even though you are not pursuing it. Treat it as a market signal for what Seattle PM work looks like, not a target. Note: 107 connections at Amazon is your single biggest network concentration, and you have applied to Sponsored Products and Brands.
 - **All three ★ dream targets have Seattle-area roles:** Anthropic #1 (3 roles: Multi-Cloud Trust & Safety, Claude Science, Claude), Google #3 (2 roles in Kirkland), Microsoft #4 (14 roles + 1 at MAI). Salesforce #5 has 3, Databricks #7 has 1.
 - **Agentic AI is the dominant theme.** ~38 roles: Microsoft Cowork/Autopilot + Agentic Security + Agentic Platform, Meta Agent Transformation Accelerator, Okta for AI Agents, T-Mobile GenAI Platforms, AMD ROCm AI, Remitly Conversational Experiences, NVIDIA AI Networking, AWS Velocity Labs (x2), AWS AgentCore (x2), AWS GenAIUX, AWS Amazon Quick, AWS Healthcare AI, Amazon AI Customer Service, Google GDC Agentic Platforms, Salesforce Agent-Native Web Experiences, Stripe Agentic Commerce, JPMC Agent Services + Agent Core + Agent Building Blocks, Docusign Procurement Agentic + Conversational AI, Amperity AI & Agentic, T-Mobile Principal AI, Cisco AI Knowledge Graph, Outreach Conversational Intelligence, Talkdesk AI, Brex AI, DigitalOcean Agentic AI Infra, Storable AI Agents, Meta AI Platforms & Infra, Synthesia, Arm Physical AI.
 - **AI infrastructure / GPU cloud:** NVIDIA, CoreWeave (x3), Lambda, DigitalOcean, Meta AI Infra, Salesforce Hyperforce, Google Managed Spark.
-- **Fintech / payments:** Stripe (6), Brex (4), JPMC (3), SoFi, Circle, Remitly, Riot Games Commerce, Amazon Selling Partner Financial Foundations.
+- **Fintech / payments:** Stripe (6), Brex (4), JPMC (3), SoFi, Circle, Remitly, Riot Games Commerce, Amazon Selling Partner Financial Foundations, Amazon Business Payments.
 - **Trust, safety & security:** Anthropic Multi-Cloud T&S, Pinterest Adversarial Actors, Meta Central Security, Microsoft Agentic Security, Spring Health AI Safety, Stripe Radar.
 - **Personalization & discovery:** Amazon, Prime Video (x2 + Off App Discovery), Netflix, Nordstrom, Walmart Insights & Recs.
 - **Warmest paths (by connection count):** Amazon (107), Expedia (36), Adobe (35), Microsoft (27), Salesforce (26), Arm (21 school alumni), Stripe (19), Google (18), Uber (18).
