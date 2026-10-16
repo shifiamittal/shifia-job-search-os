@@ -83,7 +83,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | LawnStarter | 1 | Seattle (Remote) | — | — |
 | Chewy | 1 | Bellevue | 7 | — |
 | Instagram (Meta) | 1 | Bellevue | 1 | — |
-| CrowdStrike | 1 | Redmond | — | — |
+| CrowdStrike | 1 | Redmond | — | #12 |
 | Haystack | 1 | Greater Seattle (Hybrid) | — | — |
 | **Total** | **162** | | | |
 
@@ -324,4 +324,4 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
 - **Personalization & discovery:** Amazon, Prime Video (x2 + Off App Discovery), Netflix, Nordstrom, Walmart Insights & Recs.
 - **Warmest paths (by connection count):** Amazon (107), Expedia (36), Adobe (35), Microsoft (27), Salesforce (26), Arm (21 school alumni), Stripe (19), Google (18), Uber (18).
 - **Highest posted comp:** Lambda Principal x2 ($338K–$500K), Lambda Staff ($291K–$430K), Expedia Comms & Intelligence ($242K–$338.5K), Snowflake Director ($304K–$437K), AMD Sr Manager ($205.7K–$308.5K), SoFi Principal ($240K–$330K), Meta Director ($249K–$323K), Expedia Principal ($224K–$313.5K).
-- **Not on target list yet:** Microsoft AI (as a separate org), Meta, Instagram, CrowdStrike, Chewy, Haystack, Remitly, AMD, SentiLink, Walmart, Netflix, Nordstrom, JPMorganChase, T-Mobile, Circle, Spring Health, Outreach, Amperity, Riot Games, Siemens DISW, RentSpree, Lambda, Pinterest, REI, Talkdesk, Moloco, LVT, Arm, Rippling, SoFi, The Trade Desk, Marsh, Alaska Airlines, F5, DigitalOcean, Storable, Axon, Pulumi, Auger, Synthesia, EY-Parthenon, Outpost, LawnStarter.
+- **Not on target list yet:** Microsoft AI (as a separate org), Meta, Instagram, Chewy, Haystack, Remitly, AMD, SentiLink, Walmart, Netflix, Nordstrom, JPMorganChase, T-Mobile, Circle, Spring Health, Outreach, Amperity, Riot Games, Siemens DISW, RentSpree, Lambda, Pinterest, REI, Talkdesk, Moloco, LVT, Arm, Rippling, SoFi, The Trade Desk, Marsh, Alaska Airlines, F5, DigitalOcean, Storable, Axon, Pulumi, Auger, Synthesia, EY-Parthenon, Outpost, LawnStarter.
