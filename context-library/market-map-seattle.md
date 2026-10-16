@@ -89,7 +89,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Flexport | 1 | Bellevue (On-site) | 2 school alumni | #36 |
 | Signal & Strand | 1 | Seattle (On-site) | — | — |
 | eBay | 1 | Bellevue (Hybrid) | 13 | — |
-| DoorDash | 1 | Seattle | 5 | #43 |
+| DoorDash | 1 | Seattle | 5 | #44 |
 | Whatnot | 1 | Seattle (On-site) | 1 | — |
 | Metropolis Technologies | 1 | Seattle (On-site) | 1 company alumni | — |
 | Weyerhaeuser | 1 | Seattle | — | — |
