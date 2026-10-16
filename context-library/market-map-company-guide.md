@@ -1177,4 +1177,4 @@ Fit scale: **Strong** (core domain + level), **Good** (clear overlap), **Moderat
   - Product Manager
 
 ## Set aside
-- **Amazon (incl. AWS, Prime Video, Ring) (88 roles):** On your not-pursuing list. On paper it would score about 85 (old domains, 107 connections, 88 roles), so it would rank #3 if you reopened it.
+- **Amazon (incl. AWS, Prime Video, Ring) (88 roles):** On your not-pursuing list. On paper it would score about 85 (old domains, 107 connections, 88 roles), so it would rank #4 if you reopened it.
