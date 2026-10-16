@@ -11,8 +11,11 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 - Snapshot 5: 2026-10-16 (21 new roles; 3 duplicates skipped: Microsoft Principal PM 1 week, Meta Seattle PM $205K–$277K, Meta Bellevue PM $173K–$241K, which now shows its full title "Central Product"; 1 excluded: Salesforce Sr. Product Owner, which the user hid on LinkedIn).
 - Snapshot 6: 2026-10-16 (14 new roles; duplicates skipped: Meta Director AI Platforms & Infra, Meta Redmond PM (14 connections), Meta Seattle PM $205K–$277K, JPMC Agent Core TPM, Stripe Startup Products, Microsoft Principal PM (27, 1 week). Meta Seattle PM $173K–$241K (1 week) now shows its full title "Agent Transformation Accelerator". NVIDIA AI Software Defined Networking appeared twice (Seattle and Redmond) and is counted once. 1 excluded: SentiLink "New Leader – Pitch Us," an open call for leaders, not a PM posting).
 - Snapshot 7: 2026-10-16 (1 new role: Amazon Business Payments. Everything else on the page was a repeat. Cisco "Engineering Product Manager" now shows its full title "Cloud Control Studio" and 16 connections).
+- Snapshot 8: 2026-10-16 (13 new roles; duplicates skipped: Oracle Lead Principal PM, Microsoft Principal TPM, AWS AgentCore, AWS Specialist Technology Team, Meta Seattle Central Products, Meta Bellevue PM $205K–$277K (14 connections), several generic Microsoft Principal PM cards. Salesforce Director of PM, Developer Experience was posted in both Seattle and Bellevue and is counted once).
 
-**Note on Microsoft's generic "Principal Product Manager" postings:** Microsoft posts many reqs with the identical title and no team name. The same results page showed 8 distinct cards with that title (different post dates and badges), so the map counts 8. The real count could be higher; the team is only visible inside each JD.
+**Note on Meta "Product Manager (Leadership)":** Meta's title for a people-manager PM (manages other PMs), paid $249K–$323K, the same band as its Director posting. Plain "Product Manager" at Meta is an IC role.
+
+**Note on Microsoft's generic "Principal Product Manager" postings:** Microsoft posts many reqs with the identical title and no team name. The same results page showed 8 distinct cards with that title (different post dates and badges), so the map counts 8. A later page showed more distinct cards (new post dates and badges), bringing the count to 12 generic postings. The real count could be higher; the team is only visible inside each JD.
 
 **Note on Microsoft vs Microsoft AI:** LinkedIn treats "Microsoft AI" (MAI, the consumer Copilot + MAI models org led by Mustafa Suleyman) as a separate company page from "Microsoft." Its roles and connection counts show up separately, so it gets its own row here.
 
@@ -21,17 +24,17 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Company | Open PM roles | Location(s) | Connections | Target list rank |
 |---|---|---|---|---|
 | Amazon (incl. AWS, Prime Video) | 27 | Seattle, Bellevue | 107 (Amazon), 15 (AWS), 2 school alumni (Prime Video) | Not pursuing |
-| Microsoft | 14 | Redmond (Hybrid) | 27 | #4 ★ dream |
-| Meta | 8 | Seattle, Bellevue, Redmond | 14; 9 company alumni | — |
+| Microsoft | 19 | Redmond (Hybrid) | 27; 6 company alumni | #4 ★ dream |
+| Meta | 13 | Seattle, Bellevue, Redmond | 14; 9 company alumni | — |
 | Stripe | 6 | Seattle | 19 | #37 |
 | Brex | 4 | Seattle (Hybrid) | 2 | #40 |
-| Salesforce | 3 | Seattle (Hybrid) | 26 | #5 |
+| Salesforce | 5 | Seattle, Bellevue (Hybrid) | 26; 2 company alumni | #5 |
 | Oracle | 3 | Seattle | 5 | #34 |
 | Walmart (Global Tech, Connect) | 3 | Bellevue (On-site) | 10 | — |
 | JPMorganChase | 3 | Seattle (On-site) | 5 | — |
 | Docusign | 3 | Seattle (Hybrid) | 4; 5 school alumni | #58 |
 | CoreWeave (incl. Weights & Biases) | 3 | Bellevue | — | #25 (via Weights & Biases) |
-| Google | 2 | Kirkland (On-site) | 18 | #3 ★ dream |
+| Google | 3 | Kirkland (On-site) | 18 | #3 ★ dream |
 | Anthropic | 3 | Seattle (Hybrid) | 1 | #1 ★ dream |
 | Cisco | 2 | Seattle | 16 | #50 |
 | EY-Parthenon | 2 | Seattle | 2 company alumni | — |
@@ -76,7 +79,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Synthesia | 1 | Seattle (Hybrid) | — | — |
 | Outpost | 1 | Seattle (Hybrid) | — | — |
 | LawnStarter | 1 | Seattle (Remote) | — | — |
-| **Total** | **130** | | | |
+| **Total** | **143** | | | |
 
 ## All open roles
 
@@ -87,6 +90,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Anthropic | Product Manager, Claude | PM | Seattle, WA (Hybrid) | — | 1 | 1 week ago |
 | Google | Senior PM, AI Models and Agentic Platforms on GDC | Senior | Kirkland, WA (On-site) | — | 18 | 1 day ago |
 | Google | Group Product Manager, Managed Service for Apache Spark | Group PM | Kirkland, WA (On-site) | — | 18 | 2 weeks ago |
+| Google | Group Product Manager, AI FinOps and Model Routing | Group PM | Kirkland, WA (On-site) | — | 18 | — (viewed) |
 | Microsoft | Principal Product Manager | Principal | Redmond, WA (Hybrid) | — | 27 | — (viewed) |
 | Microsoft | Principal Product Manager | Principal | Redmond, WA (Hybrid) | — | 27 | 2 weeks ago |
 | Microsoft | Principal Product Manager | Principal | Redmond, WA (Hybrid) | — | 27 | 1 week ago |
@@ -102,10 +106,17 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Microsoft | Senior PM and Principal PM (Multiple Positions) - D365 Contact Center | Sr/Principal | Redmond, WA (Hybrid) | — | — | 2 weeks ago |
 | Microsoft | Senior Product Manager - Agentic Security | Senior | Redmond, WA (Hybrid) | — | 27 | 3 weeks ago |
 | Microsoft | Product Manager - Agentic Platform | PM | Redmond, WA (Hybrid) | — | 27 | 1 week ago |
+| Microsoft | Principal Product Manager - Responsible AI - CoreAI | Principal | Redmond, WA (Hybrid) | — | — | — |
+| Microsoft | Principal Product Manager | Principal | Redmond, WA (Hybrid) | — | 27 | 3 hours ago |
+| Microsoft | Principal Product Manager | Principal | Redmond, WA (Hybrid) | — | 6 company alumni | 23 hours ago |
+| Microsoft | Principal Product Manager | Principal | Redmond, WA (Hybrid) | — | 27 | 1 day ago |
+| Microsoft | Principal Product Manager | Principal | Redmond, WA (Hybrid) | — | — | 1 week ago |
 | Microsoft AI (MAI) | Senior Product Manager | Senior | Redmond, WA | — | 5 | 1 week ago |
 | Salesforce | Product Management Director | Director | Seattle, WA (Hybrid) | — | 26 | 1 week ago |
 | Salesforce | Director of PM, Agent-Native Web Experiences | Director | Seattle, WA (Hybrid) | — | 26 | 1 day ago |
 | Salesforce | Senior Product Manager, Hyperforce | Senior | Seattle, WA (Hybrid) | — | 26 | 6 days ago |
+| Salesforce | Product Management Director, Platform Services | Director | Seattle, WA (Hybrid) | — | 2 company alumni | 2 days ago |
+| Salesforce | Director of PM, Developer Experience | Director | Seattle or Bellevue, WA (Hybrid) | — | 26 | 2 days ago |
 | Databricks | Sr. Product Manager, Databricks Repos | Senior | Seattle, WA | — | 8 | 1 week ago |
 | Snowflake | Director, PM - Snowflake Transactions | Director | Bellevue, WA | $304K–$437K | 10 | 1 week ago |
 | NVIDIA | Principal PM - DSX and DGXC Storage | Principal | Seattle, WA (Hybrid) | — | — | 1 week ago |
@@ -154,6 +165,11 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Meta | Product Manager | PM | Redmond, WA | $205K–$277K | 14 | 1 week ago |
 | Meta | Product Manager | PM | Redmond, WA | $205K–$277K | 9 company alumni | 1 week ago |
 | Meta | Product Manager, Central Security | PM | Bellevue, WA | $205K–$277K | 14 | 1 week ago |
+| Meta | Product Manager | PM | Bellevue, WA | $205K–$277K | 9 company alumni | 1 week ago |
+| Meta | Product Manager | PM | Redmond, WA | $205K–$277K | 14 | 1 week ago |
+| Meta | Product Manager, Leadership | PM Manager | Bellevue, WA | $249K–$323K | 9 company alumni | 5 days ago |
+| Meta | Product Manager (Leadership) | PM Manager | Bellevue, WA | $249K–$323K | 9 company alumni | 5 days ago |
+| Meta | Product Manager (Leadership) | PM Manager | Redmond, WA | $249K–$323K | 9 company alumni | 1 week ago |
 | Lambda | Principal Product Manager - Console | Principal | Bellevue, WA (Hybrid) | $338K–$500K | 1 | 8 hours ago |
 | CoreWeave | Staff PM, AI Inference | Staff | Bellevue, WA (Hybrid) | — | — | — |
 | CoreWeave | Staff PM, Training Infrastructure - Weights & Biases | Staff | Bellevue, WA (Hybrid) | — | — | 2 weeks ago |
@@ -271,9 +287,9 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
 
 ## Patterns in this snapshot
 
-- **Amazon is 27 of 130 roles** even though you are not pursuing it. Treat it as a market signal for what Seattle PM work looks like, not a target. Note: 107 connections at Amazon is your single biggest network concentration, and you have applied to Sponsored Products and Brands.
-- **All three ★ dream targets have Seattle-area roles:** Anthropic #1 (3 roles: Multi-Cloud Trust & Safety, Claude Science, Claude), Google #3 (2 roles in Kirkland), Microsoft #4 (14 roles + 1 at MAI). Salesforce #5 has 3, Databricks #7 has 1.
-- **Agentic AI is the dominant theme.** ~38 roles: Microsoft Cowork/Autopilot + Agentic Security + Agentic Platform, Meta Agent Transformation Accelerator, Okta for AI Agents, T-Mobile GenAI Platforms, AMD ROCm AI, Remitly Conversational Experiences, NVIDIA AI Networking, AWS Velocity Labs (x2), AWS AgentCore (x2), AWS GenAIUX, AWS Amazon Quick, AWS Healthcare AI, Amazon AI Customer Service, Google GDC Agentic Platforms, Salesforce Agent-Native Web Experiences, Stripe Agentic Commerce, JPMC Agent Services + Agent Core + Agent Building Blocks, Docusign Procurement Agentic + Conversational AI, Amperity AI & Agentic, T-Mobile Principal AI, Cisco AI Knowledge Graph, Outreach Conversational Intelligence, Talkdesk AI, Brex AI, DigitalOcean Agentic AI Infra, Storable AI Agents, Meta AI Platforms & Infra, Synthesia, Arm Physical AI.
+- **Amazon is 27 of 143 roles** even though you are not pursuing it. Treat it as a market signal for what Seattle PM work looks like, not a target. Note: 107 connections at Amazon is your single biggest network concentration, and you have applied to Sponsored Products and Brands.
+- **All three ★ dream targets have Seattle-area roles:** Anthropic #1 (3 roles: Multi-Cloud Trust & Safety, Claude Science, Claude), Google #3 (3 roles in Kirkland), Microsoft #4 (19 roles + 1 at MAI). Salesforce #5 has 5, Databricks #7 has 1.
+- **Agentic AI is the dominant theme.** ~38 roles: Microsoft Cowork/Autopilot + Agentic Security + Agentic Platform, Meta Agent Transformation Accelerator, Google AI FinOps & Model Routing, Microsoft Responsible AI (CoreAI), Okta for AI Agents, T-Mobile GenAI Platforms, AMD ROCm AI, Remitly Conversational Experiences, NVIDIA AI Networking, AWS Velocity Labs (x2), AWS AgentCore (x2), AWS GenAIUX, AWS Amazon Quick, AWS Healthcare AI, Amazon AI Customer Service, Google GDC Agentic Platforms, Salesforce Agent-Native Web Experiences, Stripe Agentic Commerce, JPMC Agent Services + Agent Core + Agent Building Blocks, Docusign Procurement Agentic + Conversational AI, Amperity AI & Agentic, T-Mobile Principal AI, Cisco AI Knowledge Graph, Outreach Conversational Intelligence, Talkdesk AI, Brex AI, DigitalOcean Agentic AI Infra, Storable AI Agents, Meta AI Platforms & Infra, Synthesia, Arm Physical AI.
 - **AI infrastructure / GPU cloud:** NVIDIA, CoreWeave (x3), Lambda, DigitalOcean, Meta AI Infra, Salesforce Hyperforce, Google Managed Spark.
 - **Fintech / payments:** Stripe (6), Brex (4), JPMC (3), SoFi, Circle, Remitly, Riot Games Commerce, Amazon Selling Partner Financial Foundations, Amazon Business Payments.
 - **Trust, safety & security:** Anthropic Multi-Cloud T&S, Pinterest Adversarial Actors, Meta Central Security, Microsoft Agentic Security, Spring Health AI Safety, Stripe Radar.
