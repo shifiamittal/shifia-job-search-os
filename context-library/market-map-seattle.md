@@ -22,6 +22,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 - Snapshot 16: 2026-10-16 (21 new roles; duplicates skipped: Pinterest Sr Staff Adversarial Actors; Microsoft Sr PM Agentic Security (posted 2 hours ago, treated as a repost of the 3-week-old posting); NRG Energy "Principal PM, Energy" (same title and date as the Vivint posting; Vivint is owned by NRG). Meta "PM, Supply Chain Planning" listed in both Seattle and Bellevue, counted once).
 - Snapshot 17: 2026-10-16 (23 new roles; duplicates skipped: AWS Healthcare AI. Excluded: Salesforce Sr. Product Owner (same title as the posting the user hid earlier). Mojang Studios (Minecraft) is a Microsoft subsidiary with its own LinkedIn page, so it gets its own row like Microsoft AI).
 - Snapshot 18: 2026-10-16 (21 new roles; excluded 4 postings the user hid: Amazon Sr PMT Devices and Services FinTech, AWS Sr PMT AWS Investments, Microsoft Product Manager, Docusign Growth Product Manager).
+- Snapshot 19: 2026-10-16 (18 new roles; duplicates skipped: Microsoft Senior PM (27, 2 weeks), Amazon FBA, AWS Amazon Quick, Amazon Advanced Analytics, Amazon Business Payments (now shows 107 connections). Excluded as non-PM roles: Prime Video Sr. Applied Scientist, DoorDash Manager, Dasher Financial Strategy & Operations).
 
 **Note on Meta "Product Manager (Leadership)":** Meta's title for a people-manager PM (manages other PMs). Most are paid $249K–$323K, the same band as its Director posting, but "Infrastructure Capacity PM (Leadership)" is posted at $205K–$277K, so salary band alone does not reliably reveal Meta level. Plain "Product Manager" at Meta is an IC role.
 
@@ -33,8 +34,8 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 
 | Company | Open PM roles | Location(s) | Connections | Target list rank |
 |---|---|---|---|---|
-| Amazon (incl. AWS, Prime Video, Ring) | 56 | Seattle, Bellevue | 107 (Amazon), 15 (AWS), 2 school alumni (Prime Video) | Not pursuing |
-| Microsoft | 34 | Redmond (Hybrid) | 27; 6 company alumni | #4 ★ dream |
+| Amazon (incl. AWS, Prime Video, Ring) | 62 | Seattle, Bellevue | 107 (Amazon), 15 (AWS), 2 school alumni (Prime Video) | Not pursuing |
+| Microsoft | 35 | Redmond (Hybrid) | 27; 6 company alumni | #4 ★ dream |
 | Meta | 18 | Seattle, Bellevue, Redmond | 14; 9 company alumni | — |
 | Stripe | 13 | Seattle | 19 | #37 |
 | Brex | 6 | Seattle (Hybrid) | 2 | #40 |
@@ -43,8 +44,8 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Walmart (Global Tech, Connect) | 6 | Bellevue (On-site) | 10 | — |
 | JPMorganChase | 3 | Seattle (On-site) | 5 | — |
 | Docusign | 4 | Seattle (Hybrid) | 4; 5 school alumni | #58 |
-| CoreWeave (incl. Weights & Biases) | 5 | Bellevue | — | #25 (via Weights & Biases) |
-| Google | 10 | Kirkland, Seattle (On-site) | 18 | #3 ★ dream |
+| CoreWeave (incl. Weights & Biases) | 6 | Bellevue | — | #25 (via Weights & Biases) |
+| Google | 11 | Kirkland, Seattle (On-site) | 18 | #3 ★ dream |
 | Anthropic | 3 | Seattle (Hybrid) | 1 | #1 ★ dream |
 | Cisco | 2 | Seattle | 16 | #50 |
 | EY-Parthenon | 2 | Seattle | 2 company alumni | — |
@@ -57,7 +58,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Marsh | 1 | Seattle (Hybrid) | 9 school alumni | — |
 | Databricks | 5 | Seattle | 8 | #7 |
 | Microsoft AI (MAI) | 1 | Redmond | 5 | — (not separately listed; Microsoft is #4) |
-| Nordstrom | 2 | Seattle (Hybrid) | 4 | — |
+| Nordstrom | 3 | Seattle (Hybrid) | 4 | — |
 | Remitly | 4 | Seattle (Hybrid) | 5 | — |
 | Netflix | 3 | Seattle (On-site) | 4 | — |
 | Moloco | 1 | Seattle | 2 school alumni | — |
@@ -67,7 +68,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Axon | 3 | Seattle | 1 | — |
 | Circle | 2 | Greater Seattle (Remote) | 1 school alumni | — |
 | F5 | 1 | Greater Seattle (Hybrid) | 1 company alumni | — |
-| Rippling | 2 | Seattle (On-site / Remote) | 1 company alumni | — |
+| Rippling | 3 | Seattle (On-site / Remote) | 1 company alumni | — |
 | SoFi | 3 | Seattle | 1 company alumni | — |
 | Alaska Airlines | 1 | SeaTac (On-site) | 1 school alumni | — |
 | The Trade Desk | 2 | Bellevue | 1 school alumni | — |
@@ -99,16 +100,16 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Liberty Mutual Insurance | 1 | Seattle | 1 school alumni | — |
 | Possible | 1 | Seattle (Hybrid) | — | — |
 | Yoodli | 1 | Seattle (Hybrid) | — | — |
-| TikTok (incl. USDS Joint Venture) | 6 | Seattle (On-site) | 12 | — |
+| TikTok (incl. USDS Joint Venture) | 8 | Seattle (On-site) | 12 | — |
 | Capgemini Invent | 2 | Seattle | 5 school alumni | — |
 | Crusoe | 1 | Bellevue (On-site) | 1 | — |
-| Deloitte | 3 | Seattle (Hybrid) | 10 | — |
+| Deloitte | 4 | Seattle (Hybrid) | 10 | — |
 | ClickHouse | 1 | Greater Seattle (Remote) | 1 school alumni | — |
 | SentiLink | 1 | Seattle (Remote) | — | — |
 | Unity | 2 | Bellevue | — | — |
 | Vivint | 1 | Seattle | — | — |
 | NexHealth | 1 | Seattle | — | — |
-| Snap Inc. | 1 | Bellevue | 2 company alumni | — |
+| Snap Inc. | 2 | Bellevue | 2 company alumni | — |
 | Veriff | 1 | Seattle (Remote) | — | — |
 | GaggleAMP | 1 | Seattle (Remote) | — | — |
 | Mastercard | 1 | Seattle (Hybrid) | 2 | — |
@@ -124,7 +125,9 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Superhuman | 1 | Seattle (Hybrid) | 1 school alumni | — |
 | Redfin | 1 | Seattle | — | — |
 | Flywheel | 1 | Seattle | — | — |
-| Flexport | 2 | Bellevue (On-site) | 2 school alumni | #36 |
+| McKinstry | 1 | Seattle | — | — |
+| Rover | 1 | Greater Seattle (Hybrid) | — | — |
+| Flexport | 3 | Bellevue (On-site) | 2 school alumni | #36 |
 | Signal & Strand | 1 | Seattle (On-site) | — | — |
 | eBay | 2 | Bellevue (Hybrid) | 13 | — |
 | DoorDash | 1 | Seattle | 5 | #44 |
@@ -134,7 +137,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Temporal Technologies | 1 | Seattle (Hybrid) | — | — |
 | Grow Therapy | 1 | Seattle (Hybrid) | — | — |
 | Haystack | 2 | Greater Seattle (Hybrid) | — | — |
-| **Total** | **331** | | | |
+| **Total** | **349** | | | |
 
 ## All open roles
 
@@ -153,6 +156,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Google | Senior PM, Databases & Analytics, Google Cloud | Senior | Kirkland, WA (On-site) | — | 18 | 1 week ago |
 | Google | Product Manager, AI Developer Platform, Google Search | PM | Seattle, WA (On-site) | — | 18 | 2 days ago |
 | Google | PM II, YouTube Ads Infrastructure and External Integrations | PM II | Kirkland, WA (On-site) | — | 18 | 5 hours ago |
+| Google | Senior PM, Core SQL Query Processing and Optimization | Senior | Kirkland, WA (On-site) | — | 18 | 1 week ago |
 | Microsoft | Principal Product Manager | Principal | Redmond, WA (Hybrid) | — | 27 | — (viewed) |
 | Microsoft | Principal Product Manager | Principal | Redmond, WA (Hybrid) | — | 27 | 2 weeks ago |
 | Microsoft | Principal Product Manager | Principal | Redmond, WA (Hybrid) | — | 27 | 1 week ago |
@@ -180,6 +184,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Microsoft | Principal PMs - Security: Customer Voice and Product Insights | Principal | Redmond, WA (Hybrid) | — | 6 company alumni | 1 day ago |
 | Microsoft | Principal Product Manager - Azure Speech (CoreAI) | Principal | Redmond, WA (Hybrid) | — | — | 1 week ago |
 | Microsoft | Principal PM, Azure PaaS & Serverless - CoreAI | Principal | Redmond, WA (Hybrid) | — | — | 4 hours ago |
+| Microsoft | Principal Product Manager, Gaming Monetization | Principal | Redmond, WA (Hybrid) | — | 27 | 3 days ago |
 | Microsoft | Senior Product Manager - CoreAI | Senior | Redmond, WA (Hybrid) | — | 27 | 2 weeks ago |
 | Microsoft | Senior Product Manager | Senior | Redmond, WA (Hybrid) | — | 27 | 2 days ago |
 | Mojang Studios (Microsoft) | Senior PM, Gameplay Systems - Minecraft | Senior | Redmond, WA (Hybrid) | — | — | 1 week ago |
@@ -259,7 +264,13 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Amazon Web Services (AWS) | Principal PMT (PMT-ES), Amazon S3 | Principal | Seattle, WA | — | — | 2 weeks ago |
 | Amazon | Principal, Product Mgmt - Tech, Amazon Fulfillment Technologies (AFT) | Principal | Bellevue, WA | — | — | 2 weeks ago |
 | Amazon Web Services (AWS) | Principal PM - Technical, AWS Identity and Access Management | Principal | Seattle, WA | — | — | 1 week ago |
-| Amazon | Principal PM - Tech, Amazon Business Payments | Principal | Seattle, WA | — | — | 2 weeks ago |
+| Amazon | Principal PM - Tech, Amazon Business Payments | Principal | Seattle, WA | — | 107 | 2 weeks ago |
+| Amazon | Senior Technical PM, Amazon Stores FinTech | Senior | Seattle, WA | — | 13 company alumni | 1 week ago |
+| Amazon | Principal PM - Tech, Profit Intelligence | Principal | Seattle, WA | — | — | 1 week ago |
+| Amazon | Principal PM - Technical, External Services, AGI: AI Services | Principal | Seattle, WA | — | — | — (viewed) |
+| Amazon | Principal Technical PM, Special Projects | Principal | Seattle, WA | — | — | 2 days ago |
+| Amazon Web Services (AWS) | Sr PM - Tech, ASP Strategy & Ops | Senior | Seattle, WA | — | 4 company alumni | 2 weeks ago |
+| Amazon Web Services (AWS) | Senior Product Manager - Tech | Senior | Seattle, WA | — | 15 | 2 weeks ago |
 | Amazon | Principal PM - Tech, éShop, Premium Ads CX | Principal | Seattle, WA | — | — | 2 weeks ago |
 | Amazon Web Services (AWS) | Principal Technical PM, Amazon Quick | Principal | Bellevue, WA | — | — | 1 week ago |
 | Amazon Web Services (AWS) | Product Leader, Specialist Technology Team | Leader | Seattle, WA | — | 15 | 2 weeks ago |
@@ -315,6 +326,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | CoreWeave | Staff PM - Containers & Kubernetes | Staff | Bellevue, WA (On-site) | — | — | 2 weeks ago |
 | CoreWeave | Senior Product Manager, W&B Models | Senior | Bellevue, WA (Hybrid) | — | — | 2 weeks ago |
 | CoreWeave | Staff Product Manager, Networking | Staff | Bellevue, WA (Hybrid) | — | — | 2 weeks ago |
+| CoreWeave | Senior Product Manager, Storage | Senior | Bellevue, WA (Hybrid) | — | — | 2 weeks ago |
 | Crusoe | Senior Product Manager, Orchestration | Senior | Bellevue, WA (On-site) | — | 1 | — (viewed) |
 | DigitalOcean | Principal PM, Agentic AI Infrastructure | Principal | Seattle, WA (Hybrid) | — | — | — (viewed) |
 | DigitalOcean | Staff Product Manager, Compute Platform | Staff | Seattle, WA (Hybrid) | — | 2 school alumni | 19 hours ago |
@@ -345,6 +357,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Deloitte | Lead PM, BankingSuite - Products & Platforms | Lead | Seattle, WA (Hybrid) | — | 10 | 1 week ago |
 | Deloitte | ConvergeMOBILITY - Product Strategy & Management Lead, Seamless CX (Senior Consultant) | Sr Consultant | Seattle, WA (Hybrid) | — | 10 | 1 week ago |
 | Deloitte | Zora AI - Product Manager, Sourcing & Procurement (Senior Consultant) | Sr Consultant | Seattle, WA (Hybrid) | — | 10 | — (viewed) |
+| Deloitte | Commerce Product Manager | PM | Seattle, WA (Hybrid) | — | 10 | 1 week ago |
 | Veriff | Senior Technical PM (Biometric Authentication) | Senior | Seattle, WA (Remote) | — | — | 3 weeks ago |
 | Affirm | Staff Product Manager, Affirm Bank | Staff | Seattle, WA (Remote) | — | 3 | 2 weeks ago |
 | Affirm | Staff Product Manager, Credit & Pricing | Staff | Seattle, WA (Remote) | — | 3 | 2 weeks ago |
@@ -384,6 +397,8 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | TikTok | TikTok Shop - Global Risk Strategy PM (Buyer Risk) | PM | Seattle, WA (On-site) | — | — | 1 week ago |
 | TikTok | TikTok Shop - Customer Experience Strategy & Product Lead | Lead | Seattle, WA (On-site) | — | — | 3 weeks ago |
 | TikTok | Data Product Manager - TikTok Shop | PM | Seattle, WA (On-site) | — | 12 | 1 month ago |
+| TikTok | Senior Data PM - Experimentation (Mandarin Speaker) | Senior | Seattle, WA (On-site) | — | 12 | 1 week ago |
+| TikTok USDS Joint Venture | Product Manager - Anti-Fraud Strategy | PM | Seattle, WA (On-site) | — | 1 school alumni | 2 weeks ago |
 | Capgemini Invent | AI Factory / Agentic Product Lead - Managing Consultant | Managing Consultant | Seattle, WA | — | 5 school alumni | 3 weeks ago |
 | Capgemini Invent | Customer AI Product Manager - Contact Center AI | PM (consulting) | Seattle, WA | — | 5 school alumni | 3 weeks ago |
 | Outreach | Director, PM – Conversational Intelligence | Director | Seattle, WA (Hybrid) | $210K–$260K | — | 2 weeks ago |
@@ -402,6 +417,8 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Spring Health | Lead PM, AI Safety and Platform | Lead | Seattle, WA (Hybrid) | $182K–$243K | 1 | 2 weeks ago |
 | Rippling | Product Lead, IT | Lead | Seattle, WA (On-site) | — | 1 company alumni | — (viewed) |
 | Rippling | Lead Product Manager - Data Catalog | Lead | Seattle, WA (Remote) | — | 1 company alumni | 1 day ago |
+| Rippling | Product Lead, Workflow Studio | Lead | Seattle, WA (Hybrid) | — | 1 company alumni | 4 days ago |
+| Rover | Product Manager - Search Experience | PM | Greater Seattle Area (Hybrid) | — | — | 1 day ago |
 | Uber | Lead PM, Remote Assistance | Lead | Seattle, WA | — | 18 | 2 days ago |
 | Uber | Lead Product Manager - Catalog | Lead | Seattle, WA | — | 18 | 1 day ago |
 | Uber | Lead PM, Autonomous Vehicle Integrations | Lead | Seattle, WA | — | 18 | 2 days ago |
@@ -421,12 +438,15 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Unity | Principal Product Manager, LevelPlay | Principal | Bellevue, WA | — | — | 1 week ago |
 | Unity | Staff Product Manager, Vector | Staff | Bellevue, WA | — | — | 21 hours ago |
 | Snap Inc. | Staff Product Manager, Ads Product – Brand | Staff | Bellevue, WA | — | 2 company alumni | 6 days ago |
+| Snap Inc. | Staff Product Manager, Ad Marketplace Growth | Staff | Bellevue, WA | — | 2 company alumni | 2 weeks ago |
 | CrowdStrike | Principal Product Manager, Exposure Management | Principal | Redmond, WA | — | — | 1 week ago |
 | CrowdStrike | Principal PM - Threat Detection Engine and Content | Principal | Redmond, WA (Hybrid) | — | — | 2 weeks ago |
 | CrowdStrike | Sr. Product Manager, Next-Gen SIEM | Senior | Redmond, WA (Hybrid) | — | — | 2 weeks ago |
 | CrowdStrike | Sr. Product Manager, Red Teaming AI – AIDR | Senior | Redmond, WA (Hybrid) | — | — | 2 days ago |
 | Flexport | Staff Product Manager, Commerce | Staff | Bellevue, WA (On-site) | — | 2 school alumni | 2 weeks ago |
 | Flexport | Staff Product Manager, Visibility | Staff | Bellevue, WA (On-site) | — | 2 school alumni | 2 weeks ago |
+| Flexport | Senior Product Manager, Commerce | Senior | Bellevue, WA (On-site) | — | 2 school alumni | 2 weeks ago |
+| McKinstry | Technical Product Manager, AI Delivery | TPM | Seattle, WA | — | — | 1 week ago |
 | Signal & Strand | Director of PM - Media & Publishing | Director | Seattle, WA (On-site) | $150K–$200K | — | 1 week ago |
 | Moloco | Director of Product Management, Consumer | Director | Seattle, WA | — | 2 school alumni | 3 days ago |
 | The Trade Desk | Staff Product Manager, Generalist | Staff | Bellevue, WA | — | 1 school alumni | 1 week ago |
@@ -438,6 +458,7 @@ Source: LinkedIn job search results the user pasted (keyword "product manager", 
 | Haystack | Product Manager | PM | Greater Seattle Area (Hybrid) | — | — | 1 day ago |
 | Haystack | Technical Product Manager | TPM | Greater Seattle Area (Hybrid) | — | — | 14 hours ago |
 | Nordstrom | Senior PM – Search and Discovery | Senior | Seattle, WA (Hybrid) | — | 4 | 3 days ago |
+| Nordstrom | Product Manager 2 — Customer Data Platform & Marketing Technology | PM 2 | Seattle, WA | — | 4 | 2 days ago |
 | Remitly | Senior PM, Conversational Experiences | Senior | Seattle, WA (Hybrid) | — | 5 | 3 weeks ago |
 | Remitly | Principal Product Manager, Remitly Business | Principal | Seattle, WA (Hybrid) | — | 5 | 1 week ago |
 | Remitly | Senior Product Manager, Transaction Platform | Senior | Seattle, WA (Hybrid) | — | 5 | 1 day ago |
@@ -545,6 +566,8 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
 | Superhuman | Productivity software company (formerly Grammarly; rebranded after acquiring Superhuman Mail). [VERIFY] | Seattle hybrid. |
 | Redfin | Online real-estate brokerage; owned by Rocket Companies. [VERIFY] | Seattle-headquartered. |
 | Flywheel | E-commerce agency/software helping brands sell on marketplaces (here, TikTok Shop); part of Omnicom. [VERIFY] | Seattle. |
+| McKinstry | Seattle-based construction, engineering, and building-energy services firm. "AI Delivery" = internal AI products. | Seattle-headquartered. |
+| Rover | Online marketplace for pet sitting and dog walking. | Seattle-headquartered. |
 | Chewy | Online pet-supply retailer (food, pharmacy, vet care, autoship subscriptions). Public company. | HQ in Florida; large Bellevue tech office. |
 | Haystack | Not enough info to confirm which company this is; likely Haystack the employee intranet/internal-comms software company. | [Needs research] |
 | Lambda | GPU cloud for AI training and inference, plus on-prem AI servers. Competes with CoreWeave. | HQ in San Francisco; Bellevue office. |
@@ -571,13 +594,13 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
 
 ## Patterns in this snapshot
 
-- **Amazon is 56 of 331 roles** even though you are not pursuing it. Treat it as a market signal for what Seattle PM work looks like, not a target. Note: 107 connections at Amazon is your single biggest network concentration, and you have applied to Sponsored Products and Brands.
-- **All three ★ dream targets have Seattle-area roles:** Anthropic #1 (3 roles: Multi-Cloud Trust & Safety, Claude Science, Claude), Google #3 (10 roles in Kirkland/Seattle), Microsoft #4 (34 roles + 1 at MAI + 1 at Mojang). Salesforce #5 has 9, Databricks #7 has 5.
+- **Amazon is 62 of 349 roles** even though you are not pursuing it. Treat it as a market signal for what Seattle PM work looks like, not a target. Note: 107 connections at Amazon is your single biggest network concentration, and you have applied to Sponsored Products and Brands.
+- **All three ★ dream targets have Seattle-area roles:** Anthropic #1 (3 roles: Multi-Cloud Trust & Safety, Claude Science, Claude), Google #3 (11 roles in Kirkland/Seattle), Microsoft #4 (35 roles + 1 at MAI + 1 at Mojang). Salesforce #5 has 9, Databricks #7 has 5.
 - **Agentic AI is the dominant theme.** ~38 roles: Microsoft Cowork/Autopilot + Agentic Security + Agentic Platform, Meta Agent Transformation Accelerator, Google AI FinOps & Model Routing, Microsoft Responsible AI + Enterprise Security & Governance + Foundry (CoreAI), Okta for AI Agents, T-Mobile GenAI Platforms, AMD ROCm AI, Remitly Conversational Experiences, NVIDIA AI Networking, AWS Velocity Labs (x2), AWS AgentCore (x2), AWS GenAIUX, AWS Amazon Quick, AWS Healthcare AI, Amazon AI Customer Service, Google GDC Agentic Platforms, Salesforce Agent-Native Web Experiences, Stripe Agentic Commerce, JPMC Agent Services + Agent Core + Agent Building Blocks, Docusign Procurement Agentic + Conversational AI, Amperity AI & Agentic, T-Mobile Principal AI, Cisco AI Knowledge Graph, Outreach Conversational Intelligence, Talkdesk AI, Brex AI, DigitalOcean Agentic AI Infra, Storable AI Agents, Meta AI Platforms & Infra, Synthesia, Arm Physical AI.
 - **AI infrastructure / GPU cloud:** NVIDIA, CoreWeave (x3), Lambda, DigitalOcean, Meta AI Infra, Salesforce Hyperforce, Google Managed Spark.
-- **Fintech / payments / lending:** Stripe (13, incl. Billing, Treasury for Platforms, Connect, Link, IAM), Whatnot Payments, Remitly Transaction Platform, T-Mobile Money, SentiLink Prefill, Affirm (3, incl. Credit & Pricing, Checkout), Socure Identity Products, Mastercard Director, Deloitte BankingSuite, Circle Onboarding, Walmart Billing & Financial Services, T-Mobile Financial Services, Brex (5), JPMC (3), SoFi (3, incl. Commercial Banking), Affirm Bank, Possible Loan & Advance, Circle, Remitly (2), Riot Games Commerce, Amazon Selling Partner Financial Foundations, Amazon Business Payments.
+- **Fintech / payments / lending:** Stripe (13, incl. Billing, Treasury for Platforms, Connect, Link, IAM), Whatnot Payments, Remitly Transaction Platform, T-Mobile Money, SentiLink Prefill, Affirm (3, incl. Credit & Pricing, Checkout), Socure Identity Products, Mastercard Director, Deloitte BankingSuite, Circle Onboarding, Walmart Billing & Financial Services, T-Mobile Financial Services, Brex (5), JPMC (3), SoFi (3, incl. Commercial Banking), Affirm Bank, Possible Loan & Advance, Circle, Remitly (2), Riot Games Commerce, Amazon Selling Partner Financial Foundations, Amazon Business Payments, Amazon Stores FinTech, Amazon Profit Intelligence, TikTok Anti-Fraud Strategy.
 - **Trust, safety & security:** Anthropic Multi-Cloud T&S, Pinterest Adversarial Actors, Meta Central Security, Microsoft Agentic Security, Spring Health AI Safety, Stripe Radar.
 - **Personalization & discovery:** Amazon, Prime Video (x2 + Off App Discovery), Netflix, Nordstrom, Walmart Insights & Recs.
 - **Warmest paths (by connection count):** Amazon (107), Expedia (36), Adobe (35), Microsoft (27), Salesforce (26), Arm (21 school alumni), Stripe (19), Google (18), Uber (18).
 - **Highest posted comp:** Lambda Principal x2 ($338K–$500K), Lambda Principal Hardware ($338K–$438K), Whatnot PM Growth ($240K–$344K), Lambda Staff ($291K–$430K), Expedia Comms & Intelligence ($242K–$338.5K), Snowflake Director ($304K–$437K), AMD Sr Manager ($205.7K–$308.5K), SoFi Principal ($240K–$330K), Meta Director ($249K–$323K), Expedia Principal ($224K–$313.5K).
-- **Not on target list yet:** Microsoft AI (as a separate org), Meta, Instagram, Signal & Strand, eBay, Whatnot, Metropolis, Weyerhaeuser, Temporal, Grow Therapy, TikTok, Socure, Superhuman, Redfin, Flywheel, Mastercard, Warner Bros. Discovery, Nscale, Deep Sync, Cognitiv, PEMCO, Fractal, Snap, Veriff, GaggleAMP, Deloitte, ClickHouse, Unity, Vivint, NexHealth, Crusoe, Capgemini Invent, Affirm, Possible, Yoodli, KPMG, PwC, Liberty Mutual, Chewy, Haystack, Remitly, AMD, SentiLink, Walmart, Netflix, Nordstrom, JPMorganChase, T-Mobile, Circle, Spring Health, Outreach, Amperity, Riot Games, Siemens DISW, RentSpree, Lambda, Pinterest, REI, Talkdesk, Moloco, LVT, Arm, Rippling, SoFi, The Trade Desk, Marsh, Alaska Airlines, F5, DigitalOcean, Storable, Axon, Pulumi, Auger, Synthesia, EY-Parthenon, Outpost, LawnStarter.
+- **Not on target list yet:** Microsoft AI (as a separate org), Meta, Instagram, Signal & Strand, eBay, Whatnot, Metropolis, Weyerhaeuser, Temporal, Grow Therapy, TikTok, McKinstry, Rover, Socure, Superhuman, Redfin, Flywheel, Mastercard, Warner Bros. Discovery, Nscale, Deep Sync, Cognitiv, PEMCO, Fractal, Snap, Veriff, GaggleAMP, Deloitte, ClickHouse, Unity, Vivint, NexHealth, Crusoe, Capgemini Invent, Affirm, Possible, Yoodli, KPMG, PwC, Liberty Mutual, Chewy, Haystack, Remitly, AMD, SentiLink, Walmart, Netflix, Nordstrom, JPMorganChase, T-Mobile, Circle, Spring Health, Outreach, Amperity, Riot Games, Siemens DISW, RentSpree, Lambda, Pinterest, REI, Talkdesk, Moloco, LVT, Arm, Rippling, SoFi, The Trade Desk, Marsh, Alaska Airlines, F5, DigitalOcean, Storable, Axon, Pulumi, Auger, Synthesia, EY-Parthenon, Outpost, LawnStarter.
