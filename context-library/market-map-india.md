@@ -6,12 +6,13 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 
 **AI scope** column: **Yes** = AI is in the title. **AI company** = the company's core product is AI, but the title doesn't say. **Check JD** = the title doesn't say; open the JD before counting it, since roles without AI scope are a no for India.
 
-**Remote India roles** (NewRocket, Databricks, Halo Media, Netomi, First Advantage, Scrut Automation) are kept and flagged: they qualify only if you can work them from Bengaluru or Hyderabad.
+**Remote India roles** (NewRocket, Databricks, Halo Media, Netomi, First Advantage, Scrut Automation, Outmarket AI) are kept and flagged: they qualify only if you can work them from Bengaluru or Hyderabad.
 
 - Snapshot 1: 2026-10-19 (25 roles pasted; 5 later moved to "Excluded by location" after you limited India to Bengaluru and Hyderabad)
 - Snapshot 2: 2026-10-19 (17 new roles. D. E. Shaw "Principal Manager, PM (Comply Tech)" was listed in both Bengaluru and Hyderabad and is counted once. Excluded: 7 postings you hid, 6 of which are also outside Bengaluru/Hyderabad)
 - Snapshot 3: 2026-10-19 (15 new roles. Duplicates skipped: Backbase (Agentic) PM (reposted, now 6 days ago), Nike Lead TPM ITC. Prime Video "Principal PMT - International, Personalization & Discovery" is now also listed in Bengaluru, so it moves into scope. Counted as separate reqs: Microsoft Principal PM (27 connections, distinct card from the earlier one) and Cornerstone "HR Platforms & Technology" (on-site, 2 weeks; may be a repost of "HR Technology & Platforms"). Excluded: 3 postings you hid, 4 outside Bengaluru/Hyderabad)
 - Snapshot 4: 2026-10-19 (12 new roles. Duplicates skipped: Nike Lead TPM ITC, Microsoft Principal PM Manager, Google Global Product Lead, Amgen "R-256479- Digital Product Manager (AI)" (same req as the earlier Amgen posting, now dated 1 week ago). Excluded: 6 postings you hid, 1 outside Bengaluru/Hyderabad, and 2 non-PM roles (TELUS Digital Principal Product Designer; HSBC Associate Director, Data Analytics and AI))
+- Snapshot 5: 2026-10-19 (7 new roles. Duplicates skipped: Nike Lead TPM ITC, Mastercard Lead PM - Technical (Pune, already excluded), Cisco PM - Partner Experience (relisted in Hyderabad), Google Operations Center PM - Applied AI, Cognite Principal PM (relisted as on-site; treated as the same req). Excluded: 7 postings you hid, 2 outside Bengaluru/Hyderabad. First posted India salary: Serko Director of Product, ₹75–84L)
 
 ## Summary by company
 
@@ -64,7 +65,14 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Nielsen | 1 | Bengaluru | 1 | Check JD |
 | First Advantage | 1 | India (Remote) | 2 school alumni | Check JD |
 | Scrut Automation | 1 | India (Remote) | 1 school alumni | Check JD |
-| **Total** | **64** | | | **24 Yes, 1 ML, 4 AI company, 35 Check JD** |
+| HSBC | 1 | Bengaluru | 62 school alumni | Yes |
+| Optum India | 1 | Hyderabad | 1 school alumni | Yes (ML) |
+| Libra AI | 1 | Bengaluru | — | Yes |
+| Outmarket AI | 1 | India (Remote) | — | AI company |
+| Teradata | 1 | Hyderabad | — | Check JD |
+| N-able | 1 | Bengaluru | — | Check JD |
+| Serko | 1 | Bengaluru | 1 school alumni | Check JD |
+| **Total** | **71** | | | **27 Yes, 1 ML, 5 AI company, 38 Check JD** |
 
 ## All open roles (Bengaluru, Hyderabad, India remote)
 
@@ -127,6 +135,13 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | First Advantage | Director, Product Management | Director | India (Remote) | Check JD | 2 school alumni | 6 days ago |
 | Scrut Automation | Technical Product Manager | TPM | India (Remote) | Check JD | 1 school alumni | 2 months ago |
 | Cisco | Product Manager - Partner Experience | PM | Bengaluru | Check JD | 19 | 2 days ago |
+| HSBC | Assistant Director - PM, Conversational Artificial Intelligence | Asst Director | Bengaluru (Hybrid) | Yes | 62 school alumni | 2 days ago |
+| Optum India | Senior PM / Lead PM - Data Science / Machine Learning / Cloud | Sr / Lead | Hyderabad | Yes (ML) | 1 school alumni | 3 months ago |
+| Libra AI | AI PM | PM | Bengaluru (On-site) | Yes | — | 2 months ago |
+| Outmarket AI | Product Lead - Data | Lead | India (Remote) | AI company | — | 3 months ago |
+| Teradata | Senior Director Product Management | Sr Director | Hyderabad (On-site) | Check JD | — | 5 days ago |
+| N-able | Principal Product Manager | Principal | Bengaluru | Check JD | — | 2 weeks ago |
+| Serko | Director of Product (posted ₹75–84L) | Director | Bengaluru (Hybrid) | Check JD | 1 school alumni | 4 months ago |
 | Hewlett Packard Enterprise | Principal Product Manager - Switching | Principal | Bengaluru | Check JD | 20 school alumni | 2 months ago |
 | Nike | Lead Technical Product Manager, ITC | Lead | Karnataka (On-site) | Check JD | 1 | 6 days ago |
 | Warner Bros. Discovery | Staff Product Manager - Tech | Staff | Bengaluru East | Check JD | 6 school alumni | 4 days ago |
@@ -156,8 +171,12 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Atlys | Product Manager - AI | New Delhi | Snapshot 3 |
 | Mastercard | Lead Product Manager | Gurugram | Snapshot 4 |
 | HighLevel | Principal PM - Knowledge Bases & Ask AI | Itanagar | Snapshot 4; also hidden by you |
+| Accenture in India | AI Product Management Practitioner | Pune | Snapshot 5 (same role is also in Bengaluru, counted there) |
+| RBM Software | Head of AI Strategy & Product Management | Pune | Snapshot 5 |
+| QAD | Director Product Management - Source-to-Pay | Pune | Snapshot 5; also hidden by you |
+| Karat | Principal PM - Hiring Manager Experience | Coimbatore | Snapshot 5; also hidden by you |
 
-Also excluded (hidden by you, in-scope city): HighLevel Principal PM, Knowledge Bases & Ask AI (India remote); Standard Chartered Data & AI Portfolio (Bengaluru); Deloitte Senior Product Manager (Hyderabad); Coursera Senior PM, Applied AI (India remote); Amazon Sr PM, Alexa Automotive (Bengaluru); HighLevel Principal PM, Conversation AI (India remote); Jobgether Sr TPM, Applied AI and PM - AI (India remote); Fujitsu TPM (Bengaluru).
+Also excluded (hidden by you, in-scope city): HighLevel Principal PM, Knowledge Bases & Ask AI (India remote); Standard Chartered Data & AI Portfolio (Bengaluru); Deloitte Senior Product Manager (Hyderabad); Coursera Senior PM, Applied AI (India remote); Amazon Sr PM, Alexa Automotive (Bengaluru); HighLevel Principal PM, Conversation AI (India remote); Jobgether Sr TPM, Applied AI and PM - AI (India remote); Fujitsu TPM (Bengaluru); HighLevel Principal PM, Voice AI (India remote); Amgen Senior Digital PM (AI) (Hyderabad); Jobgether Director, PM (India remote); Udemy Senior PM, Applied AI (India remote); Optum Senior Manager, TPM (Hyderabad).
 
 ## Company primer (less familiar names)
 
@@ -201,6 +220,13 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
 | Nielsen | Audience measurement and media analytics. |
 | First Advantage | Background screening and identity verification. |
 | Scrut Automation | Compliance automation (SOC 2, ISO) startup. |
+| HSBC | Global bank; large Bengaluru and Hyderabad technology centers. |
+| Optum India | UnitedHealth Group's health-services and tech arm. |
+| Libra AI | Unknown AI startup. [Needs research] |
+| Outmarket AI | AI startup (marketing / go-to-market data). [VERIFY] |
+| Teradata | Enterprise data warehouse and analytics platform. |
+| N-able | IT management and security software for managed service providers. |
+| Serko | NZ-based business-travel booking software (Zeno). |
 
 ## Patterns so far
 
@@ -213,5 +239,6 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
   - **Amazon, Principal PMT – AI, Smart Commerce:** AI plus your Amazon seller/commerce background.
 - **Domain-adjacent picks** (AI scope to confirm): Aerchain (AI for procurement; your supply-chain work), PhonePe (payments; your credit work), Vendavo (B2B pricing; your Amazon Pricing work).
 - **AI governance and evaluation is a clear India theme:** ServiceNow, OneTrust, Fanatics and Palo Alto all hire for it, which is your strongest story.
-- **Level check:** about 23 of 64 are posted below Principal/Staff (PM, Lead, Senior, Product Owner). Compare against the ₹1.0 Cr suggested floor once you see the band.
-- **AI scope unclear on 35 roles.** Check the JD before counting them.
+- **First posted India pay:** Serko's Director of Product lists ₹75–84L, below the ₹1.0 Cr floor I suggested. A Director title at a smaller company can pay less than Principal at big tech.
+- **Level check:** about 26 of 71 are posted below Principal/Staff (PM, Lead, Senior, Product Owner). Compare against the ₹1.0 Cr suggested floor once you see the band.
+- **AI scope unclear on 38 roles.** Check the JD before counting them.
