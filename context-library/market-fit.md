@@ -17,6 +17,44 @@ Defined by the user on 2026-10-19. Use this to decide which companies and roles 
 
 ---
 
+## Final list (2026-10-19)
+
+### Type 1: Principal/Director/Head of Product in enterprise AI, workflow automation, AI/ML platforms (20)
+1. Microsoft: Agentic Platform; CoreAI (Security & Governance, Responsible AI, Azure PaaS, Foundry)
+2. Salesforce: Director roles in Agent-Native Web Experiences, Developer Experience, Platform Services
+3. Google Cloud: Agentic Platform (GDC); AI FinOps & Model Routing
+4. Databricks: Data Governance, Lakebase, Security
+5. Snowflake: Director Transactions; data and AI platform
+6. Meta: Director AI Platforms & Infra; Agent Transformation Accelerator
+7. Glean: enterprise AI search and agents (also Type 2)
+8. Writer: enterprise agentic AI platform; Seattle office [VERIFY]
+9. Docusign: Procurement Agentic Experiences; Conversational AI & Agentic
+10. Atlassian: Rovo agents (remote)
+11. Rippling: Workflow Studio; Data Catalog
+12. Amperity: Principal Product Builder, AI & Agentic
+13. Storable: Principal PM AI Agents & Automation; MCP platform
+14. Temporal: workflow and agent infrastructure
+15. CoreWeave (Weights & Biases): ML platform
+16. DigitalOcean: Principal PM Agentic AI Infrastructure
+17. Outreach: Director, Conversational Intelligence
+18. project44: supply-chain visibility, agentic AI (check comp)
+19. Stripe: Agentic Commerce only (other Stripe roles are payments)
+20. Amazon / AWS: AgentCore, Velocity Labs, Agentic Seller Growth (career plan says "not pursuing"; your call)
+
+### Type 2: Forward-deployed enterprise AI (5)
+1. Glean: Forward Deployed Product Manager, remote US
+2. Deloitte: Zora AI PM, Sourcing & Procurement
+3. Capgemini Invent: Agentic Product Lead; Contact Center AI
+4. AWS field and applied AI: Specialist Technology Team; Applied AI Solutions (same Amazon caveat)
+5. Anthropic / OpenAI applied and forward-deployed roles: watch; no Seattle FDE posting seen yet [VERIFY]
+
+### Domain fit (apply where the role is AI-led)
+- Supply chain: Auger, Flexport, DAT Freight, Meta Supply Chain Planning, Amazon (AFT, FBA, Ship with Amazon). Watch: o9 Solutions, Blue Yonder, Kinaxis, Coupa (no Seattle or remote-US PM roles at your level yet)
+- Credit: Affirm, SoFi, Brex, Possible
+
+### Want, may not be Qualified
+- Frontier research product roles: OpenAI, Anthropic, Google DeepMind
+
 ## Seattle companies: Want and Qualified (draft, 2026-10-19)
 
 Evidence = roles seen in the Seattle-area market map.
