@@ -25,7 +25,9 @@ Enterprise or platform AI PM. Owning an agentic or AI platform product from cust
 
 ## Remote vs In-Person
 
-Seattle-based. **Not open to relocation.** Open to Seattle-area on-site/hybrid roles and fully remote roles.
+Seattle-based. Updated 2026-10-19:
+1. **Primary:** Seattle-area roles (on-site, hybrid, or remote) and fully remote US roles.
+2. **Secondary:** Roles located in India. Open to relocating to India if needed. No other relocation.
 
 ## Target Companies Preference
 
