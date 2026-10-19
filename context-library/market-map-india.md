@@ -6,7 +6,7 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 
 **AI scope** column: **Yes** = AI is in the title. **AI company** = the company's core product is AI, but the title doesn't say. **Check JD** = the title doesn't say; open the JD before counting it, since roles without AI scope are a no for India.
 
-**Remote India roles** (NewRocket, Databricks, Halo Media, Netomi, First Advantage, Scrut Automation, Outmarket AI, Korza) are kept and flagged: they qualify only if you can work them from Bengaluru or Hyderabad.
+**Remote India roles** (NewRocket, Databricks, Halo Media, Netomi, First Advantage, Scrut Automation, Outmarket AI, Korza, MonetizeMore, Wati) are kept and flagged: they qualify only if you can work them from Bengaluru or Hyderabad.
 
 - Snapshot 1: 2026-10-19 (25 roles pasted; 5 later moved to "Excluded by location" after you limited India to Bengaluru and Hyderabad)
 - Snapshot 2: 2026-10-19 (17 new roles. D. E. Shaw "Principal Manager, PM (Comply Tech)" was listed in both Bengaluru and Hyderabad and is counted once. Excluded: 7 postings you hid, 6 of which are also outside Bengaluru/Hyderabad)
@@ -14,19 +14,20 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 - Snapshot 4: 2026-10-19 (12 new roles. Duplicates skipped: Nike Lead TPM ITC, Microsoft Principal PM Manager, Google Global Product Lead, Amgen "R-256479- Digital Product Manager (AI)" (same req as the earlier Amgen posting, now dated 1 week ago). Excluded: 6 postings you hid, 1 outside Bengaluru/Hyderabad, and 2 non-PM roles (TELUS Digital Principal Product Designer; HSBC Associate Director, Data Analytics and AI))
 - Snapshot 5: 2026-10-19 (7 new roles. Duplicates skipped: Nike Lead TPM ITC, Mastercard Lead PM - Technical (Pune, already excluded), Cisco PM - Partner Experience (relisted in Hyderabad), Google Operations Center PM - Applied AI, Cognite Principal PM (relisted as on-site; treated as the same req). Excluded: 7 postings you hid, 2 outside Bengaluru/Hyderabad. First posted India salary: Serko Director of Product, ₹75–84L)
 - Snapshot 6: 2026-10-19 (9 new roles. Duplicates skipped: Accenture AI PM Practitioner (Pune, already excluded), HSBC Associate Director, Data Analytics and AI (non-PM, now relisted in Gurgaon). Excluded: 10 postings you hid, 3 outside Bengaluru/Hyderabad. Chubb's "Telangana, India" is treated as Hyderabad)
+- Snapshot 7: 2026-10-19 (14 new roles. Duplicate skipped: Nielsen Lead PM (relisted). Excluded: 5 postings you hid, 3 outside Bengaluru/Hyderabad, 1 non-PM (HSBC Associate Director, Data Analytics and AI, relisted in Hyderabad). Transsion "AI Product Manager" was cut off without a location and is not counted. Wati is listed as "Chennai (Remote)" and kept as a remote role)
 
 ## Summary by company
 
 | Company | Roles | City | Connections | AI scope |
 |---|---|---|---|---|
 | Palo Alto Networks | 2 | Bengaluru | — | Yes (both) |
-| Microsoft | 3 | Hyderabad | 27 | Check JD (all) |
+| Microsoft | 4 | Hyderabad | 27 | Check JD (all) |
 | Deloitte | 3 | Hyderabad | 10 | 1 Yes, 2 Check JD |
 | WhatsApp (Meta) | 2 | Bengaluru | 4 school alumni | Check JD (both) |
 | Cornerstone OnDemand | 3 | Hyderabad | 7 school alumni | Check JD (all) |
 | JazzX AI | 2 | Bengaluru | — | AI company |
 | Amazon (incl. Prime Video) | 3 | Bengaluru | 2 school alumni (Prime Video) | 1 Yes, 1 ML personalization, 1 Check JD |
-| Google | 2 | Hyderabad | 18 | Yes (both) |
+| Google | 3 | Hyderabad, Bengaluru | 18 | 2 Yes, 1 Check JD |
 | Google Operations Center | 1 | Bengaluru | 1 school alumni | Yes |
 | ServiceNow | 3 | Hyderabad | 9 | 2 Yes, 1 Check JD |
 | OneTrust | 2 | Bengaluru | 1 school alumni | Yes (both) |
@@ -44,10 +45,10 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Target | 1 | Bengaluru | 2 | Check JD |
 | Cognite | 1 | Bengaluru | 2 school alumni | Check JD |
 | Hewlett Packard Enterprise | 1 | Bengaluru | 20 school alumni | Check JD |
-| Nike | 1 | Karnataka (likely Bengaluru) | 1 | Check JD |
+| Nike | 2 | Karnataka (likely Bengaluru) | 1 | Check JD (both) |
 | Warner Bros. Discovery | 1 | Bengaluru | 6 school alumni | Check JD |
 | Cisco | 2 | Bengaluru | 19 | Check JD (both) |
-| Meraki Labs | 1 | Bengaluru | 2 school alumni | Check JD |
+| Meraki Labs | 2 | Bengaluru | 2 school alumni | Check JD (both) |
 | Databricks | 1 | India (Remote) | 8 | Check JD (PM-adjacent title) |
 | Halo Media | 1 | India (Remote) | — | Check JD |
 | Docusign | 1 | Bengaluru | 4 | Yes |
@@ -77,12 +78,20 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Altimate AI | 1 | Bengaluru | 2 school alumni | AI company |
 | PayPal | 1 | Bengaluru | 2 | Check JD |
 | Visa | 1 | Bengaluru | 3 | Check JD |
-| Tekion Corp | 1 | Bengaluru | 8 school alumni | Check JD |
+| Tekion Corp | 3 | Bengaluru | 8 school alumni | Check JD (all) |
 | Chubb | 1 | Telangana (likely Hyderabad) | 1 company alumni | Check JD |
 | IBaseIT | 1 | Hyderabad | — | Check JD |
 | Manifest Global | 1 | Bengaluru | 1 school alumni | Check JD |
 | Korza | 1 | India (Remote) | — | Check JD |
-| **Total** | **80** | | | **28 Yes, 1 ML, 6 AI company, 45 Check JD** |
+| Osfin.ai | 1 | Bengaluru | 6 school alumni | AI company |
+| Eudia | 1 | Bengaluru | 1 school alumni | AI company [VERIFY] |
+| Phyllo | 1 | Bengaluru | — | Yes |
+| eBay | 1 | Bengaluru | 13 | Check JD |
+| Odessa | 1 | Bengaluru | — | Check JD |
+| Virtusa | 1 | Bengaluru | 1 | Check JD |
+| MonetizeMore | 1 | India (Remote) | — | Check JD |
+| Wati | 1 | India (Remote; listed Chennai) | — | Check JD |
+| **Total** | **94** | | | **29 Yes, 1 ML, 8 AI company, 56 Check JD** |
 
 ## All open roles (Bengaluru, Hyderabad, India remote)
 
@@ -104,8 +113,10 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Microsoft | Principal PM Manager | Principal (manager) | Hyderabad (Hybrid) | Check JD | 27 | 1 week ago |
 | Microsoft | Principal Product Manager | Principal | Hyderabad (Hybrid) | Check JD | — | 1 week ago |
 | Microsoft | Principal Product Manager | Principal | Hyderabad (Hybrid) | Check JD | 27 | 1 week ago |
+| Microsoft | Senior Product Manager | Senior | Hyderabad (Hybrid) | Check JD | 27 | 2 days ago |
 | Google | Global Product Lead, Support Tools, Global Business Applied AI, GTM | Lead | Hyderabad (On-site) | Yes | 18 | 2 weeks ago |
 | Google | Product Manager, Agentic, Customer Engagement | PM | Hyderabad (On-site) | Yes | 18 | 1 week ago |
+| Google | Product Manager, Google Pay | PM | Bengaluru (On-site) | Check JD | 18 | 1 day ago |
 | Google Operations Center | Product Manager - Applied AI and Engineering | PM | Bengaluru East | Yes | 1 school alumni | 1 week ago |
 | Deloitte | Director of Product Management | Director | Hyderabad (Hybrid) | Check JD | 10 | 1 day ago |
 | Deloitte | Applied AI Product Manager | PM | Hyderabad | Yes | 10 | 3 days ago |
@@ -153,6 +164,18 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | N-able | Principal Product Manager | Principal | Bengaluru | Check JD | — | 2 weeks ago |
 | Serko | Director of Product (posted ₹75–84L) | Director | Bengaluru (Hybrid) | Check JD | 1 school alumni | 4 months ago |
 | Tekion Corp | Director, Product Management | Director | Bengaluru (On-site) | Check JD | 8 school alumni | 2 months ago |
+| Tekion Corp | Staff Product Manager | Staff | Bengaluru (On-site) | Check JD | 8 school alumni | 1 month ago |
+| Tekion Corp | Lead Product Manager | Lead | Bengaluru (On-site) | Check JD | 8 school alumni | 2 months ago |
+| Osfin.ai | Platform Product Manager | PM | Bengaluru East (On-site) | AI company | 6 school alumni | 3 weeks ago |
+| Eudia | Product Manager | PM | Bengaluru | AI company [VERIFY] | 1 school alumni | 2 months ago |
+| Phyllo | Product Manager - AI | PM | Bengaluru (On-site) | Yes | — | 1 month ago |
+| eBay | Senior Product Manager II | Senior | Bengaluru (Hybrid) | Check JD | 13 | 2 weeks ago |
+| Odessa | AVP, Product Management, User Experience | AVP | Bengaluru (Hybrid) | Check JD | — | 2 weeks ago |
+| Virtusa | Product Manager | PM | Bengaluru | Check JD | 1 | 1 week ago |
+| Nike | Lead Technical Product Manager Finance, ITC | Lead | Karnataka (On-site) | Check JD | 1 | 1 month ago |
+| Meraki Labs | Product Manager | PM | Bengaluru (On-site) | Check JD | — | 2 weeks ago |
+| MonetizeMore | Group Product Manager | Group PM | India (Remote) | Check JD | — | 3 months ago |
+| Wati | Senior PM / PM - Platform | Senior | Chennai (Remote) | Check JD | — | 6 months ago |
 | PayPal | Lead Product Manager | Lead | Bengaluru | Check JD | 2 | 5 days ago |
 | Visa | Product Manager | PM | Bengaluru (On-site) | Check JD | 3 | 1 week ago |
 | EPAM Systems | Product Manager - AI | PM | Bengaluru (On-site) | Yes | 1 | 2 weeks ago |
@@ -200,8 +223,13 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | BNY | VP, POM Technical PM - Developer Marketplace | Pune | Snapshot 6; also hidden by you |
 | Deutsche Telekom Digital Labs | Group Product Manager | Gurugram | Snapshot 6; also hidden by you |
 | Payoneer | Senior PM – MCP/API Platform | Gurugram | Snapshot 6; also hidden by you |
+| Zensar Technologies | Technical Product Manager | Gurugram | Snapshot 7 |
+| Optum India | Senior Manager, TPM - Payment Domain | Noida | Snapshot 7 |
+| Manifest Global | Lead Product Manager | Mumbai | Snapshot 7 (also listed in Bengaluru, counted there) |
+| PubMatic | Senior PM, Analytics and Agentic Platform | Pune | Snapshot 7; also hidden by you |
+| QAD | Lead AI Engagement Specialist | Pune (Remote) | Snapshot 7; also hidden by you |
 
-Also excluded (hidden by you, in-scope city): HighLevel Principal PM, Knowledge Bases & Ask AI (India remote); Standard Chartered Data & AI Portfolio (Bengaluru); Deloitte Senior Product Manager (Hyderabad); Coursera Senior PM, Applied AI (India remote); Amazon Sr PM, Alexa Automotive (Bengaluru); HighLevel Principal PM, Conversation AI (India remote); Jobgether Sr TPM, Applied AI and PM - AI (India remote); Fujitsu TPM (Bengaluru); HighLevel Principal PM, Voice AI (India remote); Amgen Senior Digital PM (AI) (Hyderabad); Jobgether Director, PM (India remote); Udemy Senior PM, Applied AI (India remote); Optum Senior Manager, TPM (Hyderabad); Amazon Sr PMT, Alexa Ads; Microsoft Senior PM (Hyderabad); PwC Acceleration Center Senior Manager; PhonePe Senior PM; Accellor Senior AI PM; Razorpay Senior PM; Disney Sr Product Development Manager (all Bengaluru/Hyderabad).
+Also excluded (hidden by you, in-scope city): HighLevel Principal PM, Knowledge Bases & Ask AI (India remote); Standard Chartered Data & AI Portfolio (Bengaluru); Deloitte Senior Product Manager (Hyderabad); Coursera Senior PM, Applied AI (India remote); Amazon Sr PM, Alexa Automotive (Bengaluru); HighLevel Principal PM, Conversation AI (India remote); Jobgether Sr TPM, Applied AI and PM - AI (India remote); Fujitsu TPM (Bengaluru); HighLevel Principal PM, Voice AI (India remote); Amgen Senior Digital PM (AI) (Hyderabad); Jobgether Director, PM (India remote); Udemy Senior PM, Applied AI (India remote); Optum Senior Manager, TPM (Hyderabad); Amazon Sr PMT, Alexa Ads; Microsoft Senior PM (Hyderabad); PwC Acceleration Center Senior Manager; PhonePe Senior PM; Accellor Senior AI PM; Razorpay Senior PM; Disney Sr Product Development Manager (all Bengaluru/Hyderabad); Tether Sr TPM, Keet (India remote); Tandems Senior PM (India remote); Accellor Senior AI PM (Hyderabad).
 
 ## Company primer (less familiar names)
 
@@ -257,6 +285,13 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
 | Tekion Corp | Cloud platform for auto dealers and OEMs. |
 | Chubb | Global insurer; Hyderabad technology center. |
 | IBaseIT / Manifest Global / Korza | Unknown. [Needs research] |
+| Osfin.ai | Bengaluru startup automating finance operations (payment reconciliation) with AI. [VERIFY] |
+| Eudia | AI for corporate legal teams. [VERIFY] |
+| Phyllo | Creator-data API platform. [VERIFY] |
+| Odessa | Software for equipment and auto leasing companies. |
+| Virtusa | IT services and consulting. |
+| MonetizeMore | Ad-revenue optimization for publishers. |
+| Wati | WhatsApp Business API platform for customer engagement. |
 
 ## Patterns so far
 
@@ -267,8 +302,8 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
   - **Palo Alto Networks, 2 Principal PMs on Prisma AIRS:** AI security; connects to action safety.
   - **Smartsheet, Principal PM, Data & AI Platforms:** your data platform + ML platform background.
   - **Amazon, Principal PMT – AI, Smart Commerce:** AI plus your Amazon seller/commerce background.
-- **Domain-adjacent picks** (AI scope to confirm): Aerchain (AI for procurement; your supply-chain work), PhonePe, PayPal and Visa (payments; your credit work), Vendavo (B2B pricing; your Amazon Pricing work).
+- **Domain-adjacent picks** (AI scope to confirm): Aerchain (AI for procurement; your supply-chain work), PhonePe, PayPal, Visa, Google Pay and Osfin.ai (payments and finance ops; your credit work), Vendavo (B2B pricing; your Amazon Pricing work).
 - **AI governance and evaluation is a clear India theme:** ServiceNow, OneTrust, Fanatics and Palo Alto all hire for it, which is your strongest story.
 - **First posted India pay:** Serko's Director of Product lists ₹75–84L, below the ₹1.0 Cr floor I suggested. A Director title at a smaller company can pay less than Principal at big tech.
-- **Level check:** about 32 of 80 are posted below Principal/Staff (PM, Lead, Senior, Product Owner). Compare against the ₹1.0 Cr suggested floor once you see the band.
-- **AI scope unclear on 45 roles.** Check the JD before counting them.
+- **Level check:** about 42 of 94 are posted below Principal/Staff (PM, Lead, Senior, Product Owner). Compare against the ₹1.0 Cr suggested floor once you see the band.
+- **AI scope unclear on 56 roles.** Check the JD before counting them.
