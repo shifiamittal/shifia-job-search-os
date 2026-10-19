@@ -6,11 +6,12 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 
 **AI scope** column: **Yes** = AI is in the title. **AI company** = the company's core product is AI, but the title doesn't say. **Check JD** = the title doesn't say; open the JD before counting it, since roles without AI scope are a no for India.
 
-**Remote India roles** (NewRocket, Databricks, Halo Media, Netomi) are kept and flagged: they qualify only if you can work them from Bengaluru or Hyderabad.
+**Remote India roles** (NewRocket, Databricks, Halo Media, Netomi, First Advantage, Scrut Automation) are kept and flagged: they qualify only if you can work them from Bengaluru or Hyderabad.
 
 - Snapshot 1: 2026-10-19 (25 roles pasted; 5 later moved to "Excluded by location" after you limited India to Bengaluru and Hyderabad)
 - Snapshot 2: 2026-10-19 (17 new roles. D. E. Shaw "Principal Manager, PM (Comply Tech)" was listed in both Bengaluru and Hyderabad and is counted once. Excluded: 7 postings you hid, 6 of which are also outside Bengaluru/Hyderabad)
 - Snapshot 3: 2026-10-19 (15 new roles. Duplicates skipped: Backbase (Agentic) PM (reposted, now 6 days ago), Nike Lead TPM ITC. Prime Video "Principal PMT - International, Personalization & Discovery" is now also listed in Bengaluru, so it moves into scope. Counted as separate reqs: Microsoft Principal PM (27 connections, distinct card from the earlier one) and Cornerstone "HR Platforms & Technology" (on-site, 2 weeks; may be a repost of "HR Technology & Platforms"). Excluded: 3 postings you hid, 4 outside Bengaluru/Hyderabad)
+- Snapshot 4: 2026-10-19 (12 new roles. Duplicates skipped: Nike Lead TPM ITC, Microsoft Principal PM Manager, Google Global Product Lead, Amgen "R-256479- Digital Product Manager (AI)" (same req as the earlier Amgen posting, now dated 1 week ago). Excluded: 6 postings you hid, 1 outside Bengaluru/Hyderabad, and 2 non-PM roles (TELUS Digital Principal Product Designer; HSBC Associate Director, Data Analytics and AI))
 
 ## Summary by company
 
@@ -26,7 +27,7 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Google | 2 | Hyderabad | 18 | Yes (both) |
 | Google Operations Center | 1 | Bengaluru | 1 school alumni | Yes |
 | ServiceNow | 3 | Hyderabad | 9 | 2 Yes, 1 Check JD |
-| OneTrust | 1 | Bengaluru | 1 school alumni | Yes |
+| OneTrust | 2 | Bengaluru | 1 school alumni | Yes (both) |
 | Fanatics | 1 | Hyderabad | 1 | Yes |
 | Smartsheet | 1 | Bengaluru (Remote) | — | Yes |
 | GE Vernova | 1 | Bengaluru | 52 school alumni | Yes |
@@ -43,18 +44,27 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Hewlett Packard Enterprise | 1 | Bengaluru | 20 school alumni | Check JD |
 | Nike | 1 | Karnataka (likely Bengaluru) | 1 | Check JD |
 | Warner Bros. Discovery | 1 | Bengaluru | 6 school alumni | Check JD |
-| Cisco | 1 | Bengaluru | 19 | Check JD |
+| Cisco | 2 | Bengaluru | 19 | Check JD (both) |
 | Meraki Labs | 1 | Bengaluru | 2 school alumni | Check JD |
 | Databricks | 1 | India (Remote) | 8 | Check JD (PM-adjacent title) |
 | Halo Media | 1 | India (Remote) | — | Check JD |
 | Docusign | 1 | Bengaluru | 4 | Yes |
 | Accenture in India | 1 | Bengaluru | 1 | Yes |
-| Amgen | 1 | Hyderabad | 6 school alumni | Yes |
+| Amgen | 2 | Hyderabad | 6 school alumni | Yes (both) |
 | Netomi | 1 | India (Remote; listed Gurugram) | — | Yes |
 | Flipkart | 1 | Bengaluru | — | Check JD |
 | Epsilon | 1 | Bengaluru | 5 school alumni | Check JD |
 | JFrog | 1 | Bengaluru | — | Check JD |
-| **Total** | **52** | | | **22 Yes, 1 ML, 3 AI company, 26 Check JD** |
+| Aerchain | 1 | Bengaluru | — | AI company [VERIFY] |
+| PhonePe | 1 | Bengaluru | — | Check JD |
+| Vendavo | 1 | Bengaluru | 1 school alumni | Check JD |
+| Sabre | 1 | Bengaluru | 1 school alumni | Check JD |
+| Xometry | 1 | Bengaluru | — | Check JD |
+| Availity | 1 | Bengaluru | — | Check JD |
+| Nielsen | 1 | Bengaluru | 1 | Check JD |
+| First Advantage | 1 | India (Remote) | 2 school alumni | Check JD |
+| Scrut Automation | 1 | India (Remote) | 1 school alumni | Check JD |
+| **Total** | **64** | | | **24 Yes, 1 ML, 4 AI company, 35 Check JD** |
 
 ## All open roles (Bengaluru, Hyderabad, India remote)
 
@@ -64,6 +74,8 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | ServiceNow | Staff Inbound Product Manager - AI Evaluation Tools | Staff | Hyderabad (Hybrid) | Yes | — | 3 days ago |
 | ServiceNow | Sr Staff Inbound Product Manager | Sr Staff | Hyderabad (Hybrid) | Check JD | — | 1 week ago |
 | OneTrust | Principal Product Manager, AI Build Governance | Principal | Bengaluru | Yes | 1 school alumni | — |
+| OneTrust | Principal Product Manager, AI Runtime Governance | Principal | Bengaluru | Yes | 1 school alumni | 1 week ago |
+| Aerchain | Principal Product Manager | Principal | Bengaluru (On-site) | AI company [VERIFY] | — | 1 month ago |
 | Fanatics | Staff Product Manager, AI Control Plane | Staff | Hyderabad | Yes | 1 | 1 week ago |
 | Palo Alto Networks | Principal Product Manager - Prisma AIRS | Principal | Bengaluru East (On-site) | Yes | — | 1 week ago |
 | Palo Alto Networks | Principal PM (Gateway, Prisma AIRS) - NetSec | Principal | Bengaluru East (On-site) | Yes | — | 1 week ago |
@@ -82,7 +94,8 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Deloitte | Product Manager | PM | Hyderabad (Hybrid) | Check JD | 10 | 1 day ago |
 | Docusign | Lead Product Manager, AI (MarTech) | Lead | Bengaluru (Hybrid) | Yes | 4 | 2 weeks ago |
 | Accenture in India | AI Product Management Practitioner | Practitioner | Bengaluru | Yes | 1 | 3 weeks ago |
-| Amgen | Digital Product Manager (AI) | PM | Hyderabad (On-site) | Yes | 6 school alumni | — |
+| Amgen | Digital Product Manager (AI) | PM | Hyderabad (On-site) | Yes | 6 school alumni | 1 week ago |
+| Amgen | Digital Product Mgr - AI&D | PM | Hyderabad (On-site) | Yes | 6 school alumni | 1 week ago |
 | Netomi | Agentic Product Manager | PM | Gurugram (Remote) | Yes | — | 3 months ago |
 | JazzX AI | Principal Product Manager | Principal | Bengaluru (Hybrid) | AI company | — | 1 month ago |
 | JazzX AI | Director, Technical Product Management | Director | Bengaluru (Hybrid) | AI company | — | 1 month ago |
@@ -105,6 +118,15 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Flipkart | Group Product Manager | Group PM | Bengaluru (On-site) | Check JD | — | 3 weeks ago |
 | Epsilon | Staff Product Manager | Staff | Bengaluru (Hybrid) | Check JD | 5 school alumni | 1 week ago |
 | JFrog | Senior Product Manager | Senior | Bengaluru (On-site) | Check JD | — | 3 weeks ago |
+| PhonePe | Product Lead | Lead | Bengaluru (On-site) | Check JD | — | 1 week ago |
+| Vendavo | Principal Product Manager | Principal | Bengaluru (Hybrid) | Check JD | 1 school alumni | 2 days ago |
+| Sabre | Principal Product Manager | Principal | Bengaluru (Hybrid) | Check JD | 1 school alumni | 1 week ago |
+| Xometry | Principal Product Manager | Principal | Bengaluru (Hybrid) | Check JD | — | 1 month ago |
+| Availity | Director, Product | Director | Bengaluru (Hybrid) | Check JD | — | 2 weeks ago |
+| Nielsen | Lead Product Manager | Lead | Bengaluru | Check JD | 1 | 2 weeks ago |
+| First Advantage | Director, Product Management | Director | India (Remote) | Check JD | 2 school alumni | 6 days ago |
+| Scrut Automation | Technical Product Manager | TPM | India (Remote) | Check JD | 1 school alumni | 2 months ago |
+| Cisco | Product Manager - Partner Experience | PM | Bengaluru | Check JD | 19 | 2 days ago |
 | Hewlett Packard Enterprise | Principal Product Manager - Switching | Principal | Bengaluru | Check JD | 20 school alumni | 2 months ago |
 | Nike | Lead Technical Product Manager, ITC | Lead | Karnataka (On-site) | Check JD | 1 | 6 days ago |
 | Warner Bros. Discovery | Staff Product Manager - Tech | Staff | Bengaluru East | Check JD | 6 school alumni | 4 days ago |
@@ -132,8 +154,10 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Mastercard | Manager, Product Management | Pune | Snapshot 3 |
 | Optum India | Principal Technical Product Manager | Chennai | Snapshot 3 |
 | Atlys | Product Manager - AI | New Delhi | Snapshot 3 |
+| Mastercard | Lead Product Manager | Gurugram | Snapshot 4 |
+| HighLevel | Principal PM - Knowledge Bases & Ask AI | Itanagar | Snapshot 4; also hidden by you |
 
-Also excluded (hidden by you, in-scope city): HighLevel Principal PM, Knowledge Bases & Ask AI (India remote); Standard Chartered Data & AI Portfolio (Bengaluru); Deloitte Senior Product Manager (Hyderabad); Coursera Senior PM, Applied AI (India remote).
+Also excluded (hidden by you, in-scope city): HighLevel Principal PM, Knowledge Bases & Ask AI (India remote); Standard Chartered Data & AI Portfolio (Bengaluru); Deloitte Senior Product Manager (Hyderabad); Coursera Senior PM, Applied AI (India remote); Amazon Sr PM, Alexa Automotive (Bengaluru); HighLevel Principal PM, Conversation AI (India remote); Jobgether Sr TPM, Applied AI and PM - AI (India remote); Fujitsu TPM (Bengaluru).
 
 ## Company primer (less familiar names)
 
@@ -168,16 +192,26 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
 | JFrog | Software supply chain / DevOps platform (Artifactory). |
 | Amgen | Biotech company; large Hyderabad technology center. |
 | Accenture in India | Consulting; "AI PM Practitioner" is a client-facing consulting role. |
+| Aerchain | Bengaluru startup building AI for procurement (sourcing, purchase orders). [VERIFY] |
+| PhonePe | Indian payments and fintech app (UPI leader; Walmart-backed). |
+| Vendavo | B2B pricing and commercial-excellence software. |
+| Sabre | Travel technology (airline and hotel booking systems). |
+| Xometry | AI-driven marketplace for on-demand manufacturing. |
+| Availity | US healthcare payer-provider data exchange. |
+| Nielsen | Audience measurement and media analytics. |
+| First Advantage | Background screening and identity verification. |
+| Scrut Automation | Compliance automation (SOC 2, ISO) startup. |
 
 ## Patterns so far
 
 - **Strongest fits on paper** (AI scope + your strengths, at Principal/Staff level):
   - **ServiceNow (2 eval roles): Staff TPM, AI Evaluation Science, and Staff Inbound PM, AI Evaluation Tools:** evals are your core differentiator (Keystone eval framework). ServiceNow is building an AI evals team in Hyderabad.
-  - **OneTrust, Principal PM, AI Build Governance:** AI governance maps to your eval, governance and action-safety work.
+  - **OneTrust (2 governance roles): Principal PM, AI Build Governance, and Principal PM, AI Runtime Governance:** AI governance maps to your eval, governance and action-safety work.
   - **Fanatics, Staff PM, AI Control Plane:** an AI platform role, like your agent platform and MLOps work.
   - **Palo Alto Networks, 2 Principal PMs on Prisma AIRS:** AI security; connects to action safety.
   - **Smartsheet, Principal PM, Data & AI Platforms:** your data platform + ML platform background.
   - **Amazon, Principal PMT – AI, Smart Commerce:** AI plus your Amazon seller/commerce background.
+- **Domain-adjacent picks** (AI scope to confirm): Aerchain (AI for procurement; your supply-chain work), PhonePe (payments; your credit work), Vendavo (B2B pricing; your Amazon Pricing work).
 - **AI governance and evaluation is a clear India theme:** ServiceNow, OneTrust, Fanatics and Palo Alto all hire for it, which is your strongest story.
-- **Level check:** about 20 of 52 are posted below Principal/Staff (PM, Lead, Senior, Product Owner). Compare against the ₹1.0 Cr suggested floor once you see the band.
-- **AI scope unclear on 26 roles.** Check the JD before counting them.
+- **Level check:** about 23 of 64 are posted below Principal/Staff (PM, Lead, Senior, Product Owner). Compare against the ₹1.0 Cr suggested floor once you see the band.
+- **AI scope unclear on 35 roles.** Check the JD before counting them.
