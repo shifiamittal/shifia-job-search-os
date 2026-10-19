@@ -16,6 +16,84 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 - Snapshot 6: 2026-10-19 (9 new roles. Duplicates skipped: Accenture AI PM Practitioner (Pune, already excluded), HSBC Associate Director, Data Analytics and AI (non-PM, now relisted in Gurgaon). Excluded: 10 postings you hid, 3 outside Bengaluru/Hyderabad. Chubb's "Telangana, India" is treated as Hyderabad)
 - Snapshot 7: 2026-10-19 (14 new roles. Duplicate skipped: Nielsen Lead PM (relisted). Excluded: 5 postings you hid, 3 outside Bengaluru/Hyderabad, 1 non-PM (HSBC Associate Director, Data Analytics and AI, relisted in Hyderabad). Transsion "AI Product Manager" was cut off without a location and is not counted. Wati is listed as "Chennai (Remote)" and kept as a remote role)
 
+## Companies ranked (primary ranking, 2026-10-19)
+
+Same method as Seattle: score out of 100 = profile fit (/40: match to `experience-library.md`) + aspiration fit (/40: `career-plan.md`: enterprise/platform AI first, Principal/Staff/Director/Head roles, your named companies) + relevant openings (/20). Connections are not scored. India-specific: AI scope is required, so roles whose title doesn't show AI count at about half for openings until the JD is checked; posted pay below the suggested ₹1.0 Cr floor lowers aspiration fit. Scores are judgment calls; give feedback and the order updates.
+
+| # | Company | Score | Roles | Fit | Why |
+|---|---|---|---|---|---|
+| 1 | ServiceNow | 88 | 3 | Strong | Two AI evaluation roles (Staff/Sr Staff): evals are your core differentiator |
+| 2 | OneTrust | 83 | 2 | Strong | Two Principal AI governance roles (build + runtime): your eval, governance and action-safety work |
+| 3 | Microsoft | 76 | 4 | Strong | Named target; Principal PM, Principal PM Manager. AI scope not in titles |
+| 4 | Amazon (incl. Prime Video) | 76 | 3 | Strong | Principal AI Smart Commerce, RBS Growth (sellers), Prime Video ML personalization: your Amazon domains |
+| 5 | Palo Alto Networks | 74 | 2 | Strong | Two Principal roles on Prisma AIRS (security for AI apps/agents): action safety |
+| 6 | Fanatics | 72 | 1 | Strong | Staff PM, AI Control Plane: central AI platform, like your agent/MLOps platforms |
+| 7 | JazzX AI | 71 | 2 | Strong | Enterprise AI startup hiring Principal + Director: a Head-of-Product-style path [VERIFY company] |
+| 8 | Smartsheet | 71 | 1 | Strong | Principal PM, Data & AI Platforms: your data and ML platform work |
+| 9 | Google | 70 | 3 | Strong | Named target; Agentic Customer Engagement, Applied AI support tools, Google Pay. Levels are PM/Lead |
+| 10 | Aerchain | 70 | 1 | Strong | Principal PM at an AI procurement startup: agents + supply chain [VERIFY] |
+| 11 | Deloitte | 62 | 3 | Good | Director PM + Applied AI PM; client-facing suits you. Director AI scope unclear |
+| 12 | Osfin.ai | 58 | 1 | Good | AI for finance ops/reconciliation: fintech + agents, but PM level |
+| 13 | EvoluteIQ | 56 | 1 | Good | Principal PM at an AI automation platform [VERIFY] |
+| 14 | Backbase | 52 | 1 | Good | Agentic PM for banks: agents + fintech, but PM level |
+| 15 | Intuit | 50 | 1 | Good | Sr Staff, Developer Platform Enablement; AI scope unclear |
+| 16 | HSBC | 50 | 1 | Good | Asst Director, PM Conversational AI in banking |
+| 17 | WhatsApp (Meta) | 48 | 2 | Moderate | Director + PM, WhatsApp India; AI scope unclear |
+| 18 | Cognite | 48 | 1 | Moderate | Principal PM, industrial data + AI platform; AI scope unclear |
+| 19 | Flipkart | 48 | 1 | Moderate | Group PM at India's e-commerce leader; AI scope unclear |
+| 20 | Teradata | 48 | 1 | Moderate | Sr Director PM, data/analytics platform; AI scope unclear |
+| 21 | GE Vernova | 46 | 1 | Moderate | Senior PM, AI (energy) |
+| 22 | Docusign | 46 | 1 | Moderate | Lead PM, AI (MarTech) |
+| 23 | PhonePe | 46 | 1 | Moderate | Product Lead, payments; AI scope unclear |
+| 24 | Vendavo | 46 | 1 | Moderate | Principal PM, B2B pricing (your Amazon Pricing years); AI scope unclear |
+| 25 | Amgen | 44 | 2 | Moderate | Two Digital PM (AI) roles, PM level |
+| 26 | Franklin Templeton | 44 | 1 | Moderate | GenAI PM, PM level |
+| 27 | Tekion Corp | 42 | 3 | Moderate | Director, Staff and Lead PM (auto retail cloud); AI scope unclear |
+| 28 | Google Operations Center | 42 | 1 | Moderate | PM, Applied AI and Engineering, PM level |
+| 29 | NewRocket | 42 | 1 | Moderate | Agentic AI PM (ServiceNow partner), remote, PM level |
+| 30 | Accenture in India | 42 | 1 | Moderate | AI PM Practitioner, client-facing consulting |
+| 31 | Netomi | 42 | 1 | Moderate | Agentic PM (AI customer service), remote, 3 months old |
+| 32 | D. E. Shaw India | 40 | 1 | Moderate | Principal Manager, Comply Tech; AI scope unclear |
+| 33 | Xometry | 40 | 1 | Moderate | Principal PM, AI-driven manufacturing marketplace; AI scope unclear |
+| 34 | PayPal | 40 | 1 | Moderate | Lead PM, payments; AI scope unclear |
+| 35 | Barclays | 38 | 1 | Moderate | AI Product Owner (below PM level) |
+| 36 | Chevron | 38 | 1 | Moderate | AI PM, PM level |
+| 37 | Target | 38 | 1 | Moderate | Principal PM; AI scope unclear |
+| 38 | Databricks | 38 | 1 | Moderate | Deployment Strategist (PM-adjacent), remote |
+| 39 | Optum India | 38 | 1 | Moderate | Sr/Lead PM, Data Science/ML |
+| 40 | Cornerstone OnDemand | 36 | 3 | Moderate | Three Principal PMs in HR tech; AI scope unclear |
+| 41 | Altimate AI | 36 | 1 | Moderate | PM at an AI data-engineering startup |
+| 42 | First Advantage | 34 | 1 | Weak | Director PM, background screening; remote |
+| 43 | Visa | 34 | 1 | Weak | PM, payments; below level |
+| 44 | Eudia | 34 | 1 | Weak | PM at an AI legal startup [VERIFY] |
+| 45 | Sabre | 32 | 1 | Weak | Principal PM, travel tech; AI scope unclear |
+| 46 | Outmarket AI | 32 | 1 | Weak | Product Lead, Data at an AI startup; remote |
+| 47 | N-able | 32 | 1 | Weak | Principal PM, IT management; AI scope unclear |
+| 48 | Nike | 30 | 2 | Weak | Two Lead TPMs (incl. Finance); AI scope unclear |
+| 49 | Cisco | 30 | 2 | Weak | Two PM roles; AI scope unclear |
+| 50 | Warner Bros. Discovery | 30 | 1 | Weak | Staff PM; AI scope unclear |
+| 51 | Epsilon | 30 | 1 | Weak | Staff PM, ad-tech; AI scope unclear |
+| 52 | Availity | 30 | 1 | Weak | Director, Product (healthcare data exchange); AI scope unclear |
+| 53 | Libra AI | 30 | 1 | Weak | AI PM at an unknown startup |
+| 54 | Phyllo | 30 | 1 | Weak | PM - AI, creator-data APIs |
+| 55 | JFrog | 28 | 1 | Weak | Senior PM, DevOps; AI scope unclear |
+| 56 | Serko | 28 | 1 | Weak | Director, but posted ₹75–84L is below the suggested ₹1.0 Cr floor |
+| 57 | EPAM Systems | 28 | 1 | Weak | PM - AI, IT services, PM level |
+| 58 | Odessa | 26 | 1 | Weak | AVP PM, UX (leasing software) |
+| 59 | Scrut Automation | 24 | 1 | Weak | TPM, compliance automation; remote |
+| 60 | Chubb | 24 | 1 | Weak | Sr TPM, InsurTech |
+| 61 | eBay | 24 | 1 | Weak | Senior PM II; AI scope unclear |
+| 62 | Meraki Labs | 22 | 2 | Weak | Founding PM + PM, unknown company |
+| 63 | Hewlett Packard Enterprise | 22 | 1 | Weak | Principal PM, network switching; likely no AI scope |
+| 64 | Nielsen | 22 | 1 | Weak | Lead PM, media measurement |
+| 65 | MonetizeMore | 22 | 1 | Weak | Group PM, ad revenue; remote, 3 months old |
+| 66 | Wati | 20 | 1 | Weak | PM, WhatsApp business platform; remote, 6 months old |
+| 67 | IBaseIT | 18 | 1 | Weak | Principal PM, unknown company |
+| 68 | Manifest Global | 16 | 1 | Weak | Lead PM, unknown company |
+| 69 | Halo Media | 14 | 1 | Weak | PM, unknown company; remote |
+| 70 | Virtusa | 14 | 1 | Weak | PM, IT services |
+| 71 | Korza | 12 | 1 | Weak | PM, unknown company; remote |
+
 ## Summary by company
 
 | Company | Roles | City | Connections | AI scope |
