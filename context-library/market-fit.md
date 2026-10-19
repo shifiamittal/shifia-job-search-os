@@ -59,6 +59,33 @@ Evidence = roles seen in the Seattle-area market map.
 | Meta | PM Supply Chain Planning |
 | DAT Freight & Analytics | Staff PM (freight marketplace and rate analytics) |
 
+### Domain-level fit: consumer and B2B credit (back in, per user 2026-10-19)
+
+Credit and lending is your strongest Amazon domain (financing product, $71M; credit growth strategy; underwriting; Lending ML platform), so these stay in even though payments infrastructure is out.
+
+| Company | Evidence (Seattle / remote roles seen) |
+|---|---|
+| Affirm | Staff PM Credit & Pricing, Sr PM Credit & Pricing, Staff PM Affirm Bank, Sr Director PM (Card), Checkout, Merchant Growth, Consumer Growth Loyalty (all remote) |
+| SoFi | Principal PM Commercial Banking ($192K–$330K), Principal PM ($240K–$330K), Senior PM |
+| Brex | Staff PM Growth, Card, Embedded, Expenses; Sr PM AI, Travel |
+| Possible | Product Lead, Loan and Advance ($202K–$238K) |
+
+### Supply-chain AI and agentic enterprise companies (evaluated 2026-10-19)
+
+Not in the Seattle LinkedIn results, so checked by web search for Seattle or remote-US PM roles. Postings come from job aggregators and may be stale; confirm on each careers page.
+
+| Company | What they do | Fit type | Seattle / remote-US PM roles found | Verdict |
+|---|---|---|---|---|
+| Glean | Enterprise AI search and agents | Type 1 + **Type 2** | **Forward Deployed Product Manager, Remote US** | **Add.** Exact match for Type 2 |
+| Writer | Enterprise agentic AI platform for the Fortune 500 | Type 1 | Remote-eligible Senior PM/PM listings; a posting lists Seattle as an office hub [VERIFY] | **Add** |
+| project44 | Supply-chain visibility; building agentic AI | Type 1 + supply chain | Staff PM, remote US; Staff PM Agentic AI (Chicago/Palo Alto, $160K–$240K); a Principal PM posting (location unknown) | **Add**, but check comp against your $380–400K floor |
+| o9 Solutions | AI supply-chain planning platform | Type 1 + supply chain (closest to your Keystone forecasting work) | No Seattle/remote PM found; HQ Dallas. Remote Solutions Consulting Manager ($136K–$187K) | **Watch.** Strong content fit; ask about remote |
+| Blue Yonder | Supply-chain software, now all-in on "cognitive" AI agents | Type 1 + supply chain | No remote PM found; HQ Scottsdale, AI team in Dallas | **Watch** |
+| Kinaxis | Supply-chain planning (Maestro) | Type 1 + supply chain | Sr PM Optimization, remote US (below level); Principal PM Platform is Canada-only | **Watch** |
+| Coupa | Spend management and procurement; autonomous sourcing agents | Type 1 + supply chain (procurement) | No Seattle/remote-US PM found; Sr PM AI agents in Foster City (hybrid); Principal PM Autonomous Sourcing is India remote (Pune, outside your India cities) | **Watch** |
+| Sierra | AI customer-service agents | Type 1 + Type 2 (Agent Development PMs work with customers) | On-site only (SF, NYC, other non-Seattle offices) | **Skip** unless they open Seattle or remote |
+| Flexport | Freight and logistics | Supply chain | Already on the list (Bellevue, on-site Staff PM roles) | Keep |
+
 ### Notes on the user's own list (Enterprise AI / Frontier Labs)
 
 - **Microsoft, Databricks, Snowflake, Meta (AI Platforms & Infra):** Type 1.
@@ -67,4 +94,4 @@ Evidence = roles seen in the Seattle-area market map.
 
 ### Excluded by the "Do not Want" rule (from the Seattle map)
 
-Cybersecurity: CrowdStrike, Okta, Tanium, Nametag, Veriff, Socure. AdTech: The Trade Desk, Moloco, Cognitiv, NewsBreak, Sinclair, Unity (LevelPlay), Amazon/Netflix/Pinterest/Snap ads roles. Payments: Stripe (non-AI roles), Mastercard, Metropolis Payments, Brex, Affirm, SoFi, Circle, Remitly, Possible [CONFIRM: consumer credit/lending is your strongest Amazon domain; is it "payments infrastructure" for you?]. Healthcare: NexHealth, Spring Health, Grow Therapy. Telecom: T-Mobile.
+Cybersecurity: CrowdStrike, Okta, Tanium, Nametag, Veriff, Socure. AdTech: The Trade Desk, Moloco, Cognitiv, NewsBreak, Sinclair, Unity (LevelPlay), Amazon/Netflix/Pinterest/Snap ads roles. Payments: Stripe (non-AI roles), Mastercard, Metropolis Payments, Circle, Remitly. Healthcare: NexHealth, Spring Health, Grow Therapy. Telecom: T-Mobile.
