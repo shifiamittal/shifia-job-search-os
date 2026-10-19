@@ -60,7 +60,8 @@ Resume uses "Sr. PM-T, 2016–2024" (your choice). LinkedIn shows PM for 2016–
 **Role:** Head of Product / Director, or Principal PM, for enterprise or platform AI (agents, agent platform, evals)
 **Comp target:** $600K total comp. Current: $400K.
 **Why this specifically:** The opportunity to build real AI products, the brand name, the compensation, and a long-term step up for your career. (External version: building real AI products at the frontier, where enterprise agent reliability is the core problem.)
-**What would make you say no:** Total comp below $380–400K; role requires relocating from Seattle; non-AI scope.
+**What would make you say no:** US roles: total comp below $380–400K, or a US role outside the Seattle area that isn't fully remote (no relocation within the US). Any location: relocation anywhere other than India; non-AI scope.
+**India comp (tracked separately from US comp):** Floor: [FILL IN, in ₹ total comp]. Target range: [FILL IN]. Run `/salary-research` for Principal PM / Director in Bengaluru, Hyderabad, and Gurugram to set these.
 **Comp rule learned (LawnStarter, 2026-09-28):** a ~$250K base can still fall short of the floor once equity is valued. Ask for the full package (base + bonus + equity value) at the recruiter screen before calling it "aligned."
 **Not pursuing:** founding a startup (construction AI exploration from Aug 2026 is closed).
 
