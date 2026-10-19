@@ -6,13 +6,14 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 
 **AI scope** column: **Yes** = AI is in the title. **AI company** = the company's core product is AI, but the title doesn't say. **Check JD** = the title doesn't say; open the JD before counting it, since roles without AI scope are a no for India.
 
-**Remote India roles** (NewRocket, Databricks, Halo Media, Netomi, First Advantage, Scrut Automation, Outmarket AI) are kept and flagged: they qualify only if you can work them from Bengaluru or Hyderabad.
+**Remote India roles** (NewRocket, Databricks, Halo Media, Netomi, First Advantage, Scrut Automation, Outmarket AI, Korza) are kept and flagged: they qualify only if you can work them from Bengaluru or Hyderabad.
 
 - Snapshot 1: 2026-10-19 (25 roles pasted; 5 later moved to "Excluded by location" after you limited India to Bengaluru and Hyderabad)
 - Snapshot 2: 2026-10-19 (17 new roles. D. E. Shaw "Principal Manager, PM (Comply Tech)" was listed in both Bengaluru and Hyderabad and is counted once. Excluded: 7 postings you hid, 6 of which are also outside Bengaluru/Hyderabad)
 - Snapshot 3: 2026-10-19 (15 new roles. Duplicates skipped: Backbase (Agentic) PM (reposted, now 6 days ago), Nike Lead TPM ITC. Prime Video "Principal PMT - International, Personalization & Discovery" is now also listed in Bengaluru, so it moves into scope. Counted as separate reqs: Microsoft Principal PM (27 connections, distinct card from the earlier one) and Cornerstone "HR Platforms & Technology" (on-site, 2 weeks; may be a repost of "HR Technology & Platforms"). Excluded: 3 postings you hid, 4 outside Bengaluru/Hyderabad)
 - Snapshot 4: 2026-10-19 (12 new roles. Duplicates skipped: Nike Lead TPM ITC, Microsoft Principal PM Manager, Google Global Product Lead, Amgen "R-256479- Digital Product Manager (AI)" (same req as the earlier Amgen posting, now dated 1 week ago). Excluded: 6 postings you hid, 1 outside Bengaluru/Hyderabad, and 2 non-PM roles (TELUS Digital Principal Product Designer; HSBC Associate Director, Data Analytics and AI))
 - Snapshot 5: 2026-10-19 (7 new roles. Duplicates skipped: Nike Lead TPM ITC, Mastercard Lead PM - Technical (Pune, already excluded), Cisco PM - Partner Experience (relisted in Hyderabad), Google Operations Center PM - Applied AI, Cognite Principal PM (relisted as on-site; treated as the same req). Excluded: 7 postings you hid, 2 outside Bengaluru/Hyderabad. First posted India salary: Serko Director of Product, ₹75–84L)
+- Snapshot 6: 2026-10-19 (9 new roles. Duplicates skipped: Accenture AI PM Practitioner (Pune, already excluded), HSBC Associate Director, Data Analytics and AI (non-PM, now relisted in Gurgaon). Excluded: 10 postings you hid, 3 outside Bengaluru/Hyderabad. Chubb's "Telangana, India" is treated as Hyderabad)
 
 ## Summary by company
 
@@ -72,7 +73,16 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Teradata | 1 | Hyderabad | — | Check JD |
 | N-able | 1 | Bengaluru | — | Check JD |
 | Serko | 1 | Bengaluru | 1 school alumni | Check JD |
-| **Total** | **71** | | | **27 Yes, 1 ML, 5 AI company, 38 Check JD** |
+| EPAM Systems | 1 | Bengaluru | 1 | Yes |
+| Altimate AI | 1 | Bengaluru | 2 school alumni | AI company |
+| PayPal | 1 | Bengaluru | 2 | Check JD |
+| Visa | 1 | Bengaluru | 3 | Check JD |
+| Tekion Corp | 1 | Bengaluru | 8 school alumni | Check JD |
+| Chubb | 1 | Telangana (likely Hyderabad) | 1 company alumni | Check JD |
+| IBaseIT | 1 | Hyderabad | — | Check JD |
+| Manifest Global | 1 | Bengaluru | 1 school alumni | Check JD |
+| Korza | 1 | India (Remote) | — | Check JD |
+| **Total** | **80** | | | **28 Yes, 1 ML, 6 AI company, 45 Check JD** |
 
 ## All open roles (Bengaluru, Hyderabad, India remote)
 
@@ -142,6 +152,15 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | Teradata | Senior Director Product Management | Sr Director | Hyderabad (On-site) | Check JD | — | 5 days ago |
 | N-able | Principal Product Manager | Principal | Bengaluru | Check JD | — | 2 weeks ago |
 | Serko | Director of Product (posted ₹75–84L) | Director | Bengaluru (Hybrid) | Check JD | 1 school alumni | 4 months ago |
+| Tekion Corp | Director, Product Management | Director | Bengaluru (On-site) | Check JD | 8 school alumni | 2 months ago |
+| PayPal | Lead Product Manager | Lead | Bengaluru | Check JD | 2 | 5 days ago |
+| Visa | Product Manager | PM | Bengaluru (On-site) | Check JD | 3 | 1 week ago |
+| EPAM Systems | Product Manager - AI | PM | Bengaluru (On-site) | Yes | 1 | 2 weeks ago |
+| Altimate AI | Product Manager | PM | Bengaluru (On-site) | AI company | 2 school alumni | 3 months ago |
+| Chubb | Sr. Technical Product Manager - InsurTech | Senior | Telangana (On-site) | Check JD | 1 company alumni | 1 month ago |
+| IBaseIT | Principal Product Manager | Principal | Hyderabad | Check JD | — | 3 months ago |
+| Manifest Global | Lead Product Manager | Lead | Bengaluru (On-site) | Check JD | 1 school alumni | 1 week ago |
+| Korza | Product Manager | PM | India (Remote) | Check JD | — | 1 week ago |
 | Hewlett Packard Enterprise | Principal Product Manager - Switching | Principal | Bengaluru | Check JD | 20 school alumni | 2 months ago |
 | Nike | Lead Technical Product Manager, ITC | Lead | Karnataka (On-site) | Check JD | 1 | 6 days ago |
 | Warner Bros. Discovery | Staff Product Manager - Tech | Staff | Bengaluru East | Check JD | 6 school alumni | 4 days ago |
@@ -175,8 +194,14 @@ Source: LinkedIn job search results the user pasted. Missing values are `—`. N
 | RBM Software | Head of AI Strategy & Product Management | Pune | Snapshot 5 |
 | QAD | Director Product Management - Source-to-Pay | Pune | Snapshot 5; also hidden by you |
 | Karat | Principal PM - Hiring Manager Experience | Coimbatore | Snapshot 5; also hidden by you |
+| Mastercard | Manager, Product Management | Gurugram | Snapshot 6 |
+| BNY | Senior Vice President, POM Product Owner | Pune | Snapshot 6 |
+| HG Insights | Director, Data & AI Product Manager | Pune | Snapshot 6 |
+| BNY | VP, POM Technical PM - Developer Marketplace | Pune | Snapshot 6; also hidden by you |
+| Deutsche Telekom Digital Labs | Group Product Manager | Gurugram | Snapshot 6; also hidden by you |
+| Payoneer | Senior PM – MCP/API Platform | Gurugram | Snapshot 6; also hidden by you |
 
-Also excluded (hidden by you, in-scope city): HighLevel Principal PM, Knowledge Bases & Ask AI (India remote); Standard Chartered Data & AI Portfolio (Bengaluru); Deloitte Senior Product Manager (Hyderabad); Coursera Senior PM, Applied AI (India remote); Amazon Sr PM, Alexa Automotive (Bengaluru); HighLevel Principal PM, Conversation AI (India remote); Jobgether Sr TPM, Applied AI and PM - AI (India remote); Fujitsu TPM (Bengaluru); HighLevel Principal PM, Voice AI (India remote); Amgen Senior Digital PM (AI) (Hyderabad); Jobgether Director, PM (India remote); Udemy Senior PM, Applied AI (India remote); Optum Senior Manager, TPM (Hyderabad).
+Also excluded (hidden by you, in-scope city): HighLevel Principal PM, Knowledge Bases & Ask AI (India remote); Standard Chartered Data & AI Portfolio (Bengaluru); Deloitte Senior Product Manager (Hyderabad); Coursera Senior PM, Applied AI (India remote); Amazon Sr PM, Alexa Automotive (Bengaluru); HighLevel Principal PM, Conversation AI (India remote); Jobgether Sr TPM, Applied AI and PM - AI (India remote); Fujitsu TPM (Bengaluru); HighLevel Principal PM, Voice AI (India remote); Amgen Senior Digital PM (AI) (Hyderabad); Jobgether Director, PM (India remote); Udemy Senior PM, Applied AI (India remote); Optum Senior Manager, TPM (Hyderabad); Amazon Sr PMT, Alexa Ads; Microsoft Senior PM (Hyderabad); PwC Acceleration Center Senior Manager; PhonePe Senior PM; Accellor Senior AI PM; Razorpay Senior PM; Disney Sr Product Development Manager (all Bengaluru/Hyderabad).
 
 ## Company primer (less familiar names)
 
@@ -227,6 +252,11 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
 | Teradata | Enterprise data warehouse and analytics platform. |
 | N-able | IT management and security software for managed service providers. |
 | Serko | NZ-based business-travel booking software (Zeno). |
+| EPAM Systems | IT services and engineering consulting. |
+| Altimate AI | AI startup for data engineering (dbt/SQL copilots). [VERIFY] |
+| Tekion Corp | Cloud platform for auto dealers and OEMs. |
+| Chubb | Global insurer; Hyderabad technology center. |
+| IBaseIT / Manifest Global / Korza | Unknown. [Needs research] |
 
 ## Patterns so far
 
@@ -237,8 +267,8 @@ From general knowledge, not yet researched. Run `/company-research [company]` be
   - **Palo Alto Networks, 2 Principal PMs on Prisma AIRS:** AI security; connects to action safety.
   - **Smartsheet, Principal PM, Data & AI Platforms:** your data platform + ML platform background.
   - **Amazon, Principal PMT – AI, Smart Commerce:** AI plus your Amazon seller/commerce background.
-- **Domain-adjacent picks** (AI scope to confirm): Aerchain (AI for procurement; your supply-chain work), PhonePe (payments; your credit work), Vendavo (B2B pricing; your Amazon Pricing work).
+- **Domain-adjacent picks** (AI scope to confirm): Aerchain (AI for procurement; your supply-chain work), PhonePe, PayPal and Visa (payments; your credit work), Vendavo (B2B pricing; your Amazon Pricing work).
 - **AI governance and evaluation is a clear India theme:** ServiceNow, OneTrust, Fanatics and Palo Alto all hire for it, which is your strongest story.
 - **First posted India pay:** Serko's Director of Product lists ₹75–84L, below the ₹1.0 Cr floor I suggested. A Director title at a smaller company can pay less than Principal at big tech.
-- **Level check:** about 26 of 71 are posted below Principal/Staff (PM, Lead, Senior, Product Owner). Compare against the ₹1.0 Cr suggested floor once you see the band.
-- **AI scope unclear on 38 roles.** Check the JD before counting them.
+- **Level check:** about 32 of 80 are posted below Principal/Staff (PM, Lead, Senior, Product Owner). Compare against the ₹1.0 Cr suggested floor once you see the band.
+- **AI scope unclear on 45 roles.** Check the JD before counting them.
