@@ -27,7 +27,7 @@ Enterprise or platform AI PM. Owning an agentic or AI platform product from cust
 
 Seattle-based. Updated 2026-10-19:
 1. **Primary:** Seattle-area roles (on-site, hybrid, or remote) and fully remote US roles.
-2. **Secondary:** Roles located in India. Open to relocating to India if needed. No other relocation.
+2. **Secondary:** Roles in Bengaluru or Hyderabad, India. Open to relocating there if needed. No other Indian city, and no other relocation.
 
 ## Target Companies Preference
 
@@ -62,7 +62,7 @@ Resume uses "Sr. PM-T, 2016–2024" (your choice). LinkedIn shows PM for 2016–
 **Why this specifically:** The opportunity to build real AI products, the brand name, the compensation, and a long-term step up for your career. (External version: building real AI products at the frontier, where enterprise agent reliability is the core problem.)
 **Requirements (anything outside these is a no), updated 2026-10-19:**
 - **US:** total comp of $380–400K or more, AND the role is either in Seattle (hybrid or remote) or fully remote in the US with no relocation out of Seattle.
-- **India:** India is the only place you'd relocate to, and the role must have AI scope.
+- **India:** Bengaluru or Hyderabad only (the only relocation you'd consider), and the role must have AI scope.
 **India comp (tracked separately from US comp):** Floor: [FILL IN, in ₹ total comp]. Target range: [FILL IN]. Run `/salary-research` for Principal PM / Director in Bengaluru, Hyderabad, and Gurugram to set these.
 **Comp rule learned (LawnStarter, 2026-09-28):** a ~$250K base can still fall short of the floor once equity is valued. Ask for the full package (base + bonus + equity value) at the recruiter screen before calling it "aligned."
 **Not pursuing:** founding a startup (construction AI exploration from Aug 2026 is closed).
