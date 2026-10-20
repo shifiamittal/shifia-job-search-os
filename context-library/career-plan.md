@@ -1,7 +1,7 @@
 # Career Plan
 
-Last updated: 2026-10-14
-Status: Confirmed by user on 2026-10-14, except where marked.
+Last updated: 2026-10-20
+Status: Confirmed by user on 2026-10-14, except where marked. Targeting priorities and gates updated by user 2026-10-20.
 
 ## Positioning
 
@@ -9,15 +9,19 @@ Principal Technical Product Manager with 11+ years building AI/ML and technology
 
 ## Level Preference (rank 1-3)
 
-1. **Head of Product / Director of Product (AI)** at a Series C/D/E enterprise or platform AI startup. This is the preferred path, if feasible.
-2. **Director / Group PM (AI platform or enterprise AI)** at big tech. This is a stretch without direct-report history (see Weakness 1).
-3. **Principal PM / Principal PM-T (IC)** at OpenAI, Anthropic, Google, Microsoft, Salesforce, or other big tech. This is the most achievable path and the fallback.
+Updated 2026-10-20. **Priority order: comp and company first, scope second, title last.** Optimize for level and comp, not the word "Principal."
 
-**Strategy:** Pursue tracks 1 and 3 in parallel. Startups (C–E) are more open to "Head of Product" hires without a formal people-management history if the 0→1 and executive scope is strong. Big tech will mostly level you as an IC.
+1. **Principal PM / Principal PM-T / Staff (IC)** at big tech and well-funded late-stage companies (Microsoft, Google, Amazon, Databricks, Snowflake, Meta, and similar). **Microsoft 65 is acceptable** (user, 2026-10-20). Amazon: target L7 Principal PM-T.
+2. **Head of Product / Director (often IC-scope)** at smaller companies, where the title is appropriate for your scope, *only if total comp clears the floor*.
+3. ~~Director / Group PM at big tech~~ **Not a target** (user, 2026-10-20). People-manager Director roles at companies like Meta or Amazon need years of managing PMs; your management history is one direct report plus dotted-line PMs.
 
 ## Industry Preference
 
-Enterprise AI and platform AI first: AI agents, agent platforms, LLM platforms, evaluation and governance. AI/ML infrastructure and data platforms second. Domain-adjacent enterprise software (supply chain, fintech, finance automation) third, where your domain depth is an edge.
+Updated 2026-10-20: **AI is a good-to-have, not a must-have.** Your AI skills position you well for AI roles, but roles that aren't AI-led are fully in scope when the fit, comp and company are right.
+
+Where your experience fits best: enterprise and platform AI (agents, agent platforms, evals, governance); AI/ML and data platforms; consumer and B2B credit and lending; supply chain and logistics; fintech and finance automation.
+
+**Not-a-fit domains (a fit filter, not a preference):** roles that need deep specialist domain expertise you don't have: cybersecurity, AdTech, payments-network infrastructure, healthcare regulation, telecom networks. Skip those roles to save time; a role at the same company outside that domain is still fine.
 
 ## Function / Role Type
 
@@ -31,7 +35,18 @@ Seattle-based. Updated 2026-10-19:
 
 ## Target Companies Preference
 
-Top companies: OpenAI, Anthropic, Google, Microsoft, Salesforce, and other big tech with Seattle offices or remote roles. Also Series C/D/E startups building enterprise or platform AI, especially agents, evals, and AI infrastructure. Adobe, NVIDIA, and CrowdStrike are also active targets. **Not pursuing Amazon/AWS** (open to interviewing if they reach out, but not a target).
+Updated 2026-10-20. Full layered list and comp evidence: `market-fit.md`. Ranked list: `target-companies.md`.
+
+**Gates (a role must pass all of them):**
+1. **Location:** Seattle area (on-site, hybrid or remote) or fully remote in the US. (India: see Remote vs In-Person.)
+2. **Comp:** total comp plausibly clears the $380–400K floor. Microsoft 65 is an accepted exception.
+
+**Layers** (from the Candidate Market Fit framework):
+- **Layer 1, want and qualified:** most of your time goes here.
+- **Layer 2, want, but fit uncertain:** companies you're interested in where fit isn't yet clear. Check the specific role's fit before applying.
+- **Layer 3, qualified but backup:** none right now.
+
+**Amazon / AWS:** now a target (user, 2026-10-20). Aim for L7 Principal PM-T: a level up from your L6 exit, which also answers the small-company-title concern.
 
 ## Addressing-Weaknesses Analysis
 
@@ -42,7 +57,7 @@ This is the biggest gap for the preferred path. Director JDs usually ask for "X+
 - Frame leadership through influence with specifics: set product direction for 20+ engineers and scientists, aligned Fortune 500 executives, and drove a company-level business-model change.
 - Use your people-leadership evidence: **one direct report at Amazon** (a Program Manager you promoted L4 → L5), **dotted-line PM reports** at Keystone (Story K20, including a performance turnaround), mentored 4–5 people, onboarded new PMs, 50+ hiring interviews at Keystone and Amazon, and organized Keystone's product work into 3 lanes with the CPO.
 - Be precise: "I managed a Program Manager at Amazon and promoted him to L5; at Keystone I led PMs on a dotted line." Don't say "managed a team of PMs." Interviewers will probe it, and LinkedIn's saved answer currently says 0 years of people management.
-- For big tech, go in as Principal IC and grow into management from there. Don't let a Director search stall the IC track.
+- For big tech, go in as Principal IC and grow into management from there. People-manager Director roles at big tech are not a target (user, 2026-10-20).
 
 ### Weakness 2: Principal title is from a smaller, consulting-origin company
 Big-tech interviewers may read "Principal at Keystone" as a startup title and level you at Senior.

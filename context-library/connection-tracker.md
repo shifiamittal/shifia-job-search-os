@@ -18,7 +18,7 @@ Auto-maintained by the OS. Updated after connection requests, referral requests,
 - **Referral received:** no
 - **Strong referral (HM pinged):** no
 - **Last contact:** —
-- **Next action:** Not a referral path (Amazon is not a target). Ask him for intros to ex-Amazon PMs now at target companies.
+- **Next action:** Amazon is a target again (2026-10-20). Ask him to refer you to the L7 Principal PM-T roles you pick (AgentCore, Velocity Labs, Agentic Seller Growth, Amazon Business Payments), and for intros to ex-Amazon PMs now at other target companies.
 
 ## Stripe
 
