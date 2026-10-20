@@ -6,12 +6,13 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 
 ---
 
-## Applied
+## Recruiter Screen
 
 ### R37 AI Lab (R1 RCM) - Principal Product Manager
-- **Status:** applied
-- **Date applied:** [CONFIRM] (before 2026-10-20)
-- **Referral:** No
+- **Status:** recruiter-screen (complete; waiting on recruiter for hiring-manager round)
+- **Source:** Inbound: recruiter reached out directly
+- **Referral:** No (inbound, so not needed to get in)
+- **Recruiter:** [name]
 - **Resume version:** Shifia_Mittal_Resume_R37_Principal_Product_Manager.docx (submitted). Corrected reference version: `applications/2026-10-20-r37-ai-lab-principal-pm.md`
 - **Cover letter:** No
 - **Connection at company:** None
@@ -20,15 +21,16 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Background check stage:** unknown
 - **Company tier:** Unranked (not in target-companies.md)
 - **Location:** US Remote
-- **Comp-range-confirmed:** No (not listed; estimated ~$220-300K TC, low confidence, below the $380-400K floor)
-- **Fit score:** 66/100, apply with referral only. Main gaps: healthcare/RCM experience, HIPAA, bias mitigation.
-- **Last action:** Applied (cold)
-- **Next action:** Look for a connection at R1 or Phare Health for a referral. Follow up if no response by 2026-10-27. If a recruiter calls, confirm the full comp package before any prep.
+- **Comp-range-confirmed:** [CONFIRM: was a range discussed on the 10/08 call?] Not listed in the JD; estimated ~$220-300K TC (low confidence), below the $380-400K floor.
+- **Fit score:** 66/100. Main gaps: healthcare/RCM experience, HIPAA, bias mitigation.
+- **Last action:** 2026-10-16 recruiter said she'd come back the week of 10/19 about the hiring-manager round.
+- **Next action:** If no word by Fri 2026-10-23, send one short follow-up on Mon 2026-10-26. Meanwhile prep for the HM round (`/interview-prep R37 Principal PM`). If comp wasn't covered, ask for the full package before or at HM scheduling.
 - **History:**
-  - [date] Applied (cold)
+  - [date] Recruiter reached out (inbound)
+  - 2026-10-08 Recruiter screen
+  - 2026-10-16 Recruiter: will come back next week on the HM round
   - 2026-10-20 Fit score and tailored resume generated
 
-## Recruiter Screen
 
 ### Ascerta - Principal Product Manager - AI Startup
 - **Status:** recruiter-screen (complete; awaiting team review)
@@ -44,7 +46,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
   - [date] Recruiter: team yet to review recording
 
 ## Needs Attention
-- **R37 AI Lab:** confirm the date you applied; look for a referral; follow up by 2026-10-27.
+- **R37 AI Lab:** waiting on recruiter (said week of 10/19). Follow up Mon 10/26 if silent. Confirm comp.
 - **Ascerta:** stalled; send one final follow-up.
 - **Count:** send the post-rejection notes (interview-debriefs/2026-10-15-count-followup-notes.md).
 
@@ -88,8 +90,8 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 ---
 
 ## Pipeline Health (2026-10-20)
-- **Active:** 2 (R37 AI Lab, applied; Ascerta, stalled) · **Offers:** 0 · **Rejected:** 3 (Count, LawnStarter, Anaplan)
-- **Funnel, 2026:** 2 cold applications → 0 screens so far (R37 pending). 3 recruiter/inbound processes → 3 screens → 1 second round (Count) → 0 offers.
+- **Active:** 2 (R37 AI Lab, awaiting HM round; Ascerta, stalled) · **Offers:** 0 · **Rejected:** 3 (Count, LawnStarter, Anaplan)
+- **Funnel, 2026:** 1 cold application → 0 screens. 4 recruiter/inbound processes → 4 screens → 1 second round (Count), 1 pending (R37) → 0 offers.
 - **Where it breaks:** after the first or second conversation (LawnStarter at HM review, Count after the co-founder round). That points to interview performance, not resume or sourcing. See the patterns in `interview-history.md`: long answers, generic leadership and planning answers.
 - **Referral rate:** 0%. No process at a target company (Anthropic, OpenAI, Google, Microsoft, Salesforce). Next: `/build-referral-graph` once Connections.csv arrives.
 - **Top of funnel:** effectively empty. At Principal/Director level, 1–3 quality applications a week is healthy, and right now there are none.

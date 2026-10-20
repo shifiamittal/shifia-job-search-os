@@ -1,6 +1,6 @@
 # R37 AI Lab (R1 RCM) - Principal Product Manager
 
-Generated 2026-10-20. Applied before this was run with `Shifia_Mittal_Resume_R37_Principal_Product_Manager.docx`. Use this version as the reference for interviews, LinkedIn alignment, and similar healthcare/financial-workflow AI roles.
+Generated 2026-10-20. Inbound recruiter process (screen 2026-10-08); resume submitted before this was run: `Shifia_Mittal_Resume_R37_Principal_Product_Manager.docx`. Use this version as the reference for interviews, LinkedIn alignment, and similar healthcare/financial-workflow AI roles.
 
 ---
 
@@ -68,7 +68,7 @@ Note: the formula gives 17/20, but the one NONE (healthcare) is the requirement 
 **Domain experience: LIABILITY for this role (mitigable).** The JD asks for deep healthcare/RCM experience and you have none. Your fintech credit decisioning and auditable financial-analysis agents are the closest bridge, and they're real.
 
 ### Recommendation
-66 is a referral-only score, held up by a strong AI fit and pulled down by healthcare and comp. You've already applied cold, so the most useful next steps are: (1) find anyone at R1 or Phare for a referral or a word to the hiring manager, (2) confirm the comp range in the first conversation, before spending prep time, (3) if the range clears your floor, build a short RCM work product (`/work-product R37 Principal PM`) to close the domain gap.
+66 is a referral-only score, held up by a strong AI fit and pulled down by healthcare and comp. You came in through a recruiter and passed the screen, so a referral isn't needed to get in. Next steps: (1) confirm the comp range before or at HM scheduling, (2) prep the healthcare-gap answer for the HM round, (3) if the range clears your floor, build a short RCM work product (`/work-product R37 Principal PM`) to close the domain gap.
 
 ---
 
