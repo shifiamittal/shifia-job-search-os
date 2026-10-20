@@ -110,7 +110,6 @@ Principal technical product manager with 11+ years building AI/ML and agentic pr
 - **Explainability & Adoption:** Translated planner interviews and usage data into SHAP-based explainability and a revised retraining cadence, raising forecast adoption from 50% to 60%, and to ~70% after the agent launch.
 - **Data Platform & Governance:** Built the enterprise data platform (ingestion, validation, lineage, APIs, model-ready contracts) and a runtime data catalog with sensitivity tiers and PII blocking for agent grounding; cut deployment from 3 months to 3 weeks and raised recommendation acceptance from 50% to 80%.
 - **Financial Workflow Automation:** Led REI-Agent, a multi-agent assistant for natural-language variance analysis backed by governed metrics and auditable calculations, and HAT-AI, which saved 120 hrs/week across 15 finance products.
-- **Executive & Cross-Functional Leadership:** Partnered with the CEO/CTO and Fortune 500 executives on investment priorities; set product direction for 20+ engineers and scientists and organized product work into 3 lanes with the CPO.
 
 **Sr. Product Manager – Technical, Amazon** | 2016 – 2024
 - **ML Credit Decisioning at Scale:** Launched and scaled an ML-based financing product to 50K+ customers and $71M incremental revenue; owned discovery, experimentation, rollout, and performance across growth, risk, and economic outcomes.
@@ -136,7 +135,7 @@ MBA, Marketing and Operations, Indian Institute of Technology (IIT) Roorkee | B.
 ### Recruiter Review
 - **First impression (6-second scan):** PASS on AI. Agentic AI, evaluation, human-in-the-loop, and $71M credit decisioning land in the top third. FAIL on domain: no healthcare word appears, and none can truthfully be added. The summary's "high-stakes financial workflows" and "auditable calculations" is the strongest honest bridge.
 - **Relevance signal:** Strong for the AI half of the JD; weak for the healthcare half. A referral or a work product has to carry the domain gap.
-- **Readability:** One page if Keystone is trimmed to 6 bullets when formatting (drop Executive & Cross-Functional Leadership first, since the summary covers it).
+- **Readability:** One page. Dropped the Keystone Executive & Cross-Functional Leadership bullet to fit; use it as an interview talking point (CEO/CTO partner, 20+ engineers and scientists, 3 product lanes with the CPO).
 
 ### ATS Review
 - **Section headers:** Standard (Summary, Experience, Skills, Education).
@@ -155,7 +154,6 @@ MBA, Marketing and Operations, Indian Institute of Technology (IIT) Roorkee | B.
 | Explainability & Adoption: Translated planner interviews... | K9, K10 | SHAP explainability; retraining weekly → quarterly; adoption 50% → 60%, then ~70% | REWORDED |
 | Data Platform & Governance: Built the enterprise data p... | Keystone resume bullets; K6 | data platform 3 months → 3 weeks; catalog with sensitivity tiers incl. PII blocking; acceptance 50% → 80% | REWORDED (two sources combined, all facts sourced) |
 | Financial Workflow Automation: Led REI-Agent... | Keystone resume bullets | REI-Agent...governed metrics and auditable calculations; HAT-AI...120 hrs/week | REWORDED |
-| Executive & Cross-Functional Leadership: Partnered with... | Leadership / Cross-functional | Partnered with CEO/CTO...20+ engineers and scientists; 3 lanes with the CPO | REWORDED |
 | ML Credit Decisioning at Scale: Launched and scaled an... | Amazon Financial Services | Launched an ML-based financing product...50K+...$71M | REWORDED |
 | Credit Product Growth: Scaled a global consumer credit... | Amazon Financial Services | three-pronged strategy...$15M...+17%...+7%...50% | EXACT |
 | MLOps Platform & Model Governance: Owned vision, roadmap... | ML Ops Platform | 30+ scientists, 100+ models; deployment −40%; volume 2× | REWORDED |
