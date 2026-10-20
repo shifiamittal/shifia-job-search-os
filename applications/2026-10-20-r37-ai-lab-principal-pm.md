@@ -56,6 +56,7 @@ Note: the formula gives 17/20, but the one NONE (healthcare) is the requirement 
 
 ### Comp Range (4/20)
 - JD range: not listed. Estimated base ~$190-240K, bonus ~10-15%, limited equity -> ~$220-300K TC. **Confidence: LOW.** Based on general knowledge of PE-owned healthcare services comp for Principal PM, not sourced data. [VERIFY]
+- **Update 2026-10-20 (recruiter screen 10/08):** Amber said similar roles run ~$140K base (junior) to ~$300K base (director), "at market and a little above." A Principal base near the top of that band would put total comp closer to your floor than this estimate. Still unconfirmed; you've chosen not to push on it yet.
 - Your target: $600K TC; floor $380-400K.
 - Assessment: likely below floor. Remote US postings that can be filled in WA, CA, CO or NY usually must show a range: check R1's own careers page for this req; it may list one. Run `/salary-research R1 RCM Principal PM` before the recruiter screen.
 

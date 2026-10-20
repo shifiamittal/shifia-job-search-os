@@ -1,8 +1,8 @@
 # Interview History
 
-Last updated: 2026-10-15
-Total interviews: 4 (3 companies), plus a recruiter screen for Count (Albert Squiers, not recorded)
-Outcomes: 2 rejected (LawnStarter at HM review, Count after Round 2), 1 stalled (Ascerta)
+Last updated: 2026-10-20
+Total interviews: 5 (4 companies), plus a recruiter screen for Count (Albert Squiers, not recorded)
+Outcomes: 2 rejected (LawnStarter at HM review, Count after Round 2), 1 stalled (Ascerta), 1 active (R37, awaiting HM round)
 
 Auto-maintained by `/interview-debrief`. After each real interview, run the debrief and this file updates automatically with questions, scores, signals, and patterns. Full debriefs with rewrites are in `interview-debriefs/`.
 
@@ -18,7 +18,7 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 - **Plans and vision questions:** avg **4.7/10** (30–60 days 4.5, 5-year vision 4.5, AI-native org 5). Generic and not tailored to the company, even when you had specific context from the same call.
 - **Length:** most answers run 350–650 words against a 200-word target. Filler words ("basically," "right?," "kind of," "like") show up throughout. **Confirmed habit (4 of 4 interviews).**
 - **Metric drift:** numbers changed between interviews: deployment 6 → 2 months (canonical 6 → 4), ">80% adopted" (canonical 70%), "if I remember, ~30%" cost cut (unconfirmed), Keystone team size changed three times in one answer. **Confirmed habit (3 of 4).**
-- **Current-employment claim:** "currently at Keystone" in **4 of 4** interviews. Role ended Mar 2026. Highest-risk issue in the pipeline.
+- **Current-employment claim:** "currently at Keystone" in **4 of 4** interviews, and again at R37 on 10/08 ("Most recently, I'm at Keystone"; "the division I am in is a startup"): **5 of 5**. Role ended Mar 2026. Highest-risk issue in the pipeline.
 - **Technical, non-AI (incident debugging):** 5/10 (one data point). Didn't segment the failing 5%, mitigate first, or use your payments background.
 
 ### Other patterns
@@ -36,6 +36,20 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 ---
 
 ## Interview Log
+
+### 2026-10-08 - R37 AI Lab (R1 RCM) - Principal Product Manager - Recruiter screen
+- **Interviewer:** Amber O'Brien, recruiter (sourcing team)
+- **Format:** 21-min inbound recruiter screen (Otter: "Shifia Mittal and Amber O'Brien"). Note: Otter's AI summary swaps the two speakers.
+- **Questions asked:**
+  1. Tell me about yourself - Score: 6/10 - Type: behavioral (TMAY). Good structure, ~250 words; "Most recently, I'm at Keystone" (current-employment claim); generic close ("complex workflows").
+  2. Scale and AI experience - Score: 5/10 - Type: behavioral. Said the credit product scaled "to millions of users" (canonical: 50K+ customers) and agent adoption "to 15 plus 20 plus users" (not in library).
+  3. Executive and stakeholder influence - Score: 6.5/10 - Type: behavioral. K1 pivot story, strong content; ~370 words; hedging ("I guess I have... I'm pretty sure").
+  4. Comp expectations - Score: 6/10 - Type: comp. "Industry standard for this level"; didn't name a number first.
+  5. Candidate questions - Score: 7/10. Asked about process and how long the role had been open; learned it's been open a while "without much traction."
+- **Overall assessment:** adequate (6/10). Amber said she'd recommend moving forward.
+- **Signals:** Three pillars named: AI depth (CTO), scale (SVP Jon Katzur, ex-Amazon), executive/stakeholder influence. Role reports to the AI lab CTO. Base range across similar roles ~$140K (junior) to ~$300K (director); "at market and a little above."
+- **Key improvement:** Canonical metrics (50K+ customers, not millions); past tense for Keystone; 200-word answers.
+- **Next round prediction:** HM round with the AI lab CTO (likely Tymor Hamamsy [VERIFY]), AI-depth focus: evals, autonomy thresholds, accuracy. Prep: `briefings/2026-10-20-prep-r37.md`.
 
 ### 2026-10-12 - Count - Head of Product - Round 2
 - **Interviewer:** Chris Smith, co-founder (acting CTO; ex-Amazon, ex-Meta)

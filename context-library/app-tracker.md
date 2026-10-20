@@ -12,7 +12,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Status:** recruiter-screen (complete; waiting on recruiter for hiring-manager round)
 - **Source:** Inbound: recruiter reached out directly
 - **Referral:** No (inbound, so not needed to get in)
-- **Recruiter:** [name]
+- **Recruiter:** Amber O'Brien (sourcing team), linkedin.com/in/amber-obrien-recruiter
 - **Resume version:** Shifia_Mittal_Resume_R37_Principal_Product_Manager.docx (submitted). Corrected reference version: `applications/2026-10-20-r37-ai-lab-principal-pm.md`
 - **Cover letter:** No
 - **Connection at company:** None
@@ -21,13 +21,13 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Background check stage:** unknown
 - **Company tier:** Unranked (not in target-companies.md)
 - **Location:** US Remote
-- **Comp-range-confirmed:** [CONFIRM: was a range discussed on the 10/08 call?] Not listed in the JD; estimated ~$220-300K TC (low confidence), below the $380-400K floor.
+- **Comp-range-confirmed:** No. Amber (10/08): no range for this role; similar roles run ~$140K base (junior) to ~$300K base (director); "at market and a little above." Your call: not a concern for now. Ask for the full package before the final round.
 - **Fit score:** 66/100. Main gaps: healthcare/RCM experience, HIPAA, bias mitigation.
 - **Last action:** 2026-10-16 recruiter said she'd come back the week of 10/19 about the hiring-manager round.
-- **Next action:** If no word by Fri 2026-10-23, send one short follow-up on Mon 2026-10-26. Meanwhile prep for the HM round (`/interview-prep R37 Principal PM`). If comp wasn't covered, ask for the full package before or at HM scheduling.
+- **Next action:** If no word by Fri 2026-10-23, send Amber one short follow-up on Mon 2026-10-26. Ask who is in the HM round and what it covers. Prep: `briefings/2026-10-20-prep-r37.md`.
 - **History:**
   - [date] Recruiter reached out (inbound)
-  - 2026-10-08 Recruiter screen
+  - 2026-10-08 Recruiter screen (Amber O'Brien)
   - 2026-10-16 Recruiter: will come back next week on the HM round
   - 2026-10-20 Fit score and tailored resume generated
 
@@ -46,7 +46,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
   - [date] Recruiter: team yet to review recording
 
 ## Needs Attention
-- **R37 AI Lab:** waiting on recruiter (said week of 10/19). Follow up Mon 10/26 if silent. Confirm comp.
+- **R37 AI Lab:** waiting on Amber (said week of 10/19). Follow up Mon 10/26 if silent. HM prep in `briefings/2026-10-20-prep-r37.md`.
 - **Ascerta:** stalled; send one final follow-up.
 - **Count:** send the post-rejection notes (interview-debriefs/2026-10-15-count-followup-notes.md).
 
