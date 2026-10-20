@@ -53,29 +53,22 @@ Technical product manager who builds and launches machine learning products with
 
 *Machine Learning Platform (2020 – 2022)*
 - Owned vision and roadmap for a SageMaker-based ML platform that 30+ scientists used to deploy, evaluate, and monitor 100+ production models; cut model deployment time 40% and doubled production models with no added headcount.
-- Productized model governance, monitoring, lineage, and privacy compliance with 10 privacy bar raisers and legal partners; closed requirements missed across the org and saved 6 science headcount.
+- Productized model governance, lineage, and privacy compliance with 10 privacy bar raisers and legal; saved 6 science headcount.
 
 *Supply Chain ML Recommendations (2018 – 2020)*
 - Built and scaled ML recommendation and causal-attribution products for inventory, pricing, and shipping decisions across thousands of sellers, delivering $100M+ in cost savings.
 - Scaled MOQ recommendations to 20K merchants and 120K offers, driving ~60% higher adherence with no measurable conversion decline before full rollout.
-- Launched TRACE, a causal recommendation engine across 50+ shipping-cost drivers owned by 14 teams; aligned Finance, Ops, Data Science, and Engineering, and drove $40M in savings.
+- Launched TRACE, a causal recommendation engine across 50+ shipping-cost drivers owned by 14 teams; drove $40M in savings.
 
-*Pricing (2016 – 2018)*
-- Benchmarked Amazon's price perception across 800+ retailers in 17 countries; launched self-service insight tools adopted by 40+ global pricing leaders.
-
-**Cognizant Technology Solutions** | Chennai, India | May 2015 – Sep 2016
-*Business Analyst*: Partnered with solution architects to design service solutions and pricing for $25M in APAC deals.
+**Cognizant Technology Solutions** | Business Analyst | May 2015 – Sep 2016: designed service solutions and pricing for $25M in APAC deals.
 
 **SKILLS**
-- **Product & program:** product strategy, roadmapping, strategic program planning, OKRs, executive reporting, customer discovery, experimentation, controlled rollouts
-- **Machine learning:** recommendation systems, ML personalization, causal attribution, forecasting, credit-risk models, explainability (SHAP), model governance
-- **Generative AI:** multi-agent systems, RAG, LLM-as-judge evaluation, human-in-the-loop design
-- **Trust, integrity & risk:** fraud prevention, fraud-model thresholds (precision/recall trade-offs), credit-risk controls, AI action-safety guardrails, privacy compliance, audit logging
-- **Tools:** AWS (SageMaker, Bedrock, Lambda, Step Functions, Glue, EMR Serverless)
+- **Product & program:** strategy, roadmapping, program planning, OKRs, executive reporting, experimentation
+- **Machine learning & AI:** recommendation systems, personalization, credit-risk models, multi-agent systems, RAG, evals
+- **Trust, integrity & risk:** fraud prevention, precision/recall thresholds, risk controls, AI safety guardrails, privacy
 
 **EDUCATION**
-MBA, Marketing & Operations, Indian Institute of Technology (IIT) Roorkee
-B.E., Chemical Engineering, Thapar University
+MBA, Marketing & Operations, IIT Roorkee | B.E., Chemical Engineering, Thapar University
 
 ---
 
@@ -107,7 +100,6 @@ B.E., Chemical Engineering, Thapar University
 | Built and scaled ML recommendation and causal-attribution pro... | Supply Chain | "Built and scaled ML recommendation and causal attribution products (SPORT, TRACE, MOQ)… $100M+ cost savings" | EXACT |
 | Scaled MOQ recommendations to 20K merchants and 120K offers, ... | Supply Chain | "scaled to 20K merchants and 120K offers, driving ~60% higher adherence… no measurable conversion decline before full rollout" | REWORDED |
 | Launched TRACE, a causal recommendation engine across 50+ shi... | Supply Chain; A11 | "50+ shipping-cost drivers… drove $40M in savings"; "14 systems owned by 14 teams. Aligned Finance, Ops, DS, DE, and Eng" | REWORDED |
-| Benchmarked Amazon's price perception across 800+ retailers i... | Amazon Pricing | Same text | EXACT |
 | Led 0→1 strategy and roadmap for an AI decision platform with... | Keystone resume bullets; K1 | "Led 0→1 strategy and roadmap for Deep Enterprise… WAPE by 21%… 6 months to 4 months… 5 enterprises"; "Partnered with CEO/CTO… 20+ engineers and scientists" | REWORDED |
 | Launched a multi-agent recommendation system (exception detec... | Keystone Forecasting Agent; K2 | "multi-agent enterprise forecasting system… exception detection, tool-based root-cause diagnosis, grounded recommendations, human approval… 4 hrs/day to 4 hrs/week"; shadow mode; 70% adopted | REWORDED |
 | Designed AI safety and evaluation: risk-tiered autonomy, audi... | AI Evaluation & Governance; K3; Canonical Metrics | "evaluation frameworks covering task correctness, groundedness… action safety, and regression testing"; tiered autonomy + audit logs; "Override rate 50% → 20%, cumulative" | REWORDED |
@@ -124,5 +116,6 @@ B.E., Chemical Engineering, Thapar University
 - **ATS review:** Mirrored JD wording: "engineers, data scientists, and researchers," "strategic program planning," "executive reporting," "recommendation systems," "machine learning."
 - **ATS review:** Did not add "ranking" as a keyword; you haven't owned search or feed ranking.
 - **User update (2026-10-20):** Added a fraud-prevention bullet from the PBI 2.0 doc (Shifia owned fraud decisions for PBI; the fraud team owned the model). Renamed the skills line to "Trust, integrity & risk." Executive-reporting clause confirmed. Kept 50K+ customers (the doc's 250K figure is outdated).
+- **One-page fit:** Cut the Amazon Pricing (2016–18) section, condensed skills to 3 lines, and shortened the privacy, TRACE, Cognizant, and Education lines.
 - **Accuracy:** Avoided the 30% → 80% action-acceptance figure from K3 because the canonical metrics table says to use 70% for acceptance everywhere. Used the cumulative 50% → 20% override figure, labeled as a contribution.
 - **Clients:** No client names (per Source Decision 12).
