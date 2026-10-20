@@ -39,6 +39,7 @@ This is the single source of truth. Every skill draws from this file. Anything m
 11. **Story doc:** "Interview Questions" Google Doc, merged into the Story Bank below.
 10. **Patent search:** personal project; no metrics beyond the LinkedIn About description.
 15. **Amazon financing/credit products (confirmed 2026-10-20):** launched through the Amazon Business website and scaled like consumer products (self-serve, personalized marketing, onboarding funnels). Counts as consumer-launch experience; name "Amazon Business" on resumes. SPORT, TRACE, and MOQ were self-serve products scaled to thousands of sellers; describe them as seller products, not B2C.
+16. **PBI 2.0 executive reporting (confirmed 2026-10-20):** presented monthly program updates to VP-level leadership; the program contributed to an Amazon S-team goal to grow Amazon's lending business.
 
 ---
 
@@ -420,6 +421,16 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 - **Action:** Mentored him to manage the external survey vendor and 30+ stakeholders across 15+ countries on his own. Coached him on deep-dive analysis of the price-perception reports. Reviewed results before they went to stakeholders. Helped him design requirements for automated price-perception dashboards. Wrote his promotion document.
 - **Result:** He led end-to-end price-perception surveys across 15+ countries independently and published high-quality reports on time. Promoted L4 → L5 in 2018.
 - **Tags:** people management, developing talent, Director-track
+
+### A14: PBI 2.0 Fraud Prevention & Credit Models (Amazon)
+- **Source:** user's doc "PBI_2.0_project_summary_and_questions.docx" (read 2026-10-20). **Role (confirmed 2026-10-20):** the fraud team owned the Business Fraud Score (BFS) model; Shifia owned how PBI 2.0 used it (integration, threshold, blocklist rules, suspensions). Don't claim she built the fraud model.
+- **Fraud controls, two stages:** (1) BFS score assessed before credit assessment and fed into the credit (CPA) model; (2) post-checkout integration with Buyer Risk Prevention (BRP) for transaction fraud prevention. Fraud email-domain blocklist from BRP suspends customers regardless of model score. Suspension on fraud, insolvency, or 1 day past due.
+- **BFS model (fraud team's, for interview depth):** binary classifier predicting fraud at Amazon Business registration from business profile, domain/WHOIS activity, web traffic rank, and credit bureau data; 15K fraud vs. 150K non-fraud labels; SMOTE for class imbalance; random forest vs. XGBoost with K-fold CV. Base model precision 0.88 / recall 0.86 / FDR 0.12.
+- **Threshold decision (Shifia's, for PBI):** chose precision 0.99, recall 0.25, FDR 0.01, trading recall to minimize false positives, because false positives suspend legitimate customers' $8K–$250K credit lines; BRP post-checkout screening catches what lower recall misses.
+- **Credit PD model (PM partner to 1 data scientist + science manager):** balanced random forest chosen over decision tree / RF / XGBoost on ROC-AUC, PR-AUC, F1; 80/20 split plus out-of-sample validation; threshold set to maximize economic profit; SHAP and business-facing documentation for interpretability. Plus a rules-based transaction model (TAP) restricting high-loss, low-margin categories. 5% A/B test before full rollout; batch over real-time for V1.
+- **APIs:** defined REST APIs exposing model output (credit eligibility at checkout; BFS block/continue at onboarding), with backward-compatible versioning.
+- **Metric conflicts:** doc says "250K active customers," "$10MM losses vs. $1B revenue," and PBI 1.0 "1M customers / $7B GMS." Canonical metrics win: **50K+ customers** (confirmed 2026-10-20), $71M incremental revenue, no credit losses after full launch. Don't use the doc's 250K or $1B.
+- **Tags:** trust & safety / integrity, fraud, risk, ML thresholds, precision/recall trade-off
 
 ### S1: Agent vs. Deterministic Workflow (Personal Project)
 - **Situation:** Shifia's LLM-driven job-search agent missed jobs she knew existed.
