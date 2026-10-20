@@ -38,6 +38,7 @@ This is the single source of truth. Every skill draws from this file. Anything m
 14. **Credit losses:** losses ran high in the pilot (A6), were fixed, and there were no credit losses after full launch.
 11. **Story doc:** "Interview Questions" Google Doc, merged into the Story Bank below.
 10. **Patent search:** personal project; no metrics beyond the LinkedIn About description.
+15. **Amazon financing/credit products (confirmed 2026-10-20):** launched through the Amazon Business website and scaled like consumer products (self-serve, personalized marketing, onboarding funnels). Counts as consumer-launch experience; name "Amazon Business" on resumes. SPORT, TRACE, and MOQ were self-serve products scaled to thousands of sellers; describe them as seller products, not B2C.
 
 ---
 

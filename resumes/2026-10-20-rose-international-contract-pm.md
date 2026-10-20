@@ -1,5 +1,5 @@
 # Resume Output - Rose International (client undisclosed) · Product Manager, contract
-**Keyword Coverage: 100% (9/9 requirements matched: 6 strong, 3 partial)**
+**Keyword Coverage: 100% (9/9 requirements matched: 7 strong, 2 partial)**
 
 Source: LinkedIn InMail from Anmol Tripathi (Resource Delivery Manager, Rose International), 2026-10-20. 100% remote, 6+ month W2 contract, $85–93/hr. The client and exact role title are not disclosed. "Principal Product Manager - Technical at Keystone AI" in the message is Shifia's own title, not the role. REQUIRED/PREFERRED labels come from the recruiter's list.
 
@@ -7,16 +7,19 @@ Source: LinkedIn InMail from Anmol Tripathi (Resource Delivery Manager, Rose Int
 
 1. **Comp is well below your floor.** $85–93/hr W2 × 2,080 hrs ≈ **$177K–$193K/yr**, usually with no equity or bonus and limited benefits. Your career plan's "say no" line is total comp below $380–400K. Your current comp is $400K. Treat this as a bridge or contract option only, and decide that before you invest time.
 2. **Level mismatch.** The JD asks for 5–7 years with 2+ in PM; you have 11+. This resume is scoped down to hands-on, IC-level craft (see the overqualification rule).
-3. **Keystone dates.** The resume shows **2024 – 2026**, not "Present." Staffing agencies like Rose International run employment verification for W2 placements, and Keystone will report Mar 2026. If you still want "Present," it's a one-line change, but I recommend against it here.
+3. **Keystone dates.** Shown as "Jun 2024 – Present" (your call). In conversations with Anmol or the client, don't say you're currently at Keystone; use the restructuring script in `qa-master.md`.
 4. **Ask Anmol for the full JD and the client name.** "Ranking or Recommendation Systems" and "Trust and Safety or Integrity" mean very different things at different companies.
 
-## Gaps (3 partial, 0 unmatched)
+## Gaps (2 partial, 0 unmatched)
+
+"Launching consumer products" is now scored **strong**: the financing and credit products launched on the Amazon Business website and scaled the way consumer products do (self-serve signup, personalized marketing, onboarding funnels, experimentation). Confirmed by Shifia 2026-10-20. Name Amazon Business on the resume so the recruiter can see the context. SPORT, TRACE, and MOQ count as self-serve products at scale for thousands of sellers, but describe them as seller products, not B2C. A consumer-PM interviewer will ask who the end user was.
+
+These two are **preferred**, not required. You can be a strong candidate without them.
 
 | # | JD Requirement | Gap Type | Suggested Response |
 |---|---|---|---|
-| 1 | Track record launching consumer products (REQUIRED) | Partial. You have a global consumer credit product at Amazon and customer-facing financing, but most of your launches are B2B, seller-facing, or enterprise. | Reply to Anmol: "At Amazon I launched and scaled a global consumer credit product (personalized marketing, bureau integrations, an onboarding redesign that halved abandonment) and an ML financing product to 50K+ customers. Most of my recent work is enterprise AI, so I'd like to hear how consumer-facing this role is." |
-| 2 | Trust and Safety or Integrity (PREFERRED) | Partial. Adjacent risk and safety work: credit-risk controls and loss management, AI action-safety guardrails and tiered autonomy, privacy compliance. No content moderation or abuse/fraud T&S role. | Cover note: "I haven't worked in a T&S org, but I've owned the same trade-off: growth versus harm. At Amazon I redesigned credit underwriting with risk-tier exposure caps, and we had no credit losses after full launch. At Keystone I designed risk-tiered autonomy for AI agents, so the system acts only when evidence is sufficient." |
-| 3 | Excellent writing and speaking (REQUIRED) | Partial. No direct resume evidence (this is usually judged in the interview). Indirect evidence: executive readouts to CEO/CTO, a promotion document you wrote, and your public LinkedIn writing. | Show it instead of claiming it: keep your reply to Anmol crisp, and offer a 1-page product teardown (`/work-product`) once the client is known. |
+| 1 | Trust and Safety or Integrity (PREFERRED) | Partial. Adjacent risk and safety work: credit-risk controls and loss management, AI action-safety guardrails and tiered autonomy, privacy compliance. No content moderation or abuse/fraud T&S role. | Cover note: "I haven't worked in a T&S org, but I've owned the same trade-off: growth versus harm. At Amazon I redesigned credit underwriting with risk-tier exposure caps, and we had no credit losses after full launch. At Keystone I designed risk-tiered autonomy for AI agents, so the system acts only when evidence is sufficient." |
+| 2 | Excellent writing and speaking (REQUIRED) | Partial. No direct resume evidence (this is usually judged in the interview). Indirect evidence: executive readouts to CEO/CTO, a promotion document you wrote, and your public LinkedIn writing. | Show it instead of claiming it: keep your reply to Anmol crisp, and offer a 1-page product teardown (`/work-product`) once the client is known. |
 
 Also note: "Ranking or Recommendation Systems" is scored **strong** for recommendations (SPORT, MOQ, TRACE, ML-personalized marketing, agent recommendations) but **partial** for ranking specifically. You haven't owned search or feed ranking. Don't claim it in a screen.
 
@@ -28,15 +31,22 @@ Also note: "Ranking or Recommendation Systems" is scored **strong** for recommen
 Seattle, WA (open to remote) | 206-356-6348 | shifia.mittal09@gmail.com | linkedin.com/in/shifiamittal
 
 **SUMMARY**
-Technical product manager who builds and launches machine learning products with engineers, data scientists, and researchers: recommendation systems, ML personalization, credit-risk models, and AI agents. Launched and scaled an ML financing product to 50K+ customers ($71M incremental revenue) and ML recommendation products that delivered $100M+ in savings. Hands-on with prototypes, evaluation, and safety guardrails, and runs programs from strategic plan to executive readout.
+Technical product manager who builds and launches machine learning products with engineers, data scientists, and researchers: recommendation systems, ML personalization, credit-risk models, and AI agents. Launched and scaled an ML financing product on Amazon Business to 50K+ customers ($71M incremental revenue) and ML recommendation products that delivered $100M+ in savings. Hands-on with prototypes, evaluation, and safety guardrails, and runs programs from strategic plan to executive readout.
 
 **EXPERIENCE**
+
+**Keystone.ai** | Seattle, WA | Jun 2024 – Present
+*Principal Product Manager – Technical* (AI decision platform for Fortune 500 enterprises; $5M ARR)
+- Launched a multi-agent recommendation system (exception detection, root-cause diagnosis, RAG-grounded recommendations, human approval) through shadow-mode launch gates; 70% of recommendations adopted, and planner effort fell from 4 hrs/day to 4 hrs/week.
+- Led 0→1 strategy and roadmap for an AI decision platform with the CEO/CTO and 20+ engineers and scientists; improved forecast WAPE 21%, cut deployment from 6 to 4 months, and scaled to 5 enterprises.
+- Designed AI safety and evaluation: risk-tiered autonomy, audit logs, and evals for correctness, groundedness, tool compliance, action safety, and regression; contributed to a cumulative drop in override rate from 50% to 20%.
+- Lifted forecast adoption from 50% to 70% by pairing adoption metrics with user interviews and workflow observation, then sequencing explainability before automation.
 
 **Amazon** | Seattle, WA | Oct 2016 – Jun 2024
 *Sr. Product Manager – Technical*
 
-*Consumer Financing & Credit (2022 – 2024)*
-- Launched an ML-based financing product and scaled it to 50K+ customers, driving $71M in incremental revenue; owned discovery, experimentation, a 5% controlled launch, and rollout across growth and risk outcomes.
+*Amazon Business Financing & Credit (2022 – 2024)*
+- Launched an ML-based financing product on the Amazon Business website and scaled it to 50K+ customers, driving $71M in incremental revenue; owned discovery, experimentation, a 5% controlled launch, and rollout across growth and risk outcomes.
 - Scaled a global consumer credit product through ML-personalized marketing ($15M incremental revenue), credit bureau integrations (+17% data coverage, +7% approval lift), and an onboarding redesign that cut abandonment 50%.
 - Redesigned underwriting and risk controls (exposure caps by risk tier, restricted high-loss categories, transaction-level controls); raised SMB approval from 4% to 15%, with no credit losses after full launch.
 - Ran the multi-year credit growth strategy through annual OKRs, quarterly milestones, and biweekly sprints, reporting progress to senior leadership.
@@ -52,13 +62,6 @@ Technical product manager who builds and launches machine learning products with
 
 *Pricing (2016 – 2018)*
 - Benchmarked Amazon's price perception across 800+ retailers in 17 countries; launched self-service insight tools adopted by 40+ global pricing leaders.
-
-**Keystone.ai** | Seattle, WA | 2024 – 2026
-*Principal Product Manager – Technical* (AI decision platform for Fortune 500 enterprises; $5M ARR)
-- Led 0→1 strategy and roadmap for an AI decision platform with the CEO/CTO and 20+ engineers and scientists; improved forecast WAPE 21%, cut deployment from 6 to 4 months, and scaled to 5 enterprises.
-- Launched a multi-agent recommendation system (exception detection, root-cause diagnosis, RAG-grounded recommendations, human approval) through shadow-mode launch gates; 70% of recommendations adopted, and planner effort fell from 4 hrs/day to 4 hrs/week.
-- Designed AI safety and evaluation: risk-tiered autonomy, audit logs, and evals for correctness, groundedness, tool compliance, action safety, and regression; contributed to a cumulative drop in override rate from 50% to 20%.
-- Lifted forecast adoption from 50% to 70% by pairing adoption metrics with user interviews and workflow observation, then sequencing explainability before automation.
 
 **Cognizant Technology Solutions** | Chennai, India | May 2015 – Sep 2016
 *Business Analyst*: Partnered with solution architects to design service solutions and pricing for $25M in APAC deals.
@@ -77,7 +80,7 @@ B.E., Chemical Engineering, Thapar University
 ---
 
 ## Recruiter Review
-- **First impression (6-second scan): PASS after revision.** The first draft led with Keystone ("enterprise agentic AI platform"), which reads as enterprise B2B against a consumer/ranking/T&S JD. Amazon now comes first, so consumer credit, ML recommendations, and risk controls sit in the top-left F-pattern zone.
+- **First impression (6-second scan): PASS.** Reverse-chronological order (Keystone first) is what recruiters and ATS expect; putting older work on top reads as hiding something. The consumer and recommendation signal still lands in the top third: the summary names the Amazon Business financing launch, and Keystone leads with its recommendation system rather than "enterprise platform."
 - **Relevance signal:** The summary hits ML, recommendation systems, engineers/data scientists/researchers, and program-to-executive reporting in the first two lines.
 - **Overqualification:** The resume reads as hands-on IC. No team-size or org-building lines; the Amazon direct-report story is kept for interviews.
 - **Readability:** About one page. Four Amazon sub-areas keep one employer from reading as one undifferentiated block.
@@ -86,7 +89,7 @@ B.E., Chemical Engineering, Thapar University
 - **Section headers:** Standard (Summary, Experience, Skills, Education). No tables or columns in the resume body.
 - **Keyword matches:** product management, consumer, launch, cross-functional, engineers, data scientists, researchers, strategic planning, program, executive, stakeholders, machine learning, recommendation systems, ranking (not claimed), risk, safety
 - **Missing exact strings:** "Trust and Safety" and "Integrity." Left out on purpose because you have adjacent experience, not direct experience. "Ranking" is also left out of the resume body for the same reason.
-- **Dates:** Month/year at the employer level. Amazon sub-areas use years. Keystone uses years (see item 3 above).
+- **Dates:** Month/year at the employer level. Amazon sub-areas use years.
 - **Formatting risk:** Paste into a plain .docx with standard fonts. Italic sub-headers parse fine.
 
 ## Traceability Audit
@@ -94,7 +97,7 @@ B.E., Chemical Engineering, Thapar University
 | Resume Bullet (first 60 chars) | Source Section | Original Text | Match Type |
 |---|---|---|---|
 | Summary: Technical product manager who builds and launches ma... | Profile Basics; Organized Experience | LinkedIn headline; ML financing $71M / 50K+; $100M+ SPORT/TRACE/MOQ; hands-on builder | REWORDED |
-| Launched an ML-based financing product and scaled it to 50K+... | Amazon FS; A1, A7 | "Launched an ML-based financing product… 50K+ customers, $71M… Owned discovery, strategy, experimentation, rollout"; A1 "Launched to 5%" | REWORDED |
+| Launched an ML-based financing product on the Amazon Busines... | Amazon FS; A1, A7; Source Decision 15 | "Launched an ML-based financing product… 50K+ customers, $71M… Owned discovery, strategy, experimentation, rollout"; A1 "Launched to 5%"; launched on the Amazon Business website (confirmed 2026-10-20) | REWORDED |
 | Scaled a global consumer credit product through ML-personaliz... | Amazon FS | "Scaled a global consumer credit product via a three-pronged strategy…" | EXACT |
 | Redesigned underwriting and risk controls (exposure caps by r... | A3, A1, Canonical Metrics | "Capped exposure by risk tier and restricted financing on high-loss categories"; "transaction-level controls"; SMB approval 4% → 15%; "no credit losses after full launch" | REWORDED |
 | Ran the multi-year credit growth strategy through annual OKRs... | A1 | "Owned a multi-year credit growth strategy… Ran it with annual OKRs, quarterly milestones, and biweekly sprints" | INFERRED [VERIFY: "reporting progress to senior leadership" isn't stated in the source. Confirm you reported this program to senior leadership.] |
@@ -114,7 +117,8 @@ B.E., Chemical Engineering, Thapar University
 **Bullets flagged for verification:** 1. The "reporting progress to senior leadership" clause on the credit-strategy bullet. [VERIFY: This was inferred. Confirm it before you submit, or delete the clause.]
 
 ## Revisions Made
-- **Recruiter review:** Moved Amazon above Keystone. The JD's consumer, recommendation, and risk signals live in your Amazon work. Keystone was rewritten to lead with recommendations, safety, and user research instead of "enterprise agentic platform."
+- **Recruiter review:** Kept reverse-chronological order. Keystone was rewritten to lead with its recommendation system, safety, and user research instead of "enterprise agentic platform."
+- **User update (2026-10-20):** Keystone shown as "Present." Named Amazon Business on the financing bullets and summary; consumer-launch requirement rescored from partial to strong.
 - **Recruiter review:** Dropped enterprise-only Keystone bullets (data platform, HAT-AI, REI-Agent) and the Amazon direct-report line. They're strong, but they pull toward enterprise or manager signals this JD doesn't ask for.
 - **ATS review:** Mirrored JD wording: "engineers, data scientists, and researchers," "strategic program planning," "executive reporting," "recommendation systems," "machine learning."
 - **ATS review:** Did not add "Trust and Safety" or "ranking" as keywords. You don't have direct experience, and a T&S interviewer would probe it in the first screen.
