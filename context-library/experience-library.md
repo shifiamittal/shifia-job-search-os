@@ -198,16 +198,16 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 
 | Question type | Best stories |
 |---|---|
-| Tell me about a 0→1 / end-to-end product | K1 Deep Enterprise, K2 Forecasting Agent, A8 MDLC |
-| Proudest accomplishment | K2, K6 Data Catalog, A11 TRACE, A8 MDLC |
+| Tell me about a 0→1 / end-to-end product | K1 Deep Enterprise, K22 flagship CPG deployment, K2 Forecasting Agent, A8 MDLC |
+| Proudest accomplishment | K22 flagship CPG deployment, K2, K6 Data Catalog, A11 TRACE, A8 MDLC |
 | AI agent design / architecture | K2, K3, K8, K14 |
-| AI evals / quality | K4, K5 |
-| Hard trade-off | K3, K7, K8, K9, K12, K13, K14, A3, A4, A5 |
-| Conflict / disagree with senior leader | K17 (CEO), K16 (CEO), K12 (leadership + investors), K18 (Head of DS), A9 (Sr. tech manager), A10 conflict angle (DS manager) |
+| AI evals / quality | K4, K5, K22 evaluation layer, K27 |
+| Hard trade-off | K3, K7, K8, K9, K12, K13, K14, K23, K26, A3, A4, A5 |
+| Conflict / disagree with senior leader | K25 (Keystone leadership on POS), K24 (client), K17 (CEO), K16 (CEO), K12 (leadership + investors), K18 (Head of DS), A9 (Sr. tech manager), A10 conflict angle (DS manager) |
 | Engineering pushback | K13, A9 |
-| Failure | A6 PBI economics, A12 SPORT adoption, K5 AI quality slip |
+| Failure | A6 PBI economics, A12 SPORT adoption, K5 AI quality slip, K27 post-deployment bias, K9 over-optimizing model sophistication |
 | Customer insight / discovery | K10 (with K21 as its first step), A2 |
-| Prioritization | K11, A1 |
+| Prioritization | K11, K25, A1 |
 | Decision with limited information | A7 |
 | Speed / bias for action | K16, A4 |
 | Short-term vs long-term | K21, K15 |
@@ -283,6 +283,7 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Action:** Kept the ensemble and built the missing product layer: SHAP feature explainability for planners, top-2 model weights per SKU for scientists. Moved retraining from weekly to quarterly plus on-demand to reduce volatility. Productized both as platform features.
 - **Result:** Forecast adoption 50% → 60% (the explainability step in K10); contributed to the cumulative override reduction (50% → 20%).
 - **Learning:** Explainability is a product problem, not just an ML problem.
+- **More detail (Hershey's doc, 2026-10-21):** the client's own scientists found the AutoGluon ensemble hard to run and debug (weights shifted with small input changes, and five visible pipeline stages felt complicated). Fix: chained data prep, inference, reconciliation and metrics to run automatically in sequence; let users choose which algorithms the ensemble uses; retrain quarterly or on demand. Also added driver attribution (pricing, promotions) and plain-language narratives for business users. Learning: enterprise AI adoption often fails because the operating model around the model is weak, not the model.
 - **Tags:** trade-off, ML product, adoption
 
 ### K10: Forecast Platform Adoption: Customer Discovery (Keystone.ai)
@@ -356,6 +357,52 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Result:** Fed the explainability and agent roadmap; support later fell to 0.5 HC.
 - **Use:** Not a standalone story (2026-10-20). Tell it as the first step of K10; pull it out only for "short-term vs. long-term" questions.
 - **Tags:** short vs. long term, customer obsession
+
+### K22: Flagship CPG Forecasting Deployment (Keystone.ai)
+- **Source:** user's Google Doc "Keystone Hershey's Experience" (read 2026-10-21). Client is the flagship Fortune 500 CPG client (salty snacks business); never name it externally.
+- **Role:** led the product side: problem framing, architecture trade-offs, model evaluation strategy, explainability, adoption, and alignment between Keystone and client stakeholders. Leilei (Principal Scientist) was lead scientist.
+- **Situation:** Commercial, sales and demand planning each ran their own forecasts at different grains, reconciled by hand in spreadsheets over months. Shipment forecasting ran on the incumbent vendor tool (triple exponential smoothing): univariate, no promotion/pricing drivers, weak on sparse and lumpy SKUs, hard to diagnose. WAPE was 57–77% depending on level, worst at the item/DC/ship-to level that drives supply planning. The packaged tool also blocked the client's goal of building its own science capability.
+- **Action:** Chose shipment forecasting as the entry point (mission-critical, measurable baseline, feeds many downstream decisions) and planned commercial/sales planning as later phases. Deployed in the client's Databricks environment: data ingestion (shipments, orders, pricing, promotions, product hierarchy, customer mapping, spreadsheet inputs), a feature layer with Great Expectations quality checks, a hierarchical ensemble (statistical incl. AutoETS/AutoARIMA/Theta, LightGBM/XGBoost/AutoGluon, DeepAR, Chronos, Temporal Fusion Transformer) with probabilistic output, WLS reconciliation (K23), an evaluation layer (WAPE vs. incumbent by level, bias, week-over-week volatility, data-quality triggers for schema drift, null spikes, abnormal row counts), and weekly retrain/inference with dashboards and explainability views. Prioritized canonical datasets, aligned data definitions, and narrowed scope where upstream data wasn't reliable. Ran bi-weekly results reviews with a single client point of contact and leadership on both sides.
+- **Result:** WAPE improved 21–26% vs. the incumbent across hierarchy levels (canonical table). $2M in revenue for Keystone; the proof point for Keystone's move from consulting to a reusable enterprise AI platform. The client could add features and model variants itself instead of relying on a black box.
+- **Learning:** The hardest part wasn't the model; it was aligning a multi-stakeholder planning org on one version of the truth, an operating model and trust in the output.
+- **Tags:** proudest, 0→1, enterprise AI deployment, ML product, change management
+
+### K23: Reconciliation Approach: Accuracy vs. Coherence (Keystone.ai)
+- **Situation:** Forecasts at different hierarchy levels disagreed, so supply chain, sales and finance worked from different numbers and couldn't agree on one plan.
+- **Action:** Reframed the goal from "improve accuracy" to "deliver coherent forecasts across all levels." Worked with business stakeholders to find the level where supply decisions are made (item/ship-to customer). Data deep-dive: low levels were noisy, high levels too smooth. Compared bottom-up, top-down and weighted least squares (WLS); chose WLS, which weights every level by forecast error variance and favors the middle level.
+- **Result:** Consistent forecasts across all hierarchies; WAPE improved at every level, not just the aggregate; more trust from planning teams and fewer manual overrides.
+- **Learning:** Choosing the science the business can make consistent decisions with matters more than the most sophisticated option.
+- **Tags:** trade-off, ML product, technical depth
+
+### K24: Shipment History vs. Order Requests (Keystone.ai)
+- **Situation:** The client wanted to forecast shipments from shipment history. Keystone's view: order requests (unconstrained demand) are the better signal, because shipments already reflect stockouts and backorders.
+- **Action:** Investigated the order history and found the client had only recorded order requests since moving to S/4 in Oct 2023, while raw shipment history went back to 2020. Compromised on shipment history for reliability.
+- **Result:** A more reliable forecast from the longer history; order-based forecasting stayed on the roadmap.
+- **Tags:** disagreement with client, data-driven decision, compromise
+
+### K25: POS Forecasting: POC, Not Production (Keystone.ai)
+- **Situation:** Keystone leadership pushed to use point-of-sale (POS) forecasts to improve the shipment forecast. Product's analysis showed POS data was hard to translate into shipment accuracy.
+- **Action:** Aligned leadership on running POS forecasting as a proof of concept instead of committing to production.
+- **Result:** Learnings from the POC shaped the long-term product roadmap without derailing the deployment.
+- **Tags:** disagree with leadership, scope, prioritization
+
+### K26: Phased vs. Big-Bang Rollout (Keystone.ai)
+- **Situation:** The client's business teams wanted a phased rollout across forecast units (DFUs).
+- **Action:** Defined rollout criteria that covered 85% of SKUs in the first phase, so the value gap versus big-bang was small; discouraged running both systems in parallel long term. Planners switched once the new forecast beat the incumbent on 4 weeks of rolling performance shown on the metrics dashboard.
+- **Tags:** trade-off, rollout, change management
+
+### K27: Post-Deployment Bias and Volatility (Keystone.ai)
+- **Situation:** After launch the forecast showed under-bias, visible week-over-week swings, and a declining trend planners didn't believe.
+- **Root cause:** Shipment records arrive 1–3 weeks late, and training sometimes used partial weeks (e.g., a Wednesday trigger pulled Mon–Tue data). Retraining too often shifted ensemble weights week to week. The model handled product retirements but not new product launches.
+- **Action:** Only use a week of history if all 7 days are present; if a full week's volume is below 70% of the prior 4-week average, warn and exclude it. Investigated input volatility and reduced retraining frequency. New-launch volume stayed a known gap with no fix shipped (say so if asked).
+- **Learning:** In production, accuracy is one dimension. A biased or volatile forecast feels unreliable to users before they ever look at the metric.
+- **Tags:** failure / AI in production, monitoring, ownership
+
+### K28: Lumpy and Intermittent SKUs (Keystone.ai)
+- **Situation:** WAPE gains lagged on lumpy and intermittent SKUs, common in CPG, because standard methods assume smooth demand.
+- **Action:** Segmented SKUs by ADI and CV into regular, lumpy, intermittent and erratic; applied Croston-style methods and specialized sparse-demand handling.
+- **Result:** Not recorded in the source doc [NEEDS DETAIL].
+- **Tags:** technical depth, ML
 
 ### A1: PBI 2.0: Segment-Specific Credit Growth Strategy (Amazon)
 - **Situation:** Owned a multi-year credit growth strategy. SMBs drove ~60% of GMS but only 4% were approved for credit; ~100K SMBs abandoned Amazon yearly, partly for lack of credit. Only ~7–10% of approved enterprise customers were active users (7-page onboarding, generic email marketing). Competitors (Staples, Grainger) were partnering with fintechs.
@@ -493,4 +540,7 @@ Five different metrics. Every story names the one it moved. No data access since
 | Deep Enterprise platform MVP launch | **3 months** | Drop 5 |
 | AI agent cost reduction (K14 model routing) | **~30%** | Confirmed 2026-10-15 |
 | Data platform team | **7–8 engineers** | Confirmed 2026-10-15 |
+| Flagship CPG WAPE vs. incumbent | **21–26% better** by level: item-customer-location 77%→61% (21%), item-customer 68%→53% (22%), item-location 67%→52% (23%), item 57%→42% (26%) | "21%" elsewhere = the lowest (supply-planning) level. From Hershey's doc, 2026-10-21 |
+| Flagship CPG engagement revenue | **$2M** to Keystone | Part of the $5M ARR story; don't add them |
+| Flagship CPG first-phase rollout | **85% of SKUs** | |
 | Agent recommendation acceptance | **70%** at launch | Use 70% everywhere. Drop ">80%" and the K6 50% → 80% figure (confirmed 2026-10-15). K7's 50% → 80% is description approval, a different metric. See the adoption metrics table at the top of the Story Bank |
