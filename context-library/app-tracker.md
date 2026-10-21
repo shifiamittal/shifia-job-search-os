@@ -107,7 +107,8 @@ The tracker shows processes break after the first or second conversation and tha
 | Total connections | 2,339 | +8–10 | ~2,420 |
 | Posts | 1 | 1–2 | 12+ |
 | Avg impressions per post | 409 | — | 1,000+ |
-| Search appearances | 48 | — | 150+/wk |
+| Profile views (rolling 90 days) | 369 | — | 600+ |
+| Search appearances (weekly) | 48 | — | 150+/wk |
 | Inbound recruiter messages (all channels) | 1 | — | 3+/wk, 1+/month at or above floor |
 | Referral asks sent | — | 2 | 20 |
 | Referrals received | — | — | 6+ cumulative |
@@ -126,12 +127,12 @@ The tracker shows processes break after the first or second conversation and tha
 
 Self-reported from LinkedIn analytics. One row per week; add a new row each week.
 
-| Week ending | Requests sent | Requests accepted | Accept rate | Total connections | Posts | Post impressions | Profile views | Search appearances | Inbound (LinkedIn) | Inbound (other channels) |
+| Week ending | Requests sent | Requests accepted | Accept rate | Total connections | Posts | Post impressions | Profile views (90-day) | Search appearances | Inbound (LinkedIn) | Inbound (other channels) |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-21 | 30 | 2 | 7% | 2,339 | 1 | 409 | 369 | 48 | 1 | 0 |
 
 **Read on 2026-10-21 (first week, no trend yet):**
 - **Top of funnel:** 2 of 30 requests accepted (7%). Personalized requests to the right people usually land well above that, so check who the 30 went to and what the notes said before sending the next batch. `/connection-request` drafts targeted, under-300-character notes.
-- **Middle of funnel:** 369 profile views against 48 search appearances means most views come from activity (the post, outreach), not search. Recruiters aren't finding the profile through search yet. `/linkedin-audit` targets headline and keywords.
+- **Middle of funnel:** 369 profile views over 90 days is about 28 a week, and 48 search appearances this week. Both are low for someone targeting Principal roles, which fits with only 1 inbound message. `/linkedin-audit` works on headline and keywords so recruiters find you in search.
 - **Bottom of funnel:** 1 inbound on LinkedIn (Rose International contract role, logged above under Inbound / Evaluating), 0 through other channels.
 
