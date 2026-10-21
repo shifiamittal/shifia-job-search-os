@@ -163,6 +163,7 @@ main(async () => {
   let excluded = 0;
   let unreadable = 0;
   const failures: string[] = [];
+  let firstFailure: string | null = null;
   const fresh: JobRow[] = [];
 
   for (const p of pairs) {
@@ -173,6 +174,9 @@ main(async () => {
     let items: Record<string, any>[] = [];
     try {
       const bucket = postedBucket(days);
+      // LinkedIn has no place called "Remote"; it is a workplace-type filter.
+      const remote = /^remote$/i.test(p.location.trim());
+      const where = remote ? "United States" : p.location;
       items = await run<Record<string, any>>(
         ACTORS.jobs,
         {
@@ -180,9 +184,10 @@ main(async () => {
           // and wants arrays. The singular keys are sent too so the run still
           // works if the actor is swapped for one using the older names.
           jobTitles: [p.title],
-          locations: [p.location],
+          locations: [where],
           title: p.title,
-          location: p.location,
+          location: where,
+          ...(remote ? { workplaceType: ["remote"] } : {}),
           ...(companies.length ? { company: companies, companyName: companies } : {}),
           ...(bucket ? { postedLimit: bucket } : {}),
         },
@@ -190,7 +195,9 @@ main(async () => {
       );
     } catch (err) {
       // One failed search must not throw away the jobs the others found.
-      const msg = err instanceof Error ? err.message.split("\n")[0] : String(err);
+      const full = err instanceof Error ? err.message : String(err);
+      firstFailure ??= full;
+      const msg = full.split("\n")[0];
       console.log(`could not fetch`);
       failures.push(`${p.title} — ${p.location}: ${clip(msg, 100)}`);
       continue;
@@ -257,6 +264,7 @@ main(async () => {
   if (failures.length) {
     console.log(`\n  ${plural(failures.length, "search", "searches")} did not come back:`);
     for (const f of failures) console.log(`    · ${f}`);
+    if (firstFailure) console.log(`\n${firstFailure.replace(/^/gm, "    ")}\n`);
     console.log(`  You can run the command again; already-saved jobs are not re-charged.`);
   }
 

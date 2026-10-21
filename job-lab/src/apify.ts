@@ -99,6 +99,8 @@ export function apifyRunError(actorId: string, err: unknown): string {
       `  4. Come back here and run the same command again.`,
       ``,
       `You only ever do this once per tool. Nothing was charged.`,
+      ``,
+      `(Apify said: ${raw})`,
     ].join("\n");
   }
 
