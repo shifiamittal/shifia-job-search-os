@@ -8,16 +8,16 @@ Each draft follows the slide's structure: the shared work, then 2–3 specific t
 
 ---
 
-## 1. Leilei — client deployment at the flagship CPG client
+## 1. Leilei (Principal Scientist, Keystone.ai) — client deployment at the flagship CPG client
 
 Hi Leilei,
 
-I'm updating my LinkedIn profile, and given the work we did together on [the forecasting platform rollout at your team / the deployment you led on the client side], I thought you'd be the right person to speak to it.
+I'm updating my LinkedIn profile. You were the lead scientist on our flagship client from development through deployment, so I thought you'd be the right person to speak to that work.
 
 If you're open to writing a short recommendation, it would help most if you touched on:
-- How we took the platform from pilot to production at a Fortune 500 CPG client, including the security review and running it inside your environment
+- How we took the platform from pilot to production at a Fortune 500 CPG client, including the security review and running it inside the client's environment
 - The forecasting agent: planner review time going from about 4 hours a day to 4 hours a week, and overstock coming down
-- How I worked with your planners: listening to how they actually used forecasts and changing the product based on it
+- How I worked with the client's planners: listening to how they actually used forecasts and changing the product based on it
 
 Please keep the company described as "a Fortune 500 CPG client" rather than by name. Of course, mention anything else you think is relevant. I'd be glad to write one for you too.
 
@@ -97,3 +97,15 @@ Mention anything else you think matters. I'm happy to write one for you as well.
 
 Thank you,
 Shifia
+
+---
+
+## Recommendation from Shifia to Leilei (to post on her profile)
+
+Leilei was the lead scientist on our most important client engagement at Keystone.ai, a Fortune 500 CPG company, and I worked with her closely as the product manager from development through deployment and beyond.
+
+What stood out most was her ownership. After launch, she kept resolving the client's requests one after another, and she was the one person in our company who understood their data end to end. That knowledge didn't stay with her: it shaped the core capabilities of the data platform we built next, which every later client benefited from.
+
+As a scientist, she paired technical depth with practical judgment. [One specific science contribution, e.g., the forecasting approach she designed, or how she diagnosed accuracy issues in the client's data.] She explained model behavior clearly to planners and to our team, which made it much easier to make good product decisions.
+
+Any team building ML products for enterprise customers would be lucky to have her.
