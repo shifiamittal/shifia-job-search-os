@@ -6,6 +6,24 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 
 ---
 
+## Inbound / Evaluating
+
+### Undisclosed client (via Rose International) - Principal Product Manager - Technical (contract)
+- **Status:** recruiter-outreach (evaluating; replied 2026-10-21 asking to learn more)
+- **Source:** Inbound LinkedIn message from Anmol Tripathi, Resource Delivery Manager at Rose International (staffing agency), 2026-10-21
+- **Client:** Not named. The recruiter's "Principal Product Manager - Technical at Keystone AI" is your own past title pulled from your profile, not the client.
+- **Referral:** No
+- **Connection at company:** Unknown until client is named
+- **Company tier:** Unranked
+- **Type:** Contract, 6+ months to start, W2, 100% remote
+- **Comp:** $85–93/hr W2 ≈ $177K–$193K/yr at 2,080 hrs, no equity or bonus. **About half the $380–400K total-comp floor** in career-plan.md.
+- **Requirements (from recruiter):** 5–7 yrs industry experience, 2+ yrs PM; launched consumer products; cross-functional delivery with engineers, data scientists and researchers; program-level planning and exec reporting; stakeholder influence; strong writing and speaking. Preferred: ML, ranking or recommendation systems, Trust & Safety or integrity.
+- **Fit notes:** Seniority bar (5–7 yrs) is well below your 11+. ML depth and cross-functional science work match. Consumer launches, ranking/recsys and T&S are not core to your enterprise/platform AI target.
+- **Last action:** 2026-10-21 Replied asking how to discuss further; recruiter sent rate and requirements.
+- **Next action:** Decide go/no-go. If continuing, ask the recruiter to name the client and confirm whether the rate is negotiable before spending time on a screen.
+- **History:**
+  - 2026-10-21 Inbound from Anmol Tripathi (Rose International); you replied; recruiter shared rate, contract terms and requirements
+
 ## Recruiter Screen
 
 ### Ascerta - Principal Product Manager - AI Startup
@@ -23,6 +41,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 
 ## Needs Attention
 - **Ascerta:** stalled; send one final follow-up.
+- **Rose International contract:** decide go/no-go; rate is ~half your comp floor. Ask for the client name before a screen.
 - **Count:** send the post-rejection notes (interview-debriefs/2026-10-15-count-followup-notes.md).
 
 ---
@@ -84,5 +103,5 @@ Self-reported from LinkedIn analytics. One row per week; add a new row each week
 **Read on 2026-10-21 (first week, no trend yet):**
 - **Top of funnel:** 2 of 30 requests accepted (7%). Personalized requests to the right people usually land well above that, so check who the 30 went to and what the notes said before sending the next batch. `/connection-request` drafts targeted, under-300-character notes.
 - **Middle of funnel:** 369 profile views against 48 search appearances means most views come from activity (the post, outreach), not search. Recruiters aren't finding the profile through search yet. `/linkedin-audit` targets headline and keywords.
-- **Bottom of funnel:** 1 inbound on LinkedIn, 0 through other channels. Log it with `/app-tracker add` if it's a real role.
+- **Bottom of funnel:** 1 inbound on LinkedIn (Rose International contract role, logged above under Inbound / Evaluating), 0 through other channels.
 
