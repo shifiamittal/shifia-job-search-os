@@ -44,7 +44,7 @@ Skills (top 3 first): Machine Learning · Fintech · Credit Risk · Fraud Preven
 
 ---
 
-## Amazon · Sr. Product Manager – Technical, ML Ops Platform (1,800 chars)
+## Amazon · Sr. Product Manager – Technical, ML Ops Platform (1,785 chars)
 Jul 2020 – Jul 2022 · Seattle, WA
 
 Owned vision, roadmap and adoption for MDLC, Amazon Lending's model development lifecycle platform: self-service MLOps on SageMaker for the risk models behind $8B in credit, used by 30+ data scientists. Before MDLC, each of 50+ risk models (growing 30% a year) took 3–4 months of engineering to ship, with no central governance.
@@ -52,10 +52,10 @@ Owned vision, roadmap and adoption for MDLC, Amazon Lending's model development 
 • Interviewed scientists, engineers and risk and compliance partners, then set three pillars: self-service ML pipelines (UI-first, a deliberate cost trade-off for scientist adoption), model governance and privacy, and onboarding run as a product with templates, docs and a scientist community.
 • Scaled the platform from 50+ to 100+ production models with standardized pipelines, CI/CD, versioning, lineage and model inventory. Model deployment time fell 40% and model volume doubled with no added headcount.
 • Launched automated model monitoring, growing coverage from 30 to 100 models and avoiding ~400 science-weeks of one-time effort.
-• Drove change beyond my org: made privacy a platform default for ML across Amazon Payments with Legal and privacy bar raisers: on-demand deletion, customer data-access requests and retention-based deletion. Shipped semi-automated in ~2 months instead of 1.5 years for full automation; saved 5 science FTE a year and was adopted by ~20 teams.
+• Drove change beyond my org: with Legal and privacy bar raisers, made privacy a platform default for ML across Amazon Payments (on-demand deletion, customer data-access requests, retention-based deletion). Shipped semi-automated in ~2 months instead of 1.5 years for full automation; saved 5 science FTE a year and was adopted by ~20 teams.
 • Built auto-containerization from a git link, saving ~2 engineering headcount; platform features saved 6 science headcount a year overall.
 • Made the model portfolio audit-ready, reached NPS 8+ with scientists, and onboarded 5 teams outside Lending.
-• Resolved a governance disagreement with a senior technical manager by testing the adoption assumption with customers together; the automated governance features launched.
+• When a senior technical manager pushed back on governance features, tested the adoption assumption with customers together; the automated features launched.
 • Built on AWS: SageMaker, Step Functions, Lambda, Glue and ECR.
 
 Skills (top 3 first): MLOps · Model Governance · Machine Learning Platforms · Amazon SageMaker · Data Privacy · Platform Strategy · Developer Experience
