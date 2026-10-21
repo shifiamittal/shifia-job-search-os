@@ -1,0 +1,99 @@
+# LinkedIn Recommendation Requests (drafts, 2026-10-21)
+
+Drafts only. You send each one yourself through LinkedIn: open the person's profile → More → Request a recommendation → pick the role (Keystone.ai for all of these) → paste the message.
+
+Each draft follows the slide's structure: the shared work, then 2–3 specific things to touch on. Bracketed text is the only part you need to fill: how you worked together, which isn't in your experience library.
+
+**Client names:** a public recommendation that names Hershey's breaks your rule against naming clients. Each draft asks for "a Fortune 500 CPG client" instead.
+
+---
+
+## 1. Leilei — client deployment at the flagship CPG client
+
+Hi Leilei,
+
+I'm updating my LinkedIn profile, and given the work we did together on [the forecasting platform rollout at your team / the deployment you led on the client side], I thought you'd be the right person to speak to it.
+
+If you're open to writing a short recommendation, it would help most if you touched on:
+- How we took the platform from pilot to production at a Fortune 500 CPG client, including the security review and running it inside your environment
+- The forecasting agent: planner review time going from about 4 hours a day to 4 hours a week, and overstock coming down
+- How I worked with your planners: listening to how they actually used forecasts and changing the product based on it
+
+Please keep the company described as "a Fortune 500 CPG client" rather than by name. Of course, mention anything else you think is relevant. I'd be glad to write one for you too.
+
+Thank you,
+Shifia
+
+---
+
+## 2. Marilyn — product management skills
+
+Hi Marilyn,
+
+I'm updating my LinkedIn profile, and since we worked closely on [the project or period you shared], I'd value a recommendation from you on how I work as a product manager.
+
+It would help most if you touched on:
+- How I set product direction: choosing what to build first and what to say no to
+- Turning customer and user input into clear requirements engineering could build from
+- [One result you saw firsthand, e.g., a launch, an adoption gain, a decision I drove]
+
+Feel free to add anything else you think is relevant. Happy to write one for you as well.
+
+Thank you,
+Shifia
+
+---
+
+## 3. Brad Miller — product leadership at Keystone.ai
+
+Hi Brad,
+
+I'm updating my LinkedIn profile. You saw my whole time at Keystone, from the pivot to product through the agent launches, so I'd be grateful for a recommendation from you on my product leadership.
+
+It would help most if you touched on:
+- Leading the move from consulting to Deep Enterprise as a product: $5M ARR, 5 enterprise customers, deployment from 6 months to 4
+- The data platform: client onboarding from 2 months to 2 weeks and deployment from 3 months to 3 weeks
+- How I worked with you, Greg and the team: setting direction for 20+ engineers and data scientists and making the hard trade-offs
+
+Mention anything else you think matters. I'm happy to return the favor.
+
+Thank you,
+Shifia
+
+---
+
+## 4. Iqra Imtiaz, Krithika, Zeyu — product leadership on the data platform
+
+Send these separately. A recommendation request is one-to-one, and three identical messages look like a mass ask. Change the first paragraph for each person.
+
+Hi [Iqra / Krithika / Zeyu],
+
+I'm updating my LinkedIn profile, and since we built the data platform together [your role on it: e.g., you led the ingestion pipelines / the data models / the quality checks], I'd really value a recommendation from you on how I led that work.
+
+It would help most if you touched on:
+- How I set the platform direction: standard data models, reusable transforms, data-quality checks and data contracts instead of rebuilding for every client
+- The results: client onboarding from 2 months to 2 weeks, and scientists' data discovery from 2 hours a day to 2 hours a week
+- What it was like to work with me day to day: priorities, trade-offs, unblocking the team
+
+Add anything else you think is relevant. I'd be glad to write one for you too.
+
+Thank you,
+Shifia
+
+---
+
+## 5. Paavni — collaboration on science initiatives
+
+Hi Paavni,
+
+I'm updating my LinkedIn profile, and given how closely we worked on [the science initiative, e.g., the forecasting models / the agent evaluation work / the semantic layer], I'd value a recommendation from you on how I partner with data science.
+
+It would help most if you touched on:
+- How I worked with science: translating model results into product decisions and planner adoption
+- [A specific initiative: e.g., forecast explainability, the agent's evaluation and launch thresholds, the semantic layer]
+- How I handled disagreements: agreeing on how we'd decide, then letting the data settle it
+
+Mention anything else you think matters. I'm happy to write one for you as well.
+
+Thank you,
+Shifia
