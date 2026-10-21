@@ -6,10 +6,10 @@ Your answers applied: business customers, product unnamed; credit-losses line dr
 
 ---
 
-## Keystone.ai · Principal Product Manager – Technical (1982 chars)
+## Keystone.ai · Principal Product Manager – Technical (1991 chars)
 Jun 2024 – Present · Seattle, WA
 
-Keystone.ai builds Deep Enterprise, an agentic AI platform that automates supply chain planning workflows for Fortune 500 clients. I own product strategy, roadmap and go-to-market, partner with the CEO and CTO, and set direction for 20+ engineers and data scientists.
+Keystone.ai builds Deep Enterprise, an agentic AI platform that automates supply chain planning workflows for Fortune 500 clients. I own product strategy, roadmap, pricing and go-to-market, partner with the CEO and CTO, and set direction for 20+ engineers and data scientists.
 
 • Led the pivot from consulting to a product-led B2B SaaS model: $5M ARR, $25M in annualized client savings, 5 enterprise customers in production.
 • Took Deep Enterprise from 0→1 to 1→N: MVP in 3 months, forecast accuracy (WAPE) up 21%, enterprise deployment cut from 6 months to 4.
@@ -62,10 +62,10 @@ Skills (top 3 first): MLOps · Machine Learning Platforms · Amazon SageMaker ·
 
 ---
 
-## Amazon · Product Manager, Supply Chain & Cost Optimization (1607 chars)
+## Amazon · Product Manager, Supply Chain & Cost Optimization (1665 chars)
 Nov 2018 – Jun 2020
 
-Built ML recommendation and causal attribution products for inventory, pricing and shipping decisions across Amazon and thousands of marketplace sellers, delivering $100M+ in cost savings. Led a 7+ person engineering and science team, worked across 20+ senior stakeholders, and influenced the VP of Amazon FBA.
+Built ML recommendation and causal attribution products for inventory, pricing and shipping decisions across Amazon and thousands of marketplace sellers, delivering $100M+ in cost savings. Led a 7+ person engineering and science team, worked across 20+ senior stakeholders, and won the VP of Amazon FBA's approval for SPORT to recommend inventory placement to sellers.
 
 • Shipping was ~50% of item cost (~$50B a year), so cost attribution was a top org priority.
 • TRACE: launched a causal attribution product that explains shipping-cost changes and prescribes the top action. Unified operational and financial data across 50+ cost drivers from 14 systems owned by 14 teams, and surfaced recommendations to sellers through Seller Central APIs; $40M in savings against a $60M org goal.
@@ -78,23 +78,25 @@ Skills (top 3 first): Machine Learning · Recommender Systems · Causal Inferenc
 
 ---
 
-## Amazon · Product Manager, Amazon Pricing (636 chars)
+## Amazon · Product Manager, Amazon Pricing (784 chars)
 Oct 2016 – Oct 2018
 
 Owned Amazon's global price-perception program and the insight tools pricing leaders used to set pricing strategy.
 
 • Benchmarked Amazon's price perception against 800+ retailers in 17 countries and launched self-service pricing insight tools adopted by 40+ global pricing leaders.
-• Designed requirements for automated price-perception dashboards, replacing manual reporting.
+• Price-perception signals from these tools fed Amazon's pricing models that set product prices, and drove pricing changes.
+• Designed requirements for automated price-perception dashboards, replacing manual reporting and saving analyst time.
 • Managed a Program Manager and supported their promotion from L4 to L5: coached them to run an external survey vendor and 30+ stakeholders across 15+ countries independently, reviewed analysis before it reached stakeholders, and wrote the promotion document.
 
 Skills (top 3 first): Pricing Strategy · Competitive Intelligence · People Management · Analytics
 
 ---
 
-## Cognizant Technology Solutions · Business Analyst (161 chars)
+## Cognizant Technology Solutions · Business Analyst (199 chars)
 May 2015 – Sep 2016 · Chennai, India
 
-• Owned the pre-sales lifecycle with technical solution architects, designing infrastructure service solutions and pricing for $25M in deals across Asia Pacific.
+• Owned the pre-sales lifecycle with technical solution architects, designing infrastructure setup solutions and pricing for $25M in deals across Asia Pacific.
+• Worked 30+ deals with a 45% win rate.
 
 Skills: Pre-Sales · Solution Architecture · Pricing · Enterprise Technology
 

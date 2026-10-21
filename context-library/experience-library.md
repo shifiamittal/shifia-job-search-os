@@ -1,6 +1,6 @@
 # Experience Library
 
-Last updated: 2026-10-15
+Last updated: 2026-10-21
 Sources: LinkedIn profile PDF export (Profile (5).pdf), LinkedIn profile page text, and `Resume variants/Shifia_Mittal_Resume.docx`.
 
 This is the single source of truth. Every skill draws from this file. Anything marked **[CONFIRM]** has a conflict or gap between sources. Resolve it before using it in an application.
@@ -40,6 +40,12 @@ This is the single source of truth. Every skill draws from this file. Anything m
 10. **Patent search:** personal project; no metrics beyond the LinkedIn About description.
 15. **Amazon financing/credit products (confirmed 2026-10-20):** launched through the Amazon Business website and scaled like consumer products (self-serve, personalized marketing, onboarding funnels). Counts as consumer-launch experience; name "Amazon Business" on resumes. SPORT, TRACE, and MOQ were self-serve products scaled to thousands of sellers; describe them as seller products, not B2C.
 16. **PBI 2.0 executive reporting (confirmed 2026-10-20):** presented monthly program updates to VP-level leadership; the program contributed to an Amazon S-team goal to grow Amazon's lending business.
+17. **Keystone pricing (confirmed 2026-10-21):** set pricing for Deep Enterprise. Model, tiers and packaging details not yet recorded [NEEDS DETAIL].
+18. **Keystone agent capabilities (2026-10-21):** user says the agents used persistent memory, MCP and an agent SDK/framework; specifics pending confirmation [NEEDS DETAIL]. Don't put these on external materials until confirmed.
+19. **Supply Chain team and influence (confirmed 2026-10-21):** led a 7+ person engineering and science team; worked across 20+ senior stakeholders; influenced the VP of Amazon FBA to let SPORT recommend inventory placement decisions to sellers.
+20. **Amazon Pricing insight tools (confirmed 2026-10-21):** saved analyst time (no number on record) and drove pricing changes; price-perception signals fed Amazon's pricing models that set product prices.
+21. **Cognizant (confirmed 2026-10-21):** 30+ infrastructure-setup deals in pre-sales, 45% win rate.
+22. **Hiring (confirmed 2026-10-21):** use "50+ hiring interviews across Keystone and Amazon" in the LinkedIn About section.
 
 ---
 
@@ -96,10 +102,12 @@ Nov 2018 – Jun 2020
 #### Product Manager, Amazon Pricing
 Oct 2016 – Oct 2018
 - Benchmarked Amazon's price perception across 800+ retailers in 17 countries; launched self-service insight tools adopted by 40+ global pricing leaders for pricing decisions.
+- Price-perception signals fed Amazon's pricing models that set product prices; the tools saved analyst time and drove pricing changes (confirmed 2026-10-21).
 
 ### Cognizant Technology Solutions: Business Analyst
 May 2015 – Sep 2016 · Chennai, India
 - Owned the pre-sales lifecycle and worked with technical solution architects to design infrastructure service solutions and pricing for deals worth $25M in the Asia Pacific region.
+- 30+ infrastructure-setup deals with a 45% win rate (confirmed 2026-10-21).
 
 ### Engineers India Limited: Intern
 Jul 2012 – Dec 2012 · Gurugram, India
