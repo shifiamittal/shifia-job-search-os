@@ -1,6 +1,6 @@
 # Application Tracker
 
-Last updated: 2026-10-15
+Last updated: 2026-10-21
 Scope: current search (2026) only.
 Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applications made on company sites or through referrals aren't captured yet. Add them with `/app-tracker add`.
 
@@ -70,3 +70,19 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Where it breaks:** after the first or second conversation (LawnStarter at HM review, Count after the co-founder round). That points to interview performance, not resume or sourcing. See the patterns in `interview-history.md`: long answers, generic leadership and planning answers.
 - **Referral rate:** 0%. No process at a target company (Anthropic, OpenAI, Google, Microsoft, Salesforce). Next: `/build-referral-graph` once Connections.csv arrives.
 - **Top of funnel:** effectively empty. At Principal/Director level, 1–3 quality applications a week is healthy, and right now there are none.
+
+---
+
+## LinkedIn Weekly Metrics
+
+Self-reported from LinkedIn analytics. One row per week; add a new row each week.
+
+| Week ending | Requests sent | Requests accepted | Accept rate | Total connections | Posts | Post impressions | Profile views | Search appearances | Inbound (LinkedIn) | Inbound (other channels) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-21 | 30 | 2 | 7% | 2,339 | 1 | 409 | 369 | 48 | 1 | 0 |
+
+**Read on 2026-10-21 (first week, no trend yet):**
+- **Top of funnel:** 2 of 30 requests accepted (7%). Personalized requests to the right people usually land well above that, so check who the 30 went to and what the notes said before sending the next batch. `/connection-request` drafts targeted, under-300-character notes.
+- **Middle of funnel:** 369 profile views against 48 search appearances means most views come from activity (the post, outreach), not search. Recruiters aren't finding the profile through search yet. `/linkedin-audit` targets headline and keywords.
+- **Bottom of funnel:** 1 inbound on LinkedIn, 0 through other channels. Log it with `/app-tracker add` if it's a real role.
+
