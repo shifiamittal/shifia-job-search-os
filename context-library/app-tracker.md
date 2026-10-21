@@ -92,6 +92,36 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 
 ---
 
+## 10-Week Goals (2026-10-21 → 2026-12-31)
+
+Set 2026-10-21 from a single week of baseline data. Revisit at week 5 (2026-11-20).
+
+**What success looks like on 2026-12-31:** 3+ active processes at target companies, at least 2 of them through a referral, and at least 1 in a final round. Stretch: an offer at or above the $380–400K floor.
+
+The tracker shows processes break after the first or second conversation and that referrals are at 0%. So most of these goals are about referrals and getting more processes started, with interview practice alongside. LinkedIn reach comes after that.
+
+| Metric | Baseline (wk of 10/21) | Weekly target | 10-week target |
+|---|---|---|---|
+| Connection requests sent (to target-company people) | 30 | 30 | 300 |
+| Acceptance rate | 7% | 25%+ by wk 4, 30%+ by wk 10 | 30%+ |
+| Total connections | 2,339 | +8–10 | ~2,420 |
+| Posts | 1 | 1–2 | 12+ |
+| Avg impressions per post | 409 | — | 1,000+ |
+| Search appearances | 48 | — | 150+/wk |
+| Inbound recruiter messages (all channels) | 1 | — | 3+/wk, 1+/month at or above floor |
+| Referral asks sent | 0 | 2 | 20 |
+| Referrals received | 0 | — | 6+ cumulative |
+| Quality applications (fit 70+) | 0 | 2–3 | 20–25 |
+| Recruiter/HM screens | 0 | — | 6+ cumulative |
+| Mock interviews | 0 | 1 | 10 |
+| Active processes at target companies | 0 | — | 3+ |
+
+## Weekly Pipeline Activity
+
+| Week ending | Referral asks sent | Referrals received | Applications | Screens | Interviews (later rounds) | Mock interviews | Active target-company processes |
+|---|---|---|---|---|---|---|---|
+| 2026-10-21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
 ## LinkedIn Weekly Metrics
 
 Self-reported from LinkedIn analytics. One row per week; add a new row each week.
