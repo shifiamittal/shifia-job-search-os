@@ -40,8 +40,8 @@ This is the single source of truth. Every skill draws from this file. Anything m
 10. **Patent search:** personal project; no metrics beyond the LinkedIn About description.
 15. **Amazon financing/credit products (confirmed 2026-10-20):** launched through the Amazon Business website and scaled like consumer products (self-serve, personalized marketing, onboarding funnels). Counts as consumer-launch experience; name "Amazon Business" on resumes. SPORT, TRACE, and MOQ were self-serve products scaled to thousands of sellers; describe them as seller products, not B2C.
 16. **PBI 2.0 executive reporting (confirmed 2026-10-20):** presented monthly program updates to VP-level leadership; the program contributed to an Amazon S-team goal to grow Amazon's lending business.
-17. **Keystone pricing (confirmed 2026-10-21):** set pricing for Deep Enterprise. Model, tiers and packaging details not yet recorded [NEEDS DETAIL].
-18. **Keystone agent capabilities (2026-10-21):** user says the agents used persistent memory, MCP and an agent SDK/framework; specifics pending confirmation [NEEDS DETAIL]. Don't put these on external materials until confirmed.
+17. **Keystone pricing and packaging (confirmed 2026-10-21):** set tier-based pricing and packaging for Deep Enterprise. Tier names, price points and what each tier includes not yet recorded [NEEDS DETAIL].
+18. **Keystone agent stack (confirmed 2026-10-21):** agents built on LangGraph, with memory, and called tools through MCP. OK for external materials.
 19. **Supply Chain team and influence (confirmed 2026-10-21):** led a 7+ person engineering and science team; worked across 20+ senior stakeholders; influenced the VP of Amazon FBA to let SPORT recommend inventory placement decisions to sellers.
 20. **Amazon Pricing insight tools (confirmed 2026-10-21):** saved analyst time (no number on record) and drove pricing changes; price-perception signals fed Amazon's pricing models that set product prices.
 21. **Cognizant (confirmed 2026-10-21):** 30+ infrastructure-setup deals in pre-sales, 45% win rate.

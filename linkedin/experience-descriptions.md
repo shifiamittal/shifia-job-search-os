@@ -6,19 +6,19 @@ Your answers applied: business customers, product unnamed; credit-losses line dr
 
 ---
 
-## Keystone.ai · Principal Product Manager – Technical (1991 chars)
+## Keystone.ai · Principal Product Manager – Technical (1,993 chars)
 Jun 2024 – Present · Seattle, WA
 
-Keystone.ai builds Deep Enterprise, an agentic AI platform that automates supply chain planning workflows for Fortune 500 clients. I own product strategy, roadmap, pricing and go-to-market, partner with the CEO and CTO, and set direction for 20+ engineers and data scientists.
+Keystone.ai builds Deep Enterprise, an agentic AI platform that automates supply chain planning workflows for Fortune 500 clients. I own product strategy, roadmap, tiered pricing and packaging, and go-to-market, partner with the CEO and CTO, and set direction for 20+ engineers and data scientists.
 
-• Led the pivot from consulting to a product-led B2B SaaS model: $5M ARR, $25M in annualized client savings, 5 enterprise customers in production.
-• Took Deep Enterprise from 0→1 to 1→N: MVP in 3 months, forecast accuracy (WAPE) up 21%, enterprise deployment cut from 6 months to 4.
-• Prototyped, then shipped a multi-agent system (exception triage, root-cause diagnosis, retrain/override) with tool use, RAG, orchestration and human-in-the-loop approval. Planner effort fell from 4 hours a day to 4 hours a week and client overstock cost from $5M to $2M.
+• Led the pivot from consulting to product-led B2B SaaS: $5M ARR, $25M in annualized client savings, 5 enterprise customers in production.
+• Took Deep Enterprise from 0→1 to 1→N: forecast accuracy (WAPE) up 21%, enterprise deployment cut from 6 months to 4.
+• Prototyped and shipped a multi-agent system on LangGraph (exception triage, root-cause diagnosis, retrain/override) with memory, MCP tool calling, RAG and human-in-the-loop approval. Planner effort fell from 4 hours a day to 4 hours a week and client overstock cost from $5M to $2M.
 • Designed risk-tiered autonomy with guardrails, audit logs and canary rollouts; autonomous action acceptance rose from 30% to 80%.
 • Built AI evaluation and observability: expert reference cases, LLM-as-judge, launch thresholds, regression tests and production traces. Agents launched at 70% recommendation acceptance and helped lift forecast adoption from 50% to 70%.
 • Ran agents in shadow mode before production. When adoption at one retailer fell from 70% to 50%, traced it to missing location data, added an act-only-with-sufficient-information guardrail, and restored 70%.
 • Grounded agents with a semantic layer, data catalog and AI-generated metadata; model routing cut agent cost ~30%.
-• Designed a multi-tenant data platform (ingestion pipelines, validation, lineage, model-ready APIs) that cut deployment from 3 months to 3 weeks. Shipped a managed deployment model that passed enterprise security review and onboarded 2 more clients with data-residency requirements.
+• Designed a multi-tenant data platform (ingestion pipelines, validation, lineage, model-ready APIs) that cut deployment from 3 months to 3 weeks. Shipped a managed deployment model that passed enterprise security review and onboarded 2 more clients with data-residency needs.
 • Launched AI assistants for enterprise knowledge workers: HAT-AI (30 PMs, 15 finance products, 120 hours saved a week) and REI-Agent for governed, auditable financial analysis.
 
 Skills (top 3 first): Agentic AI · AI Agents · Generative AI · Large Language Models (LLM) · Retrieval-Augmented Generation (RAG) · AI Evaluation · Workflow Automation · Data Platforms · Product Strategy · Go-to-Market Strategy
