@@ -26,11 +26,11 @@ Shifia
 
 ---
 
-## 2. Marilyn — product management skills
+## 2. Marilyn (my manager at Keystone.ai) — product management skills
 
 Hi Marilyn,
 
-I'm updating my LinkedIn profile, and since we worked closely on [the project or period you shared], I'd value a recommendation from you on how I work as a product manager.
+I'm updating my LinkedIn profile, and as my manager at Keystone.ai you saw my product work up close, so I'd value a recommendation from you on how I work as a product manager.
 
 It would help most if you touched on:
 - How I set product direction: choosing what to build first and what to say no to
@@ -109,3 +109,15 @@ What stood out most was her ownership. After launch, she kept resolving the clie
 As a scientist, she paired technical depth with practical judgment. She led the hierarchical forecasting work, combining statistical, machine learning and transformer-based models with a reconciliation method that kept forecasts consistent across every planning level, and the result beat the client's incumbent tool by 21–26% on forecast error. After launch, when the forecasts ran low, she traced it to lagging shipment data and added validation checks that fixed it.
 
 Any team building ML products for enterprise customers would be lucky to have her.
+
+---
+
+## Recommendation from Shifia to Marilyn (to post on her profile)
+
+Marilyn was my manager at Keystone.ai, and she is the kind of leader people do their best work for.
+
+She gave her team real ownership. She trusted us to lead our areas independently, and she was always there when something got stuck, whether that meant resolving an issue or stepping in with support. That balance of autonomy and backing made it possible to move quickly without feeling alone on the hard calls.
+
+She also championed people's growth. She noticed what each person could take on next, encouraged us to go for it, and stayed invested in how we developed, not just in what we delivered.
+
+I'd gladly work for Marilyn again, and any team that has her as a leader is lucky.
