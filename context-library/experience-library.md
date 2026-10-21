@@ -541,6 +541,6 @@ Five different metrics. Every story names the one it moved. No data access since
 | AI agent cost reduction (K14 model routing) | **~30%** | Confirmed 2026-10-15 |
 | Data platform team | **7–8 engineers** | Confirmed 2026-10-15 |
 | Flagship CPG WAPE vs. incumbent | **21–26% better** by level: item-customer-location 77%→61% (21%), item-customer 68%→53% (22%), item-location 67%→52% (23%), item 57%→42% (26%) | "21%" elsewhere = the lowest (supply-planning) level. From Hershey's doc, 2026-10-21 |
-| Flagship CPG engagement revenue | **$2M** to Keystone | Part of the $5M ARR story; don't add them |
+| Flagship CPG engagement revenue | **$2M** to Keystone | How it relates to the $5M ARR is not recorded; don't add the two together [CONFIRM] |
 | Flagship CPG first-phase rollout | **85% of SKUs** | |
 | Agent recommendation acceptance | **70%** at launch | Use 70% everywhere. Drop ">80%" and the K6 50% → 80% figure (confirmed 2026-10-15). K7's 50% → 80% is description approval, a different metric. See the adoption metrics table at the top of the Story Bank |
