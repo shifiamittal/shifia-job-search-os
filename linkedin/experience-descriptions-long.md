@@ -12,7 +12,7 @@ Jun 2024 – Present · Seattle, WA
 Keystone.ai builds Deep Enterprise, an enterprise AI platform that runs agentic workflows for supply chain planning at Fortune 500 clients. I own AI product strategy, roadmap, tiered pricing and packaging, and go-to-market, partner with the CEO and CTO, and set direction for 20+ engineers and data scientists.
 
 • Led the pivot from consulting to a product-led platform: $5M ARR, $25M in annualized client savings, 5 enterprise customers in production. Productized data pipelines, ML pipelines and AI capabilities so each new client reused them instead of rebuilding.
-• Prioritized AI use cases: chose forecasting as the first, then traded 2 months of accuracy work for agents after a prototype showed >70% recommendation acceptance. Forecast accuracy (WAPE) improved 21%; deployment fell from 6 months to 4.
+• Prioritized AI use cases: chose forecasting as the first, then traded 2 months of accuracy work for agents after a prototype showed over 70% recommendation acceptance. Forecast accuracy (WAPE) improved 21%; deployment fell from 6 months to 4.
 • Shipped a multi-agent system on LangGraph covering agent orchestration, MCP tool calling, memory, RAG and human-in-the-loop approval. Planner effort fell from 4 hours a day to 4 hours a week; client overstock from $5M to $2M.
 • Set guardrails through risk-tiered autonomy, audit logs and canary rollouts; autonomous action acceptance rose from 30% to 80%.
 • Built agent evaluation and observability: reference cases, LLM-as-judge, launch thresholds, regression tests and production traces. Defined AI quality and adoption KPIs; agents launched at 70% acceptance.
@@ -32,10 +32,8 @@ Owned ML-powered credit and financing products for business customers on Amazon 
 
 • Launched an ML-based financing product and scaled it to 50K+ business customers, driving $71M in incremental revenue through larger basket sizes.
 • Built new SMB underwriting on Amazon behavioral data with data science, raising SMB credit approvals from 4% to 15% while capping exposure by risk tier and restricting high-loss categories.
-• Built underwriting in-house as a differentiating capability rather than partnering with an outside lender.
-• When a 5% test of checkout-only credit underperformed, customer interviews showed SMBs needed to see monthly eligibility to plan purchases; redesigned around monthly limits, transaction controls and delinquency pauses.
-• Validated with a 5% A/B test and controlled rollout before scaling; chose batch over real-time underwriting for V1, pulling impact forward 3 months.
-• Owned fraud and trust & safety controls for the product: integrated the fraud team's risk model before credit decisions, set its threshold at 0.99 precision to protect legitimate customers' credit lines, and added post-checkout transaction screening and blocklist rules.
+• Ran a 5% A/B test before scaling. Checkout-only credit underperformed, and customer interviews showed SMBs needed to see monthly eligibility to plan purchases, so I redesigned around monthly limits, transaction controls and delinquency pauses.
+• Owned fraud and trust-and-safety controls for the product: integrated the fraud team's risk model before credit decisions, set its threshold at 0.99 precision to protect legitimate customers' credit lines, and added post-checkout transaction screening and blocklist rules.
 • Partnered with data science on the credit risk model: model selection, thresholds set for economic profit, and SHAP explainability with model documentation for business stakeholders.
 • Defined REST APIs exposing model decisions (credit eligibility at checkout, fraud checks at onboarding) with backward-compatible versioning.
 • Scaled a global credit product with ML-personalized marketing ($15M incremental revenue), credit bureau integrations (+17% data coverage, +7% approval lift), and an onboarding redesign that cut abandonment 50%.
