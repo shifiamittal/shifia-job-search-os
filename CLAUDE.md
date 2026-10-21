@@ -111,7 +111,7 @@ After generating any output, verify your own work:
 - For referral graphs: every "why warm" must be a checkable fact — a shared employer with dates, a school, a city, an existing connection. Never infer an overlap from a similarity score, and never invent one. A person with no verifiable connection point goes to "needs research," not into the message queue.
 - For scraped posts: quote only text you were actually given. A post URL with no text is not quotable. Never reference engagement counts on someone's post.
 - For `dashboard/data.json`: valid JSON, every `command` string a real command in this OS, absent values `null`. When `VOYAGE_API_KEY` is missing, every `fit` and `warmth` is `null` so the UI hides those columns instead of showing zeros.
-- **Never read `job-lab/data/jobs.db` into context.** Run `npm run export` and read the markdown digests in `context-library/`.
+- **Never read `job-lab/data/jobs.db` into context.** Run `npm run export` and read the markdown digests in `context-library/`. For keyword work that needs full JD text, run `npm run export-jds` and read `context-library/job-descriptions.md`.
 
 ## Empty Context Detection
 

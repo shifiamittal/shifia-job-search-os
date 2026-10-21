@@ -13,6 +13,7 @@
     "embed": "tsx scripts/embed.ts",
     "rescore": "tsx scripts/rescore.ts",
     "export": "tsx scripts/export.ts",
+    "export-jds": "tsx scripts/export-jds.ts",
     "query": "tsx scripts/query.ts",
     "typecheck": "tsc --noEmit"
   },
