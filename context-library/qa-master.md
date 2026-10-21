@@ -83,7 +83,7 @@ Template: (1) their specific agent/AI platform bet and where it's going; (2) the
 **Delivery note:** at LawnStarter you improvised a different answer and scored 4/10. Use this one as written.
 
 ### "What is your biggest failure?"
-Primary: **A6, PBI 2.0 SMB economics miss** (Amazon). Losses ran higher than expected in the 5% soft launch. You owned not validating portfolio economics, blended in a safer enterprise segment (simulated losses −6–8%), and relaunched with positive economics. Learning: validate the customer opportunity and the portfolio economics separately.
+Primary: **A6, PBI 2.0 SMB economics miss** (Amazon). Losses ran higher than expected in the 5% soft launch. You owned not validating portfolio economics, blended in a safer enterprise segment (simulation showed 6–8% lower losses), and relaunched with positive economics. Learning: validate the customer opportunity and the portfolio economics separately.
 Backup: **A12, SPORT adoption miss** (missed the annual goal; fixed the end-to-end experience; hit adoption in 1–1.5 years).
 AI-specific: **K5, agent quality slip** (adoption 70% → 50% → 70%). Your highest-scoring answer so far (8/10).
 Note: if you also tell A3, say "no losses after full launch," which fits with A6's pilot losses.

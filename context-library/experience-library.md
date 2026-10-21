@@ -62,11 +62,10 @@ Resume bullets:
 - **AI Evaluation & Governance:** Established evaluation frameworks covering task correctness, groundedness, retrieval quality, tool compliance, action safety, and regression testing; combined automated checks and human review to support trusted AI rollouts.
 
 Additional facts from the story doc (usable, but check against the Metric Conflicts table in the Story Bank):
-- Data catalog + semantic layer + metadata generation for agent grounding: recommendation acceptance 50% → 80%; retrieval similarity 0.6 → 0.8; clarification rate 50% → 30%.
+- Data catalog + semantic layer + metadata generation for agent grounding: clarification rate 50% → 30%; field-level diagnostic failures 60% → 40%; retrieval similarity 0.6 → 0.8; planner approval of AI-generated field descriptions 50% → 80%.
 - Forecasting agent: client overstock cost $5M → $2M; override rate 50% → 20% (cumulative across all interventions); shadow-mode launch gates (>70% exception recall, >70% acceptance).
-- Model explainability (SHAP) + retraining cadence change: forecast adoption 50% → 70%.
+- Model explainability (SHAP) + retraining cadence change: forecast adoption 50% → 60% (the agent took it on to 70%).
 - Domain-adapted embeddings: retrieval precision@5 0.58 → 0.87.
-- Data readiness agent with a 10-dimension eval framework (no outcome metrics yet).
 - Agent model routing (cheap vs. strong models) to fix pilot unit economics.
 - Managed-services-in-client-environment model + modular microservices; passed the flagship client's security review; second client onboarded with no refactor.
 - Clients: do not name externally (see Source Decision 12).
@@ -192,20 +191,31 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 | Tell me about a 0→1 / end-to-end product | K1 Deep Enterprise, K2 Forecasting Agent, A8 MDLC |
 | Proudest accomplishment | K2, K6 Data Catalog, A11 TRACE, A8 MDLC |
 | AI agent design / architecture | K2, K3, K8, K14 |
-| AI evals / quality | K4, K5, K19 |
+| AI evals / quality | K4, K5 |
 | Hard trade-off | K3, K7, K8, K9, K12, K13, K14, A3, A4, A5 |
-| Conflict / disagree with senior leader | K17 (CEO), K16 (CEO), K18 (Head of DS), A9 (Sr. tech manager), A10 (DS manager) |
+| Conflict / disagree with senior leader | K17 (CEO), K16 (CEO), K12 (leadership + investors), K18 (Head of DS), A9 (Sr. tech manager), A10 conflict angle (DS manager) |
 | Engineering pushback | K13, A9 |
 | Failure | A6 PBI economics, A12 SPORT adoption, K5 AI quality slip |
-| Customer insight / discovery | K10, K11, A2 |
+| Customer insight / discovery | K10 (with K21 as its first step), A2 |
 | Prioritization | K11, A1 |
 | Decision with limited information | A7 |
 | Speed / bias for action | K16, A4 |
 | Short-term vs long-term | K21, K15 |
 | When NOT to use an agent | S1 job-search system |
 | Leadership / managing people | K20 (dotted-line PMs), A13 (direct report promoted L4 → L5), mentoring 4–5 people, 50+ interviews |
+| Org-wide ownership / Principal scope | A10 (privacy as a platform default across Payments), K1, A8 |
 
 ---
+
+### Keystone adoption metrics: definitions and attribution (settled 2026-10-20)
+Five different metrics. Every story names the one it moved. No data access since Mar 2026, so credit is split only where a before/after step is remembered; everywhere else a story claims its own direct metric and says it **"contributed to"** the shared outcome.
+| Metric | Definition | Number | Who states the full number |
+|---|---|---|---|
+| Forecast adoption | Share of planners/SKUs using the platform forecast | 50% → 70% (explainability 50 → 60, agent 60 → 70) | K10 (umbrella). K9 claims 50 → 60, K2 claims 60 → 70 |
+| Override rate | Share of platform forecasts that planners manually changed | 50% → 20%, cumulative | K10 only. K2, K3, K8, K9 say "contributed to" |
+| Agent recommendation acceptance | Share of agent recommendations planners accepted | **70% at launch** (the only number; later values unknown) | K2 / K4 |
+| Autonomous action acceptance | Share of agent actions not reversed | 30% → 80% | K3 |
+| Metadata description approval | Planners approving AI-generated field descriptions | 50% → 80% | K7 |
 
 ### K1: Deep Enterprise: Consulting → Product Pivot (Keystone.ai)
 - **Situation:** Keystone delivered forecasting through consulting. Each client needed 1–2 HC and 6+ months, and revenue scaled linearly with headcount.
@@ -217,7 +227,7 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 ### K2: Forecasting Agent: Prediction System → Decision System (Keystone.ai)
 - **Situation:** The forecasting platform was 20% more accurate than the incumbent, but planners at the flagship CPG client spent ~4 hrs/day reviewing thousands of SKUs and overriding without logic. The client was carrying ~$5M in overstock cost. Losing the flagship meant losing the reference case for enterprise sales.
 - **Action:** Reframed the problem from accuracy to actionability. Designed a multi-agent system: Trigger Router → Exception Triage Agent → RCA Diagnostic Agent (enforced order: data → features → model → external signals) → Retrain/Override Agent. Added a RAG knowledge layer for institutional memory (prior incidents, overrides, trade calendar) and three-tier autonomy, with guardrails in the tool definitions rather than the prompts. An independent LLM-as-judge eval agent runs asynchronously, off the critical path. Chose ReAct for auditability; considered Plan-and-Execute, ReWOO, and Reflexion and can explain why not. Launched in shadow mode; went to production at >70% exception recall and >70% recommendation acceptance, with no autonomous forecast changes.
-- **Result:** Planner time 4 hrs/day → 4 hrs/week; overstock $5M → $2M; contributed to the cumulative override reduction 50% → 20%; 70% of recommendations adopted.
+- **Result:** Planner time 4 hrs/day → 4 hrs/week; overstock $5M → $2M; 70% of recommendations accepted at launch; forecast adoption 60% → 70%; contributed to the cumulative override reduction (50% → 20%).
 - **Deep-dive material in doc:** retailer POS feed outage scenario (prior incident #89), seasonal weight staleness, Valentine's Day promo, multi-tenancy tiers, domain-adapted embeddings (precision@5 0.58 → 0.87).
 - **Tags:** AI agents, architecture, human-in-the-loop, flagship, accomplishment
 
@@ -241,45 +251,46 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 - **Tags:** AI failure, monitoring, "AI feature that didn't work"
 
 ### K6: Data Catalog + Semantic Layer for Agent Grounding (Keystone.ai)
-- **Situation:** At the flagship client, only ~50–55% of recommendations were accepted, users kept re-asking the chatbot, and it hallucinated. The problem would repeat at every new client.
+- **Situation:** At the flagship client, users kept re-asking the chatbot and it hallucinated. The problem would repeat at every new client.
 - **Action:** Evals showed a schema grounding gap, not a model or prompt problem: >60% of diagnostic failures involved a field with no description, and cosine similarity was 0.6. Built a runtime data catalog injected into prompts (descriptions, interpretability notes, trust tiers, sensitivity tiers incl. PII blocking), a metadata generation service (7+ signals, confidence gates), a semantic layer (synonym index → concept layer → disambiguation engine), and lineage/provenance with severity-tiered impact analysis. Governance: CI/CD fails on undescribed fields. Rejected alternatives: embedding fine-tuning, more chunks, prompt-only fixes.
-- **Result:** Acceptance 50% → 80%; similarity 0.6 → 0.8; field-level failures 60% → 40%; clarification rate 50% → 30%.
+- **Result:** Clarification rate (users re-asking) 50% → 30%; diagnostic failures from undescribed fields 60% → 40%; similarity 0.6 → 0.8. (Acceptance 50% → 80% dropped 2026-10-20: it collided with the 70% launch number.)
 - **Takeaway:** Catalog quality isn't a documentation problem; it's a product reliability problem.
 - **Tags:** RAG, grounding, platform, technical depth
 
 ### K7: Speed vs. Correctness in Metadata Generation (Keystone.ai)
 - **Action:** Decision rule: "imperfect grounding beats no grounding if you contain the blast radius." Three-tier trust policy: >0.85 auto-publish with an "AI-generated" label, 0.70–0.84 human review with an SLA, <0.70 blocked. Recalibrated thresholds from edit rates.
-- **Result:** Planner approval 50% → 80%; 95% of auto-generated descriptions approved; coverage 60% → 80%.
+- **Result:** Planner approval of AI-generated field descriptions 50% → 80% (descriptions, not recommendations); 95% of auto-published descriptions approved; coverage 60% → 80%.
 - **Tags:** trade-off, AI risk
 
 ### K8: Static RAG vs. Continuously Learning Pipeline (Keystone.ai)
 - **Situation:** Heavy pressure to ship fast for the flagship client.
 - **Action:** Prototyped static RAG first: 58% retrieval precision, and it recommended actions that were already resolved. Built an incremental pipeline (multi-source ingestion, per-source chunking, quality gates, domain-adapted embeddings, feedback loop) with weekly acceptance tests with the client.
-- **Result:** Precision 0.58 → 0.72 → 0.81; override 50% → 35% → 20%.
+- **Result:** Retrieval precision 0.58 → 0.72 → 0.81; contributed to the cumulative override reduction (50% → 20%). ("50% → 35% → 20%" dropped 2026-10-20: K8's own share is unknown.)
 - **Tags:** trade-off, speed vs. quality
 
 ### K9: Model Sophistication vs. Adoption (Keystone.ai)
 - **Situation:** A complex ensemble model was accurate, but forecasts were volatile and hard to explain; 50% override rate.
 - **Action:** Kept the ensemble and built the missing product layer: SHAP feature explainability for planners, top-2 model weights per SKU for scientists. Moved retraining from weekly to quarterly plus on-demand to reduce volatility. Productized both as platform features.
-- **Result:** Contributed to the cumulative override reduction 50% → 20%. [NEEDS DETAIL: this step's own share, if known]
+- **Result:** Forecast adoption 50% → 60% (the explainability step in K10); contributed to the cumulative override reduction (50% → 20%).
 - **Learning:** Explainability is a product problem, not just an ML problem.
 - **Tags:** trade-off, ML product, adoption
 
 ### K10: Forecast Platform Adoption: Customer Discovery (Keystone.ai)
-- **Action:** Triangulated adoption metrics with planner interviews and workflow observation. Found 3 issues: explainability, manual review load, accuracy gaps. Sequenced deliberately: manual explanation support → explainability feature → agent → model roadmap.
-- **Result:** Forecast adoption 50% → 70% (explainability 50% → 60%, then agent +~10 pts to ~70%; confirmed 2026-10-15); support cost reduced to 0.5 HC per customer.
+- **Role:** The umbrella adoption story, including the sequencing trade-offs. The only story that states the full forecast-adoption and override numbers.
+- **Action:** Started with ~3 months of deliberate high-touch manual support (K21) to learn the most painful workflows. Triangulated adoption metrics with planner interviews and workflow observation. Found 3 issues: explainability, manual review load, accuracy gaps. Sequenced deliberately: manual explanation support → explainability feature → agent → model roadmap.
+- **Result:** Forecast adoption 50% → 70% (explainability 50% → 60%, then agent +~10 pts to ~70%; confirmed 2026-10-15); override rate 50% → 20% across all interventions; support cost reduced to 0.5 HC per customer.
 - **Learning:** Do things that don't scale early, to learn what to build.
 - **Tags:** customer insight, sequencing
 
 ### K11: Deprioritizing Accuracy Work for the Agent (Keystone.ai)
 - **Action:** With resources already constrained, prototyped an agent in Codex to prove value (>70% recommendations adopted), then used the data to align leadership on swapping 2 months of planned accuracy work for agentic capabilities.
-- **Result:** Forecast adoption +12–15%; agent recommendation adoption +15%.
+- **Result:** The prototype showed >70% of recommendations adopted, which won leadership's agreement to swap 2 months of accuracy work for the agent. The launch results belong to K2/K10. ("+12–15%" and "+15%" dropped 2026-10-20: source unknown, and they conflicted with K10.)
 - **Tags:** prioritization, influence with data, hands-on prototyping
 
 ### K12: Managed Services vs. Pure SaaS (Keystone.ai)
 - **Situation:** Leadership and investors wanted multi-tenant SaaS (high margin). Customers had hard data-residency and environment-control requirements.
 - **Action:** Recommended deploying as a managed service inside the client's environment. Prevented a slide back into consulting by productizing deployment (IaC, reusable components, upgrade processes). Framed it as sequencing: prove repeatable deployment, then platformize.
-- **Result:** [NEEDS DETAIL: 3 months → 3 weeks now belongs to the data platform. What did this decision deliver for Deep Enterprise, e.g., faster security approvals or contributing to 6 → 4 months?]
+- **Result:** Deployment took 1 month longer, but onboarded 2 additional clients with strict data-residency requirements that pure SaaS couldn't serve (confirmed 2026-10-20). State the cost; it makes the trade-off credible.
 - **Learning:** In enterprise AI: earn trust, productize operations, then platformize.
 - **Tags:** strategy, disagreeing with leadership/investors
 
@@ -322,12 +333,6 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 - **Learning:** Make disagreements testable.
 - **Tags:** conflict, data-driven alignment
 
-### K19: Data Readiness Agent + Eval Loop (Keystone.ai)
-- **Situation:** Scientists spent hours validating data by hand, and rules libraries (Great Expectations) couldn't judge blocker vs. warning in context. Silent failures were reaching training.
-- **Action:** Agent with a 7-dimension validation battery (structure, grain, time-series health, target quality, leakage, readiness) and a go/no-go report. Eval framework scored the agent against dataset fact sheets across 10 dimensions, with critical-failure rules, and detected drift in production.
-- **Result:** [NEEDS DETAIL: metrics. The doc only says "data quality" and "scientist productivity".]
-- **Tags:** agents, evals
-
 ### K20: Leading Dotted-Line PMs / Managing Performance (Keystone.ai)
 - **Relationship:** dotted-line PM reports at Keystone (solid-line management was at Amazon; see A13). For Keystone, say "dotted-line" or "PMs I led," never "direct reports."
 - **Situation:** During the consulting → product pivot, a dotted-line PM struggled to balance client requests against platform work. Their team fell behind on an end-to-end integration roadmap, and engineering felt stretched between company and team direction.
@@ -339,6 +344,7 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 ### K21: High-Touch Support Before Automating (Keystone.ai)
 - **Action:** Deliberately ran ~3 months of manual high-touch support (~1 HC) after launch to learn the most painful workflows.
 - **Result:** Fed the explainability and agent roadmap; support later fell to 0.5 HC.
+- **Use:** Not a standalone story (2026-10-20). Tell it as the first step of K10; pull it out only for "short-term vs. long-term" questions.
 - **Tags:** short vs. long term, customer obsession
 
 ### A1: PBI 2.0: Segment-Specific Credit Growth Strategy (Amazon)
@@ -372,8 +378,9 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 ### A6: PBI 2.0 SMB Economics Miss (Amazon): Failure
 - **Situation:** In the 5% soft launch, credit losses came in higher than expected; couldn't scale to the full segment.
 - **Ownership:** "I didn't sufficiently validate whether the controls would deliver acceptable portfolio economics."
-- **Action:** Found a safer enterprise sub-segment that fit the product; had Science simulate a blended portfolio (projected losses −6–8%).
-- **Result:** Soft-launched to the blended segment with positive economics.
+- **Action:** Added a less risky enterprise sub-segment to the portfolio; ran a simulation with Science, which showed the blended portfolio cut losses 6–8%.
+- **Result:** Soft-launched to the blended segment with positive economics; no losses after full launch.
+- **How to say it:** "Our simulation showed the blended portfolio cut losses 6–8%." The pilot losses were real; the 6–8% is simulated (confirmed 2026-10-20).
 - **Learning:** Validate the customer opportunity and the portfolio economics separately.
 - **Tags:** failure, ownership
 
@@ -385,19 +392,27 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 ### A8: MDLC: Self-Serve ML Platform for Amazon Lending (Amazon)
 - **Situation:** Lending extended $8B in credit; 50+ risk models from 30+ scientists, growing 30% YoY. Each model took 3–4 months of engineering to ship, and there was no governance.
 - **Action:** Interviewed scientists, engineers, and risk/compliance. Three pillars: self-service ML pipelines (UI-first, a deliberate cost trade-off), model governance and privacy (monitoring, versioning, lineage, inventory; EU/US privacy: OD3, DSAR, PD2), and scaling onboarding as a product (templates, docs, community). Auto-containerization from a git link. Built on SageMaker, Step Functions, Lambda, Glue, ECR.
-- **Result:** 100+ models with no added headcount; audit-ready; NPS 8+ across 30+ scientists; 5 teams onboarded outside lending; 6 science HC saved; ~2 eng HC saved via containerization; deployment −40%.
+- **Result:** 100+ models with no added headcount; audit-ready; NPS 8+ across 30+ scientists; 5 teams onboarded outside lending; 6 science HC saved per year (ongoing, total across all platform features: self-service pipelines, containerization, etc.); ~2 eng HC saved via containerization; deployment −40%.
 - **Tags:** platform, 0→1, technical depth
 
 ### A9: Governance Disagreement with Senior Technical Manager (Amazon)
 - **Action:** Met 1:1; found the disagreement was an adoption assumption (past governance features went unused). Explained the new ones were fully automated; validated with customers together; set up recurring syncs before roadmap reviews.
-- **Result:** Features launched; 6 science HC saved; lasting trust.
+- **Result:** Monitoring went from 30 to all 100 production models by default, with no extra science effort. Building it model by model would have cost ~400 science-weeks of one-time effort (4 weeks × 100 models, roughly 10 scientist-years). Unmonitored models had been a regulatory and compliance risk and could degrade in production unnoticed. Lasting trust with the manager. Say "400 science-weeks," not "10 headcount" (confirmed 2026-10-20).
 - **Learning:** Treat technical disagreement as a dispute over an assumption, and validate the assumption together.
 - **Tags:** conflict, engineering
 
-### A10: Privacy Compliance Conflict with a DS Manager (Amazon)
-- **Action:** Listened 1:1 to a frustrated science manager; found no one owned privacy compliance. Took ownership, worked with 10 privacy bar raisers and legal/tech partners, defined the science team's actions, and built a semi-automated platform solution (a deliberate trade-off vs. a year-long full automation).
-- **Result:** Requirements identified that had been missed org-wide; 6 science HC saved; the manager emailed praise to your manager and skip-level.
-- **Tags:** conflict, ownership, customer obsession
+### A10: Privacy by Default for ML Across Amazon Payments (Amazon)
+- **Level:** Principal-scope story (reframed 2026-10-20). The frustrated science manager is the trigger and an optional angle, not the story.
+- **Situation:** PM of the self-service ML deployment platform (model deployment from ~4 months to half a day of science effort). Amazon had central teams for EU/US privacy requirements, but nobody had defined how they applied to ML. Nobody knew whether model output data was in scope, so science teams didn't know their requirements or timelines. A regulatory risk across the org; each team would have spent 1–1.5 science HC on it alone.
+- **Action:**
+  - Defined the requirements for ML with Amazon-wide privacy bar raisers and Legal: on-demand deletion (OD3), returning customer data (DSAR), and programmatic deletion when the legal retention period expires.
+  - Educated the scientists and set up privacy reviews between Legal and the ML teams to classify which data fell under which requirement.
+  - Designed the solution with Engineering: a UI where a scientist uploads a customer ID and a script fetches the records to delete or return; an SOP for retention rules in scientists' data stores so data auto-deletes.
+  - **Trade-off:** full automation would take 1.5 years; request volume was expected to be low. Shipped semi-automated in ~2 months and put full automation on a later roadmap.
+- **Result:** Privacy became a platform default with no science effort; GDPR-compliant models by default; requirements missed org-wide were identified; saved 5 science FTE per year in your org; became standard platform policy across Amazon Payments (~20 teams). Don't claim 20–30 HC; that total was never measured.
+- **Senior-influence signal:** defined the policy with Amazon-wide privacy bar raisers and Legal; Amazon's Director of Data Privacy and Compliance approved it as Payments-wide platform policy (confirmed 2026-10-20). [CONFIRM: did you present the case to the Director yourself? If yes, say so; if not, say "it was approved as policy by..."]
+- **Conflict angle (for "frustrated stakeholder" questions):** open with the science manager who was frustrated; listened 1:1 and found no one owned privacy for ML; the manager later emailed praise to your manager and skip-level. Same story and numbers, not a separate story.
+- **Tags:** ownership, org-wide scope, risk and compliance, trade-off, conflict, customer obsession
 
 ### A11: TRACE: Causal Shipping-Cost Attribution (Amazon)
 - **Situation:** Shipping was ~50% of item cost (~$50B/year). Org goal: $60M in seller savings. 50+ cost factors across 14 systems owned by 14 teams.
@@ -450,8 +465,12 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 | PBI scale | **50K+ customers** | Drop "millions" |
 | TRACE savings | **$40M** | $100M+ is the SPORT + TRACE + MOQ total |
 | Shipping-cost drivers | **50+** | Resume says 20+; update it |
-| MDLC HC saved | **6 science HC** | Drop 5 |
+| MDLC HC saved | **6 science HC per year**, total across all platform features | Drop 5. A9 and A10 have their own numbers below; don't add them up |
+| A9 monitoring coverage | **30 → 100 models**; ~400 science-weeks of one-time effort avoided | Say "400 science-weeks (~10 scientist-years)," not "10 HC" |
+| A10 privacy savings | **5 science FTE per year** in your org; adopted across Payments (~20 teams) | Full automation would have taken **1.5 years**; semi-automated shipped in ~2 months |
+| A6 blended portfolio | **6–8% lower losses (simulated)** | Pilot losses were real; the 6–8% is a simulation |
+| K12 managed service | **+1 month deployment; +2 data-residency clients** | Confirmed 2026-10-20 |
 | Deep Enterprise platform MVP launch | **3 months** | Drop 5 |
 | AI agent cost reduction (K14 model routing) | **~30%** | Confirmed 2026-10-15 |
 | Data platform team | **7–8 engineers** | Confirmed 2026-10-15 |
-| Agent recommendation acceptance | **70%** | Use 70% everywhere. Drop ">80%" and the K6/K7 50% → 80% figure (confirmed 2026-10-15) |
+| Agent recommendation acceptance | **70%** at launch | Use 70% everywhere. Drop ">80%" and the K6 50% → 80% figure (confirmed 2026-10-15). K7's 50% → 80% is description approval, a different metric. See the adoption metrics table at the top of the Story Bank |
