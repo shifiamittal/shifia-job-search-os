@@ -104,8 +104,8 @@ Shifia
 
 Leilei was the lead scientist on our most important client engagement at Keystone.ai, a Fortune 500 CPG company, and I worked with her closely as the product manager from development through deployment and beyond.
 
-What stood out most was her ownership. After launch, she kept resolving the client's requests one after another, and she was the one person in our company who understood their data end to end. That knowledge didn't stay with her: it shaped the core capabilities of the data platform we built next, which every later client benefited from.
+What stood out most was her ownership. After launch, she kept resolving the client's requests one after another, and she was the one person in our company who understood their data end to end. That knowledge didn't stay with her: it shaped the key capabilities of the data platform we built next.
 
-As a scientist, she paired technical depth with practical judgment. [One specific science contribution, e.g., the forecasting approach she designed, or how she diagnosed accuracy issues in the client's data.] She explained model behavior clearly to planners and to our team, which made it much easier to make good product decisions.
+As a scientist, she paired technical depth with practical judgment. [One specific science contribution, e.g., the forecasting approach she designed, or how she diagnosed accuracy issues in the client's data.]
 
 Any team building ML products for enterprise customers would be lucky to have her.
