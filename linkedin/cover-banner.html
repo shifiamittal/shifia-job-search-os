@@ -24,16 +24,16 @@
   }
   /* faint node graph behind the profile-photo zone */
   .graph { position: absolute; left: 0; top: 0; }
-  .content { position: absolute; left: 470px; right: 56px; top: 44px; }
+  .content { position: absolute; left: 450px; right: 110px; top: 60px; }
   .eyebrow { font-size: 15px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); }
-  h1 { font-family: "Inter Display", "Inter", sans-serif; font-weight: 700; font-size: 44px; line-height: 1.1; margin-top: 10px; letter-spacing: -0.01em; }
-  .sub { font-size: 19px; color: var(--muted); margin-top: 10px; }
-  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 26px; }
+  h1 { font-family: "Inter Display", "Inter", sans-serif; font-weight: 700; font-size: 36px; line-height: 1.1; margin-top: 10px; white-space: nowrap; letter-spacing: -0.01em; }
+  .sub { font-size: 20px; color: var(--muted); margin-top: 10px; }
+  .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin-top: 30px; }
   .stat { background: var(--tile); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
-  .num { font-family: "Inter Display", "Inter", sans-serif; font-weight: 700; font-size: 30px; color: var(--ink); line-height: 1; }
+  .num { font-family: "Inter Display", "Inter", sans-serif; font-weight: 700; font-size: 34px; color: var(--ink); line-height: 1; }
   .num span { color: var(--accent); }
-  .lbl { font-size: 13.5px; color: var(--muted); margin-top: 7px; line-height: 1.3; }
-  .orgs { position: absolute; right: 56px; bottom: 26px; display: flex; align-items: center; gap: 26px; }
+  .lbl { font-size: 15px; color: #c3cfdf; margin-top: 8px; line-height: 1.25; white-space: nowrap; }
+  .orgs { position: absolute; left: 450px; right: 110px; bottom: 24px; display: flex; align-items: center; justify-content: space-between; }
   .orgs .k { font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
   .org { font-size: 17px; font-weight: 600; color: #d7deea; white-space: nowrap; display: flex; align-items: center; gap: 8px; }
   .org img { height: 22px; width: auto; display: block; }
@@ -57,14 +57,14 @@
 
   <div class="content">
     <div class="eyebrow">Principal Product Manager – Technical</div>
-    <h1>Enterprise AI agents, workflow automation<br>and AI/ML &amp; data platforms</h1>
-    <div class="sub">0→1 to production with Fortune 500 enterprises · 11 years in product, 8 at Amazon</div>
+    <h1>Enterprise AI Agents, Workflow Automation &amp; AI/ML Platforms</h1>
+    <div class="sub">0→1 → Production → Scale · Fortune 500</div>
 
     <div class="stats">
-      <div class="stat"><div class="num"><span>$</span>71M</div><div class="lbl">new revenue from an ML financing product · Amazon</div></div>
-      <div class="stat"><div class="num"><span>$</span>100M+</div><div class="lbl">saved by ML recommendation products · Amazon</div></div>
-      <div class="stat"><div class="num">100<span>+</span></div><div class="lbl">production models on the MLOps platform I owned · Amazon</div></div>
-      <div class="stat"><div class="num"><span>$</span>5M ARR</div><div class="lbl">0→1 agentic AI platform, 5 enterprises · Keystone.ai</div></div>
+      <div class="stat"><div class="num"><span>$</span>5M ARR</div><div class="lbl">0→1 agentic AI platform</div></div>
+      <div class="stat"><div class="num">100<span>+</span></div><div class="lbl">models on my MLOps platform</div></div>
+      <div class="stat"><div class="num"><span>$</span>71M</div><div class="lbl">ML financing revenue</div></div>
+      <div class="stat"><div class="num"><span>$</span>100M+</div><div class="lbl">saved by ML recommendations</div></div>
     </div>
   </div>
 
