@@ -106,6 +106,6 @@ Leilei was the lead scientist on our most important client engagement at Keyston
 
 What stood out most was her ownership. After launch, she kept resolving the client's requests one after another, and she was the one person in our company who understood their data end to end. That knowledge didn't stay with her: it shaped the key capabilities of the data platform we built next.
 
-As a scientist, she paired technical depth with practical judgment. [One specific science contribution, e.g., the forecasting approach she designed, or how she diagnosed accuracy issues in the client's data.]
+As a scientist, she paired technical depth with practical judgment. She led the hierarchical forecasting work, combining statistical, machine learning and transformer-based models with a reconciliation method that kept forecasts consistent across every planning level, and the result beat the client's incumbent tool by 21–26% on forecast error. After launch, when the forecasts ran low, she traced it to lagging shipment data and added validation checks that fixed it.
 
 Any team building ML products for enterprise customers would be lucky to have her.
