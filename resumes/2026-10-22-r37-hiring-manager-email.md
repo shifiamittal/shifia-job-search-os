@@ -30,9 +30,9 @@
 
 ### LinkedIn version (connection note or InMail)
 
-> Hi Taimur, I spoke with Amber O'Brien on Oct 8 about the Principal PM role and sent my resume, but couldn't reconnect, so I'm reaching out directly. I've shipped agentic AI with human review (70% of recommendations accepted) and spent 8 years on ML at Amazon in regulated lending. Open to a quick chat?
+> Hi Taimur, I spoke with Amber O'Brien Oct 8 about the Principal PM role and sent my resume, but couldn't reconnect, so I'm reaching out directly. I've shipped agentic AI with human review (70% of recommendations accepted) and spent 8 years on ML at Amazon in regulated lending. Open to a quick chat?
 
-**Length:** 302 characters (fits LinkedIn's 300-character connection-note limit).
+**Length:** 299 characters (fits LinkedIn's 300-character connection-note limit).
 
 ---
 
