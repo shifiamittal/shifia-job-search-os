@@ -1,6 +1,6 @@
 # Resume Output - Qualcomm · Staff Product Data Manager (PDM), AI Platforms & Systems Solutions
 **Keyword Coverage: 74% (20/27 requirements matched: 11 strong, 9 partial, 7 unmatched)**
-**ATS keyword count (58 JD terms, in bullet text): 53% (31/58)**
+**ATS keyword count (58 JD terms, in bullet text): 57% (33/58)**
 
 Source: Qualcomm careers page, Job ID 3094805 (https://careers.qualcomm.com/careers/job/446720412804), pasted 2026-10-22. San Diego, CA, onsite 5 days/week. Base $181.8K–$272.6K plus discretionary bonus and RSUs.
 
@@ -28,8 +28,8 @@ Source: Qualcomm careers page, Job ID 3094805 (https://careers.qualcomm.com/care
 | 2 | Edge APIs/DDIs/SDKs: DirectX, WinML, OpenCL, GGML (REQUIRED + PREFERRED) | None | Don't claim it. GGUF (the llama.cpp file format, built on GGML) is the only overlap. Learn the WinML / ONNX Runtime / QNN flow before the HM call. |
 | 3 | Protocols & standards bodies (REQUIRED + PREFERRED) | None | Referral framing: "She hasn't worked with a standards body, but she wrote specs that ~20 Amazon Payments teams adopted, and set data contracts across 14 teams' systems." |
 | 4 | Technical marketing at conferences and developer events (REQUIRED) | Partial | Launches and adoption are on the resume. No talks on record. |
-| 5 | AI middleware: llama.cpp, Ollama, AnythingLLM | None (pending) | Keystone ran 7B models locally, but the runtime isn't on record. If you confirm it was Ollama or llama.cpp, add it to the Keystone evaluation bullet. |
-| 6 | Quantization, on-device/hybrid trade-offs; LLM/VLM 1B–150B | Partial | Keystone evaluation: 7B Llama/Mistral, on-device vs. self-hosted vs. cloud on quality, latency, cost, memory (Source Decision 26). Quantization not on record; no VLM or NPU. |
+| 5 | AI middleware: llama.cpp, Ollama, AnythingLLM | Partial | Keystone ran 4-bit quantized 7B models locally with Ollama (Source Decision 26). llama.cpp is the engine under Ollama; say so if asked, but it isn't claimed. AnythingLLM isn't claimed. |
+| 6 | Quantization, on-device/hybrid trade-offs; LLM/VLM 1B–150B | Partial | Keystone evaluation: 7B Llama/Mistral, on-device vs. self-hosted vs. cloud on quality, latency, cost, memory (Source Decision 26). 4-bit quantization confirmed; no VLM or NPU. |
 | 7 | Orchestration across compute tiers | Partial | Model routing (K14) and the multi-agent router (K2). This is across models, not hardware tiers. |
 | 8 | B.S. in Engineering/CS | Partial | B.E. Chemical Engineering. |
 | 9 | Budgets; third-party agreements (PREFERRED) | Partial | Credit bureau partner integration and Cognizant pre-sales pricing. The JD says the role doesn't own budgets. |
@@ -52,7 +52,7 @@ Principal product manager with 11+ years shipping AI/ML products at scale: agent
 - Led product strategy, business case, and roadmap for an enterprise agentic AI and forecasting platform, aligning the CEO and CTO to pivot from consulting to product; reached **$5M ARR** and **$25M** annual client savings across **5 Fortune 500 clients**.
 - Shipped a multi-agent system (LLMs, LangGraph, MCP tool use, RAG) that pairs deterministic controls (a fixed root-cause sequence, guardrails in tool definitions, risk-tiered autonomy) with LLM diagnosis and recommendations; **70% accepted**, cutting planner effort **4 hrs/day to 4 hrs/week** and overstock **$5M to $2M**.
 - Owned orchestration and model routing for agent workloads (simple tasks to low-cost models, ambiguous ones to stronger models) based on cost, latency, and quality tests; cut agent run cost **~30%** in a pilot with lower latency.
-- Led evaluation of 7B open-weight models (Llama, Mistral), self-hosted in client clouds and on-device, vs. cloud LLMs for root-cause diagnosis and the planner chatbot on quality, inference latency, cost, and memory; set hybrid routing per task and client.
+- Led evaluation of 7B open-weight models (Llama, Mistral) in client clouds and on-device (Ollama, 4-bit quantized) vs. cloud LLMs for root-cause diagnosis and the chatbot on quality, inference latency, cost, and memory; set hybrid routing.
 - Set the deployment architecture: persuaded leadership and investors to run the platform in clients' own cloud environments instead of pure SaaS to meet data-residency needs; won **2 additional clients** SaaS couldn't serve.
 - Defined KPIs and conformance criteria for agent releases: expert-baselined reference cases, a version-comparison harness, and evals for groundedness, tool compliance, and action safety; agents cleared shadow-mode gates before production.
 - Owned product definition for a forecasting system (statistical, gradient-boosted, and foundation models incl. Chronos and TFT) for a Fortune 500 client, with bi-weekly cross-functional leadership reviews; improved accuracy **up to 26%** over the incumbent.
@@ -109,6 +109,11 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 | **Overall** | **6.5/10** | |
 - **What they'll probe:** quantization trade-offs (Q4 vs. Q8 quality loss), tokens/sec and RAM on your machine, why llama.cpp over ONNX Runtime or WinML, how you'd decide NPU vs. GPU vs. cloud, and what "conformance criteria" meant for your agents.
 - **Credibility risk:** the [UNVERIFIED] project bullet. Finish the work and add real numbers before the HM call.
+
+## Regression Checks: Round 7 (Ollama confirmed, 2026-10-22)
+- **Edit:** Keystone evaluation bullet now names Ollama and 4-bit quantization (confirmed by you; recorded in Source Decision 26). Trimmed "self-hosted", "planner" and "per task and client" to keep it at 2 lines.
+- **Keyword count:** 33/58 (+Ollama, +quantization). Still missing on-device keywords: llama.cpp, GGUF, Qwen, Gemma (not claimed).
+- **Render:** 1 page, no orphan lines.
 
 ## Regression Checks: Round 6 (projects removed, 2026-10-22)
 - **Edit:** removed Independent Projects (both bullets, including the [UNVERIFIED] one). The Keystone evaluation bullet now says "on-device", "inference latency" and "hybrid routing", all accurate under Source Decision 26 (local runs on laptops/desktops, open-weight for some tasks and clients, cloud for others). The data platform bullet stays. Restored the MVP bullet (30+ engineers, cross-functional reviews, mentoring) in the freed space.
