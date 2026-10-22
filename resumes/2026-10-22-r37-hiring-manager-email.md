@@ -18,30 +18,30 @@
 >
 > The problem R37 is solving, getting AI that RCM teams trust enough to use every day, is the one I've worked on. At Keystone, I launched a multi-agent system that automates low-risk decisions and routes the rest to human review; 70% of its recommendations were accepted, and reviewer effort fell from 4 hours a day to 4 a week. Before that, I spent eight years at Amazon shipping ML in regulated lending, including a financing product that reached $71M in incremental revenue.
 >
-> Would you be open to 20 minutes to talk about how your team is approaching coding and denials automation?
+> If my background fits what you need, I'd appreciate your considering me for the next round of interviews, or pointing me to the right person to move this forward.
 >
 > Best,
 > Shifia Mittal
 > 206-356-6348 | linkedin.com/in/shifiamittal
 
-**Word count:** 148 (body, excluding signature)
+**Word count:** 158 (body, excluding signature)
 
 ---
 
 ### LinkedIn version (connection note or InMail)
 
-> Hi Tymor, I spoke with Amber O'Brien Oct 8 about the Principal PM role and sent my resume, but couldn't reconnect, so I'm reaching out directly. I've shipped agentic AI with human review (70% of recommendations accepted) and spent 8 years on ML at Amazon in regulated lending. Open to a quick chat?
+> Hi Tymor, I spoke with Amber O'Brien Oct 8 about the Principal PM role and sent my resume, but couldn't reconnect. I've shipped agentic AI with human review (70% of recs accepted) and 8 yrs of ML at Amazon. If it's a fit, I'd appreciate being considered for next rounds.
 
-**Length:** 299 characters (fits LinkedIn's 300-character connection-note limit).
+**Length:** 270 characters (fits LinkedIn's 300-character connection-note limit).
 
 ---
 
 ## Notes
-- **Tone toward Amber:** the email states the facts without blame ("haven't been able to reconnect"). Don't CC her. If Taimur forwards it, it should read well to her too.
+- **Tone toward Amber:** the email states the facts without blame ("haven't been able to reconnect"). Don't CC her. If Tymor forwards it, it should read well to her too.
 - **No work product yet.** The OS's HM rule is to lead with a work product. This email is a check-in, so it works without one, but a one-page take on evaluating a coding or denials agent would make a stronger follow-up. Run `/work-product R37 AI Lab, Principal PM, get-interview`.
 - **Before sending:** fill in the date you sent the resume to Amber; confirm Tymor's current title and email (LinkedIn, or R1's email format: Amber's is first-initial + last name @r1rcm.com).
 
 ## Next steps
 - [ ] Send Tuesday–Thursday, 8–10am Mountain Time (R1 HQ is Salt Lake City)
-- [ ] If no reply in 5 business days, send one line: "Wanted to make sure this didn't get buried. Happy to chat whenever works."
+- [ ] If no reply in 5 business days, send one line: "Wanted to make sure this didn't get buried. Happy to share anything that would help you decide on next rounds."
 - [ ] Log in `/app-tracker` and `connection-tracker.md`
