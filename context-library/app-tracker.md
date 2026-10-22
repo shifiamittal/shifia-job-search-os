@@ -10,15 +10,15 @@ Sources: Gmail (2026-09-22 → 2026-10-22: application confirmations, rejections
 
 | Step | Count | What's in it |
 |---|---|---|
-| **1A. Outbound applications** | **11 confirmed** (+8 [CONFIRM]) | Microsoft ×5 (all referred by Prakhar), Cisco ×5, Expedia ×1. Plus Keystone Strategy through a referral intro (Greg Richards → Rohit Chatterjee). 8 more Microsoft referrals came through with no application confirmation. |
-| **1B. Inbound you engaged with** | **10** | Count, LawnStarter, Ascerta/Pay-i, Amazon FBA, Cynet/HCL (contract), R1 RCM (R37 AI Lab), Rose International (contract), Plaid, Stripe, ITPipes |
-| **2. Interviews (any round)** | **5 companies, 7 conversations** | LawnStarter (screen), Ascerta (screen), Count (recruiter screen + R1 + R2), R1 RCM (screen), Keystone Strategy (Sr. Partner intro). Booked: ITPipes 10/26, Stripe 10/26, Plaid 10/29 |
+| **1A. Outbound applications** | **19** | Microsoft ×13 (all referred by Prakhar), Cisco ×5, Expedia ×1. Plus Keystone Strategy through a referral intro (Greg Richards → Rohit Chatterjee). |
+| **1B. Inbound you engaged with** | **11** | Count, LawnStarter, Ascerta/Pay-i, Amazon FBA, Cynet/HCL (contract), R1 RCM (R37 AI Lab), Rose International (contract), Plaid, Stripe, ITPipes, Harrison Clarke (Product Leader, $300K base) |
+| **2. Interviews (any round)** | **7 companies, 9 conversations** | LawnStarter (screen), Ascerta (screen), Count (recruiter screen + R1 + R2), R1 RCM (screen), Keystone Strategy (Sr. Partner intro), Harrison Clarke (recruiter call), Yoodli (screen, 9/16). Booked: ITPipes 10/26, Stripe 10/26, Plaid 10/29 |
 | **2b. Final rounds** | **0** | |
 | **3. Offers** | **0** | |
 
 **What the funnel says**
-- **Cold outbound: 11 applications → 0 interviews.** Microsoft and Cisco are mostly silent or rejected. Expedia Data Products rejected.
-- **Inbound and referral: 11 conversations → 6 interviews.** Every interview this month came from a recruiter or a referral intro, not from an application.
+- **Cold outbound: 19 applications → 0 interviews.** All 13 Microsoft roles were referred and none moved. Cisco: 2 rejected, 3 silent. Expedia Data Products rejected.
+- **Inbound and referral: 12 conversations → 6 interviews.** Every interview this month came from a recruiter or a referral intro, not from an application.
 - **Where it breaks:** after round 1–2 (LawnStarter at HM review, Count after the co-founder round). Recruiter feedback from Count (10/13): "the interview went just okay" and "a couple of other candidates they are super excited about." Same pattern as `interview-history.md`.
 - **Comp fit of the active inbound:** ITPipes (up to $195K base), Rose ($85–93/hr), Cynet/HCL ($60/hr) are all well under the $380–400K floor. Plaid, Stripe, R1 and Keystone Strategy are the ones worth prep time.
 
@@ -111,18 +111,18 @@ Sources: Gmail (2026-09-22 → 2026-10-22: application confirmations, rejections
 ## Active: Applied / Waiting
 
 ### Amazon - Principal Product Manager - Tech, FBA Inventory Optimization Services (10499366)
-- **Status:** referral-received / applied [CONFIRM]
+- **Status:** applied, silent (application completed; no word from recruiter since 9/30)
 - **Source:** Inbound InMail from recruiter Lindsay Otterson, 2026-09-24. Not a target per career-plan.md, but this is the "open if they reach out" case.
 - **Referral:** Yes (Nitin Agarwal referred 9/30)
 - **Last action:** 2026-09-30 Lindsay: "let me send to the HM." 2026-10-03 amazon.jobs said the application was **incomplete**.
-- **Next action:** [CONFIRM] whether you finished the application. If not, finish it today; HM review can't start until it's complete. Then ping Lindsay.
+- **Next action:** One nudge to Lindsay on LinkedIn, and ask Nitin to check the req internally. If silent by 11/5, mark ghosted.
 - **History:**
   - 2026-09-24 Inbound (Lindsay Otterson)
   - 2026-09-25 You replied with your email
   - 2026-09-30 Nitin's referral; Lindsay sending to HM
-  - 2026-10-03 amazon.jobs: application incomplete
+  - 2026-10-03 amazon.jobs: application incomplete; you completed it afterwards
 
-### Microsoft - 5 applications, all referred by Prakhar
+### Microsoft - 13 applications, all referred by Prakhar
 | Job # | Role | Applied | HM outreach | Status |
 |---|---|---|---|---|
 | 200052860 | Principal PM (AI Commerce) | ≤2026-09-24 (confirmation 9/30) | Nektarios Ioannides, 9/24 | Waiting |
@@ -131,11 +131,12 @@ Sources: Gmail (2026-09-22 → 2026-10-22: application confirmations, rejections
 | 200055464 | Sr. PM, Azure Change Management | 2026-10-01 | Harini Gupta, 10/1 | Waiting |
 | 200053810 | Principal PM (AI Commerce) | 2026-09-22 | Nick Gedge, 9/23 | **Rejected 10/6** (see Closed) |
 
-- **Referred, no application confirmation found [CONFIRM]:** 200055557 (Sr. PM), 200055734 (Sr. PM), 200058774 (Sr. PM, CoreAI), 200058512 (Principal PM), 200046557 (Principal PM, Developer Tools & Engineering Systems), 200055745 (TPM IC5), 200058504 (Sr. TPM, AI Infrastructure), 200046165 (Sr. TPM). Microsoft says referrals don't move until you apply.
-- **Next action:** Tell me which of the 8 you applied to. For the 4 waiting, 3+ weeks of silence: ask Prakhar to check status internally.
+- **Also applied (confirmed by you 2026-10-22), no movement:** 200055557 (Sr. PM), 200055734 (Sr. PM), 200058774 (Sr. PM, CoreAI), 200058512 (Principal PM), 200046557 (Principal PM, Developer Tools & Engineering Systems), 200055745 (TPM IC5), 200058504 (Sr. TPM, AI Infrastructure), 200046165 (Sr. TPM). Referred 9/23–10/4.
+- **Read:** 13 referred applications, 0 recruiter screens, 1 rejection. A referral form alone isn't getting you past screening here. Several are Senior or TPM roles, below the Principal level you're targeting, which may also be working against you.
+- **Next action:** Ask Prakhar to check status on the 4 Principal-level reqs (200052860, 200058512, 200046557, plus any AI-platform one) and, if possible, forward you to the hiring manager directly.
 
 ### Cisco - 5 applications (2026-10-11 ×4, 2026-10-13 ×1)
-- **Status:** 2 rejected (see Closed), 3 waiting. The confirmation emails don't name the roles. [CONFIRM] role titles for the 3 still open.
+- **Status:** 2 rejected (see Closed), 3 with no response. The confirmation emails don't name the roles. Mark ghosted if nothing by 11/10.
 - **Referral:** No
 
 ### Expedia Group - Principal Product Manager, Agentic Evals (R-107795)
@@ -161,18 +162,14 @@ Sources: Gmail (2026-09-22 → 2026-10-22: application confirmations, rejections
   - 2026-10-20 Recruiter waiting on resume
 
 ### HCL (via Cynet Systems) - AI Product Manager (contract, Redmond)
-- **Status:** submitted (rate confirmation / right-to-represent sent) → silent since 10/2 [CONFIRM]
+- **Status:** submitted (rate confirmation / right-to-represent sent) → silent since 10/2
 - **Source:** Inbound from Deepshikha Singh (Cynet Systems), ~2026-09-30
 - **Comp:** $60/hr W2 all-inclusive ≈ $125K/yr. **Far below floor.**
 - **Last action:** 2026-10-02 Your second follow-up; no reply.
-- **Next action:** Recommend letting this go.
-
-### Unclear inbound conversations [CONFIRM]
-- **Julian McGee (Harrison Clarke):** 30-min call 2026-10-02 8:00 PT. Which role or client?
-- **Lucy Burns:** 30-min "Chat with Shifia" 2026-09-17. Recruiter, networking, or a company?
+- **Next action:** Kept active (your call, 10/22). One more nudge to Deepshikha; mark ghosted if silent by 11/5.
 
 ### Inbound not acted on (last 30 days)
-Qualcomm, Staff Product Data Manager, AI Platforms (10/21) · Meta PM via direct sourcer Caleb (10/21) · "Product Leader, $300K base + equity, GenAI ROI platform" (9/29) · onsite contract PM (put on hold by recruiter 9/30) · Amazon PM II (9/28) · Concentrix Partner Success (10/2) · AI Business Analyst contract (10/18). The $300K-base product-leader role is the only one near your bar. [CONFIRM] whether you replied.
+Qualcomm, Staff Product Data Manager, AI Platforms (10/21) · Meta PM via direct sourcer Caleb (10/21) · onsite contract PM (put on hold by recruiter 9/30) · Amazon PM II (9/28) · Concentrix Partner Success (10/2) · AI Business Analyst contract (10/18).
 
 ---
 
@@ -182,14 +179,15 @@ Qualcomm, Staff Product Data Manager, AI Platforms (10/21) · Meta PM via direct
 3. **R1 RCM:** follow up with Amber on 10/23; the promised update is overdue.
 4. **Keystone Strategy:** if Rohit doesn't connect you by 10/26, go to Ben Mercer.
 5. **Prep this week:** Stripe (10/26) and Plaid (10/29). Decide on ITPipes before 10/26.
-6. **Microsoft:** tell me which of the 8 referred roles you applied to; ask Prakhar to check the 4 that are waiting.
+6. **Microsoft:** 13 referred applications, none moved. Ask Prakhar to check the Principal-level reqs.
+8. **Amazon FBA:** one nudge to Lindsay; ask Nitin to check the req.
 7. **Count:** post-rejection notes in `interview-debriefs/2026-10-15-count-followup-notes.md`.
 
 ---
 
 ## Closed
 
-### Rejected (9)
+### Rejected (8)
 
 ### Count - Head of Product
 - **Status:** rejected (2026-10-13)
@@ -230,19 +228,26 @@ Qualcomm, Staff Product Data Manager, AI Platforms (10/21) · Meta PM via direct
 - **Stage rejected:** Applied, no interview · 2026-10-16
 
 ### Yoodli - Principal Product Manager
-- **Stage rejected:** After first conversation (Jessica Barkley), team went with "a different combination of experience"
+- **Stage rejected:** After recruiter screen (Jessica Barkley); team went with "a different combination of experience"
 - **History:** 2026-09-16 call · 2026-09-17 resume sent · 2026-09-22 rejected
 
 ### Anaplan - Senior Principal Product Manager, Applications
 - **Stage rejected:** Applied (LinkedIn Easy Apply 2026-04-27), no interview
 
+### Ghosted (1)
+
+### Harrison Clarke (Julian McGee) - Product Leader, GenAI ROI platform (client not named)
+- **Status:** ghosted after recruiter call
+- **Source:** Inbound LinkedIn InMail, 2026-09-29 ("Product Leader - $300K base plus equity - GenAI ROI platform trusted by AWS & McKinsey")
+- **History:** 2026-09-29 Inbound · 2026-10-02 Recruiter call (rescheduled from 10/1) · multiple follow-ups from you, no reply
+
 ---
 
 ## Pipeline Health (2026-10-22)
-- **Active interview processes:** 6 (R1 RCM, Keystone Strategy, Plaid, Stripe, ITPipes, Ascerta) · **Applied, waiting:** ~10 · **Final rounds:** 0 · **Offers:** 0
-- **Conversion, last 30 days:** cold application → interview **0% (0/11)**. Inbound/referral → interview **55% (6/11)**. Interview → round 2 **1 of 5** (Count).
+- **Active interview processes:** 6 (R1 RCM, Keystone Strategy, Plaid, Stripe, ITPipes, Ascerta) · **Applied, waiting:** 19 (Microsoft 12, Cisco 3, Expedia 1, Amazon 1, Rose, Cynet) · **Final rounds:** 0 · **Offers:** 0
+- **Conversion, last 30 days:** cold application → interview **0% (0/19)**. Inbound/referral → interview **50% (6/12)**. Interview → round 2 **1 of 7** (Count).
 - **Target companies:** Microsoft is the only Tier-1 target with live applications, and none has moved. No process at Anthropic, OpenAI, Google or Salesforce.
-- **Referral rate:** Microsoft ×5 and Amazon have referrals, but none has produced a screen yet. A referral alone isn't enough; the HM outreach is what needs to land.
+- **Referral rate:** Microsoft ×13 and Amazon have referrals, but none has produced a screen yet. A referral alone isn't enough; the HM outreach is what needs to land.
 - **Weakest stage:** round 1 → round 2. `/mock-interview behavioral` and `/mock-interview execution` before Stripe and Plaid.
 
 ---
