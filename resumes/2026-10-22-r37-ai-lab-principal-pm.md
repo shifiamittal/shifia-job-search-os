@@ -78,7 +78,7 @@ Interview line: "Lending and RCM are both regulated, high-volume financial decis
 
 ## Resume
 
-_Master copy is `Shifia_Mittal_Resume_R37.docx` (v10). Text below is generated from it._
+_FINAL: `Shifia_Mittal_Resume_R37.docx` (Shifia's edits, 2026-10-22). Text below is generated from it._
 
 **SHIFIA MITTAL**
 
@@ -86,25 +86,25 @@ _Master copy is `Shifia_Mittal_Resume_R37.docx` (v10). Text below is generated f
 
 **SUMMARY**
 
-Principal product manager with 11+ years shipping AI/ML products at scale: led an agentic AI platform for Fortune 500 enterprises in Keystone’s AI startup division ($5M ARR) and ML products at Amazon ($71M revenue, 50K+ customers), aligning C-suite leaders.
+Principal product manager with 11+ years shipping AI/ML products at scale: led an agentic AI platform for Fortune 500 enterprises in Keystone's AI startup division (\$5M ARR) and ML products at Amazon (\$71M revenue, 50K+ customers), aligning C-suite leaders.
 
 **EXPERIENCE 2015 - Present (11 years)**
 
-**Keystone.ai** *\| AI division of Keystone, a 20+ year tech and economics advisory firm; spun out as Keystone.AI in 2026*
+**Keystone.ai** *\| AI division of Keystone, a 20+ year tech and economics advisory firm*
 
-*Principal Product Manager-Technical* 2024 - Present
+*Principal Product Manager-Technical 2024 - Present*
 
--   Led AI product strategy, roadmap, and operating model for an enterprise AI supply chain platform (forecasting models and agentic workflows), influencing C-suite executives to pivot the company from consulting to a product-led model; reached \$5M ARR, \$25M in annualized client savings across 5 Fortune 500 clients, and 21--26% better forecast accuracy than the incumbent tool.
+-   Led AI product strategy, roadmap, and operating model for an enterprise AI supply chain platform (forecasting models and agentic workflows), influencing C-suite executives to pivot the company from consulting to a product-led model; reached \$5M ARR, \$25M in annualized client savings across 5 Fortune 500 clients, and 21--26% better forecast accuracy.
 
--   Defined the business model and go-to-market, setting tiered subscription pricing and persuading leadership and investors to deploy as a managed service in clients' cloud instead of pure SaaS; won 2 more clients with strict data-residency needs for 1 extra month of deployment.
+-   Defined the business model, tiered subscription pricing, go-to-market; persuaded leadership and investors to deploy as a managed service in clients' cloud instead of pure SaaS enabling 2 additional clients with strict data-residency needs.
+
+-   Launched a generative AI multi-agent system for intelligent automation (LLMs, RAG, LangGraph, MCP) that triages exceptions, acts autonomously on low-risk decisions and routes the rest to human-in-the-loop review; shipped through evaluation gates and achieving 70% recommendation acceptance, reducing 4 hrs/day to 4 hrs/week of reviewer effort, and \$5M to \$2M overstock.
 
 -   Built the ROI case for agentic AI with a working prototype, showing \>70% of recommendations adopted and winning a 2-month roadmap shift from model accuracy to agents; later cut agent run cost \~30% via model routing.
 
--   Launched a generative AI multi-agent system for intelligent automation (LLMs, RAG, LangGraph, MCP) that triages exceptions, acts autonomously only on low-risk decisions, and routes the rest to human-in-the-loop review; shipped through evaluation gates and shadow mode, achieving 70% recommendation acceptance, 4 hrs/day to 4 hrs/week of reviewer effort, and \$5M to \$2M overstock.
+-   Drove adoption of the forecasting platform across client planning teams by running customer discovery (planner interviews, workflow observation, adoption data analysis) to find the top 3 blockers; shipped SHAP explainability before agent support, lifting adoption from 50% to 70%.
 
--   Drove adoption of the forecasting platform across client planning teams by running customer discovery (planner interviews, workflow observation, adoption data analysis) to find the top 3 blockers, then shipping SHAP explainability before agent support, lifting adoption from 50% to 70%.
-
--   Delivered the platform MVP with 30+ engineers and data scientists by organizing 3 parallel product lanes (data, models, planner app) with MVP milestones, weekly cross-functional reviews, bi-weekly client leadership reviews, and phased rollouts, launching in 3 months; mentored 4--5 junior product managers and interns, and led dotted-line PMs.
+-   Delivered platform MVP in 3 months with 30+ engineers and data scientists; organized 3 parallel product lanes with MVP milestones, cross-functional reviews, bi-weekly client leadership reviews, and phased rollouts; also mentored 3 dotted-line PMs.
 
 -   Built the multi-tenant data platform and data governance layer with 8 engineers (ingestion, validation, anonymization, lineage, data contracts, PII blocking), cutting deployment from 3 months to 3 weeks; its NLP semantic layer cut repeat questions to the AI assistant from 50% to 30%.
 
@@ -112,15 +112,15 @@ Principal product manager with 11+ years shipping AI/ML products at scale: led a
 
 *Sr. Product Manager-Technical, Amazon Business Financing & Credit 2022 - 2024*
 
--   Launched Amazon Business's ML financing product via experimentation, a 5% controlled launch, biweekly Agile sprints, and monthly VP-level reviews against an S-team goal, scaling to 50K+ customers and \$71M in incremental revenue.
+-   Launched Amazon Business' ML financing product via experimentation, a 5% controlled launch, biweekly Agile sprints, and monthly VP-level reviews against an S-team goal, scaling to 50K+ customers and \$71M in incremental revenue.
 
--   Corrected a data bias in SMB credit underwriting, where thin credit files held small-business approval at 4%: rebuilt the model on Amazon behavioral data with business-level features only, raising SMB approval to 15% with no credit losses after full launch.
+-   Corrected a data bias in SMB credit underwriting, where thin credit files held small-business approval at 4%; rebuilt the model on Amazon behavioral data raising SMB approval to 15% with no credit losses after full launch.
 
--   Applied responsible AI to credit and fraud models in regulated lending by explaining every declined application with adverse-action reason codes (SHAP) and setting the fraud threshold at 99% precision, clearing regulatory review with Amazon's financial risk teams without blocking legitimate businesses.
+-   Applied responsible AI to credit and fraud models in regulated lending by explaining every declined application with adverse-action reason codes, and setting the fraud threshold at 99% precision, clearing regulatory review with Amazon's financial risk teams without blocking legitimate businesses.
 
-*Sr. Product Manager-Technical, ML Ops Platform 2020 - 2022*
+*Sr. Product Manager-Technical, ML Ops Developer Platform 2020 - 2022*
 
--   Owned vision and roadmap for an AWS SageMaker-based MLOps platform serving 30+ scientists; cut deployment time 40%, scaled to 100+ production models with no added headcount, and made production monitoring the default.
+-   Owned vision and roadmap for an AWS SageMaker-based MLOps platform serving 30+ data scientists; cut deployment time 40%, scaled to 100+ production models with no added headcount, and made production monitoring the default.
 
 -   Made privacy a platform default: launched access controls, encryption, and anonymization, and defined privacy rules for ML data with Amazon\'s privacy and legal teams; adopted across \~20 Amazon Payments teams, saving 5 science FTE per year.
 
@@ -134,7 +134,7 @@ Principal product manager with 11+ years shipping AI/ML products at scale: led a
 
 -   Launched self-service price-perception insight tools benchmarking Amazon against 800+ retailers in 17 countries; adopted by 40+ global pricing leaders, with signals feeding the pricing models that set Amazon's prices.
 
-**Cognizant Technology Solutions** \| Designed solutions and pricing for 30+ APAC deals worth \$25M (45% win rate). *2015 - 2016*
+**Cognizant Technology Solutions** \| Designed solutions and pricing for 30+ APAC deals worth \$25M (45% win rate) *2015 - 2016*
 
 **EDUCATION**
 
@@ -203,6 +203,8 @@ Fixed in v8: summary trimmed from 269 to 251 characters (about 2 lines; check in
 **Bullets flagged for verification:** 0. The SMB bias bullet uses only Amazon behavioral data. The +17% bureau coverage belongs to the separate global consumer credit product and is left out. If bureau integrations were also part of the SMB underwriting, say so and it can go back in.
 
 ## Revisions Made
+**Final (2026-10-22), Shifia's own edits:** tightened business-model, agent, SMB, and responsible-AI bullets; agent bullet moved before the ROI bullet; delivery bullet now "MVP in 3 months … mentored 3 dotted-line PMs"; "ML Ops Developer Platform"; "30+ data scientists"; dropped "than the incumbent tool", SHAP on adverse-action codes, and business-level features. One page.
+
 **v12 (2026-10-22):** Summary cleanup: "$5MM" → "$5M", "50K" → "50K+", added "an", "and aligned" → ", aligning". Keystone context line no longer mentions the 2026 spin-out.
 
 **v10 (2026-10-22)**
