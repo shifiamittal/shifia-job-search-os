@@ -90,9 +90,9 @@ Principal technical product manager with 11+ years shipping AI: built an agentic
 *Principal Product Manager – Technical* (AI startup division building an enterprise AI platform for Fortune 500 companies; $5M ARR)
 - Owned AI-first strategy, roadmap, and operating model for an enterprise AI platform that automates complex agentic and predictive decisions; influenced the CEO/CTO to pivot the company from consulting to a product-led model, reaching $5M ARR and $25M in annualized client savings across 5 Fortune 500 clients.
 - Defined the business model with tiered subscription pricing and packaging; persuaded leadership and investors to deploy as a managed service in client environments instead of pure SaaS, trading 1 extra month of deployment for 2 clients with strict data-residency requirements.
-- Launched a multi-agent intelligent automation system (LLMs, RAG, LangGraph, MCP) that triages exceptions across thousands of SKUs and routes high-risk actions to human review with audit logs, shipped through eval gates (groundedness, tool compliance, action safety) and a shadow-mode launch; 70% of recommendations accepted, reviewer effort cut from 4 hrs/day to 4 hrs/week.
+- Launched a multi-agent intelligent automation system (LLMs, RAG, LangGraph, MCP) that triages exceptions across thousands of SKUs and routes high-risk actions to human review with audit logs, shipped through eval gates (groundedness, tool compliance, action safety) and a shadow-mode launch; 70% of recommendations accepted, reviewer effort cut from 4 hrs/day to 4 hrs/week, and client overstock cut from $5M to $2M.
 - Grew forecast adoption from 50% to 70% across client planning teams: interviewed planners and observed their workflows to find the top 3 adoption blockers, shipped SHAP explainability first and agent support second, and reviewed results bi-weekly with client leadership.
-- Led 30+ engineers and data scientists to take the platform live at the flagship Fortune 500 client, beating the incumbent tool's forecast accuracy by 21–26% (WAPE) and cutting client overstock from $5M to $2M; mentored 4–5 junior PMs and led dotted-line PMs.
+- Led 30+ engineers and data scientists to take the platform live at the flagship Fortune 500 client, beating the incumbent tool's forecast accuracy by 21–26% (WAPE) with 85% of SKUs live in the first phase; mentored 4–5 junior PMs and led dotted-line PMs.
 - Built the multi-tenant data platform with 7–8 engineers (ingestion, validation, anonymization, lineage, data contracts, an NLP semantic layer with PII blocking), cutting deployment from 3 months to 3 weeks and user clarification requests from 50% to 30%.
 - Built the ROI case for agentic AI: a working prototype (>70% of recommendations adopted) won a 2-month roadmap shift from model accuracy to agents, and model routing cut agent run cost ~30% with no loss in quality.
 
@@ -157,10 +157,10 @@ MBA, Marketing & Operations, IIT Roorkee | B.E., Chemical Engineering, Thapar Un
 ## Revisions Made
 **v6 (2026-10-22): one message per bullet**
 - Agent bullet: now carries the eval gates and shadow-mode launch (they were agent launch steps).
-- Eng/DS bullet: one message, 30+ people taking the platform live and beating the incumbent (WAPE 21–26%, overstock $5M → $2M); mentoring moved here.
+- Eng/DS bullet: one message, 30+ people taking the platform live and beating the incumbent (WAPE 21–26%, 85% of SKUs in phase one); mentoring moved here. The $5M → $2M overstock result stays on the agent bullet (K2).
 - ROI bullet: the business case only (prototype → roadmap shift; ~30% lower agent cost).
 - SMB bias bullet cut to about 1.5 lines. Feature restrictions and segment monitoring are kept for the interview.
-- Dropped the eval dimensions correctness and regression, and the 85% phased rollout, for length.
+- Dropped the eval dimensions correctness and regression for length.
 
 **v5 (2026-10-22): clarity, scale, and RCM parallels**
 - Keystone bullet 4 is now about adoption only (50% → 70%: interviews → blockers → explainability first → bi-weekly client reviews). The prototype ROI case moved to bullet 7.
