@@ -1,6 +1,6 @@
 # Resume Output - Qualcomm · Staff Product Data Manager (PDM), AI Platforms & Systems Solutions
 **Keyword Coverage: 74% (20/27 requirements matched: 11 strong, 9 partial, 7 unmatched)**
-**ATS keyword count (58 JD terms, in bullet text): 67% (39/58)**
+**ATS keyword count (58 JD terms, in bullet text): 66% (38/58)**
 
 Source: Qualcomm careers page, Job ID 3094805 (https://careers.qualcomm.com/careers/job/446720412804), pasted 2026-10-22. San Diego, CA, onsite 5 days/week. Base $181.8K–$272.6K plus discretionary bonus and RSUs.
 
@@ -44,13 +44,13 @@ Source: Qualcomm careers page, Job ID 3094805 (https://careers.qualcomm.com/care
 shifia.mittal09@gmail.com | 206-356-6348 | Seattle, WA, USA | linkedin.com/in/shifiamittal | github.com/shifiamittal
 
 **SUMMARY**
-Principal product manager with 11+ years shipping AI/ML products at scale: agentic AI, model orchestration, and ML platforms in Keystone's AI startup division (**$5M ARR**) and at Amazon (**100+ production models**, **$71M** revenue), aligning senior leaders.
+Principal product manager with 11+ years shipping AI/ML products at scale: agentic AI, model orchestration, and ML platforms in Keystone's AI startup division (**$5M ARR**) and at Amazon (**100+ production models**, **$71M** revenue), aligning C-suite leaders.
 
 **EXPERIENCE** — 2015 - Present (11 years)
 
 **Keystone.ai** | *AI division of Keystone, a 20+ year tech and economics advisory firm ($100M PE-backed)*
 *Principal Product Manager-Technical* — 2024 - Present
-- Led AI platform product strategy, business case, and roadmap for an enterprise agentic AI and forecasting platform, aligning the CEO and CTO to pivot from consulting to product; reached **$5M ARR** and **$25M** annual client savings across **5 Fortune 500 clients**.
+- Led product strategy, business case, and roadmap for an enterprise agentic AI and forecasting platform, aligning the CEO and CTO to pivot from consulting to product; reached **$5M ARR** and **$25M** annual client savings across **5 Fortune 500 clients**.
 - Shipped a multi-agent system (LLMs, LangGraph, MCP tool use, RAG) routing forecast exceptions through triage, root-cause, and action agents with human approval; **70% accepted**, cutting planner effort **4 hrs/day to 4 hrs/week** and overstock **$5M to $2M**.
 - Owned orchestration and model routing for agent workloads (simple tasks to low-cost models, ambiguous ones to stronger models) based on cost, latency, and quality tests; cut agent run cost **~30%** in a pilot with lower latency.
 - Defined KPIs and conformance criteria for agent releases: expert-baselined reference cases, a version-comparison harness, and evals for groundedness, tool compliance, and action safety; agents cleared shadow-mode gates before production.
@@ -68,7 +68,7 @@ Principal product manager with 11+ years shipping AI/ML products at scale: agent
 - Wrote the ML data privacy specification with Amazon's privacy and legal teams and launched access controls, encryption, and anonymization as platform defaults; adopted across **~20 Amazon Payments teams**, saving **5 science FTE/year**.
 
 *Product Manager-Technical, Supply Chain Optimization* — 2018 - 2020
-- Launched TRACE, a causal decision support product that unified 50+ shipping-cost drivers from 14 teams' systems under data contracts and SLAs and recommended the top fix to sellers; drove **$40M** in savings.
+- Built and scaled ML recommendation products for inventory placement, purchase thresholds, and shipping costs across thousands of sellers, unifying 50+ cost drivers from 14 teams' systems under data contracts and SLAs; saved **$100M+**.
 
 *Product Manager, Amazon Pricing* — 2016 - 2018
 - Launched self-service price-perception tools benchmarking Amazon against 800+ retailers in 17 countries for competitive intelligence; adopted by **40+ global pricing leaders**, with signals feeding Amazon's pricing models.
@@ -113,7 +113,13 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 - **What they'll probe:** quantization trade-offs (Q4 vs. Q8 quality loss), tokens/sec and RAM on your machine, why llama.cpp over ONNX Runtime or WinML, how you'd decide NPU vs. GPU vs. cloud, and what "conformance criteria" meant for your agents.
 - **Credibility risk:** the [UNVERIFIED] project bullet. Finish the work and add real numbers before the HM call.
 
-## Regression Checks (Step 7b, final render)
+## Regression Checks: Round 2 (your edits, 2026-10-22)
+- **Edits:** summary ends "aligning C-suite leaders"; Keystone bullet 1 now opens "Led product strategy" (dropped the repeated "AI platform"); the Supply Chain bullet now covers all three ML recommendation products (inventory placement, purchase thresholds, shipping costs) with the $100M+ portfolio total in place of TRACE's $40M.
+- **Keyword count:** 38/58. Dropped "AI platform" (your call; "ML platforms" and "agentic AI" still carry it). Nothing else dropped.
+- **Fact check:** $100M+ is the canonical SPORT + TRACE + MOQ total; 50+ drivers, 14 teams, and data contracts/SLAs come from TRACE (A11) and stay accurate as part of the portfolio. "C-suite leaders" is backed by the CEO/CTO and Fortune 500 executives (R37 used the same wording).
+- **Style guide / render:** 1 page, no orphan lines, results bolded.
+
+## Regression Checks: Round 1 (Step 7b, first render)
 - **Keyword count:** 39/58. Compared with the previous markdown version, these dropped: "Gemma/Qwen/Llama" in Skills (now only in the bullet, still counted) and "Azure, Databricks" (were Skills-only, not JD terms).
 - **Fact check:** every number matches canonical metrics. "Up to 26%" keeps the 21–26% qualifier. Overstock and 70% are on the agent bullet, WAPE on the forecasting bullet, $40M on TRACE. The on-device bullet is [UNVERIFIED] by your choice.
 - **Style guide:** SAD order, one message per bullet, results bolded (inputs such as 8 engineers, 30+ engineers and the 5% launch are not bolded), no first person, no Skills section, 2-line summary. Deviations: the conformance bullet ends on a qualitative result (no metric on record), and the MVP bullet ends with the allowed mentoring clause.
@@ -124,7 +130,7 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 | Resume Bullet (first 60 chars) | Source Section | Match Type |
 |---|---|---|
 | Summary | Profile Basics; Canonical Metrics; K14, K2; Amazon ML Ops | REWORDED |
-| Led AI platform product strategy, business case, and roadmap... | K1; Keystone resume bullets; Source Decision 5; style guide ("5 Fortune 500 clients") | REWORDED |
+| Led product strategy, business case, and roadmap for an ente... | K1; Keystone resume bullets; Source Decision 5; style guide ("5 Fortune 500 clients") | REWORDED |
 | Shipped a multi-agent system (LLMs, LangGraph, MCP tool use,... | K2; Source Decision 18; Canonical Metrics (70%, 4 hrs/day → 4 hrs/week) | REWORDED |
 | Owned orchestration and model routing for agent workloads (s... | K14 (~30%, pilot) | REWORDED |
 | Defined KPIs and conformance criteria for agent releases: ex... | K4; K2 (shadow-mode gates) | REWORDED |
@@ -135,7 +141,7 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 | Integrated third-party credit bureau partner data into a glo... | Amazon FS (consumer credit: +17% coverage, +7% approval, −50% abandonment) | REWORDED |
 | Owned vision and roadmap for a SageMaker-based ML platform c... | Amazon ML Ops; A8 | REWORDED |
 | Wrote the ML data privacy specification with Amazon's privac... | A10; Source Decision 23 (access controls, encryption, anonymization) | REWORDED |
-| Launched TRACE, a causal decision support product that unifi... | A11; Supply Chain | REWORDED |
+| Built and scaled ML recommendation products for inventory pl... | Supply Chain (SPORT, MOQ, TRACE; $100M+ total); A11 (50+ drivers, 14 teams, data contracts and SLAs) | REWORDED |
 | Launched self-service price-perception tools benchmarking Am... | Amazon Pricing; Source Decision 20 | REWORDED |
 | Cognizant line | Cognizant; Source Decision 21 | REWORDED |
 | Ran quantized open-weight models (Llama, Qwen, Gemma; GGUF Q... | None. Added at your request 2026-10-22, to be completed before the recruiter call | **[UNVERIFIED]** |
