@@ -53,10 +53,10 @@ Principal product manager with 11+ years shipping AI/ML products at scale: agent
 - Led product strategy, business case, and roadmap for an enterprise agentic AI and forecasting platform, aligning the CEO and CTO to pivot from consulting to product; reached **$5M ARR** and **$25M** annual client savings across **5 Fortune 500 clients**.
 - Shipped a multi-agent system (LLMs, LangGraph, MCP tool use, RAG) that pairs deterministic controls (a fixed root-cause sequence, guardrails in tool definitions, risk-tiered autonomy) with LLM diagnosis and recommendations; **70% accepted**, cutting planner effort **4 hrs/day to 4 hrs/week** and overstock **$5M to $2M**.
 - Owned orchestration and model routing for agent workloads (simple tasks to low-cost models, ambiguous ones to stronger models) based on cost, latency, and quality tests; cut agent run cost **~30%** in a pilot with lower latency.
+- Set the deployment architecture: persuaded leadership and investors to run the platform in clients' own cloud environments instead of pure SaaS to meet data-residency needs; won **2 additional clients** SaaS couldn't serve.
 - Defined KPIs and conformance criteria for agent releases: expert-baselined reference cases, a version-comparison harness, and evals for groundedness, tool compliance, and action safety; agents cleared shadow-mode gates before production.
-- Owned product definition for a forecasting system (statistical, gradient-boosted, and foundation models incl. Chronos and TFT) for a Fortune 500 client, with bi-weekly leadership reviews; improved accuracy **up to 26%** over the incumbent.
-- Built the multi-tenant data platform with 8 engineers, defining data contracts, APIs, lineage, and anonymization standards across clients; cut deployment from **3 months to 3 weeks**.
-- Delivered the platform MVP in 3 months with 30+ engineers and data scientists across 3 parallel product lanes with milestones and cross-functional reviews; also mentored 3 dotted-line PMs.
+- Owned product definition for a forecasting system (statistical, gradient-boosted, and foundation models incl. Chronos and TFT) for a Fortune 500 client, with bi-weekly cross-functional leadership reviews; improved accuracy **up to 26%** over the incumbent.
+- Built the multi-tenant data platform with 8 engineers, defining data contracts, APIs, lineage, and anonymization standards across clients; cut deployment from **3 months to 3 weeks**; also mentored 3 dotted-line PMs.
 
 **Amazon** — 2016 - 2024 (8 years)
 *Sr. Product Manager-Technical, Amazon Business Financing & Credit* — 2022 - 2024
@@ -113,6 +113,12 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 - **What they'll probe:** quantization trade-offs (Q4 vs. Q8 quality loss), tokens/sec and RAM on your machine, why llama.cpp over ONNX Runtime or WinML, how you'd decide NPU vs. GPU vs. cloud, and what "conformance criteria" meant for your agents.
 - **Credibility risk:** the [UNVERIFIED] project bullet. Finish the work and add real numbers before the HM call.
 
+## Regression Checks: Round 4 (Option 2, 2026-10-22)
+- **Edit:** added the deployment-architecture bullet (K12) after model routing, so the Keystone section has a "where compute runs" pair: routing across models, then placement inside client environments. Cut the MVP bullet and moved its mentoring clause to the data platform bullet (an allowed trailing clause). The forecasting bullet now says "cross-functional leadership reviews".
+- **Keyword count:** 37/58. "Cross-functional" left with the MVP bullet and was restored on the forecasting bullet. Nothing else dropped.
+- **Fact check:** K12 says leadership and investors wanted multi-tenant SaaS, she recommended a managed service in the client's environment for data residency, and it gained +2 data-residency clients (canonical). The extra month of deployment isn't on the resume; say it in the interview. "Cross-functional" fits K22's multi-team reviews (commercial, sales, demand planning, both leaderships). Lost from the resume: MVP in 3 months and the 30+ engineers figure.
+- **Style guide / render:** 1 page, no orphan lines, the new bullet is 2 lines.
+
 ## Regression Checks: Round 3 (your edit, 2026-10-22)
 - **Edit:** the Keystone agent bullet now shows the deterministic + LLM split (fixed root-cause sequence, guardrails in tool definitions, risk-tiered autonomy around LLM diagnosis and recommendations). It echoes the job-search bullet, so both read as one design principle.
 - **Keyword count:** 37/58, unchanged. Dropped "triage" and "human approval" from this bullet (not JD terms).
@@ -141,8 +147,8 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 | Owned orchestration and model routing for agent workloads (s... | K14 (~30%, pilot) | REWORDED |
 | Defined KPIs and conformance criteria for agent releases: ex... | K4; K2 (shadow-mode gates) | REWORDED |
 | Owned product definition for a forecasting system (statistic... | K22; Canonical Metrics (WAPE 21–26%) | REWORDED |
-| Built the multi-tenant data platform with 8 engineers, defin... | K15; Source Decision 23 (anonymization); Canonical Metrics (3 months → 3 weeks) | REWORDED |
-| Delivered the platform MVP in 3 months with 30+ engineers an... | Canonical Metrics (MVP 3 months); Source Decisions 24, 25; Leadership (3 lanes) | REWORDED |
+| Built the multi-tenant data platform with 8 engineers, defin... | K15; Source Decisions 23 (anonymization), 25 (3 dotted-line PMs); Canonical Metrics (3 months → 3 weeks) | REWORDED |
+| Set the deployment architecture: persuaded leadership and in... | K12; Canonical Metrics (+2 data-residency clients) | REWORDED |
 | Launched Amazon Business' ML financing product with versione... | Amazon FS; A1, A7, A14 (APIs) | REWORDED |
 | Integrated third-party credit bureau partner data into a glo... | Amazon FS (consumer credit: +17% coverage, +7% approval, −50% abandonment) | REWORDED |
 | Owned vision and roadmap for a SageMaker-based ML platform c... | Amazon ML Ops; A8 | REWORDED |
