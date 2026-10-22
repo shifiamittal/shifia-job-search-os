@@ -1,6 +1,6 @@
 # Resume Output - Qualcomm · Staff Product Data Manager (PDM), AI Platforms & Systems Solutions
 **Keyword Coverage: 74% (20/27 requirements matched: 11 strong, 9 partial, 7 unmatched)**
-**ATS keyword count (58 JD terms, in bullet text): 66% (38/58)**
+**ATS keyword count (58 JD terms, in bullet text): 64% (37/58)**
 
 Source: Qualcomm careers page, Job ID 3094805 (https://careers.qualcomm.com/careers/job/446720412804), pasted 2026-10-22. San Diego, CA, onsite 5 days/week. Base $181.8K–$272.6K plus discretionary bonus and RSUs.
 
@@ -115,7 +115,7 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 
 ## Regression Checks: Round 2 (your edits, 2026-10-22)
 - **Edits:** summary ends "aligning C-suite leaders"; Keystone bullet 1 now opens "Led product strategy" (dropped the repeated "AI platform"); the Supply Chain bullet now covers all three ML recommendation products (inventory placement, purchase thresholds, shipping costs) with the $100M+ portfolio total in place of TRACE's $40M.
-- **Keyword count:** 38/58. Dropped "AI platform" (your call; "ML platforms" and "agentic AI" still carry it). Nothing else dropped.
+- **Keyword count:** 37/58. Dropped "AI platform" (your call; "ML platforms" and "agentic AI" still carry it) and "senior leaders" (replaced by "C-suite leaders", which is stronger). Nothing else dropped.
 - **Fact check:** $100M+ is the canonical SPORT + TRACE + MOQ total; 50+ drivers, 14 teams, and data contracts/SLAs come from TRACE (A11) and stay accurate as part of the portfolio. "C-suite leaders" is backed by the CEO/CTO and Fortune 500 executives (R37 used the same wording).
 - **Style guide / render:** 1 page, no orphan lines, results bolded.
 
