@@ -1,6 +1,6 @@
-# Hiring Manager Outreach: Taimur [last name: verify] · Principal Product Manager, R37 AI Lab (R1 RCM)
+# Hiring Manager Outreach: Tymor Hamamsy (verify) · Principal Product Manager, R37 AI Lab (R1 RCM)
 
-**Who:** Taimur is CTO of the R37 AI Lab. Per Amber O'Brien (Otter call, 2026-10-08), this role reports into him. His last name and email are not on record, and a web search didn't confirm them. Check his LinkedIn before sending.
+**Who:** Most likely **Tymor Hamamsy**, co-founder and CTO of Phare Health, which R1 acquired in Oct 2025; the Phare team joined R37. Amber said "Taimur," the CTO of the AI lab, with a medical background and an AI PhD. Phare's bio lists a PhD in AI from NYU and an MS in biomedical informatics from Stanford. The name and background match, but not perfectly; confirm on LinkedIn that his current title is CTO at R37 / R1. LinkedIn URL not found by web search.
 **Referral path:** Recruiter-sourced (Amber O'Brien, R1 RCM). No referral on record.
 **Work product:** none yet (see note below).
 **Key qualification:** a multi-agent system with human-in-the-loop review; 70% of recommendations accepted; reviewer effort cut from 4 hrs/day to 4 hrs/week.
@@ -12,7 +12,7 @@
 
 **Subject:** Principal PM, R37 AI Lab: following up directly
 
-> Hi Taimur,
+> Hi Tymor,
 >
 > Amber O'Brien and I spoke on October 8 about the Principal Product Manager role on your team, and I sent her my resume on [date]. I haven't been able to reconnect with her despite a couple of follow-ups, so I'm reaching out directly. My resume is attached.
 >
@@ -30,7 +30,7 @@
 
 ### LinkedIn version (connection note or InMail)
 
-> Hi Taimur, I spoke with Amber O'Brien Oct 8 about the Principal PM role and sent my resume, but couldn't reconnect, so I'm reaching out directly. I've shipped agentic AI with human review (70% of recommendations accepted) and spent 8 years on ML at Amazon in regulated lending. Open to a quick chat?
+> Hi Tymor, I spoke with Amber O'Brien Oct 8 about the Principal PM role and sent my resume, but couldn't reconnect, so I'm reaching out directly. I've shipped agentic AI with human review (70% of recommendations accepted) and spent 8 years on ML at Amazon in regulated lending. Open to a quick chat?
 
 **Length:** 299 characters (fits LinkedIn's 300-character connection-note limit).
 
@@ -39,7 +39,7 @@
 ## Notes
 - **Tone toward Amber:** the email states the facts without blame ("haven't been able to reconnect"). Don't CC her. If Taimur forwards it, it should read well to her too.
 - **No work product yet.** The OS's HM rule is to lead with a work product. This email is a check-in, so it works without one, but a one-page take on evaluating a coding or denials agent would make a stronger follow-up. Run `/work-product R37 AI Lab, Principal PM, get-interview`.
-- **Before sending:** fill in the date you sent the resume to Amber; confirm Taimur's last name and email (LinkedIn, or R1's email format: Amber's is first-initial + last name @r1rcm.com).
+- **Before sending:** fill in the date you sent the resume to Amber; confirm Tymor's current title and email (LinkedIn, or R1's email format: Amber's is first-initial + last name @r1rcm.com).
 
 ## Next steps
 - [ ] Send Tuesday–Thursday, 8–10am Mountain Time (R1 HQ is Salt Lake City)
