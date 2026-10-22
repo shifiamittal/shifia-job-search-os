@@ -78,7 +78,7 @@ Interview line: "Lending and RCM are both regulated, high-volume financial decis
 
 ## Resume
 
-_FINAL: `Shifia_Mittal_Resume_R37.docx` (Shifia's edits, 2026-10-22). Text below is generated from it._
+_FINAL: `Shifia_Mittal_Resume_R37.docx` (2026-10-22). Text below is generated from it._
 
 **SHIFIA MITTAL**
 
@@ -94,11 +94,11 @@ Principal product manager with 11+ years shipping AI/ML products at scale: led a
 
 *Principal Product Manager-Technical 2024 - Present*
 
--   Led AI product strategy, roadmap, and operating model for an enterprise AI supply chain platform (forecasting models and agentic workflows), influencing C-suite executives to pivot the company from consulting to a product-led model; reached \$5M ARR, \$25M in annualized client savings across 5 Fortune 500 clients, and 21--26% better forecast accuracy.
+-   Led AI product strategy, roadmap, and operating model for an enterprise AI supply chain platform (forecasting models and agentic workflows), influencing C-suite executives to pivot the company from consulting to a product-led model; reached \$5M ARR, \$25M in annualized client savings across 5 Fortune 500 clients, and 21--26% better forecast accuracy than the incumbent tool.
 
--   Defined the business model, tiered subscription pricing, go-to-market; persuaded leadership and investors to deploy as a managed service in clients' cloud instead of pure SaaS enabling 2 additional clients with strict data-residency needs.
+-   Defined the business model, tiered subscription pricing, and go-to-market; persuaded leadership and investors to deploy as a managed service in clients' cloud instead of pure SaaS, enabling 2 additional clients with strict data-residency needs.
 
--   Launched a generative AI multi-agent system for intelligent automation (LLMs, RAG, LangGraph, MCP) that triages exceptions, acts autonomously on low-risk decisions and routes the rest to human-in-the-loop review; shipped through evaluation gates and achieving 70% recommendation acceptance, reducing 4 hrs/day to 4 hrs/week of reviewer effort, and \$5M to \$2M overstock.
+-   Launched a generative AI multi-agent system for intelligent automation (LLMs, RAG, LangGraph, MCP) that triages exceptions, automates low-risk decisions and routes the rest to human-in-the-loop review; shipped through evaluation gates, achieving 70% recommendation acceptance, cutting reviewer effort from 4 hrs/day to 4 hrs/week and overstock from \$5M to \$2M.
 
 -   Built the ROI case for agentic AI with a working prototype, showing \>70% of recommendations adopted and winning a 2-month roadmap shift from model accuracy to agents; later cut agent run cost \~30% via model routing.
 
@@ -114,9 +114,9 @@ Principal product manager with 11+ years shipping AI/ML products at scale: led a
 
 -   Launched Amazon Business' ML financing product via experimentation, a 5% controlled launch, biweekly Agile sprints, and monthly VP-level reviews against an S-team goal, scaling to 50K+ customers and \$71M in incremental revenue.
 
--   Corrected a data bias in SMB credit underwriting, where thin credit files held small-business approval at 4%; rebuilt the model on Amazon behavioral data raising SMB approval to 15% with no credit losses after full launch.
+-   Corrected a data bias in SMB credit underwriting, where thin credit files held small-business approval at 4%; rebuilt the model on Amazon behavioral data, raising SMB approval to 15% with no credit losses after full launch.
 
--   Applied responsible AI to credit and fraud models in regulated lending by explaining every declined application with adverse-action reason codes, and setting the fraud threshold at 99% precision, clearing regulatory review with Amazon's financial risk teams without blocking legitimate businesses.
+-   Applied responsible AI to credit and fraud models in regulated lending by explaining every declined application with adverse-action reason codes and setting the fraud threshold at 99% precision, clearing regulatory review with Amazon's financial risk teams without blocking legitimate businesses.
 
 *Sr. Product Manager-Technical, ML Ops Developer Platform 2020 - 2022*
 
@@ -203,6 +203,8 @@ Fixed in v8: summary trimmed from 269 to 251 characters (about 2 lines; check in
 **Bullets flagged for verification:** 0. The SMB bias bullet uses only Amazon behavioral data. The +17% bureau coverage belongs to the separate global consumer credit product and is left out. If bureau integrations were also part of the SMB underwriting, say so and it can go back in.
 
 ## Revisions Made
+**Final + proofread (2026-10-22):** grammar fixes on the business-model, agent, SMB, and responsible-AI bullets; restored "than the incumbent tool"; "acts autonomously on" → "automates" to remove a one-word last line. One page.
+
 **Final (2026-10-22), Shifia's own edits:** tightened business-model, agent, SMB, and responsible-AI bullets; agent bullet moved before the ROI bullet; delivery bullet now "MVP in 3 months … mentored 3 dotted-line PMs"; "ML Ops Developer Platform"; "30+ data scientists"; dropped "than the incumbent tool", SHAP on adverse-action codes, and business-level features. One page.
 
 **v12 (2026-10-22):** Summary cleanup: "$5MM" → "$5M", "50K" → "50K+", added "an", "and aligned" → ", aligning". Keystone context line no longer mentions the 2026 spin-out.
