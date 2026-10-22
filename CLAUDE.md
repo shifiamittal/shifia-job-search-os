@@ -23,6 +23,7 @@ IMPORTANT: At session start, read these files to understand the user before doin
 - `context-library/target-companies.md` - Ranked list of ~100 target companies with research.
 - `context-library/connection-tracker.md` - Networking contacts by company with relationship status.
 - `context-library/interview-history.md` - Past interview log with scores, patterns, and weakness heatmap.
+- `context-library/resume-style-guide.md` - The user's resume format and wording rules. `/resume-tailor` applies them to the first draft.
 
 If any context file is empty or has only template placeholders, tell the user to fill it first. Do not proceed with generic output.
 
