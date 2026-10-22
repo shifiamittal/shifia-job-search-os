@@ -31,7 +31,7 @@ Overqualification risk: the recruiter may read Principal → Senior as a flight 
 Seattle, WA | 206-356-6348 | shifia.mittal09@gmail.com | linkedin.com/in/shifiamittal
 
 **SUMMARY**
-Product manager who takes AI and data-intensive B2B products from customer discovery through delivery and adoption. Builds AI-assisted review workflows where models flag issues and expert users approve them, including a multi-agent system that cut planner review from 4 hrs/day to 4 hrs/week. Learns technical domains fast (supply chain planning, consumer credit, ML operations), earns credibility with expert users through workflow observation, and aligns executives and engineering through clear written decision docs.
+Product manager who takes AI and data-intensive B2B products from customer discovery through delivery and adoption. Builds AI-assisted review workflows where models flag issues and expert users approve them, including a multi-agent system that cut planner review from 4 hrs/day to 4 hrs/week. Learns technical domains fast (supply chain planning, consumer credit, ML operations), earns credibility with expert users through workflow observation, and aligns executives (CEO/CTO at Keystone, VP-level leaders at Amazon) and engineering through clear written decision docs.
 
 **EXPERIENCE**
 
@@ -48,16 +48,16 @@ Product manager who takes AI and data-intensive B2B products from customer disco
 *Sr. Product Manager – Technical*
 
 **Amazon Business Financing & Credit (2022 – 2024)**
-- Launched an ML-based financing product on Amazon Business and scaled it to 50K+ customers ($71M incremental revenue); redesigned it around monthly eligibility after customer interviews in a 5% launch showed SMBs needed to plan purchases ahead.
-- Shipped credit bureau integrations (+17% data coverage, +7% approval lift) and an onboarding redesign that cut abandonment 50%; presented monthly program updates to VP-level leadership.
+- Launched an ML-based financing product on Amazon Business and scaled it to 50K+ customers ($71M incremental revenue), redesigning it around monthly eligibility after customer interviews in a 5% launch; presented monthly product updates to VP-level leadership.
+- Scaled the credit product through ML-personalized marketing ($15M incremental revenue), credit bureau integrations (+17% data coverage, +7% approval lift), and an onboarding redesign that cut abandonment 50%.
 
 **Machine Learning Platform (2020 – 2022)**
 - Owned vision, roadmap, and adoption for a SageMaker-based ML platform that 30+ scientists used to deploy, evaluate, and monitor 100+ production models; cut deployment time 40% and doubled production models with no added headcount.
-- Defined how privacy requirements applied to ML with Amazon privacy bar raisers and Legal; shipped a semi-automated solution in ~2 months that became standard platform policy across Amazon Payments (~20 teams).
+- Defined how privacy requirements applied to ML with Amazon privacy bar raisers and Legal; shipped a semi-automated solution in ~2 months, approved by Amazon's Director of Data Privacy and Compliance as platform policy across Payments (~20 teams).
 
 **Supply Chain ML Recommendations (2018 – 2020)**
-- Launched TRACE, a causal-attribution product that unified data from 14 systems and 50+ shipping-cost drivers into recommendations for sellers; drove $40M in savings, part of $100M+ across the portfolio.
-- Researched sellers who did and didn't act on an inventory recommendation product, then redesigned discoverability and execution; adoption rose ~10%.
+- Built and scaled three ML recommendation products for sellers: inventory placement (SPORT), purchase thresholds (MOQ, 20K merchants, ~60% higher adherence), and causal shipping-cost attribution (TRACE, 50+ drivers across 14 systems); delivered $100M+ in cost savings, including $40M from TRACE.
+- Won the VP of Amazon FBA's approval for SPORT to recommend inventory placement to sellers; used seller research to redesign discoverability and execution, lifting adoption ~10%.
 
 **Cognizant Technology Solutions** | Business Analyst | May 2015 – Sep 2016: solution design and pricing for $25M in APAC deals.
 
@@ -72,6 +72,7 @@ MBA, Marketing & Operations, IIT Roorkee | B.E., Chemical Engineering, Thapar Un
 ---
 
 ## Recruiter Review
+- **Revision 2 (2026-10-22, your feedback):** added back ML-personalized marketing ($15M). VP-level updates are now product updates, not program updates. Showed managing up in each role: CEO/CTO at Keystone, VP updates in Financing, Director approval in the ML platform role, the FBA VP in Supply Chain. Combined SPORT, MOQ and TRACE into one line.
 - **6-second scan: PASS.** The top third says "AI-assisted review workflows where models flag and experts approve." That's AiDetect's product, in your words, backed by a metric.
 - **Relevance:** the first two Keystone bullets cover the two halves of the role: shipping defined work (the review workflow) and 0→1 build/kill discovery.
 - **Revisions made:** the first draft ran 3 lines onto page 2, so the skills lines and the Cognizant line were shortened. The summary has no "$100M+" or "S-team" and doesn't open with Amazon, which keeps the overqualification signal down for a Senior role.
@@ -87,19 +88,19 @@ MBA, Marketing & Operations, IIT Roorkee | B.E., Chemical Engineering, Thapar Un
 | Resume Bullet (first 60 chars) | Source | Original | Match Type |
 |---|---|---|---|
 | Summary: "4 hrs/day to 4 hrs/week" | K2 / canonical | Planner time 4 hrs/day → 4 hrs/week | REWORDED |
-| Summary: "aligns executives and engineering through clear written decision docs" | User, in chat 2026-10-22 (Source Decision 23) | "leveraged at Amazon and Keystone to … align senior executives … drive requirements" | REWORDED (user-confirmed; specific docs pending) |
+| Summary: "aligns executives (CEO/CTO at Keystone, VP-level leaders at Amazon)..." | User, in chat 2026-10-22 (Source Decision 23) | "leveraged at Amazon and Keystone to … align senior executives … drive requirements" | REWORDED (user-confirmed; specific docs pending) |
 | Launched an AI-assisted review workflow for enterprise dema... | K2 | Multi-agent system … shadow mode … >70% exception recall and >70% recommendation acceptance | REWORDED |
 | Ran 0→1 discovery on the agent bet: prototyped it in Codex... | K11 | Prototyped an agent in Codex … >70% adopted … swap 2 months of planned accuracy work | REWORDED |
 | Led 0→1 strategy and roadmap for Deep Enterprise, the produ... | K1 + resume bullet | 0→1 strategy … WAPE 21% … 6 → 4 months … 5 enterprises; CEO/CTO, 20+ engineers and scientists | REWORDED |
 | Earned credibility with expert demand planners through ~3 m... | K10 + K21 | ~3 months high-touch support … interviews, workflow observation … adoption 50% → 70% | REWORDED |
 | Set evaluation and launch thresholds for AI recommendations... | K4 + K5 | Reference cases with an expert baseline … adoption fell 70% → 50% … back to 70% | REWORDED |
 | Built a multi-tenant cloud data platform across AWS and Azu... | K15 + LinkedIn bullet + canonical | Multi-tenant Data Platform … Pulumi IaC across AWS and Azure … 7–8 engineers … 2 months → 2 weeks | REWORDED |
-| Launched an ML-based financing product on Amazon Business a... | Amazon FS bullet + A2 | 50K+ customers, $71M … interviews showed SMBs needed monthly eligibility | REWORDED |
-| Shipped credit bureau integrations (+17% data coverage, +7%... | Amazon FS bullet + Source Decision 16 | +17% coverage, +7% approval, −50% abandonment; monthly updates to VP-level leadership | REWORDED |
+| Launched an ML-based financing product on Amazon Business a... | Amazon FS bullet + A2 + Source Decision 16 | 50K+ customers, $71M … interviews showed SMBs needed monthly eligibility; monthly product updates to VP-level leadership | REWORDED |
+| Scaled the credit product through ML-personalized marketing... | Amazon FS bullet | $15M from ML-personalized marketing, +17% coverage, +7% approval, −50% abandonment | REWORDED |
 | Owned vision, roadmap, and adoption for a SageMaker-based M... | ML Ops bullets | 30+ scientists, 100+ models, −40% deployment, 2× models, no added headcount | EXACT |
-| Defined how privacy requirements applied to ML with Amazon... | A10 | Defined requirements with privacy bar raisers and Legal … semi-automated in ~2 months … Payments (~20 teams) | REWORDED |
-| Launched TRACE, a causal-attribution product that unified d... | A11 + canonical | 50+ cost factors across 14 systems … $40M ($100M+ across SPORT, TRACE, MOQ) | REWORDED |
-| Researched sellers who did and didn't act on an inventory r... | SPORT bullet + A12 | Seller research … redesigned discoverability and execution … ~10% | REWORDED |
+| Defined how privacy requirements applied to ML with Amazon... | A10 | Defined requirements with privacy bar raisers and Legal … semi-automated in ~2 months … Director of Data Privacy and Compliance approved it as Payments-wide policy (~20 teams) | REWORDED |
+| Built and scaled three ML recommendation products for selle... | Supply chain bullets + A11 + canonical | SPORT, MOQ (20K merchants, ~60% adherence), TRACE (50+ drivers, 14 systems, $40M); $100M+ combined | REWORDED |
+| Won the VP of Amazon FBA's approval for SPORT to recommend... | Source Decision 19 + SPORT bullet | Influenced the VP of Amazon FBA to let SPORT recommend inventory placement … seller research … ~10% | REWORDED |
 | Cognizant: solution design and pricing for $25M in APAC deals | Cognizant bullet | Design infrastructure service solutions and pricing for deals worth $25M | REWORDED |
 
 **Bullets removed (no source):** 0
