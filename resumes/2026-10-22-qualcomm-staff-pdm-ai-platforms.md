@@ -53,6 +53,7 @@ Principal product manager with 11+ years shipping AI/ML products at scale: agent
 - Led product strategy, business case, and roadmap for an enterprise agentic AI and forecasting platform, aligning the CEO and CTO to pivot from consulting to product; reached **$5M ARR** and **$25M** annual client savings across **5 Fortune 500 clients**.
 - Shipped a multi-agent system (LLMs, LangGraph, MCP tool use, RAG) that pairs deterministic controls (a fixed root-cause sequence, guardrails in tool definitions, risk-tiered autonomy) with LLM diagnosis and recommendations; **70% accepted**, cutting planner effort **4 hrs/day to 4 hrs/week** and overstock **$5M to $2M**.
 - Owned orchestration and model routing for agent workloads (simple tasks to low-cost models, ambiguous ones to stronger models) based on cost, latency, and quality tests; cut agent run cost **~30%** in a pilot with lower latency.
+- Led evaluation of 7B open-weight models (Llama, Mistral), self-hosted in client clouds and run locally, vs. cloud LLMs for root-cause diagnosis and the planner chatbot on quality, latency, cost, and memory; chose the model per task and client.
 - Set the deployment architecture: persuaded leadership and investors to run the platform in clients' own cloud environments instead of pure SaaS to meet data-residency needs; won **2 additional clients** SaaS couldn't serve.
 - Defined KPIs and conformance criteria for agent releases: expert-baselined reference cases, a version-comparison harness, and evals for groundedness, tool compliance, and action safety; agents cleared shadow-mode gates before production.
 - Owned product definition for a forecasting system (statistical, gradient-boosted, and foundation models incl. Chronos and TFT) for a Fortune 500 client, with bi-weekly cross-functional leadership reviews; improved accuracy **up to 26%** over the incumbent.
@@ -113,6 +114,12 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 - **What they'll probe:** quantization trade-offs (Q4 vs. Q8 quality loss), tokens/sec and RAM on your machine, why llama.cpp over ONNX Runtime or WinML, how you'd decide NPU vs. GPU vs. cloud, and what "conformance criteria" meant for your agents.
 - **Credibility risk:** the [UNVERIFIED] project bullet. Finish the work and add real numbers before the HM call.
 
+## Regression Checks: Round 5 (open-weight evaluation, 2026-10-22)
+- **Edit:** new Keystone bullet from Source Decision 26 (real Keystone work, now in the experience library). Placed between model routing and deployment architecture, so the "where compute runs" cluster reads models → open-weight vs. cloud → client environments. All 8 Keystone bullets kept (the build now adds a slot beyond the master's 7).
+- **Not claimed:** runtime tooling, quantization, or numbers for the Keystone evaluation (none on record). Ollama, llama.cpp and quantization stay only in the [UNVERIFIED] project bullet.
+- **Gap table update:** "Quantization, on-device/hybrid trade-offs" and "Orchestration across compute tiers" are now backed by real Keystone work (local vs. self-hosted vs. cloud on latency, cost and memory), still PARTIAL (no NPU/Windows).
+- **Style guide / render:** 1 page, the new bullet is 2 lines, no orphan lines. The result is qualitative (no metric on record), a noted deviation.
+
 ## Regression Checks: Round 4 (Option 2, 2026-10-22)
 - **Edit:** added the deployment-architecture bullet (K12) after model routing, so the Keystone section has a "where compute runs" pair: routing across models, then placement inside client environments. Cut the MVP bullet and moved its mentoring clause to the data platform bullet (an allowed trailing clause). The forecasting bullet now says "cross-functional leadership reviews".
 - **Keyword count:** 37/58. "Cross-functional" left with the MVP bullet and was restored on the forecasting bullet. Nothing else dropped.
@@ -148,6 +155,7 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 | Defined KPIs and conformance criteria for agent releases: ex... | K4; K2 (shadow-mode gates) | REWORDED |
 | Owned product definition for a forecasting system (statistic... | K22; Canonical Metrics (WAPE 21–26%) | REWORDED |
 | Built the multi-tenant data platform with 8 engineers, defin... | K15; Source Decisions 23 (anonymization), 25 (3 dotted-line PMs); Canonical Metrics (3 months → 3 weeks) | REWORDED |
+| Led evaluation of 7B open-weight models (Llama, Mistral), sel... | Source Decision 26 (stated by user 2026-10-22) | REWORDED |
 | Set the deployment architecture: persuaded leadership and in... | K12; Canonical Metrics (+2 data-residency clients) | REWORDED |
 | Launched Amazon Business' ML financing product with versione... | Amazon FS; A1, A7, A14 (APIs) | REWORDED |
 | Integrated third-party credit bureau partner data into a glo... | Amazon FS (consumer credit: +17% coverage, +7% approval, −50% abandonment) | REWORDED |
