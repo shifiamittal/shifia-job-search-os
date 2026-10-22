@@ -1,6 +1,6 @@
 # Experience Library
 
-Last updated: 2026-10-21
+Last updated: 2026-10-22
 Sources: LinkedIn profile PDF export (Profile (5).pdf), LinkedIn profile page text, and `Resume variants/Shifia_Mittal_Resume.docx`.
 
 This is the single source of truth. Every skill draws from this file. Anything marked **[CONFIRM]** has a conflict or gap between sources. Resolve it before using it in an application.
@@ -46,6 +46,14 @@ This is the single source of truth. Every skill draws from this file. Anything m
 20. **Amazon Pricing insight tools (confirmed 2026-10-21):** saved analyst time (no number on record) and drove pricing changes; price-perception signals fed Amazon's pricing models that set product prices.
 21. **Cognizant (confirmed 2026-10-21):** 30+ infrastructure-setup deals in pre-sales, 45% win rate.
 22. **Hiring (confirmed 2026-10-21):** use "50+ hiring interviews across Keystone and Amazon" in the LinkedIn About section.
+23. **Regulated-data and responsible-AI controls (confirmed 2026-10-22):**
+    - **Financial risk models (Amazon lending):** ensured the models complied with regulatory requirements, through parallel review with Amazon's financial risk teams. No formal fair-lending (ECOA/Reg B) review with Legal/Compliance.
+    - **Credit model:** produced adverse-action reason codes for declined applicants; tested model impact on SMB vs. enterprise customers; handled PII while building models.
+    - **Thin-file SMB bias (confirmed 2026-10-22):** measured SMB approval at 4% vs. a much higher enterprise rate (exact enterprise rate not on record). Low SMB approval was partly because standard credit data covered small businesses poorly (thin files); the new underwriting used Amazon behavioral data. The model used business-level data only; owner personal attributes and ZIP code were excluded as restricted. Segment approvals were monitored after launch. Result: SMB approval 4% → 15%. Amazon ran fair-lending practices, but Shifia wasn't directly involved, so don't claim fair-lending review. Note: the +17% bureau data coverage belongs to the global consumer credit product, not PBI 2.0 SMB underwriting.
+    - **Security and privacy features:** launched access controls and encryption in the MLOps platform (MDLC); launched anonymization in both MDLC and the Keystone Data Platform.
+    - **Healthcare exposure:** none. Cognizant, Amazon Business financing, and Keystone had no healthcare clients or segments. Supply-chain products (SPORT/TRACE/MOQ) covered all Amazon categories, including medical and pharmacy items. That's true, but too thin to claim as healthcare experience.
+25. **Keystone dotted-line PMs (stated by user 2026-10-22, R37 final resume):** mentored **3 dotted-line PMs** at Keystone. Separate from the 4–5 junior PMs and interns mentored overall.
+24. **Keystone scale and structure (stated by user 2026-10-22):** product direction across **30+ engineers and scientists**. Earlier entries in this library, the resume, and LinkedIn say 20+; 30+ is now the figure to use, so update LinkedIn to match. Keystone.ai is the AI startup division inside a company that has been around for 20+ years (from the R37 recruiter call, 2026-10-08). **Public context (web, 2026-10-22):** Keystone (Keystone Strategy) is a technology, economics, and strategy advisory firm founded ~2002–2003, backed by RLH Equity Partners since 2021. In early 2026 the advisory practice was sold to Audax Private Equity and the AI business, including the Deep Enterprise AI platform, was spun out as Keystone.AI (CEO Greg Richards; RLH retains a stake). Resume context line: "AI division of Keystone, a 20+ year tech and economics advisory firm; spun out as Keystone.AI in 2026."
 
 ---
 

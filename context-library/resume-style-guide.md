@@ -1,0 +1,48 @@
+# Resume Style Guide
+
+Last updated: 2026-10-22
+Source: Shifia's edits and feedback during the R37 AI Lab resume (2026-10-22). `/resume-tailor` applies every rule here to the first draft. Change a rule here, not in a single resume.
+
+## Master file and layout
+- **Master layout:** `resumes/Shifia_Mittal_Resume_R37.docx`. Copy it for each new role and edit the copy. Don't rebuild the layout from markdown.
+- One page, US Letter, Calibri 10pt body. Margins: 0.4" top and bottom, 0.55" left and right.
+- Dates are right-aligned with a single right tab stop at the right margin, never with tab padding.
+- Render to PDF and check the page after every edit round.
+
+## Header
+- `SHIFIA MITTAL`, centered.
+- Contact line: `email | 206-356-6348 | Seattle, WA, USA | linkedin.com/in/shifiamittal | github.com/shifiamittal`
+- Show full URLs as the link text, not "LinkedIn" or "GitHub". Links must be live: LinkedIn → `https://www.linkedin.com/in/shifiamittal`, GitHub → `https://github.com/shifiamittal`, email → `mailto:` with no stray characters.
+
+## Sections
+- **SUMMARY:** exactly 2 rendered lines. Lead with level + years + "shipping AI/ML products at scale", then Keystone (startup) and Amazon (scale) with 2–3 numbers, then influence.
+- **EXPERIENCE** with total span on the right: `2015 - Present (11 years)`.
+- **EDUCATION** with years.
+- **No Skills section.** Every skill appears as proof inside a bullet.
+
+## Employers and titles
+- **Keystone.ai** | *AI division of Keystone, a 20+ year tech and economics advisory firm ($100M PE-backed)*. Context line on one line. Don't mention the 2026 spin-out.
+  - Title: *Principal Product Manager-Technical*, `2024 - Present`
+- **Amazon** `2016 - 2024 (8 years)`, with role-level titles and years:
+  - *Sr. Product Manager-Technical, Amazon Business Financing & Credit* 2022 - 2024
+  - *Sr. Product Manager-Technical, ML Ops Developer Platform* 2020 - 2022
+  - *Product Manager-Technical, Supply Chain Optimization* 2018 - 2020
+  - *Product Manager, Amazon Pricing* 2016 - 2018 (needs at least one bullet)
+- **Cognizant Technology Solutions** | one line with a metric, `2015 - 2016`
+- Title style is "…Product Manager-Technical" (hyphen, no spaces).
+- Dates: years only.
+
+## Bullets
+- **SAD order:** Surface (what product or scope) → Action (what she did) → Data (result). Allowed deviations: a trailing mentoring clause, or a qualitative result when no metric is on record. Note any deviation.
+- **One message per bullet.** Don't mix two products or two unrelated wins. Keep each result on the bullet for the product that produced it (e.g., overstock $5M → $2M belongs to the agent; WAPE belongs to the platform; shadow mode belongs to the agent).
+- No bullet headers or bold labels at the start of bullets.
+- Prefer 2 lines, 3 at most. No last line of 1–3 words; trim words until it pulls up.
+- **Bold the results only** (the D in SAD): $, %, before → after, counts of customers, teams, or models. Don't bold inputs such as team size, launch percentage, or thresholds.
+- Plain language over Amazon jargon ("privacy and legal teams", not "privacy bar raisers").
+- No first person ("I").
+- Qualify ranges honestly ("up to 26%" when the range is 21–26%).
+
+## Wording that has been decided
+- "50K+ customers" (never "millions"); "$5M ARR" (never "$5MM"); "30+ engineers and data scientists" at Keystone; "mentored 3 dotted-line PMs".
+- Don't write "HIPAA-like". Name the controls instead: access controls, encryption, anonymization, data residency.
+- Bias work: thin-file SMB underwriting (business-level features only; owner attributes and ZIP excluded). Don't claim fair-lending review.

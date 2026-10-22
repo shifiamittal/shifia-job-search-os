@@ -29,6 +29,8 @@ All instructions below use PM as the default. When the detected function is NOT 
 - **Required:** Job description text (pasted or referenced)
 - **Auto-loaded:** `context-library/experience-library.md` (source of truth for all experience bullets)
 - **Auto-loaded:** `context-library/career-plan.md` (addressing-weaknesses strategy, level preferences)
+- **Auto-loaded:** `context-library/resume-style-guide.md` (the user's own format and wording rules). **Where it conflicts with the defaults in this skill (summary length, Skills section, bullet labels, date format, bolding, titles), the style guide wins.** Apply it to the first draft. Do not wait for the user to correct the format.
+- **Master layout:** the .docx named in the style guide. Copy it and edit the copy for each new role. Do not rebuild the layout from markdown.
 
 If `experience-library.md` is empty or contains only template placeholders, STOP and tell the user: "Your experience library is empty. Run `Help me build my experience library` first. A tailored resume without real experience data produces generic output."
 
@@ -37,6 +39,14 @@ If `experience-library.md` has Resume Text pasted but the "Organized Experience"
 **Thin experience library warning:** After loading `experience-library.md`, count the total number of concrete experience bullets (lines with specific metrics, outcomes, or project descriptions — not headers or template text). If there are fewer than 15 substantive bullets, display this warning before proceeding: "**Heads up:** Your experience library has [N] bullets. Resumes tailored from thin libraries tend to be generic. For the best results, aim for 20+ bullets with specific metrics. You can continue now, or run `Help me build my experience library` to add more detail first." Then proceed — do not block the user, just warn them.
 
 ## Process
+
+### Step 0: Intake (before writing anything)
+Collect every input before the first draft. Most rework comes from inputs that show up mid-process.
+1. **Recruiter / hiring-manager context.** If a meeting connector (e.g., Otter) is available, search it for calls with the company and pull what the recruiter or HM said matters (e.g., "AI, scale, influence"), who the resume goes to, and logistics. Treat those priorities as the top requirements.
+2. **The user's own priority list.** Show your extracted requirements and ask: "Which of these matter most, and is anything missing?" Use their list if they give one.
+3. **One batch of gap questions.** After matching against `experience-library.md`, ask about every NONE/PARTIAL requirement in a single message, with specific prompts (adjacent work, controls built, team size, numbers not yet recorded). Record answers in `experience-library.md` before drafting.
+4. **Employer context.** If the style guide has no context line for an employer, research it (public sources only) and propose one line.
+5. **Prior versions.** Check `resumes/` for earlier resumes for this company or role and say what you found.
 
 ### Step 1: Parse the JD
 Extract and categorize every requirement from the job description:
@@ -199,7 +209,7 @@ Build the full resume in this order:
 1. **Header:** Name, contact info, links (pulled from experience-library.md)
 2. **Summary (2-3 sentences):** Incorporate the addressing-weaknesses strategy from career-plan.md. Position strengths that directly counter the user's identified gaps. Weave in top JD keywords. Build a "pointy profile" identity -- a through-line that brands the candidate (e.g., "the growth PM who builds experimentation infrastructure") not a jack-of-all-trades ("enterprise SaaS solutions expert").
 3. **Experience:** Most relevant role first (not necessarily most recent). Under each role, lead with bullets that match JD requirements. Limit to 3-5 bullets per role, most matched first. For lesser-known companies, add a parenthetical with size/revenue context (e.g., "Series B fintech, $40M ARR, 200 employees"). **International employer brand rule:** If the user's employers are well-known in their home market but unknown to US recruiters (or vice versa), the parenthetical must include both scale metrics AND a market-positioning anchor that gives the reader instant calibration (e.g., "Rakuten Ichiba ($15B GMV, Japan's largest e-commerce marketplace)" or "Personio (Series E, $8.5B valuation, Europe's leading HR platform)"). The goal is to convert an unfamiliar company name into an immediately impressive signal. Check `career-plan.md` addressing-weaknesses for any "unknown employer brand" weakness -- if present, ensure EVERY employer in the experience section has a contextualizing parenthetical. When the user's experience library already contains these parentheticals, preserve them exactly.
-4. **Skills section:** Mirror the JD's skill categories exactly. Only list skills with evidence in the experience library. Do NOT include cross-functional team sizes (table stakes for PMs -- everyone works cross-functionally). **[FUNCTION-ADAPTIVE]** For SWE: cross-functional influence scope IS a key Staff+ signal, include it. For CS: cross-functional work with Sales and Product is important, include it.
+4. **Skills section** (skip it if the style guide says no Skills section; then every skill must appear as proof inside a bullet, and Step 7b's keyword count must confirm it): Mirror the JD's skill categories exactly. Only list skills with evidence in the experience library. Do NOT include cross-functional team sizes (table stakes for PMs -- everyone works cross-functionally). **[FUNCTION-ADAPTIVE]** For SWE: cross-functional influence scope IS a key Staff+ signal, include it. For CS: cross-functional work with Sales and Product is important, include it.
 5. **Education / Certifications:** Include if JD mentions specific requirements. Do NOT lead with certifications/skills -- they belong at the bottom.
 
 **F-Pattern Reading Rule:** Recruiters scan resumes in an F-pattern (top-left, across, then down the left edge). The top-left quadrant of the resume must contain the strongest, most JD-relevant content. Place the most compelling role, bullet, or summary statement there.
@@ -216,12 +226,21 @@ For each JD requirement scored NONE:
 - Suggest whether a referral message should mention it (reference `/referral-request` skill)
 - If the gap is a years-of-experience shortfall, suggest how the addressing-weaknesses framework handles it
 
-### Step 7: Inline Reviews
-Run these two reviews inline (these are not separate skills -- execute them as part of this skill's output):
-1. **Recruiter scan review** -- Simulate a 6-second recruiter scan. Check: Does the resume pass the glance test? Is the most relevant experience visible in the top third? Is the summary compelling? For career changers: does the summary successfully reframe the non-traditional path? For downleveled candidates: does the resume read as IC-oriented, not executive?
-2. **ATS compatibility review** -- Check ATS compatibility: standard section headers, no tables/columns/graphics in markdown, keyword density, parseable date formats.
+### Step 7: Full Reviews (on the first draft, not just at the end)
+Run the full scored reviews from `sub-agents/` on the first draft. Quick inline passes miss real problems.
+1. **`sub-agents/recruiter-reviewer.md`**: the 6-second scan and its scores.
+2. **`sub-agents/ats-checker.md`**: format issues, plus a hard keyword count of JD terms found in experience bullets (not a Skills list). Also check the .docx itself: hyperlink targets resolve (no `file:///` paths, no stray characters in `mailto:`), no tables, text boxes, or header/footer content.
+3. **`sub-agents/hiring-manager-reviewer.md`**: read as the named hiring managers if known from intake; flag credibility risks and what they would probe.
 
-If either review flags issues, auto-correct the resume and note what changed in a "Revisions" section.
+Auto-correct what is fixable from the experience library, note each change in "Revisions," and list what was not changed and why.
+
+### Step 7b: Regression Checks (after EVERY edit round, including the user's own edits)
+Run these and report the results in one line each time. Do not report a number you have not just recounted.
+- **Keyword count:** recount JD terms in the bullet text. Name any term that dropped since the last version.
+- **Fact check:** every number matches `experience-library.md` (canonical metrics), keeps any qualifier ("after full launch", "up to"), and sits on the bullet for the product that produced it.
+- **Style guide:** SAD order, one message per bullet, results bolded, no first person, no 1–3-word last lines.
+- **Render:** export to PDF and check page count (1), dates on one line, and links. Look at the rendered page, not just the text.
+- **Diff the user's edits:** when the user uploads an edited file, diff it against the last version and check only what changed. Flag grammar slips and any claim that moved past the library.
 
 ### Dual Application Coherence Check
 
@@ -270,7 +289,7 @@ If experience-library.md contains entries marked as classified or with redacted 
 - Advise the user to have their security officer review the resume before submitting.
 
 ### Step 9: Final Output
-Assemble the complete output in the format specified below.
+Assemble the complete output in the format specified below. The deliverable is the edited **.docx and its PDF** (one page, rendered and checked). The markdown file in `resumes/` holds the analysis (gaps, reviews, traceability) and a text copy generated from the .docx. The .docx is the master.
 
 ## Output
 
