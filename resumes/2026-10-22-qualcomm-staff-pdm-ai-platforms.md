@@ -1,6 +1,6 @@
 # Resume Output - Qualcomm · Staff Product Data Manager (PDM), AI Platforms & Systems Solutions
 **Keyword Coverage: 74% (20/27 requirements matched: 11 strong, 9 partial, 7 unmatched)**
-**ATS keyword count (58 JD terms, in bullet text): 57% (33/58)**
+**ATS keyword count (58 JD terms, in bullet text): 60% (35/58)**
 
 Source: Qualcomm careers page, Job ID 3094805 (https://careers.qualcomm.com/careers/job/446720412804), pasted 2026-10-22. San Diego, CA, onsite 5 days/week. Base $181.8K–$272.6K plus discretionary bonus and RSUs.
 
@@ -52,7 +52,7 @@ Principal product manager with 11+ years shipping AI/ML products at scale: agent
 - Led product strategy, business case, and roadmap for an enterprise agentic AI and forecasting platform, aligning the CEO and CTO to pivot from consulting to product; reached **$5M ARR** and **$25M** annual client savings across **5 Fortune 500 clients**.
 - Shipped a multi-agent system (LLMs, LangGraph, MCP tool use, RAG) that pairs deterministic controls (a fixed root-cause sequence, guardrails in tool definitions, risk-tiered autonomy) with LLM diagnosis and recommendations; **70% accepted**, cutting planner effort **4 hrs/day to 4 hrs/week** and overstock **$5M to $2M**.
 - Owned orchestration and model routing for agent workloads (simple tasks to low-cost models, ambiguous ones to stronger models) based on cost, latency, and quality tests; cut agent run cost **~30%** in a pilot with lower latency.
-- Led evaluation of 7B open-weight models (Llama, Mistral) in client clouds and on-device (Ollama, 4-bit quantized) vs. cloud LLMs for root-cause diagnosis and the chatbot on quality, inference latency, cost, and memory; set hybrid routing.
+- Led evaluation of 7B open-weight models (Llama, Mistral) in client clouds and on-device (Ollama/llama.cpp, 4-bit quantized GGUF) vs. cloud LLMs for root-cause diagnosis and chatbot on quality, inference latency, cost, and memory; set hybrid routing.
 - Set the deployment architecture: persuaded leadership and investors to run the platform in clients' own cloud environments instead of pure SaaS to meet data-residency needs; won **2 additional clients** SaaS couldn't serve.
 - Defined KPIs and conformance criteria for agent releases: expert-baselined reference cases, a version-comparison harness, and evals for groundedness, tool compliance, and action safety; agents cleared shadow-mode gates before production.
 - Owned product definition for a forecasting system (statistical, gradient-boosted, and foundation models incl. Chronos and TFT) for a Fortune 500 client, with bi-weekly cross-functional leadership reviews; improved accuracy **up to 26%** over the incumbent.
@@ -109,6 +109,12 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 | **Overall** | **6.5/10** | |
 - **What they'll probe:** quantization trade-offs (Q4 vs. Q8 quality loss), tokens/sec and RAM on your machine, why llama.cpp over ONNX Runtime or WinML, how you'd decide NPU vs. GPU vs. cloud, and what "conformance criteria" meant for your agents.
 - **Credibility risk:** the [UNVERIFIED] project bullet. Finish the work and add real numbers before the HM call.
+
+## Regression Checks: Round 8 (close-out, 2026-10-22)
+- **Edit:** "Ollama, 4-bit quantized" → "Ollama/llama.cpp, 4-bit quantized GGUF". Not a guess: Ollama runs GGUF models on llama.cpp, so it follows from what you confirmed.
+- **Keyword count:** 35/58 (+llama.cpp, +GGUF), recounted on the final render.
+- **Deliberately not added:** the client-cloud serving stack and the per-task/per-client routing outcome. Neither is a JD keyword, and neither is on record. Interview answers for both are in the conversation notes.
+- **Render:** 1 page, no orphan lines.
 
 ## Regression Checks: Round 7 (Ollama confirmed, 2026-10-22)
 - **Edit:** Keystone evaluation bullet now names Ollama and 4-bit quantization (confirmed by you; recorded in Source Decision 26). Trimmed "self-hosted", "planner" and "per task and client" to keep it at 2 lines.
