@@ -1,6 +1,7 @@
 # Hiring Manager Outreach: Tymor Hamamsy (verify) · Principal Product Manager, R37 AI Lab (R1 RCM)
 
 **Who:** Most likely **Tymor Hamamsy**, co-founder and CTO of Phare Health, which R1 acquired in Oct 2025; the Phare team joined R37. Amber said "Taimur," the CTO of the AI lab, with a medical background and an AI PhD. Phare's bio lists a PhD in AI from NYU and an MS in biomedical informatics from Stanford. The name and background match, but not perfectly; confirm on LinkedIn that his current title is CTO at R37 / R1. LinkedIn URL not found by web search.
+**Second reviewer:** **Jon Katzur**, SVP of Engineering for R37 (R1 bio: previously led full-stack AI product teams at Amazon, Slack, and 1010data; at Amazon, led engineering and applied science teams building personalized generative AI buying guides). Amber transcribed him as "John Kaxer, SVP, ex-Amazon," who cares most about scale. Source: r1rcm.com/employee/jon-katzur.
 **Referral path:** Recruiter-sourced (Amber O'Brien, R1 RCM). No referral on record.
 **Work product:** none yet (see note below).
 **Key qualification:** a multi-agent system with human-in-the-loop review; 70% of recommendations accepted; reviewer effort cut from 4 hrs/day to 4 hrs/week.
