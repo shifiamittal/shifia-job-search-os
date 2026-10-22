@@ -53,7 +53,7 @@ Product manager who takes AI and data-intensive B2B products from customer disco
 
 **Machine Learning Platform (2020 – 2022)**
 - Owned vision, roadmap, and adoption for a SageMaker-based ML platform that 30+ scientists used to deploy, evaluate, and monitor 100+ production models; cut deployment time 40% and doubled production models with no added headcount.
-- Defined how privacy requirements applied to ML with Amazon privacy bar raisers and Legal; shipped a semi-automated solution in ~2 months, approved by Amazon's Director of Data Privacy and Compliance as platform policy across Payments (~20 teams).
+- Defined how privacy requirements applied to ML with Amazon privacy bar raisers and Legal; shipped a semi-automated solution in ~2 months and won approval from Amazon's Director of Data Privacy and Compliance to make it platform policy across Payments (~20 teams).
 
 **Supply Chain ML Recommendations (2018 – 2020)**
 - Built and scaled three ML recommendation products for sellers: inventory placement (SPORT), purchase thresholds (MOQ, 20K merchants, ~60% higher adherence), and causal shipping-cost attribution (TRACE, 50+ drivers across 14 systems); delivered $100M+ in cost savings, including $40M from TRACE.
@@ -98,7 +98,7 @@ MBA, Marketing & Operations, IIT Roorkee | B.E., Chemical Engineering, Thapar Un
 | Launched an ML-based financing product on Amazon Business a... | Amazon FS bullet + A2 + Source Decision 16 | 50K+ customers, $71M … interviews showed SMBs needed monthly eligibility; monthly product updates to VP-level leadership | REWORDED |
 | Scaled the credit product through ML-personalized marketing... | Amazon FS bullet | $15M from ML-personalized marketing, +17% coverage, +7% approval, −50% abandonment | REWORDED |
 | Owned vision, roadmap, and adoption for a SageMaker-based M... | ML Ops bullets | 30+ scientists, 100+ models, −40% deployment, 2× models, no added headcount | EXACT |
-| Defined how privacy requirements applied to ML with Amazon... | A10 | Defined requirements with privacy bar raisers and Legal … semi-automated in ~2 months … Director of Data Privacy and Compliance approved it as Payments-wide policy (~20 teams) | REWORDED |
+| Defined how privacy requirements applied to ML with Amazon... | A10 | Defined requirements with privacy bar raisers and Legal … semi-automated in ~2 months … she presented to the Director of Data Privacy and Compliance and won approval as Payments-wide policy (~20 teams) | REWORDED |
 | Built and scaled three ML recommendation products for selle... | Supply chain bullets + A11 + canonical | SPORT, MOQ (20K merchants, ~60% adherence), TRACE (50+ drivers, 14 systems, $40M); $100M+ combined | REWORDED |
 | Won the VP of Amazon FBA's approval for SPORT to recommend... | Source Decision 19 + SPORT bullet | Influenced the VP of Amazon FBA to let SPORT recommend inventory placement … seller research … ~10% | REWORDED |
 | Cognizant: solution design and pricing for $25M in APAC deals | Cognizant bullet | Design infrastructure service solutions and pricing for deals worth $25M | REWORDED |

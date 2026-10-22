@@ -1,12 +1,26 @@
 # Application Tracker
 
-Last updated: 2026-10-21
+Last updated: 2026-10-22
 Scope: current search (2026) only.
 Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applications made on company sites or through referrals aren't captured yet. Add them with `/app-tracker add`.
 
 ---
 
 ## Inbound / Evaluating
+
+### ITpipes - Senior Product Manager
+- **Status:** recruiter-outreach (emailed recruiter 2026-10-22; awaiting reply)
+- **Source:** JD shared by user (Seattle, hybrid; reports to Head of Product)
+- **Referral:** No
+- **Connection at company:** None known
+- **Company tier:** Unranked
+- **Comp-range-confirmed:** No (not posted; estimated ~$180–250K TC, low confidence, below the $380–400K floor)
+- **Fit score:** 50/100 (2026-10-22). Pursuing it for interview practice, by choice.
+- **Materials:** `resumes/Shifia_Mittal_Resume_ITpipes.docx` / `.pdf`; package in `resumes/2026-10-22-itpipes-senior-pm.md`
+- **Last action:** 2026-10-22 Emailed recruiter, asked for the comp band
+- **Next action:** If no reply by 2026-10-29, send one follow-up. If a screen is booked, run `/interview-prep ITpipes Senior PM`. Don't give a number before they share the band.
+- **History:**
+  - 2026-10-22 Fit scored (50); resume tailored; recruiter emailed
 
 ### Undisclosed client (via Rose International) - Principal Product Manager - Technical (contract)
 - **Status:** recruiter-outreach (evaluating; replied 2026-10-21 asking to learn more)
