@@ -86,7 +86,7 @@ _Master copy is `Shifia_Mittal_Resume_R37.docx` (v10). Text below is generated f
 
 **SUMMARY**
 
-Principal product manager with 11+ years shipping AI/ML products at scale: led agentic AI platform for Fortune 500 enterprises in Keystone\'s startup division (\$5MM ARR), and ML products at Amazon (\$71M revenue, 50K customers) and aligned C-suite leaders.
+Principal product manager with 11+ years shipping AI/ML products at scale: led an agentic AI platform for Fortune 500 enterprises in Keystone’s AI startup division ($5M ARR) and ML products at Amazon ($71M revenue, 50K+ customers), aligning C-suite leaders.
 
 **EXPERIENCE 2015 - Present (11 years)**
 
@@ -203,6 +203,8 @@ Fixed in v8: summary trimmed from 269 to 251 characters (about 2 lines; check in
 **Bullets flagged for verification:** 0. The SMB bias bullet uses only Amazon behavioral data. The +17% bureau coverage belongs to the separate global consumer credit product and is left out. If bureau integrations were also part of the SMB underwriting, say so and it can go back in.
 
 ## Revisions Made
+**v12 (2026-10-22):** Summary cleanup: "$5MM" → "$5M", "50K" → "50K+", added "an", "and aligned" → ", aligning". Keystone context line no longer mentions the 2026 spin-out.
+
 **v10 (2026-10-22)**
 - Keystone context line from public sources: AI division of Keystone (tech and economics advisory, ~2002–03); spun out as Keystone.AI in 2026. Sources: managementconsulted.com, RLH Equity / Audax announcements, briefglance.com.
 - Every bullet rewritten in SAD order (surface → action → data). Deviations: the delivery bullet ends with mentoring (needed for "mentor product managers"); the responsible-AI bullet's outcome is qualitative (cleared regulatory review), because no metric is on record.
