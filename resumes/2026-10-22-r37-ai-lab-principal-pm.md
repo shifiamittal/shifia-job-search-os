@@ -90,18 +90,18 @@ Principal technical product manager with 11+ years shipping AI: built an agentic
 *Principal Product Manager – Technical* (AI startup division building an enterprise AI platform for Fortune 500 companies; $5M ARR)
 - Owned AI-first strategy, roadmap, and operating model for an enterprise AI platform that automates complex agentic and predictive decisions; influenced the CEO/CTO to pivot the company from consulting to a product-led model, reaching $5M ARR and $25M in annualized client savings across 5 Fortune 500 clients.
 - Defined the business model with tiered subscription pricing and packaging; persuaded leadership and investors to deploy as a managed service in client environments instead of pure SaaS, trading 1 extra month of deployment for 2 clients with strict data-residency requirements.
-- Launched a multi-agent intelligent automation system (LLMs, RAG, LangGraph, MCP tools) that triages exceptions across thousands of SKUs, diagnoses root causes, and routes high-risk actions to human review with audit logs; 70% of recommendations accepted at launch, reviewer effort fell from 4 hrs/day to 4 hrs/week, and client overstock fell from $5M to $2M.
+- Launched a multi-agent intelligent automation system (LLMs, RAG, LangGraph, MCP) that triages exceptions across thousands of SKUs and routes high-risk actions to human review with audit logs, shipped through eval gates (groundedness, tool compliance, action safety) and a shadow-mode launch; 70% of recommendations accepted, reviewer effort cut from 4 hrs/day to 4 hrs/week.
 - Grew forecast adoption from 50% to 70% across client planning teams: interviewed planners and observed their workflows to find the top 3 adoption blockers, shipped SHAP explainability first and agent support second, and reviewed results bi-weekly with client leadership.
-- Led product direction for 30+ engineers and data scientists from evaluation to production: set eval gates (correctness, groundedness, tool compliance, action safety, regression), a shadow-mode launch, and a phased rollout to 85% of SKUs; beat the incumbent's forecast accuracy by 21–26% (WAPE) at the flagship Fortune 500 client.
+- Led 30+ engineers and data scientists to take the platform live at the flagship Fortune 500 client, beating the incumbent tool's forecast accuracy by 21–26% (WAPE) and cutting client overstock from $5M to $2M; mentored 4–5 junior PMs and led dotted-line PMs.
 - Built the multi-tenant data platform with 7–8 engineers (ingestion, validation, anonymization, lineage, data contracts, an NLP semantic layer with PII blocking), cutting deployment from 3 months to 3 weeks and user clarification requests from 50% to 30%.
-- Made the ROI case for agentic AI with a working prototype (>70% of recommendations adopted), winning a 2-month roadmap shift from model accuracy to agents; cut agent cost ~30% through model routing; mentored 4–5 junior PMs and led dotted-line PMs.
+- Built the ROI case for agentic AI: a working prototype (>70% of recommendations adopted) won a 2-month roadmap shift from model accuracy to agents, and model routing cut agent run cost ~30% with no loss in quality.
 
 **Amazon** | Seattle, WA | 2016 – 2024
 *Sr. Product Manager – Technical*
 
 *Amazon Business Financing & Credit (2022 – 2024)*
 - Launched an ML financing product on Amazon Business and scaled it to 50K+ customers and $71M in incremental revenue through a 5% controlled launch, OKRs, and biweekly Agile sprints; reported monthly to VP-level leadership against an S-team goal.
-- Raised SMB credit approval from 4% to 15%, with no credit losses after full launch, by fixing a data bias against small businesses with thin credit files: rebuilt underwriting on Amazon behavioral data, used only business-level features (no owner attributes or ZIP code), and monitored approval rates by segment.
+- Raised SMB credit approval from 4% to 15% with no credit losses after launch by fixing a data bias against thin-file small businesses, using Amazon behavioral data and business-level features only.
 - Shipped credit and fraud models in a regulated lending environment: met regulatory requirements through parallel review with Amazon's financial risk teams, explained every decline with adverse-action reason codes and SHAP, and set the fraud threshold at 99% precision so legitimate customers weren't blocked.
 
 *Machine Learning Platform (2020 – 2022)*
@@ -155,6 +155,13 @@ MBA, Marketing & Operations, IIT Roorkee | B.E., Chemical Engineering, Thapar Un
 **Bullets flagged for verification:** 0. The SMB bias bullet uses only Amazon behavioral data. The +17% bureau coverage belongs to the separate global consumer credit product and is left out. If bureau integrations were also part of the SMB underwriting, say so and it can go back in.
 
 ## Revisions Made
+**v6 (2026-10-22): one message per bullet**
+- Agent bullet: now carries the eval gates and shadow-mode launch (they were agent launch steps).
+- Eng/DS bullet: one message, 30+ people taking the platform live and beating the incumbent (WAPE 21–26%, overstock $5M → $2M); mentoring moved here.
+- ROI bullet: the business case only (prototype → roadmap shift; ~30% lower agent cost).
+- SMB bias bullet cut to about 1.5 lines. Feature restrictions and segment monitoring are kept for the interview.
+- Dropped the eval dimensions correctness and regression, and the 85% phased rollout, for length.
+
 **v5 (2026-10-22): clarity, scale, and RCM parallels**
 - Keystone bullet 4 is now about adoption only (50% → 70%: interviews → blockers → explainability first → bi-weekly client reviews). The prototype ROI case moved to bullet 7.
 - Keystone bullet 5 now names the 30+ engineers and data scientists and ends on impact: forecast accuracy 21–26% better than the incumbent (WAPE).
