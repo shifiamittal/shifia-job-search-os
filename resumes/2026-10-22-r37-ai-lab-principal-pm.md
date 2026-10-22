@@ -90,7 +90,7 @@ Principal product manager with 11+ years shipping AI/ML products at scale: led a
 
 **EXPERIENCE 2015 - Present (11 years)**
 
-**Keystone.ai** *\| AI division of Keystone, a 20+ year tech and economics advisory firm*
+**Keystone.ai** *\| AI division of Keystone, a 20+ year tech and economics advisory firm ($100M PE-backed)*
 
 *Principal Product Manager-Technical 2024 - Present*
 
@@ -221,6 +221,8 @@ Fixed in v8: summary trimmed from 269 to 251 characters (about 2 lines; check in
 **Bullets flagged for verification:** 0. The SMB bias bullet uses only Amazon behavioral data. The +17% bureau coverage belongs to the separate global consumer credit product and is left out. If bureau integrations were also part of the SMB underwriting, say so and it can go back in.
 
 ## Revisions Made
+**Final formatting (2026-10-22):** Keystone context line adds "($100M PE-backed)" (RLH Equity Partners' $100M growth investment, July 2021; Keystone is private, so no market cap). Impact numbers bolded in the summary and bullets (results only, not inputs). One page.
+
 **Round 3 (2026-10-22):** fixed broken LinkedIn (local file path) and email links; URLs shown in full; restored AI-first and predictive; "26%" → "up to 26%".
 
 **Final + proofread (2026-10-22):** grammar fixes on the business-model, agent, SMB, and responsible-AI bullets; restored "than the incumbent tool"; "acts autonomously on" → "automates" to remove a one-word last line. One page.
