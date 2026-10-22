@@ -1,12 +1,27 @@
 # Application Tracker
 
-Last updated: 2026-10-21
+Last updated: 2026-10-22
 Scope: current search (2026) only.
 Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applications made on company sites or through referrals aren't captured yet. Add them with `/app-tracker add`.
 
 ---
 
 ## Inbound / Evaluating
+
+### Stripe - Product Manager, Radar - Fraud & Abuse Prevention (primary) + Product Manager, Radar (secondary)
+- **Status:** recruiter-outreach (evaluating; recommended: take the call)
+- **Source:** Inbound email from Colleen (Garrett) Barnes, Product Recruiting @ Stripe, 2026-10-22. Booking link: meet.goodtime.io/w/stripecom/cbarnes/30-min-phone
+- **Req IDs:** recruiter links 8258815 (Fraud & Abuse) / 7983854 (Radar); current apply links 8306158 / 8301646. Confirm which reqs are live.
+- **Referral:** No (yet). Path: Piyush Rohella, PM at Stripe, ex-Amazon B2B Payments & Lending teammate
+- **Company tier:** Rank 37
+- **Location:** Seattle office listed (also Chicago, NY, SSF); at least 50% in office
+- **Comp:** base $178.6K–$268K (spans several levels) + equity/bonus. Est. TC L4 $350–520K / L5 $500–750K+ (intel dated 2026-03-24). Level unknown; at low L4 it's below the $380–400K floor.
+- **Est. fit:** Fraud & Abuse 72/100, Radar (integrations) 71/100. Full write-up: `job-evaluations/2026-10-22-stripe-radar.md`
+- **Fit notes:** A14 fraud threshold trade-off (precision 0.99 / recall 0.25) matches the "detection vs. customer friction" preferred qualification. Gaps: SQL not on record [CONFIRM]; external developer platform/partner ecosystem (Radar role); fraud-analyst tooling partial.
+- **Last action:** 2026-10-22 Recruiter outreach received; reply and Piyush note drafted.
+- **Next action:** Book the 30-min screen, send the reply asking for level, message Piyush, run `/interview-prep Stripe` before the call.
+- **History:**
+  - 2026-10-22 Inbound from Colleen Barnes (Stripe) for two Radar PM roles
 
 ### Undisclosed client (via Rose International) - Principal Product Manager - Technical (contract)
 - **Status:** recruiter-outreach (evaluating; replied 2026-10-21 asking to learn more)
@@ -40,6 +55,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
   - [date] Recruiter: team yet to review recording
 
 ## Needs Attention
+- **Stripe Radar:** book Colleen's screen, ask for the level, message Piyush first.
 - **Ascerta:** stalled; send one final follow-up.
 - **Rose International contract:** decide go/no-go; rate is ~half your comp floor. Ask for the client name before a screen.
 - **Count:** send the post-rejection notes (interview-debriefs/2026-10-15-count-followup-notes.md).

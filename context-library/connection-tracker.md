@@ -1,6 +1,6 @@
 # Connection Tracker
 
-Last updated: 2026-10-15
+Last updated: 2026-10-22
 
 Auto-maintained by the OS. Updated after connection requests, referral requests, coffee chats, and interview rounds.
 
@@ -32,7 +32,7 @@ Auto-maintained by the OS. Updated after connection requests, referral requests,
 - **Referral received:** no
 - **Strong referral (HM pinged):** no
 - **Last contact:** —
-- **Next action:** Strong warm contact. Reconnect and ask for a referral if a Stripe role fits.
+- **Next action:** (2026-10-22) Stripe recruiter reached out about two Radar PM roles. Ask Piyush for 20 min on the Radar team and hiring managers before the screen, then a referral if it fits. Draft in `job-evaluations/2026-10-22-stripe-radar.md`.
 
 ## Keystone.ai
 
