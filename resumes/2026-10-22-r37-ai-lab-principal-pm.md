@@ -78,11 +78,11 @@ Interview line: "Lending and RCM are both regulated, high-volume financial decis
 
 ## Resume
 
-_FINAL: `Shifia_Mittal_Resume_R37.docx` (2026-10-22). Text below is generated from it._
+_FINAL: `Shifia_Mittal_Resume_R37.docx` (2026-10-22, review round 3). Text below is generated from it._
 
 **SHIFIA MITTAL**
 
-[shifia.mittal09@gmail.com](mailto:shifia.mittal09@gmail.com%20|) \| 206-356-6348 \| Seattle, WA, USA \| [Linkedin](file:///C:\March%202026%20backup\Interview%20Preparation%202026\Resume\Resume%20variants\linkedin.com\in\shifiamittal) \| [Github](https://github.com/shifiamittal)
+<shifia.mittal09@gmail.com> \| 206-356-6348 \| Seattle, WA, USA \| [linkedin.com/in/shifiamittal](https://www.linkedin.com/in/shifiamittal) \| [github.com/shifiamittal](https://github.com/shifiamittal)
 
 **SUMMARY**
 
@@ -94,7 +94,7 @@ Principal product manager with 11+ years shipping AI/ML products at scale: led a
 
 *Principal Product Manager-Technical 2024 - Present*
 
--   Led AI product strategy, roadmap, and operating model for an enterprise AI supply chain platform (forecasting models and agentic workflows), influencing C-suite executives to pivot the company from consulting to a product-led model; reached \$5M ARR, \$25M in annualized client savings across 5 Fortune 500 clients, and 21--26% better forecast accuracy than the incumbent tool.
+-   Led AI-first product strategy, roadmap, and operating model for an enterprise AI supply chain platform (predictive forecasting models and agentic workflows), influencing C-suite executives to pivot from consulting to a product-led model; reached \$5M ARR, \$25M in annualized client savings across 5 Fortune 500 clients, and up to 26% better forecast accuracy than the incumbent tool.
 
 -   Defined the business model, tiered subscription pricing, and go-to-market; persuaded leadership and investors to deploy as a managed service in clients' cloud instead of pure SaaS, enabling 2 additional clients with strict data-residency needs.
 
@@ -112,7 +112,7 @@ Principal product manager with 11+ years shipping AI/ML products at scale: led a
 
 *Sr. Product Manager-Technical, Amazon Business Financing & Credit 2022 - 2024*
 
--   Launched Amazon Business' ML financing product via experimentation, a 5% controlled launch, biweekly Agile sprints, and monthly VP-level reviews against an S-team goal, scaling to 50K+ customers and \$71M in incremental revenue.
+-   Launched Amazon Business' ML financing product via experimentation, a 5% controlled launch, biweekly Agile sprints, and monthly VP-level reviews against an S-team goal; scaled to 50K+ customers and \$71M in incremental revenue.
 
 -   Corrected a data bias in SMB credit underwriting, where thin credit files held small-business approval at 4%; rebuilt the model on Amazon behavioral data, raising SMB approval to 15% with no credit losses after full launch.
 
@@ -141,6 +141,24 @@ Principal product manager with 11+ years shipping AI/ML products at scale: led a
 MBA, Marketing & Operations, IIT Roorkee (2013-15) \| B.E., Chemical Engineering, Thapar University (2009-13)
 
 ---
+
+## Review Round 3 (on Shifia's R37_3 upload, 2026-10-22)
+
+| Review | Score | Verdict |
+|---|---|---|
+| Recruiter | 8/10 (First impression 8, Relevance 8, Readability 8) | PASS |
+| ATS | 35/41 JD terms (85%) as uploaded → 37/41 (90%) after fixes | PASS after fixing two broken links (was FAIL on contact links) |
+| Hiring manager | 7.5/10 | Yes, if asked |
+
+**Fixed**
+1. **ATS / HIGH: LinkedIn link pointed to a local file** (`file:///C:\March 2026 backup\…\linkedin.com\in\shifiamittal`). Clicking it went nowhere, and it exposed a folder name. Now `https://www.linkedin.com/in/shifiamittal`.
+2. **ATS / HIGH: email link was `mailto:…%20|`** (a stray "|"), so it opened a broken address. Fixed.
+3. **ATS / MEDIUM:** the display text "Linkedin" / "Github" hid the URLs from parsers and printed copies. They now show `linkedin.com/in/shifiamittal` and `github.com/shifiamittal`.
+4. **ATS keywords:** "AI-first" and "predictive" had dropped out. Restored as "AI-first product strategy" and "predictive forecasting models" (library: K22 forecasting ensemble).
+5. **HM credibility:** "26% better forecast accuracy" → "up to 26%". The canonical range is 21–26% by hierarchy level; 26% is the item level only, and the supply-planning level was 21%.
+6. Removed "the company" from bullet 1 to keep it at 3 lines.
+
+**Genuine gaps (unchanged):** healthcare, revenue cycle, HIPAA, multimodal.
 
 ## Review Round 2 (on v7, 2026-10-22): recruiter, ATS, hiring manager
 
@@ -203,6 +221,8 @@ Fixed in v8: summary trimmed from 269 to 251 characters (about 2 lines; check in
 **Bullets flagged for verification:** 0. The SMB bias bullet uses only Amazon behavioral data. The +17% bureau coverage belongs to the separate global consumer credit product and is left out. If bureau integrations were also part of the SMB underwriting, say so and it can go back in.
 
 ## Revisions Made
+**Round 3 (2026-10-22):** fixed broken LinkedIn (local file path) and email links; URLs shown in full; restored AI-first and predictive; "26%" → "up to 26%".
+
 **Final + proofread (2026-10-22):** grammar fixes on the business-model, agent, SMB, and responsible-AI bullets; restored "than the incumbent tool"; "acts autonomously on" → "automates" to remove a one-word last line. One page.
 
 **Final (2026-10-22), Shifia's own edits:** tightened business-model, agent, SMB, and responsible-AI bullets; agent bullet moved before the ROI bullet; delivery bullet now "MVP in 3 months … mentored 3 dotted-line PMs"; "ML Ops Developer Platform"; "30+ data scientists"; dropped "than the incumbent tool", SHAP on adverse-action codes, and business-level features. One page.
