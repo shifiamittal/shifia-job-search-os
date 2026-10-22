@@ -16,15 +16,15 @@
 >
 > Amber O'Brien and I spoke on October 8 about the Principal Product Manager role on your team, and I sent her my resume on [date]. I haven't been able to reconnect with her despite a couple of follow-ups, so I'm reaching out directly. My resume is attached.
 >
-> The problem R37 is solving, getting AI that RCM teams trust enough to use every day, is the one I've worked on. At Keystone, I launched a multi-agent system that automates low-risk decisions and routes the rest to human review; 70% of its recommendations were accepted, and reviewer effort fell from 4 hours a day to 4 a week. Before that, I spent eight years at Amazon shipping ML in regulated lending, including a financing product that reached $71M in incremental revenue.
+> The problem R37 is solving, getting AI that RCM teams trust enough to use every day, is the one I've worked on. At Keystone, I launched a multi-agent system that automates low-risk decisions and routes the rest to human review; 70% of its recommendations were accepted, and reviewer effort fell from 4 hours a day to 4 a week. Before that, I spent eight years shipping ML at Amazon, including a regulated lending product with $71M in incremental revenue.
 >
-> If my background fits what you need, I'd appreciate your considering me for the next round of interviews, or pointing me to the right person to move this forward.
+> If my background fits what you need, I'd appreciate being considered for the next round of interviews, or a pointer to the right person.
 >
 > Best,
 > Shifia Mittal
 > 206-356-6348 | linkedin.com/in/shifiamittal
 
-**Word count:** 158 (body, excluding signature)
+**Word count:** 150 (body, excluding signature)
 
 ---
 
