@@ -1,6 +1,6 @@
 # Resume Output - Qualcomm · Staff Product Data Manager (PDM), AI Platforms & Systems Solutions
 **Keyword Coverage: 74% (20/27 requirements matched: 11 strong, 9 partial, 7 unmatched)**
-**ATS keyword count (58 JD terms, in bullet text): 64% (37/58)**
+**ATS keyword count (58 JD terms, in bullet text): 53% (31/58)**
 
 Source: Qualcomm careers page, Job ID 3094805 (https://careers.qualcomm.com/careers/job/446720412804), pasted 2026-10-22. San Diego, CA, onsite 5 days/week. Base $181.8K–$272.6K plus discretionary bonus and RSUs.
 
@@ -15,7 +15,6 @@ Source: Qualcomm careers page, Job ID 3094805 (https://careers.qualcomm.com/care
 
 ## Before you send
 
-0. **[UNVERIFIED] On-device LLM project.** At your request (2026-10-22), the first bullet under Independent Projects describes the on-device work as done, though it isn't finished yet. It's your decision. Finish it before the recruiter call. Then, before the hiring-manager call, give me real numbers (tokens/sec, RAM, agreement with the cloud model) and I'll add a result to the bullet. The bullet contains no invented metrics. The experience library is unchanged, as you asked.
 1. **Onsite in San Diego.** The JD requires 5 days a week in San Diego, and your career plan says you won't relocate. Ask about location in the first recruiter call.
 2. **Comp is probably below your floor.** Base tops out at $272.6K. [VERIFY with `/salary-research Qualcomm Staff PDM San Diego`]
 3. **Level.** Qualcomm's Staff level sits below Principal. A "Principal" title applying to a Staff role may prompt a "why this level" question.
@@ -29,8 +28,8 @@ Source: Qualcomm careers page, Job ID 3094805 (https://careers.qualcomm.com/care
 | 2 | Edge APIs/DDIs/SDKs: DirectX, WinML, OpenCL, GGML (REQUIRED + PREFERRED) | None | Don't claim it. GGUF (the llama.cpp file format, built on GGML) is the only overlap. Learn the WinML / ONNX Runtime / QNN flow before the HM call. |
 | 3 | Protocols & standards bodies (REQUIRED + PREFERRED) | None | Referral framing: "She hasn't worked with a standards body, but she wrote specs that ~20 Amazon Payments teams adopted, and set data contracts across 14 teams' systems." |
 | 4 | Technical marketing at conferences and developer events (REQUIRED) | Partial | Launches and adoption are on the resume. No talks on record. |
-| 5 | AI middleware: llama.cpp, Ollama, AnythingLLM | Partial [UNVERIFIED] | On-device project bullet. AnythingLLM isn't claimed. |
-| 6 | Quantization, on-device/hybrid trade-offs; LLM/VLM 1B–150B | Partial [UNVERIFIED] | On-device project bullet. No VLM, power, or NPU work. |
+| 5 | AI middleware: llama.cpp, Ollama, AnythingLLM | None (pending) | Keystone ran 7B models locally, but the runtime isn't on record. If you confirm it was Ollama or llama.cpp, add it to the Keystone evaluation bullet. |
+| 6 | Quantization, on-device/hybrid trade-offs; LLM/VLM 1B–150B | Partial | Keystone evaluation: 7B Llama/Mistral, on-device vs. self-hosted vs. cloud on quality, latency, cost, memory (Source Decision 26). Quantization not on record; no VLM or NPU. |
 | 7 | Orchestration across compute tiers | Partial | Model routing (K14) and the multi-agent router (K2). This is across models, not hardware tiers. |
 | 8 | B.S. in Engineering/CS | Partial | B.E. Chemical Engineering. |
 | 9 | Budgets; third-party agreements (PREFERRED) | Partial | Credit bureau partner integration and Cognizant pre-sales pricing. The JD says the role doesn't own budgets. |
@@ -53,11 +52,12 @@ Principal product manager with 11+ years shipping AI/ML products at scale: agent
 - Led product strategy, business case, and roadmap for an enterprise agentic AI and forecasting platform, aligning the CEO and CTO to pivot from consulting to product; reached **$5M ARR** and **$25M** annual client savings across **5 Fortune 500 clients**.
 - Shipped a multi-agent system (LLMs, LangGraph, MCP tool use, RAG) that pairs deterministic controls (a fixed root-cause sequence, guardrails in tool definitions, risk-tiered autonomy) with LLM diagnosis and recommendations; **70% accepted**, cutting planner effort **4 hrs/day to 4 hrs/week** and overstock **$5M to $2M**.
 - Owned orchestration and model routing for agent workloads (simple tasks to low-cost models, ambiguous ones to stronger models) based on cost, latency, and quality tests; cut agent run cost **~30%** in a pilot with lower latency.
-- Led evaluation of 7B open-weight models (Llama, Mistral), self-hosted in client clouds and run locally, vs. cloud LLMs for root-cause diagnosis and the planner chatbot on quality, latency, cost, and memory; chose the model per task and client.
+- Led evaluation of 7B open-weight models (Llama, Mistral), self-hosted in client clouds and on-device, vs. cloud LLMs for root-cause diagnosis and the planner chatbot on quality, inference latency, cost, and memory; set hybrid routing per task and client.
 - Set the deployment architecture: persuaded leadership and investors to run the platform in clients' own cloud environments instead of pure SaaS to meet data-residency needs; won **2 additional clients** SaaS couldn't serve.
 - Defined KPIs and conformance criteria for agent releases: expert-baselined reference cases, a version-comparison harness, and evals for groundedness, tool compliance, and action safety; agents cleared shadow-mode gates before production.
 - Owned product definition for a forecasting system (statistical, gradient-boosted, and foundation models incl. Chronos and TFT) for a Fortune 500 client, with bi-weekly cross-functional leadership reviews; improved accuracy **up to 26%** over the incumbent.
-- Built the multi-tenant data platform with 8 engineers, defining data contracts, APIs, lineage, and anonymization standards across clients; cut deployment from **3 months to 3 weeks**; also mentored 3 dotted-line PMs.
+- Built the multi-tenant data platform with 8 engineers, defining data contracts, APIs, lineage, and anonymization standards across clients; cut deployment from **3 months to 3 weeks**.
+- Delivered the platform MVP in **3 months** with 30+ engineers and data scientists across 3 parallel product lanes with milestones and cross-functional reviews; also mentored 3 dotted-line PMs.
 
 **Amazon** — 2016 - 2024 (8 years)
 *Sr. Product Manager-Technical, Amazon Business Financing & Credit* — 2022 - 2024
@@ -75,10 +75,6 @@ Principal product manager with 11+ years shipping AI/ML products at scale: agent
 - Launched self-service price-perception tools benchmarking Amazon against 800+ retailers in 17 countries for competitive intelligence; adopted by **40+ global pricing leaders**, with signals feeding Amazon's pricing models.
 
 **Cognizant Technology Solutions** | Designed solutions and pricing for 30+ APAC deals worth **$25M** (**45% win rate**) — 2015 - 2016
-
-**INDEPENDENT PROJECTS** — 2026
-- Ran quantized open-weight models (Llama, Qwen, Gemma; GGUF Q4/Q8) on-device with Ollama and llama.cpp in an AI job-search system, comparing inference latency, memory, and quality against cloud models to design hybrid on-device/cloud routing. **[UNVERIFIED]**
-- Rebuilt an LLM-driven job-discovery agent as deterministic discovery plus agentic evaluation after diagnosing incomplete searches; reached **100% recall** on known-job benchmarks at Adobe, NVIDIA, and CrowdStrike.
 
 **EDUCATION**
 MBA, Marketing & Operations, IIT Roorkee (2013-15) | B.E., Chemical Engineering, Thapar University (2009-13)
@@ -113,6 +109,12 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 | **Overall** | **6.5/10** | |
 - **What they'll probe:** quantization trade-offs (Q4 vs. Q8 quality loss), tokens/sec and RAM on your machine, why llama.cpp over ONNX Runtime or WinML, how you'd decide NPU vs. GPU vs. cloud, and what "conformance criteria" meant for your agents.
 - **Credibility risk:** the [UNVERIFIED] project bullet. Finish the work and add real numbers before the HM call.
+
+## Regression Checks: Round 6 (projects removed, 2026-10-22)
+- **Edit:** removed Independent Projects (both bullets, including the [UNVERIFIED] one). The Keystone evaluation bullet now says "on-device", "inference latency" and "hybrid routing", all accurate under Source Decision 26 (local runs on laptops/desktops, open-weight for some tasks and clients, cloud for others). The data platform bullet stays. Restored the MVP bullet (30+ engineers, cross-functional reviews, mentoring) in the freed space.
+- **Keyword count:** 31/58 (was 37). Dropped with the projects: quantization, GGUF, llama.cpp, Ollama, Qwen, Gemma. These come back only if you confirm Keystone used them.
+- **Fact check:** nothing on the resume goes past the experience library. 0 [UNVERIFIED] bullets.
+- **Style guide / render:** 1 page, no orphan lines.
 
 ## Regression Checks: Round 5 (open-weight evaluation, 2026-10-22)
 - **Edit:** new Keystone bullet from Source Decision 26 (real Keystone work, now in the experience library). Placed between model routing and deployment architecture, so the "where compute runs" cluster reads models → open-weight vs. cloud → client environments. All 8 Keystone bullets kept (the build now adds a slot beyond the master's 7).
@@ -154,8 +156,9 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 | Owned orchestration and model routing for agent workloads (s... | K14 (~30%, pilot) | REWORDED |
 | Defined KPIs and conformance criteria for agent releases: ex... | K4; K2 (shadow-mode gates) | REWORDED |
 | Owned product definition for a forecasting system (statistic... | K22; Canonical Metrics (WAPE 21–26%) | REWORDED |
-| Built the multi-tenant data platform with 8 engineers, defin... | K15; Source Decisions 23 (anonymization), 25 (3 dotted-line PMs); Canonical Metrics (3 months → 3 weeks) | REWORDED |
+| Built the multi-tenant data platform with 8 engineers, defin... | K15; Source Decision 23 (anonymization); Canonical Metrics (3 months → 3 weeks) | REWORDED |
 | Led evaluation of 7B open-weight models (Llama, Mistral), sel... | Source Decision 26 (stated by user 2026-10-22) | REWORDED |
+| Delivered the platform MVP in 3 months with 30+ engineers an... | Canonical Metrics (MVP 3 months); Source Decisions 24, 25; Leadership (3 lanes) | REWORDED |
 | Set the deployment architecture: persuaded leadership and in... | K12; Canonical Metrics (+2 data-residency clients) | REWORDED |
 | Launched Amazon Business' ML financing product with versione... | Amazon FS; A1, A7, A14 (APIs) | REWORDED |
 | Integrated third-party credit bureau partner data into a glo... | Amazon FS (consumer credit: +17% coverage, +7% approval, −50% abandonment) | REWORDED |
@@ -164,11 +167,9 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 | Built and scaled ML recommendation products for inventory pl... | Supply Chain (SPORT, MOQ, TRACE; $100M+ total); A11 (50+ drivers, 14 teams, data contracts and SLAs) | REWORDED |
 | Launched self-service price-perception tools benchmarking Am... | Amazon Pricing; Source Decision 20 | REWORDED |
 | Cognizant line | Cognizant; Source Decision 21 | REWORDED |
-| Ran quantized open-weight models (Llama, Qwen, Gemma; GGUF Q... | None. Added at your request 2026-10-22, to be completed before the recruiter call | **[UNVERIFIED]** |
-| Rebuilt an LLM-driven job-discovery agent as deterministic d... | Side Projects; S1 | REWORDED |
 
 **Bullets removed (no source):** 0
-**Bullets flagged [UNVERIFIED]:** 1 (on-device LLM project; your decision, 2026-10-22)
+**Bullets flagged [UNVERIFIED]:** 0
 
 ## Revisions Made
 - **Style guide applied to the first draft:** built from a copy of the R37 master .docx (not from markdown). 2-line summary, no Skills section, role-level Amazon titles, years-only dates, Keystone context line, results bolded, "30+ engineers and data scientists", "mentored 3 dotted-line PMs", plain "privacy and legal teams".
