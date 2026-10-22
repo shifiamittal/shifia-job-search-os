@@ -101,7 +101,7 @@ Principal technical product manager with 11+ years shipping AI: built an agentic
 
 *Amazon Business Financing & Credit (2022 – 2024)*
 - Launched an ML financing product on Amazon Business and scaled it to 50K+ customers and $71M in incremental revenue through a 5% controlled launch, OKRs, and biweekly Agile sprints; reported monthly to VP-level leadership against an S-team goal.
-- Raised SMB credit approval from 4% to 15%, with no credit losses after full launch, by fixing a data bias: small businesses had thin credit files, so I rebuilt underwriting on Amazon behavioral data, used only business-level features (no owner attributes or ZIP code), and monitored approval rates by segment.
+- Raised SMB credit approval from 4% to 15%, with no credit losses after full launch, by fixing a data bias against small businesses with thin credit files: rebuilt underwriting on Amazon behavioral data, used only business-level features (no owner attributes or ZIP code), and monitored approval rates by segment.
 - Shipped credit and fraud models in a regulated lending environment: met regulatory requirements through parallel review with Amazon's financial risk teams, explained every decline with adverse-action reason codes and SHAP, and set the fraud threshold at 99% precision so legitimate customers weren't blocked.
 
 *Machine Learning Platform (2020 – 2022)*
