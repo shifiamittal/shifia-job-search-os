@@ -1,6 +1,6 @@
 # Experience Library
 
-Last updated: 2026-10-21
+Last updated: 2026-10-22
 Sources: LinkedIn profile PDF export (Profile (5).pdf), LinkedIn profile page text, and `Resume variants/Shifia_Mittal_Resume.docx`.
 
 This is the single source of truth. Every skill draws from this file. Anything marked **[CONFIRM]** has a conflict or gap between sources. Resolve it before using it in an application.
@@ -46,6 +46,11 @@ This is the single source of truth. Every skill draws from this file. Anything m
 20. **Amazon Pricing insight tools (confirmed 2026-10-21):** saved analyst time (no number on record) and drove pricing changes; price-perception signals fed Amazon's pricing models that set product prices.
 21. **Cognizant (confirmed 2026-10-21):** 30+ infrastructure-setup deals in pre-sales, 45% win rate.
 22. **Hiring (confirmed 2026-10-21):** use "50+ hiring interviews across Keystone and Amazon" in the LinkedIn About section.
+23. **Regulated-data and responsible-AI controls (confirmed 2026-10-22):**
+    - **Financial risk models (Amazon lending):** ensured the models complied with regulatory requirements, through parallel review with Amazon's financial risk teams. No formal fair-lending (ECOA/Reg B) review with Legal/Compliance.
+    - **Credit model:** produced adverse-action reason codes for declined applicants; tested model impact on SMB vs. enterprise customers; handled PII while building models. Whether protected attributes or proxies were excluded is not on record.
+    - **Security and privacy features:** launched access controls and encryption in the MLOps platform (MDLC); launched anonymization in both MDLC and the Keystone Data Platform.
+    - **Healthcare exposure:** none. Cognizant, Amazon Business financing, and Keystone had no healthcare clients or segments. Supply-chain products (SPORT/TRACE/MOQ) covered all Amazon categories, including medical and pharmacy items. That's true, but too thin to claim as healthcare experience.
 
 ---
 
