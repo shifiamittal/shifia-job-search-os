@@ -46,6 +46,7 @@ This is the single source of truth. Every skill draws from this file. Anything m
 20. **Amazon Pricing insight tools (confirmed 2026-10-21):** saved analyst time (no number on record) and drove pricing changes; price-perception signals fed Amazon's pricing models that set product prices.
 21. **Cognizant (confirmed 2026-10-21):** 30+ infrastructure-setup deals in pre-sales, 45% win rate.
 22. **Hiring (confirmed 2026-10-21):** use "50+ hiring interviews across Keystone and Amazon" in the LinkedIn About section.
+23. **Written communication (stated by user 2026-10-22):** one of her strongest skills, used at Amazon and Keystone to bring clarity to product ideas, align senior executives and cross-functional partners on decisions, drive requirements with engineering and science teams, communicate ideas to customers, and improve post-launch metrics. OK to claim "written decision docs" in summaries and skills. Specific documents (type, audience, decision, outcome) [NEEDS DETAIL] before any bullet names one.
 
 ---
 
