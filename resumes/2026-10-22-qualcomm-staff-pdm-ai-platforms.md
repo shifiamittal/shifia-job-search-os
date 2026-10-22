@@ -51,7 +51,7 @@ Principal product manager with 11+ years shipping AI/ML products at scale: agent
 **Keystone.ai** | *AI division of Keystone, a 20+ year tech and economics advisory firm ($100M PE-backed)*
 *Principal Product Manager-Technical* — 2024 - Present
 - Led product strategy, business case, and roadmap for an enterprise agentic AI and forecasting platform, aligning the CEO and CTO to pivot from consulting to product; reached **$5M ARR** and **$25M** annual client savings across **5 Fortune 500 clients**.
-- Shipped a multi-agent system (LLMs, LangGraph, MCP tool use, RAG) routing forecast exceptions through triage, root-cause, and action agents with human approval; **70% accepted**, cutting planner effort **4 hrs/day to 4 hrs/week** and overstock **$5M to $2M**.
+- Shipped a multi-agent system (LLMs, LangGraph, MCP tool use, RAG) that pairs deterministic controls (a fixed root-cause sequence, guardrails in tool definitions, risk-tiered autonomy) with LLM diagnosis and recommendations; **70% accepted**, cutting planner effort **4 hrs/day to 4 hrs/week** and overstock **$5M to $2M**.
 - Owned orchestration and model routing for agent workloads (simple tasks to low-cost models, ambiguous ones to stronger models) based on cost, latency, and quality tests; cut agent run cost **~30%** in a pilot with lower latency.
 - Defined KPIs and conformance criteria for agent releases: expert-baselined reference cases, a version-comparison harness, and evals for groundedness, tool compliance, and action safety; agents cleared shadow-mode gates before production.
 - Owned product definition for a forecasting system (statistical, gradient-boosted, and foundation models incl. Chronos and TFT) for a Fortune 500 client, with bi-weekly leadership reviews; improved accuracy **up to 26%** over the incumbent.
@@ -113,6 +113,12 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 - **What they'll probe:** quantization trade-offs (Q4 vs. Q8 quality loss), tokens/sec and RAM on your machine, why llama.cpp over ONNX Runtime or WinML, how you'd decide NPU vs. GPU vs. cloud, and what "conformance criteria" meant for your agents.
 - **Credibility risk:** the [UNVERIFIED] project bullet. Finish the work and add real numbers before the HM call.
 
+## Regression Checks: Round 3 (your edit, 2026-10-22)
+- **Edit:** the Keystone agent bullet now shows the deterministic + LLM split (fixed root-cause sequence, guardrails in tool definitions, risk-tiered autonomy around LLM diagnosis and recommendations). It echoes the job-search bullet, so both read as one design principle.
+- **Keyword count:** 37/58, unchanged. Dropped "triage" and "human approval" from this bullet (not JD terms).
+- **Fact check:** K2 has the enforced RCA order (data → features → model → external signals) and guardrails in tool definitions rather than prompts. K3 has the three-tier autonomy. Metrics unchanged.
+- **Style guide / render:** 1 page. The agent bullet is now 3 lines (the allowed maximum). No orphan lines.
+
 ## Regression Checks: Round 2 (your edits, 2026-10-22)
 - **Edits:** summary ends "aligning C-suite leaders"; Keystone bullet 1 now opens "Led product strategy" (dropped the repeated "AI platform"); the Supply Chain bullet now covers all three ML recommendation products (inventory placement, purchase thresholds, shipping costs) with the $100M+ portfolio total in place of TRACE's $40M.
 - **Keyword count:** 37/58. Dropped "AI platform" (your call; "ML platforms" and "agentic AI" still carry it) and "senior leaders" (replaced by "C-suite leaders", which is stronger). Nothing else dropped.
@@ -131,7 +137,7 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 |---|---|---|
 | Summary | Profile Basics; Canonical Metrics; K14, K2; Amazon ML Ops | REWORDED |
 | Led product strategy, business case, and roadmap for an ente... | K1; Keystone resume bullets; Source Decision 5; style guide ("5 Fortune 500 clients") | REWORDED |
-| Shipped a multi-agent system (LLMs, LangGraph, MCP tool use,... | K2; Source Decision 18; Canonical Metrics (70%, 4 hrs/day → 4 hrs/week) | REWORDED |
+| Shipped a multi-agent system (LLMs, LangGraph, MCP tool use,... | K2 (enforced RCA order; guardrails in tool definitions); K3 (tiered autonomy); Source Decision 18; Canonical Metrics (70%, 4 hrs/day → 4 hrs/week) | REWORDED |
 | Owned orchestration and model routing for agent workloads (s... | K14 (~30%, pilot) | REWORDED |
 | Defined KPIs and conformance criteria for agent releases: ex... | K4; K2 (shadow-mode gates) | REWORDED |
 | Owned product definition for a forecasting system (statistic... | K22; Canonical Metrics (WAPE 21–26%) | REWORDED |
