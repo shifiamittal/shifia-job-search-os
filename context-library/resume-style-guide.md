@@ -37,7 +37,7 @@ Source: Shifia's edits and feedback during the R37 AI Lab resume (2026-10-22). `
 - **One message per bullet.** Don't mix two products or two unrelated wins. Keep each result on the bullet for the product that produced it (e.g., overstock $5M → $2M belongs to the agent; WAPE belongs to the platform; shadow mode belongs to the agent).
 - No bullet headers or bold labels at the start of bullets.
 - Prefer 2 lines, 3 at most. No last line of 1–3 words; trim words until it pulls up.
-- **Bold the results only** (the D in SAD): $, %, before → after, counts of customers, teams, or models. Don't bold inputs such as team size, launch percentage, or thresholds.
+- **Bold the metric with its result** (the D in SAD), so a hiring manager scanning bold text sees what moved and by how much: "**planner effort 4 hrs/day to 4 hrs/week**", "**agent run cost ~30%**", "**$71M incremental revenue**", not just "**~30%**". Don't bold inputs such as team size, launch percentage, or thresholds. (Updated 2026-10-22, Qualcomm resume.)
 - Plain language over Amazon jargon ("privacy and legal teams", not "privacy bar raisers").
 - No first person ("I").
 - Qualify ranges honestly ("up to 26%" when the range is 21–26%).

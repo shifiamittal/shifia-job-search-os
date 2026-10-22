@@ -43,33 +43,33 @@ Source: Qualcomm careers page, Job ID 3094805 (https://careers.qualcomm.com/care
 shifia.mittal09@gmail.com | 206-356-6348 | Seattle, WA, USA | linkedin.com/in/shifiamittal | github.com/shifiamittal
 
 **SUMMARY**
-Principal product manager with 11+ years shipping AI/ML products at scale: agentic AI, model orchestration, and ML platforms in Keystone's AI startup division (**$5M ARR**) and at Amazon (**100+ production models**, **$71M** revenue), aligning C-suite leaders.
+Principal product manager with 11+ years shipping AI/ML products at scale: agentic AI, model orchestration, and ML platforms in Keystone's AI startup division (**$5M ARR**) and at Amazon (**100+ production models**, **$71M revenue**), aligning C-suite leaders.
 
 **EXPERIENCE** — 2015 - Present (11 years)
 
 **Keystone.ai** | *AI division of Keystone, a 20+ year tech and economics advisory firm ($100M PE-backed)*
 *Principal Product Manager-Technical* — 2024 - Present
-- Led product strategy, business case, and roadmap for an enterprise agentic AI and forecasting platform, aligning the CEO and CTO to pivot from consulting to product; reached **$5M ARR** and **$25M** annual client savings across **5 Fortune 500 clients**.
-- Shipped a multi-agent system (LLMs, LangGraph, MCP tool use, RAG) that pairs deterministic controls (a fixed root-cause sequence, guardrails in tool definitions, risk-tiered autonomy) with LLM diagnosis and recommendations; **70% accepted**, cutting planner effort **4 hrs/day to 4 hrs/week** and overstock **$5M to $2M**.
-- Owned orchestration and model routing for agent workloads (simple tasks to low-cost models, ambiguous ones to stronger models) based on cost, latency, and quality tests; cut agent run cost **~30%** in a pilot with lower latency.
+- Led product strategy, business case, and roadmap for an enterprise agentic AI and forecasting platform, aligning the CEO and CTO to pivot from consulting to product; reached **$5M ARR** and **$25M annual client savings** across **5 Fortune 500 clients**.
+- Shipped a multi-agent system (LLMs, LangGraph, MCP tool use, RAG) that pairs deterministic controls (a fixed root-cause sequence, guardrails in tool definitions, risk-tiered autonomy) with LLM diagnosis and recommendations; **70% acceptance**, cutting **planner effort 4 hrs/day to 4 hrs/week** and **overstock $5M to $2M**.
+- Owned orchestration and model routing for agent workloads (simple tasks to low-cost models, ambiguous ones to stronger models) based on cost, latency, and quality tests; cut **agent run cost ~30%** in a pilot with lower latency.
 - Led evaluation of 7B open-weight models (Llama, Mistral) in client clouds and on-device (Ollama/llama.cpp, 4-bit quantized GGUF) vs. cloud LLMs for root-cause diagnosis and chatbot on quality, inference latency, cost, and memory; set hybrid routing.
 - Set the deployment architecture: persuaded leadership and investors to run the platform in clients' own cloud environments instead of pure SaaS to meet data-residency needs; won **2 additional clients** SaaS couldn't serve.
 - Defined KPIs and conformance criteria for agent releases: expert-baselined reference cases, a version-comparison harness, and evals for groundedness, tool compliance, and action safety; agents cleared shadow-mode gates before production.
-- Owned product definition for a forecasting system (statistical, gradient-boosted, and foundation models incl. Chronos and TFT) for a Fortune 500 client, with bi-weekly cross-functional leadership reviews; improved accuracy **up to 26%** over the incumbent.
-- Built the multi-tenant data platform with 8 engineers, defining data contracts, APIs, lineage, and anonymization standards across clients; cut deployment from **3 months to 3 weeks**.
-- Delivered the platform MVP in **3 months** with 30+ engineers and data scientists across 3 parallel product lanes with milestones and cross-functional reviews; also mentored 3 dotted-line PMs.
+- Owned product definition for a forecasting system (statistical, gradient-boosted, and foundation models incl. Chronos and TFT) for a Fortune 500 client with bi-weekly cross-functional reviews; improved **forecast accuracy up to 26%** over the incumbent.
+- Built the multi-tenant data platform with 8 engineers, defining data contracts, APIs, lineage, and anonymization standards across clients; cut **deployment from 3 months to 3 weeks**.
+- Delivered the **platform MVP in 3 months** with 30+ engineers and data scientists across 3 parallel product lanes with milestones and cross-functional reviews; also mentored 3 dotted-line PMs.
 
 **Amazon** — 2016 - 2024 (8 years)
 *Sr. Product Manager-Technical, Amazon Business Financing & Credit* — 2022 - 2024
-- Launched Amazon Business' ML financing product with versioned APIs serving credit eligibility at checkout and fraud decisions at onboarding, via experimentation and a 5% controlled launch; scaled to **50K+ customers** and **$71M** in incremental revenue.
-- Integrated third-party credit bureau partner data into a global consumer credit product and redesigned onboarding, raising data coverage **17%** and approvals **7%** and cutting abandonment **50%**.
+- Launched Amazon Business' ML financing product with versioned APIs serving credit eligibility at checkout and fraud decisions at onboarding, via experimentation and a 5% controlled launch; scaled to **50K+ customers** and **$71M incremental revenue**.
+- Integrated third-party credit bureau partner data into a global consumer credit product and redesigned onboarding, raising **data coverage 17%** and **approvals 7%** and cutting **abandonment 50%**.
 
 *Sr. Product Manager-Technical, ML Ops Developer Platform* — 2020 - 2022
-- Owned vision and roadmap for a SageMaker-based ML platform covering the ML model lifecycle (pipelines, CI/CD, lineage, monitoring) for 30+ data scientists; cut deployment time **40%** and scaled to **100+ production models** with flat headcount.
+- Owned vision and roadmap for a SageMaker-based ML platform covering the ML model lifecycle (pipelines, CI/CD, lineage, monitoring) for 30+ data scientists; cut **deployment time 40%** and scaled to **100+ production models** with flat headcount.
 - Wrote the ML data privacy specification with Amazon's privacy and legal teams and launched access controls, encryption, and anonymization as platform defaults; adopted across **~20 Amazon Payments teams**, saving **5 science FTE/year**.
 
 *Product Manager-Technical, Supply Chain Optimization* — 2018 - 2020
-- Built and scaled ML recommendation products for inventory placement, purchase thresholds, and shipping costs across thousands of sellers, unifying 50+ cost drivers from 14 teams' systems under data contracts and SLAs; saved **$100M+**.
+- Built and scaled ML recommendation products for inventory placement, purchase thresholds, and shipping costs across thousands of sellers, unifying 50+ cost drivers from 14 teams' systems under data contracts and SLAs; **saved $100M+**.
 
 *Product Manager, Amazon Pricing* — 2016 - 2018
 - Launched self-service price-perception tools benchmarking Amazon against 800+ retailers in 17 countries for competitive intelligence; adopted by **40+ global pricing leaders**, with signals feeding Amazon's pricing models.
@@ -109,6 +109,11 @@ HM unknown (no intake data). Read as a Qualcomm AI Platforms director who owns W
 | **Overall** | **6.5/10** | |
 - **What they'll probe:** quantization trade-offs (Q4 vs. Q8 quality loss), tokens/sec and RAM on your machine, why llama.cpp over ONNX Runtime or WinML, how you'd decide NPU vs. GPU vs. cloud, and what "conformance criteria" meant for your agents.
 - **Credibility risk:** the [UNVERIFIED] project bullet. Finish the work and add real numbers before the HM call.
+
+## Regression Checks: Round 9 (metric bolding, 2026-10-22)
+- **Edit:** bold now covers the metric name with its result (e.g., "**planner effort 4 hrs/day to 4 hrs/week**", "**agent run cost ~30%**", "**forecast accuracy up to 26%**"), so the bold text alone tells the story. Rule updated in `resume-style-guide.md`. Inputs (8 engineers, 30+ engineers, 5% launch, shadow-mode gates) stay unbolded. The forecasting bullet's "leadership reviews" became "reviews" to avoid an orphan line.
+- **Keyword count:** 35/58, unchanged.
+- **Render:** 1 page, no orphan lines.
 
 ## Regression Checks: Round 8 (close-out, 2026-10-22)
 - **Edit:** "Ollama, 4-bit quantized" → "Ollama/llama.cpp, 4-bit quantized GGUF". Not a guess: Ollama runs GGUF models on llama.cpp, so it follows from what you confirmed.

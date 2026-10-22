@@ -1,6 +1,6 @@
 # Application Tracker
 
-Last updated: 2026-10-21
+Last updated: 2026-10-22
 Scope: current search (2026) only.
 Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applications made on company sites or through referrals aren't captured yet. Add them with `/app-tracker add`.
 
@@ -23,6 +23,27 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Next action:** Decide go/no-go. If continuing, ask the recruiter to name the client and confirm whether the rate is negotiable before spending time on a screen.
 - **History:**
   - 2026-10-21 Inbound from Anmol Tripathi (Rose International); you replied; recruiter shared rate, contract terms and requirements
+
+## Applying (resume ready, not yet submitted)
+
+### Qualcomm - Staff Product Data Manager (PDM), AI Platforms & Systems Solutions
+- **Status:** applying (resume ready 2026-10-22; not yet submitted)
+- **Job ID:** 3094805 · https://careers.qualcomm.com/careers/job/446720412804
+- **Date applied:** [not yet]
+- **Referral:** No
+- **Resume version:** `resumes/Shifia_Mittal_Resume_Qualcomm.docx` / `.pdf` (analysis: `resumes/2026-10-22-qualcomm-staff-pdm-ai-platforms.md`)
+- **Cover letter:** No
+- **Connection at company:** None in connection-tracker.md
+- **Work product sent:** No
+- **Background check stage:** unknown
+- **Company tier:** Unranked (not in target-companies.md)
+- **Location:** San Diego, CA, onsite 5 days/week. Conflicts with "Seattle, not open to relocation" in career-plan.md. Ask the recruiter whether Seattle or remote is possible.
+- **Comp:** $181.8K–$272.6K base + bonus + RSUs. Likely below the $380–400K TC floor. Confirm the full package at the screen.
+- **Fit:** est. 48/100 (job-fit-scorer, 2026-10-22). Gaps: Windows/NPU, WinML/DirectX, standards bodies. Level: Staff (below Principal).
+- **Last action:** 2026-10-22 Resume tailored (style guide, one page).
+- **Next action:** Look for a Qualcomm connection or referral (AI Platforms / Windows on Snapdragon) before submitting; submit by 2026-10-24; then follow up by 2026-10-31.
+- **History:**
+  - 2026-10-22 Evaluated JD; resume tailored
 
 ## Recruiter Screen
 
