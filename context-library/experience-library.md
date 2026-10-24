@@ -1,6 +1,6 @@
 # Experience Library
 
-Last updated: 2026-10-22
+Last updated: 2026-10-24
 Sources: LinkedIn profile PDF export (Profile (5).pdf), LinkedIn profile page text, and `Resume variants/Shifia_Mittal_Resume.docx`.
 
 This is the single source of truth. Every skill draws from this file. Anything marked **[CONFIRM]** has a conflict or gap between sources. Resolve it before using it in an application.
@@ -509,6 +509,26 @@ Five different metrics. Every story names the one it moved. No data access since
 - **APIs:** defined REST APIs exposing model output (credit eligibility at checkout; BFS block/continue at onboarding), with backward-compatible versioning.
 - **Metric conflicts:** doc says "250K active customers," "$10MM losses vs. $1B revenue," and PBI 1.0 "1M customers / $7B GMS." Canonical metrics win: **50K+ customers** (confirmed 2026-10-20), $71M incremental revenue, no credit losses after full launch. Don't use the doc's 250K or $1B.
 - **Tags:** trust & safety / integrity, fraud, risk, ML thresholds, precision/recall trade-off
+
+### A15: MDLC Platform-Engineering Detail (Amazon), for infra and platform roles
+- **Source:** user's doc "MDLC and MOQ.docx" (Google Doc, read in full 2026-10-24). Adds detail to A8, A9, and A10; it doesn't replace them. Canonical Metrics still win where numbers differ (e.g., 6 science HC/year; A10's 1.5 years vs. ~2 months).
+- **Positioning:** MDLC was an internal developer platform whose users were data scientists. For cloud-infra and platform roles (e.g., Coinbase Core Infrastructure, 2026-10-24), frame it as "platform PM one layer up from infrastructure." Don't claim Kubernetes, networking, multi-region, uptime SLO, capacity-planning, or cloud-spend ownership; the doc's AWS notes on load balancing, autoscaling, and Batch Transform parameters are study notes, not decisions she made.
+- **Funding:** wrote the MDLC strategy doc; secured 2 HC for the MVP, then 8+ engineering HC year over year.
+- **MVP → UI:** MVP simplified deployment through a Python script (doc: deployment time −50%); the UI-based version cut deployment to half a day of science effort. [CONFIRM: A8 says "deployment −40%." Is −40% the MVP number, or is −50% right?]
+- **ML pipeline automation:** setting up a deployment pipeline took ~1.5 months of engineering effort; science teams launched ~10 new models a year. Users configure pipeline activities (data processing, training, back-testing, inference) in the UI: input data, code or container image, instance type and count, output location. Pipelines trigger automatically when new data is certified in the internal data store; SageMaker provisions resources and endpoints. Backend: each workflow step is a Lambda function orchestrated by Step Functions; Glue and ECR. Progress visible in the portal.
+- **Containerization / CI/CD:** a per-model CI/CD pipeline took ~1 week of engineering effort and hit prioritization delays. Users give a git repo link; every mainline commit builds a new versioned container image, visible in the UI, with the live version marked for production. Same dependencies in dev and prod; enforced Amazon standard build systems. ~2 engineering HC saved over 2 years.
+- **Data sourcing:** feature to move data from the internal data store to S3 through the UI and auto-trigger workflows, removing the data-engineering dependency; ~2 weeks faster per model.
+- **Feature cache:** loaded internal features into MDLC pipelines so data was available for real-time application assessment (previously a 1-day delay).
+- **Governance features (SR 11-7, US Federal Reserve model risk guidance):** 100+ high-risk lending models growing 30% YoY. Monitoring compares live model and data quality to the training period with pre-defined metrics and thresholds; breaches alert the owner. Trade-off: standardized metrics and thresholds over per-model custom code (each custom setup cost 1–2 weeks of science effort). Versioning: JSON change comparison (who changed what, when), chosen over a UI diff for lower engineering effort. Inventory: model name, purpose, owner, documentation, last update, legal review date, upstream/downstream dependencies; deliberately sequenced after monitoring. Aligned 4 tech partners, 5 science partners, and product leadership.
+- **Launch status [CONFIRM]:** doc says governance development started in 2023, versioning and partial monitoring had launched, and the rest was planned for 2024. The ML Ops role above is dated Jul 2020 – Jul 2022. Which dates are right? Claim "launched" only for what shipped before you left.
+- **Onboarding as a product:** product leadership wanted new teams to bring 1 HC; engineering wanted to drop the ask. Compared MDLC to an internal alternative (ML Pigeon, script-based); invested in documentation and community support. Result: maintenance 5 → 3 weeks per team; 3 additional science teams onboarded without the HC ask. [CONFIRM: A8 says 5 teams onboarded outside lending. Same teams or different?]
+- **Platform tech debt:** prioritized documentation, community support, and CloudWatch log access so users could debug failed jobs themselves (e.g., incompatible input data, missing dependencies).
+- **Failures:** (1) first deliverable in the ML area (MDLC vs. SageMaker comparison) got poor feedback and cost early trust; recovered through platform study, customer shadowing, and an ML mentor. (2) Governance strategy initially rejected by engineering because pain points weren't clear; re-ran it with scientists first, then engineering. Learning: involve engineering in problem discovery, not just the final review.
+- **Team size [CONFIRM]:** doc says "led a 3-member team once and promoted 2 out of 3" and mentions an 8-member engineering team. A13 says one solid-line direct report. Settle before any people-management answer.
+- **Open:** doc heading "Example 4: Sunset MDLC" is empty. If you drove or shaped MDLC's sunset or consolidation, it's a strong build-vs-buy / platform-strategy story. [NEEDS DETAIL]
+- **Other stories in the same doc, not yet added:** Central Rules Engine (pivot to 3P lending, 3 HC secured), Credit Ops central tools, larger loans for sellers ($17M capital access, $2M profit), MOQ architecture detail.
+- **Don't share externally:** the doc contains internal Amazon wiki links.
+- **Tags:** platform engineering, developer experience, CI/CD, compute provisioning, observability, regulated/compliance, build vs. buy, infra-adjacent
 
 ### S1: Agent vs. Deterministic Workflow (Personal Project)
 - **Situation:** Shifia's LLM-driven job-search agent missed jobs she knew existed.
