@@ -105,3 +105,12 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 - **Signals:** 4 AI-quality questions (the role is eval infrastructure). Possible resume mismatch on Kate's side.
 - **Key improvement:** State launch gates; answer the weakness question with your prepared answer; keep answers under 200 words.
 - **Next round prediction:** CEO Steve chronological walkthrough → leadership competency loop → references.
+
+### ~2024 (date [CONFIRM]) - Stripe - PM role [CONFIRM which] - prior loop
+- **Source:** "Stripe Behavioral Interview preparation.docx" in Drive (last modified 2024-06-12), section "Stripe feedback call". Logged 2026-10-24.
+- **Rounds seen in the doc:** recruiter prep call, Product Sense, Users First (Stripe's user-centric behavioral round). Others [CONFIRM].
+- **Feedback from Stripe:**
+  - *Product Sense:* needed a clearer framework for which users to prioritize; didn't distinguish types of users and types of restaurants (the case was restaurant-focused); lacked novel solutions.
+  - *Users First:* struggled to articulate goals; took a while to synthesize notes, but showed ability to go deep; OK signal on serving internal stakeholders and partners, but wanted more examples with **external** users; explained well.
+- **Outcome:** [CONFIRM: rejected? at which stage?]
+- **Implications for the 2026 Radar process:** lead with external-user stories (SPORT/MOQ sellers, PBI business customers, Keystone enterprise clients, SPORT APIs for outside developers) over internal-platform ones; open product answers by naming the user segments and how you'll prioritize them, then state the goal before solutions. Expect "Have you interviewed with us before?" and have the re-application answer ready.

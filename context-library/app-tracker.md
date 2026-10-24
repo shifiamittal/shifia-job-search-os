@@ -62,6 +62,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Company tier:** Rank 37 in target-companies.md (fintech + ML fit; Seattle office)
 - **Location:** Seattle is a listed office; at least 50% in office
 - **Comp:** Posted US base $178.6K–$268K, spanning several levels. TC depends on level and equity (company-intel, Mar 2026: L4 $350–520K, L5 $500–750K+ [VERIFY]). **Comp-range-confirmed:** No. Ask for level and full package at the screen.
+- **Prior application:** interviewed at Stripe ~2024 (feedback logged in interview-history.md); role and outcome [CONFIRM].
 - **Fit notes:** Strong on the preferred fraud/risk/ML qualification (PBI 2.0 fraud controls, credit risk). Thin on external developer platforms/partners and on pricing outcome numbers.
 - **Prep:** `briefings/2026-10-23-prep-stripe.md` (doc version: https://claude.ai/artifact/JTUzDDVktteo6nD9VWfkd4)
 - **Last action:** 2026-10-23 Recruiter-screen prep package built.

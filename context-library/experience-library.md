@@ -516,6 +516,68 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Result:** 100% recall: Adobe 41/41, NVIDIA 35/35, CrowdStrike 10/10; coverage visible (3 complete, 16 partial, 7 failed).
 - **Tags:** when NOT to use an agent, builder, evals
 
+### Added 2026-10-24: developer platform, partners, pricing
+Sources: user's answers in chat (2026-10-24); Drive docs "SPORT APIs_V3_tech.docx" (Aug 2020), "SPORT deep-dive.docx", "MDLC and MOQ.docx" (all read 2026-10-24). Client names below are private: never name Hershey's, Corning, Apple or Michelin externally (Source Decision 12).
+
+#### K29: Data Platform APIs and CoreAI-IO (Keystone.ai): internal developer platform
+- **What:** API service on the Keystone Data Platform with ~4–6 endpoints by data type (time-series, event, event-stream, product-master, customer-master). The app team used them to build client dashboards; scientists used them to pull datasets. Goal: generic APIs so app developers could wrangle data and build metrics themselves. Shifia managed release communication for new endpoints.
+- **CoreAI-IO:** programmatic data-access layer so scientists could find and use Data Platform datasets from notebooks (AWS Glue/Athena, Pandas and Polars). Paired with a standardized forecasting input contract (entity keys, timestamps, time-variant and time-invariant features) that decoupled client-specific pipelines from model code, enabled reusable training and inference across clients, and enforced validation before production inference.
+- **Result:** "saved almost 1 month" of scientist time understanding, reviewing and wrangling data. [CONFIRM: canonical figures are ~2 weeks/model of wrangling and data discovery 2 hrs/day → 2 hrs/week. Is 1 month per model, per client, or total?]
+- **[CONFIRM] what actually shipped:** the user described an API catalog (schemas, auth, examples), changelogs, self-serve testing and backward compatibility as what she *would* do. Claim only what was built.
+- **Tags:** developer platform (internal), APIs, data contracts. For Stripe, pair with A15/A16: Stripe's 2024 feedback asked for external-user examples.
+
+#### K30: Production Operations with Client IT (Keystone.ai): high-stakes external technical relationship
+- **Setup:** Deep Enterprise ran inside clients' cloud environments. Shared responsibility: the flagship client's IT/SAP teams owned upstream data delivery; Keystone owned model performance and production operations. SLAs covered data delivery schedules, service expectations and accountability. [CONFIRM: were the SLAs signed, or intended?]
+- **Recurring issues:** shipment data arriving 1–3 weeks late (under-forecasting), week-over-week swings from frequent retraining, drift or unexplained forecast changes. These escalated across client planners, client IT, and Keystone science and engineering.
+- **Action:** data completeness checks, proactive monitoring, automated alerts, retraining controls; a single client point of contact, regular technical reviews, an executive escalation forum.
+- **Tags:** partner/technical dependencies, reliability, escalation. Same incident as K27 told from the relationship angle.
+
+#### K31: Client Extensibility on Deep Enterprise (Keystone.ai)
+- Reusable data and model interfaces so client technical teams could extend forecasting without Keystone: the flagship client's data scientists added model features themselves; consumption APIs fed downstream planning workflows; standardized deployment playbooks and cross-functional onboarding. Moved Keystone from bespoke implementations toward a reusable platform. No metrics on record.
+
+#### K32: Deep Enterprise Pricing, Packaging and Unit Economics (Keystone.ai)
+- **Situation:** the flagship engagement brought in $2M a year but needed ~7 full-time people at ~$400K fully loaded ($2.8M), so consulting lost money before other costs.
+- **Action:** with the CEO, Sales, Finance and Engineering, split the offer into separately purchasable modules on value-based annual subscriptions: forecasting ~$1.5M/yr; agentic capabilities +$500K/yr; managed services included. Packaged by independently measurable value (forecasting improves planning; agents automate downstream actions, which customers showed willingness to pay for). Kept annual pricing comparable instead of discounting during the move to product; improved margin through reusable pipelines, deployment, infrastructure and automated operations. Gave extra support free during early deployments to learn recurring problems.
+- **Result:** two clients started on forecasting and upgraded to agents (+~$500K ACV each); one bought both; one bought forecasting only. Dedicated support per customer ~7 FTE → ~1 FTE (excluding shared platform and maintenance).
+- **Trade-off:** rejected usage-based pricing (forecast or action counts don't track economic value) and percentage-of-savings pricing (savings depend on client execution and supply constraints, so attribution disputes and revenue uncertainty). Modular subscriptions gave budget predictability, recovered operating cost, and created an expansion path.
+- **Private client mapping:** flagship CPG (Hershey's) and a global manufacturer (Corning) upgraded; a large technology company (Apple) bought both; Michelin bought forecasting only. Never name externally.
+- **[CONFIRM] conflicts with earlier entries:** (1) K1 says each client needed 1–2 HC under consulting; K32 says ~7 FTE for the flagship. (2) K10/K21 say support fell to 0.5 HC per customer; K32 says ~1 FTE. (3) Source Decision 17 says an implementation/managed-service fee applied on top; K32 says managed services were included. (4) Canonical ARR is $5M; the per-client ACVs above add to more than $5M if all ran at once. Settle which numbers are canonical before using them.
+- **Tags:** pricing, monetization, packaging, unit economics, commercial
+
+#### A15: SPORT APIs on Amazon's Selling Partner APIs (Amazon India): external developers and partners
+- **Situation (Amazon India Selection Economics, 2020):** SPORT reached sellers through bi-weekly emails linking to a Seller Central page. Adoption was 1%, against an OP1 2021 goal of 27%.
+- **Action:** wrote the spec for SPORT APIs integrated with Amazon's Selling Partner Developer APIs (SPDS), so external developers and seller-partner services (e.g., the AM Genie portal, planned for 2021) could show SPORT recommendations. The API returned per-ASIN channel recommendations, projected 90-day savings, and earned/missed savings from past recommendations; seller incentives included fee savings and seller reward points (SRP). Planned partnership with the Spectrum team to bring in other seller partners, and an RIM integration (ETA 06/2021) so sellers saw all inventory recommendations in one place. Engineering engaged the SPDS team at design stage for API alignment.
+- **Other adoption work (SPORT deep-dive):** recommendation surface area 300 → 1,700 per 2 weeks; Seller Central ingress point (+15% page traffic, +2% adherence); account-manager marketing (adoption 1% → 3%); auto-adherence pilot (50% opt-in among 20 sellers); mobile-app roadmap (80% of SPORT sellers were mobile-active).
+- **Result on record:** "increased the adoption by 10% before leaving the team" (deep-dive), consistent with the resume's ~10% lift. **27% was the goal, not a result.** [CONFIRM: did the SPORT APIs ship, and did AM Genie, RIM or other partners consume them before you left? The spec is dated Aug 2020, and this library says you moved to the MLOps role in Jul 2020.]
+- **Tags:** external developer platform, partner integration, API design, adoption
+
+#### A16: MOQ Recommendation APIs (Amazon)
+- **Architecture (from "MDLC and MOQ.docx"):** two models (conversion classifier, ship-cost regression) as SageMaker batch jobs; a Lambda applied the profitability equation and wrote to a DynamoDB cache. GET API (API Gateway + Lambda): seller id in → items and recommended MOQ out, shown on Seller Central. A second endpoint: item id in → accepted MOQ out, shown on the website. Each model was also exposed as its own endpoint; Shifia reused them to show sellers potential sales impact and for a ship-cost optimization model.
+- **Results:** ~60% higher seller adherence (treatment vs. control), lower ship cost, no change in conversion; 120K offers for 20K merchants; $20M in seller ship-cost savings (part of the $100M+ SPORT + TRACE + MOQ total); home-page card drove 5× seller visits.
+- **[CONFIRM] dates:** the doc gives the experiment as 13 weeks, Jan–Mar 2021, but this library has the Supply Chain role ending Jun 2020.
+- **[CONFIRM] API docs:** the doc's documentation section (300 requests/minute, HTTP 429, X-RateLimit headers) sits under a note "Take inspiration from OpenAI's API". Confirm whether it was real MOQ documentation or interview-prep illustration before claiming it.
+- **Tags:** APIs, external sellers, experimentation
+
+#### A17: In-House vs. Third-Party Lender (Amazon)
+- **Decision:** for a credit product aimed at a riskier segment, chose to build in-house transaction-based credit assessment (no bureau data) over a third-party partner. The partner would have cut short-term risk but created dependence for approvals. Framed it as long-term capability over short-term risk, with limited time to compare partners.
+- **Risk control:** phased launch: 10-customer pilot → 5% → 15% → 50% → 100%, reviewing repayment every 3 months before each step.
+- **[CONFIRM] conflicts:** the user's answer gives "$10MM losses balanced by $1B incremental revenue." Canonical metrics say $71M incremental revenue and no credit losses after full launch, and Source Decision/A14 say not to use $1B or $10MM. Which product is this (PBI 2.0 SMB, or another), and which numbers are right?
+- **Tags:** build vs. partner, risk, phased launch
+
+#### MDLC developer-experience details (adds to A8; from "MDLC and MOQ.docx")
+- Deployment 4 months → half a day of science effort; MVP was a Python-script flow (−50% deployment time), then a UI. Secured 8+ engineering HC year over year.
+- Treated onboarding as a product: compared MDLC with a competing internal platform (ML Pigeon), whose docs and Slack community made it easier to adopt; prioritized documentation and community support. Onboarding maintenance 5 → 3 weeks per team; onboarded 3 more science teams without the 1-HC ask. [CONFIRM vs. A8's "5 teams onboarded outside lending."]
+- Wrote an MDLC-vs-SageMaker feature comparison that the team then shared with prospective customers and partners.
+- Data-sourcing feature (internal storage → S3, auto-triggered workflows): −2 weeks per deployment. Auto-containerization from a git link: ~2 engineering HC saved over 2 years.
+- Model governance under Fed SR 11-7: monitoring, versioning, inventory; aligned 4 tech partners and 5 science partners.
+- [CONFIRM] the doc gives GDPR full automation as ~1 year and "2–3 months" for the semi-automated build; A10 canonical says 1.5 years and ~2 months. The doc also says "6 science HC" for GDPR in places; A10 canonical is 5.
+
+#### Other leads from the 2023–24 prep docs (unverified; ask before using)
+- **Central Rules Engine:** re-pointed a 1P lending platform vision at 3P lending through external bank partners (Goldman Sachs); secured 3 HC. Possible partner story, but the doc's results conflict (2% vs. 4% revenue; 3 vs. 9 tech HC).
+- **Larger seller loans:** $17MM additional capital access for sellers, $2MM profit for Amazon.
+- **Moody's integration:** heading only.
+- **People:** the doc says "led a 3-member team and promoted 2 of 3" and "mentored 3 interns, 2 hired at Amazon." This library records one direct report (A13). [CONFIRM]
+
 ### Gaps (no real story yet)
 - **SPORT / MOQ** sections in the doc are empty. MOQ results exist on the resume (20K merchants, 120K offers, ~60% adherence) but have no story.
 - **"Killed an AI project"** — doc has only a template.
