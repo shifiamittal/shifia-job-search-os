@@ -51,9 +51,9 @@ Hi Brad,
 I'm updating my LinkedIn profile. You saw my whole time at Keystone, from the pivot to product through the agent launches, so I'd be grateful for a recommendation from you on my product leadership.
 
 It would help most if you touched on:
-- Leading the move from consulting to Deep Enterprise as a product: $5M ARR, 5 enterprise customers, deployment from 6 months to 4
+- Leading the move from consulting to Deep Enterprise as a product: $7.5M ARR, 5 enterprise customers, deployment from 6 months to 4
 - The data platform: client onboarding from 2 months to 2 weeks and deployment from 3 months to 3 weeks
-- How I worked with you, Greg and the team: setting direction for 20+ engineers and data scientists and making the hard trade-offs
+- How I worked with you, Greg and the team: setting direction for 30+ engineers and data scientists and making the hard trade-offs
 
 Mention anything else you think matters. I'm happy to return the favor.
 

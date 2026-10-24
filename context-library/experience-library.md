@@ -1,6 +1,6 @@
 # Experience Library
 
-Last updated: 2026-10-22
+Last updated: 2026-10-24
 Sources: LinkedIn profile PDF export (Profile (5).pdf), LinkedIn profile page text, and `Resume variants/Shifia_Mittal_Resume.docx`.
 
 This is the single source of truth. Every skill draws from this file. Anything marked **[CONFIRM]** has a conflict or gap between sources. Resolve it before using it in an application.
@@ -25,8 +25,8 @@ This is the single source of truth. Every skill draws from this file. Anything m
 ## Source Decisions (confirmed by user 2026-10-14)
 
 1. **Amazon title on resume:** "Sr. Product Manager – Technical, Amazon, 2016–2024" (user's choice, for simplicity). Note: LinkedIn shows PM (2016–2020), then Sr. PM-T (2020–2024). Employment verification and recruiters comparing against LinkedIn may see the difference. Lower-risk option with the same simplicity: "Amazon · 2016–2024 · Sr. PM-T (most recent)".
-2. **Amazon tenure:** Oct 2016 – Jun 2024 (~8 years). **Actual level history (confirmed 2026-10-15):** L4 Program Manager → promoted to L5 Program Manager → moved laterally to L5 Product Manager → promoted to L6 Sr. PM-Technical (2020). In interviews: "joined as a program manager, promoted twice, moved into product management along the way."
-3. **Keystone tenure:** Jun 2024 – Mar 2026 (actual). User's choice is to show "Present" on the resume and LinkedIn. Claude advised against "Present" on the resume because employment verification will show Mar 2026. Lower-risk option: "2024 – 2026" (years only). Never say "I'm currently at Keystone" in interviews.
+2. **Amazon tenure:** Oct 2016 – Jun 2024 (~8 years). **Level history (updated 2026-10-24 per user; Pricing title is now Product Manager):** L4 Product Manager (Amazon Pricing, 2016–2018) → promoted to L5 (2018) → L5 Product Manager (Supply Chain, Nov 2018) → promoted to L6 Sr. PM-Technical (2020). The 2026-10-15 version recorded Program Manager titles for 2016–2018. In interviews: "I joined Amazon as a product manager in Pricing, was promoted to L5, moved to Supply Chain, and was promoted to Sr. PM-Technical in 2020."
+3. **Keystone tenure:** Jun 2024 – Mar 2026 (actual). User's choice is to show "Present" on the resume and LinkedIn. Claude advised against "Present" on the resume because employment verification will show Mar 2026. Lower-risk option: "2024 – 2026" (years only). Never say "I'm currently at Keystone" in interviews. Reconfirmed 2026-10-24: keep "Present" on the resume and LinkedIn.
 4. **Company name:** Keystone.ai.
 5. **Keystone metrics:** all can be used together ($7.5M ARR [canonical], $25M client savings, WAPE −21%, Deep Enterprise deployment 6 → 4 months, data platform deployment 3 months → 3 weeks, 5 enterprises, 4 hrs/day → 4 hrs/week, data discovery to 2 weeks, ~2 weeks/model).
 6. **HAT-AI, REI-Agent, AI Evaluation framework:** all Keystone.ai work.
@@ -54,6 +54,8 @@ This is the single source of truth. Every skill draws from this file. Anything m
     - **Healthcare exposure:** none. Cognizant, Amazon Business financing, and Keystone had no healthcare clients or segments. Supply-chain products (SPORT/TRACE/MOQ) covered all Amazon categories, including medical and pharmacy items. That's true, but too thin to claim as healthcare experience.
 25. **Keystone dotted-line PMs (stated by user 2026-10-22, R37 final resume):** mentored **3 dotted-line PMs** at Keystone. Separate from the 4–5 junior PMs and interns mentored overall.
 24. **Keystone scale and structure (stated by user 2026-10-22):** product direction across **30+ engineers and scientists**. Earlier entries in this library, the resume, and LinkedIn say 20+; 30+ is now the figure to use, so update LinkedIn to match. Keystone.ai is the AI startup division inside a company that has been around for 20+ years (from the R37 recruiter call, 2026-10-08). **Public context (web, 2026-10-22):** Keystone (Keystone Strategy) is a technology, economics, and strategy advisory firm founded ~2002–2003, backed by RLH Equity Partners since 2021. In early 2026 the advisory practice was sold to Audax Private Equity and the AI business, including the Deep Enterprise AI platform, was spun out as Keystone.AI (CEO Greg Richards; RLH retains a stake). Resume context line: "AI division of Keystone, a 20+ year tech and economics advisory firm; spun out as Keystone.AI in 2026." **Headcount (web, 2026-10-24):** Keystone Strategy had 472 employees in Dec 2025 (Revelio Labs; other sources say 250–382). Private company, no market cap; Audax deal terms undisclosed. Resume uses "450+ employees, PE-backed" (user, 2026-10-24); "$100M PE-backed" was dropped for lack of a source.
+26. **SMB credit fraud outcome (confirmed 2026-10-24):** the SMB credit product's **fraud loss rate fell 15%** after integrating the fraud score, domain-based risk signals, and transaction controls at checkout. "Fraud and abuse" wording is OK in fraud contexts. Role stays as in A18: the fraud team (BFS) built the model; Shifia owned how PBI 2.0 used it (integration, threshold, rules). The Stripe-resume line "repeat fraud incidents down 5%" from blocking rules on suspicious registrations is not explicitly confirmed [CONFIRM baseline and definition].
+27. **Amazon Pricing title (confirmed 2026-10-24):** the resume shows "Product Manager, Amazon Pricing, 2016–2018." LinkedIn shows Product Manager. The 2026-10-15 notes recorded Program Manager titles for that period, so if Amazon's HR record shows Program Manager, a verification could differ. Background-check watch item; don't elaborate on titles in interviews.
 
 ---
 
@@ -70,7 +72,7 @@ LinkedIn bullets:
 Resume bullets:
 - **Enterprise AI Product Strategy:** Led 0→1 strategy and roadmap for Deep Enterprise, an agentic AI platform turning complex supply-chain decisions into reusable enterprise workflows; improved forecast WAPE by 21%, reduced deployment from 6 months to 4 months, and scaled to 5 enterprises. (Canonical; current resume says 3 months → 3 weeks here, so update it.)
 - **Customer Discovery & Adoption:** Led enterprise rollout and product iteration through planner interviews, workflow observations, user feedback, and performance metrics; turned recurring customer needs into reusable AI capabilities and adoption improvements.
-- **Executive & Cross-Functional Leadership:** Partnered with CEO/CTO, enterprise executives, and 20+ engineers and scientists to prioritize investments, align technical and business requirements, and balance customer-specific needs with platform scalability.
+- **Executive & Cross-Functional Leadership:** Partnered with CEO/CTO, enterprise executives, and 30+ engineers and scientists to prioritize investments, align technical and business requirements, and balance customer-specific needs with platform scalability.
 - **Enterprise Data Platform:** Built the enterprise data platform across ingestion, transformation, validation, lineage, APIs, and model-ready contracts; reduced deployment from 3 months to 3 weeks, cut client data discovery to 2 weeks, and saved ~2 weeks/model in data wrangling.
 - **Forecasting Agent:** Launched a multi-agent enterprise forecasting system combining exception detection, tool-based root-cause diagnosis, grounded recommendations, and human approval; reduced planner effort from 4 hrs/day to 4 hrs/week.
 - **HAT-AI:** Launched and scaled an AI assistant automating roadmap reporting, leadership newsletters, and knowledge discovery across 15 finance products; served 30 PMs and saved 120 hours/week.
@@ -174,10 +176,10 @@ Jul 2012 – Dec 2012 · Gurugram, India
 - Owned vision and roadmap for the Amazon MLOps platform.
 
 ### Leadership / Cross-functional
-- Partnered with CEO/CTO, enterprise executives, and 20+ engineers and scientists (Keystone).
+- Partnered with CEO/CTO, enterprise executives, and 30+ engineers and scientists (Keystone).
 - Insight tools adopted by 40+ global pricing leaders (Amazon Pricing).
 - Pre-sales with solution architects on $25M APAC deals (Cognizant).
-- One direct report at Amazon (Program Manager, promoted L4 → L5). Dotted-line PM reports at Keystone. Leadership through influence: CEO/CTO, Fortune 500 executives, 20+ engineers and scientists.
+- One direct report at Amazon (Program Manager, promoted L4 → L5). Dotted-line PM reports at Keystone. Leadership through influence: CEO/CTO, Fortune 500 executives, 30+ engineers and scientists.
 - Mentored 4–5 people (junior PMs, interns); onboarded new PMs; 50+ hiring interviews across Keystone and Amazon (not a bar raiser).
 - Organized Keystone's product org into 3 lanes (customer data/deployment, forecasting models, planner app) with the CPO; ran weekly cross-team reviews.
 
@@ -237,7 +239,7 @@ Five different metrics. Every story names the one it moved. No data access since
 
 ### K1: Deep Enterprise: Consulting → Product Pivot (Keystone.ai)
 - **Situation:** Keystone delivered forecasting through consulting. Each client needed ~7 people on site to deliver the project (1–2 of them for ongoing support) and 6+ months, and revenue scaled linearly with headcount (confirmed 2026-10-24).
-- **Action:** Noticed the same science, tech, and UX was being rebuilt for every client. Aligned the CEO and CTO on a pivot to a product. Chose forecasting as the MVP. Productized data pipelines, ML pipelines, monitoring, and the application, while keeping data and deployment client-specific. Ran 20+ engineers and scientists in parallel lanes with MVPs and milestones, with customer feedback through lightweight UIs.
+- **Action:** Noticed the same science, tech, and UX was being rebuilt for every client. Aligned the CEO and CTO on a pivot to a product. Chose forecasting as the MVP. Productized data pipelines, ML pipelines, monitoring, and the application, while keeping data and deployment client-specific. Ran 30+ engineers and scientists in parallel lanes with MVPs and milestones, with customer feedback through lightweight UIs.
 - **Result:** Deployment 6 months → 4 months; $7.5M ARR; PMF with 3 more engagements after launch.
 - **Learning:** Moving from consulting to product needs a deliberate boundary between what you standardize and what stays adaptable.
 - **Tags:** 0→1, strategy, exec alignment, end-to-end
@@ -587,7 +589,7 @@ Source: user's answers in chat, 2026-10-24 (Stripe Radar Fraud & Abuse resume in
 - **Signals the fraud screening used:** newly registered business domains / domain-registration history, unusual registration patterns, shared-domain fraud history, account associations with previously fraudulent accounts, prior fraud write-offs, inconsistencies in business information.
 - **Decision:** block only high-confidence fraud rather than every risky-looking customer, because false positives would undercut the goal of expanding credit to legitimate SMBs. Threshold at ~99% precision / ~25% recall. Accepted the detection gap because screening wasn't the only defense.
 - **Layered controls:** BFS integrated into the pre-credit assessment; BRP's fraud-domain blocklist as an independent blocking rule; BRP post-checkout fraud controls; credit exposure limits; transaction eligibility restrictions; suspension procedures.
-- **Result:** the broader PBI 2.0 launch raised SMB credit approvals ~4% → 15%. No fraud-specific outcome metric on record.
+- **Result:** the broader PBI 2.0 launch raised SMB credit approvals ~4% → 15%. Fraud outcome (confirmed 2026-10-24): fraud loss rate for the SMB credit product fell 15% (decision 26).
 - **Learning:** effective fraud prevention isn't just maximizing detection; it's designing controls across the customer journey to manage financial risk without restricting legitimate customers.
 - **Tags:** fraud, detection vs. customer friction, layered defenses, precision/recall
 
@@ -657,5 +659,6 @@ Source: user's answers in chat, 2026-10-24 (Stripe Radar Fraud & Abuse resume in
 | Data platform team | **7–8 engineers** | Confirmed 2026-10-15 |
 | Flagship CPG WAPE vs. incumbent | **21–26% better** by level: item-customer-location 77%→61% (21%), item-customer 68%→53% (22%), item-location 67%→52% (23%), item 57%→42% (26%) | "21%" elsewhere = the lowest (supply-planning) level. From Hershey's doc, 2026-10-21 |
 | Flagship CPG engagement revenue | **$2M** to Keystone | Part of the $7.5M ARR (K32) |
+| SMB credit fraud loss rate | **−15%** | Confirmed 2026-10-24; the fraud team built the model (see A18) |
 | Flagship CPG first-phase rollout | **85% of SKUs** | |
 | Agent recommendation acceptance | **70%** at launch | Use 70% everywhere. Drop ">80%" and the K6 50% → 80% figure (confirmed 2026-10-15). K7's 50% → 80% is description approval, a different metric. See the adoption metrics table at the top of the Story Bank |
