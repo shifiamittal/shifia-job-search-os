@@ -129,7 +129,7 @@ Pass to the hiring manager. The recruiter already reached out, so the resume mai
 **Bullets removed (no source):** 0
 **Bullets flagged for verification:** 0 INFERRED. Two wording choices to check:
 - MLOps "for 30+ risk and credit data scientists": A8 says 30+ scientists building 50+ risk models in Lending. Credit is part of risk there; change it to "risk-model data scientists" if you prefer.
-- Supply Chain "adoption rose 1% to ~10%": A15 records a 1% baseline and "~10% before Shifia left." The SPORT deep-dive phrase "increased the adoption by 10%" could also be read as +10 points. Confirm that ~10% was the level reached.
+- ~~Supply Chain "adoption rose 1% to ~10%"~~: confirmed by user 2026-10-24 (~10% was the level reached).
 
 ## Revisions Made
 - Summary trimmed to 2 rendered lines (dropped "for Fortune 500 enterprises").

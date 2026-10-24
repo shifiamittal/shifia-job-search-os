@@ -613,8 +613,15 @@ Source: user's answers in chat, 2026-10-24 (Stripe Radar Fraud & Abuse resume in
 #### S1 repo (confirmed 2026-10-24)
 - Job-search agent code: https://github.com/shifiamittal/pm-job-search-agent. Language and stack not recorded; don't name them until confirmed.
 
-#### Still a gap after 2026-10-24
-- **Investigating a specific fraud or abuse attack with customers** (Stripe JD1 items 1 and 4): no story on record. A18 covers control design, not an attack investigation. Closest analogs: K5 (traced an adoption drop to a warehouse move), K6 (judged a grounding failure as a repeatable, platform-level problem rather than a one-client fix), A6 (loss analysis in the pilot).
+#### A19: Fraud Attack Investigation with BFS (Amazon), stated by user 2026-10-24
+- Investigated fraud attacks with the Business Fraud Score (BFS) team and identified levers (signals) that could feed the fraud model.
+- [NEEDS DETAIL before external use beyond this one-line claim]: which attack or pattern, how it was found, which levers were identified (the A18 signal list may be the answer), whether any became model features or rules, the financial impact, and whether it was handled as a one-off or a reusable defense.
+
+#### Confirmed 2026-10-24
+- **SPORT adoption:** ~10% is the adoption level reached (from a 1% baseline), as the combined result of the APIs, wider recommendations, the Seller Central entry point and account-manager marketing (A15).
+
+#### Partly closed 2026-10-24
+- **Investigating a specific fraud or abuse attack** (Stripe JD1 items 1 and 4): A19 records that it happened, but there's no story with specifics yet. Closest analogs remain K5, K6 and A6.
 
 ### Gaps (no real story yet)
 - **SPORT / MOQ** sections in the doc are empty. MOQ results exist on the resume (20K merchants, 120K offers, ~60% adherence) but have no story.
