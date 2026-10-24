@@ -1,6 +1,6 @@
 # Resume Output - Stripe · Product Manager, Radar – Fraud and Abuse Prevention
 **Keyword Coverage: 100% (23/23 requirements matched: 16 strong, 7 partial, 0 unmatched)**
-**ATS keyword coverage: 34/40 JD terms (85%)** in bullet text (round 4); there is no Skills section.
+**ATS keyword coverage: 36/40 JD terms (90%)** in bullet text (round 5); there is no Skills section.
 
 Files: `resumes/Shifia_Mittal_Resume_Stripe_Radar_Fraud.docx` (master) and `.pdf` (one page, rendered and checked).
 Job: https://stripe.com/careers/listing/product-manager-radar-fraud-and-abuse-prevention/8306158 (job 8306158)
@@ -54,11 +54,11 @@ This is a broad JD (23 requirements). 100% coverage with 16 strong items is a st
 | 8, 14 | Marketing; positioning | Partial | If true, add a line to the library about launch marketing or positioning work on PBI 2.0 or Keystone. The global consumer credit product's $15M ML-personalized marketing is real, but it's a different product; use it only if asked |
 | 18 | Writing | Partial | The take-home is the proof. Stripe's 2024 feedback was about stating goals first |
 
-## Current scores (round 4, R37-based, rescored 2026-10-24)
+## Current scores (round 5, R37-based, rescored 2026-10-24)
 
 | Review | Round 1 | Round 3 | What changed |
 |---|---|---|---|
-| ATS | Pass with warnings, 36/40 terms | **Pass with warnings, 34/40 terms** | Format clean (no tables, headers or footers; 3 working links). Same count as round 3; missing abuse, detection, reliable, prioritized, positioning, ambiguity |
+| ATS | Pass with warnings, 36/40 terms | **Pass with warnings, 36/40 terms** | Format clean (no tables, headers or footers; 3 working links). Missing: abuse, reliab, positioning, ambiguity |
 | Recruiter | 7.5/10 (8 / 7 / 7) | **8/10** (first impression 8, relevance 8, readability 7) | Fraud in the summary; APIs and fraud controls in more bullets. Denser than round 3 but reads as senior business writing |
 | Hiring manager | 8/10 (9 / 8 / 7 / 8) | **8.5/10** (specificity 9, product sense 8, unique insight 8, actionability 9) | Same evidence as round 3 in R37's tone: fraud thresholds, REST and partner APIs, client-cloud integration, agents |
 
@@ -118,20 +118,20 @@ Pass to the hiring manager. The recruiter already reached out, so the resume mai
 | Resume Bullet (first 60 chars) | Source Section | Original Text (short) | Match Type |
 |---|---|---|---|
 | Summary: Principal product manager with 11+ years shipping AI/ML… | R37; Canonical Metrics; A1, A18 | $7.5M ARR; credit and fraud risk; $71M; 50K+ | REWORDED |
-| Led AI-first product strategy, roadmap, and operating model … | R37; K1; Canonical Metrics | see source entry | REWORDED |
+| Led AI-first product strategy, roadmap, and operating model … | R37; K1; Source Decision 24 | see source entry | REWORDED |
 | Defined the business model, value-based modular pricing, and… | R37; K32 | see source entry | REWORDED |
 | Persuaded leadership and investors to deploy as a managed se… | R37; K12, K31 | see source entry | REWORDED |
 | Launched a generative AI multi-agent system (LLMs, RAG, Lang… | R37; K2, K3, K4 | see source entry | REWORDED |
 | Built the ROI case for agentic AI with a working prototype, … | R37; K11, K14 | see source entry | REWORDED |
 | Drove adoption of the forecasting platform across client pla… | R37; K10, K9 | see source entry | REWORDED |
 | Built the multi-tenant data platform with 8 engineers (inges… | R37; K15, K33 | see source entry | REWORDED |
+| Diagnosed an agent adoption drop at one client (70% to 50% o… | K5 | see source entry | REWORDED |
 | Owned the data platform's API catalog (endpoints, schemas, a… | K29 | see source entry | REWORDED |
 | Launched Amazon Business' ML financing product via experimen… | R37; A1, A7 | see source entry | REWORDED |
-| Owned the credit product's fraud controls with the fraud and… | A18, A14 | see source entry | REWORDED |
+| Owned credit fraud controls with the fraud and Buyer Risk Pr… | A18, A14 | see source entry | REWORDED |
 | Defined versioned REST APIs serving fraud decisions at onboa… | A14, A4 detail, A4 | see source entry | REWORDED |
 | Corrected a data bias in SMB credit underwriting, where thin… | R37; A3, Source Decision 23 | see source entry | REWORDED |
 | Owned vision and roadmap for a SageMaker-based MLOps platfor… | R37; A8, A9 | see source entry | REWORDED |
-| Made privacy a platform default: launched access controls, e… | R37; A10 | see source entry | REWORDED |
 | Defined inventory-recommendation APIs on Amazon's Selling Pa… | A15 (10% confirmed) | see source entry | REWORDED |
 | Launched TRACE, a causal decision support product that expla… | R37; A11 | see source entry | REWORDED |
 | Launched self-service price-perception insight tools benchma… | R37; Amazon Pricing | see source entry | REWORDED |
@@ -143,6 +143,7 @@ Pass to the hiring manager. The recruiter already reached out, so the resume mai
 - ~~Supply Chain "adoption rose 1% to ~10%"~~: confirmed by user 2026-10-24 (~10% was the level reached).
 
 ## Revisions Made
+- **Round 5 (2026-10-24): restored what round 4 dropped.** K5 adoption-drop bullet (stand-in for JD #4 until A19 has detail), replacing the privacy bullet (A10); "30+ engineers and data scientists" in the first Keystone bullet; "fraud-detection threshold" and "customer friction" in the fraud bullet; "prioritize" in the discovery bullet; "(Athena)" on the SQL analysis; TRACE "via Seller Central APIs". Trimmed "the credit product's" and "fraud-domain" in the fraud bullet to keep its last line from wrapping.
 - **Round 4 (user feedback, 2026-10-24): back to R37's business writing.** Round 3 read as lay writing. Rebuilt from R37's bullets with targeted edits only: summary ($7.5M; Amazon incl. credit and fraud risk); R37 bullet 2 split into pricing (+ K32 ACV result) and client-cloud deployment (+ K31 APIs and client extensibility); agent bullet "only low-risk, reversible"; data-platform bullet now names the SQL analysis (K33); new bullets for the API catalog (K29), fraud controls (A18, replacing R37's responsible-AI bullet), REST APIs (A14/A4) and Selling Partner APIs (A15); TRACE bullet carries the $100M+ total. Dropped for space: R37's MVP/3-lanes bullet, the 26% forecast-accuracy clause, VP-of-FBA influence bullet, and the semantic-layer clause. Round 3's style-guide rules stay, read as "no AI filler", not "lay language".
 - **Round 3 (user feedback, 2026-10-24): plain-language rewrite.** Every bullet rewritten to read like a person, not a model: plain verbs, fewer parentheticals, no tech-stack list, varied openings, shorter sentences. Same facts. Rules saved to the style guide. Kept JD terms where natural (customer discovery, 0→1, detection, friction, prioritized, quality); lost "businesses" and "trade-off". Fixed the API bullet so "real-time" applies only to the checkout check (the signup fraud decision isn't recorded as real-time). Summary is now two sentences and drops "aligning C-suite leaders".
 - **Round 2 (user feedback, 2026-10-24):** summary broadened to "ML products at Amazon, including credit and fraud risk"; "+$500K" → "+$500K"; justified the summary and all bullets (now a style-guide rule); added developer-integration content: client-environment deployment with consumption APIs and client extensibility (K12, K31) replacing the data-catalog bullet (K6), REST APIs for credit eligibility at checkout and fraud decisions at onboarding (A14), and Seller Central APIs in the supply-chain bullet (A16, A11). Trade-off: K6 (one-off vs. platform fix, JD #4) is gone from the page; K5 still covers #4.
@@ -164,26 +165,26 @@ Principal product manager with 11+ years shipping AI/ML products at scale: an ag
 EXPERIENCE   2015 - Present (11 years)
 Keystone.ai | AI division of Keystone, a 20+ year tech and economics advisory firm ($100M PE-backed)
 Principal Product Manager-Technical   2024 - Present
-• Led AI-first product strategy, roadmap, and operating model for an enterprise AI supply chain platform (predictive forecasting models and agentic workflows), influencing C-suite executives to pivot from consulting to a product-led model; reached $7.5M ARR and $25M in annualized client savings across 5 Fortune 500 clients.
+• Led AI-first product strategy, roadmap, and operating model for an enterprise AI supply chain platform (predictive forecasting models and agentic workflows), influencing C-suite executives to pivot from consulting to a product-led model and directing 30+ engineers and data scientists; reached $7.5M ARR and $25M in annualized client savings across 5 Fortune 500 clients.
 • Defined the business model, value-based modular pricing, and go-to-market with Sales, Finance, and the CEO, rejecting usage- and savings-based pricing; 2 clients upgraded to agents (+$500K ACV each).
 • Persuaded leadership and investors to deploy as a managed service in clients' cloud instead of pure SaaS, with APIs feeding client planning workflows and client data scientists extending models; enabled 2 additional clients with strict data-residency needs.
 • Launched a generative AI multi-agent system (LLMs, RAG, LangGraph, MCP) that triages exceptions, automates only low-risk, reversible decisions and routes the rest to human-in-the-loop review; shipped through evaluation gates, achieving 70% recommendation acceptance, cutting reviewer effort from 4 hrs/day to 4 hrs/week and overstock from $5M to $2M.
 • Built the ROI case for agentic AI with a working prototype, showing >70% of recommendations adopted and winning a 2-month roadmap shift from model accuracy to agents; later cut agent run cost ~30% via model routing.
-• Drove adoption of the forecasting platform across client planning teams by running customer discovery (planner interviews, workflow observation, adoption data) to find the top 3 blockers; shipped SHAP explainability before agent support, lifting adoption from 50% to 70%.
-• Built the multi-tenant data platform with 8 engineers (ingestion, validation, anonymization, lineage, PII blocking), defining its data contracts from SQL analysis of client order, shipment, and promotion data; cut deployment from 3 months to 3 weeks.
+• Drove adoption of the forecasting platform across client planning teams by running customer discovery (planner interviews, workflow observation, adoption data) to find and prioritize the top 3 blockers; shipped SHAP explainability before agent support, lifting adoption from 50% to 70%.
+• Built the multi-tenant data platform with 8 engineers (ingestion, validation, anonymization, lineage, PII blocking), defining its data contracts from SQL analysis (Athena) of client order, shipment, and promotion data; cut deployment from 3 months to 3 weeks.
+• Diagnosed an agent adoption drop at one client (70% to 50% over 4 weekly cycles) by tracing it to a warehouse move missing from the agent's data; added the location dataset and an escalate-on-missing-data guardrail, restoring adoption to 70%.
 • Owned the data platform's API catalog (endpoints, schemas, auth, integration examples) and release communication for app developers and data scientists; the app team onboarded 5 new client dashboards with no extra effort.
 Amazon   2016 - 2024 (8 years)
 Sr. Product Manager-Technical, Amazon Business Financing & Credit   2022 - 2024
 • Launched Amazon Business' ML financing product via experimentation, a 5% controlled launch, biweekly Agile sprints, and monthly VP-level reviews against an S-team goal; scaled to 50K+ customers and $71M in incremental revenue.
-• Owned the credit product's fraud controls with the fraud and Buyer Risk Prevention teams: set the fraud-score threshold at 99% precision to avoid blocking legitimate businesses, backed by a fraud-domain blocklist, post-checkout checks, and exposure limits.
+• Owned credit fraud controls with the fraud and Buyer Risk Prevention teams: set the fraud-detection threshold at 99% precision to limit customer friction for legitimate businesses, backed by a domain blocklist, post-checkout checks, and exposure limits.
 • Defined versioned REST APIs serving fraud decisions at onboarding and real-time credit eligibility at checkout, built on batch underwriting plus transaction-level controls to keep ML inference out of checkout; pulled impact forward 3 months.
 • Corrected a data bias in SMB credit underwriting, where thin credit files held small-business approval at 4%; rebuilt the model on Amazon behavioral data, raising SMB approval to 15% with no credit losses after full launch.
 Sr. Product Manager-Technical, ML Ops Developer Platform   2020 - 2022
 • Owned vision and roadmap for a SageMaker-based MLOps platform serving 30+ risk and credit data scientists; cut deployment time 40%, scaled to 100+ production models with flat headcount, and made production monitoring the default.
-• Made privacy a platform default: launched access controls, encryption, and anonymization, and defined privacy rules for ML data with Amazon's privacy and legal teams; adopted across ~20 Amazon Payments teams, saving 5 science FTE per year.
 Product Manager-Technical, Supply Chain Optimization   2018 - 2020
 • Defined inventory-recommendation APIs on Amazon's Selling Partner APIs so external developers and partners could show sellers recommendations and projected savings; with wider coverage and a Seller Central entry point, lifted adoption from 1% to 10%.
-• Launched TRACE, a causal decision support product that explained shipping-cost changes across 50+ drivers from 14 teams' systems and recommended the top fix to sellers, driving $40M of the team's $100M+ in savings.
+• Launched TRACE, a causal decision support product that explained shipping-cost changes across 50+ drivers from 14 teams' systems and recommended the top fix to sellers via Seller Central APIs, driving $40M of the team's $100M+ in savings.
 Product Manager, Amazon Pricing   2016 - 2018
 • Launched self-service price-perception insight tools benchmarking Amazon against 800+ retailers in 17 countries; adopted by 40+ global pricing leaders, with signals feeding the pricing models that set Amazon's prices.
 Cognizant Technology Solutions | Designed solutions and pricing for 30+ APAC deals worth $25M (45% win rate)   2015 - 2016
