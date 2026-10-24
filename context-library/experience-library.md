@@ -646,6 +646,9 @@ Source: user's answers in chat, 2026-10-24 (Stripe Radar integrations resume, v7
 - Resume (v7): "every client renewed through the product move, with no churn, and 2 upgraded to agents (+$500K ACV each)." Consistent with K1's 5 clients.
 - [CONFIRM, interview prep only] K32's ARR breakdown lists 4 contracts ($2M + $2M + $2M + $1.5M = $7.5M). Who is the fifth client, and is its revenue inside the $7.5M? Doesn't change the resume, but have the answer ready if asked "which 5?"
 
+#### Customer cadence in early Keystone deployments (stated by user on the Ascerta call, 2026-09-28; logged 2026-10-24 from Otter)
+- Single point of contact for early clients. Weekly syncs with demand planners (progress, findings, enhancements, feedback); monthly syncs with the executive sponsor (chief supply chain officer) on adoption, blockers and the support needed. Adds to K22's bi-weekly results reviews.
+
 #### Confirmed 2026-10-24
 - **SPORT adoption:** ~10% is the adoption level reached (from a 1% baseline), as the combined result of the APIs, wider recommendations, the Seller Central entry point and account-manager marketing (A15).
 
