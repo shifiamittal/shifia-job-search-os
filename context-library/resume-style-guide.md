@@ -43,6 +43,6 @@ Source: Shifia's edits and feedback during the R37 AI Lab resume (2026-10-22). `
 - Qualify ranges honestly ("up to 26%" when the range is 21–26%).
 
 ## Wording that has been decided
-- "50K+ customers" (never "millions"); "$5M ARR" (never "$5MM"); "30+ engineers and data scientists" at Keystone; "mentored 3 dotted-line PMs".
+- "50K+ customers" (never "millions"); "$7.5M ARR" (never "$7.5MM"); "30+ engineers and data scientists" at Keystone; "mentored 3 dotted-line PMs".
 - Don't write "HIPAA-like". Name the controls instead: access controls, encryption, anonymization, data residency.
 - Bias work: thin-file SMB underwriting (business-level features only; owner attributes and ZIP excluded). Don't claim fair-lending review.

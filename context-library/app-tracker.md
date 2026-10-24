@@ -1,6 +1,6 @@
 # Application Tracker
 
-Last updated: 2026-10-22
+Last updated: 2026-10-23
 Scope: current search (2026) only.
 Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applications made on company sites or through referrals aren't captured yet. Add them with `/app-tracker add`.
 
@@ -47,6 +47,30 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 
 ## Recruiter Screen
 
+### Stripe - Product Manager, Radar
+- **Status:** recruiter-screen (scheduled; date [CONFIRM])
+- **Job ID:** 8301646 · https://stripe.com/careers/apply/product-manager-radar/8301646
+- **Date applied:** [CONFIRM]
+- **Source:** [CONFIRM: applied / recruiter outreach / referral]
+- **Referral:** No (Piyush Rohella not yet asked)
+- **Resume version:** [CONFIRM: which version was submitted]
+- **Cover letter:** [CONFIRM]
+- **Connection at company:** Piyush Rohella (1st degree; PM at Stripe; former teammate in Amazon B2B Payments & Lending)
+- **Work product sent:** No
+- **Visa/sponsorship:** Not required
+- **Background check stage:** unknown
+- **Company tier:** Rank 37 in target-companies.md (fintech + ML fit; Seattle office)
+- **Location:** Seattle is a listed office; at least 50% in office
+- **Comp:** Posted US base $178.6K–$268K, spanning several levels. TC depends on level and equity (company-intel, Mar 2026: L4 $350–520K, L5 $500–750K+ [VERIFY]). **Comp-range-confirmed:** No. Ask for level and full package at the screen.
+- **Prior application:** Stripe ~2024, rejected after the initial screening (Product Sense + behavioral). Feedback in interview-history.md.
+- **Fit notes:** Strong on the preferred fraud/risk/ML qualification (PBI 2.0 fraud controls, credit risk). Thin on external developer platforms/partners and on pricing outcome numbers.
+- **Prep:** `briefings/2026-10-23-prep-stripe.md` (doc version: https://claude.ai/artifact/JTUzDDVktteo6nD9VWfkd4)
+- **Last action:** 2026-10-23 Recruiter-screen prep package built.
+- **Next action:** Message Piyush for Radar-team intel and a referral before the screen; send a thank-you within 24 hours of the screen; run `/interview-debrief` after it.
+- **History:**
+  - [CONFIRM date] Applied / recruiter contact
+  - 2026-10-23 Recruiter screen scheduled; prep package built
+
 ### Ascerta - Principal Product Manager - AI Startup
 - **Status:** recruiter-screen (complete; awaiting team review)
 - **Date applied:** [CONFIRM]
@@ -61,6 +85,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
   - [date] Recruiter: team yet to review recording
 
 ## Needs Attention
+- **Stripe Radar:** recruiter screen coming up. Ask Piyush Rohella for intel and a referral first; fill in the [CONFIRM] fields (applied date, source, resume version, screen date).
 - **Ascerta:** stalled; send one final follow-up.
 - **Rose International contract:** decide go/no-go; rate is ~half your comp floor. Ask for the client name before a screen.
 - **Count:** send the post-rejection notes (interview-debriefs/2026-10-15-count-followup-notes.md).
