@@ -241,7 +241,7 @@ End with a question; it turns the check into a conversation.
 #### Q4. "What product superpowers would you bring? Give me a recent example."
 **Asked at:** LawnStarter. **Last score:** 6.
 **What went wrong:** three generic traits (ownership, bias for action, customer problem) and a long example.
-**Answer (~120 words):** "Two. First, I take the problem nobody owns and turn it into a product or a standard. At Amazon, nobody had defined how privacy rules applied to ML models across Payments, so every science team was guessing. I defined the requirements with Legal and the privacy team and shipped a semi-automated version in about two months instead of a year-and-a-half build. It became standard platform policy across Amazon Payments, about 20 teams, and saved my org five science FTEs a year.
+**Answer (~120 words):** "Two. First, I take the problem nobody owns and turn it into a product or a standard. At Amazon, nobody had defined how privacy rules applied to ML models across Payments, so every science team was guessing. I defined the requirements with Legal and the privacy team, presented the policy to the VP of Data Privacy, the Amazon Payments VP and Directors across Payments, and shipped a semi-automated version in about two months instead of a year-and-a-half build. It became standard platform policy across Amazon Payments, about 20 teams, and saved my org five science FTEs a year.
 
 Second, I turn ML into a business. At Keystone.ai I moved a consulting company to product and designed the pricing: $7.5M ARR, all five clients renewed, and two upgraded to agents for about $500K more a year each."
 **Scope signal:** an org-wide standard across ~20 teams (A10), and a company-level business model (K1, K32).
@@ -300,8 +300,8 @@ Never say "millions of users."
 
 #### Q14. "Tell me about influencing executives."
 **Asked at:** R37. **What went wrong:** long and abstract ("I have that muscle of influence").
-**Answer (~120 words):** "The biggest was getting Keystone's CEO and CTO to move a 20-year consulting business to a product. I didn't argue it in principle. I showed them that we were rebuilding the same pipelines, models and dashboards for every client, that each deployment took about seven people and six months, and that clients were asking for a product to demo. I proposed starting with one product, forecasting, with a clear line between what we'd standardize and what would stay client-specific. That made it a bounded bet rather than a company overhaul. At Amazon, the clearest example was ML privacy: I defined how EU and US privacy rules applied to ML with Legal and Amazon's privacy team, and it was approved as platform policy across Amazon Payments, about 20 teams."
-**Scope signal:** company direction (K1) and an org-wide policy (A10), both without line authority.
+**Answer (~120 words):** "The biggest was getting Keystone's CEO and CTO to move a 20-year consulting business to a product. I didn't argue it in principle. I showed them that we were rebuilding the same pipelines, models and dashboards for every client, that each deployment took about seven people and six months, and that clients were asking for a product to demo. I proposed starting with one product, forecasting, with a clear line between what we'd standardize and what would stay client-specific. That made it a bounded bet rather than a company overhaul. At Amazon, the clearest example was ML privacy: nobody had defined how EU and US privacy rules applied to ML models. I worked out the requirements with Legal and Amazon's privacy team, then presented the policy to the VP of Data Privacy, the Amazon Payments VP and Directors across Payments, because it touched every team and was a compliance requirement. It became platform policy across Amazon Payments, about 20 teams."
+**Scope signal:** company direction (K1) and an org-wide policy you took to two VPs (A10), both without line authority.
 
 
 ### D. Working style and leadership
