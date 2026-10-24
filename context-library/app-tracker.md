@@ -78,7 +78,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Date applied:** not applied; recruiter outreach
 - **Source:** Recruiter outreach (recruiter name [CONFIRM])
 - **Referral:** No (Piyush Rohella not yet asked)
-- **Resume version:** `resumes/Shifia_Mittal_Resume_Stripe_Radar.docx` / `.pdf` (v7, built 2026-10-24 from Fraud v6; analysis: `resumes/2026-10-24-stripe-radar-pm.md`). Not sent yet. Confirm the demos/POC clause first
+- **Resume version:** `resumes/Shifia_Mittal_Resume_Stripe_Radar.docx` / `.pdf` (v7, built 2026-10-24 from Fraud v6; analysis: `resumes/2026-10-24-stripe-radar-pm.md`). Not sent yet. Confirm the SPORT partner-team count (3 or 5)
 - **Cover letter:** [CONFIRM]
 - **Connection at company:** Piyush Rohella (1st degree; PM at Stripe; former teammate in Amazon B2B Payments & Lending)
 - **Work product sent:** No

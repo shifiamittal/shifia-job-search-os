@@ -1,6 +1,6 @@
 # Experience Library
 
-Last updated: 2026-10-24
+Last updated: 2026-10-24 (third batch)
 Sources: LinkedIn profile PDF export (Profile (5).pdf), LinkedIn profile page text, and `Resume variants/Shifia_Mittal_Resume.docx`.
 
 This is the single source of truth. Every skill draws from this file. Anything marked **[CONFIRM]** has a conflict or gap between sources. Resolve it before using it in an application.
@@ -618,6 +618,25 @@ Source: user's answers in chat, 2026-10-24 (Stripe Radar Fraud & Abuse resume in
 #### A19: Fraud Attack Investigation with BFS (Amazon), stated by user 2026-10-24
 - Investigated fraud attacks with the Business Fraud Score (BFS) team and identified levers (signals) that could feed the fraud model.
 - [NEEDS DETAIL before external use beyond this one-line claim]: which attack or pattern, how it was found, which levers were identified (the A18 signal list may be the answer), whether any became model features or rules, the financial impact, and whether it was handled as a one-off or a reusable defense.
+
+### Added 2026-10-24 (third batch): sales partnership, marketing, API integrations
+Source: user's answers in chat, 2026-10-24 (Stripe Radar integrations resume, v7).
+
+#### K34: Client onboarding: demo, proof of concept, land-and-expand pricing (Keystone.ai)
+- When onboarding a new client, Shifia **demoed the Deep Enterprise platform** to the client, **designed the proof of concept**, and **scoped the product to shipment forecasting instead of order forecasting**, based on the client's requirements and data availability (same decision as K24).
+- **Collaborated with the sales leader to price the first implementation on forecasting only**, leaving agents out of the first deal.
+- Links to K32: clients that started on forecasting later upgraded to agents (+$500K ACV each). Which client this was isn't stated; K24's shipment-vs-order decision points to the flagship CPG client [CONFIRM].
+- Resume wording (v7): "demoed the platform, scoped a proof of concept to shipment forecasting and priced the first deal on forecasting alone." This replaces v6's unsourced "ran customer demos, proof-of-concept scoping and pricing decisions with sales leaders."
+- **Tags:** B2B sales partnership, customer discovery, technical evaluation, commercialization, land and expand
+
+#### Keystone launches with Marketing (Keystone.ai)
+- Every Keystone launch involved the **marketing VPs**. They were in client outreach early, so they had the relationships and an early read on customer requirements. OK to name Marketing alongside Sales, Finance and the CEO in go-to-market work.
+
+#### A15 update: SPORT API integrations
+- The SPORT APIs were integrated by partner teams so inventory moves could happen at scale instead of depending on each seller: **3 partner teams on Seller Central**, plus a separate **RIM team** and the **inventory placement team** [CONFIRM: is that 3 teams in total (Seller Central, RIM, inventory placement) or 5 (3 Seller Central teams + RIM + inventory placement)? The resume says "3+ partner teams" until confirmed]. These are Amazon partner teams; outside-developer integrations aren't confirmed.
+
+#### A16 update: MOQ API consumers
+- The MOQ APIs were used by **Seller Central** and by **country-level stakeholders** in other marketplaces [NEEDS DETAIL: how many countries or marketplaces].
 
 #### Confirmed 2026-10-24
 - **SPORT adoption:** ~10% is the adoption level reached (from a 1% baseline), as the combined result of the APIs, wider recommendations, the Seller Central entry point and account-manager marketing (A15).
