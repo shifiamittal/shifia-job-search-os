@@ -1,7 +1,7 @@
 # Resume Output - Stripe · Product Manager, Radar (integrations, partners, monetization)
 **Version 7, built from your v6 (`Shifia_Mittal_Resume_Stripe_Radar_Fraud_6.docx`), 2026-10-24.**
 **Keyword Coverage: 100% (21/21 requirements matched: 19 strong, 2 partial, 0 unmatched).** Strong-only: 90%.
-**Round 2 (same day):** pricing bullet now uses your confirmed demo / proof-of-concept / forecasting-only pricing story (K34) and names Marketing; SPORT bullet now says 3+ partner teams integrated the APIs (A15 update).
+**Round 2 (same day):** pricing bullet now uses your confirmed demo / proof-of-concept / forecasting-only pricing story (K34) and names Marketing; SPORT bullet now says 3 partner teams integrated the APIs (A15 update).
 
 Files: `resumes/Shifia_Mittal_Resume_Stripe_Radar.docx` (master) and `.pdf` (one page, rendered and checked; 3 live links).
 Job: https://stripe.com/careers/apply/product-manager-radar/8301646
@@ -11,7 +11,7 @@ Job: https://stripe.com/careers/apply/product-manager-radar/8301646
 |---|---|
 | Summary: "including credit, fraud risk and developer APIs" | API products are a minimum requirement |
 | Pricing bullet: "Set B2B monetization (value-based modular pricing) with Sales, Marketing and the CEO; demoed the platform, scoped the proof of concept to shipment forecasting and priced the first deal on forecasting alone" | B2B pricing and monetization; partnering with sales on discovery, technical evaluation and commercialization; marketing |
-| SPORT: "3+ partner teams integrated it, including Seller Central and inventory placement" (dropped "external developers") | Integration partners; integration-success metric |
+| SPORT: "3 partner teams integrated it, including Seller Central and inventory placement" (dropped "external developers") | Integration partners; integration-success metric |
 | API catalog moved from last Keystone bullet to 4th | Documentation, onboarding, developer experience |
 | **Added** modular services vs. monolith (K13) | "Go deep with engineers on system architecture and integration trade-offs" |
 | Batch vs. real-time bullet moved to 2nd under Amazon Financing; now "versioned REST APIs … real-time credit eligibility" | APIs + architecture lead; fraud follows as the preferred qualification |
@@ -22,7 +22,7 @@ Job: https://stripe.com/careers/apply/product-manager-radar/8301646
 
 ## Before you send
 1. **Resolved:** the v6 demos/POC clause is replaced with your confirmed story (K34).
-2. **SPORT partner-team count.** Resume says "3+ partner teams". Confirm whether it was 3 teams in total or 3 Seller Central teams plus RIM and inventory placement (5); if 5, change it to "5 partner teams".
+2. **Resolved:** SPORT was 3 partner teams in total; MOQ was used in 2 Asian countries; the proof-of-concept client was the tire manufacturer (forecasting only), so the bullet now says "started clients on forecasting-only deals" instead of tying that deal to the upgrades.
 3. **SPORT "adoption rose from 1% to 10%."** v6 dropped the qualifier. The library credits ~10% to the APIs plus wider coverage, the Seller Central entry point and account-manager marketing. Fine on the page; in the interview say it was the combined result.
 4. **"20K sellers" (MOQ)** = the library's 20K merchants. The $20M is part of the $100M+ in the TRACE bullet.
 
@@ -40,9 +40,9 @@ Job: https://stripe.com/careers/apply/product-manager-radar/8301646
 | 3 | Strategy and roadmap, prioritized by impact, feasibility, value | STRONG | Keystone 0→1 strategy and roadmap; MLOps vision and roadmap; "prioritize top blockers" |
 | 4 | Turn fraud control and monitoring capabilities into APIs, tools, developer experiences | STRONG | Versioned REST APIs for fraud checks at signup; fraud score + risk signals + checkout controls |
 | 5 | Ideation to launch: scope, prioritize, execute | STRONG | 5% controlled launch → 50K+ customers; batch over real-time to launch 3 months earlier |
-| 6 | Sales, marketing, partnerships: validate demand, drive adoption | STRONG | Pricing and GTM with Sales, Marketing and the CEO; demo and proof of concept with the client; 3+ partner teams integrated the SPORT APIs |
+| 6 | Sales, marketing, partnerships: validate demand, drive adoption | STRONG | Pricing and GTM with Sales, Marketing and the CEO; demo and proof of concept with the client; 3 partner teams integrated the SPORT APIs |
 | 7 | Early implementations → documentation, onboarding, evaluation to production | STRONG | API catalog (schemas, auth, integration examples); MLOps onboarding as a product (templates, docs, community); client-cloud deployments |
-| 8 | Metrics: integration success, adoption, retention, revenue | PARTIAL | Integration (3+ partner teams); adoption (50% → 70%, 1% → 10%, MOQ +60% adherence); revenue ($7.5M ARR, +$500K ACV, $71M). No retention metric on record |
+| 8 | Metrics: integration success, adoption, retention, revenue | PARTIAL | Integration (3 partner teams); adoption (50% → 70%, 1% → 10%, MOQ +60% adherence); revenue ($7.5M ARR, +$500K ACV, $71M). No retention metric on record |
 | 9 | Communicate and align teams you don't manage | STRONG | C-suite pivot; persuaded leadership and investors; monthly VP-level reviews |
 | 10 | 8+ years of PM | STRONG | PM titles 2016–present (10 years) |
 | 11 | Analytical; SQL | STRONG | Data contracts from SQL analysis (Athena) |
@@ -55,7 +55,7 @@ Job: https://stripe.com/careers/apply/product-manager-radar/8301646
 | 18 | Written and verbal communication | PARTIAL | Indirect only (API catalog, release communication, VP reviews). The writing exercise is the proof |
 | 19 | Ownership; high quality bar | STRONG | Evaluation gates before launch; security review on time; no credit losses after full launch |
 | 20 | Pref: fraud, risk, security or ML products | STRONG | Three fraud bullets; MLOps for risk and credit scientists; multi-agent system |
-| 21 | Pref: developer platforms and integration partners | STRONG | 3+ partner teams on the SPORT APIs; MLOps platform; API catalog; client-cloud deployments |
+| 21 | Pref: developer platforms and integration partners | STRONG | 3 partner teams on the SPORT APIs; MLOps platform; API catalog; client-cloud deployments |
 
 21 requirements is above average; 19 strong is a strong fit.
 
@@ -102,7 +102,7 @@ EXPERIENCE	2015 - Present (11 years)
 Keystone.ai | AI division of Keystone, a 20+ year tech and economics advisory firm (450+ employees, PE-backed)	
 Principal Product Manager-Technical	2024 - Present
 • Led 0→1 product strategy, roadmap, and operating model for an enterprise AI supply chain platform, influencing C-suite executives to pivot from consulting to a product-led model and directing a cross-functional team of 30+ engineers and data scientists; reached $7.5M ARR and $25M in annualized client savings across 5 Fortune 500 clients.
-• Set B2B monetization (value-based modular pricing) with Sales, Marketing and the CEO; demoed the platform, scoped the proof of concept to shipment forecasting and priced the first deal on forecasting alone; 2 clients upgraded to agents (+$500K ACV each).
+• Set B2B monetization (value-based modular pricing) with Sales, Marketing and the CEO; demoed the platform, scoped a proof of concept to shipment forecasting and started clients on forecasting-only deals; 2 clients upgraded to agents (+$500K ACV each).
 • Persuaded leadership and investors to deploy as a managed service in clients’ cloud instead of pure SaaS, with APIs feeding client planning workflows; enabled 2 additional clients with strict data-residency needs.
 • Owned the data platform’s API catalog (endpoints, schemas, auth, integration examples) and release communication for app developers; the app team onboarded 5 new client dashboards with no extra effort.
 • Chose modular services over a monolith so Fortune 500 clients could deploy selectively, accepting 6 weeks upfront to avoid a 10× rewrite; passed the flagship client’s security review on time and onboarded a second client with no refactor.
@@ -112,7 +112,7 @@ Principal Product Manager-Technical	2024 - Present
 • Launched a multi-agent system (LLMs, RAG, LangGraph, MCP) that triages exceptions, automates only low-risk, reversible decisions and routes the rest to human-in-the-loop review; shipped through evaluation gates, achieving >70% recommendation acceptance, cutting reviewer effort from 4 hrs/day to 4 hrs/week and overstock from $5M to $2M.
 Amazon	2016 - 2024 (8 years)
 Sr. Product Manager-Technical, Amazon Business Financing & Credit	2022 - 2024
-• Launched Amazon Business’ ML financing product via experimentation, 5% controlled launch, biweekly Agile sprints, and monthly VP-level reviews against an S-team goal; scaled to 50K+ customers and $71M in incremental revenue.
+• Launched Amazon Business’ ML financing product via experimentation, a 5% controlled launch, biweekly Agile sprints and written monthly VP-level business reviews against an S-team goal; scaled to 50K+ customers and $71M in incremental revenue.
 • Chose batch over real-time credit decisions to launch 3 months earlier, managing risk with exposure caps and category limits; defined versioned REST APIs for fraud checks at signup and real-time credit eligibility at checkout.
 • Led fraud prevention strategy for Amazon’s SMB credit product, integrating the fraud score, domain-based risk signals, and transaction controls at checkout to reduce fraud loss rate by 15%.
 • Set the fraud-detection threshold at 99% precision with the fraud and Buyer Risk Prevention teams to limit customer friction for legitimate businesses, backed by a domain blocklist and exposure limits.
@@ -120,8 +120,8 @@ Sr. Product Manager-Technical, Amazon Business Financing & Credit	2022 - 2024
 Sr. Product Manager-Technical, ML Ops Developer Platform	2020 - 2022
 • Owned vision and roadmap for a SageMaker-based MLOps platform for 30+ risk and credit data scientists, treating onboarding as a product (templates, docs, community); cut deployment time 40% and scaled to 100+ production models with flat headcount.
 Product Manager-Technical, Supply Chain Optimization	2018 - 2020
-• Built SPORT, an ML inventory-recommendation product, and exposed it through Selling Partner APIs; 3+ partner teams integrated it, including Seller Central and inventory placement, to act on recommendations at scale; adoption rose from 1% to 10%.
-• Built MOQ recommendation APIs that gave 20K sellers item-level minimum order thresholds on Seller Central; a controlled experiment found ~60% higher seller adherence with no conversion loss, saving sellers $20M in shipping costs.
+• Built SPORT, an ML inventory-recommendation product, and exposed it through Selling Partner APIs; 3 partner teams integrated it, including Seller Central and inventory placement, to act on recommendations at scale; adoption rose from 1% to 10%.
+• Built MOQ recommendation APIs, used by Seller Central and 2 Asian marketplaces, setting order minimums for 20K sellers; a controlled experiment found ~60% higher seller adherence with no conversion loss and $20M in seller shipping savings.
 • Launched TRACE, a causal decision support product that explained shipping-cost changes across 50+ drivers from 14 teams’ systems and recommended the top fix to sellers via Seller Central APIs, driving $40M of the team’s $100M+ in savings.
 Product Manager, Amazon Pricing	2016 - 2018
 • Launched self-service price-perception insight tools benchmarking Amazon against 800+ retailers in 17 countries; adopted by 40+ global pricing leaders, with signals feeding the pricing models that set Amazon’s prices.

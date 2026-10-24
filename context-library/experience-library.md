@@ -625,18 +625,24 @@ Source: user's answers in chat, 2026-10-24 (Stripe Radar integrations resume, v7
 #### K34: Client onboarding: demo, proof of concept, land-and-expand pricing (Keystone.ai)
 - When onboarding a new client, Shifia **demoed the Deep Enterprise platform** to the client, **designed the proof of concept**, and **scoped the product to shipment forecasting instead of order forecasting**, based on the client's requirements and data availability (same decision as K24).
 - **Collaborated with the sales leader to price the first implementation on forecasting only**, leaving agents out of the first deal.
-- Links to K32: clients that started on forecasting later upgraded to agents (+$500K ACV each). Which client this was isn't stated; K24's shipment-vs-order decision points to the flagship CPG client [CONFIRM].
-- Resume wording (v7): "demoed the platform, scoped a proof of concept to shipment forecasting and priced the first deal on forecasting alone." This replaces v6's unsourced "ran customer demos, proof-of-concept scoping and pricing decisions with sales leaders."
+- **Client (confirmed 2026-10-24):** the global tire manufacturer (Michelin, private; say "a global manufacturer" externally). Per K32 this client bought forecasting only, so it is not one of the two agent upgrades. The land-with-forecasting pattern is still true of the two clients that later added agents (K32). Don't write the resume so this deal appears to cause the upgrades.
+- Resume wording (v7): "demoed the platform, scoped a proof of concept to shipment forecasting and started clients on forecasting-only deals." This replaces v6's unsourced "ran customer demos, proof-of-concept scoping and pricing decisions with sales leaders."
 - **Tags:** B2B sales partnership, customer discovery, technical evaluation, commercialization, land and expand
 
 #### Keystone launches with Marketing (Keystone.ai)
 - Every Keystone launch involved the **marketing VPs**. They were in client outreach early, so they had the relationships and an early read on customer requirements. OK to name Marketing alongside Sales, Finance and the CEO in go-to-market work.
 
 #### A15 update: SPORT API integrations
-- The SPORT APIs were integrated by partner teams so inventory moves could happen at scale instead of depending on each seller: **3 partner teams on Seller Central**, plus a separate **RIM team** and the **inventory placement team** [CONFIRM: is that 3 teams in total (Seller Central, RIM, inventory placement) or 5 (3 Seller Central teams + RIM + inventory placement)? The resume says "3+ partner teams" until confirmed]. These are Amazon partner teams; outside-developer integrations aren't confirmed.
+- The SPORT APIs were integrated by partner teams so inventory moves could happen at scale instead of depending on each seller: **3 partner teams in total** (confirmed 2026-10-24): Seller Central, the RIM team, and the inventory placement team. These are Amazon partner teams; outside-developer integrations aren't confirmed.
 
 #### A16 update: MOQ API consumers
-- The MOQ APIs were used by **Seller Central** and by **country-level stakeholders** in other marketplaces [NEEDS DETAIL: how many countries or marketplaces].
+- The MOQ APIs were used by **Seller Central** and by country-level teams in **2 Asian countries** (confirmed 2026-10-24).
+
+#### Writing (stated by user 2026-10-24)
+- Writing is a core strength. Has written PR/FAQs, strategy documents, PRDs, OP1 (annual planning) documents, MBRs/QBRs and VP-level alignment documents. Resume v7 says "written monthly VP-level business reviews" on the PBI bullet. [NEEDS DETAIL: which documents drove which decisions, e.g., an OP1 that secured headcount (MDLC "secured 8+ engineering HC year over year"), a PR/FAQ that launched a product, the Keystone pivot document.]
+
+#### Keystone client retention (stated by user 2026-10-24)
+- "We did retain customers at Keystone." [NEEDS DETAIL before resume use: how many clients renewed out of how many, over what period, any churn, and whether renewals happened through the consulting-to-product move.]
 
 #### Confirmed 2026-10-24
 - **SPORT adoption:** ~10% is the adoption level reached (from a 1% baseline), as the combined result of the APIs, wider recommendations, the Seller Central entry point and account-manager marketing (A15).
