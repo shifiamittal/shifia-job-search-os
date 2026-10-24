@@ -1,6 +1,7 @@
 # Resume Output - Stripe · Product Manager, Radar (integrations, partners, monetization)
 **Version 7, built from your v6 (`Shifia_Mittal_Resume_Stripe_Radar_Fraud_6.docx`), 2026-10-24.**
-**Keyword Coverage: 100% (21/21 requirements matched: 19 strong, 2 partial, 0 unmatched).** Strong-only: 90%.
+**Keyword Coverage: 100% (21/21 requirements matched: 20 strong, 1 partial, 0 unmatched).** Strong-only: 95%.
+**Round 3 (same day):** K2 now carries retention (every client renewed through the product move, no churn) next to the agent upgrades; removed the event-stream demo bullet to stay on one page.
 **Round 2 (same day):** pricing bullet now uses your confirmed demo / proof-of-concept / forecasting-only pricing story (K34) and names Marketing; SPORT bullet now says 3 partner teams integrated the APIs (A15 update).
 
 Files: `resumes/Shifia_Mittal_Resume_Stripe_Radar.docx` (master) and `.pdf` (one page, rendered and checked; 3 live links).
@@ -42,11 +43,11 @@ Job: https://stripe.com/careers/apply/product-manager-radar/8301646
 | 5 | Ideation to launch: scope, prioritize, execute | STRONG | 5% controlled launch → 50K+ customers; batch over real-time to launch 3 months earlier |
 | 6 | Sales, marketing, partnerships: validate demand, drive adoption | STRONG | Pricing and GTM with Sales, Marketing and the CEO; demo and proof of concept with the client; 3 partner teams integrated the SPORT APIs |
 | 7 | Early implementations → documentation, onboarding, evaluation to production | STRONG | API catalog (schemas, auth, integration examples); MLOps onboarding as a product (templates, docs, community); client-cloud deployments |
-| 8 | Metrics: integration success, adoption, retention, revenue | PARTIAL | Integration (3 partner teams); adoption (50% → 70%, 1% → 10%, MOQ +60% adherence); revenue ($7.5M ARR, +$500K ACV, $71M). No retention metric on record |
+| 8 | Metrics: integration success, adoption, retention, revenue | STRONG | Retention: every client renewed through the product move, no churn, 2 expanded (+$500K ACV each). Integration: 3 partner teams on SPORT; MOQ in 2 Asian marketplaces. Adoption: 50% → 70%, 1% → 10%. Revenue: $7.5M ARR, $71M |
 | 9 | Communicate and align teams you don't manage | STRONG | C-suite pivot; persuaded leadership and investors; monthly VP-level reviews |
 | 10 | 8+ years of PM | STRONG | PM titles 2016–present (10 years) |
 | 11 | Analytical; SQL | STRONG | Data contracts from SQL analysis (Athena) |
-| 12 | Scrappy; 0→1; test quickly | STRONG | 0→1 platform; event-stream demo in 2–3 weeks → paying customer; 5% launch |
+| 12 | Scrappy; 0→1; test quickly | STRONG | 0→1 platform; proof of concept scoped to available data; 5% controlled launch; batch over real-time to launch 3 months earlier |
 | 13 | Commercial and business acumen | STRONG | $7.5M ARR, $25M client savings, +$500K ACV upgrades, $71M revenue |
 | 14 | B2B sales partnership: discovery, technical evaluation, commercialization | STRONG | Demoed the platform, scoped the proof of concept to shipment forecasting (data availability), priced the first deal with the sales leader; client security review; Cognizant pre-sales |
 | 15 | Dashboard and API products; empathy for end users and developers | STRONG | API catalog → 5 client dashboards; REST APIs; Selling Partner APIs; MOQ APIs; self-service pricing insight tools |
@@ -57,12 +58,11 @@ Job: https://stripe.com/careers/apply/product-manager-radar/8301646
 | 20 | Pref: fraud, risk, security or ML products | STRONG | Three fraud bullets; MLOps for risk and credit scientists; multi-agent system |
 | 21 | Pref: developer platforms and integration partners | STRONG | 3 partner teams on the SPORT APIs; MLOps platform; API catalog; client-cloud deployments |
 
-21 requirements is above average; 19 strong is a strong fit.
+21 requirements is above average; 20 strong is a strong fit.
 
-## Gaps (0 unmatched, 2 partial)
+## Gaps (0 unmatched, 1 partial)
 | # | Requirement | Suggested response |
 |---|---|---|
-| 8 | Retention / integration-success metrics | Until gap question 1 or 3 is answered: "I measured integrations by adoption. On the Keystone API catalog, success meant the app team shipped 5 new client dashboards with no extra effort from us." |
 | 18 | Writing | Stripe's 2024 feedback was to state goals first: lead every written answer with the goal and the user segment |
 
 ## Retention metrics to dig up (for JD row 8)
@@ -102,13 +102,12 @@ EXPERIENCE	2015 - Present (11 years)
 Keystone.ai | AI division of Keystone, a 20+ year tech and economics advisory firm (450+ employees, PE-backed)	
 Principal Product Manager-Technical	2024 - Present
 • Led 0→1 product strategy, roadmap, and operating model for an enterprise AI supply chain platform, influencing C-suite executives to pivot from consulting to a product-led model and directing a cross-functional team of 30+ engineers and data scientists; reached $7.5M ARR and $25M in annualized client savings across 5 Fortune 500 clients.
-• Set B2B monetization (value-based modular pricing) with Sales, Marketing and the CEO; demoed the platform, scoped a proof of concept to shipment forecasting and started clients on forecasting-only deals; 2 clients upgraded to agents (+$500K ACV each).
+• Set B2B monetization (value-based modular pricing) with Sales, Marketing and the CEO; demoed the platform, scoped a proof of concept to shipment forecasting and started clients on forecasting-only deals; every client renewed through the product move, with no churn, and 2 upgraded to agents (+$500K ACV each).
 • Persuaded leadership and investors to deploy as a managed service in clients’ cloud instead of pure SaaS, with APIs feeding client planning workflows; enabled 2 additional clients with strict data-residency needs.
 • Owned the data platform’s API catalog (endpoints, schemas, auth, integration examples) and release communication for app developers; the app team onboarded 5 new client dashboards with no extra effort.
 • Chose modular services over a monolith so Fortune 500 clients could deploy selectively, accepting 6 weeks upfront to avoid a 10× rewrite; passed the flagship client’s security review on time and onboarded a second client with no refactor.
 • Ran customer discovery (planner interviews, workflow observation, adoption data) to identify and prioritize top blockers impacting supply chain platform adoption, lifting adoption from 50% to 70%.
 • Built a multi-tenant data platform with 8 engineers, defining its data contracts from SQL analysis (Athena) of client order, shipment, and promotion data; cut deployment from 3 months to 3 weeks.
-• Shipped a customer-demo event-stream capability in 2–3 weeks; the prospect became a paying customer.
 • Launched a multi-agent system (LLMs, RAG, LangGraph, MCP) that triages exceptions, automates only low-risk, reversible decisions and routes the rest to human-in-the-loop review; shipped through evaluation gates, achieving >70% recommendation acceptance, cutting reviewer effort from 4 hrs/day to 4 hrs/week and overstock from $5M to $2M.
 Amazon	2016 - 2024 (8 years)
 Sr. Product Manager-Technical, Amazon Business Financing & Credit	2022 - 2024
