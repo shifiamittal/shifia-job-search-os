@@ -32,7 +32,7 @@ Built from: the Step 1 question list (8 target companies' intel, the 12 most com
 ## Tier 3: Specific to one track or company
 | # | Competency | Primary | Backup | Status |
 |---|---|---|---|---|
-| 16 | Leading and aligning a team | K1 Three lanes, 20+ engineers and scientists | K20 | ✅ |
+| 16 | Leading and aligning a team | K1 Three lanes, 30+ engineers and scientists | K20 | ✅ |
 | 17 | Handling an underperformer | K20 Dotted-line PM | — | ⚠️ No backup; K20 has no hard choice and no number |
 | 18 | Developing and mentoring people | A13 Program Manager L4 → L5 | — | ⚠️ 2016–18, one person; 4–5 mentees with no story |
 | 19 | Technical depth | K6 Grounding diagnosis | A8 ML platform | ✅ |

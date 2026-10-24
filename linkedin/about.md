@@ -10,7 +10,7 @@ Principal Product Manager – Technical @ Keystone.ai | Enterprise AI Platforms,
 
 I build enterprise AI platforms, the agentic workflows that run on them, and the ML and data platforms underneath. 11 years in product, 8 at Amazon.
 
-I'm Principal Product Manager – Technical at Keystone.ai. I own AI product strategy, roadmap, pricing and go-to-market for Deep Enterprise, an enterprise AI platform for supply chain planning at Fortune 500 clients. I led its move from consulting to a product platform: $5M ARR, $25M in annualized client savings, 5 enterprise customers live. I set direction for 20+ engineers and data scientists with the CEO and CTO.
+I'm Principal Product Manager – Technical at Keystone.ai. I own AI product strategy, roadmap, pricing and go-to-market for Deep Enterprise, an enterprise AI platform for supply chain planning at Fortune 500 clients. I led its move from consulting to a product platform: $7.5M ARR, $25M in annualized client savings, 5 enterprise customers live. I set direction for 30+ engineers and data scientists with the CEO and CTO.
 
 At Keystone.ai:
 • Prioritized AI use cases: forecasting first, then 2 months of roadmap moved from accuracy work to agents after a prototype hit 70%+ acceptance.
