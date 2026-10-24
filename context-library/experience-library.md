@@ -1,6 +1,6 @@
 # Experience Library
 
-Last updated: 2026-10-21
+Last updated: 2026-10-24
 Sources: LinkedIn profile PDF export (Profile (5).pdf), LinkedIn profile page text, and `Resume variants/Shifia_Mittal_Resume.docx`.
 
 This is the single source of truth. Every skill draws from this file. Anything marked **[CONFIRM]** has a conflict or gap between sources. Resolve it before using it in an application.
@@ -28,7 +28,7 @@ This is the single source of truth. Every skill draws from this file. Anything m
 2. **Amazon tenure:** Oct 2016 – Jun 2024 (~8 years). **Actual level history (confirmed 2026-10-15):** L4 Program Manager → promoted to L5 Program Manager → moved laterally to L5 Product Manager → promoted to L6 Sr. PM-Technical (2020). In interviews: "joined as a program manager, promoted twice, moved into product management along the way."
 3. **Keystone tenure:** Jun 2024 – Mar 2026 (actual). User's choice is to show "Present" on the resume and LinkedIn. Claude advised against "Present" on the resume because employment verification will show Mar 2026. Lower-risk option: "2024 – 2026" (years only). Never say "I'm currently at Keystone" in interviews.
 4. **Company name:** Keystone.ai.
-5. **Keystone metrics:** all can be used together ($5M ARR [canonical], $25M client savings, WAPE −21%, Deep Enterprise deployment 6 → 4 months, data platform deployment 3 months → 3 weeks, 5 enterprises, 4 hrs/day → 4 hrs/week, data discovery to 2 weeks, ~2 weeks/model).
+5. **Keystone metrics:** all can be used together ($7.5M ARR [canonical, updated 2026-10-24], $25M client savings, WAPE −21%, Deep Enterprise deployment 6 → 4 months, data platform deployment 3 months → 3 weeks, 5 enterprises, 4 hrs/day → 4 hrs/week, data discovery to 2 weeks, ~2 weeks/model).
 6. **HAT-AI, REI-Agent, AI Evaluation framework:** all Keystone.ai work.
 7. **Supply chain products:** SPORT = inventory optimization, TRACE = causal attribution, MOQ = MOQ recommendations.
 8. **Causal attribution bullet:** ends at "drove $40M in savings."
@@ -40,12 +40,21 @@ This is the single source of truth. Every skill draws from this file. Anything m
 10. **Patent search:** personal project; no metrics beyond the LinkedIn About description.
 15. **Amazon financing/credit products (confirmed 2026-10-20):** launched through the Amazon Business website and scaled like consumer products (self-serve, personalized marketing, onboarding funnels). Counts as consumer-launch experience; name "Amazon Business" on resumes. SPORT, TRACE, and MOQ were self-serve products scaled to thousands of sellers; describe them as seller products, not B2C.
 16. **PBI 2.0 executive reporting (confirmed 2026-10-20):** presented monthly program updates to VP-level leadership; the program contributed to an Amazon S-team goal to grow Amazon's lending business.
-17. **Keystone pricing and packaging (confirmed 2026-10-21):** set tier-based subscription pricing and packaging for Deep Enterprise. Tiers differed by scope (e.g., products/locations covered), features (forecasting → recommendations → agents) and implementation; an implementation/managed-service fee applied on top. No usage-based or outcome-based pricing. Pricing outcomes (ACV, upsell, ARR contribution) to be added later [NEEDS DETAIL].
+17. **Keystone pricing and packaging (confirmed 2026-10-21):** set tier-based subscription pricing and packaging for Deep Enterprise. Tiers differed by scope (e.g., products/locations covered), features (forecasting → recommendations → agents) and implementation; an implementation/managed-service fee applied on top. No usage-based or outcome-based pricing. Pricing outcomes added 2026-10-24: see decision 25.
 18. **Keystone agent stack (confirmed 2026-10-21):** agents built on LangGraph, with memory, and called tools through MCP. OK for external materials.
 19. **Supply Chain team and influence (confirmed 2026-10-21):** led a 7+ person engineering and science team; worked across 20+ senior stakeholders; influenced the VP of Amazon FBA to let SPORT recommend inventory placement decisions to sellers.
 20. **Amazon Pricing insight tools (confirmed 2026-10-21):** saved analyst time (no number on record) and drove pricing changes; price-perception signals fed Amazon's pricing models that set product prices.
 21. **Cognizant (confirmed 2026-10-21):** 30+ infrastructure-setup deals in pre-sales, 45% win rate.
 22. **Hiring (confirmed 2026-10-21):** use "50+ hiring interviews across Keystone and Amazon" in the LinkedIn About section.
+23. **Keystone ARR (confirmed 2026-10-24):** **$7.5M ARR** is the canonical figure. It replaces $5M (2026-10-14) and the $10M on LinkedIn. Other files still showing $5M or $10M need updating (see the Canonical Metrics table).
+24. **Keystone team size (confirmed 2026-10-24):** directed **30+** engineers and data scientists (replaces 20+).
+25. **Keystone pricing outcomes (confirmed 2026-10-24):** value-based modular pricing, set with Sales, Finance, and the CEO. Rejected usage-based and savings-based pricing. **2 clients upgraded to agents, +$500K ACV each.** Also worked with Keystone sales leaders on customer demos, proof-of-concept scoping, pricing expectations, requirement refinement, and roadmap design.
+26. **Data platform API catalog (confirmed 2026-10-24):** owned the API catalog (endpoints, schemas, auth, integration examples) and release communication for app developers and data scientists; the app team onboarded **5 new client dashboards with no extra effort**. Also built SAP and Snowflake connectors, defined data contracts, wrote SQL (Athena) to profile client data, and made cache-vs-Postgres storage decisions.
+27. **SPORT APIs (confirmed 2026-10-24):** Selling Partner APIs shipped so external developers could show sellers recommendations and projected savings; adoption rose **1% → 10%**. [NEEDS DETAIL: how "adoption" is defined, and which external partners used the APIs.] The Aug 2020 SPORT API spec in Drive is a design doc with a 27% OP1 2021 goal; A12 records that the first-year goal was missed.
+28. **Fraud outcomes (confirmed 2026-10-24):** the SMB credit product's **fraud loss rate fell 15%** after integrating the fraud score, domain-based risk signals, and transaction controls at checkout. "Fraud and abuse" wording is OK in fraud contexts. Role stays as in A14: the fraud team built the model; Shifia owned the integration, threshold, and rules. The Stripe-resume line "repeat fraud incidents down 5%" from blocking rules on suspicious registrations is not explicitly confirmed [CONFIRM baseline and definition].
+29. **Amazon Pricing title (confirmed 2026-10-24):** the resume shows "Product Manager, Amazon Pricing, 2016–2018." Decision 2 (2026-10-15) records Program Manager (L4 → L5) in that period, so Amazon's records may differ. Background-check watch item; don't elaborate on titles in interviews.
+30. **Keystone firm description (confirmed 2026-10-24):** "AI division of Keystone, a 20+ year tech and economics advisory firm (450+ employees, PE-backed)."
+31. **"Present" (confirmed 2026-10-24):** keep "Present" for Keystone on the resume and LinkedIn. Verification will show Mar 2026; the interview rule is unchanged (never say "I'm currently at Keystone").
 
 ---
 
@@ -53,16 +62,17 @@ This is the single source of truth. Every skill draws from this file. Anything m
 
 ### Keystone.ai: Principal Product Manager – Technical
 Jun 2024 – Present · Seattle, WA · On-site · Full-time
+Firm description (confirmed 2026-10-24): AI division of Keystone, a 20+ year tech and economics advisory firm (450+ employees, PE-backed).
 
 LinkedIn bullets:
-- Led product strategy and go-to-market for an agentic AI supply chain platform serving Fortune 500 clients; drove Keystone's pivot from consulting to a product-led model, $25M in annualized client savings and $10M in ARR. ⚠ Update LinkedIn: canonical figure is $5M ARR.
+- Led product strategy and go-to-market for an agentic AI supply chain platform serving Fortune 500 clients; drove Keystone's pivot from consulting to a product-led model, $25M in annualized client savings and $10M in ARR. ⚠ Update LinkedIn: canonical figure is now $7.5M ARR (confirmed 2026-10-24).
 - Prototyped and deployed a multi-agent system that monitors forecast cycles, identifies exceptions, diagnoses root causes, and recommends retrain/override actions using routing, tools, RAG, human approval, and risk-tiered autonomy; reduced manual planning effort from 4 hrs/day to 4 hrs/week.
 - Designed a multi-tenant Data Platform to automate the end-to-end data lifecycle (ingestion → transformation → consumption), improving data quality, governance, onboarding speed, and data scientist productivity.
 
 Resume bullets:
 - **Enterprise AI Product Strategy:** Led 0→1 strategy and roadmap for Deep Enterprise, an agentic AI platform turning complex supply-chain decisions into reusable enterprise workflows; improved forecast WAPE by 21%, reduced deployment from 6 months to 4 months, and scaled to 5 enterprises. (Canonical; current resume says 3 months → 3 weeks here, so update it.)
 - **Customer Discovery & Adoption:** Led enterprise rollout and product iteration through planner interviews, workflow observations, user feedback, and performance metrics; turned recurring customer needs into reusable AI capabilities and adoption improvements.
-- **Executive & Cross-Functional Leadership:** Partnered with CEO/CTO, enterprise executives, and 20+ engineers and scientists to prioritize investments, align technical and business requirements, and balance customer-specific needs with platform scalability.
+- **Executive & Cross-Functional Leadership:** Partnered with CEO/CTO, enterprise executives, and 30+ engineers and scientists to prioritize investments, align technical and business requirements, and balance customer-specific needs with platform scalability.
 - **Enterprise Data Platform:** Built the enterprise data platform across ingestion, transformation, validation, lineage, APIs, and model-ready contracts; reduced deployment from 3 months to 3 weeks, cut client data discovery to 2 weeks, and saved ~2 weeks/model in data wrangling.
 - **Forecasting Agent:** Launched a multi-agent enterprise forecasting system combining exception detection, tool-based root-cause diagnosis, grounded recommendations, and human approval; reduced planner effort from 4 hrs/day to 4 hrs/week.
 - **HAT-AI:** Launched and scaled an AI assistant automating roadmap reporting, leadership newsletters, and knowledge discovery across 15 finance products; served 30 PMs and saved 120 hours/week.
@@ -95,7 +105,7 @@ Jul 2020 – Jul 2022 · Seattle, WA
 #### Product Manager, Supply Chain & Cost Optimization
 Nov 2018 – Jun 2020
 - Built and scaled ML recommendation and causal attribution products (SPORT, TRACE, MOQ) improving inventory, pricing, and shipping decisions; delivered $100M+ cost savings across Amazon and thousands of sellers.
-- **Inventory Optimization (SPORT):** Built and scaled an ML inventory-optimization product recommending moves from high- to lower-cost fulfillment channels; used seller research and behavioral data to redesign discoverability and execution, improving adoption ~10%.
+- **Inventory Optimization (SPORT):** Built and scaled an ML inventory-optimization product recommending moves from high- to lower-cost fulfillment channels; used seller research and behavioral data to redesign discoverability and execution, exposed through Selling Partner APIs so external developers could show sellers recommendations and projected savings; adoption rose from 1% to 10% (confirmed 2026-10-24).
 - **MOQ Recommendations:** Built an ML recommendation product optimizing item-level purchase thresholds across shipping cost and conversion; scaled to 20K merchants and 120K offers, driving ~60% higher adherence and lower shipping cost with no measurable conversion decline before full rollout.
 - **Causal Decision Support (TRACE):** Launched a causal-attribution product unifying operational and financial data across 50+ shipping-cost drivers into actionable recommendations; drove $40M in savings. (Resume says 20+; update to 50+.)
 
@@ -156,7 +166,7 @@ Jul 2012 – Dec 2012 · Gurugram, India
 ### Growth / Revenue / Metrics
 - $71M incremental revenue, ML financing product, 50K+ customers (Amazon).
 - $15M incremental revenue from ML-personalized marketing; +17% data coverage; +7% approval lift; −50% onboarding abandonment (Amazon).
-- $5M ARR and $25M annualized client savings (Keystone).
+- $7.5M ARR and $25M annualized client savings (Keystone).
 - $100M+ cost savings across SPORT, TRACE, MOQ (Amazon), including $40M from causal attribution.
 - MOQ: 20K merchants, 120K offers, ~60% higher adherence, no measurable conversion drop.
 
@@ -166,16 +176,16 @@ Jul 2012 – Dec 2012 · Gurugram, India
 - Owned vision and roadmap for the Amazon MLOps platform.
 
 ### Leadership / Cross-functional
-- Partnered with CEO/CTO, enterprise executives, and 20+ engineers and scientists (Keystone).
+- Partnered with CEO/CTO, enterprise executives, and 30+ engineers and scientists (Keystone).
 - Insight tools adopted by 40+ global pricing leaders (Amazon Pricing).
 - Pre-sales with solution architects on $25M APAC deals (Cognizant).
-- One direct report at Amazon (Program Manager, promoted L4 → L5). Dotted-line PM reports at Keystone. Leadership through influence: CEO/CTO, Fortune 500 executives, 20+ engineers and scientists.
+- One direct report at Amazon (Program Manager, promoted L4 → L5). Dotted-line PM reports at Keystone. Leadership through influence: CEO/CTO, Fortune 500 executives, 30+ engineers and scientists.
 - Mentored 4–5 people (junior PMs, interns); onboarded new PMs; 50+ hiring interviews across Keystone and Amazon (not a bar raiser).
 - Organized Keystone's product org into 3 lanes (customer data/deployment, forecasting models, planner app) with the CPO; ran weekly cross-team reviews.
 
 ### Customer Discovery / UX
 - Planner interviews, workflow observations, feedback loops driving enterprise adoption (Keystone).
-- Seller research and behavioral data used to redesign inventory product; adoption +~10% (Amazon).
+- Seller research and behavioral data used to redesign inventory product; adoption 1% → 10% (Amazon).
 - Onboarding CX redesign: −50% abandonment (Amazon).
 
 ### Domain Expertise
@@ -229,8 +239,8 @@ Five different metrics. Every story names the one it moved. No data access since
 
 ### K1: Deep Enterprise: Consulting → Product Pivot (Keystone.ai)
 - **Situation:** Keystone delivered forecasting through consulting. Each client needed 1–2 HC and 6+ months, and revenue scaled linearly with headcount.
-- **Action:** Noticed the same science, tech, and UX was being rebuilt for every client. Aligned the CEO and CTO on a pivot to a product. Chose forecasting as the MVP. Productized data pipelines, ML pipelines, monitoring, and the application, while keeping data and deployment client-specific. Ran 20+ engineers and scientists in parallel lanes with MVPs and milestones, with customer feedback through lightweight UIs.
-- **Result:** Deployment 6 months → 4 months; $5M ARR; PMF with 3 more engagements after launch.
+- **Action:** Noticed the same science, tech, and UX was being rebuilt for every client. Aligned the CEO and CTO on a pivot to a product. Chose forecasting as the MVP. Productized data pipelines, ML pipelines, monitoring, and the application, while keeping data and deployment client-specific. Ran 30+ engineers and scientists in parallel lanes with MVPs and milestones, with customer feedback through lightweight UIs.
+- **Result:** Deployment 6 months → 4 months; $7.5M ARR; PMF with 3 more engagements after launch.
 - **Learning:** Moving from consulting to product needs a deliberate boundary between what you standardize and what stays adaptable.
 - **Tags:** 0→1, strategy, exec alignment, end-to-end
 
@@ -321,6 +331,7 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Action:** Standardized core data models (orders, shipments), reusable transforms and data-quality checks, data contracts and APIs, and Pulumi IaC across AWS and Azure.
 - **Team:** 7–8 engineers (confirmed 2026-10-15).
 - **Result:** Onboarding 2 months → 2 weeks; scientist data discovery 2 hrs/day → 2 hrs/week.
+- **API catalog and dashboards (confirmed 2026-10-24):** see decision 26. Data platform API service endpoints: time-series, event behavior, product master, customer master, event stream.
 - **Tags:** platform, data infra
 
 ### K16: Event-Stream Demo in 2–3 Weeks (Keystone.ai)
@@ -480,7 +491,7 @@ Five different metrics. Every story names the one it moved. No data access since
 ### A12: SPORT Adoption Miss (Amazon): Failure
 - **Situation:** SPORT recommended sellers move inventory from high- to low-cost warehouses. Post-launch adoption and the business goal were missed.
 - **Action:** Research with adhering and non-adhering sellers showed you'd neglected the experience of acting on the recommendation, plus discoverability. Ran an opt-in auto-adherence pilot (most consented, but too few to move the goal) and marketing for discoverability.
-- **Result:** Missed the goal that year; built a roadmap that hit the adoption goal in 1–1.5 years (~10% adoption lift per resume).
+- **Result:** Missed the goal that year; built a roadmap that hit the adoption goal in 1–1.5 years (adoption 1% → 10% per resume, confirmed 2026-10-24).
 - **Learning:** The end-to-end customer experience matters as much as your own product's.
 - **Tags:** failure, customer insight
 
@@ -500,6 +511,7 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Credit PD model (PM partner to 1 data scientist + science manager):** balanced random forest chosen over decision tree / RF / XGBoost on ROC-AUC, PR-AUC, F1; 80/20 split plus out-of-sample validation; threshold set to maximize economic profit; SHAP and business-facing documentation for interpretability. Plus a rules-based transaction model (TAP) restricting high-loss, low-margin categories. 5% A/B test before full rollout; batch over real-time for V1.
 - **APIs:** defined REST APIs exposing model output (credit eligibility at checkout; BFS block/continue at onboarding), with backward-compatible versioning.
 - **Metric conflicts:** doc says "250K active customers," "$10MM losses vs. $1B revenue," and PBI 1.0 "1M customers / $7B GMS." Canonical metrics win: **50K+ customers** (confirmed 2026-10-20), $71M incremental revenue, no credit losses after full launch. Don't use the doc's 250K or $1B.
+- **Outcome (confirmed 2026-10-24):** fraud loss rate for the SMB credit product fell 15% (decision 28).
 - **Tags:** trust & safety / integrity, fraud, risk, ML thresholds, precision/recall trade-off
 
 ### S1: Agent vs. Deterministic Workflow (Personal Project)
@@ -520,7 +532,7 @@ Five different metrics. Every story names the one it moved. No data access since
 ### Canonical Metrics (confirmed by user 2026-10-14; these override any number in the Google Doc)
 | Metric | Use this | Notes |
 |---|---|---|
-| Keystone ARR | **$5M** | LinkedIn and resume say $10M; update both |
+| Keystone ARR | **$7.5M** | Confirmed 2026-10-24 (replaces $5M). LinkedIn says $10M, and other files may still say $5M; update them |
 | Deep Enterprise deployment time | **6 months → 4 months** | Drop "6 → 2 months" and "6 → 3 months" |
 | Data platform deployment time | **3 months → 3 weeks** | Separately: client data discovery → 2 weeks; ~2 weeks/model saved |
 | Data platform client onboarding | **2 months → 2 weeks** | Same as "data discovery → 2 weeks" on the resume |
@@ -541,6 +553,11 @@ Five different metrics. Every story names the one it moved. No data access since
 | AI agent cost reduction (K14 model routing) | **~30%** | Confirmed 2026-10-15 |
 | Data platform team | **7–8 engineers** | Confirmed 2026-10-15 |
 | Flagship CPG WAPE vs. incumbent | **21–26% better** by level: item-customer-location 77%→61% (21%), item-customer 68%→53% (22%), item-location 67%→52% (23%), item 57%→42% (26%) | "21%" elsewhere = the lowest (supply-planning) level. From Hershey's doc, 2026-10-21 |
-| Flagship CPG engagement revenue | **$2M** to Keystone | How it relates to the $5M ARR is not recorded; don't add the two together [CONFIRM] |
+| Flagship CPG engagement revenue | **$2M** to Keystone | How it relates to the $7.5M ARR is not recorded; don't add the two together [CONFIRM] |
+| Keystone team directed | **30+** engineers and data scientists | Confirmed 2026-10-24 (replaces 20+) |
+| Keystone pricing outcome | **2 clients upgraded to agents, +$500K ACV each** | Confirmed 2026-10-24 |
+| Data platform dashboards | **5 new client dashboards** onboarded by the app team with no extra effort | Confirmed 2026-10-24 |
+| SMB credit fraud loss rate | **−15%** | Confirmed 2026-10-24 |
+| SPORT adoption | **1% → 10%** | Confirmed 2026-10-24; definition [NEEDS DETAIL] |
 | Flagship CPG first-phase rollout | **85% of SKUs** | |
 | Agent recommendation acceptance | **70%** at launch | Use 70% everywhere. Drop ">80%" and the K6 50% → 80% figure (confirmed 2026-10-15). K7's 50% → 80% is description approval, a different metric. See the adoption metrics table at the top of the Story Bank |
