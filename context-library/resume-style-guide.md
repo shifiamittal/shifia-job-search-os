@@ -40,7 +40,7 @@ Source: Shifia's edits and feedback during the R37 AI Lab resume (2026-10-22). `
 - Prefer 2 lines, 3 at most. No last line of 1–3 words; trim words until it pulls up.
 - **Bold the metric with its result** (the D in SAD), so a hiring manager scanning bold text sees what moved and by how much: "**planner effort 4 hrs/day to 4 hrs/week**", "**agent run cost ~30%**", "**$71M incremental revenue**", not just "**~30%**". Don't bold inputs such as team size, launch percentage, or thresholds. (Updated 2026-10-22, Qualcomm resume.)
 - Plain language over Amazon jargon ("privacy and legal teams", not "privacy bar raisers").
-- **No AI-sounding prose** (user feedback, 2026-10-24, Stripe resume). Write like a person describing their work:
+- **Business writing, not AI filler and not lay language** (user feedback, 2026-10-24, Stripe resume). R37 is the tone reference: start from its bullets and edit only what the new role needs. Round 3 of the Stripe resume over-corrected into casual phrasing ("got the CEO behind", "acts alone"); don't do that. Within business tone:
   - Plain verbs and nouns: "flags forecast problems, finds the cause", not "triages exceptions and diagnoses root causes"; "check how the data fit together", not "validate grain, keys, and join cardinality".
   - At most one parenthetical list per bullet, and only when the items carry weight (e.g., the API catalog's contents). No tech-stack lists unless the JD asks for that stack.
   - Vary the opening verb. Don't start most bullets with "Led", "Owned" or "Launched".
