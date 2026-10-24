@@ -32,7 +32,7 @@ Platform PM one layer above infrastructure: MDLC as an internal developer platfo
 | 1 | Kubernetes, networking, distributed systems depth | No match | Recruiter screen: "My platform work has been one layer above infrastructure: provisioning, CI/CD, and monitoring for 100+ production models, and multi-cloud deployment at Keystone. I haven't owned compute or networking directly." |
 | 2 | SLOs, failover, capacity planning | Partial (threshold monitoring, incident diagnosis) | Bridge: "MDLC monitoring worked like SLOs: defined thresholds, alerts, and a required response on breach. I'd bring that discipline to infrastructure SLOs." Don't claim SLO ownership. |
 | 3 | 5+ years cloud infra | Partial | Ask what made the profile stand out; if they need a classic infra PM, the gap is real. Bryan Gough intro can test fit. |
-| 4 | Group PM people management | Not on resume | Use career-plan Weakness 1 wording: one direct report promoted L4 → L5; dotted-line PMs at Keystone. Team-size [CONFIRM] in A15 still open. |
+| 4 | Group PM people management | Not on resume | Use career-plan Weakness 1 wording: one direct report promoted L4 → L5; dotted-line PMs at Keystone. Team-size [CONFIRM] in A20 still open. |
 
 ## Reviews (first draft)
 
@@ -64,11 +64,11 @@ Platform PM one layer above infrastructure: MDLC as an internal developer platfo
 | Built a multi-tenant data platform with 8 engineers (ingest… | K15; canonical 3 months → 3 weeks | REWORDED |
 | Launched Amazon Business' ML financing product via experime… | R37 bullet; canonical $71M, 50K+ | EXACT |
 | Integrated the fraud score, domain risk signals, and checko… | Source Decision 26; A14 | REWORDED |
-| Owned vision and roadmap for a self-service internal develo… | A8; A15 (8+ eng HC/yr); deployment −40% confirmed 2026-10-24 | REWORDED |
-| Replaced ~1.5 months of engineering setup per model with se… | A15 pipeline automation; A8 100+ models | REWORDED |
-| Automated CI/CD so every mainline commit builds a versioned… | A15 containerization (~1 week/model; ~2 eng HC over 2 years) | REWORDED |
-| Turned team onboarding into a product, investing in documen… | A15 onboarding; 5 teams confirmed 2026-10-24 | REWORDED |
-| Made threshold-based monitoring and alerting the platform d… | A15 governance; A9 (30 → 100, ~400 science-weeks) | REWORDED |
+| Owned vision and roadmap for a self-service internal develo… | A8; A20 (8+ eng HC/yr); deployment −40% confirmed 2026-10-24 | REWORDED |
+| Replaced ~1.5 months of engineering setup per model with se… | A20 pipeline automation; A8 100+ models | REWORDED |
+| Automated CI/CD so every mainline commit builds a versioned… | A20 containerization (~1 week/model; ~2 eng HC over 2 years) | REWORDED |
+| Turned team onboarding into a product, investing in documen… | A20 onboarding; 5 teams confirmed 2026-10-24 | REWORDED |
+| Made threshold-based monitoring and alerting the platform d… | A20 governance; A9 (30 → 100, ~400 science-weeks) | REWORDED |
 | Made privacy compliance a platform default under EU and US … | A10 | REWORDED |
 | Launched TRACE, a causal cost-attribution product that expl… | A11; canonical $40M of $100M+ | REWORDED |
 | Launched self-service price-perception insight tools benchm… | R37 bullet | EXACT |

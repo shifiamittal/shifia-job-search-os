@@ -42,7 +42,7 @@ Sources: JD (P76485), Aga's emails (Oct 16, Oct 22), `insider-data/company-intel
 2. **"Why are you interested in Coinbase / this role?"** [standard]
    → "Why Coinbase" below.
 3. **"This role needs deep infrastructure experience. How does your background fit?"** [predicted from JD]
-   → The gap answer above, then MDLC (A8, A15) + Keystone multi-cloud deployment (K12, K15).
+   → The gap answer above, then MDLC (A8, A20) + Keystone multi-cloud deployment (K12, K15).
 4. **"Why did you leave Keystone? / What have you been doing since March?"** [predicted from resume]
    → qa-master scripts, copied below.
 5. **"What level are you targeting? / Have you managed PMs?"** [predicted: Group PM title]
@@ -101,7 +101,7 @@ Sources: JD (P76485), Aga's emails (Oct 16, Oct 22), `insider-data/company-intel
 
 ### Level and people management (Group PM)
 > "I'm targeting Principal or Group PM scope. On people leadership: at Amazon I managed a Program Manager and promoted him from L4 to L5, and at Keystone I led PMs on a dotted line, including turning around one PM's performance, while directing 30+ engineers and data scientists through the move from consulting to product. Does this role have PMs reporting to it?"
-Be precise if probed: one direct report (a Program Manager). [CONFIRM: the "3-member team, promoted 2 of 3" line in your MDLC doc is still open in A15. Don't use it until confirmed.]
+Be precise if probed: one direct report (a Program Manager). [CONFIRM: the "3-member team, promoted 2 of 3" line in your MDLC doc is still open in A20. Don't use it until confirmed.]
 
 ### Gap answers for infrastructure probes (recruiter level)
 - **Kubernetes / networking:** "I know how they fit together at a product level, and I've worked on what sits on top of them: compute provisioning, containerized CI/CD, multi-cloud deployment with infrastructure-as-code. I haven't owned the cluster or network layer, and I'd lean on the infrastructure team's depth there."
@@ -118,7 +118,7 @@ Be precise if probed: one direct report (a Program Manager). [CONFIRM: the "3-me
 **When these surface:** #3 on this call and hard in the HM round; #1–2 in behavioral rounds.
 
 ### Key Stories to Have Ready
-1. **A8/A15: MDLC self-service platform**: maps to self-serve developer experience. "Owned Amazon Lending's self-service deployment platform: provisioning, CI/CD, monitoring for 100+ models, 30+ scientists. Deployment −40%, flat headcount, 5 new teams onboarded."
+1. **A8/A20: MDLC self-service platform**: maps to self-serve developer experience. "Owned Amazon Lending's self-service deployment platform: provisioning, CI/CD, monitoring for 100+ models, 30+ scientists. Deployment −40%, flat headcount, 5 new teams onboarded."
 2. **K2/K3: Forecasting agent with tiered autonomy**: maps to agents in operations, human control. "Multi-agent system that flags problems, finds the cause, recommends a fix; automates only low-risk, reversible actions. Shadow mode → 70% acceptance; reviewer effort 4 hrs/day → 4 hrs/week."
 3. **K12 + K15: Managed service, multi-cloud IaC**: maps to multi-cloud, build vs. buy, regulated customers. "Argued for deploying in clients' clouds over SaaS; productized deployment with infrastructure-as-code on AWS and Azure; onboarded 2 data-residency clients at the cost of 1 extra month."
 4. **K13: Modular services vs. monolith**: conflict with engineering; reliability isolation. "Framed 6 weeks now vs. a 10× rewrite later; passed the security review; second client onboarded with no refactor." (Your best "working with engineers" answer.)

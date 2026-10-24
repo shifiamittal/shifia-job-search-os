@@ -513,7 +513,8 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Metric conflicts:** doc says "250K active customers," "$10MM losses vs. $1B revenue," and PBI 1.0 "1M customers / $7B GMS." Canonical metrics win: **50K+ customers** (confirmed 2026-10-20), $71M incremental revenue, no credit losses after full launch. Don't use the doc's 250K or $1B.
 - **Tags:** trust & safety / integrity, fraud, risk, ML thresholds, precision/recall trade-off
 
-### A15: MDLC Platform-Engineering Detail (Amazon), for infra and platform roles
+### A20: MDLC Platform-Engineering Detail (Amazon), for infra and platform roles
+- **ID note (2026-10-24):** added as "A15" by another session, which collided with A15 (SPORT APIs). Renumbered to A20; the Coinbase resume and prep files now cite A20.
 - **Source:** user's doc "MDLC and MOQ.docx" (Google Doc, read in full 2026-10-24). Adds detail to A8, A9, and A10; it doesn't replace them. Canonical Metrics still win where numbers differ (e.g., 6 science HC/year; A10's 1.5 years vs. ~2 months).
 - **Positioning:** MDLC was an internal developer platform whose users were data scientists. For cloud-infra and platform roles (e.g., Coinbase Core Infrastructure, 2026-10-24), frame it as "platform PM one layer up from infrastructure." Don't claim Kubernetes, networking, multi-region, uptime SLO, capacity-planning, or cloud-spend ownership; the doc's AWS notes on load balancing, autoscaling, and Batch Transform parameters are study notes, not decisions she made.
 - **Funding:** wrote the MDLC strategy doc; secured 2 HC for the MVP, then 8+ engineering HC year over year.
