@@ -40,7 +40,7 @@ Read but not shortlisted (est. fit under 55): Ellipsis Health FDPM (healthcare v
 ## Archetypes
 
 - **Agent platform / AI reliability (IC Principal)** — Hyperproof, Docker, 1mind (3). Lead with evals, tiered autonomy, governance.
-- **AI 0→1 leader** — Paylocity AI Labs, Teradata PLG, Mysten Labs (3). Lead with Keystone consulting → product pivot, Deep Enterprise 0→1, $5M ARR.
+- **AI 0→1 leader** — Paylocity AI Labs, Teradata PLG, Mysten Labs (3). Lead with Keystone consulting → product pivot, Deep Enterprise 0→1, $7.5M ARR.
 - **Data platform** — Apollo (1). Lead with K6 data catalog + Keystone data platform + MLOps.
 
 That is 2 resume variants (the data-platform role can use the agent-platform variant with a data-forward summary), not 7 one-offs.

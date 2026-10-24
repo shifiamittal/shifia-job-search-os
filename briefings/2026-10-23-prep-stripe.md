@@ -34,7 +34,7 @@ Recruiters screen against the minimum requirements. Have a one-line "yes, here's
 |---|---|---|
 | 8+ years PM | ~10 years in product and program roles at Amazon and Keystone.ai (2016–2026), 11+ total | ✅ |
 | Analytical, SQL | Investigate hands-on through queries and analysis; you wrote data-platform queries yourself at Keystone (your weakness answer uses this) | ✅ |
-| 0→1, scrappy | K1: Keystone's consulting → product pivot, $5M ARR. K11: prototyped an agent in Codex before asking for engineering time | ✅ |
+| 0→1, scrappy | K1: Keystone's consulting → product pivot, $7.5M ARR. K11: prototyped an agent in Codex before asking for engineering time | ✅ |
 | Commercial acumen | A1: segment-specific credit strategy, $71M incremental revenue. A3: optimized for economic profit, not approval rate | ✅ |
 | Partnering with B2B sales | K16: CEO's prospect demo shipped in 2–3 weeks, prospect became a paying customer. Cognizant pre-sales: 30+ deals, 45% win rate | ⚠️ thin (story grid #22) |
 | Dashboard and API products | A14: REST APIs exposing credit eligibility at checkout and the fraud block/continue decision at onboarding, with backward-compatible versioning. A11: TRACE recommendations through Seller Central APIs. Amazon Pricing self-service insight tools for 40+ pricing leaders | ✅ |
@@ -75,7 +75,7 @@ Recruiters screen against the minimum requirements. Have a one-line "yes, here's
 >
 > Before that I built the MLOps platform that 30-plus scientists used to ship 100-plus production models, and supply chain ML products that saved over $100 million.
 >
-> Most recently, at Keystone.ai, the AI division of a 20-year-old tech advisory firm, I led the company's move from consulting to product: an agentic AI platform for Fortune 500 supply chains that reached $5 million ARR across five enterprises. I set its pricing and packaging and worked with the CEO on enterprise go-to-market.
+> Most recently, at Keystone.ai, the AI division of a 20-year-old tech advisory firm, I led the company's move from consulting to product: an agentic AI platform for Fortune 500 supply chains that reached $7.5 million ARR across five enterprises. I set its pricing and packaging and worked with the CEO on enterprise go-to-market.
 >
 > Radar is where those threads meet: ML decisions at network scale, sold to businesses and built into the systems they already run. That's the work I want to do next."
 
@@ -97,18 +97,18 @@ Use qa-master's primary script, then the restructuring line if they ask when you
 ### Employer Brand & Stigma Defenses
 1. **"Amazon PM = process-heavy."** Stripe's writing culture is close to Amazon's memo culture, so treat that as a plus. Reframe: "Eight years of writing 6-pagers made me rigorous about framing the problem before building, and Stripe has the same writing culture. At Keystone I did it at startup speed: a CEO demo shipped in under three weeks." (K16)
 2. **"Keystone.ai is an unknown brand."** Say the context as part of the sentence: "Keystone.ai, the AI division of a 20-year-old tech and economics advisory firm, spun out this year."
-3. **"Principal at a small company = Senior at Stripe."** Expect this in leveling, not the screen. Anchor on scope: a company-level pivot, $5M ARR, CEO/CTO partner, 30+ engineers and scientists, plus 8 years of Amazon depth.
+3. **"Principal at a small company = Senior at Stripe."** Expect this in leveling, not the screen. Anchor on scope: a company-level pivot, $7.5M ARR, CEO/CTO partner, 30+ engineers and scientists, plus 8 years of Amazon depth.
 4. **"Recent work isn't payments."** Reframe: "My last two years were about getting ML and agent decisions trusted in production, which is what Radar sells. The two years before that were payments, credit and fraud."
 5. **Title history (if asked):** "I joined Amazon as a program manager, was promoted twice, and moved into product management along the way." Don't volunteer it.
 
 ### Key Stories to Have Ready
 1. **A14: Fraud threshold** (maps to Radar's core problem). Owned the PBI 2.0 integration of the fraud team's BFS model: chose precision 0.99 / recall 0.25 / FDR 0.01, because false positives suspended legitimate $8K–$250K credit lines; BRP post-checkout screening caught what lower recall missed. Blocklist suspends regardless of score. **Precision rule:** the fraud team built the model; you owned how the product used it. Say so.
 2. **A1/A3: Credit growth vs. losses** (commercial acumen, risk vs. growth). SMB approval 4% → 15%; redesigned underwriting instead of lowering thresholds; optimized for economic profit; $71M incremental revenue; no credit losses after full launch.
-3. **K1: Consulting → product pivot** (0→1, commercial). Aligned CEO and CTO; standardized pipelines and the app while keeping data and deployment client-specific; deployment 6 → 4 months; $5M ARR.
+3. **K1: Consulting → product pivot** (0→1, commercial). Aligned CEO and CTO; standardized pipelines and the app while keeping data and deployment client-specific; deployment 6 → 4 months; $7.5M ARR.
 4. **K16: CEO demo** (working with sales). Found the prospect's real need in a 1:1 with the CEO; shipped in 2–3 weeks; prospect became a paying customer.
 5. **A6: SMB economics miss** (failure, if asked). Pilot losses ran high; you owned not validating portfolio economics; blended segment (simulation: 6–8% lower losses); relaunched with positive economics.
 
-**Metric discipline:** you drifted on numbers in 3 of 4 interviews. Use only these: 50K+ customers, $71M, 4% → 15%, $5M ARR, 6 → 4 months, 30+ scientists, 100+ models, $100M+ (SPORT + TRACE + MOQ combined). No "if I remember" numbers.
+**Metric discipline:** you drifted on numbers in 3 of 4 interviews. Use only these: 50K+ customers, $71M, 4% → 15%, $7.5M ARR, 6 → 4 months, 30+ scientists, 100+ models, $100M+ (SPORT + TRACE + MOQ combined). No "if I remember" numbers.
 
 ### Weakness Areas to Practice
 1. **Developer platforms and integration partners (GAP).** Practice prompt: "Have you built for external developers or integration partners?" Answer honestly: "Not a public developer platform. The closest is MDLC, a self-serve platform 30+ scientists used to deploy models, where I treated onboarding as a product: templates, docs, a community. At Keystone, every deployment ran inside the client's own environment, so integration trade-offs were the daily job. I'd be learning the partner-ecosystem side here." Then stop.

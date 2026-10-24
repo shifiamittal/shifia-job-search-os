@@ -22,7 +22,7 @@ Status: Second pass. **[DRAFT]** = written by Claude from your experience librar
 ### "What are your compensation expectations?"
 **Target:** $600K total comp. Floor: $380–400K. State a range of about $550–650K so $600K sits in the middle.
 **Source:** Not yet sourced. Run `/salary-research [company] Principal PM Seattle` to validate per company. Adjust the range down for companies whose posted band tops out below $550K, rather than quoting a number above their band.
-**Script (big tech / late-stage):** "Based on my research for Principal-level PM roles in AI, and the scope I've owned ($5M ARR product line, 8 years shipping ML at Amazon), I'm targeting total compensation in the range of $550–650K. I'm flexible on the mix of base, equity, and bonus depending on the full package."
+**Script (big tech / late-stage):** "Based on my research for Principal-level PM roles in AI, and the scope I've owned ($7.5M ARR product line, 8 years shipping ML at Amazon), I'm targeting total compensation in the range of $550–650K. I'm flexible on the mix of base, equity, and bonus depending on the full package."
 **Script (seed / Series A–B startup, e.g., Count):** [DRAFT] "I know early-stage packages are weighted toward equity. Before we go further, could you share the cash and equity ranges for the role? I want to make sure we're in the same zone, and I'd evaluate the equity on ownership percentage and the last valuation, not just the share count."
 **Private note for startups:** Minimum base **$250K** if the equity is strong (confirmed 2026-10-15). Below that, walk away regardless of equity.
 
@@ -39,7 +39,7 @@ Total comp = base + annual bonus + equity per year (+ sign-on in year 1). At big
 - If required with no range: enter **600000** for total comp fields, **275000** for base-only fields.
 
 ### "What level are you targeting?"
-[DRAFT] "Principal PM, or Head of Product / Director at a growth-stage company. I'd rather level on scope than title: at Keystone.ai I owned product strategy for a pivot from consulting to product that reached $5M ARR, and at Amazon I owned platforms used by 30+ scientists and products that drove $71M in revenue. I'm happy to walk through scope so you can map it to your levels."
+[DRAFT] "Principal PM, or Head of Product / Director at a growth-stage company. I'd rather level on scope than title: at Keystone.ai I owned product strategy for a pivot from consulting to product that reached $7.5M ARR, and at Amazon I owned platforms used by 30+ scientists and products that drove $71M in revenue. I'm happy to walk through scope so you can map it to your levels."
 
 ## Common Questions
 
@@ -48,7 +48,7 @@ Context (private): laid off from Keystone.ai; last day Mar 2026. Position as see
 
 Your own framing from the story doc: (1) the chance to set product direction and be accountable for customer and business outcomes; (2) transforming complex B2B workflows with AI and technology.
 
-**Primary script:** "I spent almost two years at Keystone.ai taking an agentic AI platform from 0→1, helping drive the company's shift from consulting to product, reaching $5M ARR and deploying with five enterprises. I'm proud of that. What I want next is to set product direction and own customer and business outcomes at much larger scale, applying what I've learned about making agents reliable in production (evaluation, human-in-the-loop design, risk-tiered autonomy) on a product where that's the core problem."
+**Primary script:** "I spent almost two years at Keystone.ai taking an agentic AI platform from 0→1, helping drive the company's shift from consulting to product, reaching $7.5M ARR and deploying with five enterprises. I'm proud of that. What I want next is to set product direction and own customer and business outcomes at much larger scale, applying what I've learned about making agents reliable in production (evaluation, human-in-the-loop design, risk-tiered autonomy) on a product where that's the core problem."
 
 **If asked directly ("Are you still there?" / "Were you laid off?" / "When did you leave?"):** "My role was part of a restructuring at Keystone.ai earlier this year. I've used the time to go deep on agent evaluation and retrieval with hands-on builds, and to be selective about my next role." Keep it to one or two sentences, then move back to what you built. Use this answer as-is; the facts will show up in verification anyway.
 
@@ -157,14 +157,14 @@ Scored 4.5/10 at Count R1: too generic. Close with a company-specific line. [DRA
 ### "Tell me about yourself" (2 min max)
 Use the short version by default. Use the fuller one only when they say "take your time" or "walk me through your background."
 
-**Short (default, ~130 words):** "I am a Principal PM-T with 11+ years building ML/AI products that solve customer problems at scale. Most recently at Keystone, I led a 0→1 agentic AI platform to help Fortune 500 clients make supply chain decisions, and led Keystone's pivot from consulting-led to product-led, enabling $5M ARR with flagship deployments at Fortune 500 manufacturers. I've built and scaled AI products including forecasting, credit decisioning, and supply chain optimization that drove up to $100M in top- and bottom-line impact, plus the platforms underneath them (MLOps and a data platform). A big part of my role has been aligning C-suite executives and leading large cross-functional teams. [Company-specific close]"
+**Short (default, ~130 words):** "I am a Principal PM-T with 11+ years building ML/AI products that solve customer problems at scale. Most recently at Keystone, I led a 0→1 agentic AI platform to help Fortune 500 clients make supply chain decisions, and led Keystone's pivot from consulting-led to product-led, enabling $7.5M ARR with flagship deployments at Fortune 500 manufacturers. I've built and scaled AI products including forecasting, credit decisioning, and supply chain optimization that drove up to $100M in top- and bottom-line impact, plus the platforms underneath them (MLOps and a data platform). A big part of my role has been aligning C-suite executives and leading large cross-functional teams. [Company-specific close]"
 
 **Fuller (Claude draft):**
 "I'm a Principal Technical Product Manager with 11+ years building AI and ML products, eight of them at Amazon and almost two at Keystone.ai.
 
 At Amazon I shipped ML into production across very different problems: supply chain recommendation and causal-attribution products that delivered over $100M in cost savings, the MLOps platform that let 30+ scientists double the number of production models with no added headcount, and an ML financing product I scaled to 50,000 customers and $71M in incremental revenue.
 
-At Keystone I led the company's move from consulting to product. I owned strategy and go-to-market for an agentic AI supply chain platform that reached $5M ARR, and I built a multi-agent forecasting system with risk-tiered autonomy and human approval that cut planners' manual work from four hours a day to four hours a week.
+At Keystone I led the company's move from consulting to product. I owned strategy and go-to-market for an agentic AI supply chain platform that reached $7.5M ARR, and I built a multi-agent forecasting system with risk-tiered autonomy and human approval that cut planners' manual work from four hours a day to four hours a week.
 
 What connects all of it is turning messy, manual enterprise decisions into AI systems people trust. And I stay hands-on: I recently built my own job discovery system and found that the right answer was a deterministic retrieval layer with agents doing evaluation, which got 100% recall on benchmark sets.
 
@@ -189,7 +189,7 @@ Always end with: "Is there anything about my background you'd like me to clarify
 Named at LawnStarter: Keystone CEO, Keystone President, two Amazon L7 managers.
 | Reference | Role | Best placed to speak to | Contact |
 |---|---|---|---|
-| Greg Richards | CEO, Keystone.ai | Consulting → product pivot (K1), CEO disagreements (K16, K17), $5M ARR | kept offline |
+| Greg Richards | CEO, Keystone.ai | Consulting → product pivot (K1), CEO disagreements (K16, K17), $7.5M ARR | kept offline |
 | Brad Miller | President, Keystone.ai | Data platform (K15: onboarding 2 months → 2 weeks; deployment 3 months → 3 weeks) and your full Keystone tenure | kept offline |
 | Himavant Kurnala | L7 manager, Amazon Supply Chain (2018–2020) | SPORT, TRACE ($40M), MOQ; $100M+ combined savings; cross-team alignment across 14 systems | kept offline |
 | Mini Manakame | L7 manager, Amazon Pricing (2016–2018) | Price perception across 800+ retailers in 17 countries; insight tools for 40+ pricing leaders; managing and developing Piyush | kept offline |
