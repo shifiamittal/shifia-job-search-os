@@ -1,6 +1,6 @@
 # Application Tracker
 
-Last updated: 2026-10-21
+Last updated: 2026-10-24
 Scope: current search (2026) only.
 Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applications made on company sites or through referrals aren't captured yet. Add them with `/app-tracker add`.
 
@@ -24,7 +24,77 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **History:**
   - 2026-10-21 Inbound from Anmol Tripathi (Rose International); you replied; recruiter shared rate, contract terms and requirements
 
+## Applying (resume ready, not yet submitted)
+
+### Qualcomm - Staff Product Data Manager (PDM), AI Platforms & Systems Solutions
+- **Status:** applying (resume ready 2026-10-22; not yet submitted)
+- **Job ID:** 3094805 · https://careers.qualcomm.com/careers/job/446720412804
+- **Date applied:** [not yet]
+- **Referral:** No
+- **Resume version:** `resumes/Shifia_Mittal_Resume_Qualcomm.docx` / `.pdf` (analysis: `resumes/2026-10-22-qualcomm-staff-pdm-ai-platforms.md`)
+- **Cover letter:** No
+- **Connection at company:** None in connection-tracker.md
+- **Work product sent:** No
+- **Background check stage:** unknown
+- **Company tier:** Unranked (not in target-companies.md)
+- **Location:** San Diego, CA, onsite 5 days/week. Conflicts with "Seattle, not open to relocation" in career-plan.md. Ask the recruiter whether Seattle or remote is possible.
+- **Comp:** $181.8K–$272.6K base + bonus + RSUs. Likely below the $380–400K TC floor. Confirm the full package at the screen.
+- **Fit:** est. 48/100 (job-fit-scorer, 2026-10-22). Gaps: Windows/NPU, WinML/DirectX, standards bodies. Level: Staff (below Principal).
+- **Last action:** 2026-10-22 Resume tailored (style guide, one page).
+- **Next action:** Look for a Qualcomm connection or referral (AI Platforms / Windows on Snapdragon) before submitting; submit by 2026-10-24; then follow up by 2026-10-31.
+- **History:**
+  - 2026-10-22 Evaluated JD; resume tailored
+
 ## Recruiter Screen
+
+### Stripe - Product Manager, Radar – Fraud and Abuse Prevention
+- **Status:** recruiter-screen (scheduled Mon 2026-10-26; same call as the Radar role below)
+- **Job ID:** 8306158 · https://stripe.com/careers/apply/product-manager-radar-fraud-and-abuse-prevention/8306158
+- **Date applied:** not applied; recruiter outreach
+- **Source:** Recruiter outreach (recruiter name [CONFIRM])
+- **Referral:** No (Piyush Rohella not yet asked)
+- **Resume version:** `resumes/Shifia_Mittal_Resume_Stripe_Radar_Fraud.docx` / `.pdf` (built 2026-10-24; analysis: `resumes/2026-10-24-stripe-radar-fraud-abuse-pm.md`). Not sent yet
+- **Cover letter:** No
+- **Connection at company:** Piyush Rohella (1st degree; PM at Stripe; former teammate in Amazon B2B Payments & Lending)
+- **Work product sent:** No
+- **Visa/sponsorship:** Not required
+- **Background check stage:** unknown
+- **Company tier:** Rank 37 in target-companies.md (fintech + ML fit; Seattle office)
+- **Location:** Chicago, New York, Seattle or South San Francisco; at least 50% in office
+- **Comp:** Posted US base $178.6K–$268K, spanning several levels. levels.fyi (US, updated 7/20/2026): L3 $372K, L4 $541K, L5 $605K TC. L3 would be below the $380–400K floor. **Comp-range-confirmed:** No. Ask for level and full package at the screen.
+- **Prior application:** Stripe ~2024, rejected after the initial screening (Product Sense + behavioral). Feedback in interview-history.md.
+- **Fit:** est. 73/100 (job-fit-scorer, 2026-10-24). Strong on fraud/risk/ML (A14 fraud threshold, precision 0.99 / recall 0.25) and on API products (A15, A16, K29). Partial on fraud-analyst tooling and SWE/DS background. Better growth trajectory than the Radar integrations role (ML core, AI-agent bot detection).
+- **Prep:** `interview-prep/2026-10-24-stripe-radar-recruiter-screen.md` (covers both roles)
+- **Last action:** 2026-10-24 Fit scored; recruiter-screen prep built.
+- **Next action:** Message Piyush before the screen; ask the recruiter which level each role is scoped at; send a thank-you within 24 hours; run `/interview-debrief` after the call.
+- **History:**
+  - 2026-10-23 Recruiter outreach; screen scheduled for 2026-10-26
+  - 2026-10-24 Fit scored (73); prep built
+  - 2026-10-24 Tailored resume built (coverage 23/23: 16 strong, 7 partial)
+
+### Stripe - Product Manager, Radar
+- **Status:** recruiter-screen (scheduled Mon 2026-10-26; same call as the Fraud and Abuse role above)
+- **Job ID:** 8301646 · https://stripe.com/careers/apply/product-manager-radar/8301646
+- **Date applied:** not applied; recruiter outreach
+- **Source:** Recruiter outreach (recruiter name [CONFIRM])
+- **Referral:** No (Piyush Rohella not yet asked)
+- **Resume version:** [CONFIRM: which version was submitted]
+- **Cover letter:** [CONFIRM]
+- **Connection at company:** Piyush Rohella (1st degree; PM at Stripe; former teammate in Amazon B2B Payments & Lending)
+- **Work product sent:** No
+- **Visa/sponsorship:** Not required
+- **Background check stage:** unknown
+- **Company tier:** Rank 37 in target-companies.md (fintech + ML fit; Seattle office)
+- **Location:** Seattle is a listed office; at least 50% in office
+- **Comp:** Posted US base $178.6K–$268K, spanning several levels. TC depends on level and equity (company-intel, Mar 2026: L4 $350–520K, L5 $500–750K+ [VERIFY]). **Comp-range-confirmed:** No. Ask for level and full package at the screen.
+- **Prior application:** Stripe ~2024, rejected after the initial screening (Product Sense + behavioral). Feedback in interview-history.md.
+- **Fit:** est. 72/100 (job-fit-scorer, 2026-10-24). Strongest skill match of the two roles: pricing (K32, +~$500K ACV upgrades), external developer APIs and partners (A15, K29, K30), fraud/risk (A14). Weaker growth trajectory (less AI scope).
+- **Prep:** `interview-prep/2026-10-24-stripe-radar-recruiter-screen.md` (current; covers both roles). Earlier JD2-only version: `briefings/2026-10-23-prep-stripe.md` (doc version: https://claude.ai/artifact/JTUzDDVktteo6nD9VWfkd4), written before the 2026-10-24 library update.
+- **Last action:** 2026-10-24 Rescored after library update; prep refreshed.
+- **Next action:** Message Piyush for Radar-team intel and a referral before the screen; send a thank-you within 24 hours of the screen; run `/interview-debrief` after it.
+- **History:**
+  - 2026-10-23 Recruiter outreach; screen scheduled for 2026-10-26; prep package built
+  - 2026-10-24 Rescored (72) after library update; prep refreshed
 
 ### Ascerta - Principal Product Manager - AI Startup
 - **Status:** recruiter-screen (complete; awaiting team review)
@@ -40,6 +110,8 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
   - [date] Recruiter: team yet to review recording
 
 ## Needs Attention
+- **Stripe Radar (2 roles):** recruiter screen Mon 2026-10-26. Ask Piyush Rohella for intel and a referral first; add the recruiter's name.
+- **Stripe Radar Fraud & Abuse: fraud-investigation story (A19).** Dig up the details before the hiring-manager round: which attack, which levers you found with BFS, what changed (feature, rule or control), any impact number, one-off vs. pattern. Then ask Claude to add it to experience-library.md (A19), the resume's fraud bullet, and the prep doc's hiring-manager answers. Until then, use the bridge answer in `resumes/2026-10-24-stripe-radar-fraud-abuse-pm.md` (Gaps, row 1).
 - **Ascerta:** stalled; send one final follow-up.
 - **Rose International contract:** decide go/no-go; rate is ~half your comp floor. Ask for the client name before a screen.
 - **Count:** send the post-rejection notes (interview-debriefs/2026-10-15-count-followup-notes.md).
