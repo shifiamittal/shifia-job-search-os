@@ -50,6 +50,8 @@ Platform PM one layer above infrastructure: MDLC as an internal developer platfo
 - Cognizant line shortened to one line; now says "infrastructure solutions".
 - "won 2 additional clients" → "onboarded" (matches the source).
 
+- v5 (user request): removed years from Amazon role-level titles (company span 2016 - 2024 kept); moved ML Ops Developer Platform above Financing & Credit. One-off for this resume; style guide unchanged.
+
 ## Source check
 | Resume bullet (first 60 chars) | Source | Match |
 |---|---|---|
@@ -94,19 +96,19 @@ Principal Product Manager-Technical	2024 - Present
 - Fixed pilot unit economics, where model cost exceeded the cost of manual work, by routing simple cases to low-cost models and ambiguous ones to stronger models; cut agent run cost ~30% with lower latency and unchanged quality.
 - Built a multi-tenant data platform with 8 engineers (ingestion, validation, lineage, data contracts, PII blocking), cutting deployment from 3 months to 3 weeks.
 Amazon	2016 - 2024 (8 years)
-Sr. Product Manager-Technical, Amazon Business Financing & Credit	2022 - 2024
-- Launched Amazon Business’ ML financing product via experimentation, a 5% controlled launch, and monthly VP-level reviews against an S-team goal; scaled to 50K+ customers and $71M in incremental revenue.
-- Integrated the fraud score, domain risk signals, and checkout controls into SMB credit in a regulated lending business, setting the fraud threshold at 99% precision to protect legitimate businesses; fraud loss rate fell 15%.
-Sr. Product Manager-Technical, ML Ops Developer Platform	2020 - 2022
+Sr. Product Manager-Technical, ML Ops Developer Platform
 - Owned vision and roadmap for a self-service internal developer platform on AWS SageMaker used by 30+ risk and credit data scientists; secured 8+ engineering HC a year and cut deployment time 40%.
 - Replaced ~1.5 months of engineering setup per model with self-service provisioning and pipelines: users choose compute type and capacity, and runs trigger automatically on certified data; scaled to 100+ production models with flat headcount.
 - Automated CI/CD so every mainline commit builds a versioned container image with identical dev and prod dependencies, removing a week of engineering work per model and saving ~2 engineering HC over 2 years.
 - Turned team onboarding into a product, investing in documentation and community support instead of asking each new team for 1 HC; cut maintenance from 5 to 3 weeks per team and onboarded 5 new teams.
 - Made threshold-based monitoring and alerting the platform default to meet Federal Reserve model-risk rules (SR 11-7), expanding coverage from 30 to all 100 production models and avoiding ~400 science-weeks of setup.
 - Made privacy compliance a platform default under EU and US privacy law (deletion, data return, retention) with Amazon’s privacy and legal teams; adopted across ~20 Amazon Payments teams, saving 5 science FTE per year.
-Product Manager-Technical, Supply Chain Optimization	2018 - 2020
+Sr. Product Manager-Technical, Amazon Business Financing & Credit
+- Launched Amazon Business’ ML financing product via experimentation, a 5% controlled launch, and monthly VP-level reviews against an S-team goal; scaled to 50K+ customers and $71M in incremental revenue.
+- Integrated the fraud score, domain risk signals, and checkout controls into SMB credit in a regulated lending business, setting the fraud threshold at 99% precision to protect legitimate businesses; fraud loss rate fell 15%.
+Product Manager-Technical, Supply Chain Optimization
 - Launched TRACE, a causal cost-attribution product that explained shipping-cost changes across 50+ drivers from 14 teams’ systems and recommended the top fix to sellers, driving $40M of the team’s $100M+ in savings.
-Product Manager, Amazon Pricing	2016 - 2018
+Product Manager, Amazon Pricing
 - Launched self-service price-perception insight tools benchmarking Amazon against 800+ retailers in 17 countries; adopted by 40+ global pricing leaders, with signals feeding the pricing models that set Amazon’s prices.
 Cognizant Technology Solutions | Designed infrastructure solutions for 30+ APAC deals worth $25M (45% win rate) 	2015 - 2016
 EDUCATION
