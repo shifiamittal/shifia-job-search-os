@@ -56,7 +56,7 @@ Platform PM one layer above infrastructure: MDLC as an internal developer platfo
 | Resume bullet (first 60 chars) | Source | Match |
 |---|---|---|
 | Led 0→1 product strategy and roadmap for an enterprise AI s… | Stripe/R37 bullet; K1; $7.5M canonical | REWORDED |
-| Persuaded leadership and investors to deploy as a managed s… | K12 (managed service, IaC, 2 clients) + K15 (Pulumi IaC across AWS and Azure) | INFERRED [VERIFY: K15's AWS/Azure IaC is recorded for the data platform; confirm it covered client deployments too] |
+| Persuaded leadership and investors to deploy as a managed s… | K12 (managed service, IaC, 2 clients) + K15 (Pulumi IaC across AWS and Azure) | REWORDED (multi-cloud IaC for client deployments confirmed 2026-10-24) |
 | Chose modular services over a monolith for reliability isol… | K13 | REWORDED |
 | Launched a multi-agent system that flags forecast problems,… | K2/K3; R37 bullet | REWORDED |
 | Diagnosed an agent adoption drop at one client (70% to 50% … | K5 | REWORDED |
@@ -74,7 +74,7 @@ Platform PM one layer above infrastructure: MDLC as an internal developer platfo
 | Launched self-service price-perception insight tools benchm… | R37 bullet | EXACT |
 | Cognizant: Designed infrastructure solutions for 30+ APAC d… | Work history (infrastructure service solutions, $25M); Source Decision 21 | REWORDED |
 
-Bullets removed (no source): 0. Flagged for verification: 1 (multi-cloud IaC bullet).
+Bullets removed (no source): 0. Flagged for verification: 0 (multi-cloud bullet confirmed 2026-10-24).
 
 ## Regression check (v4)
 Keywords: no JD term dropped since v3 ("Pulumi" removed by choice; not a JD term). Facts: all numbers match canonical metrics. Style: SAD order, results bolded, no first person, no 1–3-word last lines. Render: 1 page, dates on one line, links live.

@@ -312,6 +312,7 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Situation:** Leadership and investors wanted multi-tenant SaaS (high margin). Customers had hard data-residency and environment-control requirements.
 - **Action:** Recommended deploying as a managed service inside the client's environment. Prevented a slide back into consulting by productizing deployment (IaC, reusable components, upgrade processes). Framed it as sequencing: prove repeatable deployment, then platformize.
 - **Result:** Deployment took 1 month longer, but onboarded 2 additional clients with strict data-residency requirements that pure SaaS couldn't serve (confirmed 2026-10-20). State the cost; it makes the trade-off credible.
+- **Multi-cloud (confirmed 2026-10-24):** client deployments of the Deep Enterprise platform used infrastructure-as-code (Pulumi) across AWS and Azure, not just the data platform (K15). OK to say "multi-cloud deployment with infrastructure-as-code on AWS and Azure."
 - **Learning:** In enterprise AI: earn trust, productize operations, then platformize.
 - **Tags:** strategy, disagreeing with leadership/investors
 
