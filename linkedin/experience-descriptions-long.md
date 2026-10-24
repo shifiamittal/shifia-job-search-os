@@ -9,9 +9,9 @@ Your answers applied: business customers, product unnamed; credit-losses line dr
 ## Keystone.ai · Principal Product Manager – Technical (1,967 chars)
 Jun 2024 – Present · Seattle, WA
 
-Keystone.ai builds Deep Enterprise, an enterprise AI platform that runs agentic workflows for supply chain planning at Fortune 500 clients. I own AI product strategy, roadmap, tiered pricing and packaging, and go-to-market, partner with the CEO and CTO, and set direction for 20+ engineers and data scientists.
+Keystone.ai builds Deep Enterprise, an enterprise AI platform that runs agentic workflows for supply chain planning at Fortune 500 clients. I own AI product strategy, roadmap, tiered pricing and packaging, and go-to-market, partner with the CEO and CTO, and set direction for 30+ engineers and data scientists.
 
-• Led the pivot from consulting to a product-led platform: $5M ARR, $25M in annualized client savings, 5 enterprise customers in production. Productized data pipelines, ML pipelines and AI capabilities so each new client reused them instead of rebuilding.
+• Led the pivot from consulting to a product-led platform: $7.5M ARR, $25M in annualized client savings, 5 enterprise customers in production. Productized data pipelines, ML pipelines and AI capabilities so each new client reused them instead of rebuilding.
 • Prioritized AI use cases: chose forecasting as the first, then traded 2 months of accuracy work for agents after a prototype showed over 70% recommendation acceptance. Forecast accuracy (WAPE) improved 21%; deployment fell from 6 months to 4.
 • Shipped a multi-agent system on LangGraph covering agent orchestration, MCP tool calling, memory, RAG and human-in-the-loop approval. Planner effort fell from 4 hours a day to 4 hours a week; client overstock from $5M to $2M.
 • Set guardrails through risk-tiered autonomy, audit logs and canary rollouts; autonomous action acceptance rose from 30% to 80%.
@@ -68,7 +68,7 @@ Built ML recommendation and causal attribution products for inventory, pricing a
 • Shipping was ~50% of item cost (~$50B a year), so cost attribution was a top org priority.
 • TRACE: launched a causal attribution product that explains shipping-cost changes and prescribes the top action. Unified operational and financial data across 50+ cost drivers from 14 systems owned by 14 teams, and surfaced recommendations to sellers through Seller Central APIs; $40M in savings against a $60M org goal.
 • Aligned Finance, Operations, data science, data engineering and engineering on TRACE's design; set data contracts and SLAs with upstream owners, built a multi-TB pipeline on EMR Serverless, and negotiated 15 months of training data instead of 2 years, meeting 95% of needs at far lower compute cost.
-• SPORT: built an ML inventory-optimization product recommending moves from high- to lower-cost fulfillment channels. After a missed adoption goal, research with sellers showed the gap was in acting on recommendations; ran an auto-adherence pilot and redesigned discoverability, lifting adoption ~10%.
+• SPORT: built an ML inventory-optimization product recommending moves from high- to lower-cost fulfillment channels. After a missed adoption goal, research with sellers showed the gap was in acting on recommendations; ran an auto-adherence pilot and redesigned discoverability, lifting adoption from 1% to 10%.
 • MOQ: built an ML recommendation product for item-level purchase thresholds, scaled to 20K merchants and 120K offers with ~60% higher adherence and lower shipping cost, and no measurable conversion decline.
 • Built the foundation to expand TRACE to other Amazon marketplaces.
 

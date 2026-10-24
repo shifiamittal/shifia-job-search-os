@@ -8,6 +8,7 @@ Source: Shifia's edits and feedback during the R37 AI Lab resume (2026-10-22). `
 - One page, US Letter, Calibri 10pt body. Margins: 0.4" top and bottom, 0.55" left and right.
 - Dates are right-aligned with a single right tab stop at the right margin, never with tab padding.
 - Render to PDF and check the page after every edit round.
+- **Justify** the summary and every bullet (user's choice, 2026-10-24, Stripe resume). Word and LibreOffice leave the last line of each paragraph ragged, so short last lines still matter.
 
 ## Header
 - `SHIFIA MITTAL`, centered.
@@ -21,7 +22,7 @@ Source: Shifia's edits and feedback during the R37 AI Lab resume (2026-10-22). `
 - **No Skills section.** Every skill appears as proof inside a bullet.
 
 ## Employers and titles
-- **Keystone.ai** | *AI division of Keystone, a 20+ year tech and economics advisory firm ($100M PE-backed)*. Context line on one line. Don't mention the 2026 spin-out.
+- **Keystone.ai** | *AI division of Keystone, a 20+ year tech and economics advisory firm (450+ employees, PE-backed)*. Changed 2026-10-24: "$100M PE-backed" had no source; 450+ is from Revelio Labs (472 employees, Dec 2025). Context line on one line. Don't mention the 2026 spin-out.
   - Title: *Principal Product Manager-Technical*, `2024 - Present`
 - **Amazon** `2016 - 2024 (8 years)`, with role-level titles and years:
   - *Sr. Product Manager-Technical, Amazon Business Financing & Credit* 2022 - 2024
@@ -37,12 +38,19 @@ Source: Shifia's edits and feedback during the R37 AI Lab resume (2026-10-22). `
 - **One message per bullet.** Don't mix two products or two unrelated wins. Keep each result on the bullet for the product that produced it (e.g., overstock $5M → $2M belongs to the agent; WAPE belongs to the platform; shadow mode belongs to the agent).
 - No bullet headers or bold labels at the start of bullets.
 - Prefer 2 lines, 3 at most. No last line of 1–3 words; trim words until it pulls up.
-- **Bold the results only** (the D in SAD): $, %, before → after, counts of customers, teams, or models. Don't bold inputs such as team size, launch percentage, or thresholds.
+- **Bold the metric with its result** (the D in SAD), so a hiring manager scanning bold text sees what moved and by how much: "**planner effort 4 hrs/day to 4 hrs/week**", "**agent run cost ~30%**", "**$71M incremental revenue**", not just "**~30%**". Don't bold inputs such as team size, launch percentage, or thresholds. (Updated 2026-10-22, Qualcomm resume.)
 - Plain language over Amazon jargon ("privacy and legal teams", not "privacy bar raisers").
+- **Business writing, not AI filler and not lay language** (user feedback, 2026-10-24, Stripe resume). R37 is the tone reference: start from its bullets and edit only what the new role needs. Round 3 of the Stripe resume over-corrected into casual phrasing ("got the CEO behind", "acts alone"); don't do that. Within business tone:
+  - Plain verbs and nouns: "flags forecast problems, finds the cause", not "triages exceptions and diagnoses root causes"; "check how the data fit together", not "validate grain, keys, and join cardinality".
+  - At most one parenthetical list per bullet, and only when the items carry weight (e.g., the API catalog's contents). No tech-stack lists unless the JD asks for that stack.
+  - Vary the opening verb. Don't start most bullets with "Led", "Owned" or "Launched".
+  - Two short sentences beat one long chain of semicolons and commas.
+  - Avoid stock phrases: "reusable interfaces", "operating model", "intelligent automation", "aligning C-suite leaders", "drove", "spearheaded".
+  - Keep JD keywords, but only where they read naturally.
 - No first person ("I").
 - Qualify ranges honestly ("up to 26%" when the range is 21–26%).
 
 ## Wording that has been decided
-- "50K+ customers" (never "millions"); "$5M ARR" (never "$5MM"); "30+ engineers and data scientists" at Keystone; "mentored 3 dotted-line PMs".
+- "50K+ customers" (never "millions"); "$7.5M ARR" (never "$7.5MM"); "30+ engineers and data scientists" at Keystone; "mentored 3 dotted-line PMs".
 - Don't write "HIPAA-like". Name the controls instead: access controls, encryption, anonymization, data residency.
 - Bias work: thin-file SMB underwriting (business-level features only; owner attributes and ZIP excluded). Don't claim fair-lending review.

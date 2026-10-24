@@ -51,9 +51,9 @@ Hi Brad,
 I'm updating my LinkedIn profile. You saw my whole time at Keystone, from the pivot to product through the agent launches, so I'd be grateful for a recommendation from you on my product leadership.
 
 It would help most if you touched on:
-- Leading the move from consulting to Deep Enterprise as a product: $5M ARR, 5 enterprise customers, deployment from 6 months to 4
+- Leading the move from consulting to Deep Enterprise as a product: $7.5M ARR, 5 enterprise customers, deployment from 6 months to 4
 - The data platform: client onboarding from 2 months to 2 weeks and deployment from 3 months to 3 weeks
-- How I worked with you, Greg and the team: setting direction for 20+ engineers and data scientists and making the hard trade-offs
+- How I worked with you, Greg and the team: setting direction for 30+ engineers and data scientists and making the hard trade-offs
 
 Mention anything else you think matters. I'm happy to return the favor.
 
@@ -121,3 +121,16 @@ She gave her team real ownership. She trusted us to lead our areas independently
 She also championed people's growth. She noticed what each person could take on next, encouraged us to go for it, and stayed invested in how we developed, not just in what we delivered.
 
 I'd gladly work for Marilyn again, and any team that has her as a leader is lucky.
+
+---
+
+## Recommendation from Shifia to Iqra Imtiaz (to post on her profile)
+
+I worked very closely with Iqra on the data platform at Keystone.ai, and she was one of the best engineers I've partnered with as a product manager.
+
+When we needed someone to lead the engineering team, Iqra stepped up and did it well. She kept the team moving, made good technical calls, and was easy to work with through every stage of the build. The platform we delivered cut client onboarding from 2 months to 2 weeks.
+
+What I valued most was how she engaged with the product. She was always up for working through ideas and requirements together, pushed back with good reasons, and came back with her own engineering ideas for making the product better and more efficient. Those conversations made the platform better than what either of us would have designed alone.
+
+On top of that, she's genuinely friendly and fun to work with. Any team would be lucky to have her.
+

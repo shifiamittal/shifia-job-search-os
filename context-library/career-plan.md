@@ -36,15 +36,15 @@ Top companies: OpenAI, Anthropic, Google, Microsoft, Salesforce, and other big t
 ### Weakness 1: Limited people management (one direct report), but targeting Head of Product / Director
 This is the biggest gap for the preferred path. Director JDs usually ask for "X+ years managing PMs." Updated 2026-10-15: you directly managed one Program Manager at Amazon (Piyush Pangarkar) and promoted him from L4 to L5. That's real solid-line management, but it's one person and not a PM, so the gap shrinks without closing.
 **How to address:**
-- Target Series C/D/E Head of Product or first-PM-leader roles, where the bar is "can own product end-to-end and work with the CEO," not "has managed 8 PMs." Your Keystone scope fits: consulting → product pivot, $5M ARR, CEO/CTO partner, 20+ engineers and scientists.
-- Frame leadership through influence with specifics: set product direction for 20+ engineers and scientists, aligned Fortune 500 executives, and drove a company-level business-model change.
+- Target Series C/D/E Head of Product or first-PM-leader roles, where the bar is "can own product end-to-end and work with the CEO," not "has managed 8 PMs." Your Keystone scope fits: consulting → product pivot, $7.5M ARR, CEO/CTO partner, 30+ engineers and scientists.
+- Frame leadership through influence with specifics: set product direction for 30+ engineers and scientists, aligned Fortune 500 executives, and drove a company-level business-model change.
 - Use your people-leadership evidence: **one direct report at Amazon** (a Program Manager you promoted L4 → L5), **dotted-line PM reports** at Keystone (Story K20, including a performance turnaround), mentored 4–5 people, onboarded new PMs, 50+ hiring interviews at Keystone and Amazon, and organized Keystone's product work into 3 lanes with the CPO.
 - Be precise: "I managed a Program Manager at Amazon and promoted him to L5; at Keystone I led PMs on a dotted line." Don't say "managed a team of PMs." Interviewers will probe it, and LinkedIn's saved answer currently says 0 years of people management.
 - For big tech, go in as Principal IC and grow into management from there. Don't let a Director search stall the IC track.
 
 ### Weakness 2: Principal title is from a smaller, consulting-origin company
 Big-tech interviewers may read "Principal at Keystone" as a startup title and level you at Senior.
-**How to address:** Lead with Principal-scope evidence: the pivot to product, $5M ARR, $25M client savings, 5 enterprises, CEO/CTO partnership. Pair it with 8 years of Amazon depth ($71M revenue, $100M+ savings, 100+ production models). In leveling conversations, anchor on scope and ambiguity, not title.
+**How to address:** Lead with Principal-scope evidence: the pivot to product, $7.5M ARR, $25M client savings, 5 enterprises, CEO/CTO partnership. Pair it with 8 years of Amazon depth ($71M revenue, $100M+ savings, 100+ production models). In leveling conversations, anchor on scope and ambiguity, not title.
 
 ### Weakness 3: GenAI/agent experience is ~2 years; most of the career is "classic" ML
 **How to address:** Present production ML depth as an edge. You know evaluation, monitoring, and governance, where most new GenAI PMs are weak. Back it with shipped agents: the forecasting agent (4 hrs/day → 4 hrs/week), HAT-AI (120 hrs/week saved), REI-Agent, and the eval framework (groundedness, tool compliance, action safety). Add hands-on builds: the job-search system (100% recall on benchmarks) and patent retrieval. The "agent vs. deterministic workflow" story is a strong differentiator for platform AI roles.

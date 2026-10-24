@@ -7,10 +7,10 @@ One story per role: the problem, what I did about it in order, and the results, 
 ## Keystone.ai · Principal Product Manager – Technical (1,928 chars)
 Jun 2024 – Present · Seattle, WA
 
-Keystone.ai sold demand forecasting as consulting: every client needed its own team and 6+ months. I own product strategy, roadmap, tiered pricing and packaging, and go-to-market for Deep Enterprise, the enterprise AI platform that replaced that model. I work with the CEO and CTO and set direction for 20+ engineers and data scientists.
+Keystone.ai sold demand forecasting as consulting: every client needed its own team and 6+ months. I own product strategy, roadmap, tiered pricing and packaging, and go-to-market for Deep Enterprise, the enterprise AI platform that replaced that model. I work with the CEO and CTO and set direction for 30+ engineers and data scientists.
 
 From consulting to a platform
-I made the case for one product instead of custom builds, chose forecasting as the first AI use case, and productized the data pipelines, ML pipelines and AI capabilities every client reuses. Deployment fell from 6 months to 4 and forecast accuracy (WAPE) improved 21%. The business reached $5M ARR with 5 Fortune 500 clients and $25M in annual client savings.
+I made the case for one product instead of custom builds, chose forecasting as the first AI use case, and productized the data pipelines, ML pipelines and AI capabilities every client reuses. Deployment fell from 6 months to 4 and forecast accuracy (WAPE) improved 21%. The business reached $7.5M ARR with 5 Fortune 500 clients and $25M in annual client savings.
 
 From forecasts to agentic workflows
 Accuracy alone didn't change behavior: planners still spent 4 hours a day reviewing and overriding forecasts. After a prototype hit 70%+ acceptance, I moved 2 months of roadmap to agents.
