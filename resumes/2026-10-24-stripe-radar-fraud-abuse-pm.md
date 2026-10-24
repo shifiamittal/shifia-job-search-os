@@ -58,7 +58,7 @@ This is a broad JD (23 requirements). 100% coverage with 16 strong items is a st
 
 | Review | Round 1 | Round 3 | What changed |
 |---|---|---|---|
-| ATS | Pass with warnings, 36/40 terms | **Pass with warnings, 34/40 terms** | Format clean (no tables, headers or footers; 3 working links). R37's business wording carries more JD terms than the round-3 plain rewrite |
+| ATS | Pass with warnings, 36/40 terms | **Pass with warnings, 34/40 terms** | Format clean (no tables, headers or footers; 3 working links). Same count as round 3; missing abuse, detection, reliable, prioritized, positioning, ambiguity |
 | Recruiter | 7.5/10 (8 / 7 / 7) | **8/10** (first impression 8, relevance 8, readability 7) | Fraud in the summary; APIs and fraud controls in more bullets. Denser than round 3 but reads as senior business writing |
 | Hiring manager | 8/10 (9 / 8 / 7 / 8) | **8.5/10** (specificity 9, product sense 8, unique insight 8, actionability 9) | Same evidence as round 3 in R37's tone: fraud thresholds, REST and partner APIs, client-cloud integration, agents |
 
