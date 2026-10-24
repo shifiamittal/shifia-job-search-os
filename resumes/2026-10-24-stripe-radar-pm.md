@@ -1,7 +1,7 @@
 # Resume Output - Stripe · Product Manager, Radar (integrations, partners, monetization)
 **Version 7, built from your v6 (`Shifia_Mittal_Resume_Stripe_Radar_Fraud_6.docx`), 2026-10-24.**
 **Keyword Coverage: 100% (21/21 requirements matched: 20 strong, 1 partial, 0 unmatched).** Strong-only: 95%.
-**Round 3 (same day):** K2 now carries retention (every client renewed through the product move, no churn) next to the agent upgrades; removed the event-stream demo bullet to stay on one page.
+**Round 3 (same day):** K2 now carries retention (all 5 clients renewed through the product move, no churn; confirmed) next to the agent upgrades; removed the event-stream demo bullet to stay on one page.
 **Round 2 (same day):** pricing bullet now uses your confirmed demo / proof-of-concept / forecasting-only pricing story (K34) and names Marketing; SPORT bullet now says 3 partner teams integrated the APIs (A15 update).
 
 Files: `resumes/Shifia_Mittal_Resume_Stripe_Radar.docx` (master) and `.pdf` (one page, rendered and checked; 3 live links).

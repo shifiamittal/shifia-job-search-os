@@ -642,9 +642,9 @@ Source: user's answers in chat, 2026-10-24 (Stripe Radar integrations resume, v7
 - Writing is a core strength. Has written PR/FAQs, strategy documents, PRDs, OP1 (annual planning) documents, MBRs/QBRs and VP-level alignment documents. Resume v7 says "written monthly VP-level business reviews" on the PBI bullet. [NEEDS DETAIL: which documents drove which decisions, e.g., an OP1 that secured headcount (MDLC "secured 8+ engineering HC year over year"), a PR/FAQ that launched a product, the Keystone pivot document.]
 
 #### Keystone client retention (stated by user 2026-10-24)
-- **Confirmed 2026-10-24: all 4 paying clients renewed, with no churn, through the consulting-to-product move.** The $7.5M ARR is recurring because of this retention. With no churn or downgrades, gross revenue retention was 100%; with 2 agent upgrades (+$500K ACV each), net revenue retention was above 100% (exact NRR depends on renewal timing, not on record).
-- Resume (v7): "every client renewed through the product move, with no churn, and 2 upgraded to agents (+$500K ACV each)."
-- [CONFIRM] K1 and the resume say "5 Fortune 500 clients" (5 enterprises), but 4 clients make up the ARR. Who was the fifth (e.g., the event-stream prospect from K16, or a non-renewing pilot)? If there were only 4 clients, change K1 to "4 Fortune 500 clients"; if a fifth didn't renew, "every client renewed" must become "all 4 subscription clients renewed".
+- **Confirmed 2026-10-24 (corrected same day): all 5 clients renewed, with no churn, through the consulting-to-product move.** The user first said 4, then confirmed 5, matching K1's "5 Fortune 500 clients". The $7.5M ARR is recurring because of this retention. With no churn or downgrades, gross revenue retention was 100%; with 2 agent upgrades (+$500K ACV each), net revenue retention was above 100% (exact NRR depends on renewal timing, not on record).
+- Resume (v7): "every client renewed through the product move, with no churn, and 2 upgraded to agents (+$500K ACV each)." Consistent with K1's 5 clients.
+- [CONFIRM, interview prep only] K32's ARR breakdown lists 4 contracts ($2M + $2M + $2M + $1.5M = $7.5M). Who is the fifth client, and is its revenue inside the $7.5M? Doesn't change the resume, but have the answer ready if asked "which 5?"
 
 #### Confirmed 2026-10-24
 - **SPORT adoption:** ~10% is the adoption level reached (from a 1% baseline), as the combined result of the APIs, wider recommendations, the Seller Central entry point and account-manager marketing (A15).
