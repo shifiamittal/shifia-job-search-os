@@ -70,7 +70,7 @@ Product manager with 11+ years building machine learning (ML) powered B2B produc
 - Led the 0→1 move from consulting to a product with the CEO and CTO: set the roadmap and tier-based subscription pricing and packaging (scope, features, implementation fee), cut deployment from 6 to 4 months, and scaled to 5 enterprises and $5M ARR.
 - Shipped a multi-agent decision system through shadow-mode launch gates (>70% exception recall and acceptance): 70% of recommendations adopted, planner review time down from 4 hrs/day to 4 hrs/week, client overstock cost down from $5M to $2M.
 - Designed action safety for production agents (risk-tiered autonomy, audit logs, canary rollouts, evals for groundedness and regressions); action acceptance rose from 30% to 80% after early automation led to 60% of actions being reversed.
-- Lifted forecast adoption from 50% to 70% through planner interviews and workflow observation, sequencing explainability before automation.
+- Drove adoption of the forecasting platform across client planning teams by running customer discovery (planner interviews, workflow observation, adoption data) to find and prioritize the top 3 blockers, lifting adoption from 50% to 70%.
 - Made the architecture trade-offs with engineering: modular services passed a Fortune 500 security review on time; managed-service deployment in client environments (+1 month) won 2 data-residency clients.
 
 **Amazon** | Seattle, WA | Oct 2016 – Jun 2024
@@ -126,7 +126,7 @@ MBA, Marketing & Operations, Indian Institute of Technology (IIT) Roorkee | B.E.
 | Led the 0→1 move from consulting to a product with the CEO a... | K1; Source Decision 17; Canonical Metrics | Aligned CEO/CTO on pivot; tier-based subscription pricing and packaging by scope, features, implementation; deployment 6 → 4 months; 5 enterprises; $5M ARR | REWORDED |
 | Shipped a multi-agent decision system through shadow-mode la... | K2 | Shadow-mode launch gates; planner time 4 hrs/day → 4 hrs/week; overstock $5M → $2M; 70% accepted at launch | REWORDED |
 | Designed action safety and evaluation for production agents... | K3, K4 | Tiered autonomy, audit logs, canary rollout; 60% reversed; acceptance 30% → 80%; evaluators for groundedness, tool compliance, regression | REWORDED |
-| Lifted forecast adoption from 50% to 70% through planner in... | K10 | Adoption 50% → 70%; interviews and workflow observation; explainability then agent | EXACT |
+| Drove adoption of the forecasting platform across client pla... | K10 | Adoption 50% → 70%; adoption metrics triangulated with planner interviews and workflow observation; found 3 issues (explainability, manual review load, accuracy gaps) | REWORDED |
 | Made the architecture trade-offs with engineering: modular... | K12, K13 | Modular services passed security review on time; managed service +1 month, 2 data-residency clients | REWORDED |
 | Launched an ML-based financing product on the Amazon Busine... | Work History, A1, A7, Source Decision 15 | ML-based financing; 50K+ customers; $71M; 5% controlled launch | EXACT |
 | Owned fraud-prevention decisions for the credit product: in... | A14 | Fraud team owned the BFS model; Shifia owned integration, threshold (precision 0.99, FDR 0.01), blocklist, suspension; BRP post-checkout screening | REWORDED |
