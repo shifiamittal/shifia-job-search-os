@@ -111,6 +111,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 
 ## Needs Attention
 - **Stripe Radar (2 roles):** recruiter screen Mon 2026-10-26. Ask Piyush Rohella for intel and a referral first; add the recruiter's name.
+- **Stripe Radar Fraud & Abuse: fraud-investigation story (A19).** Dig up the details before the hiring-manager round: which attack, which levers you found with BFS, what changed (feature, rule or control), any impact number, one-off vs. pattern. Then ask Claude to add it to experience-library.md (A19), the resume's fraud bullet, and the prep doc's hiring-manager answers. Until then, use the bridge answer in `resumes/2026-10-24-stripe-radar-fraud-abuse-pm.md` (Gaps, row 1).
 - **Ascerta:** stalled; send one final follow-up.
 - **Rose International contract:** decide go/no-go; rate is ~half your comp floor. Ask for the client name before a screen.
 - **Count:** send the post-rejection notes (interview-debriefs/2026-10-15-count-followup-notes.md).

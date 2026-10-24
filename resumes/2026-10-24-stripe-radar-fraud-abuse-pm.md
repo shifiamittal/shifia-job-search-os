@@ -48,7 +48,7 @@ This is a broad JD (23 requirements). 100% coverage with 16 strong items is a st
 
 | # | JD Requirement | Gap Type | Suggested Response |
 |---|---|---|---|
-| 1, 4 | Investigating fraud and abuse attacks with customers | Partial: transferable skill, different domain | Referral or hiring-manager line: "I haven't run a fraud investigation desk. I've owned fraud controls on a credit product, and I investigate production failures the same way: traces to the root cause, then a decision on whether it's a one-off or a pattern worth a platform fix. At Keystone.ai, a confident wrong recommendation traced back to a client's warehouse move, and the fix became a rule for every client: escalate instead of acting on missing data." |
+| 1, 4 | Investigating fraud and abuse attacks with customers | Partial. You did investigate fraud attacks with BFS (A19, 2026-10-24), but the details aren't on record yet; tracked in app-tracker Needs Attention. Until then: | Referral or hiring-manager line: "I haven't run a fraud investigation desk. I've owned fraud controls on a credit product, and I investigate production failures the same way: traces to the root cause, then a decision on whether it's a one-off or a pattern worth a platform fix. At Keystone.ai, a confident wrong recommendation traced back to a client's warehouse move, and the fix became a rule for every client: escalate instead of acting on missing data." |
 | 22 | Fraud-analyst tooling | Partial | "Credit Strategy Operations ran manual review for us. My part was the real-time checkout decision and the controls that set what reached them." Only say "what reached them" if you shaped the routing; library item [CONFIRM] |
 | 23 | SWE/DS background | Partial | Point to the hands-on builds and the repo. Don't name the stack until it's recorded in the library |
 | 8, 14 | Marketing; positioning | Partial | If true, add a line to the library about launch marketing or positioning work on PBI 2.0 or Keystone. The global consumer credit product's $15M ML-personalized marketing is real, but it's a different product; use it only if asked |
@@ -128,7 +128,7 @@ Pass to the hiring manager. The recruiter already reached out, so the resume mai
 
 **Bullets removed (no source):** 0
 **Bullets flagged for verification:** 0 INFERRED. Two wording choices to check:
-- MLOps "for 30+ risk and credit data scientists": A8 says 30+ scientists building 50+ risk models in Lending. Credit is part of risk there; change it to "risk-model data scientists" if you prefer.
+- ~~MLOps "for 30+ risk and credit data scientists"~~: wording confirmed by user 2026-10-24.
 - ~~Supply Chain "adoption rose 1% to ~10%"~~: confirmed by user 2026-10-24 (~10% was the level reached).
 
 ## Revisions Made
