@@ -167,11 +167,40 @@ Only say what's on record. If they ask which role, say you don't have the title 
 ### Tell me about yourself (~140 words, Stripe version)
 "I'm a Principal Technical PM with 11+ years building ML and AI products at scale. At Amazon, I spent two years in B2B Payments and Lending. I scaled an ML financing product to 50,000+ business customers and $71M in incremental revenue, and I owned how the product used Amazon's fraud model: the score threshold, blocklist rules and suspensions. I set it for very high precision, because a false positive froze a legitimate customer's credit line. Before that I built seller-facing ML products, with APIs that outside developers used to bring recommendations into their own tools, and they saved $100M+ combined. Most recently at Keystone.ai, I led a 0→1 agentic AI platform to $7.5M ARR across enterprise clients, and I set its pricing and packaging. Radar sits where those meet: ML decisions under adversarial pressure, delivered through APIs and sold to businesses."
 
-### Why Stripe / why Radar?
-Use the hook from section 3 that fits the role they lead with, then add one line: "I like products where the trade-off is explicit and measurable: blocked fraud against approved good customers."
+### Why Stripe / why Radar? (~180 words)
+"Three reasons.
 
-### Why are you looking? (qa-master primary script, now with $7.5M)
-Use it as written. If they ask directly: "My role was part of a restructuring at Keystone.ai earlier this year…" Say it in one or two sentences, then move on.
+First, Stripe itself. Stripe sees payments across millions of businesses, and that network is the real advantage in fraud: one business can't spot a new attack early, but Stripe can. Last year Radar blocked $110 billion in fraud. I want to build where the data and the scale make the ML problem worth solving well.
+
+Second, where Radar is going. Fraud has moved past checkout into account signups, free trials, and now AI agents. Radar's new bot abuse prevention has to tell a legitimate buying agent from a fraudulent one. That's a new product problem, not just a new model.
+
+Third, I've done both halves of this. At Amazon Business I owned how our financing product used the fraud score. I set the threshold for very high precision, because a false positive froze a real business's credit line, and a second check after checkout caught the rest. At Keystone.ai I built agents with tiered autonomy, where the agent acts on its own only when the risk is low and the action can be undone. Radar is where those two meet."
+
+**JD2 version (swap in the third paragraph):** "Third, I've done the distribution side. At Amazon I put ML recommendations into partners' tools through the Selling Partner APIs, and at Keystone.ai I repackaged an ML product into modules that clients upgraded into. Radar's move to scores by API for payments processed elsewhere, plus its new tiers, is that same problem at Stripe's scale."
+
+**Shorter version (~60 words) if the recruiter is moving fast:** "Stripe's network sees fraud no single business can, and Radar is taking that past checkout into accounts, trials and AI agents. I've set fraud thresholds on a real payments product, where blocking a good customer was the expensive mistake, and I've built agents with tiered autonomy. Radar is where those meet."
+
+### Why are you looking? (~130 words; forward-looking, no mention of the layoff)
+"Three things pulled me toward this move.
+
+First, scale. At Keystone.ai I took an agentic AI platform from 0 to 1 and helped move the company from consulting to product, reaching $7.5M ARR with Fortune 500 clients. I'm proud of that, and now I want to apply what I learned on a product with far more customers and data behind it.
+
+Second, payments and risk. My two years in Amazon's B2B Payments and Lending business were some of my favorite work: decisions where getting it wrong cost real money and real customers.
+
+Third, the overlap. Agents are starting to transact, and the trust and safety problems I worked on at Keystone.ai are becoming payments problems. Radar sits right there."
+
+**If they ask when you left or whether you're still there.** Answer factually in one sentence, then pivot. Don't imply you're still employed or that leaving was your choice; both show up in employment verification.
+"I wrapped up at Keystone.ai in March. Since then I've been building hands-on, including my own AI job-search system, and being selective about my next role. Radar is one of the few that fits both halves of my background."
+Don't add anything after that. If they ask "why did you leave?" directly, the accurate short answer is still "the role ended in March." Say it once, without detail, and go back to the reasons above.
+
+### What level are you targeting? (~120 words)
+"I'd rather level on scope than title, so let me give you the scope. At Keystone.ai I owned product strategy and pricing for the whole company's move from consulting to product: a 0-to-1 agentic AI platform that reached $7.5M ARR, set with the CEO and CTO, with 30+ engineers and scientists building it. Before that, eight years at Amazon, where I owned an ML financing product with 50,000+ business customers and $71M in incremental revenue, and the MLOps platform behind 100+ production models. Based on that, I'd expect to be at the senior end of your PM levels. How do you map that scope, and is each of these roles scoped at the same level?"
+
+**If they name a level number:**
+- **L4 or above:** "That sounds right." Then ask for the full package.
+- **L3:** "What would the hiring manager need to see to scope this at L4?" Don't agree to L3 on the call; it sits below your floor.
+
+**Don't say:** "I need a Principal title." It sounds like a title ask rather than a scope match, and Stripe's posting doesn't name a title level.
 
 ### Which role interests you more?
 "Both, for different reasons. Fraud and Abuse Prevention is the closest to my fraud-threshold work and to agents, which are starting to transact. The Radar integrations role fits what I've done on APIs, partners and pricing. Could you tell me how the teams differ, what level each is scoped at, and where each hiring manager sees the biggest gap?"
@@ -196,12 +225,6 @@ Stripe's range tops out near your target only at L4 and above. Don't open with a
 1. First: "Could you share which level each role is scoped at, and the full package for that level: base, bonus and equity?" (This is the LawnStarter rule: ask for the full package before calling it aligned.)
 2. If pressed: "For senior PM scope at Stripe, I'm targeting total compensation in the mid-to-high $500s, and I'm flexible on the mix of base and equity." This sits inside levels.fyi's current L4–L5 range ($541K–$605K, July 2026), so you aren't quoting above their band. (The Oct 23 briefing advised against quoting a range, based on the older March figures. The newer data supports giving one.)
 3. Never share current pay. Use the Washington redirect from qa-master.
-
-### Leveling ("What level are you targeting?")
-Use the qa-master script ($7.5M ARR) and lead with scope:
-- company-level product strategy and pricing at Keystone.ai
-- 8 years at Amazon
-- ownership of both the fraud-threshold decision and the platforms underneath it
 
 ### Logistics
 - Green Card holder; no sponsorship needed.
