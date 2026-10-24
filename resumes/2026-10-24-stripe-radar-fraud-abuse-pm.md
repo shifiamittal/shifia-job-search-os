@@ -70,7 +70,7 @@ This is a broad JD (23 requirements). 100% coverage with 16 strong items is a st
 
 ### Issues Flagged
 - Fraud evidence sits below the fold for a fraud role. Not changed: the style guide sets reverse-chronological order with Keystone first. Option: if you want fraud at the top, move the Amazon Financing & Credit block above Keystone with a "Selected experience" label. That breaks the style guide, so it's your call.
-- "SPORT" is an internal Amazon name a Stripe recruiter won't know. The bullet still reads as "APIs for outside developers." Optional: replace "SPORT APIs" with "inventory-recommendation APIs."
+- ~~"SPORT" is an internal Amazon name a Stripe recruiter won't know.~~ Fixed 2026-10-24: now "inventory-recommendation APIs."
 
 ### Verdict
 Pass to the hiring manager. The recruiter already reached out, so the resume mainly needs to survive a hiring-manager read.
@@ -121,7 +121,7 @@ Pass to the hiring manager. The recruiter already reached out, so the resume mai
 | Designed the checkout credit decision: versioned APIs answere… | A4 detail, A4, A14 | Live API on batch assessments; no real-time inference; versioned APIs; impact 3 months earlier | REWORDED |
 | Rebuilt SMB underwriting on Amazon behavioral data where thin… | A3, Source Decision 23 | Thin files; behavioral data; exposure capped by risk tier; 4% → 15%; no losses after full launch | REWORDED |
 | Owned vision and roadmap for a SageMaker-based MLOps platform… | A8, A9; Amazon MLOps bullets | 30+ scientists in lending (risk models); governance; monitoring by default; −40%; 100+ models | REWORDED |
-| Specced SPORT APIs on Amazon's Selling Partner APIs so outsid… | A15 | Spec for SPORT APIs; outside developers and partner services; 1% → ~10% combined with other work | REWORDED |
+| Specced inventory-recommendation APIs on Amazon's Selling Pa… | A15 | Spec for SPORT APIs; outside developers and partner services; 1% → ~10% combined with other work | REWORDED |
 | Launched ML recommendation and causal decision support produc… | A11; Supply Chain bullets | 50+ drivers, 14 teams; $100M+ combined; $40M TRACE | REWORDED |
 | Launched self-service price-perception insight tools benchmar… | Amazon Pricing | 800+ retailers, 17 countries; 40+ pricing leaders; signals fed pricing models | REWORDED |
 | Cognizant: Designed solutions and pricing for 30+ APAC deals… | Cognizant; Source Decision 21 | $25M; 30+ deals; 45% win rate | EXACT |
@@ -137,7 +137,8 @@ Pass to the hiring manager. The recruiter already reached out, so the resume mai
 - Bolded whole results, not bare numbers (style guide). Unbolded the adoption drop (70% → 50%), since it's not a result.
 - ATS: added "detection," "customer friction," "data analysis," "prioritized" and "engineers" using wording the library supports.
 - Formatting: cleared justified alignment on two Supply Chain bullets and a stray left indent on the Supply Chain title (both inherited from the master).
-- **Not changed:** order of sections (style guide); "SPORT" name (optional fix above); abuse, reliable, positioning and ambiguity (no claim on record to support them).
+- Renamed "SPORT APIs" to "inventory-recommendation APIs" (your request, 2026-10-24) and dropped the repeated "inventory" so the line still wraps cleanly.
+- **Not changed:** order of sections (style guide); abuse, reliable, positioning and ambiguity (no claim on record to support them).
 
 ## Text copy (generated from the .docx)
 
@@ -166,7 +167,7 @@ Sr. Product Manager-Technical, Amazon Business Financing & Credit               
 Sr. Product Manager-Technical, ML Ops Developer Platform                                    2020 - 2022
 • Owned vision and roadmap for a SageMaker-based MLOps platform for 30+ risk and credit data scientists, with governance and monitoring by default; cut deployment time 40% and scaled to 100+ production models with flat headcount.
 Product Manager-Technical, Supply Chain Optimization                                        2018 - 2020
-• Specced SPORT APIs on Amazon's Selling Partner APIs so outside developers and partners could show inventory recommendations and projected savings; with wider coverage and a Seller Central entry point, adoption rose 1% to ~10%.
+• Specced inventory-recommendation APIs on Amazon's Selling Partner APIs so outside developers and partners could show recommendations and projected savings; with wider coverage and a Seller Central entry point, adoption rose 1% to ~10%.
 • Launched ML recommendation and causal decision support products across thousands of sellers, explaining shipping-cost changes across 50+ drivers from 14 teams' systems; $100M+ in savings, including $40M from causal attribution.
 Product Manager, Amazon Pricing                                                             2016 - 2018
 • Launched self-service price-perception insight tools benchmarking Amazon against 800+ retailers in 17 countries; adopted by 40+ global pricing leaders, with signals feeding Amazon's pricing models.
