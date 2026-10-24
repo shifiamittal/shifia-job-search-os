@@ -40,6 +40,13 @@ Source: Shifia's edits and feedback during the R37 AI Lab resume (2026-10-22). `
 - Prefer 2 lines, 3 at most. No last line of 1–3 words; trim words until it pulls up.
 - **Bold the metric with its result** (the D in SAD), so a hiring manager scanning bold text sees what moved and by how much: "**planner effort 4 hrs/day to 4 hrs/week**", "**agent run cost ~30%**", "**$71M incremental revenue**", not just "**~30%**". Don't bold inputs such as team size, launch percentage, or thresholds. (Updated 2026-10-22, Qualcomm resume.)
 - Plain language over Amazon jargon ("privacy and legal teams", not "privacy bar raisers").
+- **No AI-sounding prose** (user feedback, 2026-10-24, Stripe resume). Write like a person describing their work:
+  - Plain verbs and nouns: "flags forecast problems, finds the cause", not "triages exceptions and diagnoses root causes"; "check how the data fit together", not "validate grain, keys, and join cardinality".
+  - At most one parenthetical list per bullet, and only when the items carry weight (e.g., the API catalog's contents). No tech-stack lists unless the JD asks for that stack.
+  - Vary the opening verb. Don't start most bullets with "Led", "Owned" or "Launched".
+  - Two short sentences beat one long chain of semicolons and commas.
+  - Avoid stock phrases: "reusable interfaces", "operating model", "intelligent automation", "aligning C-suite leaders", "drove", "spearheaded".
+  - Keep JD keywords, but only where they read naturally.
 - No first person ("I").
 - Qualify ranges honestly ("up to 26%" when the range is 21–26%).
 
