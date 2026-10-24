@@ -54,7 +54,17 @@ This is a broad JD (23 requirements). 100% coverage with 16 strong items is a st
 | 8, 14 | Marketing; positioning | Partial | If true, add a line to the library about launch marketing or positioning work on PBI 2.0 or Keystone. The global consumer credit product's $15M ML-personalized marketing is real, but it's a different product; use it only if asked |
 | 18 | Writing | Partial | The take-home is the proof. Stripe's 2024 feedback was about stating goals first |
 
-## Recruiter Review (sub-agents/recruiter-reviewer.md)
+## Current scores (round 3, rescored 2026-10-24)
+
+| Review | Round 1 | Round 3 | What changed |
+|---|---|---|---|
+| ATS | Pass with warnings, 36/40 terms | **Pass with warnings, 34/40 terms (85%)** | Format still clean (no tables, headers or footers; 3 working links). Plain-language rewrite dropped "businesses" and "trade-off" |
+| Recruiter | 7.5/10 (8 / 7 / 7) | **8/10** (first impression 8, relevance 8, readability 8) | Fraud and APIs now visible in the summary and more bullets; plainer sentences scan faster |
+| Hiring manager | 8/10 (9 / 8 / 7 / 8) | **8.5/10** (specificity 9, product sense 8, unique insight 8, actionability 9) | Integration work (client-cloud APIs, REST APIs, API catalog, partner APIs) plus fraud and agents is a rarer mix; plain wording reads as first-hand |
+
+Round-1 reviews below are kept for reference.
+
+## Recruiter Review (sub-agents/recruiter-reviewer.md), round 1
 
 ### 6-Second Scan Results
 - Name, then the summary: "credit and fraud-risk products at Amazon ($71M revenue, 50K+ customers)" appears in line 2 of the summary.
@@ -75,7 +85,7 @@ This is a broad JD (23 requirements). 100% coverage with 16 strong items is a st
 ### Verdict
 Pass to the hiring manager. The recruiter already reached out, so the resume mainly needs to survive a hiring-manager read.
 
-## ATS Review (sub-agents/ats-checker.md)
+## ATS Review (sub-agents/ats-checker.md), round 1
 - **Format:** no tables, text boxes, headers or footers; single column; standard bullets. PASS.
 - **Section headers:** SUMMARY, EXPERIENCE, EDUCATION (standard).
 - **Links:** mailto:shifia.mittal09@gmail.com, https://www.linkedin.com/in/shifiamittal, https://github.com/shifiamittal (all resolve; no `file:///` paths).
@@ -84,7 +94,7 @@ Pass to the hiring manager. The recruiter already reached out, so the resume mai
 - **Missing keywords:** abuse, reliable, positioning, ambiguity. None of these has a claim on record that I can word honestly, so I didn't add them.
 - **Overall ATS Score: PASS WITH WARNINGS** (the 4 terms above)
 
-## Hiring Manager Review (sub-agents/hiring-manager-reviewer.md), read as a Radar PM lead
+## Hiring Manager Review (sub-agents/hiring-manager-reviewer.md), read as a Radar PM lead, round 1
 
 | Dimension | Score | Key Factor |
 |---|---|---|
