@@ -107,22 +107,22 @@ Pass to the hiring manager. The recruiter already reached out, so the resume mai
 
 | Resume Bullet (first 60 chars) | Source Section | Original Text (short) | Match Type |
 |---|---|---|---|
-| Summary: Principal product manager with 11+ years shipping AI… | Profile Basics; Canonical Metrics; A18 | 11+ yrs; $7.5M ARR; $71M; 50K+; fraud controls | REWORDED |
+| Summary: Principal product manager with 11+ years shipping AI… | Profile Basics; Canonical Metrics; A1, A18 | 11+ yrs; $7.5M ARR; ML products incl. credit and fraud risk; $71M; 50K+ | REWORDED |
 | Led 0→1 product strategy and roadmap for an enterprise AI dec… | K1; Source Decision 24; Keystone resume bullets | Pivot; 30+ engineers and scientists; $7.5M ARR; $25M savings; 5 enterprises | REWORDED |
 | Set value-based modular pricing and packaging with Sales, Fin… | K32 | Modules; usage- and savings-based pricing rejected; two clients upgraded +~$500K ACV each | REWORDED |
 | Launched a multi-agent system (LLMs, RAG, LangGraph, MCP) tha… | K2, K3, K4; Source Decision 18 | Exception triage, RCA, tiered autonomy, shadow mode; 70% acceptance; 4 hrs/day → 4 hrs/week | REWORDED |
 | Ran customer discovery (planner interviews, workflow observat… | K10, K9 | 3 issues found; explainability before agent; adoption 50% → 70% | REWORDED |
 | Led data analysis in SQL (Athena), validating grain, keys, jo… | K33; Canonical Metrics | SQL in Athena; grain, keys, join cardinality; data contracts; deployment 3 months → 3 weeks | REWORDED |
 | Diagnosed a drop in agent adoption at one client (70% to 50%… | K5 | Adoption 70% → 50% over 4 weekly cycles; warehouse move; escalation guardrail; back to 70% | REWORDED |
-| Traced repeated assistant errors to undescribed data fields (… | K6 | >60% of failures from undescribed fields; catalog + semantic layer; clarification rate 50% → 30% | REWORDED |
+| Persuaded leadership and investors to deploy inside clients'… | K12, K31 | Managed service in client environment over pure SaaS; reusable data/model interfaces; consumption APIs; client scientists added features; +2 data-residency clients | REWORDED |
 | Owned the data platform's API catalog (schemas, auth, integra… | K29 | API catalog, release communication; 5 new clients' dashboards with no extra effort | REWORDED |
 | Launched Amazon Business' ML financing product via experiment… | A1, A7; Source Decision 16 | 5% launch; VP-level reviews; S-team goal; 50K+; $71M | REWORDED |
 | Owned the credit fraud controls with the fraud and Buyer Risk… | A18, A14 | BFS and BRP teams; ~99% precision; blocklist; post-checkout; exposure limits | REWORDED |
-| Designed the checkout credit decision: versioned APIs answere… | A4 detail, A4, A14 | Live API on batch assessments; no real-time inference; versioned APIs; impact 3 months earlier | REWORDED |
+| Designed versioned, backward-compatible REST APIs serving rea… | A14, A4 detail, A4 | REST APIs with backward-compatible versioning: credit eligibility at checkout, BFS block/continue at onboarding; live API on batch assessments; impact 3 months earlier | REWORDED |
 | Rebuilt SMB underwriting on Amazon behavioral data where thin… | A3, Source Decision 23 | Thin files; behavioral data; exposure capped by risk tier; 4% → 15%; no losses after full launch | REWORDED |
 | Owned vision and roadmap for a SageMaker-based MLOps platform… | A8, A9; Amazon MLOps bullets | 30+ scientists in lending (risk models); governance; monitoring by default; −40%; 100+ models | REWORDED |
 | Specced inventory-recommendation APIs on Amazon's Selling Pa… | A15 | Spec for SPORT APIs; outside developers and partner services; 1% → ~10% combined with other work | REWORDED |
-| Launched ML recommendation and causal decision support produc… | A11; Supply Chain bullets | 50+ drivers, 14 teams; $100M+ combined; $40M TRACE | REWORDED |
+| Launched ML recommendation products and APIs surfaced in Sell… | A11, A16; Supply Chain bullets | MOQ GET APIs shown on Seller Central; TRACE via Seller Central APIs; 50+ drivers, 14 teams; $100M+ combined; $40M TRACE | REWORDED |
 | Launched self-service price-perception insight tools benchmar… | Amazon Pricing | 800+ retailers, 17 countries; 40+ pricing leaders; signals fed pricing models | REWORDED |
 | Cognizant: Designed solutions and pricing for 30+ APAC deals… | Cognizant; Source Decision 21 | $25M; 30+ deals; 45% win rate | EXACT |
 
@@ -132,6 +132,7 @@ Pass to the hiring manager. The recruiter already reached out, so the resume mai
 - ~~Supply Chain "adoption rose 1% to ~10%"~~: confirmed by user 2026-10-24 (~10% was the level reached).
 
 ## Revisions Made
+- **Round 2 (user feedback, 2026-10-24):** summary broadened to "ML products at Amazon, including credit and fraud risk"; "+~$500K" → "+$500K"; justified the summary and all bullets (now a style-guide rule); added developer-integration content: client-environment deployment with consumption APIs and client extensibility (K12, K31) replacing the data-catalog bullet (K6), REST APIs for credit eligibility at checkout and fraud decisions at onboarding (A14), and Seller Central APIs in the supply-chain bullet (A16, A11). Trade-off: K6 (one-off vs. platform fix, JD #4) is gone from the page; K5 still covers #4.
 - Summary trimmed to 2 rendered lines (dropped "for Fortune 500 enterprises").
 - Fixed 1–3-word last lines on six bullets (fraud, MLOps, SPORT, SQL, and two from earlier drafts).
 - Bolded whole results, not bare numbers (style guide). Unbolded the adoption drop (70% → 50%), since it's not a result.
@@ -146,29 +147,29 @@ Pass to the hiring manager. The recruiter already reached out, so the resume mai
 SHIFIA MITTAL
 shifia.mittal09@gmail.com | 206-356-6348 | Seattle, WA, USA | linkedin.com/in/shifiamittal | github.com/shifiamittal
 SUMMARY
-Principal product manager with 11+ years shipping AI/ML products at scale: an agentic AI platform in Keystone's AI startup division ($7.5M ARR) and ML credit and fraud-risk products at Amazon ($71M revenue, 50K+ customers), aligning C-suite leaders.
+Principal product manager with 11+ years shipping AI/ML products at scale: an agentic AI platform in Keystone's AI startup ($7.5M ARR) and ML products at Amazon, including credit and fraud risk ($71M revenue, 50K+ customers), aligning C-suite leaders.
 EXPERIENCE                                                                    2015 - Present (11 years)
 Keystone.ai | AI division of Keystone, a 20+ year tech and economics advisory firm ($100M PE-backed)
 Principal Product Manager-Technical                                                     2024 - Present
 • Led 0→1 product strategy and roadmap for an enterprise AI decision platform (ML forecasting and agentic workflows), aligning the CEO and CTO to pivot from consulting to a product-led model and directing 30+ engineers and data scientists; reached $7.5M ARR and $25M in annualized client savings across 5 Fortune 500 clients.
-• Set value-based modular pricing and packaging with Sales, Finance, and the CEO (forecasting, then agents as an add-on), rejecting usage- and savings-based pricing; 2 clients upgraded to agents (+~$500K ACV each).
+• Set value-based modular pricing and packaging with Sales, Finance, and the CEO (forecasting, then agents as an add-on), rejecting usage- and savings-based pricing; 2 clients upgraded to agents (+$500K ACV each).
 • Launched a multi-agent system (LLMs, RAG, LangGraph, MCP) that triages exceptions and diagnoses root causes, automating only low-risk, reversible actions and routing the rest to human review with evidence; cleared shadow-mode eval gates, reaching 70% recommendation acceptance and cutting planner effort 4 hrs/day to 4 hrs/week.
 • Ran customer discovery (planner interviews, workflow observation, adoption data) to find the top 3 adoption blockers, then prioritized fixes, shipping SHAP explainability before agents; lifted forecast adoption from 50% to 70%.
 • Led data analysis in SQL (Athena), validating grain, keys, join cardinality, and data quality in orders, shipments, and trade-promotion data, turning findings into data contracts for the data platform; cut deployment from 3 months to 3 weeks.
 • Diagnosed a drop in agent adoption at one client (70% to 50% over 4 weekly cycles) through traces to a missing location signal, then added the data and a guardrail to escalate rather than act on incomplete data; restored adoption to 70%.
-• Traced repeated assistant errors to undescribed data fields (>60% of diagnostic failures), not the model, and built a data catalog and semantic layer as a platform fix for every client; cut repeat questions from 50% to 30%.
+• Persuaded leadership and investors to deploy inside clients' own cloud environments instead of pure SaaS, with reusable data and model interfaces and consumption APIs feeding client planning workflows; client data scientists extended models themselves, and 2 data-residency clients signed that SaaS couldn't serve.
 • Owned the data platform's API catalog (schemas, auth, integration examples) and release communication for app developers and data scientists; the app team built dashboards for 5 new clients with no extra effort.
 Amazon                                                                            2016 - 2024 (8 years)
 Sr. Product Manager-Technical, Amazon Business Financing & Credit                           2022 - 2024
 • Launched Amazon Business' ML financing product via experimentation, a 5% controlled launch, and monthly VP-level reviews against an S-team goal; scaled to 50K+ customers and $71M in incremental revenue.
 • Owned the credit fraud controls with the fraud and Buyer Risk Prevention teams: set the detection threshold at 99% precision to limit customer friction for legitimate businesses, with a domain blocklist, post-checkout checks, and exposure limits.
-• Designed the checkout credit decision: versioned APIs answered eligibility in real time from batch underwriting plus transaction-level controls, keeping ML inference out of checkout and pulling impact forward 3 months.
+• Designed versioned, backward-compatible REST APIs serving real-time credit eligibility at checkout and fraud block/continue decisions at onboarding, reading batch underwriting plus transaction-level controls so ML inference stayed out of checkout; pulled impact forward 3 months.
 • Rebuilt SMB underwriting on Amazon behavioral data where thin credit files held approval at 4%, capping exposure by risk tier; raised SMB approval to 15% with no credit losses after full launch.
 Sr. Product Manager-Technical, ML Ops Developer Platform                                    2020 - 2022
 • Owned vision and roadmap for a SageMaker-based MLOps platform for 30+ risk and credit data scientists, with governance and monitoring by default; cut deployment time 40% and scaled to 100+ production models with flat headcount.
 Product Manager-Technical, Supply Chain Optimization                                        2018 - 2020
 • Specced inventory-recommendation APIs on Amazon's Selling Partner APIs so outside developers and partners could show recommendations and projected savings; with wider coverage and a Seller Central entry point, adoption rose 1% to ~10%.
-• Launched ML recommendation and causal decision support products across thousands of sellers, explaining shipping-cost changes across 50+ drivers from 14 teams' systems; $100M+ in savings, including $40M from causal attribution.
+• Launched ML recommendation products and APIs surfaced in Seller Central for thousands of sellers, plus causal decision support across 50+ cost drivers from 14 teams' systems; $100M+ in savings, including $40M from causal attribution.
 Product Manager, Amazon Pricing                                                             2016 - 2018
 • Launched self-service price-perception insight tools benchmarking Amazon against 800+ retailers in 17 countries; adopted by 40+ global pricing leaders, with signals feeding Amazon's pricing models.
 Cognizant Technology Solutions | Designed solutions and pricing for 30+ APAC deals worth $25M (45% win rate)   2015 - 2016

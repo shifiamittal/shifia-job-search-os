@@ -8,6 +8,7 @@ Source: Shifia's edits and feedback during the R37 AI Lab resume (2026-10-22). `
 - One page, US Letter, Calibri 10pt body. Margins: 0.4" top and bottom, 0.55" left and right.
 - Dates are right-aligned with a single right tab stop at the right margin, never with tab padding.
 - Render to PDF and check the page after every edit round.
+- **Justify** the summary and every bullet (user's choice, 2026-10-24, Stripe resume). Word and LibreOffice leave the last line of each paragraph ragged, so short last lines still matter.
 
 ## Header
 - `SHIFIA MITTAL`, centered.
