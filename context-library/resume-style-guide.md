@@ -22,7 +22,7 @@ Source: Shifia's edits and feedback during the R37 AI Lab resume (2026-10-22). `
 - **No Skills section.** Every skill appears as proof inside a bullet.
 
 ## Employers and titles
-- **Keystone.ai** | *AI division of Keystone, a 20+ year tech and economics advisory firm ($100M PE-backed)*. Context line on one line. Don't mention the 2026 spin-out.
+- **Keystone.ai** | *AI division of Keystone, a 20+ year tech and economics advisory firm (450+ employees, PE-backed)*. Changed 2026-10-24: "$100M PE-backed" had no source; 450+ is from Revelio Labs (472 employees, Dec 2025). Context line on one line. Don't mention the 2026 spin-out.
   - Title: *Principal Product Manager-Technical*, `2024 - Present`
 - **Amazon** `2016 - 2024 (8 years)`, with role-level titles and years:
   - *Sr. Product Manager-Technical, Amazon Business Financing & Credit* 2022 - 2024
