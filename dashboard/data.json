@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21",
+  "generated_at": "2026-10-24",
   "scraped_at": "2026-10-21",
   "user": {
     "name": null,
@@ -33,15 +33,15 @@
     },
     "app_tracker": {
       "state": "filled",
-      "detail": "4 applications"
+      "detail": "9 tracked · 5 active (4 in screen)"
     },
     "apify": {
       "state": "ok",
       "detail": "last scrape 2026-10-21"
     },
     "voyage": {
-      "state": "ok",
-      "detail": "0 jobs scored"
+      "state": "missing",
+      "detail": "no job-lab/.env in this session; fit scores off"
     }
   },
   "funnel": [
@@ -57,14 +57,14 @@
     },
     {
       "stage": "screen",
-      "count": 2,
-      "conversion": 0.5,
+      "count": 5,
+      "conversion": null,
       "benchmark": 0.25
     },
     {
       "stage": "onsite",
       "count": 0,
-      "conversion": 0,
+      "conversion": null,
       "benchmark": 0.35
     },
     {
@@ -76,34 +76,45 @@
   ],
   "bottleneck": {
     "stage": "sourced→applied",
-    "why": "6% vs 30% benchmark",
-    "fix": "Referral coverage is 0%. Raise it to 60%.",
+    "why": "6% of 64 sourced roles applied to (4); 3 of 4 active screens came from recruiter outreach, not applications",
+    "fix": "Referral coverage is 0%. Build referral paths before applying, starting with Stripe (Piyush Rohella).",
     "command": "/build-referral-graph"
   },
   "next_actions": [
     {
-      "type": "apply",
-      "title": "Apply → TalentHop, Senior Product Manager - Strategic Client Programs",
-      "why": "Posted 2026-10-21",
+      "type": "interview",
+      "title": "Prep Stripe Radar recruiter screen (Mon Oct 26)",
+      "why": "2 days out; resume built but not sent yet",
       "buttons": [
         {
-          "label": "Tailor resume",
-          "command": "/resume-tailor https://www.linkedin.com/jobs/view/4478985450/"
-        },
-        {
-          "label": "Not for me",
-          "command": "/app-tracker update talenthop-senior-product-manager-strategic-client-programs-23187ecf --stage hidden"
+          "label": "Prep",
+          "command": "/interview-prep Stripe Product Manager Radar recruiter screen"
         }
       ]
     },
     {
-      "type": "setup",
-      "title": "Finish your Q&A master doc",
-      "why": "qa-master.md: 7 of 9",
+      "type": "interview",
+      "title": "Send resume to Aga + prep Coinbase screen (Tue Oct 27, 10:30am PT)",
+      "why": "3 days out; booking form says resume not shared; infra gap answer and comp handling needed",
       "buttons": [
         {
-          "label": "Do it with Claude",
-          "command": "Help me fill out the Q&A master doc"
+          "label": "Prep",
+          "command": "/interview-prep Coinbase Group PM Core Infrastructure recruiter screen"
+        },
+        {
+          "label": "Log sent",
+          "command": "/app-tracker update coinbase-gpm-core-infra"
+        }
+      ]
+    },
+    {
+      "type": "referral",
+      "title": "Referral ask → Piyush Rohella (Stripe)",
+      "why": "1st-degree ex-Amazon B2B Payments & Lending teammate; 2 Stripe roles in screen, 0 referrals",
+      "buttons": [
+        {
+          "label": "Draft ask",
+          "command": "/referral-request Piyush Rohella Stripe PM Radar"
         }
       ]
     }
@@ -1201,15 +1212,70 @@
   "archetypes": [],
   "pipeline": [
     {
-      "id": "ascerta-principal-product-manager-ai-startup",
-      "company": "Ascerta",
-      "role": "Principal Product Manager - AI Startup",
+      "id": "coinbase-gpm-core-infra",
+      "company": "Coinbase",
+      "role": "Group PM, Core Infrastructure & Reliability",
       "stage": "screen",
-      "days_in_stage": 23,
+      "days_in_stage": 2,
       "fit": null,
       "has_referral": false,
-      "next_action": "One final follow-up to Darren this week. If no reply in 7 days, mark ghosted.",
+      "next_action": "Send resume to Aga; recruiter screen Tue Oct 27",
+      "command": "/app-tracker update coinbase-gpm-core-infra --stage onsite"
+    },
+    {
+      "id": "stripe-pm-radar-fraud",
+      "company": "Stripe",
+      "role": "PM, Radar – Fraud and Abuse Prevention",
+      "stage": "screen",
+      "days_in_stage": null,
+      "fit": null,
+      "has_referral": false,
+      "next_action": "Recruiter screen Mon Oct 26; send resume; ask Piyush for referral",
+      "command": "/app-tracker update stripe-pm-radar-fraud --stage onsite"
+    },
+    {
+      "id": "stripe-pm-radar",
+      "company": "Stripe",
+      "role": "PM, Radar",
+      "stage": "screen",
+      "days_in_stage": null,
+      "fit": null,
+      "has_referral": false,
+      "next_action": "Same call as Fraud and Abuse role (Mon Oct 26)",
+      "command": "/app-tracker update stripe-pm-radar --stage onsite"
+    },
+    {
+      "id": "ascerta-principal-product-manager-ai-startup",
+      "company": "Ascerta",
+      "role": "Principal PM - AI Startup",
+      "stage": "screen",
+      "days_in_stage": 26,
+      "fit": null,
+      "has_referral": false,
+      "next_action": "One final follow-up to Darren; mark ghosted if no reply in 7 days",
       "command": "/app-tracker update ascerta-principal-product-manager-ai-startup --stage onsite"
+    },
+    {
+      "id": "qualcomm-staff-pdm-ai-platforms",
+      "company": "Qualcomm",
+      "role": "Staff PDM, AI Platforms",
+      "stage": "sourced",
+      "days_in_stage": 2,
+      "fit": null,
+      "has_referral": false,
+      "next_action": "Resume ready; find referral before submitting (onsite San Diego conflict)",
+      "command": "/app-tracker update qualcomm-staff-pdm-ai-platforms --stage applied"
+    },
+    {
+      "id": "rose-intl-principal-pm-contract",
+      "company": "Undisclosed (Rose International)",
+      "role": "Principal PM-T (contract)",
+      "stage": "sourced",
+      "days_in_stage": 3,
+      "fit": null,
+      "has_referral": false,
+      "next_action": "Decide go/no-go; rate ~half the comp floor",
+      "command": "/app-tracker update rose-intl-principal-pm-contract --stage applied"
     }
   ],
   "network": [
@@ -1503,7 +1569,20 @@
     "target": 0.6
   },
   "interviews": {
-    "upcoming": [],
+    "upcoming": [
+      {
+        "company": "Stripe",
+        "round": "recruiter screen",
+        "when": "2026-10-26",
+        "command": "/interview-prep Stripe Product Manager Radar recruiter screen"
+      },
+      {
+        "company": "Coinbase",
+        "round": "recruiter screen",
+        "when": "2026-10-27T10:30",
+        "command": "/interview-prep Coinbase Group PM Core Infrastructure recruiter screen"
+      }
+    ],
     "heatmap": [
       {
         "dimension": "Logistics",

@@ -47,6 +47,27 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 
 ## Recruiter Screen
 
+### Coinbase - Group Product Manager, Core Infrastructure & Reliability
+- **Status:** recruiter-screen (scheduled Tue 2026-10-27, 11:00–11:30pm IST = 10:30–11:00am Seattle; booked via Aga's scheduling page)
+- **Job ID:** P76485 · https://www.coinbase.com/careers/positions/7997785 · Remote - USA (quarterly in-person "surges")
+- **Date applied:** not applied; recruiter outreach
+- **Source:** Inbound email from Aga Weston-Ball, Principal Technical Recruiter (agnieszka.westonball@coinbase.com), 2026-10-16; follow-up 2026-10-22 offering a direct intro to Bryan Gough (Sr. Director, Infra). Role partners with Bryan Gough and Alex Rodriguez.
+- **Referral:** No (recruiter-sourced)
+- **Resume version:** `resumes/Shifia_Mittal_Resume_Coinbase.docx` / `.pdf` (built 2026-10-24, platform framing; analysis: `resumes/2026-10-24-coinbase-gpm-core-infra.md`). Not sent yet (booking form said "resume shared: No")
+- **Cover letter:** No
+- **Connection at company:** None in connection-tracker.md
+- **Work product sent:** No
+- **Visa/sponsorship:** Not required
+- **Company tier:** Unranked (not in target-companies.md)
+- **Comp:** $243,865–$286,900 base + equity + bonus. Total comp not listed; intel puts L6 PM at ~$450K–$700K+ [VERIFY: intel dated 2026-03-24]. Ask for level and full package; floor is $380–400K TC.
+- **Fit:** est. 65/100 (job-fit-scorer, 2026-10-24; ~67 after counting MDLC as platform work). Strong: platform/developer experience, regulated environments, AI agents with human oversight. Gaps: 5+ yrs cloud infra, Kubernetes/networking depth, SLO/failover ownership. Scope sits on the career plan's "non-AI scope" line; the AI angle (agents for infra operations) must be real.
+- **Last action:** 2026-10-24 Resume tailored; reply to Aga drafted (confirm call, ask for JD/level/comp, attach resume).
+- **Next action:** Send reply + resume to Aga by 2026-10-25. Prep: 60-second pitch, honest infra-gap answer, comp handling, questions ("What made my profile stand out?", level, PM reports, how much of the scope is AI). Mock screen 2026-10-26. Decide on the Bryan Gough intro after the screen.
+- **History:**
+  - 2026-10-16 Inbound recruiter email (Aga Weston-Ball)
+  - 2026-10-22 Recruiter follow-up; recruiter screen booked for 2026-10-27
+  - 2026-10-24 JD reviewed; fit scored; resume tailored
+
 ### Stripe - Product Manager, Radar – Fraud and Abuse Prevention
 - **Status:** recruiter-screen (scheduled Mon 2026-10-26; same call as the Radar role below)
 - **Job ID:** 8306158 · https://stripe.com/careers/apply/product-manager-radar-fraud-and-abuse-prevention/8306158
