@@ -53,7 +53,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Date applied:** not applied; recruiter outreach
 - **Source:** Recruiter outreach (recruiter name [CONFIRM])
 - **Referral:** No (Piyush Rohella not yet asked)
-- **Resume version:** none sent yet
+- **Resume version:** `resumes/Shifia_Mittal_Resume_Stripe_Radar_Fraud.docx` / `.pdf` (built 2026-10-24; analysis: `resumes/2026-10-24-stripe-radar-fraud-abuse-pm.md`). Not sent yet
 - **Cover letter:** No
 - **Connection at company:** Piyush Rohella (1st degree; PM at Stripe; former teammate in Amazon B2B Payments & Lending)
 - **Work product sent:** No
@@ -70,6 +70,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **History:**
   - 2026-10-23 Recruiter outreach; screen scheduled for 2026-10-26
   - 2026-10-24 Fit scored (73); prep built
+  - 2026-10-24 Tailored resume built (coverage 23/23: 16 strong, 7 partial)
 
 ### Stripe - Product Manager, Radar
 - **Status:** recruiter-screen (scheduled Mon 2026-10-26; same call as the Fraud and Abuse role above)

@@ -578,6 +578,44 @@ Sources: user's answers in chat (2026-10-24); Drive docs "SPORT APIs_V3_tech.doc
 - **Moody's integration:** heading only.
 - **People:** the doc says "led a 3-member team and promoted 2 of 3" and "mentored 3 interns, 2 hired at Amazon." User (2026-10-24): keep this library as is (one direct report, A13). Don't use the doc's version.
 
+### Added 2026-10-24 (second batch): fraud controls, checkout decisioning, SQL
+Source: user's answers in chat, 2026-10-24 (Stripe Radar Fraud & Abuse resume intake). Client names stay private (Source Decision 12).
+
+#### A18: Fraud Prevention Inside PBI 2.0 (Amazon): STAR version of A14
+- **Situation:** PBI 2.0 expanded credit to SMBs that traditional underwriting had underserved. That created credit risk and fraud risk (businesses obtaining credit with no intent to repay), and the two had to be handled separately.
+- **Role:** owned how fraud prevention worked within PBI 2.0: the product's risk-control requirements and integration. Partnered with the Business Fraud Score (BFS) team, which owned the fraud model, and Buyer Risk Prevention (BRP), which owned downstream fraud controls. Did not build the fraud model.
+- **Signals the fraud screening used:** newly registered business domains / domain-registration history, unusual registration patterns, shared-domain fraud history, account associations with previously fraudulent accounts, prior fraud write-offs, inconsistencies in business information.
+- **Decision:** block only high-confidence fraud rather than every risky-looking customer, because false positives would undercut the goal of expanding credit to legitimate SMBs. Threshold at ~99% precision / ~25% recall. Accepted the detection gap because screening wasn't the only defense.
+- **Layered controls:** BFS integrated into the pre-credit assessment; BRP's fraud-domain blocklist as an independent blocking rule; BRP post-checkout fraud controls; credit exposure limits; transaction eligibility restrictions; suspension procedures.
+- **Result:** the broader PBI 2.0 launch raised SMB credit approvals ~4% → 15%. No fraud-specific outcome metric on record.
+- **Learning:** effective fraud prevention isn't just maximizing detection; it's designing controls across the customer journey to manage financial risk without restricting legitimate customers.
+- **Tags:** fraud, detection vs. customer friction, layered defenses, precision/recall
+
+#### A4 detail: real-time checkout decision on batch underwriting (Amazon), confirmed 2026-10-24
+- Separated **customer-level creditworthiness** (driven by purchase and repayment history; assessed periodically in batch) from **transaction-level eligibility** (checked live).
+- A **real-time API call at checkout** read the precomputed customer-level assessment and applied transaction-level eligibility controls. No real-time model inference at checkout, which avoided latency, infrastructure complexity and model-availability dependencies in checkout. Fraud, transaction-level and account-suspension controls managed exposure between assessments. Real-time underwriting stayed on the roadmap.
+- **Learning:** real-time customer experiences don't always need real-time ML inference; decide which information has to be fresh at transaction time.
+- Combine with A4's existing result (impact pulled forward 3 months) and A14's API detail (REST APIs, backward-compatible versioning).
+
+#### PBI manual review and account actions (Amazon), confirmed 2026-10-24
+- Credit Strategy Operations ran a manual credit-assessment process for cases needing human judgment, including some model-declined customers. Defined procedures existed for suspensions and fraud-related account actions.
+- [CONFIRM] Shifia's own role in designing the manual-review routing or the suspension procedures is not stated. Until confirmed, don't claim she built analyst or reviewer tooling.
+
+#### K33: SQL and Data Analysis for the Data Platform (Keystone.ai), confirmed 2026-10-24
+- Led data analysis and product requirements for the enterprise AI Data Platform. Wrote **SQL in Amazon Athena on tables in AWS Glue** for Data Platform and Deep Enterprise work.
+- Used SQL to understand enterprise datasets: validated grain and relationships, found data-quality issues, and defined transformations for downstream analytics and ML.
+- **Trade promotion data (flagship CPG client):** investigated SAP-derived promotional records across fiscal weeks; analyzed promotional mechanics and financial measures; wrote requirements to consolidate records into promotion-level entities, transforming planned spend, actuals, corrections, status, dates and pricing by their business meaning rather than generic aggregation.
+- **Orders and shipments:** primary-key identification, date semantics, reconciliation, join cardinality. Findings shaped the Data Platform architecture and its reusable data contracts.
+- **Modeling:** forecast performance analysis across business hierarchies guided product decisions on model evaluation, reconciliation (K23) and data readiness.
+- No separate metric; pair with the Data Platform results (deployment 3 months → 3 weeks; onboarding 2 months → 2 weeks).
+- **Tags:** SQL, analytical rigor, data quality, data contracts
+
+#### S1 repo (confirmed 2026-10-24)
+- Job-search agent code: https://github.com/shifiamittal/pm-job-search-agent. Language and stack not recorded; don't name them until confirmed.
+
+#### Still a gap after 2026-10-24
+- **Investigating a specific fraud or abuse attack with customers** (Stripe JD1 items 1 and 4): no story on record. A18 covers control design, not an attack investigation. Closest analogs: K5 (traced an adoption drop to a warehouse move), K6 (judged a grounding failure as a repeatable, platform-level problem rather than a one-client fix), A6 (loss analysis in the pilot).
+
 ### Gaps (no real story yet)
 - **SPORT / MOQ** sections in the doc are empty. MOQ results exist on the resume (20K merchants, 120K offers, ~60% adherence) but have no story.
 - **"Killed an AI project"** — doc has only a template.
