@@ -30,15 +30,17 @@ Sources: `context-library/experience-library.md` (A21 BFS, A10, A13, A6, K1, K12
 
 ---
 
-## S1. Moving fraud controls upstream: the Business Fraud Score strategy
-**Use for:** biggest impact, a strategy you set, 0→1, influence across teams. **Both roles; the Fraud & Abuse lead story.**
+## S1. End-to-end fraud strategy for Pay by Invoice (the Business Fraud Score)
+**Use for:** biggest impact, a strategy you set, 0→1, influence across teams. **Both roles; the Fraud & Abuse lead story.** Covers all of Pay by Invoice (PBI), not one customer segment. Metrics come only from your BFS PRFAQ, model doc and BFS 2.0 launch note.
 
-**Spoken version (~200 words):**
-"The goal was to stop fraud before it reached our business customers, without adding friction for the good ones. At Amazon Business, almost all fraud control happened after checkout. That meant we couldn't control how much fraud entered the funnel; good customers had orders held for manual review; and steps like sign-up, credit applications and adding a bank account had no fraud check at all, so teams used blunt rules. A few sophisticated fraud rings, some using bots, were exploiting that.
+**STAR version (~200 words):**
+- **Situation:** "At Amazon Business, Pay by Invoice gives business customers a credit line to buy now and pay later. As it grew, fraud grew faster, driven by fraud rings, some using bots, and almost all our fraud controls ran after checkout. By then a fraudster already had a credit line, and good customers absorbed the friction of orders held for review."
+- **Task:** "As the PM, I owned the fraud strategy for PBI: stop fraud before credit was extended, without adding friction for legitimate businesses."
+- **Action:** "I wrote the strategy as a PRFAQ: a Business Fraud Score that assesses every business at sign-up, before it gets a credit line. I was the PM; data science built the models. I set the score for precision, right about 99% of the time, because a false positive froze a real business's credit line, and layered it with buyer risk's checks after checkout, a domain blocklist, exposure limits and suspension rules. I required a three-week shadow run before launch. When a deep dive showed fraudsters slipping past at sign-up, I launched a behavioral version with IP intelligence that keeps assessing new customers until their first order."
+- **Result:** "The first version was contributing to over 60% of our upfront fraud detection. The behavioral version caught fraudsters about 10 days earlier than our buyer-risk systems, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines. Six teams adopted the score."
+- **Learning:** "Good fraud prevention isn't maximum detection. It's deciding which mistake is expensive and designing layers so no single control has to be perfect."
 
-I wrote the strategy as a PRFAQ: one Business Fraud Score that assesses a business at registration, before any order exists, and keeps reassessing as behavior comes in, so any team can apply risk-based controls anywhere in the journey. I laid out four phases, from a core score to external risk data, real-time access and continuous assessment.
-
-I was the PM for both versions. Data science built the models; I made the product calls. The score ended up contributing to about 60% of our upfront fraud detection, it was part of the controls that cut the small-business credit product's fraud loss rate 15%, and six teams adopted it, from buyer risk and credit to sign-up verification and Business Prime."
+**30-second version (recruiter screen):** "I owned the fraud strategy for Amazon Business's Pay by Invoice credit. I created a fraud score that assesses every business at sign-up, before it gets a credit line, tuned for precision and layered with checkout controls. The behavioral version caught fraudsters about 10 days earlier and lifted upfront detection about 15%, and six teams adopted the score."
 
 **L4 signals:** a problem nobody owned; strategy beyond your own product; adopted by six teams you didn't manage; a platform that outlasted you.
 **Likely follow-ups:**
@@ -161,4 +163,4 @@ Use "How do you develop other PMs?" in Part A (A13, K20).
 2. **S6 hardest integration:** which one and why; any metric showing a partner's decision improved.
 3. **S7 privacy pushback:** what the VPs or Directors pushed back on.
 4. **S1 "what would you do differently":** replace my suggestion with your own.
-5. **Fraud v6 resume, "repeat fraud incidents −5%":** still unconfirmed. Replace it with BFS 2.0 facts (S2), or tell me its source.
+5. **Fraud v6 resume:** remove "repeat fraud incidents −5%" and "reduce fraud loss rate by 15%" (both retired 2026-10-25), and describe the fraud work as all of Pay by Invoice, not a small-business product.

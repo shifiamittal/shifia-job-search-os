@@ -17,7 +17,7 @@ Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-mas
 |---|---|---|
 | Keystone | $7.5M ARR · 5 Fortune 500 clients, **all renewed, no churn** · 2 upgraded to agents (+$500K ACV each) · $25M annualized client savings · 30+ engineers and scientists | "$10M", "$5M", a net revenue retention % |
 | Amazon financing | 50K+ business customers · $71M incremental revenue · SMB approval 4% → 15% · launched 3 months earlier (batch, not real time) | "millions of customers", "250K" |
-| Fraud | **Business Fraud Score: you wrote the strategy and were PM of 1.0 and 2.0**; data science built the models · adopted by **6 teams** · BFS 2.0: caught fraudsters **~10 days earlier**, upfront detection **up ~15%**, **~$2.7M** fraudulent credit lines flagged · **fraud loss rate −15%** · threshold ~99% precision / ~25% recall | "I built the model"; Amazon's internal fraud exposure or loss figures; exact model features; "repeat fraud incidents −5%" (not confirmed) |
+| Fraud | **Business Fraud Score: you wrote the strategy and were PM of 1.0 and 2.0**; data science built the models · adopted by **6 teams** · BFS 2.0: caught fraudsters **~10 days earlier**, upfront detection **up ~15%**, **~$2.7M** fraudulent credit lines flagged · BFS 1.0 contributing to **~60% of upfront fraud detection** · launch threshold ~99% precision / ~25% recall after a 3-week shadow run · covered **all of Pay by Invoice**, not one segment | "I built the model"; "fraud loss −15%" and "repeat fraud −5%" (retired 2026-10-25); "small-business credit product" for the fraud work; Amazon's internal fraud exposure or loss figures; exact model features |
 | APIs | SPORT: **3 Amazon partner teams integrated it**, adoption 1% → ~10% (combined with other work) · MOQ: Seller Central + **2 Asian marketplaces**, ~60% higher adherence, $20M seller savings | "outside developers used SPORT"; "27% adoption" (that was the goal) |
 | Platform | MLOps: 30+ scientists, 100+ models, deployment −40% | |
 | Career | 11+ years · PM since 2016 · "most recently at Keystone.ai" | "currently at Keystone" |
@@ -35,7 +35,7 @@ Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-mas
 | Core job | Investigate new attacks with customers; turn them into detection and control products (ML signals, rules, dashboard, API) | Bring Radar into the systems customers and partners already use: APIs, integrations, partner relationships, onboarding, monetization |
 | Unique asks | Detection vs. customer friction; tools for fraud analysts; real-time decisions | B2B pricing and monetization (required); integration partners; explaining architecture to customers |
 | Owns metrics on | Product performance, UX, business metrics | Integration success, adoption, retention, revenue |
-| Your strongest proof | Fraud loss −15%; 99% precision threshold; layered controls; agents with tiered autonomy | Pricing with all 5 clients renewed and 2 upgraded; 3 partner teams on SPORT APIs; MOQ in 2 marketplaces; checkout API design |
+| Your strongest proof | Business Fraud Score: fraudsters caught ~10 days earlier, upfront detection up ~15%, ~$2.7M fraudulent credit lines flagged, 6 teams adopted; 99% precision threshold; agents with tiered autonomy | Pricing with all 5 clients renewed and 2 upgraded; 3 partner teams on SPORT APIs; MOQ in 2 marketplaces; checkout API design |
 | Fit (est., 2026-10-24) | 73/100 (stronger career step: ML + AI-agent bot abuse) | 72/100 → **~74 now** (skill match was already 20/20; retention and partner-integration evidence remove the softest points) |
 | Shared | 8+ yrs PM, SQL, 0→1, B2B sales partnership, Dashboard + API products, technical fluency, writing; Seattle office, ≥50% in office; base $178.6K–$268K (several levels) | same |
 
@@ -115,7 +115,7 @@ Built strictly on the job-search OS Addressing-Weaknesses Framework (`insider-da
 
 "I'm a Principal Technical Product Manager with 11+ years building ML products for businesses. Most recently, at Keystone.ai, I led a 0-to-1 agentic AI platform and the company's move from consulting to product: $7.5M ARR across five Fortune 500 clients, all of whom renewed. I designed the pricing with Sales and the CEO, and led three PMs on a dotted line.
 
-Before that, I spent eight years at Amazon, starting as a PM in Pricing and moving up to Senior PM-Technical. The work most relevant here was in B2B Payments and Lending, where I scaled an ML financing product to 50,000+ business customers and $71M in incremental revenue. I also led the product strategy for Amazon Business's fraud score, which moved fraud detection from checkout to sign-up. Data science built the models; I made the product calls, and six teams adopted it. It helped cut the fraud loss rate 15%. I also defined how privacy rules applied to ML across Amazon Payments, and it became the standard for about 20 teams.
+Before that, I spent eight years at Amazon, starting as a PM in Pricing and moving up to Senior PM-Technical. The work most relevant here was in B2B Payments and Lending, where I scaled an ML financing product to 50,000+ business customers and $71M in incremental revenue. I also led the product strategy for Amazon Business's fraud score, which moved fraud detection from checkout to sign-up. Data science built the models; I made the product calls, and six teams adopted it. Its second version caught fraudsters about 10 days earlier. I also defined how privacy rules applied to ML across Amazon Payments, and it became the standard for about 20 teams.
 
 My most recent work was in supply chain, but the through-line is ML decisions where a wrong call costs real money. Radar is that problem at Stripe's scale. That's why this role is exactly what I'm looking for next."
 
@@ -129,7 +129,7 @@ First, Stripe's network. One business can't spot a new attack early; Stripe sees
 
 Second, where Radar is going. Fraud has moved past checkout into account signups, free trials and now AI agents. Telling a legitimate buying agent from a fraudulent one is a new product problem, not just a new model.
 
-Third, I've done both halves. At Amazon Business I set our fraud threshold for very high precision, because a false positive froze a real business's credit line, and layered controls caught the rest; fraud losses fell 15%. At Keystone.ai I built agents that act on their own only when the risk is low and the action can be undone."
+Third, I've done both halves. At Amazon Business I set our fraud threshold for very high precision, because a false positive froze a real business's credit line, and layered controls caught the rest. The next version caught fraudsters about 10 days earlier. At Keystone.ai I built agents that act on their own only when the risk is low and the action can be undone."
 
 **JD2 third paragraph:** "Third, I've done the distribution side. At Amazon, three partner teams built my inventory recommendations into their own tools through APIs. At Keystone.ai I priced an ML product in modules: clients started on forecasting, all five renewed, and two added agents. Radar's move to scoring payments processed elsewhere, plus its new tiers, is that problem at Stripe's scale."
 
@@ -181,7 +181,7 @@ We landed with forecasting first. For one global manufacturer, I demoed the plat
 Don't quote an NRR percentage; the exact figure depends on renewal timing.
 
 **"Tell me about a fraud decision you owned."** (JD1; ~130 words)
-"I was the PM for Amazon Business's fraud score, which assesses a business at sign-up, before any order. The biggest call was precision over recall. A false positive suspended a legitimate business's credit line, so I set the launch threshold where the score was right about 99% of the time, accepting that it alone caught about a quarter of fraud, because buyer risk still checked every order after checkout, and a domain blocklist caught more. I required a three-week shadow run on live traffic first, and it made essentially no false suspensions. Six teams built on it, and with our credit controls it cut the small-business credit product's fraud loss rate 15%."
+"I was the PM for Amazon Business's fraud score, which assesses a business at sign-up, before any order. The biggest call was precision over recall. A false positive suspended a legitimate business's credit line, so I set the launch threshold where the score was right about 99% of the time, accepting that it alone caught about a quarter of fraud, because buyer risk still checked every order after checkout, and a domain blocklist caught more. I required a three-week shadow run on live traffic first, and it made essentially no false suspensions. It covered all of Pay by Invoice, six teams built on it, and it was contributing to over 60% of our upfront fraud detection."
 **L4 signal:** a policy-level call on a platform six teams used. Full version: story bank S3.
 
 **"Have you investigated fraud or abuse attacks? How would you approach a new one?"** (JD1's core job; ~150 words)
@@ -216,7 +216,7 @@ Green Card holder, no sponsorship · Seattle, fine with ≥50% in office · avai
 ### Precision traps
 - **Fraud model:** you led the Business Fraud Score strategy and were PM of 1.0 and 2.0; data science built the models. Say "I was the PM," never "I built the model."
 - **BFS confidentiality:** use your own impact, rounded (~10 days earlier, ~15% more upfront detection, ~$2.7M flagged, 6 teams). Never cite Amazon's internal fraud exposure or loss figures, segment fraud rates or exact model features. Don't tie BFS to a year.
-- **Fraud loss −15%** is confirmed. **Repeat fraud incidents −5%** is not; don't say it until confirmed.
+- **Fraud metrics:** use only the Business Fraud Score document metrics (~10 days earlier, upfront detection up ~15%, ~$2.7M flagged, ~60% of upfront detection, 6 teams, 99% precision threshold). "Fraud loss −15%" and "repeat fraud −5%" are retired. The fraud work covered all of Pay by Invoice; don't call it a small-business product.
 - **Fair lending:** don't claim fair-lending review. Adverse-action reason codes, segment testing and the thin-file analysis are fine.
 - **SPORT:** 3 Amazon partner teams; ~10% adoption is a combined result; 27% was the goal.
 - **Retention:** "all 5 clients renewed, no churn." The $7.5M ARR breakdown in your library lists 4 contracts; know who the fifth client is before anyone asks "which five?"
@@ -501,10 +501,10 @@ For Stripe, lead with: (1) level for each role, (2) the loop and written exercis
 | Writing exercise | Stripe is writing-first | `/work-product Stripe Radar specific-interview`: bot vs. legitimate-agent abuse (JD1) or packaging off-Stripe scores (JD2) |
 | Leadership answers avg 4.8/10 | Recurring weakness across 4 interviews | `/mock-interview behavioral` with K20, K13, A13 |
 | Incident debugging 5/10 | "Fraud spike / approval rate dropped" questions are likely | Practice stabilize → segment → what changed → trace → fix → prevent, with a payments example |
-| Open [CONFIRM] items | Fraud v6 "repeat fraud incidents −5%"; who the 5th Keystone client is vs. the 4 contracts in the $7.5M; MDLC teams onboarded (3 vs. 5); A10 GDPR timeline (1 vs. 1.5 years); K30 SLAs signed? | Settle these in experience-library.md before the hiring-manager round |
+| Open [CONFIRM] items | Fraud v6 resume: remove "repeat fraud incidents −5%" and "reduce fraud loss rate by 15%" (both retired); who the 5th Keystone client is vs. the 4 contracts in the $7.5M; MDLC teams onboarded (3 vs. 5); A10 GDPR timeline (1 vs. 1.5 years); K30 SLAs signed? | Settle these in experience-library.md before the hiring-manager round |
 | Writing proof | Writing is a strength, but no document → decision example is on record | Pick one (an OP1 that won headcount, the Keystone pivot strategy doc, a PBI PR/FAQ) and tell Claude to add it |
 
-Closed since v1: pricing outcome (K32), API integrations (A15: 3 partner teams; A16: 2 Asian marketplaces), fraud outcome (fraud loss rate −15%), retention (all 5 clients renewed), sales partnership (K34 demo / proof of concept / forecasting-only pricing), Marketing on launches.
+Closed since v1: pricing outcome (K32), API integrations (A15: 3 partner teams; A16: 2 Asian marketplaces), fraud outcome (Business Fraud Score metrics, A21), retention (all 5 clients renewed), sales partnership (K34 demo / proof of concept / forecasting-only pricing), Marketing on launches.
 
 ---
 

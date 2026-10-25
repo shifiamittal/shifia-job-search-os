@@ -7,6 +7,8 @@
 Files: `resumes/Shifia_Mittal_Resume_Stripe_Radar.docx` (master) and `.pdf` (one page, rendered and checked; 3 live links).
 Job: https://stripe.com/careers/apply/product-manager-radar/8301646
 
+**Round 4 (2026-10-25):** fraud bullets rewritten from your BFS documents (PRFAQ, model doc, BFS 2.0 launch note): PM of the fraud score across all of Pay by Invoice; "fraud loss rate −15%" and the SMB framing removed. $2.7M flagged credit lines left off for space (it's in the story bank).
+
 ## Changes from v6 (everything else is your v6 wording)
 | Change | Why (JD) |
 |---|---|
@@ -36,7 +38,7 @@ Job: https://stripe.com/careers/apply/product-manager-radar/8301646
 ## Requirement Map (v7)
 | # | JD requirement | Match | Where the resume proves it |
 |---|---|---|---|
-| 1 | Payments and fraud landscape; how businesses manage risk | STRONG | Amazon Financing: fraud loss rate −15%; 99% precision threshold; checkout credit eligibility |
+| 1 | Payments and fraud landscape; how businesses manage risk | STRONG | Amazon Financing: Business Fraud Score PM across Pay by Invoice (fraudsters caught 10 days earlier, upfront detection +14–15%, 6 teams); 99% precision threshold; checkout credit eligibility |
 | 2 | Work with customers, developers, partners on needs and integration challenges | STRONG | Keystone customer discovery (adoption 50% → 70%); managed service with APIs into client workflows; SPORT on Selling Partner APIs |
 | 3 | Strategy and roadmap, prioritized by impact, feasibility, value | STRONG | Keystone 0→1 strategy and roadmap; MLOps vision and roadmap; "prioritize top blockers" |
 | 4 | Turn fraud control and monitoring capabilities into APIs, tools, developer experiences | STRONG | Versioned REST APIs for fraud checks at signup; fraud score + risk signals + checkout controls |
@@ -78,6 +80,8 @@ Ranked by how likely you can find the number and how much Stripe would care:
 ## Traceability (changed or added bullets only; all other bullets are unchanged from v6)
 | Bullet (first 60 chars) | Source | Match |
 |---|---|---|
+| Led fraud strategy and product for Amazon Business’ fraud scor… | A21 (BFS 2.0 launch note: 10 days, 14–15%; adoption by 6 teams confirmed by user) | REWORDED |
+| Set the score’s launch threshold at 99% precision after a 3-week… | A21 (BFS model doc: 0.95 threshold, ~0.99 precision on test; 3-week shadow run) | REWORDED |
 | Set B2B monetization (value-based modular pricing) with Sal… | K32, K34, Keystone launches with Marketing | REWORDED |
 | Built SPORT, an ML inventory-recommendation product, and ex… | A15, A15 update (partner teams) | REWORDED |
 | Chose modular services over a monolith so Fortune 500 clie… | K13 | REWORDED |
@@ -113,8 +117,8 @@ Amazon	2016 - 2024 (8 years)
 Sr. Product Manager-Technical, Amazon Business Financing & Credit	2022 - 2024
 • Launched Amazon Business’ ML financing product via experimentation, a 5% controlled launch, biweekly Agile sprints and written monthly VP-level business reviews against an S-team goal; scaled to 50K+ customers and $71M in incremental revenue.
 • Chose batch over real-time credit decisions to launch 3 months earlier, managing risk with exposure caps and category limits; defined versioned REST APIs for fraud checks at signup and real-time credit eligibility at checkout.
-• Led fraud prevention strategy for Amazon’s SMB credit product, integrating the fraud score, domain-based risk signals, and transaction controls at checkout to reduce fraud loss rate by 15%.
-• Set the fraud-detection threshold at 99% precision with the fraud and Buyer Risk Prevention teams to limit customer friction for legitimate businesses, backed by a domain blocklist and exposure limits.
+• Led fraud strategy and product for Amazon Business’ fraud score across Pay by Invoice, screening businesses at sign-up; its behavioral version caught fraudsters 10 days earlier and lifted upfront detection 14–15%; adopted by 6 teams.
+• Set the score’s launch threshold at 99% precision after a 3-week shadow run to limit friction for legitimate businesses, layered with Buyer Risk Prevention’s post-checkout checks, a domain blocklist and exposure limits.
 • Corrected a data bias in SMB credit underwriting, where thin credit files held small-business approval at 4%; rebuilt the model on Amazon behavioral data, raising SMB approval to 15% with no credit losses after full launch.
 Sr. Product Manager-Technical, ML Ops Developer Platform	2020 - 2022
 • Owned vision and roadmap for a SageMaker-based MLOps platform for 30+ risk and credit data scientists, treating onboarding as a product (templates, docs, community); cut deployment time 40% and scaled to 100+ production models with flat headcount.
