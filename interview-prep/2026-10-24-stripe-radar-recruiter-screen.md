@@ -1,6 +1,6 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v14** (your Why are you looking) · was **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
@@ -25,7 +25,7 @@ I'm excited by Radar's potential to use signals across millions of businesses to
 I also connect with Stripe's culture of rigorous writing. I led the fraud strategy by writing a PRFAQ to align teams on the business problem and the solution."
 **Precision (applies to Tell me about yourself and Why Stripe):** the $8B is credit extended by Amazon's lending business as a whole, not Pay by Invoice alone. Say "part of a lending business that extended $8 billion," never "an $8 billion credit business."
 
-**Why are you looking (~50 words):** "Scale. At Keystone.ai I took a platform from 0 to 1, with $7.5M ARR and all five clients renewed, and now I want to apply that to a product with far more customers and data. And payments and risk were some of my favorite work at Amazon. Radar is where those meet."
+**Why are you looking (~60 words, ~30 seconds; your final wording, on the OS "Why are you leaving" framework: where you're going, not what you're leaving):** "I'm looking to solve problems at scale again, like I did at Amazon. At Keystone.ai, I took an AI platform from 0 to 1 and grew it to $7.5 million in ARR across five Fortune 500 clients. At Amazon, payments and lending were some of my favorite work. I believe Radar is where my scale, payments, fraud and integrations experience intersect."
 If asked when you left: "I wrapped up at Keystone.ai in March." Then stop.
 
 **What level (~70 words):** "I'd rather level on scope. At Keystone.ai I set the company's product strategy and pricing: $7.5M ARR, 30+ engineers and scientists I didn't manage, and three PMs on a dotted line. At Amazon I led a fraud score that six teams adopted, and took a privacy policy to two VPs that became the standard for about 20 Payments teams. That's L4 scope. Are both roles scoped there?"
@@ -190,14 +190,11 @@ I also connect with Stripe's culture of rigorous writing. I led the fraud strate
 "Yes, in 2024, for a PM role. I didn't get past the first round. The feedback was useful: be sharper about which user segments to prioritize, and bring more examples with external users. Since then I've led pricing and go-to-market for enterprise clients at Keystone.ai, all of whom renewed, and I'll lean on external work today: business customers at Amazon, and the partner teams and sellers who used my APIs."
 If asked which role: you don't have the title in front of you.
 
-### Why are you looking? (~120 words; forward-looking)
-"Three things.
+### Why are you looking? (~60 words, ~30 seconds)
+Your final wording (2026-10-25), on the job-search OS "Why are you leaving" framework: lead with where you're going, not what you're leaving.
 
-First, scale. At Keystone.ai I took an agentic AI platform from 0 to 1 and helped move the company from consulting to product: $7.5M ARR, five Fortune 500 clients, all of whom renewed. Now I want to apply that on a product with far more customers and data behind it.
-
-Second, payments and risk. My two years in Amazon's B2B Payments and Lending were some of my favorite work: decisions where a mistake cost real money and real customers.
-
-Third, the overlap. Agents are starting to transact, and the trust problems I worked on at Keystone.ai are becoming payments problems."
+"I'm looking to solve problems at scale again, like I did at Amazon. At Keystone.ai, I took an AI platform from 0 to 1 and grew it to $7.5 million in ARR across five Fortune 500 clients. At Amazon, payments and lending were some of my favorite work. I believe Radar is where my scale, payments, fraud and integrations experience intersect."
+**If asked to back up "integrations":** "The fraud score I led was integrated by six teams, and I built APIs that three partner teams plugged into their own tools."
 
 **If asked when you left / whether you're still there:** "I wrapped up at Keystone.ai in March, when my role was part of a restructuring. Since then I've been building hands-on, including my own AI job-search system, and being selective about my next role." One or two sentences, then back to the reasons. Never imply you're still employed.
 
