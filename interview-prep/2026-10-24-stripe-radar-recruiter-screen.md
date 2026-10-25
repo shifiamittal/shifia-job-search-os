@@ -26,7 +26,7 @@ I also connect with Stripe's culture of rigorous writing. I led the fraud strate
 **Precision (applies to Tell me about yourself and Why Stripe):** the $8B is credit extended by Amazon's lending business as a whole, not Pay by Invoice alone. Say "part of a lending business that extended $8 billion," never "an $8 billion credit business."
 
 **Why are you looking (~60 words, ~30 seconds; your final wording, on the OS "Why are you leaving" framework: where you're going, not what you're leaving):** "I'm looking to solve problems at scale again, like I did at Amazon. At Keystone.ai, I took an AI platform from 0 to 1 and grew it to $7.5 million in ARR across five Fortune 500 clients. At Amazon, payments and lending were some of my favorite work. I believe Radar is where my scale, payments, fraud and integrations experience intersect."
-If asked when you left: "I wrapped up at Keystone.ai in March." Then stop.
+If asked when you left: "I wrapped up at Keystone.ai in March." Then stop. Don't mention the layoff unless asked directly.
 
 **What level (~70 words):** "I'd rather level on scope. At Keystone.ai I set the company's product strategy and pricing: $7.5M ARR, 30+ engineers and scientists I didn't manage, and three PMs on a dotted line. At Amazon I led a fraud score that six teams adopted, and took a privacy policy to two VPs that became the standard for about 20 Payments teams. That's L4 scope. Are both roles scoped there?"
 
@@ -196,7 +196,8 @@ Your final wording (2026-10-25), on the job-search OS "Why are you leaving" fram
 "I'm looking to solve problems at scale again, like I did at Amazon. At Keystone.ai, I took an AI platform from 0 to 1 and grew it to $7.5 million in ARR across five Fortune 500 clients. At Amazon, payments and lending were some of my favorite work. I believe Radar is where my scale, payments, fraud and integrations experience intersect."
 **If asked to back up "integrations":** "The fraud score I led was integrated by six teams, and I built APIs that three partner teams plugged into their own tools."
 
-**If asked when you left / whether you're still there:** "I wrapped up at Keystone.ai in March, when my role was part of a restructuring. Since then I've been building hands-on, including my own AI job-search system, and being selective about my next role." One or two sentences, then back to the reasons. Never imply you're still employed.
+**If asked when you left / whether you're still there:** "I wrapped up at Keystone.ai in March. Since then I've been building hands-on, including my own AI job-search system, and being selective about my next role." Don't mention the layoff or restructuring. Never imply you're still employed.
+**Only if asked directly ("Were you laid off?"):** don't deny it; employment verification will show it. One sentence, then move on: "Yes, my role was part of a restructuring in March. What I'm focused on now is…" and go back to why Radar.
 
 ### What level are you targeting? (~125 words)
 "I'd rather level on scope. At Keystone.ai I set product strategy and pricing for the whole company's move from consulting to product: a 0-to-1 platform at $7.5M ARR across five Fortune 500 clients, built by 30+ engineers and scientists I didn't manage, and I led three PMs on a dotted line. At Amazon, beyond the products I owned (an ML financing product with 50,000+ business customers and $71M in revenue, and the MLOps platform behind 100+ models), I defined an ML privacy policy that I took to two VPs and that became the standard across about 20 Payments teams. That's scope across teams, so I'd expect L4. Are both roles scoped there?"
