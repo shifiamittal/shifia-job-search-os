@@ -1,6 +1,6 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v17** (Walk me through your resume) · was **v16** (comp answer on the OS framework) · was **v15** (your level answer) · was **v14** (your Why are you looking) · was **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v18** (final fraud STAR-L) · was **v17** (Walk me through your resume) · was **v16** (comp answer on the OS framework) · was **v15** (your level answer) · was **v14** (your Why are you looking) · was **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
@@ -43,11 +43,16 @@ Stop after the question. **L4:** "Great," then ask for the full package. **L3:**
 ### 2. Your end-to-end story (STAR), if they ask for an example
 **30-second version (default on a recruiter call):** "I owned the fraud strategy for Amazon Business's Pay by Invoice credit. I created a fraud score that assesses every business at sign-up, before it gets a credit line, tuned for precision and layered with checkout controls. It avoided about $18 million in fraud losses, its behavioral version caught fraudsters about 10 days earlier, and six teams adopted it."
 
-**Full version (~170 words, ~75 seconds), only if they say "tell me more":**
-- **S:** "At Amazon Business, Pay by Invoice gives business customers a credit line to buy now and pay later. As it grew, fraud grew faster, driven by fraud rings, some using bots, and almost all our controls ran after checkout, when a fraudster already had a credit line."
-- **T:** "As the PM, I owned the fraud strategy for Pay by Invoice: stop fraud before credit was extended, without adding friction for legitimate businesses."
-- **A:** "I wrote the strategy as a PRFAQ: a fraud score that assesses every business at sign-up. Data science built the models; I made the product calls. I tuned it for precision, about 99%, because a false positive froze a real business's credit line, layered it with buyer risk's checkout controls, and ran a three-week shadow test before launch. When a deep dive showed fraudsters slipping past at sign-up, I launched a behavioral version that keeps assessing new customers until their first order."
-- **R:** "The first version avoided about $18 million in fraud losses and was contributing to over 60% of our upfront fraud detection. The behavioral version caught fraudsters about 10 days earlier, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines. Six teams adopted it."
+**Full STAR-L (~200 words, ~2 minutes; your final version, on the OS STAR-L framework), only if they say "tell me more":**
+- **Situation:** "Amazon Business used fraud controls that were built for consumers and ran after checkout. They didn't fit businesses, where one account can have thousands of users placing large orders, which looked suspicious. And fraud rings used bots to register thousands of accounts that couldn't be caught until checkout."
+- **Stakes:** "As a result, fraud exposure across Amazon Business grew 600% to over $200 million, while up to 15% of orders on some payment methods were held for manual review."
+- **Actions:** "I led the fraud strategy and made four decisions:
+  1. I introduced fraud detection across the customer journey, from registration to before the first purchase.
+  2. I set the score for 99% precision to protect good customers from false blocks, and relied on checkout controls for the rest.
+  3. I built one shared score that other teams could use, like credit lines and the small-business credit card. Six teams adopted it.
+  4. I kept monitoring for new fraud patterns, and added behavioral and IP signals when fraudsters started acting like bots."
+- **Result:** "We avoided about $18 million in fraud losses, caught fraudsters 10 days earlier, and lifted upfront detection about 15%."
+- **Learning:** "Fraud prevention isn't one gate; it's the right check at each step."
 
 ### 3. Two backup stories (30 seconds each)
 - **Pricing (integrations role):** "At Keystone.ai I designed the pricing for our move from consulting to product: modular, value-based subscriptions. Clients started on forecasting; all five renewed through the move, and two upgraded to agents for about $500K more a year each."

@@ -33,12 +33,16 @@ Sources: `context-library/experience-library.md` (A21 BFS, A10, A13, A6, K1, K12
 ## S1. End-to-end fraud strategy for Pay by Invoice (the Business Fraud Score)
 **Use for:** biggest impact, a strategy you set, 0→1, influence across teams. **Both roles; the Fraud & Abuse lead story.** Covers all of Pay by Invoice (PBI), not one customer segment. Metrics come only from your BFS PRFAQ, model doc and BFS 2.0 launch note.
 
-**STAR version (~200 words):**
-- **Situation:** "At Amazon Business, Pay by Invoice gives business customers a credit line to buy now and pay later. As it grew, fraud grew faster, driven by fraud rings, some using bots, and almost all our fraud controls ran after checkout. By then a fraudster already had a credit line, and good customers absorbed the friction of orders held for review."
-- **Task:** "As the PM, I owned the fraud strategy for PBI: stop fraud before credit was extended, without adding friction for legitimate businesses."
-- **Action:** "I wrote the strategy as a PRFAQ: a Business Fraud Score that assesses every business at sign-up, before it gets a credit line. I was the PM; data science built the models. I set the score for precision, right about 99% of the time, because a false positive froze a real business's credit line, and layered it with buyer risk's checks after checkout, a domain blocklist, exposure limits and suspension rules. I required a three-week shadow run before launch. When a deep dive showed fraudsters slipping past at sign-up, I launched a behavioral version with IP intelligence that keeps assessing new customers until their first order."
-- **Result:** "The first version avoided about $18 million in fraud losses and was contributing to over 60% of our upfront fraud detection. The behavioral version caught fraudsters about 10 days earlier than our buyer-risk systems, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines. Six teams adopted the score."
-- **Learning:** "Good fraud prevention isn't maximum detection. It's deciding which mistake is expensive and designing layers so no single control has to be perfect."
+**STAR-L version (~200 words, final 2026-10-25; on the OS STAR-L framework):**
+- **Situation:** "Amazon Business used fraud controls that were built for consumers and ran after checkout. They didn't fit businesses, where one account can have thousands of users placing large orders, which looked suspicious. And fraud rings used bots to register thousands of accounts that couldn't be caught until checkout."
+- **Stakes:** "As a result, fraud exposure across Amazon Business grew 600% to over $200 million, while up to 15% of orders on some payment methods were held for manual review."
+- **Actions:** "I led the fraud strategy and made four decisions:
+  1. I introduced fraud detection across the customer journey, from registration to before the first purchase.
+  2. I set the score for 99% precision to protect good customers from false blocks, and relied on checkout controls for the rest.
+  3. I built one shared score that other teams could use, like credit lines and the small-business credit card. Six teams adopted it.
+  4. I kept monitoring for new fraud patterns, and added behavioral and IP signals when fraudsters started acting like bots."
+- **Result:** "We avoided about $18 million in fraud losses, caught fraudsters 10 days earlier, and lifted upfront detection about 15%."
+- **Learning:** "Fraud prevention isn't one gate; it's the right check at each step."
 
 **30-second version (recruiter screen):** "I owned the fraud strategy for Amazon Business's Pay by Invoice credit. I created a fraud score that assesses every business at sign-up, before it gets a credit line, tuned for precision and layered with checkout controls. It avoided about $18 million in fraud losses, its behavioral version caught fraudsters about 10 days earlier, and six teams adopted the score."
 
