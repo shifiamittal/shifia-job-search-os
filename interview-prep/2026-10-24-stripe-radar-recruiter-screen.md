@@ -1,6 +1,6 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v6** (v5 + Stripe L4 box, level labels corrected, every answer checked against L4) · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v7** (v6 + Radar facts corrected + Tell me about yourself rebuilt strictly on the job-search OS framework) · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
@@ -86,7 +86,8 @@ Stripe doesn't publish its PM rubric; this comes from career-ladder guides, sala
 **L4 check of every answer in this doc (2026-10-25):**
 | Answer | Status |
 |---|---|
-| Tell me about yourself; Level; How you develop PMs (new); Pricing; API products; Fraud decision; Comp | **L4** (rewritten with existing library data) |
+| Tell me about yourself | Rewritten strictly on the job-search OS framework (2026-10-25); the level gap is one of the three weaknesses it addresses |
+| Level; How you develop PMs (new); Pricing; API products; Fraud decision; Comp | **L4** (rewritten with existing library data) |
 | Why Stripe, Why looking, Interviewed before, Which role, AI agents and fraud, Analyst tooling, Retention | Not leveling answers; fine as is |
 | Part B: Q4, Q8–Q10, Q13, Q14, Q17, Q20, Q21, Q23, Q25 | **L4** (already framed beyond one area) |
 | Part B: Q22 first 30–60 days | **L4** after adding cross-team dependencies |
@@ -108,16 +109,17 @@ Your ~2024 Stripe loop ended after the first screening. They said: (1) separate 
 - **Lead with external users:** business customers (PBI), sellers and partner teams (SPORT, MOQ), enterprise clients (Keystone). Keep MLOps and HAT-AI for when asked.
 - **Goal first:** open every story with one sentence on the goal and who the user was.
 
-### Tell me about yourself (~165 words, ~80 seconds)
-"I'm a Principal Technical PM with 11+ years building ML products that businesses pay for, and setting direction beyond the product I own.
+### Tell me about yourself (~200 words, ~90 seconds)
+Built strictly on the job-search OS Addressing-Weaknesses Framework (`insider-data/behavioral-interview-frameworks.md`): present → past → future, 2–3 weaknesses addressed head-on, end on this role as the natural next step, ~200 words, only details you can expand on.
 
-At Amazon, in B2B Payments and Lending, I scaled an ML financing product to 50,000+ business customers and $71M in incremental revenue, and owned its fraud controls across the fraud and buyer-risk teams, which cut the fraud loss rate 15%. I also defined how privacy rules applied to ML across Amazon Payments, took it to two VPs, and it became the standard for about 20 teams.
+"I'm a Principal Technical Product Manager with 11+ years building ML products for businesses. Most recently, at Keystone.ai, I led a 0-to-1 agentic AI platform and the company's move from consulting to product: $7.5M ARR across five Fortune 500 clients, all of whom renewed. I designed the pricing with Sales and the CEO, and led three PMs on a dotted line.
 
-Most recently at Keystone.ai, I set the strategy that moved the company from consulting to product: a 0-to-1 agentic AI platform at $7.5M ARR. I designed the pricing with Sales and the CEO; all five enterprise clients renewed, and two upgraded. I also led three PMs on a dotted line.
+Before that, I spent eight years at Amazon, starting as a PM in Pricing and moving up to Senior PM-Technical. The work most relevant here was in B2B Payments and Lending, where I scaled an ML financing product to 50,000+ business customers and $71M in incremental revenue. I didn't build the fraud model, but I owned how our product used it: the threshold, the blocking rules and the checkout controls. That cut the fraud loss rate 15%. I also defined how privacy rules applied to ML across Amazon Payments, and it became the standard for about 20 teams.
 
-Radar sits where those meet: ML decisions against adversaries, delivered through APIs, and sold to businesses."
-**Integrations role:** swap the privacy sentence for "I also changed how a seller product reached customers: instead of waiting on each seller, I exposed it through APIs that three partner teams built into their tools."
-**L4 signals:** beyond one area (the policy across ~20 teams, company strategy), teams you didn't manage, PMs you grew.
+My most recent work was in supply chain, but the through-line is ML decisions where a wrong call costs real money. Radar is that problem at Stripe's scale. That's why this role is exactly what I'm looking for next."
+
+**Weaknesses addressed (Step 1):** (1) level gap: Principal title at a small company, last Amazon level L6 → company-wide scope, a standard across ~20 teams, PMs led; (2) fraud depth: the fraud team built the model → "I didn't build the fraud model, but I owned how our product used it"; (3) industry mismatch: recent work in supply chain → the through-line in the last paragraph.
+**Present tense:** "Most recently" stands in for the present because you're not currently employed; never say "currently at Keystone."
 
 ### Why Stripe / why Radar? (~170 words)
 "Three reasons.
@@ -232,7 +234,7 @@ End with: "Is there anything about my background you'd like me to clarify?"
 ### Practice before Monday
 - [ ] Message Piyush Rohella (draft in section 6) today or tomorrow
 - [ ] Decide on the Fraud v6 "−5%" bullet (confirm or remove) before sending that resume
-- [ ] Say the TMAY out loud and time it: **under 85 seconds**
+- [ ] Say the TMAY out loud and time it: **about 90 seconds, never over 2 minutes**
 - [ ] Say the pricing and API answers out loud once each (they're the JD2 differentiators)
 - [ ] Say the fraud-decision answer out loud once (the JD1 differentiator); the investigation answer waits on open data point 1
 - [ ] Say the level answer out loud once; it's the one that decides L3 vs. L4
@@ -477,7 +479,7 @@ For Stripe, lead with: (1) level for each role, (2) the loop and written exercis
 
 
 ### Practice order before Monday (out loud, timed)
-1. **Q1 Tell me about yourself:** under 75 seconds
+1. **Q1 Tell me about yourself:** about 90 seconds, never over 2 minutes
 2. **Q5 Weakness:** your lowest score; say it as written
 3. **Q30 Comp:** the three steps, no "industry standard"
 4. **Q26 Moves:** one sentence each
