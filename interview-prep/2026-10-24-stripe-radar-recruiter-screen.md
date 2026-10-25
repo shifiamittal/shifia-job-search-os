@@ -1,6 +1,6 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
@@ -35,20 +35,20 @@ If asked when you left: "I wrapped up at Keystone.ai in March." Then stop.
 **Logistics:** "No sponsorship needed; I'm a Green Card holder. I'm in Seattle, and 50% in the office works. I'm available right away."
 
 ### 2. Your end-to-end story (STAR), if they ask for an example
-**30-second version (default on a recruiter call):** "I owned the fraud strategy for Amazon Business's Pay by Invoice credit. I created a fraud score that assesses every business at sign-up, before it gets a credit line, tuned for precision and layered with checkout controls. Its behavioral version caught fraudsters about 10 days earlier and lifted upfront detection about 15%, and six teams adopted it."
+**30-second version (default on a recruiter call):** "I owned the fraud strategy for Amazon Business's Pay by Invoice credit. I created a fraud score that assesses every business at sign-up, before it gets a credit line, tuned for precision and layered with checkout controls. It avoided about $18 million in fraud losses, its behavioral version caught fraudsters about 10 days earlier, and six teams adopted it."
 
 **Full version (~170 words, ~75 seconds), only if they say "tell me more":**
 - **S:** "At Amazon Business, Pay by Invoice gives business customers a credit line to buy now and pay later. As it grew, fraud grew faster, driven by fraud rings, some using bots, and almost all our controls ran after checkout, when a fraudster already had a credit line."
 - **T:** "As the PM, I owned the fraud strategy for Pay by Invoice: stop fraud before credit was extended, without adding friction for legitimate businesses."
 - **A:** "I wrote the strategy as a PRFAQ: a fraud score that assesses every business at sign-up. Data science built the models; I made the product calls. I tuned it for precision, about 99%, because a false positive froze a real business's credit line, layered it with buyer risk's checkout controls, and ran a three-week shadow test before launch. When a deep dive showed fraudsters slipping past at sign-up, I launched a behavioral version that keeps assessing new customers until their first order."
-- **R:** "The first version was contributing to over 60% of our upfront fraud detection. The behavioral version caught fraudsters about 10 days earlier, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines. Six teams adopted it."
+- **R:** "The first version avoided about $18 million in fraud losses and was contributing to over 60% of our upfront fraud detection. The behavioral version caught fraudsters about 10 days earlier, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines. Six teams adopted it."
 
 ### 3. Two backup stories (30 seconds each)
 - **Pricing (integrations role):** "At Keystone.ai I designed the pricing for our move from consulting to product: modular, value-based subscriptions. Clients started on forecasting; all five renewed through the move, and two upgraded to agents for about $500K more a year each."
 - **Influence (L4):** "At Amazon, nobody had defined how privacy rules applied to ML models across Payments. I worked out the requirements with Legal and the privacy team, took the policy to two VPs and Directors across Payments, and it became the standard for about 20 teams."
 
 ### 4. Numbers to know cold
-11+ years · $7.5M ARR, all 5 clients renewed, 2 upgraded (+$500K each) · $71M revenue, 50K+ business customers · fraud score: 6 teams, ~10 days earlier, upfront detection up ~15%, >60% of upfront detection · privacy policy: ~20 Payments teams · 3 PMs led on a dotted line
+11+ years · $7.5M ARR, all 5 clients renewed, 2 upgraded (+$500K each) · $71M revenue, 50K+ business customers · fraud score: ~$18M fraud losses avoided, 6 teams, ~10 days earlier, upfront detection up ~15%, >60% of upfront detection · privacy policy: ~20 Payments teams · 3 PMs led on a dotted line
 
 ### 5. Three questions to ask
 1. "Can both roles be scoped at L4?"
@@ -71,7 +71,7 @@ If asked when you left: "I wrapped up at Keystone.ai in March." Then stop.
 |---|---|---|
 | Keystone | $7.5M ARR · 5 Fortune 500 clients, **all renewed, no churn** · 2 upgraded to agents (+$500K ACV each) · $25M annualized client savings · 30+ engineers and scientists | "$10M", "$5M", a net revenue retention % |
 | Amazon financing | 50K+ business customers · $71M incremental revenue · SMB approval 4% → 15% · launched 3 months earlier (batch, not real time) | "millions of customers", "250K" |
-| Fraud | **Business Fraud Score: you wrote the strategy and were PM of 1.0 and 2.0**; data science built the models · adopted by **6 teams** · BFS 2.0: caught fraudsters **~10 days earlier**, upfront detection **up ~15%**, **~$2.7M** fraudulent credit lines flagged · BFS 1.0 contributing to **~60% of upfront fraud detection** · launch threshold ~99% precision / ~25% recall after a 3-week shadow run · covered **all of Pay by Invoice**, not one segment | "I built the model"; "fraud loss −15%" and "repeat fraud −5%" (retired 2026-10-25); "small-business credit product" for the fraud work; Amazon's internal fraud exposure or loss figures; exact model features |
+| Fraud | **Business Fraud Score: you wrote the strategy and were PM of 1.0 and 2.0**; data science built the models · **~$18M fraud losses avoided** · adopted by **6 teams** · BFS 2.0: caught fraudsters **~10 days earlier**, upfront detection **up ~15%**, **~$2.7M** fraudulent credit lines flagged · BFS 1.0 contributing to **~60% of upfront fraud detection** · launch threshold ~99% precision / ~25% recall after a 3-week shadow run · covered **all of Pay by Invoice**, not one segment | "I built the model"; "fraud loss −15%" and "repeat fraud −5%" (retired 2026-10-25); "small-business credit product" for the fraud work; Amazon's internal fraud exposure or loss figures; exact model features |
 | APIs | SPORT: **3 Amazon partner teams integrated it**, adoption 1% → ~10% (combined with other work) · MOQ: Seller Central + **2 Asian marketplaces**, ~60% higher adherence, $20M seller savings | "outside developers used SPORT"; "27% adoption" (that was the goal) |
 | Platform | MLOps: 30+ scientists, 100+ models, deployment −40% | |
 | Career | 11+ years · PM since 2016 · "most recently at Keystone.ai" | "currently at Keystone" |
