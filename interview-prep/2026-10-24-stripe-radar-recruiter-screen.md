@@ -1,6 +1,6 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v15** (your level answer) · was **v14** (your Why are you looking) · was **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v16** (comp answer on the OS framework) · was **v15** (your level answer) · was **v14** (your Why are you looking) · was **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
@@ -31,7 +31,12 @@ If asked when you left: "I wrapped up at Keystone.ai in March." Then stop. Don't
 **What level (~95 words, ~45 seconds; your wording):** "I'd rather level on scope. At Keystone.ai, I led a company-wide strategy for an AI platform that drove $7.5 million in ARR, influenced C-suite executives at our company and at Fortune 500 clients, set product direction for 30+ engineers and scientists, and led three PMs on a dotted line. At Amazon, I scaled a 0-to-1 credit product to $71 million in incremental revenue, led a fraud strategy that six teams adopted, and set a privacy policy with two VPs that about 20 Payments teams adopted. That's L4 scope. Are both roles scoped there?"
 Stop after the question. **L4:** "Great," then ask for the full package. **L3:** "What would the hiring manager need to see to scope it at L4?"
 
-**Comp:** (1) "Could you share the level and the full package for each role: base, bonus and equity?" (2) If pressed: "For L4 scope, I'm targeting total compensation in the mid-to-high $500s, flexible on the mix." (3) Never share current pay.
+**Comp (OS "Comp Question Strategy": ask first, then a range from market data, never current pay):**
+1. **Ask for their range first:** "I'm focused on finding the right fit and the full package. Could you share the level for this role and the budgeted total compensation for it, including base, bonus and equity?"
+2. **If pressed, give a range from market data:** "Based on my research, total compensation for this scope at Stripe is roughly $550K to $650K. Given the multi-team scope I've worked at, leading fraud strategy and pricing, I'm targeting that range, and I'm flexible on the mix of base and equity."
+3. **If asked for your source:** "That's from levels.fyi data for Stripe product managers at L4 and L5, which is around $540K to $600K, plus the Seattle market."
+- **Never share current pay:** "I'd rather focus on the value I'd bring to this role. Could you share what's budgeted for this level?"
+- **If they say L4 tops out lower:** don't argue on the call: "Thanks, that's helpful. Let's see where the process lands on level."
 
 **Logistics:** "No sponsorship needed; I'm a Green Card holder. I'm in Seattle, and 50% in the office works. I'm available right away."
 
@@ -256,11 +261,15 @@ Say "not an analyst console" plainly; it's a preferred qualification, not requir
 Be precise if probed: one direct report, a Program Manager; the Keystone PMs were dotted-line.
 **L4 signal:** grows other PMs.
 
-### Comp ("What are your expectations?")
-1. First: "Could you share which level each role is scoped at, and the full package for that level: base, bonus and equity?"
-2. If pressed: "For L4 scope at Stripe, I'm targeting total compensation in the mid-to-high $500s, and I'm flexible on the mix." (Matches levels.fyi L4, ~$541–557K.)
-3. Never share current pay. Washington redirect: "Washington postings include a range, so could you share what's budgeted for this level?"
-4. Ask how Stripe values its private equity (latest tender price).
+### Comp ("What is your target compensation?")
+Built on the job-search OS Comp Question Strategy (`insider-data/behavioral-interview-frameworks.md`): always a range, never one number; the bottom of the range is a number you'd accept (~$550K ≈ Stripe L4 median); total comp, not base; flexible on structure, firm on the total. Your $600K target sits in the middle; your floor is $380–400K.
+
+1. **Ask for their range first:** "I'm focused on finding the right fit and the full package. Could you share the level for this role and the budgeted total compensation for it, including base, bonus and equity?"
+2. **If pressed, give a range from market data:** "Based on my research, total compensation for this scope at Stripe is roughly $550K to $650K. Given the multi-team scope I've worked at, leading fraud strategy and pricing, I'm targeting that range, and I'm flexible on the mix of base and equity."
+3. **If asked for your source:** "That's from levels.fyi data for Stripe product managers at L4 and L5, which is around $540K to $600K, plus the Seattle market."
+- **Never share current pay:** "I'd rather focus on the value I'd bring to this role. Could you share what's budgeted for this level?"
+- **If they say L4 tops out lower:** don't argue on the call: "Thanks, that's helpful. Let's see where the process lands on level."
+- **Also ask:** how Stripe values its private equity (latest tender price).
 
 ### Logistics
 Green Card holder, no sponsorship · Seattle, fine with ≥50% in office · available immediately · "Interviewing elsewhere?": "Yes, a few conversations in enterprise AI. This one stands out because of the fraud and AI-agent overlap. What's your timeline?"
