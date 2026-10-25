@@ -1,6 +1,6 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v7** (v6 + Radar facts corrected + Tell me about yourself rebuilt strictly on the job-search OS framework) · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
@@ -10,14 +10,14 @@ Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-mas
 
 ## 0. Call card (read this 10 minutes before the call)
 
-**Your three-line pitch:** ML decisions under adversarial pressure (Amazon fraud and credit) · delivered through APIs and partner integrations (SPORT, MOQ, checkout APIs) · sold to businesses with pricing you designed (Keystone, all 5 clients renewed).
+**Your three-line pitch:** ML decisions under adversarial pressure (Amazon's Business Fraud Score, credit) · delivered through APIs and partner integrations (SPORT, MOQ, checkout APIs) · sold to businesses with pricing you designed (Keystone, all 5 clients renewed).
 
 **Numbers to say exactly**
 | Topic | Say | Don't say |
 |---|---|---|
 | Keystone | $7.5M ARR · 5 Fortune 500 clients, **all renewed, no churn** · 2 upgraded to agents (+$500K ACV each) · $25M annualized client savings · 30+ engineers and scientists | "$10M", "$5M", a net revenue retention % |
 | Amazon financing | 50K+ business customers · $71M incremental revenue · SMB approval 4% → 15% · launched 3 months earlier (batch, not real time) | "millions of customers", "250K" |
-| Fraud | **fraud loss rate −15%** · threshold at 99% precision / ~25% recall · "the fraud team built the model; I owned how our product used it" | "I built the fraud model"; "repeat fraud incidents −5%" (not confirmed) |
+| Fraud | **Business Fraud Score: you wrote the strategy and were PM of 1.0 and 2.0**; data science built the models · adopted by **6 teams** · BFS 2.0: caught fraudsters **~10 days earlier**, upfront detection **up ~15%**, **~$2.7M** fraudulent credit lines flagged · **fraud loss rate −15%** · threshold ~99% precision / ~25% recall | "I built the model"; Amazon's internal fraud exposure or loss figures; exact model features; "repeat fraud incidents −5%" (not confirmed) |
 | APIs | SPORT: **3 Amazon partner teams integrated it**, adoption 1% → ~10% (combined with other work) · MOQ: Seller Central + **2 Asian marketplaces**, ~60% higher adherence, $20M seller savings | "outside developers used SPORT"; "27% adoption" (that was the goal) |
 | Platform | MLOps: 30+ scientists, 100+ models, deployment −40% | |
 | Career | 11+ years · PM since 2016 · "most recently at Keystone.ai" | "currently at Keystone" |
@@ -77,7 +77,8 @@ Stripe doesn't publish its PM rubric; this comes from career-ladder guides, sala
 2. **Keystone's move from consulting to product.** You set company-level strategy and designed the business model; all 5 clients renewed (K1, K32).
 3. **Managed service vs. SaaS, against leadership and investors** (K12).
 4. **SPORT's distribution change.** You moved from relying on each seller to APIs that 3 partner teams integrated, and got the VP of Amazon FBA to let SPORT recommend inventory placement (A15, Source Decision 19).
-5. **Growing PMs.** You promoted a Program Manager from L4 to L5, led 3 PMs on a dotted line (including a turnaround), and ran 50+ hiring interviews (A13, K20).
+5. **Business Fraud Score.** You wrote the strategy (PRFAQ), were PM of BFS 1.0 and 2.0, made every product call, and 6 teams adopted it (A21).
+6. **Growing PMs.** You promoted a Program Manager from L4 to L5, led 3 PMs on a dotted line (including a turnaround), and ran 50+ hiring interviews (A13, K20).
 
 **Your risk:** your last Amazon level was L6, which usually maps to Stripe L3, and Keystone was a small company. So talk about scope, never titles.
 
@@ -92,13 +93,13 @@ Stripe doesn't publish its PM rubric; this comes from career-ladder guides, sala
 | Part B: Q4, Q8–Q10, Q13, Q14, Q17, Q20, Q21, Q23, Q25 | **L4** (already framed beyond one area) |
 | Part B: Q22 first 30–60 days | **L4** after adding cross-team dependencies |
 | Part B: Q6, Q7, Q11, Q12, Q15, Q16, Q18, Q19, Q24 | Single-product deep dives or team-level by nature; fine, because the question asks for that depth. Q6 and Q7 have an optional L4 upgrade (see "Open data points") |
-| **Investigating fraud attacks** | **Needs your data.** Answer removed until we fill it in (see "Open data points") |
-| **Writing** | **Needs your data.** Answer removed until we fill it in |
+| **Investigating fraud attacks** | **L4** (restored 2026-10-25 with BFS 2.0) |
+| **Writing** | **L4** (restored 2026-10-25 with the BFS PRFAQ) |
 
 **Open data points to reach L4 (let's resolve these together):**
-1. **Fraud attack investigation (A19).** Which attack or pattern, how it was found, which signal you identified, what changed (a rule, a model feature, a product control), any impact, and whether the defense was reused beyond the financing product. *Without this, the investigation answer can only show method, which is L3.*
-2. **Fraud controls beyond your product (optional upgrade to the fraud-decision answer).** Did the layered design or threshold approach get adopted by other lending products or by Buyer Risk Prevention? Was there disagreement with the fraud or risk teams you had to resolve?
-3. **Writing: one document → one decision.** Was the privacy policy you took to the VPs a written doc? Did an OP1 you wrote secure the MLOps platform's 8+ engineering hires a year? Either one makes the writing answer L4.
+1. ~~Fraud attack investigation~~ **Closed 2026-10-25** (BFS 2.0, A21).
+2. ~~Fraud controls beyond your product~~ **Closed** (BFS adopted by 6 teams).
+3. ~~Writing: one document → one decision~~ **Closed** (the BFS PRFAQ).
 4. **SPORT partner integrations (optional detail).** How did the 3 partner teams come to integrate: did you pitch them, negotiate it into their roadmaps, or did leadership mandate it?
 5. **Keystone agent guardrail (affects Q7 and the old investigation answer).** After the warehouse-move incident, did "escalate when data is missing" become a rule for every client and agent, or a fix for that one retailer? Your library records only the fix; an earlier draft said "every client," which isn't on record.
 6. **Evaluation framework reuse (optional upgrade for Q6).** Was the agent evaluation framework reused for HAT-AI, REI-Agent or other teams' agents?
@@ -114,11 +115,11 @@ Built strictly on the job-search OS Addressing-Weaknesses Framework (`insider-da
 
 "I'm a Principal Technical Product Manager with 11+ years building ML products for businesses. Most recently, at Keystone.ai, I led a 0-to-1 agentic AI platform and the company's move from consulting to product: $7.5M ARR across five Fortune 500 clients, all of whom renewed. I designed the pricing with Sales and the CEO, and led three PMs on a dotted line.
 
-Before that, I spent eight years at Amazon, starting as a PM in Pricing and moving up to Senior PM-Technical. The work most relevant here was in B2B Payments and Lending, where I scaled an ML financing product to 50,000+ business customers and $71M in incremental revenue. I didn't build the fraud model, but I owned how our product used it: the threshold, the blocking rules and the checkout controls. That cut the fraud loss rate 15%. I also defined how privacy rules applied to ML across Amazon Payments, and it became the standard for about 20 teams.
+Before that, I spent eight years at Amazon, starting as a PM in Pricing and moving up to Senior PM-Technical. The work most relevant here was in B2B Payments and Lending, where I scaled an ML financing product to 50,000+ business customers and $71M in incremental revenue. I also led the product strategy for Amazon Business's fraud score, which moved fraud detection from checkout to sign-up. Data science built the models; I made the product calls, and six teams adopted it. It helped cut the fraud loss rate 15%. I also defined how privacy rules applied to ML across Amazon Payments, and it became the standard for about 20 teams.
 
 My most recent work was in supply chain, but the through-line is ML decisions where a wrong call costs real money. Radar is that problem at Stripe's scale. That's why this role is exactly what I'm looking for next."
 
-**Weaknesses addressed (Step 1):** (1) level gap: Principal title at a small company, last Amazon level L6 → company-wide scope, a standard across ~20 teams, PMs led; (2) fraud depth: the fraud team built the model → "I didn't build the fraud model, but I owned how our product used it"; (3) industry mismatch: recent work in supply chain → the through-line in the last paragraph.
+**Weaknesses addressed (Step 1):** (1) level gap: Principal title at a small company, last Amazon level L6 → company-wide scope, a standard across ~20 teams, PMs led; (2) fraud depth: are you a fraud PM or adjacent to fraud? → you led the fraud-score strategy and were its PM, and you name who built the models; (3) industry mismatch: recent work in supply chain → the through-line in the last paragraph.
 **Present tense:** "Most recently" stands in for the present because you're not currently employed; never say "currently at Keystone."
 
 ### Why Stripe / why Radar? (~170 words)
@@ -180,12 +181,12 @@ We landed with forecasting first. For one global manufacturer, I demoed the plat
 Don't quote an NRR percentage; the exact figure depends on renewal timing.
 
 **"Tell me about a fraud decision you owned."** (JD1; ~130 words)
-"The goal was to expand credit to small businesses that traditional underwriting had underserved, without letting fraud in. That meant aligning teams I didn't manage: the fraud team owned the fraud score, and Buyer Risk Prevention owned the downstream controls. I owned how our product used them, and the policy itself: I set the threshold at 99% precision, accepting about 25% recall, because a false positive suspended a legitimate business's credit line. Screening wasn't the only defense, so I designed the layers with those teams: a domain blocklist, post-checkout checks and exposure limits. Fraud loss rate fell 15%, and SMB approvals went from 4% to 15%. The threshold was a product-wide policy: it decided which businesses could get credit at all."
-**L4 signal:** policy-level decision across two teams you didn't manage. (Open data point 2 would add reuse beyond your product.)
+"I was the PM for Amazon Business's fraud score, which assesses a business at sign-up, before any order. The biggest call was precision over recall. A false positive suspended a legitimate business's credit line, so I set the launch threshold where the score was right about 99% of the time, accepting that it alone caught about a quarter of fraud, because buyer risk still checked every order after checkout, and a domain blocklist caught more. I required a three-week shadow run on live traffic first, and it made essentially no false suspensions. Six teams built on it, and with our credit controls it cut the small-business credit product's fraud loss rate 15%."
+**L4 signal:** a policy-level call on a platform six teams used. Full version: story bank S3.
 
-**"Have you investigated fraud or abuse attacks? How would you approach a new one?"** (JD1's core job)
-**Needs your data. Answer removed until filled in.** With what's on record (one line, A19), this answer can only describe a method, which reads as L3. To make it L4, I need open data point 1: the attack, the signal you found, what changed, the impact, and whether the defense was reused beyond the financing product.
-**If it comes up Monday before we fill it in:** answer with the fraud-decision story above and say you're happy to go deeper on investigations with the hiring manager.
+**"Have you investigated fraud or abuse attacks? How would you approach a new one?"** (JD1's core job; ~150 words)
+"Yes. Our fraud score was catching fraud at sign-up well, so I led a deep dive into what it was missing. We found fraudsters who passed the score but behaved unlike any real business before their first order, moving through sign-up and browsing in repetitive, machine-like ways. The gap wasn't the model; it was the signals. So I launched a behavioral model that keeps assessing new customers until their first transaction, built with insights from the buyer-risk team, plus IP intelligence and a blocklist. It caught fraudsters about 10 days earlier than our buyer-risk systems, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines. My approach to any new attack is the same: size it, find what the bad actors share, and build a defense that generalizes rather than a rule they'll route around."
+**L4 signal:** you found the gap and built a durable defense with another team. Full version: story bank S2. Don't name exact signals.
 
 **"How do you think about AI agents and fraud?"** (JD1: bot abuse prevention is in preview; ~110 words)
 "The hard part isn't blocking bots; it's telling a legitimate buying agent from a fraudulent one, because businesses will want the good ones. I'd separate who the agent acts for from what it's trying to do, and scale the response to the risk: let low-risk, reversible actions through, ask for more evidence in the middle, and block the clear cases. That's how I designed agent autonomy at Keystone.ai: the agent acted on its own only when risk was low and the action could be undone, and that took acceptance of its actions from 30% to 80%."
@@ -194,9 +195,9 @@ Don't quote an NRR percentage; the exact figure depends on renewal timing.
 "Not an analyst console. The closest is the MLOps platform I owned for 30+ risk and credit data scientists at Amazon: it took their models to production and made monitoring the default across 100+ models. And at Keystone.ai, the agent's approval screen was built the way an analyst queue should be: each case arrived with the evidence pre-filled, so the reviewer decided rather than investigated."
 Say "not an analyst console" plainly; it's a preferred qualification, not required.
 
-**"Stripe is a writing culture. How do you write?"**
-**Needs your data. Answer removed until filled in.** Listing document types (PR/FAQs, PRDs, OP1s, business reviews) reads as L3. L4 needs one document that changed a decision beyond your team: open data point 3 (the privacy policy doc for the VPs, or an OP1 that won the MLOps headcount).
-**If it comes up Monday before we fill it in:** say writing is how you work, and offer the privacy-policy alignment with two VPs as the example, without claiming a document you haven't confirmed.
+**"Stripe is a writing culture. How do you write?"** (~110 words)
+"Writing is how I do product work. The clearest example: I wrote the PRFAQ for Amazon Business's fraud score instead of a requirements doc, because the hard part was getting engineering, buyer risk and leadership to agree on a new strategy, not listing requirements. It opened with the customer outcome, then answered the hard questions directly: how big the problem was, the trade-off between fraud control and friction, how it fit with existing fraud models, and a four-phase roadmap. Engineering started design from it, and its phases became the roadmap through version two. My rule: goal and customer first, then the decision and its trade-off, then the evidence."
+**L4 signal:** a document that changed direction across teams. Full version: story bank S5.
 
 **"How do you develop other PMs?"** (L4 expects it; ~120 words)
 "By handing over real ownership in stages and staying close enough to coach. At Amazon I managed a Program Manager whose gap to L5 was independence. I moved ownership to him step by step: our external survey vendor, then 30+ stakeholders across 15+ countries, reviewing his work less as his judgment proved out. I wrote his promotion document, and he was promoted to L5. At Keystone.ai I led three PMs on a dotted line. One kept saying yes to client requests that displaced platform work; I gave specific feedback, set a decision rule for requests, and reviewed their calls weekly until their team was back on track. I've also run 50+ hiring interviews across Keystone and Amazon."
@@ -213,7 +214,8 @@ Be precise if probed: one direct report, a Program Manager; the Keystone PMs wer
 Green Card holder, no sponsorship · Seattle, fine with ≥50% in office · available immediately · "Interviewing elsewhere?": "Yes, a few conversations in enterprise AI. This one stands out because of the fraud and AI-agent overlap. What's your timeline?"
 
 ### Precision traps
-- **Fraud model:** the fraud team built it; you owned integration, threshold, rules and suspensions.
+- **Fraud model:** you led the Business Fraud Score strategy and were PM of 1.0 and 2.0; data science built the models. Say "I was the PM," never "I built the model."
+- **BFS confidentiality:** use your own impact, rounded (~10 days earlier, ~15% more upfront detection, ~$2.7M flagged, 6 teams). Never cite Amazon's internal fraud exposure or loss figures, segment fraud rates or exact model features. Don't tie BFS to a year.
 - **Fraud loss −15%** is confirmed. **Repeat fraud incidents −5%** is not; don't say it until confirmed.
 - **Fair lending:** don't claim fair-lending review. Adverse-action reason codes, segment testing and the thin-file analysis are fine.
 - **SPORT:** 3 Amazon partner teams; ~10% adoption is a combined result; 27% was the goal.
@@ -236,7 +238,7 @@ End with: "Is there anything about my background you'd like me to clarify?"
 - [ ] Decide on the Fraud v6 "−5%" bullet (confirm or remove) before sending that resume
 - [ ] Say the TMAY out loud and time it: **about 90 seconds, never over 2 minutes**
 - [ ] Say the pricing and API answers out loud once each (they're the JD2 differentiators)
-- [ ] Say the fraud-decision answer out loud once (the JD1 differentiator); the investigation answer waits on open data point 1
+- [ ] Say the fraud-decision and fraud-investigation answers out loud once each (the JD1 differentiators)
 - [ ] Say the level answer out loud once; it's the one that decides L3 vs. L4
 - [ ] Read the call card numbers once more right before the call
 - [ ] After the call: `/interview-debrief`, and send the recruiter a short thank-you within 24 hours
