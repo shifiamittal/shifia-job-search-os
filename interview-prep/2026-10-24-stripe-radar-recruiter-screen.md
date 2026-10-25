@@ -1,6 +1,6 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v14** (your Why are you looking) · was **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v15** (your level answer) · was **v14** (your Why are you looking) · was **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
@@ -28,7 +28,8 @@ I also connect with Stripe's culture of rigorous writing. I led the fraud strate
 **Why are you looking (~60 words, ~30 seconds; your final wording, on the OS "Why are you leaving" framework: where you're going, not what you're leaving):** "I'm looking to solve problems at scale again, like I did at Amazon. At Keystone.ai, I took an AI platform from 0 to 1 and grew it to $7.5 million in ARR across five Fortune 500 clients. At Amazon, payments and lending were some of my favorite work. I believe Radar is where my scale, payments, fraud and integrations experience intersect."
 If asked when you left: "I wrapped up at Keystone.ai in March." Then stop. Don't mention the layoff unless asked directly.
 
-**What level (~70 words):** "I'd rather level on scope. At Keystone.ai I set the company's product strategy and pricing: $7.5M ARR, 30+ engineers and scientists I didn't manage, and three PMs on a dotted line. At Amazon I led a fraud score that six teams adopted, and took a privacy policy to two VPs that became the standard for about 20 Payments teams. That's L4 scope. Are both roles scoped there?"
+**What level (~95 words, ~45 seconds; your wording):** "I'd rather level on scope. At Keystone.ai, I led a company-wide strategy for an AI platform that drove $7.5 million in ARR, influenced C-suite executives at our company and at Fortune 500 clients, set product direction for 30+ engineers and scientists, and led three PMs on a dotted line. At Amazon, I scaled a 0-to-1 credit product to $71 million in incremental revenue, led a fraud strategy that six teams adopted, and set a privacy policy with two VPs that about 20 Payments teams adopted. That's L4 scope. Are both roles scoped there?"
+Stop after the question. **L4:** "Great," then ask for the full package. **L3:** "What would the hiring manager need to see to scope it at L4?"
 
 **Comp:** (1) "Could you share the level and the full package for each role: base, bonus and equity?" (2) If pressed: "For L4 scope, I'm targeting total compensation in the mid-to-high $500s, flexible on the mix." (3) Never share current pay.
 
@@ -199,8 +200,10 @@ Your final wording (2026-10-25), on the job-search OS "Why are you leaving" fram
 **If asked when you left / whether you're still there:** "I wrapped up at Keystone.ai in March. Since then I've been building hands-on, including my own AI job-search system, and being selective about my next role." Don't mention the layoff or restructuring. Never imply you're still employed.
 **Only if asked directly ("Were you laid off?"):** don't deny it; employment verification will show it. One sentence, then move on: "Yes, my role was part of a restructuring in March. What I'm focused on now is…" and go back to why Radar.
 
-### What level are you targeting? (~125 words)
-"I'd rather level on scope. At Keystone.ai I set product strategy and pricing for the whole company's move from consulting to product: a 0-to-1 platform at $7.5M ARR across five Fortune 500 clients, built by 30+ engineers and scientists I didn't manage, and I led three PMs on a dotted line. At Amazon, beyond the products I owned (an ML financing product with 50,000+ business customers and $71M in revenue, and the MLOps platform behind 100+ models), I defined an ML privacy policy that I took to two VPs and that became the standard across about 20 Payments teams. That's scope across teams, so I'd expect L4. Are both roles scoped there?"
+### What level are you targeting? (~95 words, ~45 seconds)
+Your wording (2026-10-25). Scope first, then name the level and ask.
+
+"I'd rather level on scope. At Keystone.ai, I led a company-wide strategy for an AI platform that drove $7.5 million in ARR, influenced C-suite executives at our company and at Fortune 500 clients, set product direction for 30+ engineers and scientists, and led three PMs on a dotted line. At Amazon, I scaled a 0-to-1 credit product to $71 million in incremental revenue, led a fraud strategy that six teams adopted, and set a privacy policy with two VPs that about 20 Payments teams adopted. That's L4 scope. Are both roles scoped there?"
 - **L4 or above:** "That sounds right." Then ask for the full package.
 - **L3:** "What would the hiring manager need to see to scope this at L4?" Don't accept L3 on the call.
 
