@@ -458,7 +458,7 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Tags:** ambiguity, risk management
 
 ### A8: MDLC: Self-Serve ML Platform for Amazon Lending (Amazon)
-- **Situation:** Lending extended $8B in credit; 50+ risk models from 30+ scientists, growing 30% YoY. Each model took 3–4 months of engineering to ship, and there was no governance.
+- **Situation:** Lending extended $8B in credit (usage note 2026-10-25: this is Amazon's lending business as a whole; when describing the Pay by Invoice fraud strategy, say "part of a lending business that extended $8B in credit," not "an $8B credit business"); 50+ risk models from 30+ scientists, growing 30% YoY. Each model took 3–4 months of engineering to ship, and there was no governance.
 - **Action:** Interviewed scientists, engineers, and risk/compliance. Three pillars: self-service ML pipelines (UI-first, a deliberate cost trade-off), model governance and privacy (monitoring, versioning, lineage, inventory; EU/US privacy: OD3, DSAR, PD2), and scaling onboarding as a product (templates, docs, community). Auto-containerization from a git link. Built on SageMaker, Step Functions, Lambda, Glue, ECR.
 - **Result:** 100+ models with no added headcount; audit-ready; NPS 8+ across 30+ scientists; 5 teams onboarded outside lending; 6 science HC saved per year (ongoing, total across all platform features: self-service pipelines, containerization, etc.); ~2 eng HC saved via containerization; deployment −40%.
 - **Tags:** platform, 0→1, technical depth
