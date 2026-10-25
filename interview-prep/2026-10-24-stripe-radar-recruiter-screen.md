@@ -1,6 +1,6 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
@@ -18,11 +18,11 @@ Before that, I spent eight years at Amazon, starting as a Product Manager in Pri
 
 My most recent work was in supply chain, but throughout, I've worked on ML decisions where a wrong decision costs real money. Radar is solving that problem at Stripe's scale, and that's why this role is exactly what I'm looking for next."
 
-**Why Stripe (~160 words, ~75 seconds, covers both roles; your wording, built on the OS "Why here" framework: mission, role fit, culture):** "What draws me to Stripe is the mission to grow the GDP of the internet, and I see fraud prevention as a big part of that. I saw this at Amazon, where I led fraud strategy for Amazon Business's Pay by Invoice credit, part of a lending business that extended $8 billion in credit, across the customer's journey from registration to checkout. The fraud score I launched was adopted by six teams.
+**Why Stripe (~110 words, ~55 seconds, covers both roles; your wording, on the OS "Why here" framework: mission, role fit, culture):** "What draws me to Stripe is the mission to grow the GDP of the internet, and I see fraud prevention as a big part of that. I did this at Amazon, where I led fraud prevention for Pay by Invoice, part of a lending business that extended $8 billion in credit. It saved $18 million in potential fraud losses, and I integrated it with six partner teams.
 
-That's why Radar interests me. Stripe can use signals across millions of businesses to spot new fraud patterns early, and it's now expanding beyond payment fraud into areas like fake accounts and free-trial abuse. Those are exactly the problems I want to work on, along with getting those defenses into the tools businesses already use, which is what I did with APIs that three partner teams built on.
+I'm excited by Radar's potential to use signals across millions of businesses to spot new fraud patterns, to solve problems like fake accounts and free-trial abuse, and to integrate with the tools businesses already use.
 
-I also connect with Stripe's culture of rigorous writing. I started the fraud strategy with a PRFAQ, to align teams on the problem before deciding what to build."
+I also connect with Stripe's culture of rigorous writing. I led the fraud strategy by writing a PRFAQ to align teams on the business problem and the solution."
 **Precision (applies to Tell me about yourself and Why Stripe):** the $8B is credit extended by Amazon's lending business as a whole, not Pay by Invoice alone. Say "part of a lending business that extended $8 billion," never "an $8 billion credit business."
 
 **Why are you looking (~50 words):** "Scale. At Keystone.ai I took a platform from 0 to 1, with $7.5M ARR and all five clients renewed, and now I want to apply that to a product with far more customers and data. And payments and risk were some of my favorite work at Amazon. Radar is where those meet."
@@ -176,14 +176,14 @@ My most recent work was in supply chain, but throughout, I've worked on ML decis
 **Weaknesses addressed (Step 1):** (1) level gap: Principal title at a small company, last Amazon level L6 → company-level strategy and pricing, PMs led, fraud strategy six teams adopted; (2) fraud depth: are you a fraud PM or adjacent to fraud? → you led the fraud strategy across the purchase journey, with an $18M result (if asked who built the models: data science; you were the PM); (3) industry mismatch: recent work in supply chain → the through-line in the last paragraph.
 **Present tense:** "Most recently" stands in for the present because you're not currently employed; never say "currently at Keystone."
 
-### Why Stripe / why Radar? (~160 words, ~75 seconds, covers both roles)
+### Why Stripe / why Radar? (~110 words, ~55 seconds, covers both roles)
 Built on the job-search OS "Why here" framework: mission (with a personal connection), role fit, people and culture. Your wording, edited 2026-10-25.
 
-"What draws me to Stripe is the mission to grow the GDP of the internet, and I see fraud prevention as a big part of that. I saw this at Amazon, where I led fraud strategy for Amazon Business's Pay by Invoice credit, part of a lending business that extended $8 billion in credit, across the customer's journey from registration to checkout. The fraud score I launched was adopted by six teams.
+"What draws me to Stripe is the mission to grow the GDP of the internet, and I see fraud prevention as a big part of that. I did this at Amazon, where I led fraud prevention for Pay by Invoice, part of a lending business that extended $8 billion in credit. It saved $18 million in potential fraud losses, and I integrated it with six partner teams.
 
-That's why Radar interests me. Stripe can use signals across millions of businesses to spot new fraud patterns early, and it's now expanding beyond payment fraud into areas like fake accounts and free-trial abuse. Those are exactly the problems I want to work on, along with getting those defenses into the tools businesses already use, which is what I did with APIs that three partner teams built on.
+I'm excited by Radar's potential to use signals across millions of businesses to spot new fraud patterns, to solve problems like fake accounts and free-trial abuse, and to integrate with the tools businesses already use.
 
-I also connect with Stripe's culture of rigorous writing. I started the fraud strategy with a PRFAQ, to align teams on the problem before deciding what to build."
+I also connect with Stripe's culture of rigorous writing. I led the fraud strategy by writing a PRFAQ to align teams on the business problem and the solution."
 **Precision:** the $8B is credit extended by Amazon's lending business as a whole, not Pay by Invoice alone. Say "part of a lending business that extended $8 billion," never "an $8 billion credit business."
 
 ### "Have you interviewed with Stripe before?"
