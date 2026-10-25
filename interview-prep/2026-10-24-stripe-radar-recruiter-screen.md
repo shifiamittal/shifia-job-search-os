@@ -1,10 +1,10 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v5** (v4 + more Fraud & Abuse answers so both roles are covered evenly) · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v6** (v5 + Stripe L4 box, level labels corrected, every answer checked against L4) · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
-[VERIFY: Company intel last updated 2026-03-24. Key details may have changed.] Interview format comes from that file; Radar product news and comp were refreshed from the web on 2026-10-24.
+[VERIFY: Company intel last updated 2026-03-24. Key details may have changed.] Interview format comes from that file; Radar product news and comp were refreshed from the web on 2026-10-24. **Level labels corrected 2026-10-25:** the intel file called L4 "Senior PM" and L5 "Staff/Principal." Newer sources and current pay data put **L3 ≈ Senior PM and L4 ≈ Staff/Principal**; this doc and the intel file now use that.
 
 ---
 
@@ -22,7 +22,7 @@ Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-mas
 | Platform | MLOps: 30+ scientists, 100+ models, deployment −40% | |
 | Career | 11+ years · PM since 2016 · "most recently at Keystone.ai" | "currently at Keystone" |
 
-**Three goals for the call:** (1) get both roles' **level** and the full package; (2) learn which hiring manager wants what, then lean into one; (3) leave the recruiter with one sentence: *"the PM who has set fraud thresholds, shipped APIs partners integrated, and priced a B2B ML product."*
+**Three goals for the call:** (1) confirm both roles can be scoped at **L4**, and get the full package; (2) learn which hiring manager wants what, then lean into one; (3) leave the recruiter with one sentence: *"the PM who has set fraud thresholds, shipped APIs partners integrated, and priced a B2B ML product."*
 
 **Which resume:** send `resumes/Shifia_Mittal_Resume_Stripe_Radar.pdf` for the Radar (integrations) role. For Fraud & Abuse, use `Shifia_Mittal_Resume_Stripe_Radar_Fraud_6.pdf` **after** you confirm or remove the "repeat fraud incidents by 5%" bullet; it's still [CONFIRM] in your library, and a hiring manager will ask for the baseline. Both resumes use the same numbers.
 
@@ -41,7 +41,7 @@ Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-mas
 
 **Bottom line:** JD2 is where you're the stronger candidate; JD1 is the better step for your career (closer to ML and AI agents). Let the level and the hiring managers' needs decide.
 
-**Comp reality** (levels.fyi, US, data 7/20/2026): L3 ~$372K · L4 ~$541K · L5 ~$605K total comp. Your floor is $380–400K, target $600K. **L4+ works; L3 doesn't.** Getting the level is the most important thing to learn on Monday.
+**Comp reality** (levels.fyi, US, data 7/20/2026): L3 (≈ Senior PM) ~$372K · **L4 (≈ Staff/Principal, your target)** ~$541–557K · L5 ~$605K total comp. Your floor is $380–400K, target $600K. **L4 works; L3 doesn't.** Getting the level is the most important thing to learn on Monday.
 
 ---
 
@@ -57,31 +57,65 @@ Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-mas
 
 Scripted answers for the questions this Stripe recruiter is most likely to ask about these two roles. Every answer is under 200 words and states the goal first.
 
-### What principal scope sounds like (applies to every answer in Parts A and B)
-Stripe will level you partly from how you describe your work. Principal-level answers show five things; aim for at least two per answer:
-1. **Business stakes:** revenue, retention, or a company decision, not just a feature metric ("we'd lose our reference client," "all five renewed").
-2. **Problems nobody owned:** you defined the problem, not just executed a plan.
-3. **Influence across teams you didn't manage:** name how many teams or which executives.
-4. **Decisions that outlast you:** a pricing model, a policy, a platform, a decision rule.
-5. **Business-level trade-offs, stated with their cost:** "it cost a month; it won two clients."
+### Interviewing for Stripe L4 (read before Parts A and B)
+Stripe doesn't publish its PM rubric; this comes from career-ladder guides, salary data and forum posts (2026-10-25), so treat it as directional. Every PM at Stripe has the title "Product Manager"; the level shows only in scope and pay.
 
-Your strongest principal stories: the consulting-to-product pivot (K1), pricing and renewals (K32), managed service vs. SaaS against leadership and investors (K12), ML privacy policy across ~20 Amazon Payments teams (A10), TRACE across 14 teams' systems (A11), and the MLOps platform for 100+ models (A8). Team-level questions (underperformer, sprint process) are fine at team level; just don't let your *best* examples sound that small.
+| | L3 (≈ Senior PM) | **L4 (≈ Staff/Principal), your target** |
+|---|---|---|
+| Scope | Owns one product area on their own: strategy, roadmap, outcomes | **Multiple areas:** shapes strategy beyond their own area |
+| Influence | Coordinates across functions | **Changes direction across teams they don't manage** |
+| People | — | **Grows other PMs** |
+| Where people stall | Owning an area well but not shaping strategy beyond it | L4 is roughly the top of the individual-contributor track |
+| Total comp (US) | ~$372–381K (below your floor) | ~$541–557K |
 
+**The one-line test for every answer:** does it show you changing something *beyond the product you owned*, across teams you didn't manage, with a decision that outlasted you? An answer that only shows you running one product well reads as L3.
 
+**Your L4 evidence (use at least one in every scope answer):**
+1. **ML privacy policy across ~20 Amazon Payments teams.** You defined it, took it to two VPs and Directors across Payments, and it became platform policy (A10).
+2. **Keystone's move from consulting to product.** You set company-level strategy and designed the business model; all 5 clients renewed (K1, K32).
+3. **Managed service vs. SaaS, against leadership and investors** (K12).
+4. **SPORT's distribution change.** You moved from relying on each seller to APIs that 3 partner teams integrated, and got the VP of Amazon FBA to let SPORT recommend inventory placement (A15, Source Decision 19).
+5. **Growing PMs.** You promoted a Program Manager from L4 to L5, led 3 PMs on a dotted line (including a turnaround), and ran 50+ hiring interviews (A13, K20).
+
+**Your risk:** your last Amazon level was L6, which usually maps to Stripe L3, and Keystone was a small company. So talk about scope, never titles.
+
+**On Monday:** (1) ask early whether both roles can be scoped at L4; the posted base range spans several levels. (2) Lead with evidence beyond one area; save single-product stories as proof you execute. (3) Mention growing PMs once. (4) If they say L3: "What would the hiring manager need to see to scope this at L4?" Don't accept L3 on the call.
+
+**L4 check of every answer in this doc (2026-10-25):**
+| Answer | Status |
+|---|---|
+| Tell me about yourself; Level; How you develop PMs (new); Pricing; API products; Fraud decision; Comp | **L4** (rewritten with existing library data) |
+| Why Stripe, Why looking, Interviewed before, Which role, AI agents and fraud, Analyst tooling, Retention | Not leveling answers; fine as is |
+| Part B: Q4, Q8–Q10, Q13, Q14, Q17, Q20, Q21, Q23, Q25 | **L4** (already framed beyond one area) |
+| Part B: Q22 first 30–60 days | **L4** after adding cross-team dependencies |
+| Part B: Q6, Q7, Q11, Q12, Q15, Q16, Q18, Q19, Q24 | Single-product deep dives or team-level by nature; fine, because the question asks for that depth. Q6 and Q7 have an optional L4 upgrade (see "Open data points") |
+| **Investigating fraud attacks** | **Needs your data.** Answer removed until we fill it in (see "Open data points") |
+| **Writing** | **Needs your data.** Answer removed until we fill it in |
+
+**Open data points to reach L4 (let's resolve these together):**
+1. **Fraud attack investigation (A19).** Which attack or pattern, how it was found, which signal you identified, what changed (a rule, a model feature, a product control), any impact, and whether the defense was reused beyond the financing product. *Without this, the investigation answer can only show method, which is L3.*
+2. **Fraud controls beyond your product (optional upgrade to the fraud-decision answer).** Did the layered design or threshold approach get adopted by other lending products or by Buyer Risk Prevention? Was there disagreement with the fraud or risk teams you had to resolve?
+3. **Writing: one document → one decision.** Was the privacy policy you took to the VPs a written doc? Did an OP1 you wrote secure the MLOps platform's 8+ engineering hires a year? Either one makes the writing answer L4.
+4. **SPORT partner integrations (optional detail).** How did the 3 partner teams come to integrate: did you pitch them, negotiate it into their roadmaps, or did leadership mandate it?
+5. **Keystone agent guardrail (affects Q7 and the old investigation answer).** After the warehouse-move incident, did "escalate when data is missing" become a rule for every client and agent, or a fix for that one retailer? Your library records only the fix; an earlier draft said "every client," which isn't on record.
+6. **Evaluation framework reuse (optional upgrade for Q6).** Was the agent evaluation framework reused for HAT-AI, REI-Agent or other teams' agents?
+7. **Privacy policy pushback (optional).** What did the VPs or Directors push back on, and what did you change?
 
 ### Before you speak: the 2024 feedback
 Your ~2024 Stripe loop ended after the first screening. They said: (1) separate the user types and say which you'd prioritize; (2) state goals clearly, and bring more examples with **external** users.
 - **Lead with external users:** business customers (PBI), sellers and partner teams (SPORT, MOQ), enterprise clients (Keystone). Keep MLOps and HAT-AI for when asked.
 - **Goal first:** open every story with one sentence on the goal and who the user was.
 
-### Tell me about yourself (~150 words, ~70 seconds)
-"I'm a Principal Technical PM with 11+ years building ML products that businesses pay for and depend on.
+### Tell me about yourself (~165 words, ~80 seconds)
+"I'm a Principal Technical PM with 11+ years building ML products that businesses pay for, and setting direction beyond the product I own.
 
-At Amazon, I spent two years in B2B Payments and Lending. I scaled an ML financing product to 50,000+ business customers and $71M in incremental revenue, and I owned how it used Amazon's fraud model: the threshold, the blocking rules and the checkout controls. That cut the fraud loss rate 15% while keeping friction low for legitimate businesses. Before that, I built seller products and exposed them through APIs that partner teams built into their own tools.
+At Amazon, in B2B Payments and Lending, I scaled an ML financing product to 50,000+ business customers and $71M in incremental revenue, and owned its fraud controls across the fraud and buyer-risk teams, which cut the fraud loss rate 15%. I also defined how privacy rules applied to ML across Amazon Payments, took it to two VPs, and it became the standard for about 20 teams.
 
-Most recently at Keystone.ai, I led a 0-to-1 agentic AI platform to $7.5M ARR. I set the pricing with Sales and the CEO; all five of our enterprise clients renewed, and two upgraded.
+Most recently at Keystone.ai, I set the strategy that moved the company from consulting to product: a 0-to-1 agentic AI platform at $7.5M ARR. I designed the pricing with Sales and the CEO; all five enterprise clients renewed, and two upgraded. I also led three PMs on a dotted line.
 
 Radar sits where those meet: ML decisions against adversaries, delivered through APIs, and sold to businesses."
+**Integrations role:** swap the privacy sentence for "I also changed how a seller product reached customers: instead of waiting on each seller, I exposed it through APIs that three partner teams built into their tools."
+**L4 signals:** beyond one area (the policy across ~20 teams, company strategy), teams you didn't manage, PMs you grew.
 
 ### Why Stripe / why Radar? (~170 words)
 "Three reasons.
@@ -111,8 +145,8 @@ Third, the overlap. Agents are starting to transact, and the trust problems I wo
 
 **If asked when you left / whether you're still there:** "I wrapped up at Keystone.ai in March, when my role was part of a restructuring. Since then I've been building hands-on, including my own AI job-search system, and being selective about my next role." One or two sentences, then back to the reasons. Never imply you're still employed.
 
-### What level are you targeting? (~110 words)
-"I'd rather level on scope than title. At Keystone.ai I owned product strategy and pricing for the company's move from consulting to product: a 0-to-1 platform that reached $7.5M ARR with five Fortune 500 clients, built by 30+ engineers and scientists, set with the CEO and CTO. Before that, eight years at Amazon, owning an ML financing product with 50,000+ business customers and $71M in revenue, and the MLOps platform behind 100+ production models. I'd expect the senior end of your PM levels. How do you map that, and are both roles scoped at the same level?"
+### What level are you targeting? (~125 words)
+"I'd rather level on scope. At Keystone.ai I set product strategy and pricing for the whole company's move from consulting to product: a 0-to-1 platform at $7.5M ARR across five Fortune 500 clients, built by 30+ engineers and scientists I didn't manage, and I led three PMs on a dotted line. At Amazon, beyond the products I owned (an ML financing product with 50,000+ business customers and $71M in revenue, and the MLOps platform behind 100+ models), I defined an ML privacy policy that I took to two VPs and that became the standard across about 20 Payments teams. That's scope across teams, so I'd expect L4. Are both roles scoped there?"
 - **L4 or above:** "That sounds right." Then ask for the full package.
 - **L3:** "What would the hiring manager need to see to scope this at L4?" Don't accept L3 on the call.
 
@@ -131,20 +165,23 @@ Third, the overlap. Agents are starting to transact, and the trust problems I wo
 "Yes. At Keystone.ai, the goal was to turn a consulting business into a product business. One flagship engagement brought in $2M a year but needed about seven people on site. With the CEO, Sales and Finance, I split the offer into modules on annual subscriptions: forecasting at about $1.5M a year, agentic capabilities on top at about $500K. We rejected usage-based pricing, because forecast counts don't track value, and percentage-of-savings, because savings depend on the client's execution and invite attribution fights.
 
 We landed with forecasting first. For one global manufacturer, I demoed the platform, scoped the proof of concept to shipment forecasting because that's where their data was reliable, and priced the first deal on forecasting alone with our sales leader. All five clients renewed through the move to product, and two added agents, about $500K more a year each."
+**L4 signal:** a company-wide business model that outlasted you.
 
-**"Have you built API or developer products?"** (~150 words)
-"Yes. At Amazon, SPORT recommended cheaper fulfillment options to sellers, but adoption was 1% because it depended on each seller acting. I wrote the spec to expose it through Amazon's Selling Partner APIs, and three partner teams integrated it, including Seller Central and inventory placement, so inventory moves could happen at scale. Together with wider recommendations and a Seller Central entry point, adoption reached about 10%. I also built MOQ recommendation APIs used by Seller Central and teams in two Asian marketplaces; a controlled experiment showed about 60% higher seller adherence and $20M in seller shipping savings. At Amazon Business I defined versioned REST APIs for fraud checks at signup and credit eligibility at checkout. At Keystone.ai I owned the data platform's API catalog, which let the app team stand up dashboards for five new clients with no extra effort."
+**"Have you built API or developer products?"** (~170 words)
+"Yes, and the bigger decision was how the product reached customers. At Amazon, SPORT recommended cheaper fulfillment options to sellers, but adoption was 1%, because every move waited on an individual seller. Instead of pushing sellers one by one, I changed the distribution: I wrote the spec to expose SPORT through Amazon's Selling Partner APIs, and three partner teams integrated it, including Seller Central and inventory placement, so inventory moves could happen at scale. I also got the VP of Amazon FBA to let SPORT recommend inventory placement to sellers. Together with wider recommendations and a Seller Central entry point, adoption reached about 10%. I built MOQ recommendation APIs used by Seller Central and teams in two Asian marketplaces, with about 60% higher seller adherence and $20M in seller savings. And at Amazon Business I defined versioned REST APIs for fraud checks at signup and credit eligibility at checkout."
+**L4 signal:** a distribution change across 3 partner teams, plus VP-level influence outside your org. (Open data point 4 would make it stronger.)
 
 **"How do you think about retention and integration success?"** (JD2 owns these metrics; ~120 words)
 "For a B2B product, I watch revenue retention first. At Keystone.ai every client renewed with no churn, and two expanded, so revenue retention was above 100%. Then usage: when one client's adoption fell from 70% to 50%, we traced it to a warehouse move missing from the data, fixed it, and got back to 70%. For something like Radar integrations, I'd track time from first API call to production traffic, the share of a customer's payments actually scored, whether integrations stay live, and tier upgrades."
 Don't quote an NRR percentage; the exact figure depends on renewal timing.
 
-**"Tell me about a fraud decision you owned."** (JD1; ~110 words)
-"The goal was to expand credit to small businesses that traditional underwriting had underserved, without letting fraud in. The fraud team owned the fraud score; I owned how our product used it. I set the threshold at 99% precision, accepting about 25% recall, because a false positive suspended a legitimate business's credit line. Screening wasn't the only defense: a domain blocklist, post-checkout checks and exposure limits caught the rest. Fraud loss rate fell 15%, and SMB approvals went from 4% to 15%. The threshold was a product-wide policy: it decided which businesses could get credit at all."
+**"Tell me about a fraud decision you owned."** (JD1; ~130 words)
+"The goal was to expand credit to small businesses that traditional underwriting had underserved, without letting fraud in. That meant aligning teams I didn't manage: the fraud team owned the fraud score, and Buyer Risk Prevention owned the downstream controls. I owned how our product used them, and the policy itself: I set the threshold at 99% precision, accepting about 25% recall, because a false positive suspended a legitimate business's credit line. Screening wasn't the only defense, so I designed the layers with those teams: a domain blocklist, post-checkout checks and exposure limits. Fraud loss rate fell 15%, and SMB approvals went from 4% to 15%. The threshold was a product-wide policy: it decided which businesses could get credit at all."
+**L4 signal:** policy-level decision across two teams you didn't manage. (Open data point 2 would add reuse beyond your product.)
 
-**"Have you investigated fraud or abuse attacks? How would you approach a new one?"** (JD1's core job; ~150 words)
-"Yes. On the Amazon Business financing product, I worked with the fraud team to investigate attacks and find signals that could feed the fraud model: newly registered business domains, shared-domain fraud history, links to accounts already flagged for fraud, and inconsistencies in business information. My approach to a new attack is the one I use for any production failure. Size it first: how much money, how many businesses, and is it growing? Then find what the bad actors have in common, and decide whether it's a one-off to block with a rule or a pattern worth a durable defense in the model or the product. At Keystone.ai, when an agent made a confident wrong call, I traced it to a client's warehouse move and turned the fix into a rule for every client: escalate when data is missing."
-Keep the fraud part at this level. Your library has the investigation as a one-line fact (A19); don't add a specific attack, number or outcome until you've recorded it.
+**"Have you investigated fraud or abuse attacks? How would you approach a new one?"** (JD1's core job)
+**Needs your data. Answer removed until filled in.** With what's on record (one line, A19), this answer can only describe a method, which reads as L3. To make it L4, I need open data point 1: the attack, the signal you found, what changed, the impact, and whether the defense was reused beyond the financing product.
+**If it comes up Monday before we fill it in:** answer with the fraud-decision story above and say you're happy to go deeper on investigations with the hiring manager.
 
 **"How do you think about AI agents and fraud?"** (JD1: bot abuse prevention is in preview; ~110 words)
 "The hard part isn't blocking bots; it's telling a legitimate buying agent from a fraudulent one, because businesses will want the good ones. I'd separate who the agent acts for from what it's trying to do, and scale the response to the risk: let low-risk, reversible actions through, ask for more evidence in the middle, and block the clear cases. That's how I designed agent autonomy at Keystone.ai: the agent acted on its own only when risk was low and the action could be undone, and that took acceptance of its actions from 30% to 80%."
@@ -153,13 +190,18 @@ Keep the fraud part at this level. Your library has the investigation as a one-l
 "Not an analyst console. The closest is the MLOps platform I owned for 30+ risk and credit data scientists at Amazon: it took their models to production and made monitoring the default across 100+ models. And at Keystone.ai, the agent's approval screen was built the way an analyst queue should be: each case arrived with the evidence pre-filled, so the reviewer decided rather than investigated."
 Say "not an analyst console" plainly; it's a preferred qualification, not required.
 
-**"Stripe is a writing culture. How do you write?"** (~90 words)
-"Writing is how I do product work. At Amazon I wrote PR/FAQs, PRDs, OP1 plans, and the monthly business reviews for VP leadership on our financing program. At Keystone.ai I wrote the strategy and alignment documents for leadership. My rule is goal and customer first, then the decision and the trade-off, then the evidence."
-Add one specific example once you pick it: [which document led to which decision].
+**"Stripe is a writing culture. How do you write?"**
+**Needs your data. Answer removed until filled in.** Listing document types (PR/FAQs, PRDs, OP1s, business reviews) reads as L3. L4 needs one document that changed a decision beyond your team: open data point 3 (the privacy policy doc for the VPs, or an OP1 that won the MLOps headcount).
+**If it comes up Monday before we fill it in:** say writing is how you work, and offer the privacy-policy alignment with two VPs as the example, without claiming a document you haven't confirmed.
+
+**"How do you develop other PMs?"** (L4 expects it; ~120 words)
+"By handing over real ownership in stages and staying close enough to coach. At Amazon I managed a Program Manager whose gap to L5 was independence. I moved ownership to him step by step: our external survey vendor, then 30+ stakeholders across 15+ countries, reviewing his work less as his judgment proved out. I wrote his promotion document, and he was promoted to L5. At Keystone.ai I led three PMs on a dotted line. One kept saying yes to client requests that displaced platform work; I gave specific feedback, set a decision rule for requests, and reviewed their calls weekly until their team was back on track. I've also run 50+ hiring interviews across Keystone and Amazon."
+Be precise if probed: one direct report, a Program Manager; the Keystone PMs were dotted-line.
+**L4 signal:** grows other PMs.
 
 ### Comp ("What are your expectations?")
 1. First: "Could you share which level each role is scoped at, and the full package for that level: base, bonus and equity?"
-2. If pressed: "For senior PM scope at Stripe, I'm targeting total compensation in the mid-to-high $500s, and I'm flexible on the mix." (Inside levels.fyi L4–L5, $541K–$605K.)
+2. If pressed: "For L4 scope at Stripe, I'm targeting total compensation in the mid-to-high $500s, and I'm flexible on the mix." (Matches levels.fyi L4, ~$541–557K.)
 3. Never share current pay. Washington redirect: "Washington postings include a range, so could you share what's budgeted for this level?"
 4. Ask how Stripe values its private equity (latest tender price).
 
@@ -188,9 +230,10 @@ End with: "Is there anything about my background you'd like me to clarify?"
 ### Practice before Monday
 - [ ] Message Piyush Rohella (draft in section 6) today or tomorrow
 - [ ] Decide on the Fraud v6 "−5%" bullet (confirm or remove) before sending that resume
-- [ ] Say the TMAY out loud and time it: **under 75 seconds**
+- [ ] Say the TMAY out loud and time it: **under 85 seconds**
 - [ ] Say the pricing and API answers out loud once each (they're the JD2 differentiators)
-- [ ] Say the fraud-decision and fraud-investigation answers out loud once each (the JD1 differentiators)
+- [ ] Say the fraud-decision answer out loud once (the JD1 differentiator); the investigation answer waits on open data point 1
+- [ ] Say the level answer out loud once; it's the one that decides L3 vs. L4
 - [ ] Read the call card numbers once more right before the call
 - [ ] After the call: `/interview-debrief`, and send the recruiter a short thank-you within 24 hours
 
@@ -273,11 +316,12 @@ Second, I turn ML into a business. At Keystone.ai I moved a consulting company t
 'Good enough to ship' was defined up front: we ran it in shadow mode and set launch gates of over 70% exception recall, over 70% recommendation acceptance on expert-reviewed cases, and no automatic changes to forecasts. The evaluation mixed rules-based checks, LLM-as-judge for grounding and expert scoring.
 
 In production we tracked acceptance, rejection reasons, cost per accepted recommendation, latency and traces. Results: review time from four hours a day to four hours a week, 70% acceptance at launch, and the client's overstock cost from $5M to $2M. It also became the agent tier we sold: two clients upgraded for about $500K a year each."
-**Scope signal:** ties a shipped agent to client retention and a new revenue line.
+**Scope signal:** ties a shipped agent to client retention and a new revenue line. **Optional L4 upgrade:** open data point 6 (was the evaluation framework reused for other agents?).
 
 #### Q7. "How did you know when quality slipped?"
 **Asked at:** LawnStarter. **Last score:** 8 (your best answer). Keep it.
 **Answer (~110 words):** "Production monitoring. At one retailer, recommendation acceptance fell from 70% to 50% over four weekly cycles. The traces showed the retailer had moved a warehouse, and the agent didn't have location data, so it made a confident recommendation instead of escalating. We added the location dataset, added a guardrail to act only with sufficient information, and added regression tests for that failure. Acceptance came back to 70%. The lesson I took: agents degrade on cases you haven't seen, so monitoring and regression testing are part of the product, not an afterthought."
+**Optional L4 upgrade:** open data point 5 (did the guardrail become a rule for every client?). Until confirmed, don't say "every client."
 
 #### Q8. "Tell me about an AI decision where the right answer wasn't obvious and reasonable people disagreed."
 **Asked at:** LawnStarter. **Last score:** 6. **What went wrong:** the cost story was right but took four minutes to reach the trade-off.
@@ -352,7 +396,8 @@ Say "dotted-line" for Keystone. Don't use the Amazon doc-review example; it's th
 
 #### Q22. "What would you do in your first 30 to 60 days?"
 **Asked at:** Count (Chris). **Last score:** 4.5. **What went wrong:** generic, not tied to what Chris had just told you.
-**Answer for Stripe (~120 words):** "First 30 days, learn: talk to customers and to sales, support and partner teams about where Radar integrations stall or where new attacks show up; read the support and dispute data; learn the roadmap and the January pricing change. Deliverable: a one-page 'what I heard' with the top three problems. By 60, decide: a prioritized plan for the biggest one, agreed with engineering and data science, with the metric we'll move. By 90, a written strategy for the area agreed with the engineering, data science and go-to-market leads, and one visible win shipped. That's how I started at Keystone: interviews and watching planners work before building, which is how we found explainability was the real blocker."
+**Answer for Stripe (~120 words):** "First 30 days, learn: talk to customers and to sales, support and partner teams about where Radar integrations stall or where new attacks show up; read the support and dispute data; learn the roadmap and the January pricing change. Deliverable: a one-page 'what I heard' with the top three problems. By 60, decide: a prioritized plan for the biggest one, agreed with engineering and data science, with the metric we'll move. By 90, a written strategy for the area agreed with the engineering, data science and go-to-market leads, and one visible win shipped. Throughout, I'd map where Radar depends on other Stripe teams, because at this level the biggest wins usually sit between teams. That's how I started at Keystone: interviews and watching planners work before building, which is how we found explainability was the real blocker."
+**L4 signal:** a written strategy plus the cross-team map.
 **Fraud & Abuse version of the first 30 days:** "…talk to customers, support and the risk team about the attacks hurting them most, read recent fraud and dispute data, and learn where detection and customer friction are out of balance."
 **Rule:** fill the plan with words the interviewer used earlier in the same call.
 
@@ -436,6 +481,7 @@ For Stripe, lead with: (1) level for each role, (2) the loop and written exercis
 4. **Q26 Moves:** one sentence each
 5. **Q24 Payment API:** likely later in Stripe's loop
 6. **Q2 Why Stripe** and **Q27 Five years** (the Stripe versions)
+7. **Level** and **How you develop PMs** in Part A: the two answers that decide L3 vs. L4
 
 ---
 

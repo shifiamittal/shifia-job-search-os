@@ -1,12 +1,12 @@
 # Stripe - PM Interview Intel
-Last updated: 2026-03-24
+Last updated: 2026-03-24 (levels and PM comp corrected 2026-10-25; the rest is unchanged from March)
 Sources: Glassdoor, levels.fyi, Blind
 Confidence: High
 
 ## Company Overview
 - Stage: Late-stage private (valued at ~$65B as of 2025)
 - PM team size estimate: 200-350 PMs across Payments, Billing, Connect, Atlas, Identity, and Financial Infrastructure
-- PM comp range: L3 $250K-$380K TC | L4 $350K-$520K TC | L5 $500K-$750K+ TC
+- PM comp (levels.fyi, US, data 7/20/2026): L2 ~$263K | L3 ~$372–381K | L4 ~$541–557K | L5 ~$605K TC. Every level carries the title "Product Manager."
 - Culture notes: Writing-heavy culture with extremely high intellectual standards. PMs write detailed memos and specs. "Increase the GDP of the internet" mission. Technical depth expected. Based in SF with significant remote presence.
 
 ## Interview Format
@@ -52,9 +52,17 @@ Confidence: High
 - The competitive landscape (Adyen, PayPal/Braintree, Square/Block) matters. (source: Glassdoor)
 
 ## Compensation Data
-- L3 (PM): $250K-$380K TC (source: levels.fyi)
-- L4 (Senior PM): $350K-$520K TC (source: levels.fyi)
-- L5 (Staff/Principal PM): $500K-$750K+ TC (source: levels.fyi)
+- L3 (≈ Senior PM elsewhere): ~$372–381K TC (levels.fyi, US, data 7/20/2026)
+- L4 (≈ Staff/Principal PM elsewhere): ~$541–557K TC (same source)
+- L5: ~$605K TC (same source)
+- **Correction 2026-10-25:** the March version labeled L4 "Senior PM" and L5 "Staff/Principal" with lower ranges. Newer sources (career-ladder guides, levels.fyi, Blind) put L3 ≈ Senior and L4 ≈ Staff, and current pay data supports that. One Blind post compares Stripe L4 to Google L6. Directional, not official.
+
+## Leveling (directional; Stripe doesn't publish its PM rubric)
+- **L3:** owns one product area on their own: strategy, roadmap and outcomes, without someone scoping the problems.
+- **L4:** multi-area scope; shapes strategy beyond their own area and changes direction across teams they don't manage; expected to grow other PMs. Described as roughly the top of the individual-contributor track.
+- Most common reason people stay at L3: owning an area well but not shaping strategy beyond it.
+- Years of experience don't decide level; one salary site shows Stripe L3 PMs typically at 8–10 years. Scope decides.
+- Sources: careerclimb.app Stripe PM career ladder, levels.fyi Stripe PM pages, Blind "L4 at Stripe" thread, Exponent Stripe PM guide (search excerpts, 2026-10-25).
 - Note: Pre-IPO equity. Stripe's valuation has stabilized, so equity risk is moderate.
 
 ## Data Freshness
