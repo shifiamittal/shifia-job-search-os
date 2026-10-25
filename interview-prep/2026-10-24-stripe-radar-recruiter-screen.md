@@ -1,6 +1,6 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-24, **v4** (v3 + Part B from your Otter recruiter calls + principal-scope pass) · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v5** (v4 + more Fraud & Abuse answers so both roles are covered evenly) · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
@@ -142,6 +142,17 @@ Don't quote an NRR percentage; the exact figure depends on renewal timing.
 **"Tell me about a fraud decision you owned."** (JD1; ~110 words)
 "The goal was to expand credit to small businesses that traditional underwriting had underserved, without letting fraud in. The fraud team owned the fraud score; I owned how our product used it. I set the threshold at 99% precision, accepting about 25% recall, because a false positive suspended a legitimate business's credit line. Screening wasn't the only defense: a domain blocklist, post-checkout checks and exposure limits caught the rest. Fraud loss rate fell 15%, and SMB approvals went from 4% to 15%. The threshold was a product-wide policy: it decided which businesses could get credit at all."
 
+**"Have you investigated fraud or abuse attacks? How would you approach a new one?"** (JD1's core job; ~150 words)
+"Yes. On the Amazon Business financing product, I worked with the fraud team to investigate attacks and find signals that could feed the fraud model: newly registered business domains, shared-domain fraud history, links to accounts already flagged for fraud, and inconsistencies in business information. My approach to a new attack is the one I use for any production failure. Size it first: how much money, how many businesses, and is it growing? Then find what the bad actors have in common, and decide whether it's a one-off to block with a rule or a pattern worth a durable defense in the model or the product. At Keystone.ai, when an agent made a confident wrong call, I traced it to a client's warehouse move and turned the fix into a rule for every client: escalate when data is missing."
+Keep the fraud part at this level. Your library has the investigation as a one-line fact (A19); don't add a specific attack, number or outcome until you've recorded it.
+
+**"How do you think about AI agents and fraud?"** (JD1: bot abuse prevention is in preview; ~110 words)
+"The hard part isn't blocking bots; it's telling a legitimate buying agent from a fraudulent one, because businesses will want the good ones. I'd separate who the agent acts for from what it's trying to do, and scale the response to the risk: let low-risk, reversible actions through, ask for more evidence in the middle, and block the clear cases. That's how I designed agent autonomy at Keystone.ai: the agent acted on its own only when risk was low and the action could be undone, and that took acceptance of its actions from 30% to 80%."
+
+**"Have you built tools for fraud analysts or risk teams?"** (JD1 preferred; ~90 words)
+"Not an analyst console. The closest is the MLOps platform I owned for 30+ risk and credit data scientists at Amazon: it took their models to production and made monitoring the default across 100+ models. And at Keystone.ai, the agent's approval screen was built the way an analyst queue should be: each case arrived with the evidence pre-filled, so the reviewer decided rather than investigated."
+Say "not an analyst console" plainly; it's a preferred qualification, not required.
+
 **"Stripe is a writing culture. How do you write?"** (~90 words)
 "Writing is how I do product work. At Amazon I wrote PR/FAQs, PRDs, OP1 plans, and the monthly business reviews for VP leadership on our financing program. At Keystone.ai I wrote the strategy and alignment documents for leadership. My rule is goal and customer first, then the decision and the trade-off, then the evidence."
 Add one specific example once you pick it: [which document led to which decision].
@@ -179,6 +190,7 @@ End with: "Is there anything about my background you'd like me to clarify?"
 - [ ] Decide on the Fraud v6 "−5%" bullet (confirm or remove) before sending that resume
 - [ ] Say the TMAY out loud and time it: **under 75 seconds**
 - [ ] Say the pricing and API answers out loud once each (they're the JD2 differentiators)
+- [ ] Say the fraud-decision and fraud-investigation answers out loud once each (the JD1 differentiators)
 - [ ] Read the call card numbers once more right before the call
 - [ ] After the call: `/interview-debrief`, and send the recruiter a short thank-you within 24 hours
 
@@ -341,6 +353,7 @@ Say "dotted-line" for Keystone. Don't use the Amazon doc-review example; it's th
 #### Q22. "What would you do in your first 30 to 60 days?"
 **Asked at:** Count (Chris). **Last score:** 4.5. **What went wrong:** generic, not tied to what Chris had just told you.
 **Answer for Stripe (~120 words):** "First 30 days, learn: talk to customers and to sales, support and partner teams about where Radar integrations stall or where new attacks show up; read the support and dispute data; learn the roadmap and the January pricing change. Deliverable: a one-page 'what I heard' with the top three problems. By 60, decide: a prioritized plan for the biggest one, agreed with engineering and data science, with the metric we'll move. By 90, a written strategy for the area agreed with the engineering, data science and go-to-market leads, and one visible win shipped. That's how I started at Keystone: interviews and watching planners work before building, which is how we found explainability was the real blocker."
+**Fraud & Abuse version of the first 30 days:** "…talk to customers, support and the risk team about the attacks hurting them most, read recent fraud and dispute data, and learn where detection and customer friction are out of balance."
 **Rule:** fill the plan with words the interviewer used earlier in the same call.
 
 #### Q23. "Requests come in from clients, partners, support, QA, sales and leadership. How would you set priorities?"
