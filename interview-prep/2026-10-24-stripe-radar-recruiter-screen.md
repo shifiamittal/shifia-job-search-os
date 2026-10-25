@@ -1,12 +1,61 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
 [VERIFY: Company intel last updated 2026-03-24. Key details may have changed.] Interview format comes from that file; Radar product news and comp were refreshed from the web on 2026-10-24. **Level labels corrected 2026-10-25:** the intel file called L4 "Senior PM" and L5 "Staff/Principal." Newer sources and current pay data put **L3 ≈ Senior PM and L4 ≈ Staff/Principal**; this doc and the intel file now use that.
 
 ---
+
+## TONIGHT'S PAGE: everything you need for Monday's call
+Study only this page tonight. Everything below it is reference.
+
+### 1. Six answers to say out loud
+**Tell me about yourself (~90 seconds):** "I'm a Principal Technical Product Manager with 11+ years building ML products for businesses. Most recently, at Keystone.ai, I led a 0-to-1 agentic AI platform and the company's move from consulting to product: $7.5M ARR across five Fortune 500 clients, all of whom renewed. I designed the pricing with Sales and the CEO, and led three PMs on a dotted line.
+
+Before that, I spent eight years at Amazon, starting as a PM in Pricing and moving up to Senior PM-Technical. The work most relevant here was in B2B Payments and Lending, where I scaled an ML financing product to 50,000+ business customers and $71M in incremental revenue. I also led the product strategy for Amazon Business's fraud score, which moved fraud detection from checkout to sign-up. Data science built the models; I made the product calls, and six teams adopted it. Its second version caught fraudsters about 10 days earlier. I also defined how privacy rules applied to ML across Amazon Payments, and it became the standard for about 20 teams.
+
+My most recent work was in supply chain, but the through-line is ML decisions where a wrong call costs real money. Radar is that problem at Stripe's scale. That's why this role is exactly what I'm looking for next."
+
+**Why Stripe (~60 words):** "Stripe's network sees fraud no single business can, and Radar is taking that past checkout into accounts, free trials and AI agents. I led Amazon Business's fraud score, which moved detection from checkout to sign-up, and I've priced a B2B ML product that customers renewed into. Radar is where those meet."
+
+**Why are you looking (~50 words):** "Scale. At Keystone.ai I took a platform from 0 to 1, with $7.5M ARR and all five clients renewed, and now I want to apply that to a product with far more customers and data. And payments and risk were some of my favorite work at Amazon. Radar is where those meet."
+If asked when you left: "I wrapped up at Keystone.ai in March." Then stop.
+
+**What level (~70 words):** "I'd rather level on scope. At Keystone.ai I set the company's product strategy and pricing: $7.5M ARR, 30+ engineers and scientists I didn't manage, and three PMs on a dotted line. At Amazon I led a fraud score that six teams adopted, and took a privacy policy to two VPs that became the standard for about 20 Payments teams. That's L4 scope. Are both roles scoped there?"
+
+**Comp:** (1) "Could you share the level and the full package for each role: base, bonus and equity?" (2) If pressed: "For L4 scope, I'm targeting total compensation in the mid-to-high $500s, flexible on the mix." (3) Never share current pay.
+
+**Logistics:** "No sponsorship needed; I'm a Green Card holder. I'm in Seattle, and 50% in the office works. I'm available right away."
+
+### 2. Your end-to-end story (STAR), if they ask for an example
+**30-second version (default on a recruiter call):** "I owned the fraud strategy for Amazon Business's Pay by Invoice credit. I created a fraud score that assesses every business at sign-up, before it gets a credit line, tuned for precision and layered with checkout controls. Its behavioral version caught fraudsters about 10 days earlier and lifted upfront detection about 15%, and six teams adopted it."
+
+**Full version (~170 words, ~75 seconds), only if they say "tell me more":**
+- **S:** "At Amazon Business, Pay by Invoice gives business customers a credit line to buy now and pay later. As it grew, fraud grew faster, driven by fraud rings, some using bots, and almost all our controls ran after checkout, when a fraudster already had a credit line."
+- **T:** "As the PM, I owned the fraud strategy for Pay by Invoice: stop fraud before credit was extended, without adding friction for legitimate businesses."
+- **A:** "I wrote the strategy as a PRFAQ: a fraud score that assesses every business at sign-up. Data science built the models; I made the product calls. I tuned it for precision, about 99%, because a false positive froze a real business's credit line, layered it with buyer risk's checkout controls, and ran a three-week shadow test before launch. When a deep dive showed fraudsters slipping past at sign-up, I launched a behavioral version that keeps assessing new customers until their first order."
+- **R:** "The first version was contributing to over 60% of our upfront fraud detection. The behavioral version caught fraudsters about 10 days earlier, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines. Six teams adopted it."
+
+### 3. Two backup stories (30 seconds each)
+- **Pricing (integrations role):** "At Keystone.ai I designed the pricing for our move from consulting to product: modular, value-based subscriptions. Clients started on forecasting; all five renewed through the move, and two upgraded to agents for about $500K more a year each."
+- **Influence (L4):** "At Amazon, nobody had defined how privacy rules applied to ML models across Payments. I worked out the requirements with Legal and the privacy team, took the policy to two VPs and Directors across Payments, and it became the standard for about 20 teams."
+
+### 4. Numbers to know cold
+11+ years · $7.5M ARR, all 5 clients renewed, 2 upgraded (+$500K each) · $71M revenue, 50K+ business customers · fraud score: 6 teams, ~10 days earlier, upfront detection up ~15%, >60% of upfront detection · privacy policy: ~20 Payments teams · 3 PMs led on a dotted line
+
+### 5. Three questions to ask
+1. "Can both roles be scoped at L4?"
+2. "What's the interview loop, and is there a written exercise?"
+3. "What's each hiring manager's biggest gap right now?"
+
+### 6. Don't say
+"Currently at Keystone" · "I built the model" (say "I was the PM; data science built the models") · "fraud loss −15%" or "−5%" · client names · your current pay · yes to L3 on the call
+
+---
+
+**Reference: everything below is for depth and later rounds. Not needed tonight.**
 
 ## 0. Call card (read this 10 minutes before the call)
 
