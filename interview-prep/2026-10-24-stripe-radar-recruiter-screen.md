@@ -1,6 +1,6 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v16** (comp answer on the OS framework) · was **v15** (your level answer) · was **v14** (your Why are you looking) · was **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v17** (Walk me through your resume) · was **v16** (comp answer on the OS framework) · was **v15** (your level answer) · was **v14** (your Why are you looking) · was **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
@@ -204,6 +204,20 @@ Your final wording (2026-10-25), on the job-search OS "Why are you leaving" fram
 
 **If asked when you left / whether you're still there:** "I wrapped up at Keystone.ai in March. Since then I've been building hands-on, including my own AI job-search system, and being selective about my next role." Don't mention the layoff or restructuring. Never imply you're still employed.
 **Only if asked directly ("Were you laid off?"):** don't deny it; employment verification will show it. One sentence, then move on: "Yes, my role was part of a restructuring in March. What I'm focused on now is…" and go back to why Radar.
+
+### Walk me through your resume (~205 words, ~2 minutes)
+Built on the job-search OS guidance: no chronological recitation; start with the most recent role and walk backward selectively; one forward-pointing reason per move (your confirmed reasons in `qa-master.md`); ~200 words.
+
+"I'll start with the most recent and work back.
+
+Most recently, at Keystone.ai, I led the strategy for an agentic AI platform that moved the company from consulting to product: $7.5 million in ARR across five Fortune 500 clients, all of whom renewed. I went there after eight years at Amazon because I wanted company-level scope, owning product strategy for a whole company, not one team.
+
+Before that, in Amazon's B2B Payments and Lending, I built a 0-to-1 credit product to $71 million in incremental revenue and led the fraud strategy for Pay by Invoice, which avoided $18 million in fraud losses. A re-org gave me that role, and with it an end-to-end revenue product.
+
+Before that, I owned Amazon's MLOps platform for 30+ scientists and 100+ models. I took that role to go deeper into ML. Earlier, I built ML recommendation products for sellers in Supply Chain that saved over $100 million, after starting in Pricing. I began my career at Cognizant, in pre-sales.
+
+The thread is that each move took me closer to the ML core, then to owning product for a whole company. Radar is where I'd bring both to Stripe's scale."
+**If they've just heard "Tell me about yourself":** skip the numbers you already gave and lead with the reason for each move.
 
 ### What level are you targeting? (~95 words, ~45 seconds)
 Your wording (2026-10-25). Scope first, then name the level and ask.
