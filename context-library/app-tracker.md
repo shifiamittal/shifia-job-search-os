@@ -74,7 +74,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Date applied:** not applied; recruiter outreach
 - **Source:** Recruiter outreach (recruiter name [CONFIRM])
 - **Referral:** No (Piyush Rohella not yet asked)
-- **Resume version:** `resumes/Shifia_Mittal_Resume_Stripe_Radar_Fraud.docx` / `.pdf` (built 2026-10-24; analysis: `resumes/2026-10-24-stripe-radar-fraud-abuse-pm.md`). Not sent yet
+- **Resume version:** `resumes/Shifia_Mittal_Resume_Stripe_Radar_Fraud_7.docx` / `.pdf` (v7, your edit of 2026-10-25: fraud bullets rebuilt from the BFS documents; retired 15%/5% claims removed). Not sent yet
 - **Cover letter:** No
 - **Connection at company:** Piyush Rohella (1st degree; PM at Stripe; former teammate in Amazon B2B Payments & Lending)
 - **Work product sent:** No
