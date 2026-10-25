@@ -623,7 +623,7 @@ Source: user's answers in chat, 2026-10-24 (Stripe Radar Fraud & Abuse resume in
 
 #### PBI manual review and account actions (Amazon), confirmed 2026-10-24
 - Credit Strategy Operations ran a manual credit-assessment process for cases needing human judgment, including some model-declined customers. Defined procedures existed for suspensions and fraud-related account actions.
-- [CONFIRM] Shifia's own role in designing the manual-review routing or the suspension procedures is not stated. Until confirmed, don't claim she built analyst or reviewer tooling.
+- **Confirmed 2026-10-25 (user):** Shifia built tools for credit analysts and automated parts of their work. [NEEDS DETAIL before external use beyond this one line: who used them, what the tools did, what was automated, and the impact.]
 
 #### K33: SQL and Data Analysis for the Data Platform (Keystone.ai), confirmed 2026-10-24
 - Led data analysis and product requirements for the enterprise AI Data Platform. Wrote **SQL in Amazon Athena on tables in AWS Glue** for Data Platform and Deep Enterprise work.

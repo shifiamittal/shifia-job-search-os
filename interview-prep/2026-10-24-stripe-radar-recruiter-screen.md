@@ -267,9 +267,9 @@ Don't quote an NRR percentage; the exact figure depends on renewal timing.
 **"How do you think about AI agents and fraud?"** (JD1: bot abuse prevention is in preview; ~110 words)
 "The hard part isn't blocking bots; it's telling a legitimate buying agent from a fraudulent one, because businesses will want the good ones. I'd separate who the agent acts for from what it's trying to do, and scale the response to the risk: let low-risk, reversible actions through, ask for more evidence in the middle, and block the clear cases. That's how I designed agent autonomy at Keystone.ai: the agent acted on its own only when risk was low and the action could be undone, and that took acceptance of its actions from 30% to 80%."
 
-**"Have you built tools for fraud analysts or risk teams?"** (JD1 preferred; ~90 words)
-"Not an analyst console. The closest is the MLOps platform I owned for 30+ risk and credit data scientists at Amazon: it took their models to production and made monitoring the default across 100+ models. And at Keystone.ai, the agent's approval screen was built the way an analyst queue should be: each case arrived with the evidence pre-filled, so the reviewer decided rather than investigated."
-Say "not an analyst console" plainly; it's a preferred qualification, not required.
+**"Have you built tools for fraud analysts or risk teams?"** (JD1 preferred)
+**Being rewritten (2026-10-25):** you built tools for credit analysts and automated parts of their work. The full answer waits on the details (who used them, what they did, what you automated, impact).
+**If asked before it's finished:** "Yes. I built tools for our credit analysts and automated parts of their work." Then stop; don't add specifics you haven't confirmed.
 
 **"Stripe is a writing culture. How do you write?"** (~110 words)
 "Writing is how I do product work. The clearest example: I wrote the PRFAQ for Amazon Business's fraud score instead of a requirements doc, because the hard part was getting engineering, buyer risk and leadership to agree on a new strategy, not listing requirements. It opened with the customer outcome, then answered the hard questions directly: how big the problem was, the trade-off between fraud control and friction, how it fit with existing fraud models, and a four-phase roadmap. Engineering started design from it, and its phases became the roadmap through version two. My rule: goal and customer first, then the decision and its trade-off, then the evidence."
