@@ -681,6 +681,9 @@ Sources: user-provided docs, read in full 2026-10-25: "Business Fraud Score PRFA
 - **Cross-team partners:** BRP (buyer risk), Credit Systems and credit operations, Clickstream, MDLC, data engineering, data science, Legal (Payments).
 - **Tags:** fraud strategy, 0→1, platform adopted by 6 teams, detection vs. friction, investigation → product, PRFAQ, launch trade-off, L4.
 
+#### PBI 2.0 credit product was 0→1 (stated by user 2026-10-25)
+- The user confirms the ML credit product launched in Amazon Business Financing & Credit (A1, 50K+ customers, $71M incremental revenue) was a **0-to-1 product**. OK to say "developed a 0-to-1 credit product." [NEEDS DETAIL for follow-ups: what was new versus PBI 1.0.]
+
 #### Confirmed 2026-10-24
 - **SPORT adoption:** ~10% is the adoption level reached (from a 1% baseline), as the combined result of the APIs, wider recommendations, the Seller Central entry point and account-manager marketing (A15).
 
