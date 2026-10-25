@@ -46,10 +46,12 @@ Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-mas
 ---
 
 ## 2. What's new with Radar (for "Why Stripe")
-- **Sessions 2026:** Stripe's biggest Radar upgrade: account fraud and token abuse protection, coverage for payments on and off Stripe, and help winning disputes.
+- **Sessions 2026:** Stripe's biggest Radar expansion: account-level fraud such as multi-account abuse (Stripe says more than 1 in 6 sign-ups at AI companies on its network are linked to it), more payment methods (bank debits, wallets, buy now pay later, stablecoins), and risk data for payments **on and off Stripe** through Stripe Signals.
 - **Free trial abuse prevention** is GA. **Bot abuse prevention** (telling legitimate AI agents from fraudulent ones) is in preview, along with signals for disputes, multi-account and account-sharing abuse, merchant risk, and Issuing authorization fraud.
-- **New packaging:** four tiers (Lite, Standard, Plus, Pro), new pricing from **Jan 22, 2027**. From Oct 21, 2026, Radar covers every subscription payment, not just the first. This is JD2's monetization scope.
-- Stripe says Radar blocked **$110B in fraud** last year.
+- **New packaging:** four tiers (Lite, Standard, Plus, Pro), new pricing from **Jan 22, 2027**. Lite stays free on standard Stripe pricing (basic card fraud and card testing); custom rules, backtesting and adaptive 3D Secure start at Plus; dynamic risk thresholds at Pro. Don't quote tier prices; they're from third-party blogs. This is JD2's monetization scope.
+- **From Oct 21, 2026:** Radar pricing applies to **all supported payment methods**, not just cards, and to **every payment in a subscription**, not just the first (businesses can opt out of screening renewals; per-payment price unchanged).
+- Stripe says Radar blocked **$110B in fraud** in 2025; businesses on Stripe saw a 17% average drop in dispute rates over three years, and Radar users a 3.5% average rise in authorization rates since 2024. Stripe-reported, not independently checked; say "Stripe says."
+- **Not confirmed (2026-10-25), so don't say:** "token abuse protection" and "help winning disputes."
 
 ---
 
@@ -287,7 +289,7 @@ Recruiters write notes, and Stripe verifies employment. These came up in the tra
 
 #### Q3. "Did you have a chance to check us out? What do you know about us?"
 **Asked at:** R37.
-**Answer for Stripe (~60 words):** "Yes. Radar had its biggest upgrade at Sessions this year: account fraud and token abuse, coverage for payments on and off Stripe, and dispute help. Free trial abuse prevention is live, bot abuse prevention is in preview, and there's new four-tier pricing from January. I'm curious which of those each of these two roles owns."
+**Answer for Stripe (~60 words):** "Yes. Radar had its biggest expansion at Sessions this year: account-level fraud like multi-account abuse, more payment methods, and risk signals for payments on and off Stripe. Free trial abuse prevention is live, bot abuse prevention is in preview, and there's new four-tier pricing from January. I'm curious which of those each of these two roles owns."
 End with a question; it turns the check into a conversation.
 
 
