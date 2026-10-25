@@ -1,6 +1,6 @@
 # Stripe Radar: Recruiter Screen Prep (both roles)
 
-Prepared: 2026-10-25, **v18** (final fraud STAR-L) · was **v17** (Walk me through your resume) · was **v16** (comp answer on the OS framework) · was **v15** (your level answer) · was **v14** (your Why are you looking) · was **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
+Prepared: 2026-10-25, **v19** (strengths, weakness, prioritization, search status, timeline) · was **v18** (final fraud STAR-L) · was **v17** (Walk me through your resume) · was **v16** (comp answer on the OS framework) · was **v15** (your level answer) · was **v14** (your Why are you looking) · was **v13** (your Why Stripe) · was **v12** (your Tell me about yourself) · was **v11** ($18M fraud losses avoided added to the STAR) · was **v10** (final "Why Stripe") · was **v9** (one-page "Tonight's page" at the top) · was **v8** (v7 + your Business Fraud Score work: fraud answers rebuilt, investigation and writing answers restored at L4). L4 stories for the hiring-manager round: `2026-10-25-stripe-l4-story-bank.md`. · Recruiter call: **Monday 2026-10-26, ~30 min**
 Roles: (1) PM, Radar – Fraud and Abuse Prevention (job 8306158) · (2) PM, Radar (job 8301646, integrations, partners, monetization)
 Sources: experience-library.md (third batch, 2026-10-24), career-plan.md, qa-master.md, interview-history.md (including the ~2024 Stripe loop), `insider-data/company-intel/stripe.md`, Stripe blog and support pages and levels.fyi (fetched 2026-10-24; not re-fetched for v3).
 
@@ -38,7 +38,9 @@ Stop after the question. **L4:** "Great," then ask for the full package. **L3:**
 - **Never share current pay:** "I'd rather focus on the value I'd bring to this role. Could you share what's budgeted for this level?"
 - **If they say L4 tops out lower:** don't argue on the call: "Thanks, that's helpful. Let's see where the process lands on level."
 
-**Logistics:** "No sponsorship needed; I'm a Green Card holder. I'm in Seattle, and 50% in the office works. I'm available right away."
+**Logistics:** "No sponsorship needed; I'm a Green Card holder. I'm in Seattle, and 50% in the office works. I'm flexible on start date and can start quickly."
+**Interviewing elsewhere:** "I'm in conversations with a few companies, mostly in enterprise AI, at [your stage]. Stripe stands out because Radar brings together fraud strategy, payments and integrations. What's your timeline?"
+**Also ready in Part A:** strengths, weakness, how you prioritize.
 
 ### 2. Your end-to-end story (STAR), if they ask for an example
 **30-second version (default on a recruiter call):** "I owned the fraud strategy for Amazon Business's Pay by Invoice credit. I created a fraud score that assesses every business at sign-up, before it gets a credit line, tuned for precision and layered with checkout controls. It avoided about $18 million in fraud losses, its behavioral version caught fraudsters about 10 days earlier, and six teams adopted it."
@@ -239,6 +241,29 @@ Your wording (2026-10-25). Scope first, then name the level and ask.
 | JD1 is scoped L4+ and JD2 lower | JD1 |
 | Same level | JD1 for your career; JD2 if JD1's hiring manager wants deep fraud-ops or analyst-tooling background |
 | JD2's hiring manager wants pricing and partners first (new tiers launch Jan 2027) | JD2: your pricing + retention + partner-API evidence is unusually direct |
+
+### More recruiter questions (added 2026-10-25)
+The job-search OS has a dedicated framework only for the weakness question; the others follow `qa-master.md` guidance, the 200-word rule and the temperature principle.
+
+**"What are your superpowers / strengths?"** (qa-master: pick one strength and tell its story; ~110 words) · Rated 8/10
+"My biggest strength is turning a messy, high-stakes problem into a clear strategy that other teams can build on. At Amazon Business, fraud was growing fast, our controls were built for consumers, and good businesses were getting stuck in manual review. Nobody owned the whole problem. I wrote the strategy as a PRFAQ, moved fraud detection up to sign-up, and built one shared fraud score instead of a rule for one team. Six teams adopted it, and it avoided about $18 million in fraud losses. I did the same at Keystone.ai, turning a consulting business into a product with $7.5 million in ARR, and every client renewed."
+If they've already heard your fraud STAR, use the privacy policy as the example instead (two VPs, ~20 Payments teams).
+
+**"What is your weakness?"** (OS framework: real weakness from feedback → impact → growth evidence; temperature low → medium → low; ~105 words) · Rated 7/10
+"Technical depth is one of my strengths, and early on it was also a weakness: I'd go deeper into technical detail than my role needed. When I launched Keystone's data platform, I wrote some of the SQL queries myself, and it slowed the team down, because engineering was waiting on me instead of owning the work. So I changed how I work. I own the guardrails, like data quality, data contracts and adoption; I give engineering the data model and customer requirements; and I leave the implementation to them. I still go deep, but only where it changes a product decision. The team moved faster and owned more."
+To reach 8–9: if a manager or review raised this, open with it ("My manager pointed out that…"), and add one concrete sign of improvement.
+
+**"How do you prioritize?"** (qa-master two-level approach; scored 8/10 at Count; ~115 words) · Rated 8/10
+"I prioritize at two levels: where to invest, then what order to ship. For investment, I start from the customer and business outcome, list the pain points, and weigh impact against effort. For sequencing, I ship the smallest piece that proves value or tests the riskiest assumption first. At Keystone.ai, only half of planners were using our forecasts. Interviews showed three blockers: they couldn't explain the forecast, reviewing it took hours, and accuracy had gaps. I shipped explainability first, because it was cheap and it blocked trust, which took adoption from 50% to 60%. Then the agent for the manual review took it to 70%. Accuracy work ran in parallel."
+L4 option: open the investment level with "At Keystone.ai, I chose forecasting as our first product out of everything we consulted on."
+
+**"Where are you in your search? Interviewing elsewhere?"** (qa-master: name the stage, never the company) · Rated 8/10
+"I'm in conversations with a few companies, mostly in enterprise AI, at [early / later] stages. Stripe stands out because Radar brings together what I've done most: fraud strategy, payments and integrations. What does your timeline look like for these roles?"
+Fill in your real stage; if you're in final rounds anywhere, say so.
+
+**"What's your timeline? When could you start?"** · Rated 8.5/10
+"I'm flexible on start date and can start quickly. I'm happy to fit your interview loop. What does the process look like from here?"
+Don't say "no notice period"; it invites the question of whether you're still at Keystone.ai.
 
 ### Role-specific questions the recruiter may ask
 
