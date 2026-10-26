@@ -79,3 +79,24 @@ Bullets removed (no source): 0. Flagged for verification: 0.
 
 ## Regression check (v1)
 Keywords: counted above. Facts: every number matches canonical metrics; "up to 26%" keeps the range qualifier. Style: SAD order, results bolded, no first person, no 1–3-word last lines. Render: 1 page, dates on one line, links live.
+
+## v2 (2026-10-26, user feedback)
+**User asks:** broader summary than credit products; question the prioritization bullet's #2 slot; fold the semantic layer into the data platform; restore the multi-agent bullet; drop the "evals showed…" lead-in; add a personalized-marketing growth bullet under Financing & Credit; one consolidated Supply Chain bullet.
+
+**Changes:**
+- Summary: Amazon line is now "ML platforms and products delivered $100M+ in savings and $71M in revenue" (SPORT/TRACE/MOQ + financing).
+- Keystone order: strategy → data platform + catalog/semantic layer → Databricks deployment → agents (prototype bet folded in) → eval infrastructure → model routing → internal assistant. Standalone RICE bullet removed; the "bet" now opens the agent bullet.
+- Eval bullet now carries its own result (K5: production monitoring caught a data gap; adoption 50% → 70%) instead of borrowing the agent's numbers.
+- Data platform bullet: dropped "7–8 engineers" for space; clarification rate 50% → 30% (K6) is now its second result.
+- Financing & Credit: added "Scaled a global consumer credit product with ML-personalized marketing, credit bureau integrations and an onboarding redesign; $15M, +7% approval, −50% abandonment" (LinkedIn work-history bullet, Amazon Financial Services role). [CONFIRM: A1 also lists "$15M from personalization" under PBI 2.0. Which product earned the $15M?]
+- Supply Chain: SPORT, MOQ and TRACE in one bullet ($100M+, incl. $40M TRACE; Seller Central and partner APIs per A15/A16).
+- Pricing bullet cut to one line.
+
+**Reviews (v2):**
+- Recruiter: PASS. First impression 8, relevance 9 (data platform, Databricks, agents and evals now in the first five bullets), readability 7 (four 3-line bullets remain).
+- ATS: PASS WITH WARNINGS. Keyword recount: platform 11, roadmap 4, credit 4, privacy 3, data platform 2, evaluation 2, strategy 2, adoption 2, self-service 2, internal 2, APIs 2, LLM 1, Databricks 1, pipelines 1, data-quality 1, data catalog 1, semantic layer 1, multi-agent 1, RAG 1, personalized 1. Dropped since v1: self-service 4 → 2 (pricing bullet and data platform rewording); no JD term lost. Still missing: LLM gateway, Unity Catalog (not on record).
+- Hiring manager: would take the meeting. Fixed: eval bullet no longer reuses the agent's numbers; prototype-to-launch reads as one bet. Will still probe gateway, Databricks depth, scale, and owned vs. built.
+
+**Fixes from the reviews:** five short last lines removed ("30%.", "70%.", "attribution.", "leaders.", summary third line); "accuracy work" → "model accuracy work" for clarity.
+
+**Regression (v2):** 1 page; dates on one line; links unchanged (mailto, LinkedIn, GitHub); all numbers match canonical metrics; no first person; results bolded.
