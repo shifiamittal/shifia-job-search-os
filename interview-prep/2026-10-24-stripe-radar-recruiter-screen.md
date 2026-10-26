@@ -201,15 +201,15 @@ I'm excited by Radar's potential to use signals across millions of businesses to
 I also connect strongly with Stripe's writing culture. Writing is how I've led at both Amazon and Keystone.ai. My fraud strategy PRFAQ became the roadmap six teams built on, and at Keystone.ai my strategy document aligned the CEO and President on our move from consulting to product."
 **Precision:** the $8B is credit extended by Amazon's lending business as a whole, not Pay by Invoice alone. Say "part of a lending business that extended $8 billion," never "an $8 billion credit business."
 
-### "Have you interviewed with Stripe before?" / "What's changed since 2024?" (~110 words, ~50 seconds)
+### "Have you interviewed with Stripe before?" / "What's changed since 2024?" (~120 words, ~55 seconds; rated 9/10)
 Added 2026-10-26 from the mock, on the OS re-application guidance: acknowledge in one sentence, name the feedback, prove each gap closed with recent evidence, end on today.
 
-"Yes, I interviewed for a PM role in 2024 and didn't get past the first round. The feedback was useful: be sharper about which customer segments to prioritize, and bring more examples with external users. Since then, both have been at the center of my work at Keystone.ai. I worked directly with five Fortune 500 clients, led pricing and go-to-market, and every client renewed. And prioritizing became core to the job: I chose forecasting as our first product out of everything we consulted on, and for one global manufacturer, I scoped the proof of concept to shipment forecasting, where their data was reliable. Today you'll hear examples with business customers, partners and clients."
+"Yes, I interviewed for a PM role in 2024 and didn't get past the first round. The feedback was useful: bring more examples with external users, and separate the user types and say which I'd prioritize. Since then, I've worked directly with five Fortune 500 clients at Keystone.ai, led pricing and go-to-market, and every client renewed. And I've made user prioritization explicit. At our largest client, the forecasting platform had two users: demand planners, who needed to trust the forecast, and the client's data scientists, who needed to debug the models. I prioritized planners first, because adoption depended on them. Explainability took adoption from 50% to 60%, and then we gave scientists their own debugging tools. Today you'll hear examples with business customers, partners and clients."
 
 | 2024 feedback | Evidence since |
 |---|---|
 | More examples with external users | 5 Fortune 500 clients, pricing and go-to-market, all renewed; changed how their planners worked (adoption 50% → 70%) |
-| Separate user types and say which to prioritize | Forecasting chosen as the first product; proof of concept scoped to shipment forecasting where the data was reliable |
+| Separate user types and say which to prioritize | At the flagship client: planners (trust the forecast) vs. client data scientists (debug the models); prioritized planners first because adoption depended on them; explainability took adoption 50% → 60%, scientist tools after (K9, confirmed 2026-10-26). Don't use "forecasting first" here: that's a feature decision, not a user-type one |
 
 **If they only ask "Have you interviewed before?":** stop after the first two sentences plus the last one. **Don't:** say "I've grown a lot" without proof, criticize the 2024 process, or guess the role title (if asked which role: you don't have the title in front of you).
 
