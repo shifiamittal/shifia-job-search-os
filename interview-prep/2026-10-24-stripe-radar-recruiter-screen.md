@@ -47,7 +47,7 @@ Stop after the question. **L4:** "Great," then ask for the full package. **L3:**
 
 **Full STAR-L (~200 words, ~2 minutes; your final version, on the OS STAR-L framework), only if they say "tell me more":**
 - **Situation:** "Amazon Business used fraud controls that were built for consumers and ran after checkout. They didn't fit businesses, where one account can have thousands of users placing large orders, which looked suspicious. And fraud rings used bots to register thousands of accounts that couldn't be caught until checkout."
-- **Stakes:** "As a result, fraud exposure across Amazon Business grew 600% to over $200 million, while up to 15% of orders on some payment methods were held for manual review."
+- **Stakes:** "As a result, fraud exposure across Amazon Business grew 600% to about $200 million, while up to 15% of orders on some payment methods were held for manual review."
 - **Actions:** "I led the fraud strategy and made four decisions:
   1. I introduced fraud detection across the customer journey, from registration to before the first purchase.
   2. I set the score for 99% precision to protect good customers from false blocks, and relied on checkout controls for the rest.
@@ -84,7 +84,7 @@ Stop after the question. **L4:** "Great," then ask for the full package. **L3:**
 |---|---|---|
 | Keystone | $7.5M ARR · 5 Fortune 500 clients, **all renewed, no churn** · 2 upgraded to agents (+$500K ACV each) · $25M annualized client savings · 30+ engineers and scientists | "$10M", "$5M", a net revenue retention % |
 | Amazon financing | 50K+ business customers · $71M incremental revenue · SMB approval 4% → 15% · launched 3 months earlier (batch, not real time) | "millions of customers", "250K" |
-| Fraud | **Business Fraud Score: you wrote the strategy and were PM of 1.0 and 2.0**; data science built the models · **~$18M fraud losses avoided** · adopted by **6 teams** · BFS 2.0: caught fraudsters **~10 days earlier**, upfront detection **up ~15%**, **~$2.7M** fraudulent credit lines flagged · BFS 1.0 contributing to **~60% of upfront fraud detection** · launch threshold ~99% precision / ~25% recall after a 3-week shadow run · covered **all of Pay by Invoice**, not one segment | "I built the model"; "fraud loss −15%" and "repeat fraud −5%" (retired 2026-10-25); "small-business credit product" for the fraud work; Amazon's internal fraud exposure or loss figures; exact model features |
+| Fraud | **Business Fraud Score: you wrote the strategy and were PM of 1.0 and 2.0**; data science built the models · **~$18M fraud losses avoided** · adopted by **6 teams** · BFS 2.0: caught fraudsters **~10 days earlier**, upfront detection **up ~15%**, **~$2.7M** fraudulent credit lines flagged · BFS 1.0 contributing to **~60% of upfront fraud detection** · launch threshold ~99% precision / ~25% recall after a 3-week shadow run · covered **all of Pay by Invoice**, not one segment | "I built the model"; "fraud loss −15%" and "repeat fraud −5%" (retired 2026-10-25); "small-business credit product" for the fraud work; exact model features |
 | APIs | SPORT: **3 Amazon partner teams integrated it**, adoption 1% → ~10% (combined with other work) · MOQ: Seller Central + **2 Asian marketplaces**, ~60% higher adherence, $20M seller savings | "outside developers used SPORT"; "27% adoption" (that was the goal) |
 | Platform | MLOps: 30+ scientists, 100+ models, deployment −40% | |
 | Career | 11+ years · PM since 2016 · "most recently at Keystone.ai" | "currently at Keystone" |
@@ -320,7 +320,7 @@ Green Card holder, no sponsorship · Seattle, fine with ≥50% in office · avai
 
 ### Precision traps
 - **Fraud model:** you led the Business Fraud Score strategy and were PM of 1.0 and 2.0; data science built the models. Say "I was the PM," never "I built the model."
-- **BFS confidentiality:** use your own impact, rounded (~10 days earlier, ~15% more upfront detection, ~$2.7M flagged, 6 teams). Never cite Amazon's internal fraud exposure or loss figures, segment fraud rates or exact model features. Don't tie BFS to a year.
+- **BFS figures:** your own impact, rounded (~10 days earlier, ~15% more upfront detection, ~$2.7M flagged, 6 teams). Amazon's fraud exposure and loss figures are OK to cite (your decision, 2026-10-26); quote them as the source has them (2020 exposure ~$197–220M, +600% YoY). Don't name exact model features. Don't tie BFS to a year.
 - **Fraud metrics:** use only the Business Fraud Score document metrics (~10 days earlier, upfront detection up ~15%, ~$2.7M flagged, ~60% of upfront detection, 6 teams, 99% precision threshold). "Fraud loss −15%" and "repeat fraud −5%" are retired. The fraud work covered all of Pay by Invoice; don't call it a small-business product.
 - **Fair lending:** don't claim fair-lending review. Adverse-action reason codes, segment testing and the thin-file analysis are fine.
 - **SPORT:** 3 Amazon partner teams; ~10% adoption is a combined result; 27% was the goal.

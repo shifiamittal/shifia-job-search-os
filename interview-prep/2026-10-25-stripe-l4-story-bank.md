@@ -8,7 +8,7 @@ Sources: `context-library/experience-library.md` (A21 BFS, A10, A13, A6, K1, K12
 - **The L4 bar:** each story shows you changing something beyond the product you owned, across teams you didn't manage, with a decision that outlasted you. Every story ends with the L4 signals it proves.
 - **Shape:** goal and user first (Stripe's 2024 feedback), then the situation, your decisions, the result, and what you learned. Spoken versions are about 200 words (~90 seconds). Go deeper only when asked.
 - **Ownership words:** "I led the strategy," "I made the call," "data science built the model." Never "I built the model."
-- **Confidentiality:** these stories use only your own impact, rounded, plus method and trade-offs. Never cite Amazon's internal fraud exposure or loss figures, segment fraud rates, exact model features or thresholds tables. Protecting that detail is itself a signal Stripe will notice.
+- **Figures:** lead with your own impact, rounded, plus method and trade-offs. Amazon's fraud exposure and loss figures are OK to cite (your decision, 2026-10-26). Don't name exact model features or thresholds tables.
 - **Dates:** don't tie BFS to a specific year or Amazon role. If asked when: "during my time in Amazon Business Payments and Lending."
 
 ## Which story for which question
@@ -35,7 +35,7 @@ Sources: `context-library/experience-library.md` (A21 BFS, A10, A13, A6, K1, K12
 
 **STAR-L version (~200 words, final 2026-10-25; on the OS STAR-L framework):**
 - **Situation:** "Amazon Business used fraud controls that were built for consumers and ran after checkout. They didn't fit businesses, where one account can have thousands of users placing large orders, which looked suspicious. And fraud rings used bots to register thousands of accounts that couldn't be caught until checkout."
-- **Stakes:** "As a result, fraud exposure across Amazon Business grew 600% to over $200 million, while up to 15% of orders on some payment methods were held for manual review."
+- **Stakes:** "As a result, fraud exposure across Amazon Business grew 600% to about $200 million, while up to 15% of orders on some payment methods were held for manual review."
 - **Actions:** "I led the fraud strategy and made four decisions:
   1. I introduced fraud detection across the customer journey, from registration to before the first purchase.
   2. I set the score for 99% precision to protect good customers from false blocks, and relied on checkout controls for the rest.
