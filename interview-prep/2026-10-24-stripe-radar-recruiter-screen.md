@@ -201,9 +201,17 @@ I'm excited by Radar's potential to use signals across millions of businesses to
 I also connect strongly with Stripe's writing culture. Writing is how I've led at both Amazon and Keystone.ai. My fraud strategy PRFAQ became the roadmap six teams built on, and at Keystone.ai my strategy document aligned the CEO and President on our move from consulting to product."
 **Precision:** the $8B is credit extended by Amazon's lending business as a whole, not Pay by Invoice alone. Say "part of a lending business that extended $8 billion," never "an $8 billion credit business."
 
-### "Have you interviewed with Stripe before?"
-"Yes, in 2024, for a PM role. I didn't get past the first round. The feedback was useful: be sharper about which user segments to prioritize, and bring more examples with external users. Since then I've led pricing and go-to-market for enterprise clients at Keystone.ai, all of whom renewed, and I'll lean on external work today: business customers at Amazon, and the partner teams and sellers who used my APIs."
-If asked which role: you don't have the title in front of you.
+### "Have you interviewed with Stripe before?" / "What's changed since 2024?" (~110 words, ~50 seconds)
+Added 2026-10-26 from the mock, on the OS re-application guidance: acknowledge in one sentence, name the feedback, prove each gap closed with recent evidence, end on today.
+
+"Yes, I interviewed for a PM role in 2024 and didn't get past the first round. The feedback was useful: be sharper about which customer segments to prioritize, and bring more examples with external users. Since then, both have been at the center of my work at Keystone.ai. I worked directly with five Fortune 500 clients, led pricing and go-to-market, and every client renewed. And prioritizing became core to the job: I chose forecasting as our first product out of everything we consulted on, and for one global manufacturer, I scoped the proof of concept to shipment forecasting, where their data was reliable. Today you'll hear examples with business customers, partners and clients."
+
+| 2024 feedback | Evidence since |
+|---|---|
+| More examples with external users | 5 Fortune 500 clients, pricing and go-to-market, all renewed; changed how their planners worked (adoption 50% → 70%) |
+| Separate user types and say which to prioritize | Forecasting chosen as the first product; proof of concept scoped to shipment forecasting where the data was reliable |
+
+**If they only ask "Have you interviewed before?":** stop after the first two sentences plus the last one. **Don't:** say "I've grown a lot" without proof, criticize the 2024 process, or guess the role title (if asked which role: you don't have the title in front of you).
 
 ### Why are you looking? (short ~25 seconds, full ~40 seconds)
 Your wording (2026-10-26, polished in the mock), on the job-search OS "Why are you leaving" framework: lead with where you're going, not what you're leaving. Keystone proves strategy that changes how organizations work (the L4 marker); Amazon proves scale. Rated 8/10 (full) and 9/10 (short, after TMAY).
