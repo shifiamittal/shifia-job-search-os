@@ -114,3 +114,35 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
   - *Users First:* struggled to articulate goals; took a while to synthesize notes, but showed ability to go deep; OK signal on serving internal stakeholders and partners, but wanted more examples with **external** users; explained well.
 - **Outcome:** rejected after the initial screening (Product Sense + behavioral), confirmed by user 2026-10-24. Role not recorded.
 - **Implications for the 2026 Radar process:** lead with external-user stories (SPORT/MOQ sellers, PBI business customers, Keystone enterprise clients, SPORT APIs for outside developers) over internal-platform ones; open product answers by naming the user segments and how you'll prioritize them, then state the goal before solutions. Expect "Have you interviewed with us before?" and have the re-application answer ready.
+
+### Mock Session — Recruiter screen (Stripe Radar, question by question) — 2026-10-26
+Questions: 9 (8 + bonus end-to-end story; several rewritten mid-session) | Avg Score (best attempt): 6.4/10
+| Question | Structure | Specificity | Skill Demo | Overall |
+|----------|-----------|-------------|------------|---------|
+| Q1: Tell me about yourself | 8 | 6 | 6 | 6 |
+| Q2: Why Stripe | 8 | 4 | 5 | 4 |
+| Q3: Why are you looking | 8 | 7 | 7 | 7 (8 polished) |
+| Q4: Level | 8 | 6 | 7 | 6 spoken / 9 written |
+| Q5: Compensation (4 runs: 5, 5, 8, 5) | 8 | 8 | 9 | 8 |
+| Q6: Weakness | 9 | 8 | 8 | 8 |
+| Q7: What's changed since 2024 | 8 | 7 | 9 | 7 |
+| Q8: Which role | 8 | 4 | 7 | 4 |
+| Bonus: end-to-end fraud STAR (4 → 7 → 8) | 9 | 8 | 9 | 8 |
+Patterns: Judgment and decisions come through strongly (precision trade-off, planners first, holding L4 and past pay). Numbers drift off-script: fraud result said as $15M ×2 and $8M before landing on $18M; "exposure" said as "losses"; 600% said as 200%; "SVP-level goals" and "entire Payments org" crept back. Hedging in comp ("I believe," "per my understanding," "I was hoping"). Scripted comp answers scored 8; improvised scored 5.
+
+### Mock Session — Recruiter screen (Stripe Radar, full end-to-end call) — 2026-10-26
+Questions: 12 | Avg Score: 6.5/10
+| Question | Structure | Specificity | Skill Demo | Overall |
+|----------|-----------|-------------|------------|---------|
+| Q1: Background (TMAY) | 8 | 7 | 7 | 7 |
+| Q2: Why Stripe | 8 | 5 | 5 | 5 |
+| Q3: Why are you looking | 6 | 4 | 5 | 4 |
+| Q4: Still at Keystone? | — | — | — | 1 → 8 after correction |
+| Q5: Level | 8 | 6 | 7 | 6 |
+| Q6: Comp (ask + range) | 8 | 7 | 7 | 7 |
+| Q7: Which role | 8 | 5 | 6 | 5 |
+| Q8: Past pay | 8 | 8 | 8 | 8 |
+| Q9: Logistics | 8 | 8 | 8 | 8 |
+| Q10: Candidate questions | 7 | 8 | 7 | 7 |
+| Q11: Built the models? | 9 | 9 | 9 | 9 |
+Patterns: Answers rewritten earlier in the day reverted under live flow (Why looking back to "at scale like Amazon"; level back to "S-team level goals"). New paraphrase slips: "$8 billion credit business," "500 customers," "drove $18M of fraud losses." First said "still working at Keystone" (left March 2026); corrected to the true answer. Strengths: calm, warm, honest, firm on level and past pay, clear model-ownership answer. Asked about the process right after the recruiter explained it.
