@@ -331,6 +331,7 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Situation:** Client data was scattered across SharePoint, Box, S3, and laptops, a security and trust risk. Data models were rebuilt for every client; onboarding took ~2 months.
 - **Action:** Standardized core data models (orders, shipments), reusable transforms and data-quality checks, data contracts and APIs, and Pulumi IaC across AWS and Azure.
 - **Team:** 7–8 engineers (confirmed 2026-10-15).
+- **Stepping back from implementation (stated by user 2026-10-26):** early on she wrote some SQL queries herself; the engineering lead pointed out it was slowing the team down. She stepped back to owning guardrails (data quality, data contracts, adoption), the data model and customer requirements, and left implementation to engineering. The first version of the data platform then launched in 6 weeks. Distinct from client deployment time (3 months → 3 weeks). Used for the weakness question.
 - **Result:** Onboarding 2 months → 2 weeks; scientist data discovery 2 hrs/day → 2 hrs/week.
 - **Tags:** platform, data infra
 
