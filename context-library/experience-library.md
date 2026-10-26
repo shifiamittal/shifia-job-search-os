@@ -300,6 +300,7 @@ Five different metrics. Every story names the one it moved. No data access since
 ### K10: Forecast Platform Adoption: Customer Discovery (Keystone.ai)
 - **Role:** The umbrella adoption story, including the sequencing trade-offs. The only story that states the full forecast-adoption and override numbers.
 - **Action:** Started with ~3 months of deliberate high-touch manual support (K21) to learn the most painful workflows. Triangulated adoption metrics with planner interviews and workflow observation. Found 3 issues: explainability, manual review load, accuracy gaps. Sequenced deliberately: manual explanation support → explainability feature → agent → model roadmap.
+- **RICE (confirmed by user 2026-10-26):** she used RICE (Reach × Impact × Confidence / Effort) at Keystone to sequence the three blockers. All three affected the same planners (equal reach), so confidence and effort decided the order: explainability (high confidence from interviews, low effort) → agent (high confidence from the >70% prototype acceptance, K11) → accuracy (experimental, low confidence; ran in parallel).
 - **Result:** Forecast adoption 50% → 70% (explainability 50% → 60%, then agent +~10 pts to ~70%; confirmed 2026-10-15); override rate 50% → 20% across all interventions; support settled at ~1 HC per customer (confirmed 2026-10-24).
 - **Learning:** Do things that don't scale early, to learn what to build.
 - **Tags:** customer insight, sequencing
