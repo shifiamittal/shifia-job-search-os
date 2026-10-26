@@ -52,6 +52,8 @@ Platform PM one layer above infrastructure: MDLC as an internal developer platfo
 
 - v5 (user request): removed years from Amazon role-level titles (company span 2016 - 2024 kept); moved ML Ops Developer Platform above Financing & Credit. One-off for this resume; style guide unchanged.
 
+- v6 (2026-10-26, user wording): summary rewritten as two sentences; still 2 rendered lines, 1 page.
+
 ## Source check
 | Resume bullet (first 60 chars) | Source | Match |
 |---|---|---|
@@ -84,7 +86,7 @@ Keywords: no JD term dropped since v3 ("Pulumi" removed by choice; not a JD term
 SHIFIA MITTAL
 shifia.mittal09@gmail.com | 206-356-6348 | Seattle, WA, USA | linkedin.com/in/shifiamittal | github.com/shifiamittal
 SUMMARY
-Principal product manager with 11+ years shipping platforms and AI/ML products at scale: an agentic AI platform at Keystone’s AI startup ($7.5M ARR) and, at Amazon, a self-service ML platform (100+ production models) and credit products ($71M revenue).
+Principal product manager with 11+ years shipping platforms and AI/ML products at scale. Led an agentic AI platform at Keystone’s AI startup ($7.5M ARR); a self-service ML platform (100+ production models) and credit products ($71M revenue) at Amazon.
 EXPERIENCE	2015 - Present (11 years)
 Keystone.ai | AI division of Keystone, a 20+ year tech and economics advisory firm (450+ employees, PE-backed)
 Principal Product Manager-Technical	2024 - Present
