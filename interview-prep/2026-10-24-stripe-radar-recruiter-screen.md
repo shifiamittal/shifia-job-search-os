@@ -30,7 +30,7 @@ I also connect strongly with Stripe's writing culture. Writing is how I've led a
 - **Full (~100 words, ~40 seconds). Use if they skip TMAY or open with this question:** "I'm looking for a role that brings together the two things I've done best: setting product strategy that changes how organizations work, and building at scale. At Keystone.ai, I led an agentic AI product strategy that moved Keystone from consulting to product and changed how five Fortune 500 clients do demand planning, driving $7.5 million in ARR. At Amazon, I built payments products at scale: a credit product for 50,000+ businesses with $71 million in incremental revenue, and a fraud strategy six teams adopted. Stripe Radar is where I can do both, at Stripe's scale, in payments, fraud and integrations."
 If asked when you left: "I wrapped up at Keystone.ai in March." Then stop. Don't mention the layoff unless asked directly.
 
-**What level (~95 words, ~45 seconds; your wording):** "I'd rather level on scope. At Keystone.ai, I led a company-wide strategy for an AI platform that drove $7.5 million in ARR, influenced C-suite executives at our company and at Fortune 500 clients, set product direction for 30+ engineers and scientists, and led three PMs on a dotted line. At Amazon, I scaled a 0-to-1 credit product to $71 million in incremental revenue, led a fraud strategy that six teams adopted, and set a privacy policy with two VPs that about 20 Payments teams adopted. That's L4 scope. Are both roles scoped there?"
+**What level (~85 words, ~40 seconds; reworked 2026-10-26 to carry scope, not the revenue numbers TMAY already gave):** "I'd rather level on scope, because my work has been about setting direction across teams I don't manage. At Keystone.ai, I set the company's product strategy and pricing with our CEO and Sales, gave product direction to 30+ engineers and scientists, worked with C-suite executives at our Fortune 500 clients, and led three PMs. At Amazon, I defined how privacy rules applied to ML across Payments, took it to two VPs, and about 20 teams adopted it. That's L4 scope. Are both roles scoped there?"
 Stop after the question. **L4:** "Great," then ask for the full package. **L3:** "What would the hiring manager need to see to scope it at L4?"
 
 **Comp (OS "Comp Question Strategy": ask first, then a range from market data, never current pay):**
@@ -235,10 +235,11 @@ Before that, I owned Amazon's MLOps platform for 30+ scientists and 100+ models.
 The thread is that each move took me closer to the ML core, then to owning product for a whole company. Radar is where I'd bring both to Stripe's scale."
 **If they've just heard "Tell me about yourself":** skip the numbers you already gave and lead with the reason for each move.
 
-### What level are you targeting? (~95 words, ~45 seconds)
-Your wording (2026-10-25). Scope first, then name the level and ask.
+### What level are you targeting? (~85 words, ~40 seconds)
+Reworked 2026-10-26: scope markers only (who you influenced, how many teams, PMs led); no $7.5M, $71M or six teams, which TMAY already gave. Scope first, then name the level and ask.
+**If they've not heard the fraud story yet:** add "and led a fraud strategy six teams adopted" after the privacy line.
 
-"I'd rather level on scope. At Keystone.ai, I led a company-wide strategy for an AI platform that drove $7.5 million in ARR, influenced C-suite executives at our company and at Fortune 500 clients, set product direction for 30+ engineers and scientists, and led three PMs on a dotted line. At Amazon, I scaled a 0-to-1 credit product to $71 million in incremental revenue, led a fraud strategy that six teams adopted, and set a privacy policy with two VPs that about 20 Payments teams adopted. That's L4 scope. Are both roles scoped there?"
+"I'd rather level on scope, because my work has been about setting direction across teams I don't manage. At Keystone.ai, I set the company's product strategy and pricing with our CEO and Sales, gave product direction to 30+ engineers and scientists, worked with C-suite executives at our Fortune 500 clients, and led three PMs. At Amazon, I defined how privacy rules applied to ML across Payments, took it to two VPs, and about 20 teams adopted it. That's L4 scope. Are both roles scoped there?"
 - **L4 or above:** "That sounds right." Then ask for the full package.
 - **L3:** "What would the hiring manager need to see to scope this at L4?" Don't accept L3 on the call.
 
