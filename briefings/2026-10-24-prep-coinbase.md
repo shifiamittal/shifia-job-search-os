@@ -16,9 +16,9 @@ Sources: JD (P76485), Aga's emails (Oct 16, Oct 22), `insider-data/company-intel
 **The gap answer (say it before she has to ask):**
 > "One thing to be upfront about: my platform work has been one layer above core infrastructure. I owned Amazon's self-service ML platform, provisioning, CI/CD and monitoring for 100+ production models, and multi-cloud deployment on AWS and Azure at Keystone. I haven't owned compute or networking directly. I'd love to understand whether the team wants a deep infrastructure specialist or someone to bring a platform and AI lens to infrastructure."
 
-**Comp:** don't name a number first. "Could you share the level and the full package for this role, base, bonus, and equity?" If pressed: "For this scope I'm targeting total compensation in the $550–650K range, depending on level and the equity mix."
+**Comp (updated 2026-10-26):** Aga already shared it: **level equivalent to Amazon L7, $744,280/year, liquid (equity vests within 1 year).** Above your $600K target. Don't quote any lower number. If comp comes up: "The level and compensation you shared work for me." Ask only how it splits across base, bonus, and equity, and how refreshers work after year one.
 
-**Must-ask questions:** (1) What made my profile stand out? (2) What level is this, and does it have PM reports? (3) How much of the roadmap is agentic operations vs. core infrastructure? (4) What's the loop and timeline? (5) Is there anything about my background you'd like me to clarify?
+**Must-ask questions:** (1) What made my profile stand out? (2) Does the role have PM reports? (Level is L7-equivalent.) (3) How much of the roadmap is agentic operations vs. core infrastructure? (4) What's the loop and timeline? (5) Is there anything about my background you'd like me to clarify?
 
 **Never mention:** current pay ($400K is private), anything personal about the time since March, Coinbase's May layoffs.
 
@@ -137,7 +137,8 @@ Be precise if probed: one direct report (a Program Manager). [CONFIRM: the "3-me
 - **Total comp estimate:** L6 PM ~$450K–$700K+ (levels.fyi via company-intel). [VERIFY: intel 7 months old; run `/salary-research Coinbase Group PM` before any offer talk]
 - **Your target:** $600K total comp. Floor $380–400K. Base floor $250K.
 - **If asked about current pay:** "I'd rather focus on the value I'd bring. Washington postings include a range, so could you share the level and full package budgeted for this role?" (Washington employers can't ask pay history.)
-- **If asked about expectations:** "Could you share the level and the total package first, base, bonus, and equity?" If pressed: "For this scope I'm targeting total compensation in the $550–650K range, depending on level and the equity mix. The posted base range works for me."
+- **Offer shared by Aga (2026-10-26):** Amazon L7-equivalent, **$744,280/year**, liquid (equity vests within 1 year). **Do not quote $550–650K anymore**; it would anchor below their number.
+- **If asked about expectations:** "The level and compensation you shared work for me." Useful questions: the base / bonus / equity split; how equity refreshers work after the first year (with 1-year vesting, year-two pay depends on refreshers); sign-on.
 - **Lesson from LawnStarter:** a ~$250K base can still fall below the floor once equity is valued. Don't call it "aligned" until you know the equity.
 
 ### Questions to Ask Aga (pick 4)
