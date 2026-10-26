@@ -657,7 +657,14 @@ Source: user's answers in chat, 2026-10-24 (Stripe Radar Fraud & Abuse resume in
 - The MOQ APIs were used by **Seller Central** and by country-level teams in **2 Asian countries** (confirmed 2026-10-24).
 
 #### Writing (stated by user 2026-10-24)
-- Writing is a core strength. Has written PR/FAQs, strategy documents, PRDs, OP1 (annual planning) documents, MBRs/QBRs and VP-level alignment documents. Resume v7 says "written monthly VP-level business reviews" on the PBI bullet. [NEEDS DETAIL: which documents drove which decisions, e.g., an OP1 that secured headcount (MDLC "secured 8+ engineering HC year over year"), a PR/FAQ that launched a product, the Keystone pivot document.]
+- Writing is a core strength. Has written PR/FAQs, strategy documents, PRDs, OP1 (annual planning) documents, MBRs/QBRs and VP-level alignment documents.
+- **Documents that drove decisions (stated by user 2026-10-26):**
+  - **Keystone consulting-to-product pivot:** wrote the strategy document; read by the CEO and the President, and it aligned them on the pivot (K1, K32).
+  - **Keystone Data Platform PRFAQ:** secured funding for 4 engineers on the Data Platform team.
+  - **Keystone Data Platform onboarding doc:** presented to 5 scientists and 15 engineers; used to onboard them to the platform.
+  - **Keystone Deep Enterprise change-management docs:** read by client teams to drive usage on the client side. [NEEDS DETAIL: any usage result.]
+  - **Amazon ML privacy policy (A10):** a written strategy read by Payments teams and VPs; it got teams to use MDLC to make their models GDPR compliant (~20 Payments teams adopted).
+  - Also on record: BFS PRFAQ became the roadmap through BFS 2.0, 6 teams adopted the score (A21); MDLC strategy doc secured 2 HC for the MVP, then 8+ engineering HC year over year; SPORT API spec, 3 partner teams integrated (A15); monthly VP-level business reviews for PBI 2.0. Resume v7 says "written monthly VP-level business reviews" on the PBI bullet. [NEEDS DETAIL: which documents drove which decisions, e.g., an OP1 that secured headcount (MDLC "secured 8+ engineering HC year over year"), a PR/FAQ that launched a product, the Keystone pivot document.]
 
 #### Keystone client retention (stated by user 2026-10-24)
 - **Confirmed 2026-10-24 (corrected same day): all 5 clients renewed, with no churn, through the consulting-to-product move.** The user first said 4, then confirmed 5, matching K1's "5 Fortune 500 clients". The $7.5M ARR is recurring because of this retention. With no churn or downgrades, gross revenue retention was 100%; with 2 agent upgrades (+$500K ACV each), net revenue retention was above 100% (exact NRR depends on renewal timing, not on record).

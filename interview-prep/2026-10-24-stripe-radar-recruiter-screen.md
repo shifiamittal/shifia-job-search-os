@@ -22,7 +22,7 @@ My most recent work was in supply chain, but throughout, I've worked on ML decis
 
 I'm excited by Radar's potential to use signals across millions of businesses to spot new fraud patterns, to solve problems like fake accounts and free-trial abuse, and to integrate with the tools businesses already use.
 
-I also connect with Stripe's culture of rigorous writing. I led the fraud strategy by writing a PRFAQ to align teams on the business problem and the solution."
+I also connect strongly with Stripe's writing culture. Writing is how I've led at both Amazon and Keystone.ai. My fraud strategy PRFAQ became the roadmap six teams built on, and at Keystone.ai my strategy document aligned the CEO and President on our move from consulting to product."
 **Precision (applies to Tell me about yourself and Why Stripe):** the $8B is credit extended by Amazon's lending business as a whole, not Pay by Invoice alone. Say "part of a lending business that extended $8 billion," never "an $8 billion credit business."
 
 **Why are you looking (~60 words, ~30 seconds; your final wording, on the OS "Why are you leaving" framework: where you're going, not what you're leaving):** "I'm looking to solve problems at scale again, like I did at Amazon. At Keystone.ai, I took an AI platform from 0 to 1 and grew it to $7.5 million in ARR across five Fortune 500 clients. At Amazon, payments and lending were some of my favorite work. I believe Radar is where my scale, payments, fraud and integrations experience intersect."
@@ -196,7 +196,7 @@ Built on the job-search OS "Why here" framework: mission (with a personal connec
 
 I'm excited by Radar's potential to use signals across millions of businesses to spot new fraud patterns, to solve problems like fake accounts and free-trial abuse, and to integrate with the tools businesses already use.
 
-I also connect with Stripe's culture of rigorous writing. I led the fraud strategy by writing a PRFAQ to align teams on the business problem and the solution."
+I also connect strongly with Stripe's writing culture. Writing is how I've led at both Amazon and Keystone.ai. My fraud strategy PRFAQ became the roadmap six teams built on, and at Keystone.ai my strategy document aligned the CEO and President on our move from consulting to product."
 **Precision:** the $8B is credit extended by Amazon's lending business as a whole, not Pay by Invoice alone. Say "part of a lending business that extended $8 billion," never "an $8 billion credit business."
 
 ### "Have you interviewed with Stripe before?"
@@ -296,8 +296,9 @@ Don't quote an NRR percentage; the exact figure depends on renewal timing.
 **Being rewritten (2026-10-25):** you built tools for credit analysts and automated parts of their work. The full answer waits on the details (who used them, what they did, what you automated, impact).
 **If asked before it's finished:** "Yes. I built tools for our credit analysts and automated parts of their work." Then stop; don't add specifics you haven't confirmed.
 
-**"Stripe is a writing culture. How do you write?"** (~110 words)
-"Writing is how I do product work. The clearest example: I wrote the PRFAQ for Amazon Business's fraud score instead of a requirements doc, because the hard part was getting engineering, buyer risk and leadership to agree on a new strategy, not listing requirements. It opened with the customer outcome, then answered the hard questions directly: how big the problem was, the trade-off between fraud control and friction, how it fit with existing fraud models, and a four-phase roadmap. Engineering started design from it, and its phases became the roadmap through version two. My rule: goal and customer first, then the decision and its trade-off, then the evidence."
+**"Stripe is a writing culture. How do you write?"** (~125 words; updated 2026-10-26 with your Keystone documents)
+"Writing is how I lead. At Amazon and Keystone.ai, I've written strategy docs, PRFAQs, PRDs, onboarding guides and VP-level business reviews, and each one was there to drive a decision. Two examples. For Amazon Business's fraud score, I wrote a PRFAQ instead of a requirements doc, because the hard part was aligning engineering, buyer risk and leadership on a new strategy. It became the roadmap through version two, and six teams built on the score. At Keystone.ai, my strategy document aligned the CEO and President on moving from consulting to product, and a PRFAQ secured four engineers for our data platform. My rule: goal and customer first, then the decision and its trade-off, then the evidence."
+**If they want more:** the ML privacy policy, a written strategy that got ~20 Amazon Payments teams to make their models GDPR compliant through MDLC; the Data Platform onboarding doc for 5 scientists and 15 engineers; change-management docs Deep Enterprise clients used to drive usage.
 **L4 signal:** a document that changed direction across teams. Full version: story bank S5.
 
 **"How do you develop other PMs?"** (L4 expects it; ~120 words)
