@@ -666,6 +666,9 @@ Source: user's answers in chat, 2026-10-24 (Stripe Radar Fraud & Abuse resume in
   - **Amazon ML privacy policy (A10):** a written strategy read by Payments teams and VPs; it got teams to use MDLC to make their models GDPR compliant (~20 Payments teams adopted).
   - Also on record: BFS PRFAQ became the roadmap through BFS 2.0, 6 teams adopted the score (A21); MDLC strategy doc secured 2 HC for the MVP, then 8+ engineering HC year over year; SPORT API spec, 3 partner teams integrated (A15); monthly VP-level business reviews for PBI 2.0. Resume v7 says "written monthly VP-level business reviews" on the PBI bullet. [NEEDS DETAIL: which documents drove which decisions, e.g., an OP1 that secured headcount (MDLC "secured 8+ engineering HC year over year"), a PR/FAQ that launched a product, the Keystone pivot document.]
 
+#### S-team goal ownership (stated by user 2026-10-26)
+- She **owned** the S-team goal (a goal tracked by Amazon's senior leadership team) for the Amazon Business ML credit product (A1), run with monthly VP-level business reviews. OK to say "I owned an S-team goal." It's one goal, not several; don't say "SVP-level goals."
+
 #### Keystone client retention (stated by user 2026-10-24)
 - **Confirmed 2026-10-24 (corrected same day): all 5 clients renewed, with no churn, through the consulting-to-product move.** The user first said 4, then confirmed 5, matching K1's "5 Fortune 500 clients". The $7.5M ARR is recurring because of this retention. With no churn or downgrades, gross revenue retention was 100%; with 2 agent upgrades (+$500K ACV each), net revenue retention was above 100% (exact NRR depends on renewal timing, not on record).
 - Resume (v7): "every client renewed through the product move, with no churn, and 2 upgraded to agents (+$500K ACV each)." Consistent with K1's 5 clients.
