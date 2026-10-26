@@ -37,7 +37,11 @@ Stop after the question. **L4:** "Great," then ask for the full package. **L3:**
 1. **Ask for their range first:** "I'm focused on finding the right fit and the full package. Could you share the level for this role and the budgeted total compensation for it, including base, bonus and equity?"
 2. **If pressed, give a range from market data:** "Based on my research, total compensation for this scope at Stripe is roughly $550K to $650K. Given the multi-team scope I've worked at, leading fraud strategy and pricing, I'm targeting that range, and I'm flexible on the mix of base and equity."
 3. **If asked for your source:** "That's from levels.fyi data for Stripe product managers at L4 and L5, which is around $540K to $600K, plus the Seattle market."
-- **Never share current pay:** "I'd rather focus on the value I'd bring to this role. Could you share what's budgeted for this level?"
+- **"What were you making at Keystone?" Never share past pay** (it anchors the offer on Keystone, not Stripe's band; Washington's Equal Pay and Opportunities Act bars employers from asking applicants for salary history, so declining is normal). Escalate only if pushed:
+  1. "I'd rather focus on the value I'd bring to this role and what's budgeted for it. My target is based on market data for this scope, $550K to $650K in total compensation. Could you share the range for this level?"
+  2. "I'd prefer to keep past compensation out of it. I'm focused on what this role pays at the right level, and I'm flexible on the mix of base and equity."
+  3. (rare) "Since this role is in Seattle, I'd prefer to keep the conversation on the role's range."
+  Don't invent or round up a number, don't say "I'm not allowed to say," don't apologize. Same calm tone as the sponsorship answer.
 - **If they say L4 tops out lower:** don't argue on the call: "Thanks, that's helpful. Let's see where the process lands on level."
 
 **Logistics:** "No sponsorship needed; I'm a Green Card holder. I'm in Seattle, and 50% in the office works. I'm flexible on start date and can start quickly."
@@ -322,7 +326,13 @@ Built on the job-search OS Comp Question Strategy (`insider-data/behavioral-inte
 1. **Ask for their range first:** "I'm focused on finding the right fit and the full package. Could you share the level for this role and the budgeted total compensation for it, including base, bonus and equity?"
 2. **If pressed, give a range from market data:** "Based on my research, total compensation for this scope at Stripe is roughly $550K to $650K. Given the multi-team scope I've worked at, leading fraud strategy and pricing, I'm targeting that range, and I'm flexible on the mix of base and equity."
 3. **If asked for your source:** "That's from levels.fyi data for Stripe product managers at L4 and L5, which is around $540K to $600K, plus the Seattle market."
-- **Never share current pay:** "I'd rather focus on the value I'd bring to this role. Could you share what's budgeted for this level?"
+- **"What were you making at Keystone?" (salary history; added 2026-10-26 from the mock)**
+  - **Why not share:** it anchors the offer on a startup's pay instead of Stripe's L4 band. Both roles are in Seattle, and Washington's Equal Pay and Opportunities Act bars employers from asking applicants about salary history, so declining is normal. If you volunteer it, they can use it. You don't need to cite the law.
+  - **First answer (usually enough):** "I'd rather focus on the value I'd bring to this role and what's budgeted for it. My target is based on market data for this scope, $550K to $650K in total compensation. Could you share the range for this level?"
+  - **If pushed again:** "I'd prefer to keep past compensation out of it. I'm focused on what this role pays at the right level, and I'm flexible on the mix of base and equity."
+  - **Only if pushed a third time (rare):** "Since this role is in Seattle, I'd prefer to keep the conversation on the role's range."
+  - **Don't:** invent or round up a number (Stripe may verify); say "I'm not allowed to say" or "it's confidential" (sounds evasive); apologize.
+- **From the mock (2026-10-26):** in step 1, add the bridge "…and I'm happy to share my range once I understand the level." In step 2, say "for this scope," not "at L4": levels.fyi puts L4 at ~$541–557K, so "L4 is $550–650K" can be corrected on the spot. End firmly: "I'm targeting that range," not "that would be my target."
 - **If they say L4 tops out lower:** don't argue on the call: "Thanks, that's helpful. Let's see where the process lands on level."
 - **Also ask:** how Stripe values its private equity (latest tender price).
 
