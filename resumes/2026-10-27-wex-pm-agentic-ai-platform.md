@@ -65,12 +65,19 @@ WEX is a payments company. The Amazon Business financing and fraud-score bullets
 - **Fact check:** $100M+ is the canonical SPORT + TRACE + MOQ total; 50+ drivers, 14 teams, and data contracts/SLAs are TRACE facts (A11) and remain accurate as part of the portfolio.
 - **Render:** 1 page; the new bullet is 2 lines with no short last line.
 
+## Round 3 (user edits, 2026-10-27)
+- **Supply Chain:** replaced with your bullet naming SPORT, MOQ and TRACE ($100M+ total, $40M from TRACE, 20K merchants, ~60% higher adherence). Bolded the results per the style guide. 3 lines, last line OK.
+- **Agent bullet:** dropped "with guardrails in tool definitions" (your edit) and fixed the stray ",;". To avoid a short last line that split "4 hrs/day", tools went into a parenthetical "(LLMs, LangGraph, MCP tool access)" and "70% recommendation acceptance" became "70% acceptance". Now 2 lines.
+- **Keyword count:** unchanged except "recommendation acceptance" (not a JD term). LLMs, LangGraph, MCP and tool access are kept.
+- **Fact check:** all figures match the library (MOQ 20K merchants and ~60% adherence; TRACE $40M, 50+ drivers, 14 systems; $100M+ total).
+- **Render:** 1 page; no 1–3-word last lines.
+
 ## Source check
 | Resume bullet (first 60 chars) | Source | Match |
 |---|---|---|
 | Summary | Profile Basics; Canonical Metrics; K10; A8 | REWORDED |
 | Led 0→1 product strategy and go-to-market for an enterprise… | K1; LinkedIn bullet ("go-to-market"); Source Decision 24 | REWORDED |
-| Built a multi-agent system on LLMs, LangGraph and MCP tool a… | K2; Source Decision 18; Canonical (70%, 4 hrs/day) | REWORDED |
+| Built a multi-agent system (LLMs, LangGraph, MCP tool access)… | K2; Source Decision 18; Canonical (70%, 4 hrs/day) | REWORDED |
 | Prototyped an agent in Codex to prove value while resources… | K11 | REWORDED |
 | Set governance for agent actions after 60% of early automate… | K3 | REWORDED |
 | Ran 3 months of high-touch support with early adopters, plus… | K10, K21 | REWORDED |
@@ -84,7 +91,7 @@ WEX is a payments company. The Amazon Business financing and fraud-score bullets
 | Treated builder onboarding as a product, with templates, doc… | A8 (templates, docs, community), A20 | REWORDED |
 | Made governance a platform default (access controls, encrypt… | A9, A20, Source Decision 23 | REWORDED |
 | Made privacy compliance a platform default under EU and US p… | A10 | REWORDED |
-| Built and scaled ML recommendation products for inventory pl… | Supply Chain overview ($100M+ across SPORT, TRACE, MOQ); A11 (50+ drivers, 14 teams, data contracts and SLAs); wording from the Qualcomm resume | REWORDED |
+| Built and scaled three ML recommendation products for seller… | User wording (2026-10-27). Supply Chain overview ($100M+ total); MOQ (20K merchants, ~60% adherence); A11 (TRACE $40M, 50+ drivers, 14 systems) | REWORDED |
 | Launched self-service price-perception insight tools… | Amazon Pricing; Source Decision 20 | REWORDED |
 | Cognizant line | Source Decision 21 | REWORDED |
 
@@ -100,7 +107,7 @@ EXPERIENCE	2015 - Present (11 years)
 Keystone.ai | AI division of Keystone, a 20+ year tech and economics advisory firm (450+ employees, PE-backed)
 Principal Product Manager-Technical	2024 - Present
 - Led 0→1 product strategy and go-to-market for an enterprise agentic AI platform, moving Keystone from consulting to product with 30+ engineers and data scientists; reached $7.5M ARR and $25M in annualized client savings across 5 Fortune 500 clients.
-- Built a multi-agent system on LLMs, LangGraph and MCP tool access that diagnoses forecast problems and recommends fixes, with guardrails in tool definitions; staged the release through shadow mode and eval gates to 70% recommendation acceptance, cutting planner effort from 4 hrs/day to 4 hrs/week.
+- Built a multi-agent system (LLMs, LangGraph, MCP tool access) that diagnoses forecast problems and recommends fixes; staged the release through shadow mode and eval gates to 70% acceptance, cutting planner effort from 4 hrs/day to 4 hrs/week.
 - Prototyped an agent in Codex to prove value while resources were constrained; over 70% of its recommendations were adopted, which won leadership’s approval to trade 2 months of planned accuracy work for agent capabilities.
 - Set governance for agent actions after 60% of early automated actions were reversed: three autonomy tiers (act, recommend for approval, surface only), faithfulness evals, audit logs and a canary rollout; raised action acceptance from 30% to 80%.
 - Ran 3 months of high-touch support with early adopters, plus interviews and workflow observation; found the blockers (explainability, review load, accuracy) and sequenced fixes, raising forecast adoption from 50% to 70%.
@@ -118,7 +125,7 @@ Sr. Product Manager-Technical, ML Ops Developer Platform	2020 - 2022
 - Made governance a platform default (access controls, encryption, versioning, lineage, threshold-based monitoring) under Federal Reserve model-risk rules; expanded monitoring from 30 to all 100 production models, avoiding ~400 science-weeks of setup.
 - Made privacy compliance a platform default under EU and US privacy law with Amazon’s privacy and legal teams; adopted across ~20 Amazon Payments teams, saving 5 science FTE per year.
 Product Manager-Technical, Supply Chain Optimization	2018 - 2020
-- Built and scaled ML recommendation products for inventory placement, purchase thresholds and shipping costs across thousands of sellers, unifying 50+ cost drivers from 14 teams’ systems under data contracts and SLAs; delivered $100M+ in cost savings.
+- Built and scaled three ML recommendation products for sellers: inventory placement (SPORT), purchase thresholds (MOQ, 20K merchants, ~60% higher adherence), and causal shipping-cost attribution (TRACE, 50+ drivers across 14 systems); delivered $100M+ in cost savings, including $40M from TRACE.
 Product Manager, Amazon Pricing	2016 - 2018
 - Launched self-service price-perception insight tools benchmarking Amazon against 800+ retailers in 17 countries; adopted by 40+ global pricing leaders, with signals feeding the pricing models that set Amazon’s prices.
 Cognizant Technology Solutions | Designed infrastructure solutions for 30+ APAC deals worth $25M (45% win rate)	2015 - 2016
