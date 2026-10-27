@@ -14,7 +14,7 @@ Sources: JD (P76485), Aga's emails (Oct 16, Oct 22), `insider-data/company-intel
 **60-second pitch:** see "Tell me about yourself" below. Practice it out loud with a timer.
 
 **Talk track (in order):**
-1. **Pitch** (under 2 min): "Tell me about yourself" below. It already states the gap.
+1. **Pitch** (under 2 min): final version below. It frames the gap as "one layer above core infrastructure."
 2. **Three technical decision stories** (~45 sec each; use when she asks about your background, technical depth, or AI):
    - **AI cost vs. quality (K14):** "In our forecasting agent pilot, model cost exceeded the cost of doing the work by hand, which kills a product. I tested models on cost, latency, quality, and adoption, then routed simple cases to cheap models and only ambiguous ones to strong models. Run cost dropped about 30% with lower latency and no change in quality. Since then I track cost per accepted recommendation, not cost per call."
    - **Where automation acts vs. where humans decide (K3):** "We first let the agent act on mid-confidence decisions, and 60% got reversed because it couldn't show its evidence. I reset to tiered autonomy: the agent acts alone only on low-risk, reversible decisions, recommends with evidence for the middle, and only flags the rest. Guardrails live in the tool definitions, not the prompts. Action acceptance went from 30% to 80%." (Maps to Aga's infrastructure-agents question.)
@@ -83,16 +83,19 @@ Sources: JD (P76485), Aga's emails (Oct 16, Oct 22), `insider-data/company-intel
 
 ## Your Game Plan
 
-### "Tell Me About Yourself" (~200 words, under 2 minutes; updated 2026-10-27 to the Addressing-Weaknesses Framework)
+### "Tell Me About Yourself" (final, your wording, 2026-10-27; ~195 words, under 2 minutes)
 Order: Present → Past (selective) → weakness head-on → Future.
 
 > "I'm a Principal technical PM with 11+ years building AI products and the platforms underneath them.
 >
-> Most recently at Keystone.ai, I took an agentic AI platform from 0→1 to $7.5M ARR with five Fortune 500 clients. I set product direction with the CEO and CTO and led 30+ engineers and data scientists through the company's move from consulting to product. We deployed into clients' own AWS and Azure environments, and I built agents that diagnose production problems and act with tiered autonomy. I also had to make the AI pay for itself: routing work between models cut agent run cost about 30%.
+> Most recently at Keystone.ai, I led an agentic AI platform from 0→1 to $7.5M ARR with five Fortune 500 clients. I set product direction with the CEO and CTO and led 30+ engineers and data scientists through the company's move from consulting to product. We deployed into clients' own AWS and Azure environments, and I built agents that diagnose production problems and act with tiered autonomy. I also made the AI pay for itself by choosing models based on task complexity.
 >
-> Before that, I spent eight years at Amazon. Most relevant here: I owned the self-service platform our lending scientists used to ship 100+ production models, covering provisioning, CI/CD, and monitoring. We cut deployment time 40% with flat headcount, in a business regulated by the Federal Reserve.
+> Before that, I spent eight years at Amazon. My most relevant experience was leading an ML Ops platform that allowed 30+ scientists to deploy models in a financially regulated environment. The platform offered capabilities like compute provisioning, automated CI/CD with containerized deployments along with regulatory and compliance features by default. It enabled us to scale to 100+ production models without additional headcount.
 >
-> So my platform work has been one layer above core infrastructure. I haven't owned compute or networking directly. What I'd bring is the AI side you described: agents in operations, the cost of AI, and keeping humans in control where it matters. That's what interests me about this role."
+> So my platform work has been one layer above core infrastructure. What gets me excited about this role is the opportunity to own agents in operations, the cost of AI, and keeping humans in control where it matters."
+
+**Follow-up ready answers for menu items:** "pay for itself" → K14: pilot cost more than manual work; routing simple cases to cheap models cut run cost ~30% with no quality loss. "compliance by default" → A9/A10: monitoring to Federal Reserve model-risk rules (30 → all 100 models; ~400 science-weeks avoided); privacy controls under EU/US law across ~20 teams. "AWS and Azure" → K12/K15: managed service in clients' clouds, infrastructure-as-code; 2 data-residency clients.
+**Gap:** the pitch says "one layer above core infrastructure." If she asks whether the team needs a specialist, or asks about compute/networking, say plainly: "I haven't owned compute or networking directly." Say it once.
 
 **Weaknesses it addresses:** (1) no core cloud-infra ownership: stated head-on; (2) Group PM leadership scope: CEO/CTO, 30+ engineers and data scientists; (3) startup "Principal" title: $7.5M ARR, Fortune 500 clients.
 **Menu items she can order:** cost routing (K14), tiered autonomy (K3), AWS/Azure deployment (K12/K15), MDLC (A8/A20), Federal Reserve monitoring (A9).
