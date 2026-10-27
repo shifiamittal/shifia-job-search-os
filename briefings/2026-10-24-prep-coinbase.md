@@ -103,8 +103,17 @@ Order: Present → Past (selective) → weakness head-on → Future.
 **If asked "Are you still at Keystone?"** (resume shows 2024 – Present): "My role was part of a restructuring at Keystone.ai earlier this year. I've used the time to go deep on agent evaluation with hands-on builds, and to be selective about my next role." Then move on.
 **Timing:** practice to under 2 minutes. If you run long, cut "We deployed into clients' own AWS and Azure environments."
 
-### "Why Coinbase?" (~120 words)
-> "Three reasons. First, the problem: when most code is written with AI and every engineer has several agents, the hard part moves from writing code to shipping it safely, and that lands on infrastructure: deployment safety, capacity, and cost. Second, the agent question Aga raised, where automation acts and where humans stay in control, is the exact design problem I worked on at Keystone, and infrastructure for a financial platform is a place where getting it right matters. Third, the environment: a regulated, high-trust platform where reliability is the product. My Amazon lending work taught me how that changes product decisions."
+### "Why Coinbase and why this role?" (final, your wording, 2026-10-27; ~125 words)
+Framework: Why Here (mission + personal connection, role fit, culture fact) + Why This Job (enthusiasm for the role, trajectory).
+
+> "First, Coinbase's mission to increase economic freedom resonates with me. At Amazon, I built a 0-to-1 credit product for small businesses and raised their approval rates from 4% to 15%.
+>
+> Second, the role. Throughout my career I've built platforms for technical teams, engineers and scientists. At Keystone, I led the strategy for an enterprise AI platform, including standardizing deployment into clients' clouds with infrastructure-as-code, which helped cut deployment from 6 months to 4. Core infrastructure is that same job, for every engineering team at Coinbase.
+>
+> Third, how Coinbase operates. I've read how Coinbase is becoming AI-native, with engineers directing AI rather than writing code by hand. I've built AI systems in production with the right human-in-the-loop controls, so that's a way of working I'm excited about."
+
+**If asked "How did you use infrastructure-as-code?":** "Clients wanted the platform in their own cloud for data-residency reasons, so we turned deployment into a repeatable product instead of custom work each time: infrastructure-as-code across AWS and Azure, reusable components, and a standard upgrade process. That's what let us take on two clients with strict data-residency needs." (K12, K15)
+**If asked about the 4% → 15%:** thin-file SMB underwriting rebuilt on Amazon behavioral data; no credit losses after full launch (A3).
 
 ### "Are you familiar with crypto?" (honest bridge, ~60 words)
 > "I'm not a crypto-native builder, and I won't pretend to be. What I do know is regulated financial products: credit and fraud decisions at Amazon, with regulators reviewing our models. For this role, what matters most is that the platform stays up through 24/7 markets and big traffic spikes, which is an infrastructure problem I find compelling."
