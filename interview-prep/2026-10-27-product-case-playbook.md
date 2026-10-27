@@ -195,3 +195,12 @@ If you're unsure, ask: "Is the goal here to grow a metric, or to design somethin
 | 7 | Mixed | "How would you improve Stripe's developer onboarding?" (common Stripe question) | Full mock, then compare to Day 1 recording |
 
 Stripe questions above come from `insider-data/company-intel/stripe.md`. [VERIFY: Company intel last updated 2026-03-24. Key details may have changed.]
+
+---
+
+## 7. Update 2026-10-27: what Stripe actually asks
+
+See `interview-prep/stripe-product-sense-question-bank.md` (37 reported questions, 2021–2026). It changes the priorities above for the Stripe round:
+- The round opens with "3 favorite products" (15 of 37) and then "Design [famous app] for [niche user]" (12 of 18 entries since 2025). That's **Design + Improvement**, sections 3.1 and 3.4.
+- Zero payments questions and zero pricing questions. Keep the Radar examples for execution and "why Stripe"; practice this round on consumer products.
+- Practice first, word for word: Spotify for restaurants, Airbnb for pets, Google Maps for hikers, airport ATM, Google Maps for small businesses.
