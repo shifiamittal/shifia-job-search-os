@@ -116,18 +116,18 @@ Framework: Why Here (mission + personal connection, role fit, culture fact) + Wh
 **Open [CONFIRM]:** customer impact for the existing enterprise credit product isn't in the library (only revenue: $15M of $71M from personalization). Is the "global consumer credit product" (−50% onboarding abandonment, +7% approvals) the same product? Until confirmed, the safe customer-focused line is: "…and helped more approved enterprise customers actually use their credit by simplifying onboarding and personalizing outreach."
 **If asked about the credit work (A1–A3):** SMBs drove ~60% of sales but only 4% were approved; rebuilt underwriting on Amazon behavioral data with credit at checkout and transaction controls (4% → 15%, no credit losses after full launch). Enterprise: only 7–10% of approved customers were active, so simplified a 7-page onboarding and added a propensity model and personalized marketing ($15M of the $71M from personalization).
 
-### "What are you looking for in your next role?" / "Why are you looking?" (final, your wording, 2026-10-27; ~150 words, about 60 seconds)
-Framework: "Why are you leaving?" (lead with where you're going) + "Why this job" (tie to the role's responsibilities). Two strengths: platform strategy (Keystone) and scale (Amazon).
+### "What are you looking for in your next role?" / "Why are you looking?" (final, 2026-10-27; ~85 words, about 35 seconds)
+Framework: "Why are you leaving?" (lead with where you're going) + "Why this job" (tie to the role). Two strengths: platform strategy (Keystone) and scale (Amazon).
 
-> "I'm looking for a role that brings together two things I've enjoyed most in my career: setting platform strategy that changes how engineering teams work, and building systems at scale.
+> "I'm looking for a role that brings together the two things I've done best: setting platform strategy for technical teams, and building at scale.
 >
-> At Keystone.ai, I led the standardization of how we deployed our AI platform into customers' cloud environments using infrastructure as code. That made deployments more repeatable and reduced the need for customer-specific engineering.
+> At Keystone.ai, I led the strategy to standardize deployments into every client's cloud using infrastructure as code, which made deployments repeatable and helped cut deployment time from 6 months to 4.
 >
-> At Amazon, I worked on platforms operating at much larger scale. For example, I led an ML platform that enabled 30+ scientists to deploy and manage over 100 production models.
+> At Amazon, every product area I owned was at scale. For example, I led the ML Ops platform that let 30+ data scientists deploy 100+ models in production.
 >
-> What excites me about Coinbase's Core Infrastructure role is the opportunity to combine both experiences: setting the strategy for foundational infrastructure that engineering teams depend on, while improving developer productivity, reliability, and cost efficiency. And with AI changing how software gets built and shipped, I think these platform decisions are becoming even more important."
+> Coinbase's Core Infrastructure role is where I can do both, especially as AI changes how software gets built and how infrastructure is run."
 
-**Optional number for the Keystone paragraph:** "…which helped cut deployment from 6 months to 4." (K1; several changes contributed, so "helped").
+**Facts to stay on:** 6 → 4 months is platform deployment (K1; several changes contributed, so "helped"). Don't say "3 months" (that's the data platform, K15) or "more reliable" (not recorded; "repeatable" is).
 **If asked "How did you standardize it?":** infrastructure-as-code across AWS and Azure, reusable components, a standard upgrade process; enabled 2 clients with strict data-residency needs (K12, K15).
 **If she asks "Why not an AI product role?":** "I'm open to both. What matters most is the problem: AI in production at scale. At Coinbase, a lot of that problem sits in infrastructure right now."
 **Don't:** mention comp, brand, or anything personal; don't say what you're moving away from.
