@@ -180,6 +180,27 @@ Framework: Accomplishment (U-shaped arc: challenge → struggle → triumph) for
 
 **Follow-ups ready:** platform deployment 3 months → 3 weeks (canonical; separate from onboarding); ~2 weeks per model saved in data wrangling; semantic layer for the AI assistant cut repeat questions 50% → 30% (K6); started from a 2–3 week event-stream demo that won a paying customer (K16). Weakness angle: early on you wrote queries yourself, then shifted to setting guardrails (qa-master weakness answer).
 
+#### "Walk me through an end-to-end technical product" — ML Ops platform (A8, A9, A10, A20) · target 9/10 · ~220 words
+**Situation:** Amazon had an $8B credit business that relied on ML credit models. The number of models was growing 30% a year, and deploying each one took months of engineering effort.
+
+**Stakes:** Deployment became a bottleneck in scaling the credit business. And these models made financial decisions without consistent monitoring or governance, which was a regulatory risk.
+
+**Actions:** I built a platform around three pillars: fast deployment, compliant by default, and scalable across teams.
+- **Fast deployment:** I launched self-service ML pipelines, so scientists could configure data sources, training, backtesting, inference and containerization with no engineering support. I chose a UI over scripts, even though it cost more to build, because it cut ramp-up time for scientists.
+- **Compliant by default:** I built monitoring, versioning and privacy controls into the platform. The key call was standardizing monitoring thresholds instead of custom setups per model, which cost scientists 1–2 weeks each, so every model was monitored by default.
+- **Scalable:** ML deployment was a problem across Amazon, so I made onboarding self-service with templates, documentation, community support and log access, so the platform team didn't become a bottleneck.
+
+**The hard part:** a senior engineering manager pushed back, because past governance features had gone unused. I sat down with him, showed these were fully automated with no extra work for scientists, and we validated it with scientists together.
+
+**Impact:**
+- Cut deployment time 40% and scaled to 100+ production models with flat headcount
+- Monitoring from 30 to all 100 models by default, avoiding ~400 science-weeks of setup
+- 5 new teams onboarded outside Amazon lending; scientists rated it 8+ out of 10
+
+**Why 9/10:** closes the loop on the deployment problem (−40%); every pillar has a decision with a tradeoff (UI vs. scripts, standard vs. custom monitoring); has the struggle (A9); results tie to the JD (engineering velocity, reliability, compliance). Inventory and lineage left out because their launch status isn't confirmed.
+**Infra tie-in if asked:** "It's the same job as core infrastructure, for a different user: one standard, self-service way to provision, deploy and monitor, with compliance built in."
+**Recruiter-call cut (~60 sec):** situation, stakes, first two pillars, impact. Skip onboarding and the hard part unless asked.
+
 #### "What key technical decisions have you driven?" (K13, K12, A9/A20) · ~170 words
 > "Three that shaped the platforms I owned.
 >
