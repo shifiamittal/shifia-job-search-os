@@ -258,13 +258,35 @@ Framework: tradeoff → decision → result, each with a number. Chosen to avoid
 - **If asked about expectations:** "The level and compensation you shared work for me." Useful questions: the base / bonus / equity split; how equity refreshers work after the first year (with 1-year vesting, year-two pay depends on refreshers); sign-on.
 - **Lesson from LawnStarter:** a ~$250K base can still fall below the floor once equity is valued. Don't call it "aligned" until you know the equity.
 
-### Questions to Ask Aga (pick 4)
-1. "What made my profile stand out for this role?" (Tells you: infra specialist vs. platform/AI lens.)
-2. "What level is this, and does it include PM reports?"
-3. "How is the work split between core infrastructure and the agentic operations side you mentioned?"
-4. "What would make this hire a success in the first year?"
-5. "What does the interview loop look like, who's on it, and what's the timeline?"
-6. Close: "Is there anything about my background you'd like me to clarify?"
+### Questions to Ask Aga (final 2026-10-27; ask in this order, ~5 minutes)
+Rules from your interview history (qa-master): don't ask "What does the ideal candidate look like?" (used 3 times before). Your best-scoring question (8/10) was specific to the company, followed by playing back the answer. Listen, then reflect it back in one sentence before the next question.
+
+**1. The fit question (most important; ask first, or right after the pitch):**
+> "What made my profile stand out to you for this role? Is the team looking for a deep infrastructure specialist, or someone to bring a platform and AI lens to infrastructure?"
+- If **platform/AI lens** → play back: "That's helpful. That's where I'd add the most: agents in operations, the cost of AI, and self-service for engineers." Continue.
+- If **deep specialist** → say it once: "Then I should be clear: I haven't owned compute or networking directly." Then go to question 6.
+
+**2. Scope of the AI work:**
+> "You mentioned agents for network diagnostics, DNS retirement checks and migrations. How much of this role is about turning those into products, versus core infrastructure strategy?"
+
+**3. Team and level:**
+> "Does this role have PMs reporting to it, and how does it fit with Bryan's and Alex's teams?"
+
+**4. Success:**
+> "What would make this hire a success in the first year?"
+(Listen for: reliability targets, cost goals, an AI-in-operations roadmap. Play back the one that matches your strengths.)
+
+**5. Process:**
+> "What does the interview loop look like, who's on it, and what's the timeline?"
+
+**6. Only if it's clearly not a fit:**
+> "If this role needs deeper infrastructure experience, are there roles in Platform, or on the AI and agents side, like the Developer Platform or AgentKit, where my background fits better?"
+
+**7. Close (always):**
+> "Is there anything about my background you'd like me to clarify?"
+
+**Optional, only if time allows (comp is otherwise closed):** "With equity vesting within a year, how do refreshers work after year one?"
+**Don't ask:** anything about the May layoffs, work-life balance, or remote flexibility (surges are in the JD).
 
 ### Bryan Gough intro
 Aga offered a direct conversation with Bryan. Recommendation: accept it at the end of this call, after you know the level and what they want. "I'd welcome a conversation with Bryan. Before that, is there anything I should read or prepare?"
