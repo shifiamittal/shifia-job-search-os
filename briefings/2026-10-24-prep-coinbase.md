@@ -201,14 +201,19 @@ Framework: Accomplishment (U-shaped arc: challenge → struggle → triumph) for
 **Infra tie-in if asked:** "It's the same job as core infrastructure, for a different user: one standard, self-service way to provision, deploy and monitor, with compliance built in."
 **Recruiter-call cut (~60 sec):** situation, stakes, first two pillars, impact. Skip onboarding and the hard part unless asked.
 
-#### "What key technical decisions have you driven?" (K13, K12, A9/A20) · ~170 words
-> "Three that shaped the platforms I owned.
+#### "What key technical decisions have you driven?" (K13, A4, K14) · final 2026-10-27 · ~180 words
+Framework: tradeoff → decision → result, each with a number. Chosen to avoid repeating stories used in other answers (tiered autonomy, UI vs. scripts, standard monitoring, IaC into client clouds).
+
+> "Three decisions, each a different tradeoff.
 >
-> First, modular services over a monolith at Keystone. Fortune 500 clients needed to deploy only what they bought and pass strict security reviews. Engineering pushed back on the six-week cost, so I framed it as six weeks now versus a rewrite later. We passed the flagship client's security review on time, and a second client onboarded with no refactor.
+> First, reliability versus speed, in architecture. At Keystone, I pushed for modular services over a monolith, because Fortune 500 clients needed to deploy only what they bought and pass strict security reviews. Engineering pushed back on the six extra weeks, so I framed it as six weeks now versus a rewrite later. We passed the flagship client's security review on time, and a second client onboarded with no refactor.
 >
-> Second, deploying into clients' own clouds instead of pure SaaS. Leadership and investors wanted SaaS margins, but clients had data-residency requirements. I made deployment a repeatable product with infrastructure as code across AWS and Azure. It cost an extra month, and brought in two clients SaaS couldn't serve.
+> Second, speed versus risk. At Amazon, for our small-business credit product, I chose weekly batch credit decisions over real-time for the first version, with exposure limits, and kept real-time on the roadmap. That kept ML out of the checkout path and let us launch three months earlier.
 >
-> Third, at Amazon, standard monitoring instead of custom monitoring per model. Every custom setup cost a scientist one to two weeks. Standard thresholds took monitoring from 30 to all 100 models and avoided about 400 science-weeks of setup."
+> Third, cost versus quality. Our forecasting agent pilot cost more than the manual work it replaced. I tested models on cost, latency and quality, then routed simple cases to cheaper models. Run cost dropped about 30%, with no drop in quality."
+
+**Follow-ups ready:** K13: aligned on interface contracts early with engineering. A4: exposure caps by risk tier and limits on high-loss categories; SMB approvals 4% → 15%, no credit losses after full launch. K14: now track cost per accepted recommendation, not cost per call.
+**Recruiter-call cut:** if asked briefly, give K13 only, then offer: "Happy to share a couple more."
 
 **Decision bank (if she asks for more):**
 | Decision | Tradeoff | Result |
