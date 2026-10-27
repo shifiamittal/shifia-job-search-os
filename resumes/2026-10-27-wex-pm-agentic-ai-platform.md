@@ -55,9 +55,15 @@ WEX is a payments company. The Amazon Business financing and fraud-score bullets
 
 ## Regression check (v1 final)
 - **Keyword count:** as above; "model routing" and "staged" added in the last round, nothing dropped.
-- **Fact check:** every number matches Canonical Metrics: $7.5M ARR, $25M savings, 5 clients, 70% acceptance, 4 hrs/day → 4 hrs/week, 30% → 80% (K3), 50% → 70% (K10), 70% → 50% → 70% (K5), ~30% (K14), +$500K ACV ×2 (K32), 5 client dashboards (K29), 50K+/$71M, ~$18M/6 teams (A21), −40%/100+, 5 → 3 weeks/5 teams, 30 → 100/~400 science-weeks, ~20 teams/5 FTE, $40M/$100M+, 40+ leaders, $25M/45%.
+- **Fact check:** every number matches Canonical Metrics: $7.5M ARR, $25M savings, 5 clients, 70% acceptance, 4 hrs/day → 4 hrs/week, 30% → 80% (K3), 50% → 70% (K10), 70% → 50% → 70% (K5), ~30% (K14), +$500K ACV ×2 (K32), 5 client dashboards (K29), 50K+/$71M, ~$18M/6 teams (A21), −40%/100+, 5 → 3 weeks/5 teams, 30 → 100/~400 science-weeks, ~20 teams/5 FTE, $100M+ (supply chain portfolio), 40+ leaders, $25M/45%.
 - **Style guide:** SAD order, one message per bullet, results bolded, no first person, no Skills section, 2-line summary, years-only dates. Deviation: none with a qualitative result.
 - **Render:** 1 page; dates on one line; no 1–3-word last lines; links checked in the .docx.
+
+## Round 2 (user edit, 2026-10-27)
+- **Edit:** the Supply Chain bullet now summarizes all three products (inventory placement, purchase thresholds, shipping costs) with the $100M+ portfolio total in place of TRACE's $40M. The wording is reused from the Qualcomm resume.
+- **Keyword count:** no change in JD terms.
+- **Fact check:** $100M+ is the canonical SPORT + TRACE + MOQ total; 50+ drivers, 14 teams, and data contracts/SLAs are TRACE facts (A11) and remain accurate as part of the portfolio.
+- **Render:** 1 page; the new bullet is 2 lines with no short last line.
 
 ## Source check
 | Resume bullet (first 60 chars) | Source | Match |
@@ -78,7 +84,7 @@ WEX is a payments company. The Amazon Business financing and fraud-score bullets
 | Treated builder onboarding as a product, with templates, doc… | A8 (templates, docs, community), A20 | REWORDED |
 | Made governance a platform default (access controls, encrypt… | A9, A20, Source Decision 23 | REWORDED |
 | Made privacy compliance a platform default under EU and US p… | A10 | REWORDED |
-| Launched TRACE, a causal cost-attribution product that expla… | A11 | REWORDED |
+| Built and scaled ML recommendation products for inventory pl… | Supply Chain overview ($100M+ across SPORT, TRACE, MOQ); A11 (50+ drivers, 14 teams, data contracts and SLAs); wording from the Qualcomm resume | REWORDED |
 | Launched self-service price-perception insight tools… | Amazon Pricing; Source Decision 20 | REWORDED |
 | Cognizant line | Source Decision 21 | REWORDED |
 
@@ -112,7 +118,7 @@ Sr. Product Manager-Technical, ML Ops Developer Platform	2020 - 2022
 - Made governance a platform default (access controls, encryption, versioning, lineage, threshold-based monitoring) under Federal Reserve model-risk rules; expanded monitoring from 30 to all 100 production models, avoiding ~400 science-weeks of setup.
 - Made privacy compliance a platform default under EU and US privacy law with Amazon’s privacy and legal teams; adopted across ~20 Amazon Payments teams, saving 5 science FTE per year.
 Product Manager-Technical, Supply Chain Optimization	2018 - 2020
-- Launched TRACE, a causal cost-attribution product that explained shipping-cost changes across 50+ drivers from 14 teams’ systems and recommended the top fix to sellers, driving $40M of the team’s $100M+ in savings.
+- Built and scaled ML recommendation products for inventory placement, purchase thresholds and shipping costs across thousands of sellers, unifying 50+ cost drivers from 14 teams’ systems under data contracts and SLAs; delivered $100M+ in cost savings.
 Product Manager, Amazon Pricing	2016 - 2018
 - Launched self-service price-perception insight tools benchmarking Amazon against 800+ retailers in 17 countries; adopted by 40+ global pricing leaders, with signals feeding the pricing models that set Amazon’s prices.
 Cognizant Technology Solutions | Designed infrastructure solutions for 30+ APAC deals worth $25M (45% win rate)	2015 - 2016
