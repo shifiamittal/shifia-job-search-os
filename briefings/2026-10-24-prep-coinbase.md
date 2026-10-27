@@ -14,13 +14,13 @@ Sources: JD (P76485), Aga's emails (Oct 16, Oct 22), `insider-data/company-intel
 **60-second pitch:** see "Tell me about yourself" below. Practice it out loud with a timer.
 
 **Talk track (in order):**
-1. **Pitch** (90 sec): "Tell me about yourself" below.
+1. **Pitch** (under 2 min): "Tell me about yourself" below. It already states the gap.
 2. **Three technical decision stories** (~45 sec each; use when she asks about your background, technical depth, or AI):
    - **AI cost vs. quality (K14):** "In our forecasting agent pilot, model cost exceeded the cost of doing the work by hand, which kills a product. I tested models on cost, latency, quality, and adoption, then routed simple cases to cheap models and only ambiguous ones to strong models. Run cost dropped about 30% with lower latency and no change in quality. Since then I track cost per accepted recommendation, not cost per call."
    - **Where automation acts vs. where humans decide (K3):** "We first let the agent act on mid-confidence decisions, and 60% got reversed because it couldn't show its evidence. I reset to tiered autonomy: the agent acts alone only on low-risk, reversible decisions, recommends with evidence for the middle, and only flags the rest. Guardrails live in the tool definitions, not the prompts. Action acceptance went from 30% to 80%." (Maps to Aga's infrastructure-agents question.)
    - **Platform standardization (MDLC, A9/A20):** "For monitoring 100+ financial models under Federal Reserve rules, I chose standard metrics and thresholds over custom monitoring per model. Less flexible, but every custom setup cost a scientist 1–2 weeks. Coverage went from 30 to all 100 models by default, and we avoided about 400 science-weeks of setup."
    - **Backup (architecture, K13):** modular services vs. monolith; 6 weeks now vs. a 10× rewrite later; passed the security review; second client onboarded with no refactor.
-3. **The gap, once, plainly:** "To be upfront: my platform work has been one layer above core infrastructure. I haven't owned compute, networking, Kubernetes, or multi-region failover directly. Where I'd bring something different is the AI side: agents in operations, the cost of AI, and making automation safe in production."
+3. **The gap, once, plainly** (already in the pitch; use this only if she raises it again or you skipped it): "To be upfront: my platform work has been one layer above core infrastructure. I haven't owned compute, networking, Kubernetes, or multi-region failover directly. Where I'd bring something different is the AI side: agents in operations, the cost of AI, and making automation safe in production."
 4. **The question that settles it:** "What made my profile stand out to you? Is the team looking for a deep infrastructure specialist, or someone to bring a platform and AI lens to infrastructure?"
 5. **If it's clearly not a fit, before you hang up:** "If this role needs deeper infrastructure experience, are there roles in Platform, or on the AI and agents side, like the Developer Platform or AgentKit, where my background fits better?"
 
@@ -83,18 +83,22 @@ Sources: JD (P76485), Aga's emails (Oct 16, Oct 22), `insider-data/company-intel
 
 ## Your Game Plan
 
-### "Tell Me About Yourself" (~180 words, under 90 seconds)
-> "I'm a Principal technical PM with 11+ years building platforms and the AI products that run on them.
->
-> At Amazon, I owned the self-service platform our lending scientists used to deploy models: provisioning, CI/CD, and monitoring for 100+ production models. We cut deployment time 40% with flat headcount, and made monitoring that met Federal Reserve requirements the platform default. I also built ML credit products for Amazon Business that reached $71M in revenue, so I know what high-trust, regulated systems demand.
->
-> Most recently at Keystone.ai, I took an agentic AI platform from 0→1 to $7.5M ARR with five Fortune 500 clients, deployed into clients' AWS and Azure environments. I built agents that diagnose production problems and act with tiered autonomy: automating low-risk actions and routing the rest to human approval.
->
-> What drew me to this role is what you described: infrastructure that has to keep up as AI writes most of the code, and agents in operations where someone has to decide what automation does and where humans stay in control. That's the problem I've worked on one layer up, and I'd like to take it to infrastructure at Coinbase's scale."
+### "Tell Me About Yourself" (~200 words, under 2 minutes; updated 2026-10-27 to the Addressing-Weaknesses Framework)
+Order: Present → Past (selective) → weakness head-on → Future.
 
-**What to lead with:** platform PM for engineers (MDLC) + agents with human control (Keystone).
-**What to preempt:** the infrastructure gap (say the gap answer right after TMAY if she doesn't raise it) and the Keystone-to-now timing.
-**Timing note:** your history shows long answers. Practice to 90 seconds. If you run over, cut the Amazon Business sentence.
+> "I'm a Principal technical PM with 11+ years building AI products and the platforms underneath them.
+>
+> Most recently at Keystone.ai, I took an agentic AI platform from 0→1 to $7.5M ARR with five Fortune 500 clients. I set product direction with the CEO and CTO and led 30+ engineers and data scientists through the company's move from consulting to product. We deployed into clients' own AWS and Azure environments, and I built agents that diagnose production problems and act with tiered autonomy. I also had to make the AI pay for itself: routing work between models cut agent run cost about 30%.
+>
+> Before that, I spent eight years at Amazon. Most relevant here: I owned the self-service platform our lending scientists used to ship 100+ production models, covering provisioning, CI/CD, and monitoring. We cut deployment time 40% with flat headcount, in a business regulated by the Federal Reserve.
+>
+> So my platform work has been one layer above core infrastructure. I haven't owned compute or networking directly. What I'd bring is the AI side you described: agents in operations, the cost of AI, and keeping humans in control where it matters. That's what interests me about this role."
+
+**Weaknesses it addresses:** (1) no core cloud-infra ownership: stated head-on; (2) Group PM leadership scope: CEO/CTO, 30+ engineers and data scientists; (3) startup "Principal" title: $7.5M ARR, Fortune 500 clients.
+**Menu items she can order:** cost routing (K14), tiered autonomy (K3), AWS/Azure deployment (K12/K15), MDLC (A8/A20), Federal Reserve monitoring (A9).
+**After the pitch:** the gap is already said, so go straight to "What made my profile stand out?" if she pauses. Don't repeat the gap.
+**If asked "Are you still at Keystone?"** (resume shows 2024 – Present): "My role was part of a restructuring at Keystone.ai earlier this year. I've used the time to go deep on agent evaluation with hands-on builds, and to be selective about my next role." Then move on.
+**Timing:** practice to under 2 minutes. If you run long, cut "We deployed into clients' own AWS and Azure environments."
 
 ### "Why Coinbase?" (~120 words)
 > "Three reasons. First, the problem: when most code is written with AI and every engineer has several agents, the hard part moves from writing code to shipping it safely, and that lands on infrastructure: deployment safety, capacity, and cost. Second, the agent question Aga raised, where automation acts and where humans stay in control, is the exact design problem I worked on at Keystone, and infrastructure for a financial platform is a place where getting it right matters. Third, the environment: a regulated, high-trust platform where reliability is the product. My Amazon lending work taught me how that changes product decisions."
