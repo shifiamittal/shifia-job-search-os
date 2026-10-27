@@ -116,22 +116,18 @@ Framework: Why Here (mission + personal connection, role fit, culture fact) + Wh
 **Open [CONFIRM]:** customer impact for the existing enterprise credit product isn't in the library (only revenue: $15M of $71M from personalization). Is the "global consumer credit product" (−50% onboarding abandonment, +7% approvals) the same product? Until confirmed, the safe customer-focused line is: "…and helped more approved enterprise customers actually use their credit by simplifying onboarding and personalizing outreach."
 **If asked about the credit work (A1–A3):** SMBs drove ~60% of sales but only 4% were approved; rebuilt underwriting on Amazon behavioral data with credit at checkout and transaction controls (4% → 15%, no credit losses after full launch). Enterprise: only 7–10% of approved customers were active, so simplified a 7-page onboarding and added a propensity model and personalized marketing ($15M of the $71M from personalization).
 
-### "What are you looking for in your next role?" (~90 words, about 40 seconds)
-Framework: lead with where you're going, not what you're leaving (Why are you leaving? / career-plan "what I want next"). Keep it to three things, each true for you and true of this role.
+### "What are you looking for in your next role?" / "Why are you looking?" (2026-10-27; same structure as the Stripe answer that scored 8.5–9/10)
+Framework: "Why are you leaving?" (lead with where you're going) + "Why this job" (tie to the role). Two strong points, not three weak ones: (1) platform strategy that changes how technical teams work (Keystone), (2) scale (Amazon, as a pattern, then one platform example).
 
-> "Three things.
->
-> First, scope. I want to own product direction and outcomes for a platform, not a feature, at a much larger scale than a startup.
->
-> Second, the problem. AI is changing how software gets built and run, and I want to work on making that safe and reliable in production: deciding where automation acts and where people stay in control.
->
-> Third, the environment. A place where reliability really matters and the team moves fast.
->
-> This role has all three, which is why I was glad Aga reached out."
+**Short (~65 words, ~25 seconds). Default, since TMAY already gave the numbers:**
+> "I'm looking for a role that brings together the two things I've done best: setting platform strategy that changes how technical teams work, and building at scale. Keystone.ai gave me the first: moving the company from consulting to product and standardizing how we deployed into clients' clouds. Amazon gave me the second, across pricing, supply chain, ML platforms and payments. Core Infrastructure is where I can do both."
 
-**Why it works:** scope answers the level question (L7, platform-wide); the problem ties to your AI strength without claiming infrastructure depth; the environment echoes Coinbase's "bar is high, environment is intense" and the regulated setting.
+**Full (~95 words, ~40 seconds). Use if she skips TMAY or opens with this:**
+> "I'm looking for a role that brings together the two things I've done best: setting platform strategy that changes how technical teams work, and building at scale. At Keystone.ai, I moved the company from consulting to product and standardized how we deployed into clients' AWS and Azure clouds. At Amazon, every role I held was at scale. For example, I led the ML platform 30+ scientists used to ship 100+ production models. Core Infrastructure is where I can do both: setting strategy for the platform every Coinbase team builds on, as AI changes how software gets shipped."
+
+**Infrastructure connection:** both points are about platforms that technical teams build on (Keystone deployment into clients' clouds; Amazon ML platform with provisioning and CI/CD). The close names the role's job, the platform every Coinbase team builds on, and Aga's problem, AI changing how software gets shipped. No claim of compute or networking ownership.
 **If she asks "Why not an AI product role?":** "I'm open to both. What matters most is the problem: AI in production at scale. At Coinbase, a lot of that problem sits in infrastructure right now."
-**Don't:** mention comp, brand, or anything personal; don't say what you're running away from.
+**Don't:** mention comp, brand, or anything personal; don't say what you're moving away from.
 
 ### "Are you familiar with crypto?" (honest bridge, ~60 words)
 > "I'm not a crypto-native builder, and I won't pretend to be. What I do know is regulated financial products: credit and fraud decisions at Amazon, with regulators reviewing our models. For this role, what matters most is that the platform stays up through 24/7 markets and big traffic spikes, which is an infrastructure problem I find compelling."
