@@ -113,7 +113,25 @@ Framework: Why Here (mission + personal connection, role fit, culture fact) + Wh
 > Third, how Coinbase operates. I've read how Coinbase is becoming AI-native, with engineers directing AI rather than writing code by hand. I've built AI systems in production with the right human-in-the-loop controls, so that's a way of working I'm excited about."
 
 **If asked "How did you use infrastructure-as-code?":** "Clients wanted the platform in their own cloud for data-residency reasons, so we turned deployment into a repeatable product instead of custom work each time: infrastructure-as-code across AWS and Azure, reusable components, and a standard upgrade process. That's what let us take on two clients with strict data-residency needs." (K12, K15)
+**Open [CONFIRM]:** customer impact for the existing enterprise credit product isn't in the library (only revenue: $15M of $71M from personalization). Is the "global consumer credit product" (−50% onboarding abandonment, +7% approvals) the same product? Until confirmed, the safe customer-focused line is: "…and helped more approved enterprise customers actually use their credit by simplifying onboarding and personalizing outreach."
 **If asked about the credit work (A1–A3):** SMBs drove ~60% of sales but only 4% were approved; rebuilt underwriting on Amazon behavioral data with credit at checkout and transaction controls (4% → 15%, no credit losses after full launch). Enterprise: only 7–10% of approved customers were active, so simplified a 7-page onboarding and added a propensity model and personalized marketing ($15M of the $71M from personalization).
+
+### "What are you looking for in your next role?" (~90 words, about 40 seconds)
+Framework: lead with where you're going, not what you're leaving (Why are you leaving? / career-plan "what I want next"). Keep it to three things, each true for you and true of this role.
+
+> "Three things.
+>
+> First, scope. I want to own product direction and outcomes for a platform, not a feature, at a much larger scale than a startup.
+>
+> Second, the problem. AI is changing how software gets built and run, and I want to work on making that safe and reliable in production: deciding where automation acts and where people stay in control.
+>
+> Third, the environment. A place where reliability really matters and the team moves fast.
+>
+> This role has all three, which is why I was glad Aga reached out."
+
+**Why it works:** scope answers the level question (L7, platform-wide); the problem ties to your AI strength without claiming infrastructure depth; the environment echoes Coinbase's "bar is high, environment is intense" and the regulated setting.
+**If she asks "Why not an AI product role?":** "I'm open to both. What matters most is the problem: AI in production at scale. At Coinbase, a lot of that problem sits in infrastructure right now."
+**Don't:** mention comp, brand, or anything personal; don't say what you're running away from.
 
 ### "Are you familiar with crypto?" (honest bridge, ~60 words)
 > "I'm not a crypto-native builder, and I won't pretend to be. What I do know is regulated financial products: credit and fraud decisions at Amazon, with regulators reviewing our models. For this role, what matters most is that the platform stays up through 24/7 markets and big traffic spikes, which is an infrastructure problem I find compelling."
