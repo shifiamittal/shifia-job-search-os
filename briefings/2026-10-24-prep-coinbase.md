@@ -7,18 +7,28 @@ Sources: JD (P76485), Aga's emails (Oct 16, Oct 22), `insider-data/company-intel
 
 ## One-page call sheet (keep this open during the call)
 
-**Your goal for the call:** come across as a sharp platform and AI product leader, be honest about the infrastructure gap, and leave knowing (1) why they reached out, (2) the level and whether it has PM reports, (3) the full comp package, (4) the loop and timeline.
+**Your strategy (updated 2026-10-27):** lead with ML Ops and AI, tell three technical decision stories, state the infrastructure gap once as a fact (not a verdict), and let the call decide fit. Leave knowing (1) why they reached out, (2) whether the role has PM reports, (3) the loop and timeline, and (4) if it's not a fit, whether another Platform or AI role is.
 
 **Delivery rules (your interview history, 4 of 4 interviews):** every answer under 200 words (~75 seconds). Lead with the point, then one story with a number. Stop and let her follow up. Say "most recently at Keystone.ai," never "currently."
 
 **60-second pitch:** see "Tell me about yourself" below. Practice it out loud with a timer.
 
-**The gap answer (say it before she has to ask):**
-> "One thing to be upfront about: my platform work has been one layer above core infrastructure. I owned Amazon's self-service ML platform, provisioning, CI/CD and monitoring for 100+ production models, and multi-cloud deployment on AWS and Azure at Keystone. I haven't owned compute or networking directly. I'd love to understand whether the team wants a deep infrastructure specialist or someone to bring a platform and AI lens to infrastructure."
+**Talk track (in order):**
+1. **Pitch** (90 sec): "Tell me about yourself" below.
+2. **Three technical decision stories** (~45 sec each; use when she asks about your background, technical depth, or AI):
+   - **AI cost vs. quality (K14):** "In our forecasting agent pilot, model cost exceeded the cost of doing the work by hand, which kills a product. I tested models on cost, latency, quality, and adoption, then routed simple cases to cheap models and only ambiguous ones to strong models. Run cost dropped about 30% with lower latency and no change in quality. Since then I track cost per accepted recommendation, not cost per call."
+   - **Where automation acts vs. where humans decide (K3):** "We first let the agent act on mid-confidence decisions, and 60% got reversed because it couldn't show its evidence. I reset to tiered autonomy: the agent acts alone only on low-risk, reversible decisions, recommends with evidence for the middle, and only flags the rest. Guardrails live in the tool definitions, not the prompts. Action acceptance went from 30% to 80%." (Maps to Aga's infrastructure-agents question.)
+   - **Platform standardization (MDLC, A9/A20):** "For monitoring 100+ financial models under Federal Reserve rules, I chose standard metrics and thresholds over custom monitoring per model. Less flexible, but every custom setup cost a scientist 1–2 weeks. Coverage went from 30 to all 100 models by default, and we avoided about 400 science-weeks of setup."
+   - **Backup (architecture, K13):** modular services vs. monolith; 6 weeks now vs. a 10× rewrite later; passed the security review; second client onboarded with no refactor.
+3. **The gap, once, plainly:** "To be upfront: my platform work has been one layer above core infrastructure. I haven't owned compute, networking, Kubernetes, or multi-region failover directly. Where I'd bring something different is the AI side: agents in operations, the cost of AI, and making automation safe in production."
+4. **The question that settles it:** "What made my profile stand out to you? Is the team looking for a deep infrastructure specialist, or someone to bring a platform and AI lens to infrastructure?"
+5. **If it's clearly not a fit, before you hang up:** "If this role needs deeper infrastructure experience, are there roles in Platform, or on the AI and agents side, like the Developer Platform or AgentKit, where my background fits better?"
+
+**Don't:** apologize for the gap or repeat it; argue you'd pick up Kubernetes fast; reopen comp.
 
 **Comp (updated 2026-10-26):** Aga already shared it: **level equivalent to Amazon L7, $744,280/year, liquid (equity vests within 1 year).** Above your $600K target. Don't quote any lower number. If comp comes up: "The level and compensation you shared work for me." Ask only how it splits across base, bonus, and equity, and how refreshers work after year one.
 
-**Must-ask questions:** (1) What made my profile stand out? (2) Does the role have PM reports? (Level is L7-equivalent.) (3) How much of the roadmap is agentic operations vs. core infrastructure? (4) What's the loop and timeline? (5) Is there anything about my background you'd like me to clarify?
+**Must-ask questions:** (1) What made my profile stand out? (step 4 above) (2) Does the role have PM reports? (Level is L7-equivalent.) (3) How much of the roadmap is agentic operations vs. core infrastructure? (4) What's the loop and timeline? (5) Is there anything about my background you'd like me to clarify?
 
 **Never mention:** current pay ($400K is private), anything personal about the time since March, Coinbase's May layoffs.
 
