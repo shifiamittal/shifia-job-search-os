@@ -152,6 +152,54 @@ Be precise if probed: one direct report (a Program Manager). [CONFIRM: the "3-me
 - **Cost:** "At Keystone, our agent pilot cost more than doing the work by hand. Routing cases between cheap and strong models cut run cost about 30% with no quality loss. At Amazon, TRACE attributed shipping cost across 50+ drivers and drove $40M in savings: the same analysis you'd apply to a cloud bill."
 - **Never claim:** hands-on Kubernetes, SLO ownership, on-call, multi-region failover, cloud-spend ownership.
 
+### Project deep-dives (2026-10-27)
+Framework: Accomplishment (U-shaped arc: challenge → struggle → triumph) for the two projects; tradeoff → decision → result for technical decisions. Each under ~200 words. Lead with the point, stop, let her pick a thread.
+
+#### "Walk me through an end-to-end AI project" — Forecasting agent (K2, K3, K11, K14) · ~200 words
+> "The one I'm proudest of is the forecasting agent at Keystone.
+>
+> The challenge: our forecasts were 20% more accurate than the client's old tool, but planners at our flagship client still spent about four hours a day reviewing thousands of products and overriding forecasts by gut feel. They were carrying about $5M in excess inventory, and losing them meant losing our reference customer.
+>
+> I reframed the problem from accuracy to action. I built a prototype first, and over 70% of its recommendations were accepted, which convinced leadership to move two months of roadmap to it. The system flags forecast problems, finds the cause in a fixed order (data, features, model, then outside factors), and recommends a fix.
+>
+> The hard part was trust. Early on we let the agent act on medium-confidence decisions, and 60% got reversed. I reset to tiered autonomy: it acts alone only on low-risk, reversible decisions and recommends with evidence for the rest. And when the pilot cost more than the manual work, routing between models cut run cost about 30%.
+>
+> We launched in shadow mode, went live at 70% acceptance, and cut planner review time from four hours a day to four hours a week, and overstock from $5M to $2M."
+
+**Follow-ups ready:** launch gates (>70% exception recall and acceptance, no autonomous forecast changes); guardrails in the tool definitions, not the prompts; LLM-as-judge evals off the critical path; ReAct chosen for auditability; action acceptance 30% → 80% after the tiered-autonomy reset (K3); the warehouse-move quality slip (K5).
+**Infra tie-in if asked:** "It's the same pattern as agents for network diagnostics: gather evidence, diagnose, recommend, and let risk and reversibility decide how much the agent does alone."
+
+#### "Walk me through an end-to-end technical product" — Data platform (K15, K17) · ~190 words
+> "At Keystone, every client deployment started with a data mess. Data was spread across SharePoint, Box, S3 and laptops, which was a security risk, and we rebuilt the data model for every client. Onboarding took about two months.
+>
+> I led a data platform with seven to eight engineers. We standardized core data models like orders and shipments, built reusable transformations with data-quality checks, defined data contracts and APIs, and deployed it with infrastructure as code across AWS and Azure.
+>
+> The key decision was how far to standardize. Our CEO wanted every client mapped into one canonical schema. I agreed with the goal, faster onboarding and consistent model inputs, but remapping existing clients would have cost weeks each. So I proposed keeping client data in its native form and standardizing only what the models consume: keys, timestamps and feature definitions.
+>
+> Onboarding went from two months to two weeks, and data scientists' time finding data went from two hours a day to two hours a week."
+
+**Follow-ups ready:** platform deployment 3 months → 3 weeks (canonical; separate from onboarding); ~2 weeks per model saved in data wrangling; semantic layer for the AI assistant cut repeat questions 50% → 30% (K6); started from a 2–3 week event-stream demo that won a paying customer (K16). Weakness angle: early on you wrote queries yourself, then shifted to setting guardrails (qa-master weakness answer).
+
+#### "What key technical decisions have you driven?" (K13, K12, A9/A20) · ~170 words
+> "Three that shaped the platforms I owned.
+>
+> First, modular services over a monolith at Keystone. Fortune 500 clients needed to deploy only what they bought and pass strict security reviews. Engineering pushed back on the six-week cost, so I framed it as six weeks now versus a rewrite later. We passed the flagship client's security review on time, and a second client onboarded with no refactor.
+>
+> Second, deploying into clients' own clouds instead of pure SaaS. Leadership and investors wanted SaaS margins, but clients had data-residency requirements. I made deployment a repeatable product with infrastructure as code across AWS and Azure. It cost an extra month, and brought in two clients SaaS couldn't serve.
+>
+> Third, at Amazon, standard monitoring instead of custom monitoring per model. Every custom setup cost a scientist one to two weeks. Standard thresholds took monitoring from 30 to all 100 models and avoided about 400 science-weeks of setup."
+
+**Decision bank (if she asks for more):**
+| Decision | Tradeoff | Result |
+|---|---|---|
+| Tiered autonomy for agents (K3) | Automation speed vs. trust | Action acceptance 30% → 80% |
+| Model routing (K14) | Cost vs. quality | Run cost ~30% lower, quality unchanged |
+| ReAct agent pattern (K2) | Auditability vs. other patterns (Plan-and-Execute, ReWOO, Reflexion) | Every agent step traceable for planners |
+| Client-native data + standard model contracts (K17) | One canonical schema vs. onboarding speed | Onboarding −2 weeks; −2 weeks/model |
+| Batch vs. real-time credit decisions (A4) | Speed to launch vs. real-time | Launched 3 months earlier, with exposure limits |
+| Semi-automated privacy compliance (A10) | ~2 months vs. 1.5 years for full automation | Compliance across ~20 teams; 5 science FTE/year saved |
+| UI-based pipelines over scripts (MDLC, A20) | Engineering cost vs. scientist ramp-up | Faster onboarding for new scientists |
+
 ### Employer Brand & Stigma Defenses
 1. **"Amazon PMs are process-heavy."** Reframe: "Amazon taught me to write the decision down and defend it with data. At Keystone I used that to move fast: we shipped a customer demo capability in 2–3 weeks instead of three months and the prospect became a paying customer." (K16)
 2. **"Principal at a small, consulting-origin company is a startup title."** Reframe with scope: "$7.5M ARR, five Fortune 500 clients, a company-level pivot with the CEO and CTO, 30+ engineers and data scientists." (career-plan Weakness 2)
