@@ -49,16 +49,16 @@ Framework: present → past (selective) → weakness head-on → future.
 >
 > I haven't worked in utilities or GIS. But I've repeatedly learned an expert domain fast and earned the trust of its users. What excites me about ITpipes is AI in a domain with real ground truth, where expert review keeps it trustworthy, plus the chance to shape new products from scratch."
 
-### 2. "Why ITpipes?" (~125 words; rewritten to the OS "Why here" framework: mission + personal connection, role fit, culture fact)
+### 2. "Why ITpipes?" (~135 words; third point on document culture, as in the Stripe answer; OS "Why here" framework: mission + personal connection, role fit, culture fact)
 > "Three reasons.
 >
 > First, the mission. Your software helps decide how cities spend infrastructure money, and that's work that matters. My best work has been helping operators make better decisions with data. At Keystone, our forecasting agent helped a Fortune 500 client cut excess inventory from $5M to $2M.
 >
 > Second, the role. A big roadmap area across AI review, the cloud platform and integrations, plus new products from scratch. That's what I did at Keystone, taking a platform from zero to $7.5M in annual recurring revenue.
 >
-> Third, how you work. AiDetect flags defects, and certified experts review every inspection. That's how I build AI, with humans on the calls that matter. And your job description says alignment happens in documents. Coming from Amazon, that's how I work too."
+> Third, how you work. Your job description says alignment here happens in documents, and I connect strongly with that. Writing is how I've led at both Amazon and Keystone.ai. My fraud strategy PRFAQ at Amazon became the roadmap six teams built on, and at Keystone.ai my strategy document aligned the CEO and President on our move from consulting to product."
 
-**Facts behind it:** AiDetect + NASSCO-certified expert review (Esri partner page, company materials); "Alignment here happens in documents" is a direct JD quote; $5M → $2M (K2); $7.5M ARR (canonical).
+**Facts behind it:** "Alignment here happens in documents" is a direct JD quote; the PRFAQ and strategy-doc examples are the ones from your Stripe prep (rated L4 for writing); $5M → $2M (K2); $7.5M ARR (canonical).
 **If time allows, add one current fact:** "…and the new investment from Luminate to speed up your AI work tells me this is the moment to join."
 
 ### 3. "What are you looking for next?" (~70 words)
