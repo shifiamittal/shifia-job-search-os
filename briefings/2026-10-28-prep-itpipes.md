@@ -52,7 +52,7 @@ Framework: present → past (selective) → weakness head-on → future.
 ### 2. "Why ITpipes?" (~135 words; third point on document culture, as in the Stripe answer; OS "Why here" framework: mission + personal connection, role fit, culture fact)
 > "Three reasons.
 >
-> First, the mission. Your software helps decide how cities spend infrastructure money, and that's work that matters. My best work has been helping operators make better decisions with data. At Keystone, our forecasting agent helped a Fortune 500 client cut excess inventory from $5M to $2M.
+> First, the mission. Your software helps cities decide where to spend infrastructure money. My best work has been products that change how organizations make big decisions with data. At Keystone, we changed how five Fortune 500 clients plan demand, and our AI agent cut one client's excess inventory from $5M to $2M.
 >
 > Second, the role. A big roadmap area across AI review, the cloud platform and integrations, plus new products from scratch. That's what I did at Keystone, taking a platform from zero to $7.5M in annual recurring revenue.
 >
