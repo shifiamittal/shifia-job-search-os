@@ -89,3 +89,23 @@ I'll rank by how often it happens and how bad it is. Picking a trail happens on 
 - **Sequencing logic:** the first feature creates the data for the third.
 - **Must-not-get-worse metrics and safety risks** show judgment, not just ideas.
 - **Check-ins after each step** keep it a conversation and stop you running long (your 350–650-word habit).
+
+---
+
+## Adding AI to this answer (added 2026-10-28)
+Steps 1–4 unchanged. AI enters at step 5 and gets ~60 seconds in step 7.
+
+**Step 5, AI version:**
+- **Turnaround time (idea 2):** a model predicts *your* return time from your pace so far, climb left, and how similar hikers slowed on this trail. A fixed formula can't capture that people slow on climbs and late in a hike.
+- **Wrong-turn alerts (idea 3):** learned from anonymized hiker paths; nobody can hand-label every fork.
+- **New: "Is this my trail?" camera check:** point the camera at a signpost; an on-phone model reads it and matches it to the downloaded map, no signal needed.
+- Skip the trail-picking chat assistant unless asked about planning: it solves the low-stakes "before" pain, not the one you picked.
+
+Say (replacing idea 2): "For turnaround time, I'd use a model instead of a fixed formula. It predicts your return time from your own pace so far and from how similar hikers slowed down on the same trail, because people slow down on climbs and late in a hike. Since there's no signal, the model has to run on the phone, which also keeps the cost per hike near zero."
+
+**Step 7, AI block (60 sec):** "A few things change because this is AI. First, the prediction will sometimes be wrong, and here wrong means someone is out after dark. So it errs early: it shows 'turn around by 3:40,' never a later time it isn't sure of, and when it has little data on a trail it falls back to a conservative rule and says so. Second, it only advises. It never reroutes you on its own. Third, it learns: every finished hike tells us the real return time, which improves the next prediction. Fourth, it runs on the phone, which works without signal and costs almost nothing per use. Before launch, I'd run it in shadow mode on real hikes, predicting without showing users, and go live only when it's rarely late. That's how I launched an agent at Keystone: shadow mode first, and live only above 70% exception recall and 70% acceptance."
+
+**AI follow-ups:**
+- "How do you know it's good enough?" → Test on past hikes vs. real return times, then shadow mode. The bar is about being late, not average accuracy.
+- "No data on a new trail?" → Conservative distance-and-climb rule, labeled a rough estimate, until hikes accumulate.
+- "Why on the phone?" → No signal, near-zero cost per use; a smaller model is fine for one narrow prediction.

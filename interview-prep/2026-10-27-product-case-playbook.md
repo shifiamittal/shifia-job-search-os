@@ -204,3 +204,29 @@ See `interview-prep/stripe-product-sense-question-bank.md` (37 reported question
 - The round opens with "3 favorite products" (15 of 37) and then "Design [famous app] for [niche user]" (12 of 18 entries since 2025). That's **Design + Improvement**, sections 3.1 and 3.4.
 - Zero payments questions and zero pricing questions. Keep the Radar examples for execution and "why Stripe"; practice this round on consumer products.
 - Practice first, word for word: Spotify for restaurants, Airbnb for pets, Google Maps for hikers, airport ATM, Google Maps for small businesses.
+
+---
+
+## 8. Bringing AI into any case (added 2026-10-28)
+Based on "AI Productization Framework" and "AI Product Design Interview" in `insider-data/behavioral-interview-frameworks.md`.
+
+**Rule:** use AI only where a model solves the chosen pain point better than a rule, setting or UI change. Test: "What can a model do here that a simple rule can't?" No one-sentence answer → no AI in that idea. Avoid "add a chatbot" / "personalize with AI" with nothing behind it.
+
+| Step | What to do about AI |
+|---|---|
+| 1–4 | Nothing. Stay on the problem. |
+| 5 Solutions | Make one of the three ideas AI-powered (usually the bigger or surprising one). Name what the model does: predict, personalize, understand text/images, generate, act. |
+| 6 Prioritize | Add AI costs: data available? cost per use? speed? must it run on the phone? |
+| 7 Metrics/risks | ~60 sec on the five checks below + how you'd decide it's good enough to launch. |
+
+| Check | Question to answer | Your story |
+|---|---|---|
+| It can be wrong | What happens when it's wrong, how bad is that? | K5: acceptance 70% → 50% after a warehouse move; "act only with enough information" rule |
+| Making things up | Ground generated text in real data and show the source | K4: grounding checked with LLM-as-judge and citations |
+| When to trust it | Show confidence and evidence; act alone only when low-risk and reversible | K3: tiered autonomy, action acceptance 30% → 80% |
+| Learning from use | Accepts, edits, rejections and outcomes feed back in | K4: tracked adoption, edits, rejection reasons |
+| Cost per use | Cheaper models for easy cases | K14: ~30% cost cut in a pilot |
+
+**Good enough to launch:** test on past cases, shadow mode, go live above set targets (K2: >70% exception recall, >70% acceptance).
+
+**60-second template:** "Idea [N] uses a model to [X]. It will sometimes be wrong, so [what user sees when unsure]. It acts alone only when [low risk, reversible]; otherwise it suggests. It learns from [user action]. To keep cost down, [cheap model / on-device]. Before launch, shadow mode, live only above [target]. I did this at Keystone: [one line from K2, K3 or K14]." Use one story line per interview.
