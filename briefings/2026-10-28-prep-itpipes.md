@@ -49,13 +49,17 @@ Framework: present → past (selective) → weakness head-on → future.
 >
 > I haven't worked in utilities or GIS. But I've repeatedly learned an expert domain fast and earned the trust of its users. What excites me about ITpipes is AI in a domain with real ground truth, where expert review keeps it trustworthy, plus the chance to shape new products from scratch."
 
-### 2. "Why ITpipes?" (~110 words)
-Framework: mission + personal connection, role fit, specific fact.
-> "Three reasons. First, the problem matters: these decisions decide how cities spend infrastructure money. I've worked on products where decisions carry real money and regulation, like credit at Amazon.
+### 2. "Why ITpipes?" (~125 words; rewritten to the OS "Why here" framework: mission + personal connection, role fit, culture fact)
+> "Three reasons.
 >
-> Second, AI with ground truth. AiDetect works because every inspection is coded against a strict standard and reviewed by certified experts. That's how I built our forecasting agent: tested on golden datasets, launched in shadow mode, and humans approving anything high-stakes.
+> First, the mission. Your software helps decide how cities spend infrastructure money, and that's work that matters. My best work has been helping operators make better decisions with data. At Keystone, our forecasting agent helped a Fortune 500 client cut excess inventory from $5M to $2M.
 >
-> Third, the scope. A big roadmap area plus 0→1 bets, with direct access to customers. That's what I did at Keystone, and I'd like to do it in a domain I can go deep in."
+> Second, the role. A big roadmap area across AI review, the cloud platform and integrations, plus new products from scratch. That's what I did at Keystone, taking a platform from zero to $7.5M in annual recurring revenue.
+>
+> Third, how you work. AiDetect flags defects, and certified experts review every inspection. That's how I build AI, with humans on the calls that matter. And your job description says alignment happens in documents. Coming from Amazon, that's how I work too."
+
+**Facts behind it:** AiDetect + NASSCO-certified expert review (Esri partner page, company materials); "Alignment here happens in documents" is a direct JD quote; $5M → $2M (K2); $7.5M ARR (canonical).
+**If time allows, add one current fact:** "…and the new investment from Luminate to speed up your AI work tells me this is the moment to join."
 
 ### 3. "What are you looking for next?" (~70 words)
 > "Two things I've done best: running 0→1 discovery with expert users, and building AI and data products that people actually adopt. At Keystone, I did both: from consulting to a $7.5M ARR product, with adoption from 50% to 70%. ITpipes gives me both again, with more ownership and a domain where AI has clear ground truth."
