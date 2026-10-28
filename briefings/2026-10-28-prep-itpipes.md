@@ -104,12 +104,16 @@ Framework: present → past (selective) → weakness head-on → future.
 
 ---
 
-## Questions to ask (pick 4)
-1. "What's the first big product bet this role would own, and what do you already know about the customer problem?"
-2. "How is the role leveled, and how do you see the PM team growing?"
-3. "How does the team decide when AI output is good enough to ship, given PACP coding and expert review?"
-4. "What's the range for this role, and what does the interview loop look like?"
-5. Close: "Is there anything about my background you'd like me to clarify?"
+## Questions to ask the recruiter (in order; play back each answer in one sentence)
+1. "What made my profile stand out, and what is the Head of Product most looking for in this hire?"
+2. "What's the first big product area or bet this role would own?"
+3. "How big is the product team today, and how is this role leveled as it grows?"
+4. "What's the compensation range for the role?" (if she hasn't shared it)
+5. "What does the interview loop look like, and what's the timeline?"
+6. "How many days a week is the team in the Seattle office?"
+7. Close: "Is there anything about my background you'd like me to clarify?"
+
+**Save for the Head of Product:** "How does the team decide when AI output is good enough to ship, given PACP coding and expert review?"
 
 ---
 
