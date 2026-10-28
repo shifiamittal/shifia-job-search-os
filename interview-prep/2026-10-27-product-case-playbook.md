@@ -208,25 +208,28 @@ See `interview-prep/stripe-product-sense-question-bank.md` (37 reported question
 ---
 
 ## 8. Bringing AI into any case (added 2026-10-28)
-Based on "AI Productization Framework" and "AI Product Design Interview" in `insider-data/behavioral-interview-frameworks.md`.
+Uses the two AI frameworks in "AI PM Interview Specifics", `insider-data/behavioral-interview-frameworks.md`.
 
-**Rule:** use AI only where a model solves the chosen pain point better than a rule, setting or UI change. Test: "What can a model do here that a simple rule can't?" No one-sentence answer → no AI in that idea. Avoid "add a chatbot" / "personalize with AI" with nothing behind it.
+**Rule:** use AI only where a model solves the chosen pain point better than a rule, setting or UI change. Test: "What can a model do here that a simple rule can't?" No one-sentence answer → no AI in that idea. Avoid "add a chatbot" / "personalize with AI" with nothing behind it. Steps 1–4 of the case have no AI.
 
-| Step | What to do about AI |
-|---|---|
-| 1–4 | Nothing. Stay on the problem. |
-| 5 Solutions | Make one of the three ideas AI-powered (usually the bigger or surprising one). Name what the model does: predict, personalize, understand text/images, generate, act. |
-| 6 Prioritize | Add AI costs: data available? cost per use? speed? must it run on the phone? |
-| 7 Metrics/risks | ~60 sec on the five checks below + how you'd decide it's good enough to launch. |
-
-| Check | Question to answer | Your story |
+**Framework 1: AI Productization (build the idea)**
+| Library step | Meaning | Where in the 7 steps |
 |---|---|---|
-| It can be wrong | What happens when it's wrong, how bad is that? | K5: acceptance 70% → 50% after a warehouse move; "act only with enough information" rule |
-| Making things up | Ground generated text in real data and show the source | K4: grounding checked with LLM-as-judge and citations |
-| When to trust it | Show confidence and evidence; act alone only when low-risk and reversible | K3: tiered autonomy, action acceptance 30% → 80% |
-| Learning from use | Accepts, edits, rejections and outcomes feed back in | K4: tracked adoption, edits, rejection reasons |
-| Cost per use | Cheaper models for easy cases | K14: ~30% cost cut in a pilot |
+| 1. Core superpower | What the model does better: predict, personalize, understand text/images, generate, act | Step 5 |
+| 2. Match to a high-value problem | Tie it to the pain point ranked first in step 4 | Step 5 |
+| 3. Minimal product, simple interface | The smallest version and what the user sees | Steps 5–6 |
+| 4. Feedback loops | How use makes it better: accepts, rejects, edits, outcomes | Step 7 |
+| 5. Human in the loop | Where a person checks or decides; when AI may act alone | Step 7 |
 
-**Good enough to launch:** test on past cases, shadow mode, go live above set targets (K2: >70% exception recall, >70% acceptance).
+**Framework 2: AI Product Design checks (cover in ~60 sec in step 7)**
+| Check | Question to answer |
+|---|---|
+| Probabilistic outputs | What happens when it's wrong, and how bad is that? |
+| Hallucination risk | If it generates text, ground it in a source and show it. If not, say so. |
+| User trust calibration | When should the user rely on it? Show confidence; fall back to something safe when unsure. |
+| Feedback loop design | How does user feedback improve the model? |
+| Cost per inference | Cost per answer at scale; smaller model, on-device, cheaper model for easy cases. |
 
-**60-second template:** "Idea [N] uses a model to [X]. It will sometimes be wrong, so [what user sees when unsure]. It acts alone only when [low risk, reversible]; otherwise it suggests. It learns from [user action]. To keep cost down, [cheap model / on-device]. Before launch, shadow mode, live only above [target]. I did this at Keystone: [one line from K2, K3 or K14]." Use one story line per interview.
+**Also from the library: precision vs. recall.** For any idea that flags or alerts: say which you'd favor and why ("too many false alerts and users ignore them, so precision first").
+
+**60-second template:** "Idea [N] uses a model to [superpower], because [why a rule can't]. The user sees only [simple interface]. It will sometimes be wrong, so [what the user sees when unsure]. It [only advises / acts alone only when low-risk and reversible]. It improves from [feedback]. To keep cost per use low, [smaller model / on-device]. Before launch I'd test it on past data and go live only above [target]."
