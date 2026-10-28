@@ -1,5 +1,5 @@
 # Resume Output - Senior AI Product Manager, Agentic AI & Data Intelligence (Phoenix, USA)
-**Keyword Coverage: 93% (28/30 requirements matched: 23 strong, 5 partial, 2 unmatched)**
+**Keyword Coverage: 100% (30/30 requirements matched: 25 strong, 5 partial, 0 unmatched)** (after round 3)
 **ATS keyword count (60 JD terms, in bullet text): 82% (49/60)**
 
 Source: JD pasted by user, 2026-10-28. Company not named in the posting. Location: Phoenix, USA.
@@ -25,7 +25,7 @@ JD has 30 requirements, above average. 93% on a JD this broad is a strong fit; i
 
 | # | JD Requirement | Gap Type | Suggested Response |
 |---|---|---|---|
-| 1 | Knowledge graphs | No match | Cover letter: "My grounding work used a data catalog, semantic layer and lineage graph rather than a formal knowledge graph; the problem it solved, giving agents trustworthy context on enterprise data, is the same one." Only if true: lineage/provenance is in K6. |
+| 1 | Knowledge graphs | Strong (round 3) | Proposed and built a metadata knowledge graph (fields, lineage, business concepts); now on the data catalog bullet. Graph store not on record; don't name one. |
 | 2 | Python or similar scripting | Partial (round 2) | No hand-written Python. Resume now says the agent PoC was built in Codex. Interview: "I don't write Python by hand; I build deterministic and LLM-based prototypes with Codex and Claude Code, and I write SQL (Athena/Glue)." |
 | 3 | Enterprise search | Partial | Semantic layer + NL queries + retrieval pipeline cover it. Referral note: "built the retrieval and semantic layer behind an enterprise agent's natural-language data access." |
 | 4 | Vector databases | Strong (round 2) | Qdrant stored the forecasting agent's RAG vector datasets; now on the RAG bullet. |
@@ -63,8 +63,9 @@ Principal Product Manager-Technical                                             
      stronger models; cut agent run cost ~30% in a pilot with lower latency and no quality loss.
   • Set governance for autonomous agents after early automation saw 60% of actions reversed: 3 risk tiers (act, recommend-and-
      approve, surface-only), guardrails in tool definitions, audit logs and a canary rollout; lifted action acceptance from 30% to 80%.
-  • Traced agent hallucinations to missing schema context and built a runtime data catalog, AI metadata generation with confidence
-     gates, and a semantic layer for natural-language queries; cut repeat questions from 50% to 30%.
+  • Traced agent hallucinations to missing schema context, then proposed and built a metadata knowledge graph (fields, lineage,
+     business concepts) behind a runtime data catalog, AI metadata generation and a semantic layer for natural-language queries; cut
+     repeat questions from 50% to 30%.
   • Replaced a static RAG prototype with a continuously updated knowledge retrieval pipeline on a Qdrant vector store (per-source
      chunking, quality gates, domain-adapted embeddings, feedback loop); raised retrieval precision from 0.58 to 0.81.
   • Built a multi-tenant data platform with 8 engineers, covering ingestion, validation, lineage, anonymization, data contracts and data
@@ -127,7 +128,7 @@ MBA, Marketing & Operations, IIT Roorkee (2013-15) | B.E., Chemical Engineering,
 | Created the agent evaluation framework beyond model metrics... | K4, Keystone resume bullet "AI Evaluation & Governance" | REWORDED |
 | Benchmarked LLMs on cost, latency, quality and adoption... | K14 (~30%) | REWORDED |
 | Set governance for autonomous agents after early automation... | K3 (60% reversed, 30% → 80%) | REWORDED |
-| Traced agent hallucinations to missing schema context... | K6 (clarification 50% → 30%) | REWORDED |
+| Traced agent hallucinations to missing schema context, then... | K6 (clarification 50% → 30%; knowledge graph per user 2026-10-28) | REWORDED |
 | Replaced a static RAG prototype with a continuously updated... | K8 (0.58 → 0.81, Qdrant per user 2026-10-28) | REWORDED |
 | Built a multi-tenant data platform with 8 engineers... | K15, K29, Canonical (3 months → 3 weeks, 7–8 engineers) | REWORDED |
 | Persuaded leadership and investors to deploy as a managed se... | K12 (+1 month, +2 clients) | REWORDED |
@@ -157,3 +158,9 @@ MBA, Marketing & Operations, IIT Roorkee (2013-15) | B.E., Chemical Engineering,
 - Added "in Codex" to the PoC bullet and "on a Qdrant vector store" to the RAG bullet; both recorded in experience-library.md.
 - Lost from ATS: "REST API" and "PRFAQ" (were on the removed financing and fraud bullets).
 - **Regression checks:** keyword count 48/60 (gained "vector"; lost "REST API", "PRFAQ"); 1 page; numbers match Canonical Metrics; no 1–3-word last lines; links live.
+
+## Round 3 (knowledge graph, 2026-10-28)
+- User confirmed: proposed a knowledge graph and it was built; lineage and the concept layer were both stored as a graph, connecting data fields and lineage. Graph store unknown.
+- Data catalog bullet now reads "proposed and built a metadata knowledge graph (fields, lineage, business concepts)". Dropped "with confidence gates" for space.
+- **Regression checks:** keyword count 49/60 (gained "knowledge graph"); 1 page; 3-line bullet, 5-word last line (within the style guide); numbers unchanged.
+- Interview watch: be ready for "what graph database?" and "did agents query the graph?" Neither is on record yet.
