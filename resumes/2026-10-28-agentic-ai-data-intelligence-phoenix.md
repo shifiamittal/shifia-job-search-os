@@ -26,9 +26,9 @@ JD has 30 requirements, above average. 93% on a JD this broad is a strong fit; i
 | # | JD Requirement | Gap Type | Suggested Response |
 |---|---|---|---|
 | 1 | Knowledge graphs | No match | Cover letter: "My grounding work used a data catalog, semantic layer and lineage graph rather than a formal knowledge graph; the problem it solved, giving agents trustworthy context on enterprise data, is the same one." Only if true: lineage/provenance is in K6. |
-| 2 | Python or similar scripting | No match on record | If you wrote Python for the job-search system or prototypes, tell me and I'll add it. SQL (Athena/Glue, K33) is on record. Interview: "I write SQL day to day and prototype agents myself (the Codex PoC)." |
+| 2 | Python or similar scripting | Partial (round 2) | No hand-written Python. Resume now says the agent PoC was built in Codex. Interview: "I don't write Python by hand; I build deterministic and LLM-based prototypes with Codex and Claude Code, and I write SQL (Athena/Glue)." |
 | 3 | Enterprise search | Partial | Semantic layer + NL queries + retrieval pipeline cover it. Referral note: "built the retrieval and semantic layer behind an enterprise agent's natural-language data access." |
-| 4 | Vector databases | Partial | Qdrant is in your stack-familiarity list but no use is recorded. Confirm what you did with it. |
+| 4 | Vector databases | Strong (round 2) | Qdrant stored the forecasting agent's RAG vector datasets; now on the RAG bullet. |
 | 5 | Identity/access management, observability | Partial | Access controls (MDLC), audit logs, production monitoring (A9) are on the page. Not IAM product ownership. |
 | 6 | JSON / cloud services | Partial | REST APIs, SageMaker, managed service in client clouds on page. AWS + Azure IaC (K12) left off for space. |
 | 7 | Technology landscape analyses | Partial | Writing evidence (PRFAQ, strategy doc) on page; agent-pattern comparison (ReAct vs. Plan-and-Execute, K2) is interview material. |
@@ -42,7 +42,7 @@ JD has 30 requirements, above average. 93% on a JD this broad is a strong fit; i
 ## Resume (text copy of the .docx)
 ```
                                                         SHIFIA MITTAL
-       shifia.mittal09@gmail.com | 206-356-6348 | Seattle, WA, USA | linkedin.com/in/shifiamittal | github.com/shifiamittal
+                 shifia.mittal09@gmail.com | 206-356-6348 | linkedin.com/in/shifiamittal | github.com/shifiamittal
 SUMMARY
 Principal product manager with 11+ years shipping AI and machine learning (ML) products at scale: an agentic AI and data intelligence
 platform in Keystone’s AI startup ($7.5M ARR) and ML and data platforms at Amazon (100+ production models, $71M revenue).
@@ -52,8 +52,8 @@ Principal Product Manager-Technical                                             
   • Set 0→1 product strategy and roadmap for Deep Enterprise, an enterprise agentic AI and data platform, aligning the CEO and CTO
      on a pivot from consulting to product and directing 30+ engineers and data scientists; reached $7.5M ARR and $25M in annualized
      client savings across 5 Fortune 500 clients.
-  • Prototyped a forecasting agent as a PoC for agentic workflow automation; its >70% recommendation adoption won a 2-month
-     shift from model accuracy work to agents, then moved it from shadow mode to production.
+  • Prototyped a forecasting agent in Codex as a PoC for agentic workflow automation; its >70% recommendation adoption won a 2-
+     month shift from model accuracy work to agents, then moved it from shadow mode to production.
   • Designed multi-agent orchestration (LangGraph, MCP tool calling, memory, RAG) routing exceptions through triage, root-cause
      and action agents to human-in-the-loop approval; cut planner effort 4 hrs/day to 4 hrs/week, overstock $5M to $2M.
   • Created the agent evaluation framework beyond model metrics: expert-baselined evaluation datasets, a harness comparing agent
@@ -65,30 +65,29 @@ Principal Product Manager-Technical                                             
      approve, surface-only), guardrails in tool definitions, audit logs and a canary rollout; lifted action acceptance from 30% to 80%.
   • Traced agent hallucinations to missing schema context and built a runtime data catalog, AI metadata generation with confidence
      gates, and a semantic layer for natural-language queries; cut repeat questions from 50% to 30%.
-  • Led REI-Agent, a multi-agent financial analysis assistant for natural-language investigation of cost drivers, with automated data
-     retrieval, variance analysis, governed enterprise metrics and auditable calculations.
-  • Replaced a static RAG prototype with a continuously updated knowledge retrieval pipeline (per-source chunking, quality gates,
-     domain-adapted embeddings, feedback loop); raised retrieval precision from 0.58 to 0.81.
+  • Replaced a static RAG prototype with a continuously updated knowledge retrieval pipeline on a Qdrant vector store (per-source
+     chunking, quality gates, domain-adapted embeddings, feedback loop); raised retrieval precision from 0.58 to 0.81.
   • Built a multi-tenant data platform with 8 engineers, covering ingestion, validation, lineage, anonymization, data contracts and data
      APIs for app developers and scientists; cut deployment from 3 months to 3 weeks.
   • Persuaded leadership and investors to deploy as a managed service in clients’ cloud instead of pure SaaS, accepting a 1-month
      longer deployment; won 2 additional clients with strict data-residency needs.
 Amazon                                                                                                               2016 - 2024 (8 years)
 Sr. Product Manager-Technical, Amazon Business Financing & Credit                                                             2022 - 2024
-  • Launched Amazon Business’ 0→1 ML financing product with versioned REST APIs for credit eligibility at checkout and fraud
-     decisions at sign-up, via a 5% controlled launch; scaled to 50K+ customers and $71M in incremental revenue.
+  • Launched an ML-based financing product on Amazon Business, scaled to 50K+ customers ($71M incremental revenue),
+     redesigning it around monthly eligibility after customer interviews in a 5% launch; presented monthly updates to VPs.
+  • Scaled a global consumer credit product through ML-personalized marketing ($15M incremental revenue), credit bureau
+     integrations (+17% data coverage, +7% approval lift), and an onboarding redesign that cut abandonment 50%.
   • Chose to build credit underwriting in-house on Amazon behavioral data rather than buy, bounding risk with exposure caps and
      category limits; raised SMB approval from 4% to 15% with no credit losses after full launch.
-  • Wrote the PRFAQ and product strategy for a business fraud score, launched after a 3-week shadow run at 99% precision; avoided
-     $18M in fraud losses and became a shared capability adopted by 6 teams.
 Sr. Product Manager-Technical, ML Ops Developer Platform                                                                      2020 - 2022
   • Owned vision and roadmap for a SageMaker-based MLOps platform (pipelines, CI/CD, versioning, lineage, monitoring) for 30+
      data scientists; cut deployment time 40% and scaled to 100+ production models with flat headcount.
   • Defined privacy rules for ML data with Amazon’s privacy and legal teams and launched access controls, encryption and
      anonymization as platform defaults; adopted across ~20 Amazon Payments teams, saving 5 science FTE/year.
 Product Manager-Technical, Supply Chain Optimization                                                                          2018 - 2020
-  • Launched TRACE, a causal decision support product that explained shipping-cost changes across 50+ drivers from 14 teams’
-     systems and recommended the top fix to sellers via Seller Central APIs, driving $40M of the team’s $100M+ in savings.
+  • Built and scaled three ML recommendation products for sellers: inventory placement (SPORT), purchase thresholds (MOQ, 20K
+     merchants, ~60% higher adherence), and causal shipping-cost attribution (TRACE, 50+ drivers across 14 systems); delivered
+     $100M+ in cost savings, including $40M from TRACE.
 Product Manager, Amazon Pricing                                                                                               2016 - 2018
   • Launched self-service price-perception insight tools benchmarking Amazon against 800+ retailers in 17 countries; adopted by 40+
      global pricing leaders, with signals feeding the pricing models that set Amazon’s prices.
@@ -123,22 +122,21 @@ MBA, Marketing & Operations, IIT Roorkee (2013-15) | B.E., Chemical Engineering,
 | Resume Bullet (first 60 chars) | Source | Match Type |
 |---|---|---|
 | Set 0→1 product strategy and roadmap for Deep Enterprise... | K1, Canonical ($7.5M, $25M, 5 clients), Decision 24 (30+) | REWORDED |
-| Prototyped a forecasting agent as a PoC for agentic workflow... | K11, K2 (shadow mode) | REWORDED |
+| Prototyped a forecasting agent in Codex as a PoC... | K11 (Codex), K2 (shadow mode) | REWORDED |
 | Designed multi-agent orchestration (LangGraph, MCP tool calli... | K2, Decision 18 (LangGraph, memory, MCP) | REWORDED |
 | Created the agent evaluation framework beyond model metrics... | K4, Keystone resume bullet "AI Evaluation & Governance" | REWORDED |
 | Benchmarked LLMs on cost, latency, quality and adoption... | K14 (~30%) | REWORDED |
 | Set governance for autonomous agents after early automation... | K3 (60% reversed, 30% → 80%) | REWORDED |
 | Traced agent hallucinations to missing schema context... | K6 (clarification 50% → 30%) | REWORDED |
-| Led REI-Agent, a multi-agent financial analysis assistant... | Keystone resume bullet "REI-Agent" | EXACT |
-| Replaced a static RAG prototype with a continuously updated... | K8 (0.58 → 0.81) | REWORDED |
+| Replaced a static RAG prototype with a continuously updated... | K8 (0.58 → 0.81, Qdrant per user 2026-10-28) | REWORDED |
 | Built a multi-tenant data platform with 8 engineers... | K15, K29, Canonical (3 months → 3 weeks, 7–8 engineers) | REWORDED |
 | Persuaded leadership and investors to deploy as a managed se... | K12 (+1 month, +2 clients) | REWORDED |
-| Launched Amazon Business' 0→1 ML financing product with vers... | A1, A14 (REST APIs, versioning), 0→1 note | REWORDED |
+| Launched an ML-based financing product on Amazon Business... | A1, A2 (monthly eligibility after 5% test interviews), Decision 16 (monthly VP updates) | REWORDED (user's text) |
+| Scaled a global consumer credit product through ML-personal... | Amazon Financial Services LinkedIn bullet 2 | REWORDED (user's text) |
 | Chose to build credit underwriting in-house on Amazon behavi... | A5, A3, Canonical (4% → 15%, no losses) | REWORDED |
-| Wrote the PRFAQ and product strategy for a business fraud sc... | A21 ($18M, 6 teams, 3-week shadow, ~99% precision) | REWORDED |
 | Owned vision and roadmap for a SageMaker-based MLOps platform... | ML Ops LinkedIn bullets, Canonical (−40%, 100+) | REWORDED |
 | Defined privacy rules for ML data with Amazon's privacy and l... | A10, Decision 23 (controls) | REWORDED |
-| Launched TRACE, a causal decision support product... | A11, Canonical ($40M of $100M+, 50+ drivers) | EXACT (from Stripe v7) |
+| Built and scaled three ML recommendation products for sellers... | Supply Chain bullets, A11, A16, Canonical ($100M+, $40M, 50+ drivers, 14 systems) | REWORDED (user's text) |
 | Launched self-service price-perception insight tools... | Amazon Pricing, Decision 20 | EXACT (from Stripe v7) |
 
 **Bullets removed (no source):** 0. Qualcomm's open-weight model bullet was not reused: it isn't in the experience library.
@@ -150,3 +148,12 @@ MBA, Marketing & Operations, IIT Roorkee (2013-15) | B.E., Chemical Engineering,
 - Dropped "70% acceptance" from the orchestration bullet to remove a 1-word last line.
 - Added REI-Agent to cover natural-language data interaction (space left on the page).
 - Cut from the Stripe v7 base: pricing/packaging, demos, event-stream, API catalog, BFS 2.0 investigation, batch vs. real-time, SPORT APIs (less relevant here).
+
+## Round 2 (user edits, 2026-10-28)
+- Removed "Seattle, WA, USA" from the header (this resume only).
+- Amazon Financing & Credit: replaced with the user's 2 bullets. Changed "the credit product" to "a global consumer credit product" in bullet 2: the library ties bureau integrations (+17%) to the global consumer credit product, not the Amazon Business financing product (Decision 23). Trimmed bullet 1 ("scaled to", "updates to VPs") so it doesn't end on a 1-word line.
+- Kept the build-vs-buy underwriting bullet as a 3rd point: it's the only on-page proof of the JD's "build-vs-buy-vs-partner decisions". Dropped the fraud score bullet and, for space, REI-Agent (the semantic-layer bullet already covers natural-language queries).
+- Supply Chain: replaced with the user's single bullet (facts check against A11, A16, Canonical Metrics).
+- Added "in Codex" to the PoC bullet and "on a Qdrant vector store" to the RAG bullet; both recorded in experience-library.md.
+- Lost from ATS: "REST API" and "PRFAQ" (were on the removed financing and fraud bullets).
+- **Regression checks:** keyword count 48/60 (gained "vector"; lost "REST API", "PRFAQ"); 1 page; numbers match Canonical Metrics; no 1–3-word last lines; links live.

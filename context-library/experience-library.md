@@ -141,6 +141,7 @@ Jul 2012 – Dec 2012 · Gurugram, India
 - **AI job-search system (2026).** Built an AI-powered system to discover jobs, evaluate career fit, and shortlist roles. The first version used an LLM to generate search queries and decide when to stop. It missed jobs she knew existed, because the agent couldn't tell whether its search was complete. Redesigned it as **deterministic discovery** (source-specific integrations, explicit pagination, retries, coverage checks) plus **agentic evaluation** (requirements understanding, experience mapping, gap identification, recommendations). Results: 100% recall against known-job benchmark sets at Adobe (41/41), NVIDIA (35/35), and CrowdStrike (10/10). Coverage was visible: 3 integrations completed fully, 16 returned partial results, 7 failed. Now exploring browser-agent discovery. Source: LinkedIn post (~Oct 2026), 2,054 impressions, 14 reactions, 5 comments.
 - **Patent search retrieval (in progress).** Exploring how lexical and semantic retrieval, citation expansion, and reranking can improve recall against an analyst-led process. Personal project; no metrics yet. Source: LinkedIn About.
 - **ACARA (IIT Roorkee, 2013).** Business plan to improve farmers' economics: education on crop choice, storage access, direct market linkage to remove supply-chain middlemen.
+- **Coding (stated by user 2026-10-28):** does not write Python by hand. Builds deterministic and probabilistic (LLM) prototypes with AI coding tools (Codex, Claude Code), which generate Python. Resume: "prototyped ... in Codex" is fine; never list "Python" as a skill. Interview: say exactly this.
 - **Tools used (LinkedIn connected apps):** Gamma, IntelliJ IDEA, HubSpot, Replit Agent.
 
 ## Volunteering
@@ -285,6 +286,7 @@ Five different metrics. Every story names the one it moved. No data access since
 ### K8: Static RAG vs. Continuously Learning Pipeline (Keystone.ai)
 - **Situation:** Heavy pressure to ship fast for the flagship client.
 - **Action:** Prototyped static RAG first: 58% retrieval precision, and it recommended actions that were already resolved. Built an incremental pipeline (multi-source ingestion, per-source chunking, quality gates, domain-adapted embeddings, feedback loop) with weekly acceptance tests with the client.
+- **Vector store (stated by user 2026-10-28):** Qdrant stored the vector datasets for the forecasting agent's RAG pipeline. OK to say "Qdrant vector store" on resumes.
 - **Result:** Retrieval precision 0.58 → 0.72 → 0.81; contributed to the cumulative override reduction (50% → 20%). ("50% → 35% → 20%" dropped 2026-10-20: K8's own share is unknown.)
 - **Tags:** trade-off, speed vs. quality
 
