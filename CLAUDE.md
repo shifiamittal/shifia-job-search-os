@@ -24,6 +24,7 @@ IMPORTANT: At session start, read these files to understand the user before doin
 - `context-library/connection-tracker.md` - Networking contacts by company with relationship status.
 - `context-library/interview-history.md` - Past interview log with scores, patterns, and weakness heatmap.
 - `context-library/resume-style-guide.md` - The user's resume format and wording rules. `/resume-tailor` applies them to the first draft.
+- `context-library/interview-answer-style-guide.md` - How the user wants interview answers drafted. `/interview-prep` and `/mock-interview` apply it to the first draft.
 
 If any context file is empty or has only template placeholders, tell the user to fill it first. Do not proceed with generic output.
 

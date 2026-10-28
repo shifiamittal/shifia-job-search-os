@@ -44,6 +44,7 @@ All instructions below use PM as the default. When the detected function is NOT 
 - `context-library/experience-library.md` -- stories, metrics, organized experience
 - `context-library/career-plan.md` -- addressing-weaknesses analysis, dream offer, level preference
 - `context-library/qa-master.md` -- pre-drafted answers to common questions
+- `context-library/interview-answer-style-guide.md` -- how the user wants answers drafted (frameworks, format, voice, length, accuracy rules). Apply it to the first draft, ask its one batch of questions before drafting, and self-check every answer against it before showing it
 - `context-library/interview-history.md` -- past interview scores, weakness patterns, signals
 - `context-library/target-companies.md` -- prior research and notes on this company
 - `insider-data/behavioral-interview-frameworks.md` -- question frameworks, Three Laws, addressing-weaknesses framework

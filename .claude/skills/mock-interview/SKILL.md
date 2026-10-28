@@ -70,6 +70,7 @@ All instructions below use PM as the default. When the detected function is NOT 
 - `context-library/career-plan.md` -- for addressing-weaknesses context
 - `context-library/interview-history.md` -- for weakness patterns to prioritize
 - `context-library/qa-master.md` -- for pre-drafted common answers
+- `context-library/interview-answer-style-guide.md` -- voice, format, and canonical-number rules for rewrites
 - `insider-data/behavioral-interview-frameworks.md` -- for question frameworks and grading criteria
 - Most recent interview-prep output in `briefings/` (if exists, for company-specific questions)
 
