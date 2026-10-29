@@ -47,6 +47,22 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 
 ## Recruiter Screen
 
+### Plaid - Staff Product Manager, AI & Data Foundations
+- **Status:** recruiter-screen (complete 2026-10-29; resume owed to recruiter, then HM review in 2–3 business days)
+- **Source:** Inbound email from Fernando Parada, recruiter (fparada@plaid.com), 2026-10-16
+- **Referral:** No (recruiter-sourced)
+- **Resume version:** `resumes/Shifia_Mittal_Resume_Plaid.docx` / `.pdf` (v3, 2026-10-29; analysis: `resumes/2026-10-26-plaid-staff-pm-ai-data-foundations.md`). Not sent yet.
+- **Hiring manager:** Plaid's head of data. Role sits in the data org (~50 people, an engineering group, not the product org). One of a small handful of PMs shaping Plaid's company-wide AI roadmap.
+- **Location:** San Francisco, NYC or **Seattle**; 3 days/week hybrid. Confirmed workable.
+- **Comp (shared by recruiter 2026-10-29):** base $207K–$339K (expect mid to mid-high); stock **$300K–$440K per year**, vests quarterly from joining (private company); annual performance-based refreshers. Implied total **~$570K–$780K**, at or above the $600K target. **Comp-range-confirmed:** Yes.
+- **Process:** ~3 weeks; HM interview → first round (includes an ML or data engineering interview; rest behavioral) → final round.
+- **Hiring team priorities (recruiter):** strong technical background; "scrappy," comfortable in ambiguity with no guidelines.
+- **Last action:** 2026-10-29 Recruiter screen with Fernando (Otter: "Shifia Mittal & Fernando Parada").
+- **Next action:** Send resume v3 to Fernando today. Expect an update 2–3 business days after.
+- **History:**
+  - 2026-10-16 Inbound from Fernando; call booked
+  - 2026-10-29 Recruiter screen
+
 ### Coinbase - Group Product Manager, Core Infrastructure & Reliability
 - **Status:** recruiter-screen (scheduled Tue 2026-10-27, 11:00–11:30pm IST = 10:30–11:00am Seattle; booked via Aga's scheduling page)
 - **Job ID:** P76485 · https://www.coinbase.com/careers/positions/7997785 · Remote - USA (quarterly in-person "surges")

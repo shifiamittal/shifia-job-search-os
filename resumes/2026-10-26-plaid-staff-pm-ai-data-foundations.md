@@ -100,3 +100,17 @@ Keywords: counted above. Facts: every number matches canonical metrics; "up to 2
 **Fixes from the reviews:** five short last lines removed ("30%.", "70%.", "attribution.", "leaders.", summary third line); "accuracy work" → "model accuracy work" for clarity.
 
 **Regression (v2):** 1 page; dates on one line; links unchanged (mailto, LinkedIn, GitHub); all numbers match canonical metrics; no first person; results bolded.
+
+## v3 (2026-10-29, after the recruiter screen)
+**Source:** Otter transcript "Shifia Mittal & Fernando Parada" (2026-10-29). New requirements from the call: initial focus on AI-powered analytics and experimentation (datasets, shared definitions, quality guarantees); later data discovery, lineage, governance, and access for apps and AI agents through APIs or MCP; strong technical background (first round includes an ML or data engineering interview); scrappy, comfortable with ambiguity; 0→1 then scale; one of a few PMs on Plaid's company-wide AI roadmap.
+
+**Changes:**
+- Summary: "taking AI, data and ML platforms from 0→1 to scale."
+- Data platform bullet: names pipelines, quality checks, lineage, APIs for apps and scientists, and "semantic layer of shared definitions."
+- Agent bullet: adds LangGraph, MCP tools, RAG (Source Decision 18).
+- New bullet: REI-Agent as a multi-agent analytics assistant on governed metrics with auditable calculations (no metric on record; qualitative result, a style-guide-allowed deviation).
+- ML Ops: folded the pipelines bullet into the vision bullet (100+ models, flat headcount, −40%); dropped "8+ engineering HC."
+
+**Not claimed:** "API gateway" (the library records an API service; user said "API gateways" on the call, unconfirmed), MCP access to the data platform itself (MCP is confirmed only for agent tool calls), Unity Catalog.
+
+**Regression (v3):** 1 page; keyword recount: 0→1 3, platform 11, quality 3, APIs 2, evaluation 2, data scientists 2, Databricks 1, LLM 1, MCP 1, semantic layer 1, shared definitions 1, lineage 1, governed 1, pipelines 1, experimentation 1. "self-service" 2 → 1 (pipelines bullet folded). Facts match canonical metrics. One bullet ends on a 6-word line (acceptable).
