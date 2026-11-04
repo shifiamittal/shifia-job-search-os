@@ -5,7 +5,9 @@ Source: Otter transcript `T75m_aP1JCGrzQO9ROUwt0BdVmQ`
 Round: Recruiter intro (screen before the hiring manager, Plaid's Head of Data)
 Overall Score: **6/10 (adequate)**. Confidence: high. Transcript was clean; the only artifacts are the first line ("Forward to your call.") and the cut-off at 0:07:53.
 
-> Where this call stands: Fernando reached out to you, quoted the range up front ("assume closer to the mid or mid-high end"), and will take your resume to the Head of Data. **Your resume was still owed at the end of the call. If it hasn't gone out yet, send it first; the 2-3 business-day clock starts when he receives it.**
+> **Outcome (added 2026-11-04): rejected** by email, with standard wording ("other candidates whose experience more closely aligns with our current needs"). Role title: Staff Product Manager - AI & Data Foundations. You sent your resume on 10/29 (the original draft of this debrief wrongly said it was still owed) and asked for feedback; none came. The reason is unknown, so the analysis below is a read of the transcript, not a stated cause.
+>
+> Where the call stood at the time: Fernando reached out to you, quoted the range up front ("assume closer to the mid or mid-high end"), and was going to take your resume to the Head of Data.
 
 [VERIFY: Plaid company intel last updated 2026-03-24. Key details may have changed.] The intel's comp ($370-550K TC for Staff) sits below the range Fernando quoted, so don't anchor on it.
 
@@ -174,7 +176,7 @@ No answer scored below 4/10, so no recovery document is required. Q1 (4/10) is t
 Over-length is now confirmed in 5 of 5 interviews.
 
 ## Action Items
-1. [ ] **Send your resume to Fernando if you haven't.** The turnaround clock starts on receipt. Use the version from the Keystone-dates decision you've made; tell me if you want a Plaid-tailored one (`/resume-tailor` with the JD).
+1. [x] Resume sent 2026-10-29. Rejected 2026-11-04; feedback requested, none received.
 2. [ ] Settle two facts before the HM call and update the library: **did you build "API gateways" at Keystone?** and **how many teams adopted the MLOps platform (5 or 6)?**
 3. [ ] Drill the canonical card: 70% acceptance at launch (never ">80%"); 3 months → 3 weeks (deployment) vs 2 months → 2 weeks (onboarding). Say which is which.
 4. [ ] `/company-research Plaid`, then `/interview-prep Plaid Platform PM` once you get the write-up from Fernando. Refresh the stale intel.

@@ -2,7 +2,7 @@
 
 Last updated: 2026-11-04
 Total interviews: 5 (4 companies), plus a recruiter screen for Count (Albert Squiers, not recorded)
-Outcomes: 2 rejected (LawnStarter at HM review, Count after Round 2), 1 stalled (Ascerta), 1 pending (Plaid: resume to Head of Data after the recruiter intro)
+Outcomes: 3 rejected (LawnStarter at HM review, Count after Round 2, Plaid), 1 stalled (Ascerta). Plaid was rejected at the recruiter intro, before the hiring manager.
 
 Auto-maintained by `/interview-debrief`. After each real interview, run the debrief and this file updates automatically with questions, scores, signals, and patterns. Full debriefs with rewrites are in `interview-debriefs/`.
 
@@ -56,7 +56,7 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 - **Signals:** Fernando reached out first, quoted the range up front, said "Awesome" twice after the platform and "different PM" answers. He is screening for strong technical background and "scrappy" in an ambiguous environment; the JD is being updated. Said the team always asks the "different PM" question.
 - **Key improvement:** Plaid-specific prep; cut each answer to 200 words; use 70% acceptance (not ">80%"); settle "API gateways" and "six teams" before the HM call.
 - **Next round prediction:** Resume to the Head of Data (hiring manager); 2-3 business days from the day you send it. Then a 3-stage loop over ~3 weeks: HM interview, first-round stage with an ML / data-engineering interview plus behavioral rounds, final round.
-- **Open item:** resume still owed at the end of the call.
+- **Outcome:** **Rejected 2026-11-04** (email from Fernando, 6 days after the call; role title was Staff Product Manager - AI & Data Foundations). Reason given: "other candidates whose experience more closely aligns with our current needs" (standard wording). Resume was sent 2026-10-29, the day of the call. You asked for feedback on gaps the same day; none received. The reason is unknown; the answer-quality read in the debrief is a hypothesis, not a stated reason.
 
 ### 2026-10-12 - Count - Head of Product - Round 2
 - **Interviewer:** Chris Smith, co-founder (acting CTO; ex-Amazon, ex-Meta)
