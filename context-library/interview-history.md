@@ -1,12 +1,12 @@
 # Interview History
 
-Last updated: 2026-10-15
-Total interviews: 4 (3 companies), plus a recruiter screen for Count (Albert Squiers, not recorded)
-Outcomes: 2 rejected (LawnStarter at HM review, Count after Round 2), 1 stalled (Ascerta)
+Last updated: 2026-11-04
+Total interviews: 5 (4 companies), plus a recruiter screen for Count (Albert Squiers, not recorded)
+Outcomes: 2 rejected (LawnStarter at HM review, Count after Round 2), 1 stalled (Ascerta), 1 pending (Plaid: resume to Head of Data after the recruiter intro)
 
 Auto-maintained by `/interview-debrief`. After each real interview, run the debrief and this file updates automatically with questions, scores, signals, and patterns. Full debriefs with rewrites are in `interview-debriefs/`.
 
-## Patterns (4 interviews, 2026-09-28 → 2026-10-12)
+## Patterns (5 interviews, 2026-09-28 → 2026-10-29)
 
 ### Strengths
 - **AI product / agents / evals:** avg **7.3/10** (7, 8, 7, 7). The forecasting agent (K2), the quality-slip story (K5) and eval design (K4) consistently land. The quality-slip story scored 8 and is your best behavioral answer.
@@ -16,9 +16,10 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 ### Weaknesses
 - **Leadership / people / process questions:** avg **4.8/10** (team alignment 4.5, underperformer 5, working with engineers 6, weakness 4). You answer with generic mechanics (SMART goals, standups, 1:1s) instead of a story. You have the stories: K20 (dotted-line PM turnaround), K13 (engineering pushback), K16 (CEO demo).
 - **Plans and vision questions:** avg **4.7/10** (30–60 days 4.5, 5-year vision 4.5, AI-native org 5). Generic and not tailored to the company, even when you had specific context from the same call.
-- **Length:** most answers run 350–650 words against a 200-word target. Filler words ("basically," "right?," "kind of," "like") show up throughout. **Confirmed habit (4 of 4 interviews).**
-- **Metric drift:** numbers changed between interviews: deployment 6 → 2 months (canonical 6 → 4), ">80% adopted" (canonical 70%), "if I remember, ~30%" cost cut (unconfirmed), Keystone team size changed three times in one answer. **Confirmed habit (3 of 4).**
-- **Current-employment claim:** "currently at Keystone" in **4 of 4** interviews. Role ended Mar 2026. Highest-risk issue in the pipeline.
+- **Length:** most answers run 350–650 words against a 200-word target. Filler words ("basically," "right?," "kind of," "like") show up throughout. **Confirmed habit (5 of 5 interviews).** Plaid intro call: the longest answer ran ~3:23 (~430 words, est.).
+- **Metric drift:** numbers changed between interviews: deployment 6 → 2 months (canonical 6 → 4), ">80% adopted" (canonical 70%; repeated at Plaid), "if I remember, ~30%" cost cut (unconfirmed), Keystone team size changed three times in one answer. Plaid also: "six payment teams" (library says 5) and "API gateways" [UNVERIFIED]. **Confirmed habit (4 of 5).**
+- **Current-employment claim:** "currently at Keystone" in **4 of 5** interviews. Role ended Mar 2026. **Plaid (2026-10-29) was the first clean one** ("most recently, I was at Keystone AI"). Keep it.
+- **Company-specific prep and "why you":** Plaid familiarity answer 4/10 ("as a consumer ... that's about it"); "what wouldn't have gone as well with a different PM" 5.5/10 after misreading the question twice. Restate the question in one sentence before answering.
 - **Technical, non-AI (incident debugging):** 5/10 (one data point). Didn't segment the failing 5%, mitigate first, or use your payments background.
 
 ### Other patterns
@@ -36,6 +37,26 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 ---
 
 ## Interview Log
+
+### 2026-10-29 - Plaid - Platform PM (AI & Data), Data Org - Recruiter intro call
+- **Interviewer:** Fernando Parada, recruiter (inbound; he reached out first)
+- **Format:** Recruiter intro: company/role overview, background, platform deep-dive, why now, "what wouldn't have gone as well with a different PM," logistics and comp. Full debrief: `interview-debriefs/2026-10-29-plaid-recruiter-fernando.md`
+- **Questions asked:**
+  1. Familiarity with Plaid - Score: 4/10 - Type: culture fit
+  2. Background (TMAY) - Score: 6.5/10 - Type: behavioral (TMAY)
+  3. Walk through a platform/product you built - Score: 6.5/10 - Type: technical / AI
+  4. Why considering a move now - Score: 6.5/10 - Type: behavioral
+  5. Project that went well: what wouldn't have gone as well with a different PM - Score: 5.5/10 - Type: behavioral
+  6. Candidate questions (asked twice) - Score: 5.5/10
+  7. Hybrid 3 days/week in Seattle - Score: 9/10 - Type: logistics
+  8. Compensation (range volunteered; you asked about vesting and other components) - Score: 8/10 - Type: comp
+  9. Work authorization - Score: 10/10 - Type: logistics
+- **Overall assessment:** adequate (6/10). Positive recruiter signals; weaker on Plaid prep and answer length.
+- **Quoted:** cash $207-339K (expect mid to mid-high); stock $300-440K per year, vesting quarterly, annual refreshers; hybrid 3 days in SF/NYC/Seattle. Level not stated.
+- **Signals:** Fernando reached out first, quoted the range up front, said "Awesome" twice after the platform and "different PM" answers. He is screening for strong technical background and "scrappy" in an ambiguous environment; the JD is being updated. Said the team always asks the "different PM" question.
+- **Key improvement:** Plaid-specific prep; cut each answer to 200 words; use 70% acceptance (not ">80%"); settle "API gateways" and "six teams" before the HM call.
+- **Next round prediction:** Resume to the Head of Data (hiring manager); 2-3 business days from the day you send it. Then a 3-stage loop over ~3 weeks: HM interview, first-round stage with an ML / data-engineering interview plus behavioral rounds, final round.
+- **Open item:** resume still owed at the end of the call.
 
 ### 2026-10-12 - Count - Head of Product - Round 2
 - **Interviewer:** Chris Smith, co-founder (acting CTO; ex-Amazon, ex-Meta)
