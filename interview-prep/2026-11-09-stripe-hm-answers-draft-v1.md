@@ -1,5 +1,7 @@
 # Stripe Radar: Hiring Manager Answers (draft v1, for us to refine)
 
+> **Note (2026-11-09):** these answers are now inline in `2026-11-09-stripe-radar-hiring-manager-prep.md` (section 9). That is the working copy; refine the answers there. This file is kept for reference.
+
 Written: 2026-11-09 · For the 45-minute hiring manager call (one manager, both roles) · Plan: `2026-11-09-stripe-radar-hiring-manager-prep.md`
 Rules applied (`interview-answer-style-guide.md`): your voice, short spoken sentences, point first, under 200 words, one message per story, canonical numbers only, ownership words ("I set the strategy," "data science built the model"), "launched" only for what shipped.
 Tags: **[CONFIRM]** = a fact only you can confirm · **[YOUR WORDS]** = a personal line I've guessed at; replace it with yours · Three Laws self-check at the end of each answer (Structure / Specificity / Skill demonstration, my own estimate before you've practiced them aloud).
