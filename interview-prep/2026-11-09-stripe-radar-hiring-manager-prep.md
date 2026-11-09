@@ -75,6 +75,19 @@ Gaps and slips to fix before the HM call:
 | 6. Decisions that outlasted you | The platform or policy continued | BFS as a shared score; MDLC defaults; privacy as platform policy |
 | 7. Growing others | You developed PMs | A Program Manager promoted L4 → L5 (A13); three dotted-line PMs (K20); 50+ hiring interviews |
 
+**L4 evidence check: where you're strong and where it's thin** (this is what to strengthen before the call; the numbers refer to the questions in section 14):
+
+| Signal | Strength | What would strengthen it |
+|---|---|---|
+| 1. A problem nobody owned | **Strong** (A22, A10) | Nothing needed. |
+| 2. Impact beyond your product | **Strong** (A27 six teams; A10 about 20 teams) | How the partner teams came to adopt (q6); one partner metric that moved (q5). |
+| 3. Strategy, not features | **Strong** (A26, K1) | What pushback the PRFAQ got (q3). |
+| 4. Business-model scope | **Strong, one story** (K32) | A backup story; the coverage grid shows none. |
+| 5. Influence against resistance | **Medium**: K12 is solid; the A10 and A26 stories lack the pushback detail | What the VPs pushed back on (q4); what engineering and buyer risk challenged (q3). |
+| 6. Decisions that outlasted you | **Thin**: the library doesn't record whether BFS, the privacy policy or the MDLC defaults continued after you left | Did the six teams keep using BFS, and is the policy still in force? (q8) |
+| 7. Growing others | **Thin**: one report in 2016–18, three dotted-line PMs, and no mentee story | A growth story beyond one person (q9). |
+| Years and level mapping | **Gap you can't close:** 11+ years vs. the recruiter's "L4 = 15+," and L6 at Amazon maps to Stripe L3 | Offset with scope and performance; ask the manager what would scope the role at L4. |
+
 **Practical moves in a 45-minute call:**
 - Open every story with the part that crosses teams ("six teams I didn't manage adopted it"), then the decision, then the number.
 - Talk about scope, never titles or past levels.
@@ -138,8 +151,8 @@ Numbers are from `experience-library.md` canonical metrics and your call card. U
 | **Partnerships "worth pursuing" (JD2, per the recruiter)** | A method for choosing partners and a case | Which of six BFS teams to integrate first; SPORT partner teams | [Open item: how you chose the partners and what you said no to.] |
 | **Level and scope (both)** | L4 scope, not L3 | Section 4 | Never argue years. |
 | **Didn't build the model (JD1)** | Clear ownership | A21 (data science built it) | "Data science built and validated the models. I set the strategy, goals, launch gates and integrations." |
-| 5 | **Numbers drift under live flow** | Your mocks averaged 6.4 and 6.5; scripted answers scored 8, improvised 5–7 | Numbers card (section 12), say each number once, rehearse out loud twice. |
-| 6 | **Still-open story details** | A hiring manager will ask for the second layer | Get the answers to the open items in section 14 before the interview. |
+| **Numbers drift under live flow** | The same numbers every time, under pressure | Your mocks averaged 6.4 and 6.5; scripted answers scored 8, improvised 5–7. Slips: "caught" for "avoided," "3 months" for "4 months," "currently at Keystone" | Numbers card (section 12). Say each number once and rehearse aloud twice. Say "most recently at Keystone." |
+| **Still-open story details** | The second layer on every story (who pushed back, what you gave up) | The open items in section 14 | Answer the section 14 questions before the interview. |
 
 ---
 
@@ -407,8 +420,26 @@ The exact content to learn, with self-tests, a hands-on friction-log exercise an
 
 ---
 
-## 14. Open items (on hold until we align on the sections above)
-1. A26 PRFAQ pushback · 2. A27 hardest of the six integrations · 3. A10 privacy policy pushback · 4. A22 "what I'd do differently" and score bands · 5. A25 what the cache gave up · 6. How the 3 SPORT partner teams came to integrate, and how you chose partners · 7. Keystone agent guardrail scope · 8. Any design partnership · 9. Fix your Drive doc: "$8 billion credit business," "Caught $18M," and the stale "3 months deployment."
+## 14. Open items: questions for you that would level up the answers (on hold until we align on the sections above)
+Ordered by value. "Levels up" names the answer or story each one improves.
+
+| # | Question for you | Levels up | Why it matters |
+|---|---|---|---|
+| 1 | Did BFS have defined score bands (e.g., high → block, medium → verify, low → allow), or did each team set its own thresholds? | A22, A24, Q3, Q5 | Makes the graded-response story exact; the HM will ask how the score was used |
+| 2 | What did engineering or buyer risk challenge in the PRFAQ, and what did you change? | A26, Q12 | L4 signal 5 (influence against resistance) |
+| 3 | What did the VPs and Directors push back on in the privacy policy? | A10, Q12 | L4 signal 5 |
+| 4 | Which of the six BFS integrations was hardest, and did one partner's decision or metric improve? | A27, Q7 | JD2 evidence; signal 2 |
+| 5 | How did the three SPORT partner teams come to integrate (you pitched, negotiated, or leadership mandated)? How did you choose which partners to pursue? | A15, Q7 | JD2 "partnerships worth pursuing" |
+| 6 | What would you do differently on the fraud strategy? (Replace my suggestion with yours.) | A22, Q3 | Every HM asks it |
+| 7 | **New:** After you left, did the six teams keep using BFS? Is the privacy policy still in force? Did the MDLC defaults continue? | A22, A27, A10 | L4 signal 6 (decisions that outlasted you) is currently thin |
+| 8 | **New:** Is there a growth story beyond the Program Manager and the three dotted-line PMs (a mentee, an intern, a hire)? | A13, K20, Q13 | L4 signal 7 is thin |
+| 9 | What did the in-memory cache give up compared with the feature store? | A25, Q11 | Makes the trade-off credible |
+| 10 | Who made the batch-vs-real-time call on the checkout API, and what was the batch cadence (weekly or daily)? | Q9, A4 | Ownership and accuracy |
+| 11 | Did "escalate when data is missing" become a rule for all Keystone clients, or a one-retailer fix? | K5 | Only if you use K5 |
+| 12 | Have you worked with design on a user flow? | Q11 | JD asks for design partnership; I won't invent one |
+| 13 | Do you want a written answer to "What's an area you're working on?" The Drive doc has one (stepping back from implementation detail) that scored 8; it isn't in Q1–Q15. | New Q16 | The HM may ask it |
+| 14 | **Logistics:** the hiring manager's name and the call date. | Section 9 | Lets me tailor Q2, Q15 and your questions |
+| 15 | **Action items, not questions:** fix the Drive doc ("$8 billion credit business," "Caught $18M," the stale "3 months deployment" line); do the hands-on Radar run so you can answer "have you used Radar?" | Q1, Q2 | Prevents slips like the recruiter-screen ones |
 
 ---
 
