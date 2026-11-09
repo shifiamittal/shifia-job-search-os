@@ -1,7 +1,7 @@
 # Stripe Radar: Hiring Manager Interview Prep (v2, both roles)
 
 Updated: 2026-11-09 · Roles: PM, Radar – Fraud and Abuse Prevention (job 8306158, "JD1") · PM, Radar (job 8301646, integrations, partners, monetization, "JD2")
-Companion files: `2026-11-09-stripe-hm-answers-draft-v1.md` (full answers, Q1–Q15) · `2026-11-09-stripe-hm-study-guide.md` (what to study) · stories: `2026-10-25-stripe-l4-story-bank.md`
+Companion files: `2026-11-09-stripe-hm-answers-draft-v1.md` (full answers, Q1–Q15) · `2026-11-09-stripe-hm-study-guide.md` (what to study) · stories: `context-library/experience-library.md` (A22–A27 and others); index: `2026-10-25-stripe-l4-story-bank.md`
 Frameworks used: `insider-data/behavioral-interview-frameworks.md` (Addressing-Weaknesses, Why-here, STAR-L, Three Laws) and `context-library/interview-answer-style-guide.md`.
 
 ## 0. What's confirmed (and what isn't)
@@ -56,11 +56,11 @@ Gaps and slips to fix before the HM call:
 **Seven signals, and your evidence for each:**
 | Signal | What the HM should hear | Your evidence |
 |---|---|---|
-| 1. A problem nobody owned | You saw a gap across teams and took it | BFS: no fraud checks before checkout (S1); ML privacy rules nobody had defined (S7) |
-| 2. Impact beyond your product | Other teams you didn't manage adopted it | BFS adopted by six teams (S6); privacy policy across ~20 Payments teams (S7) |
-| 3. Strategy, not features | You set the direction and the why | BFS PRFAQ (S5); Keystone's move to a product business (K1) |
+| 1. A problem nobody owned | You saw a gap across teams and took it | BFS: no fraud checks before checkout (A22); ML privacy rules nobody had defined (A10) |
+| 2. Impact beyond your product | Other teams you didn't manage adopted it | BFS adopted by six teams (A27); privacy policy across ~20 Payments teams (A10) |
+| 3. Strategy, not features | You set the direction and the why | BFS PRFAQ (A26); Keystone's move to a product business (K1) |
 | 4. Business-model scope | You shaped how the company makes money | Keystone pricing: modules on annual subscriptions, all five clients renewed, two upgraded (K32) |
-| 5. Influence against resistance | You changed a senior person's mind | Managed service vs. SaaS against leadership and investors (K12); VP-level alignment on privacy policy (S7) |
+| 5. Influence against resistance | You changed a senior person's mind | Managed service vs. SaaS against leadership and investors (K12); VP-level alignment on privacy policy (A10) |
 | 6. Decisions that outlasted you | The platform or policy continued | BFS as a shared score; MDLC defaults; privacy as platform policy |
 | 7. Growing others | You developed PMs | A Program Manager promoted L4 → L5 (A13); three dotted-line PMs (K20); 50+ hiring interviews |
 
@@ -77,31 +77,31 @@ The recruiter framed JD1 as "ML-heavy fraud and abuse products with data science
 
 | | JD1 evidence to lead with | JD2 evidence to lead with |
 |---|---|---|
-| Lead story | **S1** BFS strategy → **S2** BFS 2.0 (the attack you found) | **S6** BFS adopted by six teams → **K32** pricing |
-| Second | **S3** 99% precision vs. friction | **A15** SPORT APIs (3 partner teams), **A16** MOQ APIs, **K29** API catalog |
-| Technical decision | Blocklist cache vs. feature store (S4) | Checkout API: batch vs. real time |
+| Lead story | **A22** BFS strategy → **A23** BFS 2.0 (the attack you found) | **A27** BFS adopted by six teams → **K32** pricing |
+| Second | **A24** 99% precision vs. friction | **A15** SPORT APIs (3 partner teams), **A16** MOQ APIs, **K29** API catalog |
+| Technical decision | Blocklist cache vs. feature store (A25) | Checkout API: batch vs. real time |
 | Their question for you | Can you find and size an attack? | Which partnerships are worth pursuing, and how do technical capabilities turn into revenue? |
 
 **If asked which role you prefer:** "Both use the same core of what I've done: ML decisions where a wrong call costs money, delivered through APIs, priced for businesses. Which problem matters most to your team right now?" Then lean into the answer.
 
-## 6. Story index: where S1, S2, S3 live
+## 6. Story index: where the stories live
 
-The "S" numbers are story IDs in `interview-prep/2026-10-25-stripe-l4-story-bank.md` (full spoken versions). The "A" and "K" numbers are entries in `context-library/experience-library.md` (the facts; A = Amazon, K = Keystone). They map like this:
+The stories are in `context-library/experience-library.md` (facts and spoken versions). `interview-prep/2026-10-25-stripe-l4-story-bank.md` is now a short index (its "S" labels are story-bank labels; the library's own "S1" is the job-search system). Library IDs: **A = Amazon, K = Keystone.**
 
-| Story bank | What it is | Experience library entry |
+| Index label | What it is | Library entry |
 |---|---|---|
-| **S1** | Business Fraud Score strategy, Pay by Invoice | **A21** (also A18, superseded) |
-| **S2** | BFS 2.0: the attack the score missed | **A21** (A19, closed) |
-| **S3** | 99% precision vs. customer friction | **A21** (and A14/A18 for the threshold) |
-| **S4** | Unblocking the BFS 2.0 launch (blocklist cache) | **A21** |
-| **S5** | The PRFAQ | **A21** |
-| **S6** | BFS adopted by six teams | **A21** |
+| **S1** | Business Fraud Score strategy, Pay by Invoice | **A22** (facts: A21) |
+| **S2** | BFS 2.0: the attack the score missed | **A23** |
+| **S3** | 99% precision vs. customer friction | **A24** |
+| **S4** | Unblocking the BFS 2.0 launch (blocklist cache) | **A25** |
+| **S5** | The PRFAQ | **A26** |
+| **S6** | BFS adopted by six teams | **A27** |
 | **S7** | ML privacy policy across Payments | **A10** |
 | **S8** | Keystone pricing | **K32** |
 | **S9** | Managed service vs. SaaS | **K12** |
 | **S10** | Developing PMs | **A13, K20** |
 | **S11** | Failure: credit-loss miss | **A6** |
-| (not in bank) | SPORT APIs · MOQ APIs · API catalog · client IT dependency | **A15 · A16 · K29 · K30** |
+| (not indexed) | SPORT APIs · MOQ APIs · API catalog · client IT dependency | **A15 · A16 · K29 · K30** |
 
 ## 7. Gaps in both roles, the experience that would close them, and how to handle them
 
@@ -155,6 +155,6 @@ You were told to bring questions. Order by what you most need to know.
 | APIs | SPORT: **3 partner teams** integrated; adoption **1% → ~10%** (combined with other work) · MOQ: Seller Central and 2 marketplaces, ~60% higher adherence, $20M seller savings | "Outside developers used SPORT"; "27%" |
 | Agents | **70%** recommendation acceptance at launch · **30% → 80%** action acceptance (name it) · run cost **~30%** lower | ">80%" |
 
-## 11. Open items (on hold until we align on the sections above)
+## 11. Open items (on hold until we align on the sections above; also listed in the story index)
 
-1. S5 PRFAQ pushback · 2. S6 hardest of the six integrations · 3. S7 privacy policy pushback · 4. S1 "what I'd do differently" · 5. S4 what the cache gave up · 6. How the 3 SPORT partner teams came to integrate, and how you chose partners · 7. Keystone agent guardrail scope · 8. Any design partnership · 9. Fix your Drive doc: "$8 billion credit business," "Caught $18M," and the stale "3 months deployment."
+1. A26 PRFAQ pushback · 2. A27 hardest of the six integrations · 3. A10 privacy policy pushback · 4. A22 "what I'd do differently" and score bands · 5. A25 what the cache gave up · 6. How the 3 SPORT partner teams came to integrate, and how you chose partners · 7. Keystone agent guardrail scope · 8. Any design partnership · 9. Fix your Drive doc: "$8 billion credit business," "Caught $18M," and the stale "3 months deployment."

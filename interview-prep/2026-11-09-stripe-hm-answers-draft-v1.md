@@ -39,24 +39,24 @@ And I'm drawn to how Stripe writes. At Amazon, I got a new fraud strategy approv
 ---
 
 ## Q3. Walk me through your biggest fraud project end to end (~200 words)
-**Framework:** STAR-L / accomplishment arc. **Lead story for JD1.** (S1)
+**Framework:** STAR-L / accomplishment arc. **Lead story for JD1.** (A22)
 
 "**Situation.** Amazon Business used fraud controls built for consumers, and they ran after checkout. They didn't fit businesses, where one account can have thousands of users placing large orders that look suspicious. And fraud rings used bots to register thousands of accounts that nobody could catch until checkout.
 
 **Stakes.** Fraud exposure across Amazon Business grew 600%, to about $200 million, while up to 15% of orders on some payment methods were held for manual review.
 
-**Decisions.** I led the fraud strategy and made four calls. One, check for fraud across the customer journey, from registration to the first purchase. Two, set the score at about 99% precision, so good customers weren't blocked, and rely on checkout controls for the rest. Three, build one shared score that other teams could use. Six did. Four, keep watching for new patterns, and add behavioral and IP signals when fraudsters started acting like bots.
+**Decisions.** I led the fraud strategy and made four calls. One, check for fraud across the customer journey, from registration to the first purchase. Two, block only when the score was very sure, about 99% precision, and give everyone else a lighter response, like identity verification. Three, build one shared score and let each team choose its response: block, verify or filter. Six teams did. Four, keep watching for new patterns, and add behavioral and IP signals when fraudsters started acting like bots.
 
 **Result.** About $18 million in fraud losses avoided, fraudsters caught about 10 days earlier, and upfront detection up about 15%.
 
 **Learning.** Fraud prevention isn't one gate. It's the right check at each step."
 
-**Check:** Structure 9 · Specificity 8 · Skill demo 9. Say "avoided," not "caught." **Follow-ups:** "Why not tighten checkout?" (too late and too blunt); "What did data science do?" (built and validated the models; I set strategy, granularity, goal, launch gates and integrations); "What would you do differently?" **[YOUR ANSWER; open item 4].**
+**Check:** Structure 9 · Specificity 8 · Skill demo 9. Say "avoided," not "caught." **[CONFIRM]** whether BFS had defined score bands (high → block, medium → verify, low → allow); the wording above uses only documented facts. Optional bridge, one sentence: "I used the same principle later with agents: how much to automate depends on risk and reversibility." **Follow-ups:** "Why not tighten checkout?" (too late and too blunt); "What did data science do?" (built and validated the models; I set strategy, granularity, goal, launch gates and integrations); "What would you do differently?" **[YOUR ANSWER; open item 4].**
 
 ---
 
 ## Q4. Tell me about a new fraud or abuse pattern you found (~190 words)
-**Framework:** accomplishment arc; investigation → product. **JD1's core question.** (S2)
+**Framework:** accomplishment arc; investigation → product. **JD1's core question.** (A23)
 
 "The score was good at catching fraud at sign-up, but I wanted to know what it was missing. I led a deep dive into our worldwide business-customer data and found a pattern: fraudsters who passed the registration score but behaved unlike any real business before their first order. They moved through sign-up and browsing in repetitive, machine-like ways.
 
@@ -69,7 +69,7 @@ It caught fraudsters about 10 days earlier on average, lifted upfront detection 
 ---
 
 ## Q5. How do you balance detection against customer friction? (~190 words)
-**Framework:** trade-off → decision → result. (S3)
+**Framework:** trade-off → decision → result. (A24)
 
 "In fraud, the expensive mistake isn't always missing fraud. It's blocking a good customer. For the Business Fraud Score, a false positive meant suspending a legitimate business's credit line, which could be thousands to hundreds of thousands of dollars.
 
@@ -157,7 +157,7 @@ For Radar's new tiers, I'd test where customers draw the line between basic and 
 ---
 
 ## Q11. How do you work with engineering and data science when you disagree or hit a constraint? (~160 words)
-**Framework:** trade-off → decision → result. (S4)
+**Framework:** trade-off → decision → result. (A25)
 
 "Midway through BFS 2.0, we hit a dependency. The IP blocklist was supposed to live in our ML platform's feature store. That work was estimated at 22 weeks, which would have pushed the launch out a full quarter. Fraud rings don't wait a quarter.
 
@@ -170,7 +170,7 @@ We shipped on schedule, and the blocklist and IP rules contributed about 10% of 
 ---
 
 ## Q12. Stripe values writing. Tell me about a time a document changed a decision (~190 words)
-**Framework:** accomplishment arc. (S5, with S7 as the second example)
+**Framework:** accomplishment arc. (A26, with A10 as the second example)
 
 "I wrote the Business Fraud Score PR/FAQ instead of a requirements document, because the hard part wasn't the requirements. It was getting engineering, buyer risk and leadership to agree on a different strategy. It opened with the customer outcome: one score, at sign-up, that any team could use. The FAQ took on the hard questions directly: how big the problem was, why business fraud is harder than consumer fraud, the trade-off between fraud control and friction, and a four-phase roadmap. Credit Systems engineering used it to start technical design, and its phases became the roadmap through BFS 2.0.
 
@@ -198,7 +198,7 @@ On scope, I'd like to be judged on what changed beyond my own product: a fraud s
 ---
 
 ## Q14. Tell me about a failure (~150 words)
-**Framework:** STAR-L with the lesson. (S11 / A6)
+**Framework:** STAR-L with the lesson. (A6)
 
 "When we launched credit for small businesses to 5% of customers, credit losses came in higher than expected, and we couldn't scale to the full segment. That was on me. I'd validated that customers wanted the product, but not that the controls would deliver acceptable portfolio economics.
 

@@ -1,6 +1,6 @@
 # Experience Library
 
-Last updated: 2026-10-24 (third batch)
+Last updated: 2026-11-09
 Sources: LinkedIn profile PDF export (Profile (5).pdf), LinkedIn profile page text, and `Resume variants/Shifia_Mittal_Resume.docx`.
 
 This is the single source of truth. Every skill draws from this file. Anything marked **[CONFIRM]** has a conflict or gap between sources. Resolve it before using it in an application.
@@ -224,6 +224,13 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 | When NOT to use an agent | S1 job-search system |
 | Leadership / managing people | K20 (dotted-line PMs), A13 (direct report promoted L4 → L5), mentoring 4–5 people, 50+ interviews |
 | Org-wide ownership / Principal scope | A10 (privacy as a platform default across Payments), K1, A8 |
+| Fraud / abuse strategy, end to end | A22 (facts: A21) |
+| Investigated a new fraud or abuse pattern | A23 |
+| Detection vs. customer friction / precision vs. recall | A24, A3 |
+| Scope ruthlessly / unblock a launch / engineering trade-off | A25, K13 |
+| Writing / aligning stakeholders with a document | A26, A10 |
+| Platform adoption / integrations / partners | A27, A15, A16, K29 |
+| Pricing / monetization | K32 |
 
 ---
 
@@ -317,6 +324,7 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Multi-cloud (confirmed 2026-10-24):** client deployments of the Deep Enterprise platform used infrastructure-as-code (Pulumi) across AWS and Azure, not just the data platform (K15). OK to say "multi-cloud deployment with infrastructure-as-code on AWS and Azure."
 - **Learning:** In enterprise AI: earn trust, productize operations, then platformize.
 - **Tags:** strategy, disagreeing with leadership/investors
+- **Spoken version (recruiter-screen prep Q9, 2026-10-24):** "Keystone's leadership and investors wanted pure multi-tenant SaaS for the margins. Our enterprise clients had hard data-residency and control requirements, and I didn't think SaaS would close them. I recommended deploying as a managed service inside each client's cloud. The objection was that it would slide us back into consulting, so I showed how we'd productize deployment with infrastructure as code, reusable components and an upgrade process, and framed it as sequencing: prove repeatable deployment first, then build the platform. It cost a month of extra deployment time, and I said so up front. It won two more clients that pure SaaS couldn't have served." L4 signal: a company decision against leadership and investors, with its cost stated up front.
 
 ### K13: Microservices vs. Monolith (Keystone.ai)
 - **Action:** Chose modular services based on selective deployability (Fortune 500 procurement), reliability isolation, and cost of change. Engineering pushed back on the timeline; reframed it as business risk, not tech debt (6 weeks upfront vs. a 10× rewrite later). Aligned on interface contracts early.
@@ -454,6 +462,9 @@ Five different metrics. Every story names the one it moved. No data access since
 - **How to say it:** "Our simulation showed the blended portfolio cut losses 6–8%." The pilot losses were real; the 6–8% is simulated (confirmed 2026-10-20).
 - **Learning:** Validate the customer opportunity and the portfolio economics separately.
 - **Tags:** failure, ownership
+- **Spoken version (~150 words; Stripe L4 story bank S11, 2026-10-25):**
+"When we launched credit for small businesses to 5% of customers, credit losses came in higher than expected, and we couldn't scale to the full segment. That was on me: I'd validated that customers wanted the product, but not that the controls would deliver acceptable portfolio economics. I worked with science to add a lower-risk group of larger businesses to the portfolio; our simulation showed the blended portfolio cut losses 6 to 8%. We relaunched to the blended segment with positive economics, and there were no credit losses after full launch. The lesson I still use: validate the customer opportunity and the economics separately, especially in risk products, where a good customer outcome can hide a bad portfolio."
+**L4 signals:** owning a portfolio-level miss; a fix that changed the strategy, not just the threshold.
 
 ### A7: Launching with Limited Information (Amazon)
 - **Action:** 5% controlled launch, smaller limits, purchase-level controls; monitored approvals, acceptance, spend, and repayment before expanding. This surfaced the loss issue early (see A6).
@@ -484,6 +495,16 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Senior-influence signal (confirmed 2026-10-24):** defined the policy with Amazon-wide privacy bar raisers and Legal, then **personally presented it to the VP of Data Privacy, Directors across Amazon Payments teams, and the Amazon Payments VP** to drive alignment, because it was org-wide and a critical compliance requirement. It was approved as Payments-wide platform policy. (The 2026-10-20 note recorded approval by the Director of Data Privacy and Compliance; the user now names the VP of Data Privacy. Use "VP of Data Privacy" going forward.)
 - **Conflict angle (for "frustrated stakeholder" questions):** open with the science manager who was frustrated; listened 1:1 and found no one owned privacy for ML; the manager later emailed praise to your manager and skip-level. Same story and numbers, not a separate story.
 - **Tags:** ownership, org-wide scope, risk and compliance, trade-off, conflict, customer obsession
+- **Spoken version (Stripe L4 story bank S7, 2026-10-25):**
+**Use for:** influence without authority, org-wide change, compliance. (A10)
+
+**Spoken version (~170 words):**
+"Amazon had central teams for EU and US privacy rules, but nobody had defined how those rules applied to ML models: whether model data was in scope, or what scientists had to do. Every science team was guessing, and it was a compliance risk across Payments.
+
+I took it on. I worked out the requirements with Legal and Amazon's privacy team: on-demand deletion, returning customer data, and deleting data when the legal retention period expires. Because it touched every team and was a compliance requirement, I presented the policy to the VP of Data Privacy, the Amazon Payments VP and Directors across Payments to get alignment. Full automation would have taken about a year and a half, so I shipped a semi-automated version in about two months and put full automation on the roadmap. It became standard platform policy across Amazon Payments, about 20 teams, and saved my org five science FTEs a year."
+
+**L4 signals:** a problem nobody owned; alignment at two-VP level; a policy across ~20 teams.
+**Follow-up to prepare:** *"What did the VPs push back on?"* [Your answer; open item in your library.]
 
 ### A11: TRACE: Causal Shipping-Cost Attribution (Amazon)
 - **Situation:** Shipping was ~50% of item cost (~$50B/year). Org goal: $60M in seller savings. 50+ cost factors across 14 systems owned by 14 teams.
@@ -505,6 +526,7 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Action:** Mentored him to manage the external survey vendor and 30+ stakeholders across 15+ countries on his own. Coached him on deep-dive analysis of the price-perception reports. Reviewed results before they went to stakeholders. Helped him design requirements for automated price-perception dashboards. Wrote his promotion document.
 - **Result:** He led end-to-end price-perception surveys across 15+ countries independently and published high-quality reports on time. Promoted L4 → L5 in 2018.
 - **Tags:** people management, developing talent, Director-track
+- **Spoken version ("How do you develop other PMs?", recruiter-screen prep, 2026-10-24):** "By handing over real ownership in stages and staying close enough to coach. At Amazon I managed a Program Manager whose gap to L5 was independence. I moved ownership to him step by step: our external survey vendor, then 30+ stakeholders across 15+ countries, reviewing his work less as his judgment proved out. I wrote his promotion document, and he was promoted to L5. At Keystone.ai I led three PMs on a dotted line. One kept saying yes to client requests that displaced platform work; I gave specific feedback, set a decision rule for requests, and reviewed their calls weekly until their team was back on track. I've also run 50+ hiring interviews across Keystone and Amazon." Be precise if probed: one direct report, a Program Manager; the Keystone PMs were dotted-line. L4 signal: grows other PMs. Same answer covers K20.
 
 ### A14: PBI 2.0 Fraud Prevention & Credit Models (Amazon)
 - **Source:** user's doc "PBI_2.0_project_summary_and_questions.docx" (read 2026-10-20). **Role (superseded 2026-10-25, see A21):** Shifia was the PM and product-strategy owner of the Business Fraud Score (BFS 1.0 and 2.0), wrote the BFS PRFAQ, and made the product calls; data science (lead: Anran Guo) built the models. Earlier notes said "the fraud team owned BFS; Shifia owned how PBI 2.0 used it"; that undersold her role. Still true: she didn't build the model herself.
@@ -570,6 +592,7 @@ Sources: user's answers in chat (2026-10-24); Drive docs "SPORT APIs_V3_tech.doc
 - **Private client mapping:** flagship CPG (Hershey's) and a global manufacturer (Corning) upgraded; a large technology company (Apple) bought both; Michelin bought forecasting only. Never name externally.
 - **Settled 2026-10-24:** ~7 people delivered each consulting project on site, of whom 1–2 were ongoing support; support as a product is ~1 per client; managed services included free; Keystone ARR is **$7.5M** (flagship $2M + global manufacturer $2M + technology company $2M + Michelin $1.5M).
 - **Tags:** pricing, monetization, packaging, unit economics, commercial
+- **Spoken version (recruiter-screen prep, 2026-10-24; draft, refine with the user):** "Yes. At Keystone.ai, the goal was to turn a consulting business into a product business. One flagship engagement brought in $2M a year but needed about seven people on site. With the CEO, Sales and Finance, I split the offer into modules on annual subscriptions: forecasting at about $1.5M a year, agentic capabilities on top at about $500K. We rejected usage-based pricing, because forecast counts don't track value, and percentage-of-savings, because savings depend on the client's execution and invite attribution fights. All five clients renewed through the move to product, and two added agents, about $500K more a year each." L4 signal: a company-level business model, not a pricing tweak.
 
 #### A15: SPORT APIs on Amazon's Selling Partner APIs (Amazon India): external developers and partners
 - **Situation (Amazon India Selection Economics, 2020):** SPORT reached sellers through bi-weekly emails linking to a Seller Central page. Adoption was 1%, against an OP1 2021 goal of 27%.
@@ -693,6 +716,106 @@ Sources: user-provided docs, read in full 2026-10-25: "Business Fraud Score PRFA
 - **Adoption (confirmed by user: all named teams adopted):** BRP (BFS as an input to its B2B fraud models), credit assessment (CAS), Amazon Business sign-up verification, Business Prime (filtering fraud from sign-up metrics; trial eligibility), Micro Deposits Verification (trigger for verification), and Small Business Credit Card applications (identity-verification trigger). Six teams.
 - **Cross-team partners:** BRP (buyer risk), Credit Systems and credit operations, Clickstream, MDLC, data engineering, data science, Legal (Payments).
 - **Tags:** fraud strategy, 0→1, platform adopted by 6 teams, detection vs. friction, investigation → product, PRFAQ, launch trade-off, L4.
+
+#### A22: End-to-end fraud strategy for Pay by Invoice (the Business Fraud Score)
+- **Source:** Stripe L4 story bank S1 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
+**Use for:** biggest impact, a strategy you set, 0→1, influence across teams. Covers all of Pay by Invoice (PBI), not one customer segment. Metrics come only from your BFS PRFAQ, model doc and BFS 2.0 launch note.
+
+**STAR-L version (~200 words, final 2026-10-25; on the OS STAR-L framework):**
+- **Situation:** "Amazon Business used fraud controls that were built for consumers and ran after checkout. They didn't fit businesses, where one account can have thousands of users placing large orders, which looked suspicious. And fraud rings used bots to register thousands of accounts that couldn't be caught until checkout."
+- **Stakes:** "As a result, fraud exposure across Amazon Business grew 600% to about $200 million, while up to 15% of orders on some payment methods were held for manual review."
+- **Actions:** "I led the fraud strategy and made four decisions:
+  1. I introduced fraud detection across the customer journey, from registration to before the first purchase.
+  2. I set the score for 99% precision, so we blocked only when it was very sure, and gave everyone else a lighter response, like identity verification, with checkout controls for the rest.
+  3. I built one shared score that other teams could use, like credit lines and the small-business credit card, and let each team choose its response: block, verify or filter. Six teams adopted it.
+  4. I kept monitoring for new fraud patterns, and added behavioral and IP signals when fraudsters started acting like bots."
+- **Result:** "We avoided about $18 million in fraud losses, caught fraudsters 10 days earlier, and lifted upfront detection about 15%."
+- **Learning:** "Fraud prevention isn't one gate; it's the right check at each step."
+
+**30-second version (recruiter screen):** "I owned the fraud strategy for Amazon Business's Pay by Invoice credit. I created a fraud score that assesses every business at sign-up, before it gets a credit line, tuned for precision and layered with checkout controls. It avoided about $18 million in fraud losses, its behavioral version caught fraudsters about 10 days earlier, and six teams adopted the score."
+
+**L4 signals:** a problem nobody owned; strategy beyond your own product; adopted by six teams you didn't manage; a platform that outlasted you.
+**Likely follow-ups:**
+- *"Why not just tighten checkout controls?"* "Checkout is too late and too blunt: by then good customers absorb the friction. Assessing at registration lets you be precise early and lighter later."
+- *"How did you get six teams to adopt it?"* Use A27.
+- *"What did data science do versus you?"* "They built and validated the models. I set the strategy, the granularity, the precision-first goal, the launch gates and the integrations."
+- *"What would you do differently?"* "Push real-time access earlier; batch scoring meant some teams waited a day for a score." (Only say this if it's true for you. If not, choose your own.)
+
+- **Graded response (added 2026-11-09):** the wording above uses only documented facts: block only at high precision; identity verification as the challenge (A21 strategy); each of the six teams chose its own action (A27). [CONFIRM: were there defined score bands, e.g. high → block, medium → verify, low → allow, or did each team set its own thresholds?] Same principle later with agents: how much to automate depends on risk and reversibility (K3). Don't call this "tiered autonomy"; that term is the Keystone agent design.
+
+#### A23: Finding the attack the score missed: BFS 2.0
+- **Source:** Stripe L4 story bank S2 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
+**Use for:** investigating a new fraud or abuse pattern , data-driven decisions, customer insight.
+
+**Spoken version (~200 words):**
+"The score was catching fraud at sign-up well, but I wanted to know what it was missing. I led a deep dive into our worldwide business-customer data and found a pattern: fraudsters who passed the registration score but behaved unlike any real business before their first order. They moved through sign-up and browsing in repetitive, machine-like ways that real people don't.
+
+That told me the gap wasn't the model's accuracy; it was the signals. A registration snapshot can't see behavior. So I launched BFS 2.0: a behavioral model that keeps assessing each new customer from registration until their first transaction, using non-transaction behavior like browsing and account settings. I partnered with the buyer-risk team to reuse insights from their gestural-data model, and added IP intelligence from internal and external sources, with a blocklist that stops registrations and orders from suspicious IPs.
+
+It caught fraudsters about 10 days earlier on average than our buyer-risk systems, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines. Next, I set up a false-positive program with a target below half a percent, so good customers didn't pay for it."
+
+**L4 signals:** you found the problem yourself; a durable defense (a new model and a blocklist), not a one-off rule; partnership with another team's science.
+**Likely follow-ups:**
+- *"How did you know they were fraudsters, not unusual customers?"* "Confirmed fraud outcomes downstream. Labels arrive late, so we made explicit assumptions about when fraud happened, and we watched false positives separately."
+- *"How long do you keep assessing someone who never orders?"* "That was a trade-off I made: detection improves with a longer window, but inference cost grows for customers who may never transact. We compared performance across different time-to-first-order windows and picked the one that balanced detection against inference cost."
+- *"Would you do it as a rule instead?"* "A rule would have caught one ring and broken when they adapted. Behavior generalizes."
+- Don't name exact features or blocklist mechanics; say "behavioral and IP signals."
+
+#### A24: Detection vs. customer friction
+- **Source:** Stripe L4 story bank S3 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
+**Use for:** hard trade-offs, ML product decisions, how you measure success. **This is the core trade-off in fraud and risk products.**
+
+**Spoken version (~190 words):**
+"In fraud, the expensive mistake isn't always missing fraud; it's blocking a good customer. For the Business Fraud Score, a false positive meant suspending a legitimate business's credit line, which could run from thousands to hundreds of thousands of dollars.
+
+So I made precision the priority over recall, on purpose. The score ran at registration, and the buyer-risk team's controls still checked every order after checkout, so the score didn't need to catch everything; it needed to be right when it acted. Before launch, I required a three-week shadow run on live traffic and a back-test, because a model can look great offline and drift on real data. I set the launch threshold where the score was right about 99% of the time, accepting that it would catch only about a quarter of fraud on its own. On live shadow data, it made essentially no false suspensions at that threshold.
+
+Then I kept measuring the friction side: a false-positive program targeting under half a percent. The principle I took away: decide which mistake is expensive, and design layers so no single control has to be perfect."
+
+**L4 signals:** a policy-level decision for the product; layered defenses across teams; a measurement system for friction.
+**Likely follow-ups:**
+- *"Why 25% recall? Isn't that low?"* "On its own, yes. But it was one layer. Checkout controls and a blocklist rule caught the rest, and the score made those layers more precise."
+- *"How would you set this threshold for a different business?"* "Per segment. An enterprise merchant and a new small business tolerate friction very differently, so I'd let the threshold vary with the cost of a false positive."
+
+#### A25: Unblocking the BFS 2.0 launch
+- **Source:** Stripe L4 story bank S4 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
+**Use for:** scoping ruthlessly, speed vs. quality, working with engineers, technical fluency. 
+
+**Spoken version (~160 words):**
+"Midway through BFS 2.0, we hit a dependency. The IP blocklist was supposed to live in our ML platform's feature store, and that work was estimated at 22 weeks, which would have pushed the launch out a full quarter. Fraud rings don't wait a quarter.
+
+Engineering proposed hosting the blocklist in a refreshable in-memory cache instead: about a week of work. I made the call to do it, with one condition: the design had to guarantee the cache always loaded the latest version of the list, with no risk of serving corrupted or stale data. That was the real risk, not the storage choice. Once that was designed in, we shipped on schedule, and the blocklist and IP rules ended up contributing about 10% of the new upfront detection."
+
+**L4 signals:** a launch-level trade-off; you named the actual risk; the long-term option was preserved.
+**Likely follow-ups:**
+- *"What did you give up?"* [Your answer. One likely candidate: reuse, since the feature store would have made the list available to other models. Say it only if that was the real trade-off.]
+
+#### A26: The PRFAQ that started it (writing)
+- **Source:** Stripe L4 story bank S5 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
+**Use for:** writing culture, aligning stakeholders with a document, communicating complex problems.
+
+**Spoken version (~150 words):**
+"I wrote the Business Fraud Score PRFAQ instead of a traditional requirements document, because the hard part wasn't the requirements; it was getting engineering, buyer risk and leadership to agree on a different strategy. It opened with the customer outcome: a single score, at sign-up, that any team could use. The FAQ took on the hard questions directly: how big the problem was, why business fraud is harder than consumer fraud, the trade-off between fraud control and friction, how the score fits with buyer risk's existing models, and a four-phase roadmap with a long-term vision beyond Amazon Business. Credit Systems engineering used it to start storyboarding and technical design, and its phases became the roadmap through BFS 2.0. My rule for writing: goal and customer first, then the decision and its trade-off, then the evidence."
+
+**L4 signals:** a document that changed direction across teams; it became the roadmap.
+**Likely follow-ups:** *"What pushback did you get?"* [Your answer: what engineering or buyer risk challenged, and what you changed.]
+
+#### A27: A platform other teams built on: BFS adoption
+- **Source:** Stripe L4 story bank S6 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
+**Use for:** integrations, platform adoption, partners, technical dependencies. 
+
+**Spoken version (~180 words):**
+"I designed the Business Fraud Score as a service, not a feature, because the value grew with every team that used it. The question for each team was: what decision does this score make better for you?
+
+For buyer risk, it became an input to their fraud models: the score could flag every account on a risky domain, even ones that hadn't ordered yet, which their transaction-level models couldn't see. For credit, it removed credit lines from fraudulent customers. Sign-up verification used it to decide who to block or challenge. Business Prime used it to filter fraud out of their sign-up metrics and decide who sees a free trial. Payment verification used it to decide when to require micro-deposits, and the small-business card team used it to trigger identity checks.
+
+Six teams adopted it. Each integration had its own dependency to manage: data engineering for offline feeds, our ML platform for serving, the clickstream team for behavioral data, and Legal for what we could act on."
+
+**L4 signals:** cross-team adoption you drove; integration design per partner; managing dependencies.
+**Likely follow-ups:**
+- *"Which integration was hardest, and why?"* [Your answer.]
+- *"How did you measure integration success?"* "Did the score change the partner's decision, and did their fraud or friction metric move? Adoption counted only if it changed a decision." Add a real example if you have one.
+
 
 #### PBI 2.0 credit product was 0→1 (stated by user 2026-10-25)
 - The user confirms the ML credit product launched in Amazon Business Financing & Credit (A1, 50K+ customers, $71M incremental revenue) was a **0-to-1 product**. OK to say "developed a 0-to-1 credit product." [NEEDS DETAIL for follow-ups: what was new versus PBI 1.0.]
