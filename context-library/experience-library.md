@@ -204,6 +204,73 @@ Source: user's Google Doc "Interview Questions" (read in full 2026-10-14), plus 
 
 **Client names:** Never name clients in interviews. Say "flagship Fortune 500 CPG client," "global manufacturer," "national grocery retailer."
 
+### Story index (by ID)
+Entries below are ordered by ID: K = Keystone, A = Amazon, S = personal project. Missing IDs: K19 (never used), A17 (parked), A18 (superseded by A21), A19 (closed; see A21). Search this file for "### K12:" to jump to an entry.
+
+| ID | Story |
+|---|---|
+| **K1** | Deep Enterprise: Consulting → Product Pivot (Keystone.ai) |
+| **K2** | Forecasting Agent: Prediction System → Decision System (Keystone.ai) |
+| **K3** | Full Autonomy vs. Trust: Tiered Autonomy (Keystone.ai) |
+| **K4** | AI Evaluation Strategy (Keystone.ai) |
+| **K5** | AI Product Quality Slip (Keystone.ai) |
+| **K6** | Data Catalog + Semantic Layer for Agent Grounding (Keystone.ai) |
+| **K7** | Speed vs. Correctness in Metadata Generation (Keystone.ai) |
+| **K8** | Static RAG vs. Continuously Learning Pipeline (Keystone.ai) |
+| **K9** | Model Sophistication vs. Adoption (Keystone.ai) |
+| **K10** | Forecast Platform Adoption: Customer Discovery (Keystone.ai) |
+| **K11** | Deprioritizing Accuracy Work for the Agent (Keystone.ai) |
+| **K12** | Managed Services vs. Pure SaaS (Keystone.ai) |
+| **K13** | Microservices vs. Monolith (Keystone.ai) |
+| **K14** | Agent Cost vs. Model Quality (Keystone.ai) |
+| **K15** | Data Platform (Keystone.ai) |
+| **K16** | Event-Stream Demo in 2–3 Weeks (Keystone.ai) |
+| **K17** | Canonical SAP Schema vs. Client-Native (Keystone.ai) |
+| **K18** | Semantic Layer Disagreement with Head of Data Science (Keystone.ai) |
+| **K20** | Leading Dotted-Line PMs / Managing Performance (Keystone.ai) |
+| **K21** | High-Touch Support Before Automating (Keystone.ai) |
+| **K22** | Flagship CPG Forecasting Deployment (Keystone.ai) |
+| **K23** | Reconciliation Approach: Accuracy vs. Coherence (Keystone.ai) |
+| **K24** | Shipment History vs. Order Requests (Keystone.ai) |
+| **K25** | POS Forecasting: POC, Not Production (Keystone.ai) |
+| **K26** | Phased vs. Big-Bang Rollout (Keystone.ai) |
+| **K27** | Post-Deployment Bias and Volatility (Keystone.ai) |
+| **K28** | Lumpy and Intermittent SKUs (Keystone.ai) |
+| **K29** | Data Platform APIs and CoreAI-IO (Keystone.ai): internal developer platform |
+| **K30** | Production Operations with Client IT (Keystone.ai): high-stakes external technical relationship |
+| **K31** | Client Extensibility on Deep Enterprise (Keystone.ai) |
+| **K32** | Deep Enterprise Pricing, Packaging and Unit Economics (Keystone.ai) |
+| **K33** | SQL and Data Analysis for the Data Platform (Keystone.ai), confirmed 2026-10-24 |
+| **K34** | Client onboarding: demo, proof of concept, land-and-expand pricing (Keystone.ai) |
+| **A1** | PBI 2.0: Segment-Specific Credit Growth Strategy (Amazon) |
+| **A2** | Credit Visibility vs. Risk: Pivot from Customer Feedback (Amazon) |
+| **A3** | SMB Approvals vs. Credit Losses (Amazon) |
+| **A4** | Batch vs. Real-Time Underwriting (Amazon) |
+| **A5** | Build vs. Buy Underwriting (Amazon) |
+| **A6** | PBI 2.0 SMB Economics Miss (Amazon): Failure |
+| **A7** | Launching with Limited Information (Amazon) |
+| **A8** | MDLC: Self-Serve ML Platform for Amazon Lending (Amazon) |
+| **A9** | Governance Disagreement with Senior Technical Manager (Amazon) |
+| **A10** | Privacy by Default for ML Across Amazon Payments (Amazon) |
+| **A11** | TRACE: Causal Shipping-Cost Attribution (Amazon) |
+| **A12** | SPORT Adoption Miss (Amazon): Failure |
+| **A13** | Managing and Promoting a Program Manager (Amazon) |
+| **A14** | PBI 2.0 Fraud Prevention & Credit Models (Amazon) |
+| **A15** | SPORT APIs on Amazon's Selling Partner APIs (Amazon India): external developers and partners |
+| **A16** | MOQ Recommendation APIs (Amazon) |
+| **A17** | In-House vs. Third-Party Lender (Amazon) — PARKED (user, 2026-10-24: ignore for now; don't use) |
+| **A18** | Fraud Prevention Inside PBI 2.0 (Amazon): STAR version of A14 (superseded 2026-10-25 by A21: the fraud strategy covered all of Pay by Invoice, and Shifia was PM of the fraud score) |
+| **A19** | Fraud Attack Investigation with BFS (Amazon): CLOSED 2026-10-25, see A21 |
+| **A20** | MDLC Platform-Engineering Detail (Amazon), for infra and platform roles |
+| **A21** | Business Fraud Score (BFS 1.0 and 2.0), Amazon Business Payments |
+| **A22** | End-to-end fraud strategy for Pay by Invoice (the Business Fraud Score) |
+| **A23** | Finding the attack the score missed: BFS 2.0 |
+| **A24** | Detection vs. customer friction |
+| **A25** | Unblocking the BFS 2.0 launch |
+| **A26** | The PRFAQ that started it (writing) |
+| **A27** | A platform other teams built on: BFS adoption |
+| **S1** | Agent vs. Deterministic Workflow (Personal Project) |
+
 ### Quick index by question type
 
 | Question type | Best stories |
@@ -380,6 +447,9 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Use:** Not a standalone story (2026-10-20). Tell it as the first step of K10; pull it out only for "short-term vs. long-term" questions.
 - **Tags:** short vs. long term, customer obsession
 
+#### Customer cadence in early Keystone deployments (stated by user on the Ascerta call, 2026-09-28; logged 2026-10-24 from Otter)
+- Single point of contact for early clients. Weekly syncs with demand planners (progress, findings, enhancements, feedback); monthly syncs with the executive sponsor (chief supply chain officer) on adoption, blockers and the support needed. Adds to K22's bi-weekly results reviews.
+
 ### K22: Flagship CPG Forecasting Deployment (Keystone.ai)
 - **Source:** user's Google Doc "Keystone Hershey's Experience" (read 2026-10-21). Client is the flagship Fortune 500 CPG client (salty snacks business); never name it externally.
 - **Role:** led the product side: problem framing, architecture trade-offs, model evaluation strategy, explainability, adoption, and alignment between Keystone and client stakeholders. Leilei (Principal Scientist) was lead scientist.
@@ -426,12 +496,68 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Result:** Not recorded in the source doc [NEEDS DETAIL].
 - **Tags:** technical depth, ML
 
+### K29: Data Platform APIs and CoreAI-IO (Keystone.ai): internal developer platform
+- **What:** API service on the Keystone Data Platform with ~4–6 endpoints by data type (time-series, event, event-stream, product-master, customer-master). The app team used them to build client dashboards; scientists used them to pull datasets. Goal: generic APIs so app developers could wrangle data and build metrics themselves. Shifia managed release communication for new endpoints.
+- **CoreAI-IO:** programmatic data-access layer so scientists could find and use Data Platform datasets from notebooks (AWS Glue/Athena, Pandas and Polars). Paired with a standardized forecasting input contract (entity keys, timestamps, time-variant and time-invariant features) that decoupled client-specific pipelines from model code, enabled reusable training and inference across clients, and enforced validation before production inference.
+- **Result:** the app team onboarded 5 new clients' dashboards onto the product with no extra effort (confirmed 2026-10-24). Scientist time: user said "saved almost 1 month"; until that's pinned down, use the canonical ~2 weeks/model of wrangling and data discovery 2 hrs/day → 2 hrs/week.
+- **What shipped (confirmed 2026-10-24):** Shifia led product strategy across the platform and built the **API catalog** (endpoint descriptions, request/response schemas, auth requirements, integration examples), plus release communication for new endpoints. Changelog and self-serve testing tooling were engineering's to build; don't claim them. Say: "I owned the API catalog and release communication; engineering built the tooling."
+- **Tags:** developer platform (internal), APIs, data contracts. For Stripe, pair with A15/A16: Stripe's 2024 feedback asked for external-user examples.
+
+### K30: Production Operations with Client IT (Keystone.ai): high-stakes external technical relationship
+- **Setup:** Deep Enterprise ran inside clients' cloud environments. Shared responsibility: the flagship client's IT/SAP teams owned upstream data delivery; Keystone owned model performance and production operations. SLAs covered data delivery schedules, service expectations and accountability. [CONFIRM: were the SLAs signed, or intended?]
+- **Recurring issues:** shipment data arriving 1–3 weeks late (under-forecasting), week-over-week swings from frequent retraining, drift or unexplained forecast changes. These escalated across client planners, client IT, and Keystone science and engineering.
+- **Action:** data completeness checks, proactive monitoring, automated alerts, retraining controls; a single client point of contact, regular technical reviews, an executive escalation forum.
+- **Tags:** partner/technical dependencies, reliability, escalation. Same incident as K27 told from the relationship angle.
+
+### K31: Client Extensibility on Deep Enterprise (Keystone.ai)
+- Reusable data and model interfaces so client technical teams could extend forecasting without Keystone: the flagship client's data scientists added model features themselves; consumption APIs fed downstream planning workflows; standardized deployment playbooks and cross-functional onboarding. Moved Keystone from bespoke implementations toward a reusable platform. No metrics on record.
+
+### K32: Deep Enterprise Pricing, Packaging and Unit Economics (Keystone.ai)
+- **Situation:** the flagship engagement brought in $2M a year but needed ~7 full-time people at ~$400K fully loaded ($2.8M), so consulting lost money before other costs.
+- **Action:** with the CEO, Sales, Finance and Engineering, split the offer into separately purchasable modules on value-based annual subscriptions: forecasting ~$1.5M/yr; agentic capabilities +$500K/yr; managed services included. Packaged by independently measurable value (forecasting improves planning; agents automate downstream actions, which customers showed willingness to pay for). Kept annual pricing comparable instead of discounting during the move to product; improved margin through reusable pipelines, deployment, infrastructure and automated operations. Gave extra support free during early deployments to learn recurring problems.
+- **Result:** two clients started on forecasting and upgraded to agents (+$500K ACV each; user dropped the "~" 2026-10-24); one bought both; one bought forecasting only. Delivery went from ~7 people on site per client under consulting to ~1 support FTE per client as a product (excluding shared platform and maintenance).
+- **Trade-off:** rejected usage-based pricing (forecast or action counts don't track economic value) and percentage-of-savings pricing (savings depend on client execution and supply constraints, so attribution disputes and revenue uncertainty). Modular subscriptions gave budget predictability, recovered operating cost, and created an expansion path.
+- **Private client mapping:** flagship CPG (Hershey's) and a global manufacturer (Corning) upgraded; a large technology company (Apple) bought both; Michelin bought forecasting only. Never name externally.
+- **Settled 2026-10-24:** ~7 people delivered each consulting project on site, of whom 1–2 were ongoing support; support as a product is ~1 per client; managed services included free; Keystone ARR is **$7.5M** (flagship $2M + global manufacturer $2M + technology company $2M + Michelin $1.5M).
+- **Tags:** pricing, monetization, packaging, unit economics, commercial
+- **Spoken version (recruiter-screen prep, 2026-10-24; draft, refine with the user):** "Yes. At Keystone.ai, the goal was to turn a consulting business into a product business. One flagship engagement brought in $2M a year but needed about seven people on site. With the CEO, Sales and Finance, I split the offer into modules on annual subscriptions: forecasting at about $1.5M a year, agentic capabilities on top at about $500K. We rejected usage-based pricing, because forecast counts don't track value, and percentage-of-savings, because savings depend on the client's execution and invite attribution fights. All five clients renewed through the move to product, and two added agents, about $500K more a year each." L4 signal: a company-level business model, not a pricing tweak.
+
+#### Keystone client retention (stated by user 2026-10-24)
+- **Confirmed 2026-10-24 (corrected same day): all 5 clients renewed, with no churn, through the consulting-to-product move.** The user first said 4, then confirmed 5, matching K1's "5 Fortune 500 clients". The $7.5M ARR is recurring because of this retention. With no churn or downgrades, gross revenue retention was 100%; with 2 agent upgrades (+$500K ACV each), net revenue retention was above 100% (exact NRR depends on renewal timing, not on record).
+- Resume (v7): "every client renewed through the product move, with no churn, and 2 upgraded to agents (+$500K ACV each)." Consistent with K1's 5 clients.
+- [CONFIRM, interview prep only] K32's ARR breakdown lists 4 contracts ($2M + $2M + $2M + $1.5M = $7.5M). Who is the fifth client, and is its revenue inside the $7.5M? Doesn't change the resume, but have the answer ready if asked "which 5?"
+
+### K33: SQL and Data Analysis for the Data Platform (Keystone.ai), confirmed 2026-10-24
+- Led data analysis and product requirements for the enterprise AI Data Platform. Wrote **SQL in Amazon Athena on tables in AWS Glue** for Data Platform and Deep Enterprise work.
+- Used SQL to understand enterprise datasets: validated grain and relationships, found data-quality issues, and defined transformations for downstream analytics and ML.
+- **Trade promotion data (flagship CPG client):** investigated SAP-derived promotional records across fiscal weeks; analyzed promotional mechanics and financial measures; wrote requirements to consolidate records into promotion-level entities, transforming planned spend, actuals, corrections, status, dates and pricing by their business meaning rather than generic aggregation.
+- **Orders and shipments:** primary-key identification, date semantics, reconciliation, join cardinality. Findings shaped the Data Platform architecture and its reusable data contracts.
+- **Modeling:** forecast performance analysis across business hierarchies guided product decisions on model evaluation, reconciliation (K23) and data readiness.
+- No separate metric; pair with the Data Platform results (deployment 3 months → 3 weeks; onboarding 2 months → 2 weeks).
+- **Tags:** SQL, analytical rigor, data quality, data contracts
+
+### K34: Client onboarding: demo, proof of concept, land-and-expand pricing (Keystone.ai)
+- When onboarding a new client, Shifia **demoed the Deep Enterprise platform** to the client, **designed the proof of concept**, and **scoped the product to shipment forecasting instead of order forecasting**, based on the client's requirements and data availability (same decision as K24).
+- **Collaborated with the sales leader to price the first implementation on forecasting only**, leaving agents out of the first deal.
+- **Client (confirmed 2026-10-24):** the global tire manufacturer (Michelin, private; say "a global manufacturer" externally). Per K32 this client bought forecasting only, so it is not one of the two agent upgrades. The land-with-forecasting pattern is still true of the two clients that later added agents (K32). Don't write the resume so this deal appears to cause the upgrades.
+- Resume wording (v7): "demoed the platform, scoped a proof of concept to shipment forecasting and started clients on forecasting-only deals." This replaces v6's unsourced "ran customer demos, proof-of-concept scoping and pricing decisions with sales leaders."
+- **Tags:** B2B sales partnership, customer discovery, technical evaluation, commercialization, land and expand
+
+#### Keystone launches with Marketing (Keystone.ai)
+- Every Keystone launch involved the **marketing VPs**. They were in client outreach early, so they had the relationships and an early read on customer requirements. OK to name Marketing alongside Sales, Finance and the CEO in go-to-market work.
+
 ### A1: PBI 2.0: Segment-Specific Credit Growth Strategy (Amazon)
 - **Situation:** Owned a multi-year credit growth strategy. SMBs drove ~60% of GMS but only 4% were approved for credit; ~100K SMBs abandoned Amazon yearly, partly for lack of credit. Only ~7–10% of approved enterprise customers were active users (7-page onboarding, generic email marketing). Competitors (Staples, Grainger) were partnering with fintechs.
 - **Action:** Built a segment-specific roadmap. SMBs: new underwriting on Amazon behavioral data, credit at checkout, transaction-level controls. Enterprise: simplified onboarding, propensity model, personalized marketing. Launched to 5%, iterated, scaled. Ran it with annual OKRs, quarterly milestones, and biweekly sprints.
 - **Result:** SMB approval 4% → 15%; $71M incremental revenue; $15M from personalization.
 - **Learning:** At portfolio scale, find each segment's constraint and allocate investment against it.
 - **Tags:** strategy, growth, prioritization
+
+#### S-team goal ownership (stated by user 2026-10-26)
+- She **owned** the S-team goal (a goal tracked by Amazon's senior leadership team) for the Amazon Business ML credit product (A1), run with monthly VP-level business reviews. OK to say "I owned an S-team goal." It's one goal, not several; don't say "SVP-level goals."
+
+#### PBI 2.0 credit product was 0→1 (stated by user 2026-10-25)
+- The user confirms the ML credit product launched in Amazon Business Financing & Credit (A1, 50K+ customers, $71M incremental revenue) was a **0-to-1 product**. OK to say "developed a 0-to-1 credit product." [NEEDS DETAIL for follow-ups: what was new versus PBI 1.0.]
 
 ### A2: Credit Visibility vs. Risk: Pivot from Customer Feedback (Amazon)
 - **Action:** The checkout-only credit reveal got a lukewarm response in the 5% test. Interviews showed SMBs needed to know monthly eligibility to plan purchases. Redesigned around monthly eligibility, with lower limits, transaction controls, and a pause on delinquency.
@@ -448,6 +574,12 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Result:** Eligibility 4% → 15%; impact pulled forward 3 months.
 - **Learning:** Speed doesn't mean cutting safeguards.
 - **Tags:** speed, trade-off
+
+#### A4 detail: real-time checkout decision on batch underwriting (Amazon), confirmed 2026-10-24
+- Separated **customer-level creditworthiness** (driven by purchase and repayment history; assessed periodically in batch) from **transaction-level eligibility** (checked live).
+- A **real-time API call at checkout** read the precomputed customer-level assessment and applied transaction-level eligibility controls. No real-time model inference at checkout, which avoided latency, infrastructure complexity and model-availability dependencies in checkout. Fraud, transaction-level and account-suspension controls managed exposure between assessments. Real-time underwriting stayed on the roadmap.
+- **Learning:** real-time customer experiences don't always need real-time ML inference; decide which information has to be fresh at transaction time.
+- Combine with A4's existing result (impact pulled forward 3 months) and A14's API detail (REST APIs, backward-compatible versioning).
 
 ### A5: Build vs. Buy Underwriting (Amazon)
 - **Action:** Built in-house as a differentiating capability; bounded the downside with a small launch and progressive exposure.
@@ -476,6 +608,14 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Action:** Interviewed scientists, engineers, and risk/compliance. Three pillars: self-service ML pipelines (UI-first, a deliberate cost trade-off), model governance and privacy (monitoring, versioning, lineage, inventory; EU/US privacy: OD3, DSAR, PD2), and scaling onboarding as a product (templates, docs, community). Auto-containerization from a git link. Built on SageMaker, Step Functions, Lambda, Glue, ECR.
 - **Result:** 100+ models with no added headcount; audit-ready; NPS 8+ across 30+ scientists; 5 teams onboarded outside lending; 6 science HC saved per year (ongoing, total across all platform features: self-service pipelines, containerization, etc.); ~2 eng HC saved via containerization; deployment −40%.
 - **Tags:** platform, 0→1, technical depth
+
+#### MDLC developer-experience details (adds to A8; from "MDLC and MOQ.docx")
+- Deployment 4 months → half a day of science effort; MVP was a Python-script flow (−50% deployment time), then a UI. Secured 8+ engineering HC year over year.
+- Treated onboarding as a product: compared MDLC with a competing internal platform (ML Pigeon), whose docs and Slack community made it easier to adopt; prioritized documentation and community support. Onboarding maintenance 5 → 3 weeks per team; onboarded 3 more science teams without the 1-HC ask. [CONFIRM vs. A8's "5 teams onboarded outside lending."]
+- Wrote an MDLC-vs-SageMaker feature comparison that the team then shared with prospective customers and partners.
+- Data-sourcing feature (internal storage → S3, auto-triggered workflows): −2 weeks per deployment. Auto-containerization from a git link: ~2 engineering HC saved over 2 years.
+- Model governance under Fed SR 11-7: monitoring, versioning, inventory; aligned 4 tech partners and 5 science partners.
+- [CONFIRM] the doc gives GDPR full automation as ~1 year and "2–3 months" for the semi-automated build; A10 canonical says 1.5 years and ~2 months. The doc also says "6 science HC" for GDPR in places; A10 canonical is 5.
 
 ### A9: Governance Disagreement with Senior Technical Manager (Amazon)
 - **Action:** Met 1:1; found the disagreement was an adoption assumption (past governance features went unused). Explained the new ones were fully automated; validated with customers together; set up recurring syncs before roadmap reviews.
@@ -538,6 +678,55 @@ I took it on. I worked out the requirements with Legal and Amazon's privacy team
 - **Metric conflicts:** doc says "250K active customers," "$10MM losses vs. $1B revenue," and PBI 1.0 "1M customers / $7B GMS." Canonical metrics win: **50K+ customers** (confirmed 2026-10-20), $71M incremental revenue, no credit losses after full launch. Don't use the doc's 250K or $1B.
 - **Tags:** trust & safety / integrity, fraud, risk, ML thresholds, precision/recall trade-off
 
+#### PBI manual review and account actions (Amazon), confirmed 2026-10-24
+- Credit Strategy Operations ran a manual credit-assessment process for cases needing human judgment, including some model-declined customers. Defined procedures existed for suspensions and fraud-related account actions.
+- **Confirmed 2026-10-25 (user):** Shifia built tools for credit analysts and automated parts of their work. [NEEDS DETAIL before external use beyond this one line: who used them, what the tools did, what was automated, and the impact.]
+
+### A15: SPORT APIs on Amazon's Selling Partner APIs (Amazon India): external developers and partners
+- **Situation (Amazon India Selection Economics, 2020):** SPORT reached sellers through bi-weekly emails linking to a Seller Central page. Adoption was 1%, against an OP1 2021 goal of 27%.
+- **Action:** wrote the spec for SPORT APIs integrated with Amazon's Selling Partner Developer APIs (SPDS), so external developers and seller-partner services (e.g., the AM Genie portal, planned for 2021) could show SPORT recommendations. The API returned per-ASIN channel recommendations, projected 90-day savings, and earned/missed savings from past recommendations; seller incentives included fee savings and seller reward points (SRP). Planned partnership with the Spectrum team to bring in other seller partners, and an RIM integration (ETA 06/2021) so sellers saw all inventory recommendations in one place. Engineering engaged the SPDS team at design stage for API alignment.
+- **Other adoption work (SPORT deep-dive):** recommendation surface area 300 → 1,700 per 2 weeks; Seller Central ingress point (+15% page traffic, +2% adherence); account-manager marketing (adoption 1% → 3%); auto-adherence pilot (50% opt-in among 20 sellers); mobile-app roadmap (80% of SPORT sellers were mobile-active).
+- **Result (confirmed by user 2026-10-24):** the SPORT APIs shipped and partners used them. Adoption reached ~10% before Shifia left the team (deep-dive: "increased the adoption by 10%"). **27% was the OP1 goal, not a result.** The deep-dive also credits wider recommendations, the ingress point and account-manager marketing, so present ~10% as the combined result of the APIs and those initiatives, not the APIs alone. Timeline: separate internal Amazon teams; no date conflict to resolve (user, 2026-10-24).
+- **Tags:** external developer platform, partner integration, API design, adoption
+
+#### A15 update: SPORT API integrations
+- The SPORT APIs were integrated by partner teams so inventory moves could happen at scale instead of depending on each seller: **3 partner teams in total** (confirmed 2026-10-24): Seller Central, the RIM team, and the inventory placement team. These are Amazon partner teams; outside-developer integrations aren't confirmed.
+
+#### Confirmed 2026-10-24
+- **SPORT adoption:** ~10% is the adoption level reached (from a 1% baseline), as the combined result of the APIs, wider recommendations, the Seller Central entry point and account-manager marketing (A15).
+
+### A16: MOQ Recommendation APIs (Amazon)
+- **Architecture (from "MDLC and MOQ.docx"):** two models (conversion classifier, ship-cost regression) as SageMaker batch jobs; a Lambda applied the profitability equation and wrote to a DynamoDB cache. GET API (API Gateway + Lambda): seller id in → items and recommended MOQ out, shown on Seller Central. A second endpoint: item id in → accepted MOQ out, shown on the website. Each model was also exposed as its own endpoint; Shifia reused them to show sellers potential sales impact and for a ship-cost optimization model.
+- **Results:** ~60% higher seller adherence (treatment vs. control), lower ship cost, no change in conversion; 120K offers for 20K merchants; $20M in seller ship-cost savings (part of the $100M+ SPORT + TRACE + MOQ total); home-page card drove 5× seller visits.
+- **Dates:** the doc gives the experiment as 13 weeks, Jan–Mar 2021. User (2026-10-24): internal work across Amazon teams, so no conflict to resolve. If asked, give the year without tying it to a team.
+- **Do not claim:** the API documentation details in the doc (300 requests/minute, HTTP 429, X-RateLimit headers). They sit under a note "Take inspiration from OpenAI's API", and the user doesn't recognize them (2026-10-24), so treat them as interview-prep illustration, not real MOQ docs.
+- **Tags:** APIs, external sellers, experimentation
+
+#### A16 update: MOQ API consumers
+- The MOQ APIs were used by **Seller Central** and by country-level teams in **2 Asian countries** (confirmed 2026-10-24).
+
+### A17: In-House vs. Third-Party Lender (Amazon) — PARKED (user, 2026-10-24: ignore for now; don't use)
+- **Decision:** for a credit product aimed at a riskier segment, chose to build in-house transaction-based credit assessment (no bureau data) over a third-party partner. The partner would have cut short-term risk but created dependence for approvals. Framed it as long-term capability over short-term risk, with limited time to compare partners.
+- **Risk control:** phased launch: 10-customer pilot → 5% → 15% → 50% → 100%, reviewing repayment every 3 months before each step.
+- **[CONFIRM] conflicts:** the user's answer gives "$10MM losses balanced by $1B incremental revenue." Canonical metrics say $71M incremental revenue and no credit losses after full launch, and Source Decision/A14 say not to use $1B or $10MM. Which product is this (PBI 2.0 SMB, or another), and which numbers are right?
+- **Tags:** build vs. partner, risk, phased launch
+
+### A18: Fraud Prevention Inside PBI 2.0 (Amazon): STAR version of A14 (superseded 2026-10-25 by A21: the fraud strategy covered all of Pay by Invoice, and Shifia was PM of the fraud score)
+- **Situation:** PBI 2.0 expanded credit to SMBs that traditional underwriting had underserved. That created credit risk and fraud risk (businesses obtaining credit with no intent to repay), and the two had to be handled separately.
+- **Role:** owned how fraud prevention worked within PBI 2.0: the product's risk-control requirements and integration. Partnered with the Business Fraud Score (BFS) team, which owned the fraud model, and Buyer Risk Prevention (BRP), which owned downstream fraud controls. Did not build the fraud model.
+- **Signals the fraud screening used:** newly registered business domains / domain-registration history, unusual registration patterns, shared-domain fraud history, account associations with previously fraudulent accounts, prior fraud write-offs, inconsistencies in business information.
+- **Decision:** block only high-confidence fraud rather than every risky-looking customer, because false positives would undercut the goal of expanding credit to legitimate SMBs. Threshold at ~99% precision / ~25% recall. Accepted the detection gap because screening wasn't the only defense.
+- **Layered controls:** BFS integrated into the pre-credit assessment; BRP's fraud-domain blocklist as an independent blocking rule; BRP post-checkout fraud controls; credit exposure limits; transaction eligibility restrictions; suspension procedures.
+- **Result:** the broader PBI 2.0 launch raised SMB credit approvals ~4% → 15%. Fraud outcome: see A21 (BFS metrics only); the 15% fraud-loss figure is retired (decision 26).
+- **Learning:** effective fraud prevention isn't just maximizing detection; it's designing controls across the customer journey to manage financial risk without restricting legitimate customers.
+- **Tags:** fraud, detection vs. customer friction, layered defenses, precision/recall
+
+### A19: Fraud Attack Investigation with BFS (Amazon): CLOSED 2026-10-25, see A21
+- The investigation story is now recorded in A21 (BFS 2.0: the deep dive that found fraudsters passing the registration score but behaving unlike real businesses before ordering, which led to the behavioral model and IP blocklist).
+
+#### Partly closed 2026-10-24
+- **Investigating a specific fraud or abuse attack** (Stripe JD1 items 1 and 4): A19 records that it happened, but there's no story with specifics yet. Closest analogs remain K5, K6 and A6.
+
 ### A20: MDLC Platform-Engineering Detail (Amazon), for infra and platform roles
 - **ID note (2026-10-24):** added as "A15" by another session, which collided with A15 (SPORT APIs). Renumbered to A20; the Coinbase resume and prep files now cite A20.
 - **Source:** user's doc "MDLC and MOQ.docx" (Google Doc, read in full 2026-10-24). Adds detail to A8, A9, and A10; it doesn't replace them. Canonical Metrics still win where numbers differ (e.g., 6 science HC/year; A10's 1.5 years vs. ~2 months).
@@ -559,156 +748,7 @@ I took it on. I worked out the requirements with Legal and Amazon's privacy team
 - **Don't share externally:** the doc contains internal Amazon wiki links.
 - **Tags:** platform engineering, developer experience, CI/CD, compute provisioning, observability, regulated/compliance, build vs. buy, infra-adjacent
 
-### S1: Agent vs. Deterministic Workflow (Personal Project)
-- **Situation:** Shifia's LLM-driven job-search agent missed jobs she knew existed.
-- **Action:** Diagnosed a workflow-design flaw (the agent couldn't know if its search was complete). Split it into deterministic discovery and agentic evaluation.
-- **Result:** 100% recall: Adobe 41/41, NVIDIA 35/35, CrowdStrike 10/10; coverage visible (3 complete, 16 partial, 7 failed).
-- **Tags:** when NOT to use an agent, builder, evals
-
-### Added 2026-10-24: developer platform, partners, pricing
-Sources: user's answers in chat (2026-10-24); Drive docs "SPORT APIs_V3_tech.docx" (Aug 2020), "SPORT deep-dive.docx", "MDLC and MOQ.docx" (all read 2026-10-24). Client names below are private: never name Hershey's, Corning, Apple or Michelin externally (Source Decision 12).
-
-#### K29: Data Platform APIs and CoreAI-IO (Keystone.ai): internal developer platform
-- **What:** API service on the Keystone Data Platform with ~4–6 endpoints by data type (time-series, event, event-stream, product-master, customer-master). The app team used them to build client dashboards; scientists used them to pull datasets. Goal: generic APIs so app developers could wrangle data and build metrics themselves. Shifia managed release communication for new endpoints.
-- **CoreAI-IO:** programmatic data-access layer so scientists could find and use Data Platform datasets from notebooks (AWS Glue/Athena, Pandas and Polars). Paired with a standardized forecasting input contract (entity keys, timestamps, time-variant and time-invariant features) that decoupled client-specific pipelines from model code, enabled reusable training and inference across clients, and enforced validation before production inference.
-- **Result:** the app team onboarded 5 new clients' dashboards onto the product with no extra effort (confirmed 2026-10-24). Scientist time: user said "saved almost 1 month"; until that's pinned down, use the canonical ~2 weeks/model of wrangling and data discovery 2 hrs/day → 2 hrs/week.
-- **What shipped (confirmed 2026-10-24):** Shifia led product strategy across the platform and built the **API catalog** (endpoint descriptions, request/response schemas, auth requirements, integration examples), plus release communication for new endpoints. Changelog and self-serve testing tooling were engineering's to build; don't claim them. Say: "I owned the API catalog and release communication; engineering built the tooling."
-- **Tags:** developer platform (internal), APIs, data contracts. For Stripe, pair with A15/A16: Stripe's 2024 feedback asked for external-user examples.
-
-#### K30: Production Operations with Client IT (Keystone.ai): high-stakes external technical relationship
-- **Setup:** Deep Enterprise ran inside clients' cloud environments. Shared responsibility: the flagship client's IT/SAP teams owned upstream data delivery; Keystone owned model performance and production operations. SLAs covered data delivery schedules, service expectations and accountability. [CONFIRM: were the SLAs signed, or intended?]
-- **Recurring issues:** shipment data arriving 1–3 weeks late (under-forecasting), week-over-week swings from frequent retraining, drift or unexplained forecast changes. These escalated across client planners, client IT, and Keystone science and engineering.
-- **Action:** data completeness checks, proactive monitoring, automated alerts, retraining controls; a single client point of contact, regular technical reviews, an executive escalation forum.
-- **Tags:** partner/technical dependencies, reliability, escalation. Same incident as K27 told from the relationship angle.
-
-#### K31: Client Extensibility on Deep Enterprise (Keystone.ai)
-- Reusable data and model interfaces so client technical teams could extend forecasting without Keystone: the flagship client's data scientists added model features themselves; consumption APIs fed downstream planning workflows; standardized deployment playbooks and cross-functional onboarding. Moved Keystone from bespoke implementations toward a reusable platform. No metrics on record.
-
-#### K32: Deep Enterprise Pricing, Packaging and Unit Economics (Keystone.ai)
-- **Situation:** the flagship engagement brought in $2M a year but needed ~7 full-time people at ~$400K fully loaded ($2.8M), so consulting lost money before other costs.
-- **Action:** with the CEO, Sales, Finance and Engineering, split the offer into separately purchasable modules on value-based annual subscriptions: forecasting ~$1.5M/yr; agentic capabilities +$500K/yr; managed services included. Packaged by independently measurable value (forecasting improves planning; agents automate downstream actions, which customers showed willingness to pay for). Kept annual pricing comparable instead of discounting during the move to product; improved margin through reusable pipelines, deployment, infrastructure and automated operations. Gave extra support free during early deployments to learn recurring problems.
-- **Result:** two clients started on forecasting and upgraded to agents (+$500K ACV each; user dropped the "~" 2026-10-24); one bought both; one bought forecasting only. Delivery went from ~7 people on site per client under consulting to ~1 support FTE per client as a product (excluding shared platform and maintenance).
-- **Trade-off:** rejected usage-based pricing (forecast or action counts don't track economic value) and percentage-of-savings pricing (savings depend on client execution and supply constraints, so attribution disputes and revenue uncertainty). Modular subscriptions gave budget predictability, recovered operating cost, and created an expansion path.
-- **Private client mapping:** flagship CPG (Hershey's) and a global manufacturer (Corning) upgraded; a large technology company (Apple) bought both; Michelin bought forecasting only. Never name externally.
-- **Settled 2026-10-24:** ~7 people delivered each consulting project on site, of whom 1–2 were ongoing support; support as a product is ~1 per client; managed services included free; Keystone ARR is **$7.5M** (flagship $2M + global manufacturer $2M + technology company $2M + Michelin $1.5M).
-- **Tags:** pricing, monetization, packaging, unit economics, commercial
-- **Spoken version (recruiter-screen prep, 2026-10-24; draft, refine with the user):** "Yes. At Keystone.ai, the goal was to turn a consulting business into a product business. One flagship engagement brought in $2M a year but needed about seven people on site. With the CEO, Sales and Finance, I split the offer into modules on annual subscriptions: forecasting at about $1.5M a year, agentic capabilities on top at about $500K. We rejected usage-based pricing, because forecast counts don't track value, and percentage-of-savings, because savings depend on the client's execution and invite attribution fights. All five clients renewed through the move to product, and two added agents, about $500K more a year each." L4 signal: a company-level business model, not a pricing tweak.
-
-#### A15: SPORT APIs on Amazon's Selling Partner APIs (Amazon India): external developers and partners
-- **Situation (Amazon India Selection Economics, 2020):** SPORT reached sellers through bi-weekly emails linking to a Seller Central page. Adoption was 1%, against an OP1 2021 goal of 27%.
-- **Action:** wrote the spec for SPORT APIs integrated with Amazon's Selling Partner Developer APIs (SPDS), so external developers and seller-partner services (e.g., the AM Genie portal, planned for 2021) could show SPORT recommendations. The API returned per-ASIN channel recommendations, projected 90-day savings, and earned/missed savings from past recommendations; seller incentives included fee savings and seller reward points (SRP). Planned partnership with the Spectrum team to bring in other seller partners, and an RIM integration (ETA 06/2021) so sellers saw all inventory recommendations in one place. Engineering engaged the SPDS team at design stage for API alignment.
-- **Other adoption work (SPORT deep-dive):** recommendation surface area 300 → 1,700 per 2 weeks; Seller Central ingress point (+15% page traffic, +2% adherence); account-manager marketing (adoption 1% → 3%); auto-adherence pilot (50% opt-in among 20 sellers); mobile-app roadmap (80% of SPORT sellers were mobile-active).
-- **Result (confirmed by user 2026-10-24):** the SPORT APIs shipped and partners used them. Adoption reached ~10% before Shifia left the team (deep-dive: "increased the adoption by 10%"). **27% was the OP1 goal, not a result.** The deep-dive also credits wider recommendations, the ingress point and account-manager marketing, so present ~10% as the combined result of the APIs and those initiatives, not the APIs alone. Timeline: separate internal Amazon teams; no date conflict to resolve (user, 2026-10-24).
-- **Tags:** external developer platform, partner integration, API design, adoption
-
-#### A16: MOQ Recommendation APIs (Amazon)
-- **Architecture (from "MDLC and MOQ.docx"):** two models (conversion classifier, ship-cost regression) as SageMaker batch jobs; a Lambda applied the profitability equation and wrote to a DynamoDB cache. GET API (API Gateway + Lambda): seller id in → items and recommended MOQ out, shown on Seller Central. A second endpoint: item id in → accepted MOQ out, shown on the website. Each model was also exposed as its own endpoint; Shifia reused them to show sellers potential sales impact and for a ship-cost optimization model.
-- **Results:** ~60% higher seller adherence (treatment vs. control), lower ship cost, no change in conversion; 120K offers for 20K merchants; $20M in seller ship-cost savings (part of the $100M+ SPORT + TRACE + MOQ total); home-page card drove 5× seller visits.
-- **Dates:** the doc gives the experiment as 13 weeks, Jan–Mar 2021. User (2026-10-24): internal work across Amazon teams, so no conflict to resolve. If asked, give the year without tying it to a team.
-- **Do not claim:** the API documentation details in the doc (300 requests/minute, HTTP 429, X-RateLimit headers). They sit under a note "Take inspiration from OpenAI's API", and the user doesn't recognize them (2026-10-24), so treat them as interview-prep illustration, not real MOQ docs.
-- **Tags:** APIs, external sellers, experimentation
-
-#### A17: In-House vs. Third-Party Lender (Amazon) — PARKED (user, 2026-10-24: ignore for now; don't use)
-- **Decision:** for a credit product aimed at a riskier segment, chose to build in-house transaction-based credit assessment (no bureau data) over a third-party partner. The partner would have cut short-term risk but created dependence for approvals. Framed it as long-term capability over short-term risk, with limited time to compare partners.
-- **Risk control:** phased launch: 10-customer pilot → 5% → 15% → 50% → 100%, reviewing repayment every 3 months before each step.
-- **[CONFIRM] conflicts:** the user's answer gives "$10MM losses balanced by $1B incremental revenue." Canonical metrics say $71M incremental revenue and no credit losses after full launch, and Source Decision/A14 say not to use $1B or $10MM. Which product is this (PBI 2.0 SMB, or another), and which numbers are right?
-- **Tags:** build vs. partner, risk, phased launch
-
-#### MDLC developer-experience details (adds to A8; from "MDLC and MOQ.docx")
-- Deployment 4 months → half a day of science effort; MVP was a Python-script flow (−50% deployment time), then a UI. Secured 8+ engineering HC year over year.
-- Treated onboarding as a product: compared MDLC with a competing internal platform (ML Pigeon), whose docs and Slack community made it easier to adopt; prioritized documentation and community support. Onboarding maintenance 5 → 3 weeks per team; onboarded 3 more science teams without the 1-HC ask. [CONFIRM vs. A8's "5 teams onboarded outside lending."]
-- Wrote an MDLC-vs-SageMaker feature comparison that the team then shared with prospective customers and partners.
-- Data-sourcing feature (internal storage → S3, auto-triggered workflows): −2 weeks per deployment. Auto-containerization from a git link: ~2 engineering HC saved over 2 years.
-- Model governance under Fed SR 11-7: monitoring, versioning, inventory; aligned 4 tech partners and 5 science partners.
-- [CONFIRM] the doc gives GDPR full automation as ~1 year and "2–3 months" for the semi-automated build; A10 canonical says 1.5 years and ~2 months. The doc also says "6 science HC" for GDPR in places; A10 canonical is 5.
-
-#### Other leads from the 2023–24 prep docs (unverified; ask before using)
-- **Central Rules Engine:** re-pointed a 1P lending platform vision at 3P lending through external bank partners (Goldman Sachs); secured 3 HC. Possible partner story, but the doc's results conflict (2% vs. 4% revenue; 3 vs. 9 tech HC).
-- **Larger seller loans:** $17MM additional capital access for sellers, $2MM profit for Amazon.
-- **Moody's integration:** heading only.
-- **People:** the doc says "led a 3-member team and promoted 2 of 3" and "mentored 3 interns, 2 hired at Amazon." User (2026-10-24): keep this library as is (one direct report, A13). Don't use the doc's version.
-
-### Added 2026-10-24 (second batch): fraud controls, checkout decisioning, SQL
-Source: user's answers in chat, 2026-10-24 (Stripe Radar Fraud & Abuse resume intake). Client names stay private (Source Decision 12).
-
-#### A18: Fraud Prevention Inside PBI 2.0 (Amazon): STAR version of A14 (superseded 2026-10-25 by A21: the fraud strategy covered all of Pay by Invoice, and Shifia was PM of the fraud score)
-- **Situation:** PBI 2.0 expanded credit to SMBs that traditional underwriting had underserved. That created credit risk and fraud risk (businesses obtaining credit with no intent to repay), and the two had to be handled separately.
-- **Role:** owned how fraud prevention worked within PBI 2.0: the product's risk-control requirements and integration. Partnered with the Business Fraud Score (BFS) team, which owned the fraud model, and Buyer Risk Prevention (BRP), which owned downstream fraud controls. Did not build the fraud model.
-- **Signals the fraud screening used:** newly registered business domains / domain-registration history, unusual registration patterns, shared-domain fraud history, account associations with previously fraudulent accounts, prior fraud write-offs, inconsistencies in business information.
-- **Decision:** block only high-confidence fraud rather than every risky-looking customer, because false positives would undercut the goal of expanding credit to legitimate SMBs. Threshold at ~99% precision / ~25% recall. Accepted the detection gap because screening wasn't the only defense.
-- **Layered controls:** BFS integrated into the pre-credit assessment; BRP's fraud-domain blocklist as an independent blocking rule; BRP post-checkout fraud controls; credit exposure limits; transaction eligibility restrictions; suspension procedures.
-- **Result:** the broader PBI 2.0 launch raised SMB credit approvals ~4% → 15%. Fraud outcome: see A21 (BFS metrics only); the 15% fraud-loss figure is retired (decision 26).
-- **Learning:** effective fraud prevention isn't just maximizing detection; it's designing controls across the customer journey to manage financial risk without restricting legitimate customers.
-- **Tags:** fraud, detection vs. customer friction, layered defenses, precision/recall
-
-#### A4 detail: real-time checkout decision on batch underwriting (Amazon), confirmed 2026-10-24
-- Separated **customer-level creditworthiness** (driven by purchase and repayment history; assessed periodically in batch) from **transaction-level eligibility** (checked live).
-- A **real-time API call at checkout** read the precomputed customer-level assessment and applied transaction-level eligibility controls. No real-time model inference at checkout, which avoided latency, infrastructure complexity and model-availability dependencies in checkout. Fraud, transaction-level and account-suspension controls managed exposure between assessments. Real-time underwriting stayed on the roadmap.
-- **Learning:** real-time customer experiences don't always need real-time ML inference; decide which information has to be fresh at transaction time.
-- Combine with A4's existing result (impact pulled forward 3 months) and A14's API detail (REST APIs, backward-compatible versioning).
-
-#### PBI manual review and account actions (Amazon), confirmed 2026-10-24
-- Credit Strategy Operations ran a manual credit-assessment process for cases needing human judgment, including some model-declined customers. Defined procedures existed for suspensions and fraud-related account actions.
-- **Confirmed 2026-10-25 (user):** Shifia built tools for credit analysts and automated parts of their work. [NEEDS DETAIL before external use beyond this one line: who used them, what the tools did, what was automated, and the impact.]
-
-#### K33: SQL and Data Analysis for the Data Platform (Keystone.ai), confirmed 2026-10-24
-- Led data analysis and product requirements for the enterprise AI Data Platform. Wrote **SQL in Amazon Athena on tables in AWS Glue** for Data Platform and Deep Enterprise work.
-- Used SQL to understand enterprise datasets: validated grain and relationships, found data-quality issues, and defined transformations for downstream analytics and ML.
-- **Trade promotion data (flagship CPG client):** investigated SAP-derived promotional records across fiscal weeks; analyzed promotional mechanics and financial measures; wrote requirements to consolidate records into promotion-level entities, transforming planned spend, actuals, corrections, status, dates and pricing by their business meaning rather than generic aggregation.
-- **Orders and shipments:** primary-key identification, date semantics, reconciliation, join cardinality. Findings shaped the Data Platform architecture and its reusable data contracts.
-- **Modeling:** forecast performance analysis across business hierarchies guided product decisions on model evaluation, reconciliation (K23) and data readiness.
-- No separate metric; pair with the Data Platform results (deployment 3 months → 3 weeks; onboarding 2 months → 2 weeks).
-- **Tags:** SQL, analytical rigor, data quality, data contracts
-
-#### S1 repo (confirmed 2026-10-24)
-- Job-search agent code: https://github.com/shifiamittal/pm-job-search-agent. Language and stack not recorded; don't name them until confirmed.
-
-#### A19: Fraud Attack Investigation with BFS (Amazon): CLOSED 2026-10-25, see A21
-- The investigation story is now recorded in A21 (BFS 2.0: the deep dive that found fraudsters passing the registration score but behaving unlike real businesses before ordering, which led to the behavioral model and IP blocklist).
-
-#### K34: Client onboarding: demo, proof of concept, land-and-expand pricing (Keystone.ai)
-- When onboarding a new client, Shifia **demoed the Deep Enterprise platform** to the client, **designed the proof of concept**, and **scoped the product to shipment forecasting instead of order forecasting**, based on the client's requirements and data availability (same decision as K24).
-- **Collaborated with the sales leader to price the first implementation on forecasting only**, leaving agents out of the first deal.
-- **Client (confirmed 2026-10-24):** the global tire manufacturer (Michelin, private; say "a global manufacturer" externally). Per K32 this client bought forecasting only, so it is not one of the two agent upgrades. The land-with-forecasting pattern is still true of the two clients that later added agents (K32). Don't write the resume so this deal appears to cause the upgrades.
-- Resume wording (v7): "demoed the platform, scoped a proof of concept to shipment forecasting and started clients on forecasting-only deals." This replaces v6's unsourced "ran customer demos, proof-of-concept scoping and pricing decisions with sales leaders."
-- **Tags:** B2B sales partnership, customer discovery, technical evaluation, commercialization, land and expand
-
-#### Keystone launches with Marketing (Keystone.ai)
-- Every Keystone launch involved the **marketing VPs**. They were in client outreach early, so they had the relationships and an early read on customer requirements. OK to name Marketing alongside Sales, Finance and the CEO in go-to-market work.
-
-#### A15 update: SPORT API integrations
-- The SPORT APIs were integrated by partner teams so inventory moves could happen at scale instead of depending on each seller: **3 partner teams in total** (confirmed 2026-10-24): Seller Central, the RIM team, and the inventory placement team. These are Amazon partner teams; outside-developer integrations aren't confirmed.
-
-#### A16 update: MOQ API consumers
-- The MOQ APIs were used by **Seller Central** and by country-level teams in **2 Asian countries** (confirmed 2026-10-24).
-
-#### Writing (stated by user 2026-10-24)
-- Writing is a core strength. Has written PR/FAQs, strategy documents, PRDs, OP1 (annual planning) documents, MBRs/QBRs and VP-level alignment documents.
-- **Documents that drove decisions (stated by user 2026-10-26):**
-  - **Keystone consulting-to-product pivot:** wrote the strategy document; read by the CEO and the President, and it aligned them on the pivot (K1, K32).
-  - **Keystone Data Platform PRFAQ:** secured funding for 4 engineers on the Data Platform team.
-  - **Keystone Data Platform onboarding doc:** presented to 5 scientists and 15 engineers; used to onboard them to the platform.
-  - **Keystone Deep Enterprise change-management docs:** read by client teams to drive usage on the client side. [NEEDS DETAIL: any usage result.]
-  - **Amazon ML privacy policy (A10):** a written strategy read by Payments teams and VPs; it got teams to use MDLC to make their models GDPR compliant (~20 Payments teams adopted).
-  - Also on record: BFS PRFAQ became the roadmap through BFS 2.0, 6 teams adopted the score (A21); MDLC strategy doc secured 2 HC for the MVP, then 8+ engineering HC year over year; SPORT API spec, 3 partner teams integrated (A15); monthly VP-level business reviews for PBI 2.0. Resume v7 says "written monthly VP-level business reviews" on the PBI bullet. [NEEDS DETAIL: which documents drove which decisions, e.g., an OP1 that secured headcount (MDLC "secured 8+ engineering HC year over year"), a PR/FAQ that launched a product, the Keystone pivot document.]
-
-#### S-team goal ownership (stated by user 2026-10-26)
-- She **owned** the S-team goal (a goal tracked by Amazon's senior leadership team) for the Amazon Business ML credit product (A1), run with monthly VP-level business reviews. OK to say "I owned an S-team goal." It's one goal, not several; don't say "SVP-level goals."
-
-#### Keystone client retention (stated by user 2026-10-24)
-- **Confirmed 2026-10-24 (corrected same day): all 5 clients renewed, with no churn, through the consulting-to-product move.** The user first said 4, then confirmed 5, matching K1's "5 Fortune 500 clients". The $7.5M ARR is recurring because of this retention. With no churn or downgrades, gross revenue retention was 100%; with 2 agent upgrades (+$500K ACV each), net revenue retention was above 100% (exact NRR depends on renewal timing, not on record).
-- Resume (v7): "every client renewed through the product move, with no churn, and 2 upgraded to agents (+$500K ACV each)." Consistent with K1's 5 clients.
-- [CONFIRM, interview prep only] K32's ARR breakdown lists 4 contracts ($2M + $2M + $2M + $1.5M = $7.5M). Who is the fifth client, and is its revenue inside the $7.5M? Doesn't change the resume, but have the answer ready if asked "which 5?"
-
-#### Customer cadence in early Keystone deployments (stated by user on the Ascerta call, 2026-09-28; logged 2026-10-24 from Otter)
-- Single point of contact for early clients. Weekly syncs with demand planners (progress, findings, enhancements, feedback); monthly syncs with the executive sponsor (chief supply chain officer) on adoption, blockers and the support needed. Adds to K22's bi-weekly results reviews.
-
-### Added 2026-10-25: Business Fraud Score (BFS), PM and strategy owner
-Sources: user-provided docs, read in full 2026-10-25: "Business Fraud Score PRFAQ v1.0", "BFS US model doc" (owner: Anran Guo, data science), "Launch Announcement – BFS 2.0". User confirmed 2026-10-25: **she led the product strategy across all three, wrote the PRFAQ, was PM for BFS 1.0 and BFS 2.0, made all the product calls, and every team named as an adopter adopted it.** User said the document dates are unreliable; don't cite dates or tie BFS to a specific Amazon role or year.
-
-**CONFIDENTIALITY (interview use):** these are internal Amazon documents; the launch note opens "Based on Legal guidance, we are not providing specific metrics and learnings." **User decision 2026-10-26:** Amazon's fraud figures (exposure, losses, loss rates, segment fraud rates, projections) are OK to cite in interviews and prep; don't flag or remove them. Still keep out: exact model features, thresholds tables and blocklist mechanics. Figures from the internal docs are marked [AMAZON DOCS] below so their source is clear.
-
-#### A21: Business Fraud Score (BFS 1.0 and 2.0), Amazon Business Payments
+### A21: Business Fraud Score (BFS 1.0 and 2.0), Amazon Business Payments
 - **Problem:** Amazon Business relied on fraud controls after checkout (BRP's models and investigators), so it couldn't control how much fraud entered the funnel. Business customers got more friction than consumers (orders sidelined for manual review, fraud holds asking good customers for documents), and non-checkout steps (sign-up, credit applications, adding bank accounts, Business Prime trials) had no fraud assessment, so teams used blunt rules (e.g., a 5-day wait before disbursing to a new bank account). Fraud was driven by a small number of sophisticated fraud rings scaling through people and bots. [AMAZON DOCS: 2020 exposure ~$197–220M, +600% YoY; ~$12M net losses; ~8 bps loss rate; 56 cents of fraud per dollar of US ACH spend; 14% of Business Prime sign-ups fraudulent; one ring registered ~5K businesses/week via bots (5–10% of new US registrations); top 100 fraudulent businesses created 70K user accounts, $5M+ orders in a month; fraud-hold release rates by payment method.]
 - **Strategy (her PRFAQ):** one Business Fraud Score that assesses a business's fraud risk at registration, before any order, and keeps reassessing as behavior comes in, so any team can apply risk-based controls anywhere in the customer journey. Detection (BFS) paired with a challenge mechanism (identity verification) so good customers pass and bad actors face friction. Four phases: core score on internal data → external risk intelligence → real-time service → continuous assessment. Long-term vision: extend beyond Amazon Business to other business-customer surfaces. The PRFAQ was written in place of a requirements doc for Credit Systems engineering and kicked off storyboarding and tech design. [AMAZON DOCS: projected ~40% loss reduction, ~$5M/yr.]
 - **BFS 1.0:** customer-level (business entity, not user or transaction) binary fraud model at registration; data science built it (random forest with class balancing; 68 features from business profile, credit bureau cross-checks, email-domain age, reuse and history, web-traffic signals, and BRP's fraud-domain list as a hard rule). Deployed through MDLC (her MLOps platform) in daily batch with auto-suspension. **Her calls:** customer-level granularity (matches how business credit lines are set); prioritize precision over recall because buyer-risk post-checkout controls catch what the score misses; a 3-week shadow run plus back-test before launch; launch threshold 0.95 (on test data ~99% precision / ~25% recall; near-zero false positives on live shadow data). Incremental catch beyond BRP, because BFS can flag every account on a risky domain, not only accounts that have transacted. **Impact:** **~$18M in fraud losses avoided** (model-doc figure, $18.2M; user 2026-10-25: treat the estimate as actual); fraudulent credit exposure removed $4.5–8.7M (same basis); contributing to ~60% of upfront fraud detection. Scope: all of Pay by Invoice, not one segment. Combined with BFS 2.0's $2.7M: ~$25M+ total fraud impact, but losses and credit exposure can overlap, so lead with "~$18M fraud losses avoided." [AMAZON DOCS: feature tables and segment fraud rates; threshold tables; projected $18.2M loss avoidance.]
@@ -717,7 +757,7 @@ Sources: user-provided docs, read in full 2026-10-25: "Business Fraud Score PRFA
 - **Cross-team partners:** BRP (buyer risk), Credit Systems and credit operations, Clickstream, MDLC, data engineering, data science, Legal (Payments).
 - **Tags:** fraud strategy, 0→1, platform adopted by 6 teams, detection vs. friction, investigation → product, PRFAQ, launch trade-off, L4.
 
-#### A22: End-to-end fraud strategy for Pay by Invoice (the Business Fraud Score)
+### A22: End-to-end fraud strategy for Pay by Invoice (the Business Fraud Score)
 - **Source:** Stripe L4 story bank S1 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
 **Use for:** biggest impact, a strategy you set, 0→1, influence across teams. Covers all of Pay by Invoice (PBI), not one customer segment. Metrics come only from your BFS PRFAQ, model doc and BFS 2.0 launch note.
 
@@ -743,7 +783,7 @@ Sources: user-provided docs, read in full 2026-10-25: "Business Fraud Score PRFA
 
 - **Graded response (added 2026-11-09):** the wording above uses only documented facts: block only at high precision; identity verification as the challenge (A21 strategy); each of the six teams chose its own action (A27). [CONFIRM: were there defined score bands, e.g. high → block, medium → verify, low → allow, or did each team set its own thresholds?] Same principle later with agents: how much to automate depends on risk and reversibility (K3). Don't call this "tiered autonomy"; that term is the Keystone agent design.
 
-#### A23: Finding the attack the score missed: BFS 2.0
+### A23: Finding the attack the score missed: BFS 2.0
 - **Source:** Stripe L4 story bank S2 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
 **Use for:** investigating a new fraud or abuse pattern , data-driven decisions, customer insight.
 
@@ -761,7 +801,7 @@ It caught fraudsters about 10 days earlier on average than our buyer-risk system
 - *"Would you do it as a rule instead?"* "A rule would have caught one ring and broken when they adapted. Behavior generalizes."
 - Don't name exact features or blocklist mechanics; say "behavioral and IP signals."
 
-#### A24: Detection vs. customer friction
+### A24: Detection vs. customer friction
 - **Source:** Stripe L4 story bank S3 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
 **Use for:** hard trade-offs, ML product decisions, how you measure success. **This is the core trade-off in fraud and risk products.**
 
@@ -777,7 +817,7 @@ Then I kept measuring the friction side: a false-positive program targeting unde
 - *"Why 25% recall? Isn't that low?"* "On its own, yes. But it was one layer. Checkout controls and a blocklist rule caught the rest, and the score made those layers more precise."
 - *"How would you set this threshold for a different business?"* "Per segment. An enterprise merchant and a new small business tolerate friction very differently, so I'd let the threshold vary with the cost of a false positive."
 
-#### A25: Unblocking the BFS 2.0 launch
+### A25: Unblocking the BFS 2.0 launch
 - **Source:** Stripe L4 story bank S4 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
 **Use for:** scoping ruthlessly, speed vs. quality, working with engineers, technical fluency. 
 
@@ -790,7 +830,7 @@ Engineering proposed hosting the blocklist in a refreshable in-memory cache inst
 **Likely follow-ups:**
 - *"What did you give up?"* [Your answer. One likely candidate: reuse, since the feature store would have made the list available to other models. Say it only if that was the real trade-off.]
 
-#### A26: The PRFAQ that started it (writing)
+### A26: The PRFAQ that started it (writing)
 - **Source:** Stripe L4 story bank S5 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
 **Use for:** writing culture, aligning stakeholders with a document, communicating complex problems.
 
@@ -800,7 +840,17 @@ Engineering proposed hosting the blocklist in a refreshable in-memory cache inst
 **L4 signals:** a document that changed direction across teams; it became the roadmap.
 **Likely follow-ups:** *"What pushback did you get?"* [Your answer: what engineering or buyer risk challenged, and what you changed.]
 
-#### A27: A platform other teams built on: BFS adoption
+#### Writing (stated by user 2026-10-24)
+- Writing is a core strength. Has written PR/FAQs, strategy documents, PRDs, OP1 (annual planning) documents, MBRs/QBRs and VP-level alignment documents.
+- **Documents that drove decisions (stated by user 2026-10-26):**
+  - **Keystone consulting-to-product pivot:** wrote the strategy document; read by the CEO and the President, and it aligned them on the pivot (K1, K32).
+  - **Keystone Data Platform PRFAQ:** secured funding for 4 engineers on the Data Platform team.
+  - **Keystone Data Platform onboarding doc:** presented to 5 scientists and 15 engineers; used to onboard them to the platform.
+  - **Keystone Deep Enterprise change-management docs:** read by client teams to drive usage on the client side. [NEEDS DETAIL: any usage result.]
+  - **Amazon ML privacy policy (A10):** a written strategy read by Payments teams and VPs; it got teams to use MDLC to make their models GDPR compliant (~20 Payments teams adopted).
+  - Also on record: BFS PRFAQ became the roadmap through BFS 2.0, 6 teams adopted the score (A21); MDLC strategy doc secured 2 HC for the MVP, then 8+ engineering HC year over year; SPORT API spec, 3 partner teams integrated (A15); monthly VP-level business reviews for PBI 2.0. Resume v7 says "written monthly VP-level business reviews" on the PBI bullet. [NEEDS DETAIL: which documents drove which decisions, e.g., an OP1 that secured headcount (MDLC "secured 8+ engineering HC year over year"), a PR/FAQ that launched a product, the Keystone pivot document.]
+
+### A27: A platform other teams built on: BFS adoption
 - **Source:** Stripe L4 story bank S6 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
 **Use for:** integrations, platform adoption, partners, technical dependencies. 
 
@@ -817,14 +867,36 @@ Six teams adopted it. Each integration had its own dependency to manage: data en
 - *"How did you measure integration success?"* "Did the score change the partner's decision, and did their fraud or friction metric move? Adoption counted only if it changed a decision." Add a real example if you have one.
 
 
-#### PBI 2.0 credit product was 0→1 (stated by user 2026-10-25)
-- The user confirms the ML credit product launched in Amazon Business Financing & Credit (A1, 50K+ customers, $71M incremental revenue) was a **0-to-1 product**. OK to say "developed a 0-to-1 credit product." [NEEDS DETAIL for follow-ups: what was new versus PBI 1.0.]
+### S1: Agent vs. Deterministic Workflow (Personal Project)
+- **Situation:** Shifia's LLM-driven job-search agent missed jobs she knew existed.
+- **Action:** Diagnosed a workflow-design flaw (the agent couldn't know if its search was complete). Split it into deterministic discovery and agentic evaluation.
+- **Result:** 100% recall: Adobe 41/41, NVIDIA 35/35, CrowdStrike 10/10; coverage visible (3 complete, 16 partial, 7 failed).
+- **Tags:** when NOT to use an agent, builder, evals
 
-#### Confirmed 2026-10-24
-- **SPORT adoption:** ~10% is the adoption level reached (from a 1% baseline), as the combined result of the APIs, wider recommendations, the Seller Central entry point and account-manager marketing (A15).
+#### S1 repo (confirmed 2026-10-24)
+- Job-search agent code: https://github.com/shifiamittal/pm-job-search-agent. Language and stack not recorded; don't name them until confirmed.
 
-#### Partly closed 2026-10-24
-- **Investigating a specific fraud or abuse attack** (Stripe JD1 items 1 and 4): A19 records that it happened, but there's no story with specifics yet. Closest analogs remain K5, K6 and A6.
+
+### Notes and sources (not stories)
+Batch source notes and unverified leads that were mixed in with the stories. Entries are unchanged; only their position moved (2026-11-09).
+
+### Added 2026-10-24: developer platform, partners, pricing
+Sources: user's answers in chat (2026-10-24); Drive docs "SPORT APIs_V3_tech.docx" (Aug 2020), "SPORT deep-dive.docx", "MDLC and MOQ.docx" (all read 2026-10-24). Client names below are private: never name Hershey's, Corning, Apple or Michelin externally (Source Decision 12).
+
+#### Other leads from the 2023–24 prep docs (unverified; ask before using)
+- **Central Rules Engine:** re-pointed a 1P lending platform vision at 3P lending through external bank partners (Goldman Sachs); secured 3 HC. Possible partner story, but the doc's results conflict (2% vs. 4% revenue; 3 vs. 9 tech HC).
+- **Larger seller loans:** $17MM additional capital access for sellers, $2MM profit for Amazon.
+- **Moody's integration:** heading only.
+- **People:** the doc says "led a 3-member team and promoted 2 of 3" and "mentored 3 interns, 2 hired at Amazon." User (2026-10-24): keep this library as is (one direct report, A13). Don't use the doc's version.
+
+### Added 2026-10-24 (second batch): fraud controls, checkout decisioning, SQL
+Source: user's answers in chat, 2026-10-24 (Stripe Radar Fraud & Abuse resume intake). Client names stay private (Source Decision 12).
+
+### Added 2026-10-25: Business Fraud Score (BFS), PM and strategy owner
+Sources: user-provided docs, read in full 2026-10-25: "Business Fraud Score PRFAQ v1.0", "BFS US model doc" (owner: Anran Guo, data science), "Launch Announcement – BFS 2.0". User confirmed 2026-10-25: **she led the product strategy across all three, wrote the PRFAQ, was PM for BFS 1.0 and BFS 2.0, made all the product calls, and every team named as an adopter adopted it.** User said the document dates are unreliable; don't cite dates or tie BFS to a specific Amazon role or year.
+
+**CONFIDENTIALITY (interview use):** these are internal Amazon documents; the launch note opens "Based on Legal guidance, we are not providing specific metrics and learnings." **User decision 2026-10-26:** Amazon's fraud figures (exposure, losses, loss rates, segment fraud rates, projections) are OK to cite in interviews and prep; don't flag or remove them. Still keep out: exact model features, thresholds tables and blocklist mechanics. Figures from the internal docs are marked [AMAZON DOCS] below so their source is clear.
+
 
 ### Gaps (no real story yet)
 - **SPORT / MOQ** sections in the doc are empty. MOQ results exist on the resume (20K merchants, 120K offers, ~60% adherence) but have no story.
