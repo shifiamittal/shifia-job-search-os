@@ -1,6 +1,6 @@
 # Stripe Radar: What to Study Before the Hiring Manager Call
 
-Written: 2026-11-09 · Plan: `2026-11-09-stripe-radar-hiring-manager-prep.md` · Answers: `2026-11-09-stripe-hm-answers-draft-v1.md`
+Written: 2026-11-09 · Plan: `2026-11-09-stripe-radar-hiring-manager-prep.md`
 Time: about 7 hours over 4–5 days.
 
 **Read this first.** I couldn't open Stripe's website or documentation from this session (the host doesn't load), so I haven't verified any Stripe-specific detail below. The payments content is standard industry knowledge. The Radar details come from your recruiter-screen prep doc (2026-10-24) and from my general knowledge of Radar. Items marked **[VERIFY]** are ones to check on Stripe's own page before you say them aloud. If a page title below doesn't match, search the docs for the topic.

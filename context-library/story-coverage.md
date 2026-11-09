@@ -1,6 +1,6 @@
 # Story Coverage Grid
 
-Last updated: 2026-10-20
+Last updated: 2026-11-09
 Built from: the Step 1 question list (8 target companies' intel, the 12 most common PM questions, all 4 of your interviews) and the Step 2 story scores. Stories and metrics live in `experience-library.md`; this file only maps them.
 
 **Rule:** every competency needs a primary story and a backup. No story is primary for more than 2 competencies.
@@ -52,3 +52,16 @@ Built from: the Step 1 question list (8 target companies' intel, the 12 most com
 2. **#17 / #18 People (Head of Product track):** strengthen K20 (your decision and a result), and find one mentoring story.
 3. **#9 Saying no to a customer:** check whether one exists.
 4. **#20, #22, #23:** single-company questions. Lower priority.
+
+## Tier 4: Fraud, risk and developer products (added 2026-11-09 for Stripe Radar)
+| # | Competency | Primary | Backup | Status |
+|---|---|---|---|---|
+| 24 | Fraud / abuse strategy, end to end | A22 BFS strategy (facts: A21) | A27 BFS adopted by six teams | ✅ |
+| 25 | Investigating a new attack or abuse pattern | A23 BFS 2.0 | K5 (production quality slip, a diagnosis analog) | ⚠️ One real story; backup is an analog, not fraud |
+| 26 | Detection vs. customer friction | A24 Precision-first threshold | A3 Approvals vs. credit losses | ✅ |
+| 27 | Scoping a launch / engineering trade-off | A25 Blocklist cache vs. feature store | K13 Modular services vs. monolith | ✅ |
+| 28 | Writing / aligning stakeholders with a document | A26 BFS PR/FAQ | A10 Privacy policy across Payments | ✅ |
+| 29 | Platform adoption / integrations / partners | A27 BFS adopted by six teams | A15 SPORT APIs | ✅ |
+| 30 | Developer-facing APIs | A15 SPORT APIs | A16 MOQ APIs, K29 API catalog | ✅ |
+| 31 | Pricing / monetization | K32 Keystone pricing | — | ⚠️ No backup story |
+| 32 | Real-time decision API / batch vs. real time | A4 Batch underwriting (+3 months sooner) | A14 checkout credit API | ✅ |

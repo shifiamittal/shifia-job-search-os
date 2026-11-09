@@ -1,10 +1,10 @@
-# Stripe Radar: Hiring Manager Interview Prep (v3, one document: plan, answers and stories)
+# Stripe Radar: Hiring Manager Interview Prep (v4: plan, interview scripts and story cards)
 
-Updated: 2026-11-09 · Roles: PM, Radar – Fraud and Abuse Prevention (job 8306158, "JD1") · PM, Radar (job 8301646, integrations, partners, monetization, "JD2")
-**This is the single working document.** The answers (section 9) and the stories (section 10) are inline here; edit them here. Copies elsewhere, for reference only: facts and spoken versions in `context-library/experience-library.md` (A22–A27, A10, A6, K12, K32, A13); the original story bank in `interview-prep/2026-10-25-stripe-l4-story-bank.md`; the earlier answers file `2026-11-09-stripe-hm-answers-draft-v1.md`; the study content in `2026-11-09-stripe-hm-study-guide.md`.
+Updated: 2026-11-09 (v4) · Roles: PM, Radar – Fraud and Abuse Prevention (job 8306158, "JD1") · PM, Radar (job 8301646, integrations, partners, monetization, "JD2")
+**How the pieces fit (OS design):** the **stories** live in `context-library/experience-library.md` (one copy: A22–A27, A10, A6, K12, K32, A13). **This prep doc** holds the plan, the scripts for this interview (section 9), story cards that point to the library (section 10), the numbers card and the practice plan. The study content is in `2026-11-09-stripe-hm-study-guide.md`. Story gaps are tracked in `context-library/story-coverage.md`.
 Frameworks used: `insider-data/behavioral-interview-frameworks.md` (Addressing-Weaknesses, Why-here, STAR-L, Three Laws) and `context-library/interview-answer-style-guide.md`.
 
-**Contents:** 0 Confirmed facts · 1 What the HM call covers · 2 Your recruiter screen · 3 What the HM is deciding · 4 Demonstrating L4 · 5 Two roles at a glance · 6 Your most relevant experience · 7 Gaps and the weakness framework · 8 Tiered autonomy and bot abuse · 9 Interview answers Q1–Q15 · 10 Stories S1–S11 · 11 Questions to ask the HM · 12 Numbers card · 13 Study · 14 Open items · 15 Practice plan
+**Contents:** 0 Confirmed facts · 1 What the HM call covers · 2 Your recruiter screen · 3 What the HM is deciding · 4 Demonstrating L4 · 5 Two roles at a glance · 6 Your most relevant experience · 7 Gaps and the weakness framework · 8 Tiered autonomy and bot abuse · 9 Interview answers Q1–Q15 · 10 Story cards · 11 Questions to ask the HM · 12 Numbers card · 13 Study · 14 Open items · 15 Practice plan
 
 ---
 
@@ -158,7 +158,9 @@ My earlier line, "tiered autonomy covers Stripe's bot-abuse and AI-agent angle,"
 
 ---
 
-## 9. Interview answers: Q1–Q15 (full, interview-ready drafts)
+## 9. Interview answers: Q1–Q15 (scripts for this interview)
+The questions that are **interview-specific** (Q1, Q2, Q6, Q7, Q8, Q9, Q15) are written out in full here. The questions that are **story-based** (Q3, Q4, Q5, Q10, Q11, Q12, Q13, Q14) point to the story's library entry (full spoken version there, one copy) and add only what's specific to this interview.
+
 Rules applied (`interview-answer-style-guide.md`): your voice, short spoken sentences, point first, under 200 words, one message per story, canonical numbers only, ownership words ("I set the strategy," "data science built the model"), "launched" only for what shipped.
 Tags: **[CONFIRM]** = a fact only you can confirm · **[YOUR WORDS]** = a personal line I've guessed at; replace it with yours · Three Laws self-check at the end of each answer (Structure / Specificity / Skill demonstration, my own estimate before you've practiced them aloud).
 
@@ -196,46 +198,23 @@ And I'm drawn to how Stripe writes. At Amazon, I got a new fraud strategy approv
 
 ---
 
-### Q3. Walk me through your biggest fraud project end to end (~200 words)
-**Framework:** STAR-L / accomplishment arc. **Lead story for JD1.** (A22)
-
-"**Situation.** Amazon Business used fraud controls built for consumers, and they ran after checkout. They didn't fit businesses, where one account can have thousands of users placing large orders that look suspicious. And fraud rings used bots to register thousands of accounts that nobody could catch until checkout.
-
-**Stakes.** Fraud exposure across Amazon Business grew 600%, to about $200 million, while up to 15% of orders on some payment methods were held for manual review.
-
-**Decisions.** I led the fraud strategy and made four calls. One, check for fraud across the customer journey, from registration to the first purchase. Two, block only when the score was very sure, about 99% precision, and give everyone else a lighter response, like identity verification. Three, build one shared score and let each team choose its response: block, verify or filter. Six teams did. Four, keep watching for new patterns, and add behavioral and IP signals when fraudsters started acting like bots.
-
-**Result.** About $18 million in fraud losses avoided, fraudsters caught about 10 days earlier, and upfront detection up about 15%.
-
-**Learning.** Fraud prevention isn't one gate. It's the right check at each step."
+### Q3. Walk me through your biggest fraud project end to end
+**Story:** A22 (S1). The full spoken version is in `context-library/experience-library.md`; practice it from there. Lead story for JD1. The graded-response wording (block only when very sure, a lighter step like identity verification for the rest, each team choosing its action) is already in A22.
 
 **Check:** Structure 9 · Specificity 8 · Skill demo 9. Say "avoided," not "caught." **[CONFIRM]** whether BFS had defined score bands (high → block, medium → verify, low → allow); the wording above uses only documented facts. Optional bridge, one sentence: "I used the same principle later with agents: how much to automate depends on risk and reversibility." **Follow-ups:** "Why not tighten checkout?" (too late and too blunt); "What did data science do?" (built and validated the models; I set strategy, granularity, goal, launch gates and integrations); "What would you do differently?" **[YOUR ANSWER; open item 4].**
 
 ---
 
-### Q4. Tell me about a new fraud or abuse pattern you found (~190 words)
-**Framework:** accomplishment arc; investigation → product. **JD1's core question.** (A23)
-
-"The score was good at catching fraud at sign-up, but I wanted to know what it was missing. I led a deep dive into our worldwide business-customer data and found a pattern: fraudsters who passed the registration score but behaved unlike any real business before their first order. They moved through sign-up and browsing in repetitive, machine-like ways.
-
-That told me the gap wasn't the model's accuracy. It was the signals. A registration snapshot can't see behavior. So I launched BFS 2.0, a behavioral model that keeps assessing each new customer from registration to the first transaction, using non-transaction behavior like browsing and account settings. I partnered with the buyer-risk team to reuse insights from their model, and added IP intelligence with a blocklist for suspicious IPs.
-
-It caught fraudsters about 10 days earlier on average, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines. Then I set up a false-positive program with a target under half a percent, so good customers didn't pay for it."
+### Q4. Tell me about a new fraud or abuse pattern you found
+**Story:** A23 (S2). The full spoken version is in `context-library/experience-library.md`; practice it from there. JD1's core question: a new attack you found.
 
 **Check:** Structure 8 · Specificity 9 · Skill demo 9. **Follow-ups:** "How did you know they were fraudsters?" (confirmed fraud outcomes downstream; labels arrive late, so we made explicit assumptions and watched false positives separately); "Why not a rule?" (a rule catches one ring; behavior generalizes); "How long do you keep assessing someone who never orders?" (a window trade-off between detection and inference cost; we compared windows and picked the balance). Don't name exact features.
 
 ---
 
-### Q5. How do you balance detection against customer friction? (~190 words)
-**Framework:** trade-off → decision → result. (A24)
-
-"In fraud, the expensive mistake isn't always missing fraud. It's blocking a good customer. For the Business Fraud Score, a false positive meant suspending a legitimate business's credit line, which could be thousands to hundreds of thousands of dollars.
-
-So I made precision the priority over recall, on purpose. The score ran at registration, and buyer risk's controls still checked every order after checkout. So the score didn't need to catch everything. It needed to be right when it acted. Before launch, I required a three-week shadow run on live traffic, because a model can look great offline and drift on real data. I set the launch threshold where the score was right about 99% of the time, accepting that it would catch only about a quarter of fraud on its own. On live shadow data, it made essentially no false suspensions at that threshold.
-
-Then I kept measuring the friction side, with a false-positive program targeting under half a percent.
-
-For Radar, I'd set the threshold per segment. A large merchant and a new small business tolerate friction very differently."
+### Q5. How do you balance detection against customer friction?
+**Story:** A24 (S3). The full spoken version is in `context-library/experience-library.md`; practice it from there. Detection vs. friction.
+**Add for this interview:** For Radar, add one closing sentence: "For Radar, I'd set the threshold per segment. A large merchant and a new small business tolerate friction very differently."
 
 **Check:** Structure 9 · Specificity 9 · Skill demo 9. **Follow-up:** "Isn't 25% recall low?" On its own, yes; it was one layer, and checkout controls and a blocklist rule caught the rest.
 
@@ -297,72 +276,38 @@ For Radar, the latency budget is tighter, so I'd ask which signals must be live 
 
 ---
 
-### Q10. Tell me about a pricing decision (~170 words) (JD2)
-**Framework:** trade-off → decision → result. (K32)
-
-"At Keystone, consulting was losing money. The flagship engagement brought in about $2 million a year but needed about seven people on site, around $2.8 million in cost.
-
-With the CEO, Sales and Finance, I split the offer into separate modules on annual subscriptions: forecasting at roughly $1.5 million a year, and agentic capabilities at about $500K more, with managed services included.
-
-I rejected two alternatives. Usage-based pricing, because forecast or action counts don't track the value a customer gets. And percentage-of-savings pricing, because savings depend on the client's execution, so we'd end up in attribution disputes.
-
-Two clients started on forecasting and upgraded to agents, about $500K each. All five clients renewed. Support per client dropped from about seven people to about one.
-
-For Radar's new tiers, I'd test where customers draw the line between basic and advanced controls."
+### Q10. Tell me about a pricing decision (JD2)
+**Story:** K32 (S8). The full spoken version is in `context-library/experience-library.md`; practice it from there. JD2 pricing.
+**Add for this interview:** For Radar's new tiers, add: "I'd test where customers draw the line between basic and advanced controls." Don't quote Radar tier prices.
 
 **Check:** Structure 8 · Specificity 9 · Skill demo 8. Don't quote Radar tier prices. Don't name clients. **[CONFIRM]** whether to say "about $2 million" and "$2.8 million" aloud (internal figures from your old company); rounded is fine if you're comfortable.
 
 ---
 
-### Q11. How do you work with engineering and data science when you disagree or hit a constraint? (~160 words)
-**Framework:** trade-off → decision → result. (A25)
-
-"Midway through BFS 2.0, we hit a dependency. The IP blocklist was supposed to live in our ML platform's feature store. That work was estimated at 22 weeks, which would have pushed the launch out a full quarter. Fraud rings don't wait a quarter.
-
-Engineering proposed hosting the blocklist in a refreshable in-memory cache instead, about a week of work. I made the call to do it, with one condition: the design had to guarantee the cache always loaded the latest version, with no risk of stale or corrupted data. That was the real risk, not the storage choice.
-
-We shipped on schedule, and the blocklist and IP rules contributed about 10% of the new upfront detection."
+### Q11. How do you work with engineering and data science when you disagree or hit a constraint?
+**Story:** A25 (S4). The full spoken version is in `context-library/experience-library.md`; practice it from there. Working with engineering when you hit a constraint.
 
 **Check:** Structure 8 · Specificity 9 · Skill demo 9. **[CONFIRM]** what the cache gave up (open item 5; reuse by other models is my guess). You haven't named a design partner; don't invent one.
 
 ---
 
-### Q12. Stripe values writing. Tell me about a time a document changed a decision (~190 words)
-**Framework:** accomplishment arc. (A26, with A10 as the second example)
-
-"I wrote the Business Fraud Score PR/FAQ instead of a requirements document, because the hard part wasn't the requirements. It was getting engineering, buyer risk and leadership to agree on a different strategy. It opened with the customer outcome: one score, at sign-up, that any team could use. The FAQ took on the hard questions directly: how big the problem was, why business fraud is harder than consumer fraud, the trade-off between fraud control and friction, and a four-phase roadmap. Credit Systems engineering used it to start technical design, and its phases became the roadmap through BFS 2.0.
-
-I used the same approach for a privacy policy for ML models. Nobody had defined how EU and US privacy rules applied to ML. I wrote the requirements with Legal and took them to the VP of Data Privacy and Payments leaders. It became platform policy across about 20 Payments teams.
-
-My rule: goal and customer first, then the decision and its trade-off, then the evidence."
+### Q12. Stripe values writing. Tell me about a time a document changed a decision
+**Story:** A26 (S5), with A10 (S7) as the second example. The full spoken version is in `context-library/experience-library.md`; practice it from there. Writing and influence. Say the PRFAQ first, then one sentence on the privacy policy.
 
 **Check:** Structure 8 · Specificity 8 · Skill demo 8. **[CONFIRM]** what pushback each document got (open items 1 and 3) so you can answer "who disagreed?"
 
 ---
 
-### Q13. How do you grow other PMs, and how do you think about scope? (~170 words)
-**Framework:** accomplishment arc. (A13, K20)
-
-"At Amazon, I managed a program manager in Pricing for two years. To reach the next level, he had to run projects on his own. I coached him to run a 15-country survey with an outside vendor and more than 30 stakeholders, reviewed his analysis before it went out, and wrote his promotion document. He was promoted from L4 to L5.
-
-At Keystone, I led three PMs on a dotted line. One struggled to balance client requests against platform work, and engineering felt stretched. I set an improvement plan, with weekly one-on-ones, and reduced oversight as they improved. Engineering met the goals with no delays.
-
-I've also run more than 50 hiring interviews.
-
-On scope, I'd like to be judged on what changed beyond my own product: a fraud score six teams adopted, a privacy policy about 20 teams adopted, and a business model at Keystone."
+### Q13. How do you grow other PMs, and how do you think about scope?
+**Story:** A13 / K20 (S10). The full spoken version is in `context-library/experience-library.md`; practice it from there. Growing PMs and scope.
+**Add for this interview:** For scope, close with: "I'd like to be judged on what changed beyond my own product: a fraud score six teams adopted, a privacy policy about 20 teams adopted, and a business model at Keystone."
 
 **Check:** Structure 8 · Specificity 8 · Skill demo 7. Say "a program manager," not his name. Don't call the Keystone PMs "direct reports."
 
 ---
 
-### Q14. Tell me about a failure (~150 words)
-**Framework:** STAR-L with the lesson. (A6)
-
-"When we launched credit for small businesses to 5% of customers, credit losses came in higher than expected, and we couldn't scale to the full segment. That was on me. I'd validated that customers wanted the product, but not that the controls would deliver acceptable portfolio economics.
-
-I worked with science to add a lower-risk group of larger businesses to the portfolio. Our simulation showed the blended portfolio cut losses 6 to 8%. We relaunched to the blended segment with positive economics, and there were no credit losses after full launch.
-
-The lesson I still use: validate the customer opportunity and the economics separately, especially in risk products, where a good customer outcome can hide a bad portfolio."
+### Q14. Tell me about a failure
+**Story:** A6 (S11). The full spoken version is in `context-library/experience-library.md`; practice it from there. Failure.
 
 **Check:** Structure 8 · Specificity 8 · Skill demo 8. Say the 6–8% is a simulation. The pilot losses were real.
 
@@ -388,141 +333,40 @@ I'd check this against what you see as the most urgent problem, because that mat
 
 ---
 
-## 10. Stories S1–S11 (full spoken versions)
-The full spoken versions are in this section. Each story's supporting facts are in the library entry named after the arrow (`context-library/experience-library.md`; A = Amazon, K = Keystone). The "S" numbers are story labels only; the library's own "S1" is the job-search system. These versions match the library, including the graded-response wording in S1.
+## 10. Story cards (full stories are in the library)
+The full spoken versions, facts and follow-ups live in **`context-library/experience-library.md`** (one copy; A = Amazon, K = Keystone). This section is a card per story: where it lives, a one-line hook, what it's for, and the L4 signal it proves. To practice a story, open its library entry. To change a story, edit the library entry. The "S" numbers are labels from the earlier story bank only (the library's own "S1" is the job-search system).
 
-| Index label | What it is | Library entry |
+| Label | Library entry | Hook | L4 signal |
+|---|---|---|---|
+| **S1** | **A22** (facts: A21) | Led the fraud strategy for Pay by Invoice: a score that checks every business at sign-up; about $18M avoided; six teams adopted it | A problem nobody owned; strategy beyond your product |
+| **S2** | **A23** | Found fraudsters who passed sign-up but behaved like bots before their first order; launched BFS 2.0; caught them about 10 days earlier | You found the problem yourself; a durable defense |
+| **S3** | **A24** | Chose precision over recall (about 99% precision) because blocking a good customer costs more; layered controls; a 3-week shadow run | A policy-level decision; a friction measurement system |
+| **S4** | **A25** | Turned a 22-week feature-store dependency into a one-week cache, with a guardrail against stale data | A launch-level trade-off; you named the real risk |
+| **S5** | **A26** | Wrote the PR/FAQ that aligned engineering, buyer risk and leadership; its phases became the roadmap | A document that changed direction across teams |
+| **S6** | **A27** | Designed the score as a service; six teams used it for different decisions | Cross-team adoption; managed dependencies |
+| **S7** | **A10** | Defined how privacy rules apply to ML; presented to the VP of Data Privacy; about 20 Payments teams adopted it | Alignment at VP level; org-wide policy |
+| **S8** | **K32** | Priced Keystone as modules on annual subscriptions; rejected usage- and savings-based pricing; all five renewed, two upgraded | A company-level business model |
+| **S9** | **K12** | Recommended managed service over SaaS against leadership and investors; cost a month, won two clients | A company decision against resistance |
+| **S10** | **A13, K20** | Promoted a program manager from L4 to L5; led three dotted-line PMs | Grows other PMs |
+| **S11** | **A6** | The 5% launch had higher losses than expected; added a lower-risk segment; simulation showed 6–8% lower losses | Owning a portfolio-level miss |
+| (no label) | **A15 · A16 · K29 · K30** | SPORT APIs · MOQ APIs · API catalog · client IT dependency | External developers and partners |
+
+**Which story for which question**
+
+| Question type | Fraud & Abuse role | Integrations role |
 |---|---|---|
-| **S1** | Business Fraud Score strategy, Pay by Invoice | **A22** (facts: A21) |
-| **S2** | BFS 2.0: the attack the score missed | **A23** |
-| **S3** | 99% precision vs. customer friction | **A24** |
-| **S4** | Unblocking the BFS 2.0 launch (blocklist cache) | **A25** |
-| **S5** | The PRFAQ | **A26** |
-| **S6** | BFS adopted by six teams | **A27** |
-| **S7** | ML privacy policy across Payments | **A10** |
-| **S8** | Keystone pricing | **K32** |
-| **S9** | Managed service vs. SaaS | **K12** |
-| **S10** | Developing PMs | **A13, K20** |
-| **S11** | Failure: credit-loss miss | **A6** |
-| (not indexed) | SPORT APIs · MOQ APIs · API catalog · client IT dependency | **A15 · A16 · K29 · K30** |
-
-
-### S1 → A22: End-to-end fraud strategy for Pay by Invoice (the Business Fraud Score)
-- **Source:** Stripe L4 story bank S1 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
-**Use for:** biggest impact, a strategy you set, 0→1, influence across teams. Covers all of Pay by Invoice (PBI), not one customer segment. Metrics come only from your BFS PRFAQ, model doc and BFS 2.0 launch note.
-
-**STAR-L version (~200 words, final 2026-10-25; on the OS STAR-L framework):**
-- **Situation:** "Amazon Business used fraud controls that were built for consumers and ran after checkout. They didn't fit businesses, where one account can have thousands of users placing large orders, which looked suspicious. And fraud rings used bots to register thousands of accounts that couldn't be caught until checkout."
-- **Stakes:** "As a result, fraud exposure across Amazon Business grew 600% to about $200 million, while up to 15% of orders on some payment methods were held for manual review."
-- **Actions:** "I led the fraud strategy and made four decisions:
-  1. I introduced fraud detection across the customer journey, from registration to before the first purchase.
-  2. I set the score for 99% precision, so we blocked only when it was very sure, and gave everyone else a lighter response, like identity verification, with checkout controls for the rest.
-  3. I built one shared score that other teams could use, like credit lines and the small-business credit card, and let each team choose its response: block, verify or filter. Six teams adopted it.
-  4. I kept monitoring for new fraud patterns, and added behavioral and IP signals when fraudsters started acting like bots."
-- **Result:** "We avoided about $18 million in fraud losses, caught fraudsters 10 days earlier, and lifted upfront detection about 15%."
-- **Learning:** "Fraud prevention isn't one gate; it's the right check at each step."
-
-**30-second version (recruiter screen):** "I owned the fraud strategy for Amazon Business's Pay by Invoice credit. I created a fraud score that assesses every business at sign-up, before it gets a credit line, tuned for precision and layered with checkout controls. It avoided about $18 million in fraud losses, its behavioral version caught fraudsters about 10 days earlier, and six teams adopted the score."
-
-**L4 signals:** a problem nobody owned; strategy beyond your own product; adopted by six teams you didn't manage; a platform that outlasted you.
-**Likely follow-ups:**
-- *"Why not just tighten checkout controls?"* "Checkout is too late and too blunt: by then good customers absorb the friction. Assessing at registration lets you be precise early and lighter later."
-- *"How did you get six teams to adopt it?"* Use A27.
-- *"What did data science do versus you?"* "They built and validated the models. I set the strategy, the granularity, the precision-first goal, the launch gates and the integrations."
-- *"What would you do differently?"* "Push real-time access earlier; batch scoring meant some teams waited a day for a score." (Only say this if it's true for you. If not, choose your own.)
-
-- **Graded response (added 2026-11-09):** the wording above uses only documented facts: block only at high precision; identity verification as the challenge (A21 strategy); each of the six teams chose its own action (A27). [CONFIRM: were there defined score bands, e.g. high → block, medium → verify, low → allow, or did each team set its own thresholds?] Same principle later with agents: how much to automate depends on risk and reversibility (K3). Don't call this "tiered autonomy"; that term is the Keystone agent design.
-
-### S2 → A23: Finding the attack the score missed: BFS 2.0
-- **Source:** Stripe L4 story bank S2 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
-**Use for:** investigating a new fraud or abuse pattern , data-driven decisions, customer insight.
-
-**Spoken version (~200 words):**
-"The score was catching fraud at sign-up well, but I wanted to know what it was missing. I led a deep dive into our worldwide business-customer data and found a pattern: fraudsters who passed the registration score but behaved unlike any real business before their first order. They moved through sign-up and browsing in repetitive, machine-like ways that real people don't.
-
-That told me the gap wasn't the model's accuracy; it was the signals. A registration snapshot can't see behavior. So I launched BFS 2.0: a behavioral model that keeps assessing each new customer from registration until their first transaction, using non-transaction behavior like browsing and account settings. I partnered with the buyer-risk team to reuse insights from their gestural-data model, and added IP intelligence from internal and external sources, with a blocklist that stops registrations and orders from suspicious IPs.
-
-It caught fraudsters about 10 days earlier on average than our buyer-risk systems, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines. Next, I set up a false-positive program with a target below half a percent, so good customers didn't pay for it."
-
-**L4 signals:** you found the problem yourself; a durable defense (a new model and a blocklist), not a one-off rule; partnership with another team's science.
-**Likely follow-ups:**
-- *"How did you know they were fraudsters, not unusual customers?"* "Confirmed fraud outcomes downstream. Labels arrive late, so we made explicit assumptions about when fraud happened, and we watched false positives separately."
-- *"How long do you keep assessing someone who never orders?"* "That was a trade-off I made: detection improves with a longer window, but inference cost grows for customers who may never transact. We compared performance across different time-to-first-order windows and picked the one that balanced detection against inference cost."
-- *"Would you do it as a rule instead?"* "A rule would have caught one ring and broken when they adapted. Behavior generalizes."
-- Don't name exact features or blocklist mechanics; say "behavioral and IP signals."
-
-### S3 → A24: Detection vs. customer friction
-- **Source:** Stripe L4 story bank S3 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
-**Use for:** hard trade-offs, ML product decisions, how you measure success. **This is the core trade-off in fraud and risk products.**
-
-**Spoken version (~190 words):**
-"In fraud, the expensive mistake isn't always missing fraud; it's blocking a good customer. For the Business Fraud Score, a false positive meant suspending a legitimate business's credit line, which could run from thousands to hundreds of thousands of dollars.
-
-So I made precision the priority over recall, on purpose. The score ran at registration, and the buyer-risk team's controls still checked every order after checkout, so the score didn't need to catch everything; it needed to be right when it acted. Before launch, I required a three-week shadow run on live traffic and a back-test, because a model can look great offline and drift on real data. I set the launch threshold where the score was right about 99% of the time, accepting that it would catch only about a quarter of fraud on its own. On live shadow data, it made essentially no false suspensions at that threshold.
-
-Then I kept measuring the friction side: a false-positive program targeting under half a percent. The principle I took away: decide which mistake is expensive, and design layers so no single control has to be perfect."
-
-**L4 signals:** a policy-level decision for the product; layered defenses across teams; a measurement system for friction.
-**Likely follow-ups:**
-- *"Why 25% recall? Isn't that low?"* "On its own, yes. But it was one layer. Checkout controls and a blocklist rule caught the rest, and the score made those layers more precise."
-- *"How would you set this threshold for a different business?"* "Per segment. An enterprise merchant and a new small business tolerate friction very differently, so I'd let the threshold vary with the cost of a false positive."
-
-### S4 → A25: Unblocking the BFS 2.0 launch
-- **Source:** Stripe L4 story bank S4 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
-**Use for:** scoping ruthlessly, speed vs. quality, working with engineers, technical fluency. 
-
-**Spoken version (~160 words):**
-"Midway through BFS 2.0, we hit a dependency. The IP blocklist was supposed to live in our ML platform's feature store, and that work was estimated at 22 weeks, which would have pushed the launch out a full quarter. Fraud rings don't wait a quarter.
-
-Engineering proposed hosting the blocklist in a refreshable in-memory cache instead: about a week of work. I made the call to do it, with one condition: the design had to guarantee the cache always loaded the latest version of the list, with no risk of serving corrupted or stale data. That was the real risk, not the storage choice. Once that was designed in, we shipped on schedule, and the blocklist and IP rules ended up contributing about 10% of the new upfront detection."
-
-**L4 signals:** a launch-level trade-off; you named the actual risk; the long-term option was preserved.
-**Likely follow-ups:**
-- *"What did you give up?"* [Your answer. One likely candidate: reuse, since the feature store would have made the list available to other models. Say it only if that was the real trade-off.]
-
-### S5 → A26: The PRFAQ that started it (writing)
-- **Source:** Stripe L4 story bank S5 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
-**Use for:** writing culture, aligning stakeholders with a document, communicating complex problems.
-
-**Spoken version (~150 words):**
-"I wrote the Business Fraud Score PRFAQ instead of a traditional requirements document, because the hard part wasn't the requirements; it was getting engineering, buyer risk and leadership to agree on a different strategy. It opened with the customer outcome: a single score, at sign-up, that any team could use. The FAQ took on the hard questions directly: how big the problem was, why business fraud is harder than consumer fraud, the trade-off between fraud control and friction, how the score fits with buyer risk's existing models, and a four-phase roadmap with a long-term vision beyond Amazon Business. Credit Systems engineering used it to start storyboarding and technical design, and its phases became the roadmap through BFS 2.0. My rule for writing: goal and customer first, then the decision and its trade-off, then the evidence."
-
-**L4 signals:** a document that changed direction across teams; it became the roadmap.
-**Likely follow-ups:** *"What pushback did you get?"* [Your answer: what engineering or buyer risk challenged, and what you changed.]
-
-### S6 → A27: A platform other teams built on: BFS adoption
-- **Source:** Stripe L4 story bank S6 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
-**Use for:** integrations, platform adoption, partners, technical dependencies. 
-
-**Spoken version (~180 words):**
-"I designed the Business Fraud Score as a service, not a feature, because the value grew with every team that used it. The question for each team was: what decision does this score make better for you?
-
-For buyer risk, it became an input to their fraud models: the score could flag every account on a risky domain, even ones that hadn't ordered yet, which their transaction-level models couldn't see. For credit, it removed credit lines from fraudulent customers. Sign-up verification used it to decide who to block or challenge. Business Prime used it to filter fraud out of their sign-up metrics and decide who sees a free trial. Payment verification used it to decide when to require micro-deposits, and the small-business card team used it to trigger identity checks.
-
-Six teams adopted it. Each integration had its own dependency to manage: data engineering for offline feeds, our ML platform for serving, the clickstream team for behavioral data, and Legal for what we could act on."
-
-**L4 signals:** cross-team adoption you drove; integration design per partner; managing dependencies.
-**Likely follow-ups:**
-- *"Which integration was hardest, and why?"* [Your answer.]
-- *"How did you measure integration success?"* "Did the score change the partner's decision, and did their fraud or friction metric move? Adoption counted only if it changed a decision." Add a real example if you have one.
-
-### S7 → A10: Org-wide policy without authority: ML privacy across Amazon Payments
-- **Spoken version (Stripe L4 story bank S7, 2026-10-25):**
-**Use for:** influence without authority, org-wide change, compliance. (A10)
-
-### S8 → K32: Pricing that customers renewed into (Keystone)
-- **Spoken version (recruiter-screen prep, 2026-10-24; draft, refine with the user):** "Yes. At Keystone.ai, the goal was to turn a consulting business into a product business. One flagship engagement brought in $2M a year but needed about seven people on site. With the CEO, Sales and Finance, I split the offer into modules on annual subscriptions: forecasting at about $1.5M a year, agentic capabilities on top at about $500K. We rejected usage-based pricing, because forecast counts don't track value, and percentage-of-savings, because savings depend on the client's execution and invite attribution fights. All five clients renewed through the move to product, and two added agents, about $500K more a year each." L4 signal: a company-level business model, not a pricing tweak.
-
-### S9 → K12: Disagreeing with leadership and investors: managed service vs. SaaS
-- **Spoken version (recruiter-screen prep Q9, 2026-10-24):** "Keystone's leadership and investors wanted pure multi-tenant SaaS for the margins. Our enterprise clients had hard data-residency and control requirements, and I didn't think SaaS would close them. I recommended deploying as a managed service inside each client's cloud. The objection was that it would slide us back into consulting, so I showed how we'd productize deployment with infrastructure as code, reusable components and an upgrade process, and framed it as sequencing: prove repeatable deployment first, then build the platform. It cost a month of extra deployment time, and I said so up front. It won two more clients that pure SaaS couldn't have served." L4 signal: a company decision against leadership and investors, with its cost stated up front.
-
-### S10 → A13 / K20: Developing PMs
-- **Spoken version ("How do you develop other PMs?", recruiter-screen prep, 2026-10-24):** "By handing over real ownership in stages and staying close enough to coach. At Amazon I managed a Program Manager whose gap to L5 was independence. I moved ownership to him step by step: our external survey vendor, then 30+ stakeholders across 15+ countries, reviewing his work less as his judgment proved out. I wrote his promotion document, and he was promoted to L5. At Keystone.ai I led three PMs on a dotted line. One kept saying yes to client requests that displaced platform work; I gave specific feedback, set a decision rule for requests, and reviewed their calls weekly until their team was back on track. I've also run 50+ hiring interviews across Keystone and Amazon." Be precise if probed: one direct report, a Program Manager; the Keystone PMs were dotted-line. L4 signal: grows other PMs. Same answer covers K20.
-
-### S11 → A6: Failure: the credit-loss miss
-- **Spoken version (~150 words; Stripe L4 story bank S11, 2026-10-25):**
-"When we launched credit for small businesses to 5% of customers, credit losses came in higher than expected, and we couldn't scale to the full segment. That was on me: I'd validated that customers wanted the product, but not that the controls would deliver acceptable portfolio economics. I worked with science to add a lower-risk group of larger businesses to the portfolio; our simulation showed the blended portfolio cut losses 6 to 8%. We relaunched to the blended segment with positive economics, and there were no credit losses after full launch. The lesson I still use: validate the customer opportunity and the economics separately, especially in risk products, where a good customer outcome can hide a bad portfolio."
-**L4 signals:** owning a portfolio-level miss; a fix that changed the strategy, not just the threshold.
+| Biggest impact / a strategy you set | **A22** | **A22**, or K32 |
+| Investigated a new fraud or abuse pattern | **A23** | A23 |
+| Hard trade-off / detection vs. friction | **A24** | A24 |
+| Scope ruthlessly / engineering trade-off | **A25** | **A25** |
+| Writing / aligning with a document | **A26** | **A26** |
+| Integrations, platform adoption, partners | A27 | **A27**, A15, A16, K29 |
+| Influence without authority | **A10** | **A10** |
+| Pricing, monetization | K32 (if asked) | **K32** |
+| Disagreeing with leadership | K12 | **K12** |
+| Developing PMs | **A13 / K20** | **A13 / K20** |
+| Failure | **A6** | **A6** |
+| AI quality / monitoring in production | K5 | K5 |
 
 ---
 
