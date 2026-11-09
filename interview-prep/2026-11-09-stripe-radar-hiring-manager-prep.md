@@ -1,177 +1,160 @@
-# Stripe Radar: Hiring Manager Interview Prep (both roles)
+# Stripe Radar: Hiring Manager Interview Prep (v2, both roles)
 
-Built: 2026-11-09 · Roles: PM, Radar – Fraud and Abuse Prevention (job 8306158, "JD1") · PM, Radar (job 8301646, integrations, partners, monetization, "JD2")
-Builds on: `interview-prep/2026-10-24-stripe-radar-recruiter-screen.md` (short answers, Part A/B), `interview-prep/2026-10-25-stripe-l4-story-bank.md` (stories S1–S11), your Drive doc "Stripe interview preparation" (read 2026-11-09), `context-library/interview-history.md`, `context-library/interview-answer-style-guide.md`, `insider-data/company-intel/stripe.md`.
-Framework used: the OS frameworks in `insider-data/behavioral-interview-frameworks.md` (Addressing-Weaknesses for "tell me about yourself", "Why here", STAR-L, Three Laws).
+Updated: 2026-11-09 · Roles: PM, Radar – Fraud and Abuse Prevention (job 8306158, "JD1") · PM, Radar (job 8301646, integrations, partners, monetization, "JD2")
+Companion files: `2026-11-09-stripe-hm-answers-draft-v1.md` (full answers, Q1–Q15) · `2026-11-09-stripe-hm-study-guide.md` (what to study) · stories: `2026-10-25-stripe-l4-story-bank.md`
+Frameworks used: `insider-data/behavioral-interview-frameworks.md` (Addressing-Weaknesses, Why-here, STAR-L, Three Laws) and `context-library/interview-answer-style-guide.md`.
 
-**What I don't know yet:** the hiring manager's name and background, the date, the length, and whether one manager covers both roles. Stripe's published process (company-intel, Mar 2026) lists the hiring manager screen as 45–60 minutes. Treat everything about the round's format as directional until the recruiter confirms.
+## 0. What's confirmed (and what isn't)
 
----
+| Fact | Source |
+|---|---|
+| Hiring manager (HM) call **next week, 45 minutes**, **one HM for both roles**, name not known yet | You, 2026-11-09 |
+| **Product sense interview cleared** (Zoom, 2026-11-06, ~47 minutes) | You; Otter summary |
+| Stripe's loop after the HM call: a **virtual full loop** of three interviews (execution/behavioral, analytical/metrics and trade-offs/experiments, technical/API and system design), plus a **written take-home "friction log"** (written communication, API understanding, "user's-first PM"; **the HM grades it**), then debrief, references, and a packet to PM leadership. Whole process 4–6 weeks. | Recruiter call (Colleen Barnes), Otter, 2026-10-26 |
+| Both roles go through the same process. IC role; "most likely level 3, open to level 4"; recruiter described L3 as roughly 8–15 years and L4 as 15+ and said you're "on the cusp." Level is decided at the end, from **interview performance, the HM calls, years, and what you've done**. | Recruiter call |
+| The recruiter's own words on the HM call: the HM will "talk a lot more about those roles and the team, what the scope of the roles would be, and what you would be doing." She told you to **come with questions and examples of how your experience aligns to the roles.** | Recruiter call |
+| Insider Loops guide on Stripe | **Could not read.** The site doesn't load from this session. Paste its loop overview and any hiring-manager section and I'll fold it in. |
 
-## 1. What a Stripe hiring manager is deciding
+## 1. What the HM call typically covers
 
-The manager is answering three questions. Each one maps to something Stripe told you in 2024 or put in these JDs.
+Stripe doesn't publish this, so treat it as directional. Two sources agree:
+- **Your recruiter** describes it as a two-way conversation about the roles, the team and scope, where you bring examples and questions. The HM also grades your friction log, so expect questions about your written and developer-facing instincts.
+- **Third-party prep sites** (search results, not read in full) describe a 45–60 minute conversation on product thinking, collaboration, your PM philosophy, past product work, "why Stripe," building developer-focused products and your written communication style. Passing it leads to the final loop. See [Exponent](https://www.tryexponent.com/guides/stripe-product-manager-interview), [IGotAnOffer](https://igotanoffer.com/blogs/product-manager/stripe-product-manager-interview), [Leland](https://www.joinleland.com/library/a/stripe-product-manager-interview) and [Supra Insider](https://suprainsider.substack.com/p/76-what-we-learned-about-pm-interviews). Insider Loops summarizes Stripe as product sense first, written culture, technical depth and rigorous calibration.
+- Your product sense interviewer said Stripe PMs near Radar need deep empathy for complex business-user pain points across industries (from the Otter summary; the transcript wasn't read).
 
-| Question in the manager's head | Where it comes from | What proves it |
+**What that means for 45 minutes:** about 10 minutes of you (pitch and why Stripe), about 15–20 of the HM explaining the roles and probing your fit, about 10–15 of your questions. Don't plan for 10 deep stories. Plan for **one pitch, one lead story per role, and strong questions.**
+
+## 2. Your recruiter screen: what you covered and what you missed
+
+Stories and topics you used on the 2026-10-26 call: the pitch; **Keystone's move from consulting to product** (managed service vs. SaaS, 30+ engineers and scientists in parallel lanes); **the fraud strategy at Amazon Business** (600% exposure growth to about $200M, 99% precision, a shared score, behavioral and IP signals, fraudsters caught 10 days earlier, six teams); a one-line mention of the MLOps platform (30+ data scientists, 100+ models). It was a strong call: warm, clear, calm.
+
+Gaps and slips to fix before the HM call:
+| What happened | Fix |
+|---|---|
+| "**Catch** $18 million in fraud losses" | "**Avoided** about $18 million." |
+| "Reduce a new client onboarding time from six months to **three** months" | Your canonical number is **6 → 4 months** for Deep Enterprise deployment. The 3-month figure is the data platform (3 months → 3 weeks). |
+| "15% of **legitimate** orders were sidelined" | "Up to 15% of orders on some payment methods were held for manual review." |
+| "Led 30 plus engineering and science teams" | "Directed 30+ engineers and scientists in parallel lanes." |
+| Asked "are you familiar with the Radar products?" you answered from the job descriptions | This is the biggest gap. The HM will expect you to know Radar's product. See the study guide. |
+| The recruiter asked for **technical decisions you personally drove**; your answer was mostly strategy plus one trade-off | Add a second, technical decision (the batch vs. real-time checkout API; the blocklist cache) |
+| Level answer: you asked the right question but the recruiter's answer was **years-based** (L4 = 15+) | Don't argue years. Lead with scope evidence (section 4). |
+| Not yet used: pricing (K32), SPORT/MOQ APIs, privacy policy, PRFAQ | These are your strongest answers for JD2 and for L4. |
+| Not said: why Stripe | Prepare it (Q2). |
+
+## 3. What the HM is deciding
+
+1. **Is there a real match for this team's problem?** For JD1: someone who can find new attacks and turn them into detection and control products. For JD2: someone who can bring Radar into customers' and partners' systems and own the commercial side.
+2. **Judgment on trade-offs, with numbers.** Detection vs. customer friction; speed vs. reliability; what to build now vs. later.
+3. **Technical and written depth.** Can you explain an API or a model decision clearly? The friction log is graded by this person.
+4. **Scope.** Does your experience look like L3 (owns one area) or L4 (changes things across teams)? The HM call feeds the level decision.
+5. **User-first instinct.** Radar's users are businesses with real pain; empathy for them is the stated value.
+
+## 4. Demonstrating L4 in the HM conversation
+
+**What the recruiter told you:** level is set from interview performance, the HM calls, years and past scope. Your years (11+) put you in the L3 range, so scope and performance have to carry L4. Stripe doesn't publish its rubric; the L4 description in company-intel (changes direction across teams they don't manage, shapes strategy beyond their area, grows other PMs) is directional.
+
+**Seven signals, and your evidence for each:**
+| Signal | What the HM should hear | Your evidence |
 |---|---|---|
-| **Can this person find the real problem and the right user first?** | 2024 feedback: no clear framework for which users to prioritize; goals unclear; wanted **external** users. JD1: "investigate emerging attacks with customers… distinguish isolated incidents from opportunities to build broadly useful defenses." | Open every answer with the user and the goal. Use external-user stories: planners at Keystone clients, SPORT sellers, PBI business customers, partner teams that integrated BFS. |
-| **Do they make good calls on hard trade-offs, with numbers?** | JD: "set direction with incomplete information," "prioritizing ruthlessly," detection vs. customer friction. | 99% precision threshold (S3), launch gates and shadow run, batch vs. real-time checkout, managed service vs. SaaS. |
-| **Do they operate at the scope of the level?** | L4 bar (directional): changes direction across teams they don't manage; grows other PMs; top of the IC track. Your last Amazon level (L6) usually maps to Stripe L3. | Evidence beyond one product: BFS adopted by 6 teams, ML privacy policy across ~20 teams, Keystone's move from consulting to product, growing PMs. |
+| 1. A problem nobody owned | You saw a gap across teams and took it | BFS: no fraud checks before checkout (S1); ML privacy rules nobody had defined (S7) |
+| 2. Impact beyond your product | Other teams you didn't manage adopted it | BFS adopted by six teams (S6); privacy policy across ~20 Payments teams (S7) |
+| 3. Strategy, not features | You set the direction and the why | BFS PRFAQ (S5); Keystone's move to a product business (K1) |
+| 4. Business-model scope | You shaped how the company makes money | Keystone pricing: modules on annual subscriptions, all five clients renewed, two upgraded (K32) |
+| 5. Influence against resistance | You changed a senior person's mind | Managed service vs. SaaS against leadership and investors (K12); VP-level alignment on privacy policy (S7) |
+| 6. Decisions that outlasted you | The platform or policy continued | BFS as a shared score; MDLC defaults; privacy as platform policy |
+| 7. Growing others | You developed PMs | A Program Manager promoted L4 → L5 (A13); three dotted-line PMs (K20); 50+ hiring interviews |
 
-Also expect: **writing** (Stripe is a writing culture; your BFS PRFAQ is the proof), **technical depth** (APIs, real-time decisions, how a payment works), **developer empathy** (JD2), and **SQL/data** (both JDs name it).
+**Practical moves in a 45-minute call:**
+- Open every story with the part that crosses teams ("six teams I didn't manage adopted it"), then the decision, then the number.
+- Talk about scope, never titles or past levels.
+- Ask one L4-shaped question about the team's strategy (section 8), which shows altitude.
+- Near the end, ask: "What would you need to see from me to scope this role at L4?"
+- Optional: offer to send a one-page note after the call on how you'd approach the first 90 days. It shows initiative and Stripe's writing culture, but only if it's good.
 
-Likely questions from Stripe's question bank (company-intel, Glassdoor/Blind): "Why Stripe? Why payments?", "How do you decide with incomplete information?", "Design a fraud detection product for Stripe merchants," "Improve Stripe's developer onboarding," "Payment success rate dropped 2%: what do you investigate?", "How does online payment processing work end to end?"
+## 5. One manager, two roles: how to play it
 
----
+The recruiter framed JD1 as "ML-heavy fraud and abuse products with data science, working to find fraud patterns proactively," and JD2 as "technical product development and commercial strategy: partnerships, monetization, building for developers; fraud experience helpful but not core."
 
-## 2. Two roles, two emphases
-
-| | JD1: Fraud and Abuse Prevention | JD2: Radar (integrations and partners) |
+| | JD1 evidence to lead with | JD2 evidence to lead with |
 |---|---|---|
-| The manager's core worry | Can you find a new attack, size it, and turn it into a defense that works for many merchants? | Can you get Radar into customers' and partners' systems and make money from it? |
-| Lead with | **S1** BFS strategy → **S2** BFS 2.0 (the attack you found) → **S3** precision vs. friction | **S6** BFS adopted by 6 teams → **K32** pricing (all 5 clients renewed, 2 upgraded) → **A15/A16** APIs partners used |
-| Support with | S4 blocklist launch, K3/K4 agent action safety (tiered autonomy, evals), K5 quality slip | S4, K29/K30 (data platform APIs, client IT dependency), checkout API (batch vs. real time) |
-| Their word for success | Detection, friction, speed against evolving attacks, analyst tools, real-time decisions | Integration success, adoption, retention, revenue, documentation and onboarding |
-| Your honest gap | No card testing, disputes, chargebacks or bot abuse experience; your fraud work was account-level fraud for B2B credit | No external developer ecosystem at Stripe's scale; pricing is B2B enterprise, not usage-based developer pricing |
-| Fit (est., 2026-10-24) | 73/100 | ~74 |
+| Lead story | **S1** BFS strategy → **S2** BFS 2.0 (the attack you found) | **S6** BFS adopted by six teams → **K32** pricing |
+| Second | **S3** 99% precision vs. friction | **A15** SPORT APIs (3 partner teams), **A16** MOQ APIs, **K29** API catalog |
+| Technical decision | Blocklist cache vs. feature store (S4) | Checkout API: batch vs. real time |
+| Their question for you | Can you find and size an attack? | Which partnerships are worth pursuing, and how do technical capabilities turn into revenue? |
 
-**If one manager interviews you for both:** say it once and early: "Both roles use the same core of what I've done: ML decisions where a wrong call costs money, delivered through APIs, and priced for businesses. Which problem matters more to you right now?" Then lean into the answer.
+**If asked which role you prefer:** "Both use the same core of what I've done: ML decisions where a wrong call costs money, delivered through APIs, priced for businesses. Which problem matters most to your team right now?" Then lean into the answer.
 
----
+## 6. Story index: where S1, S2, S3 live
 
-## 3. Your most relevant experience (ranked for Radar)
+The "S" numbers are story IDs in `interview-prep/2026-10-25-stripe-l4-story-bank.md` (full spoken versions). The "A" and "K" numbers are entries in `context-library/experience-library.md` (the facts; A = Amazon, K = Keystone). They map like this:
 
-Numbers are from `experience-library.md` canonical metrics and your call card. Use the **ownership words** in the style guide: "I led the strategy," "data science built the model."
+| Story bank | What it is | Experience library entry |
+|---|---|---|
+| **S1** | Business Fraud Score strategy, Pay by Invoice | **A21** (also A18, superseded) |
+| **S2** | BFS 2.0: the attack the score missed | **A21** (A19, closed) |
+| **S3** | 99% precision vs. customer friction | **A21** (and A14/A18 for the threshold) |
+| **S4** | Unblocking the BFS 2.0 launch (blocklist cache) | **A21** |
+| **S5** | The PRFAQ | **A21** |
+| **S6** | BFS adopted by six teams | **A21** |
+| **S7** | ML privacy policy across Payments | **A10** |
+| **S8** | Keystone pricing | **K32** |
+| **S9** | Managed service vs. SaaS | **K12** |
+| **S10** | Developing PMs | **A13, K20** |
+| **S11** | Failure: credit-loss miss | **A6** |
+| (not in bank) | SPORT APIs · MOQ APIs · API catalog · client IT dependency | **A15 · A16 · K29 · K30** |
 
-1. **Business Fraud Score, Pay by Invoice (A21; S1–S3, S6).** You wrote the strategy (PRFAQ), were PM for 1.0 and 2.0, and six teams adopted it. About $18M in fraud losses avoided; BFS 2.0 caught fraudsters about 10 days earlier, lifted upfront detection about 15%, flagged about $2.7M in fraudulent credit lines; launch at about 99% precision after a 3-week shadow run. *Covers: JD1 items 1, 2, 4, 5; JD2 preferred "fraud/risk."*
-2. **SPORT and MOQ APIs (A15, A16).** SPORT APIs integrated by 3 Amazon partner teams (adoption 1% → ~10%, combined with other work); MOQ in Seller Central and 2 Asian marketplaces. *Covers: JD2 "dashboard and API products," "integration partners."*
-3. **Keystone pricing and business model (K32, S8).** Value-based modular pricing set with Sales, Finance and the CEO; all 5 clients renewed; 2 upgraded to agents (+$500K ACV each); $7.5M ARR. *Covers: JD2 "pricing and monetization," both JDs "commercial acumen."*
-4. **Agents with tiered autonomy and evals (K3, K4, K5).** Action acceptance 30% → 80% after tiered autonomy; 70% recommendation acceptance at launch. *Covers: Stripe's new bot-abuse and AI-agent angle; "detection vs. friction" in a different setting.*
-5. **ML privacy policy across ~20 Payments teams (S7/A10).** The L4 scope proof.
-6. **Data platform, API catalog, SQL (K29, K30, K33).** SQL for client data profiling; 5 client dashboards onboarded with no extra effort; data-availability monitoring and delivery SLAs with a client's IT team. *Covers: "SQL," "technical dependencies and external relationships."*
-7. **Developing PMs (A13, K20).** A Program Manager promoted L4 → L5; 3 dotted-line PMs; 50+ hiring interviews. *Covers: the L4 "grows other PMs" signal.*
-8. **Failure (A6, S11).** Credit losses in the 5% launch; blended portfolio simulation cut losses 6–8%. *Covers: ownership, validating economics separately.*
+## 7. Gaps in both roles, the experience that would close them, and how to handle them
 
----
+**The OS framework (Addressing-Weaknesses):** the interviewer is already looking at your resume and has spotted two or three weaknesses. (1) Identify them from resume vs. JD. (2) Address them head-on and early, leading with strengths. (3) Make the role the natural next step. (4) Keep it tight, about two minutes. (5) Only say what you can discuss for five minutes. Reframe a gap by naming it neutrally, showing the nearest real evidence, and pointing to what you're doing about it.
 
-## 4. Weaknesses, ranked, and how to handle each
-
-Use the Addressing-Weaknesses Framework: raise the one that matters before the manager does, then flip it.
-
-| # | Weakness | Why a manager will notice | How to handle |
+| Gap | What a hiring manager would want to see | Your nearest real evidence | How to say it |
 |---|---|---|---|
-| 1 | **Level and scope read as L3** | L6 at Amazon, small-company Principal at Keystone | Never argue titles. Give scope evidence (S1, S7, K1, S10). Ask once: "What would you need to see to scope this at L4?" Don't accept L3 in the room. |
-| 2 | **Payments-fraud breadth** | Radar covers card testing, disputes, 3DS, bots, free-trial abuse; your fraud work is registration-to-checkout account fraud for B2B credit | Say it plainly and bridge: "My fraud work was account-level: fake businesses, bot registrations, behavior before the first order. That's the part of Radar that's expanding now: multi-account, free-trial and bot abuse." Then study the payments basics (section 7). |
-| 3 | **You didn't build the models** | Fraud PM roles probe science depth | "Data science built and validated the models. I set the strategy, the granularity, the precision-first goal, the launch gates and the integrations." (Scored 9/10 in your mock.) |
-| 4 | **External-user evidence** (the 2024 feedback) | Most of your scale stories are internal teams or Fortune 500 clients | Pair every product story with a named external user: sellers (SPORT, MOQ), business customers (PBI), planners (Keystone). |
-| 5 | **Numbers drift under live flow** | Your mocks averaged 6.4 and 6.5; scripted answers scored 8, improvised 5–7 | Numbers card (section 6), say each number once, rehearse out loud twice. |
-| 6 | **Still-open story details** | A hiring manager will ask for the second layer | Get the answers to the open items in section 8 before the interview. |
-| 7 | **Product sense under time pressure** | 2024 rejection was Product Sense + behavioral | Practice the users-first opening (section 5, Q7) with one fraud product and one developer-onboarding case. |
+| **Payments fraud breadth (JD1)**: card testing, disputes, chargebacks, 3D Secure, free-trial and bot abuse | You've owned detection against attackers who adapt, in payments or a payments-like flow, and you understand dispute economics | BFS 2.0: bot-like sign-up behavior found before the first order, IP blocklist, false-positive program (A21) | "My fraud work was at the account level, fake businesses and bot sign-ups, not card payments. That's the part of Radar that's growing. I've studied how Radar handles it." Say the last sentence only after the study in `study-guide`. |
+| **Fraud-analyst tooling and real-time decisions (JD1 preferred)** | Tools or decision APIs people use while the decision is live | Checkout credit API (decision lookup in real time, scores precomputed), human-review queue in the Keystone agent (K4), the challenge mechanism in BFS strategy | Be exact: "scores were precomputed; checkout looked up the answer." Don't claim analyst tooling you didn't build. |
+| **Software engineering or data science background (JD1 preferred)** | Hands-on technical credibility | SQL on client data (K33), a working agent prototype (K11), MLOps platform with CI/CD and containerization (A8/A20), B.E. in chemical engineering | "I write SQL to understand data and prototype to prove value; engineers and scientists own the build." |
+| **External developer ecosystem at Stripe's scale (JD2)** | You've shipped developer-facing APIs and watched integrators struggle | SPORT APIs integrated by 3 partner teams (A15); MOQ endpoints (A16); API catalog and release notes for app developers (K29) | "My APIs served partner teams and app developers, not an open ecosystem. The partner side is the same loop: find what blocks integration, fix the docs and the path to production." Then bring your friction-log observations from Stripe's own docs. |
+| **Pricing for usage-based or developer products (JD2)** | You've priced something and seen what customers paid | Keystone: modules on annual subscriptions; rejected usage-based pricing for stated reasons (K32) | Show the reasoning for rejecting usage-based pricing, then say how you'd test it for Radar's new tiers. |
+| **Partnerships "worth pursuing" (JD2, per the recruiter)** | A method for choosing partners and a case | Which of six BFS teams to integrate first; SPORT partner teams | [Open item: how you chose the partners and what you said no to.] |
+| **Level and scope (both)** | L4 scope, not L3 | Section 4 | Never argue years. |
+| **Didn't build the model (JD1)** | Clear ownership | A21 (data science built it) | "Data science built and validated the models. I set the strategy, goals, launch gates and integrations." |
 
----
+## 8. How tiered autonomy connects to bot abuse and AI agents (corrected)
 
-## 5. Answers and structure (use the OS frameworks)
+My earlier line, "tiered autonomy covers Stripe's bot-abuse and AI-agent angle," overstated it. Here is the accurate version.
 
-Use the existing short answers; below is what to change for the manager round. Every answer: point first, under 200 words, one message per story.
+**What tiered autonomy is (K3):** a rule for which actions an agent may take alone, which need approval, and which it only surfaces, decided by risk, confidence and reversibility. You built it after early automation of mid-confidence reversible actions led to 60% of actions being reversed. Action acceptance went from 30% to 80%.
 
-**Q1. Tell me about yourself (Addressing-Weaknesses: Present → Past → weakness → Future).** Your Drive version is close. Fix these before saying it aloud:
-- "I led the fraud strategy for Amazon's **$8 billion credit business**" → "for Amazon Business's **Pay by Invoice** credit." The $8B is the whole lending business, and "$8 billion credit business" was a flagged slip in your mocks.
-- "It avoided $18 million in fraud losses" is right; keep "avoided," not "caught" or "drove."
-- Name the level gap neutrally inside the pitch ("my scope has been across teams I don't manage") and end on the future: Radar's problem.
-- For JD1 lead the second paragraph with BFS; for JD2 add one sentence on SPORT APIs and Keystone pricing.
+**What it is not:** a bot detector. It doesn't show you've built detection of bots or agents.
 
-**Q2. Why Stripe / why Radar ("Why here": mission + personal link, role fit, one culture fact).** Your draft has all three. Make the middle one specific to the role you're interviewing for:
-- JD1: "Radar is expanding from card fraud to account-level fraud: multi-account abuse, free-trial abuse, bots, including AI agents. That's the problem I found in BFS 2.0: fraudsters who pass the sign-up check but behave unlike any real business."
-- JD2: "Radar now ships in tiers and prices all payment methods. I priced a B2B ML product, and I know the harder part is making it fit the systems people already run."
-- Culture fact: writing. Use the BFS PRFAQ (S5), not "I like writing."
-- Use only Radar facts you can source; the prep doc lists what's confirmed. Say "Stripe says" for blocked-fraud and dispute figures.
+**Why it's still relevant to Radar:** Stripe's bot abuse prevention (in preview, per your prep doc) has to tell legitimate AI agents buying on a customer's behalf from fraudulent bots, and then decide what to do: allow, challenge or block. That is a graded-response decision, the same shape as your tiers: allow when confident and low-risk, step up when unsure, block only when sure and the action is hard to undo. Your experience shows two things Radar's AI-agent work needs: designing a graded response around risk and reversibility, and measuring it (evals, launch gates, audit logs). It's a design-pattern link, not direct experience.
 
-**Q3. Walk me through a fraud project end to end.** S1 (STAR-L). Close the loop on every number: 600% exposure growth to about $200M, up to 15% of orders on some payment methods held for manual review, then your four decisions, then ~$18M avoided, 10 days earlier, 6 teams.
+**The direct evidence for the bot angle is BFS 2.0:** fraudsters who passed registration but behaved like bots (repetitive, machine-like patterns before the first order), caught about 10 days earlier. Lead with that. Use tiered autonomy only as a supporting point about graded responses.
 
-**Q4. Tell me about a new attack you found.** S2. Be ready for: how you knew they were fraudsters (labels arrive late; confirmed downstream outcomes), how long to keep assessing someone who never orders (window trade-off vs. inference cost), why not a rule (a rule catches one ring; behavior generalizes). Don't name exact features.
+## 9. Questions to ask the HM (pick 4)
 
-**Q5. Detection vs. customer friction.** S3. Add the Radar version: "I'd set the threshold per segment, because an enterprise merchant and a new small business tolerate friction very differently."
+You were told to bring questions. Order by what you most need to know.
+1. "Of the requirements in the JD, which one do you personally weight most?"
+2. "What's the biggest problem you want this person to solve in the first six months?"
+3. "What new attack types are customers raising right now, and how does the team decide between a rule, a model and a product change?" (JD1)
+4. "Which partnerships and integrations does the team see as most valuable, and how do you decide?" (JD2)
+5. "Radar is moving to four tiers. What does the team still need to learn about how customers value it?" (JD2; use only if you've confirmed the packaging details)
+6. "How do PMs on this team write and decide? What's the document, and who reads it?"
+7. "What would you need to see from me to scope this role at L4?"
+8. "Is there anything I haven't explained clearly that I should expand on?"
 
-**Q6. How would you tell an isolated incident from a broad defense? (JD1 line.)** This isn't in your library as a story, so use a method you can defend, then link it to S2:
-1. Size the harm for the customer (money lost, operational load).
-2. Check prevalence: does the pattern appear in other merchants' data?
-3. Check whether existing signals already detect it.
-4. Estimate the friction cost of a defense on good customers.
-5. Ship the narrowest defense that works, then watch for adaptation.
-"In BFS 2.0 I only built a model because the behavior showed up across the worldwide data, not in one account."
-
-**Q7. Product sense: "Design a fraud product for merchants" / "improve developer onboarding."** Open in this order (the 2024 feedback): **users → segments and why you pick one → their goal → the problem → options → trade-offs → metrics.** Segments for Radar: a new small business with no fraud team; a high-volume merchant with an analyst team; a platform with sub-merchants. State the pick and the reason before ideas.
-
-**Q8. Metrics: "How do you measure Radar?"** Three sides: detection (fraud rate, dispute rate), friction (false-positive rate, authorization and conversion rate), and business or developer (Radar adoption, revenue, time to integrate, retention). Your own example: false-positive program targeting under half a percent (BFS 2.0).
-
-**Q9. Technical: real-time decisions and APIs.** Your checkout credit API: request (customer, cart value, category), response (approval); batch scoring with cached results kept ML out of checkout; launch 3 months earlier. Be ready to say what real time would have cost. Also: a payment, end to end (customer, merchant, acquirer, card network, issuer, authorization, settlement, disputes); learn it cold (section 7).
-
-**Q10. Pricing and monetization (JD2).** K32: modules on annual subscriptions, forecasting plus agentic add-on; two clients upgraded; all five renewed. Radar angle: tiers from Jan 22, 2027 (Lite, Standard, Plus, Pro). Don't quote tier prices.
-
-**Q11. Working with engineering, data science, design.** S4 (blocklist: 22 weeks vs. about a week, with a guardrail on stale data). You haven't named a design partnership; don't invent one. If asked, say who handled UX and what you decided.
-
-**Q12. Writing and influence.** S5 (PRFAQ) and S7 (privacy policy). Prepare the pushback answer for each (open items).
-
-**Q13. Level / growing PMs.** S10, once.
-
-**Q14. Failure.** S11, with the lesson: validate the opportunity and the economics separately.
-
-**Q15. "What's changed since 2024?"** Your answer scored 9/10; keep it.
-
-**Questions to ask the manager (pick 3 to 4, based on who's interviewing you):**
-- Of the requirements in the JD, which one do you personally weight most?
-- What does the ideal candidate look like for this role? (Aakash's top-3 for hiring managers.)
-- What's the biggest problem you want this person to solve in the first 90 days?
-- What new attack types are customers raising right now, and how does the team decide between a rule, a model and a product change?
-- How do PMs here write and decide: what's the document, who reads it?
-- This role: what would you need to see to scope it at L4?
-- Is there anything I didn't explain clearly that I should expand on?
-
----
-
-## 6. Numbers card (say exactly)
+## 10. Numbers card (say exactly)
 
 | Topic | Say | Don't say |
 |---|---|---|
-| Fraud scope | Pay by Invoice (all of it) · "I wrote the strategy and was PM for BFS 1.0 and 2.0; data science built the models" | "$8 billion credit business" for the fraud work; "I built the model"; "small-business credit product" for BFS |
-| Fraud result | About **$18M** fraud losses avoided · caught fraudsters about **10 days earlier** · upfront detection up about **15%** · about **$2.7M** fraudulent credit lines flagged · **6 teams** | "$15M," "$8M," "caught $18M," "drove $18M"; "fraud loss −15%" and "repeat fraud −5%" (retired 2026-10-25) |
+| Fraud scope | Pay by Invoice (all of it); "I wrote the strategy and was PM for BFS 1.0 and 2.0; data science built the models" | "$8 billion credit business" for the fraud work; "I built the model" |
+| Fraud result | About **$18M** fraud losses **avoided** · fraudsters caught about **10 days earlier** · upfront detection up about **15%** · about **$2.7M** fraudulent credit lines flagged · **6 teams** | "caught $18M"; "$15M," "$8M"; "fraud loss −15%"; "repeat fraud −5%" |
 | Stakes | Exposure up **600%** to about **$200M**; up to **15%** of orders on some payment methods held for manual review | "200%"; "losses" for "exposure" |
-| Threshold | About **99% precision, ~25% recall**, after a 3-week shadow run | Exact features or threshold tables |
-| Keystone | **$7.5M ARR** · 5 Fortune 500 clients, all renewed · 2 upgraded (+$500K ACV each) · 30+ engineers and scientists · deployment **6 → 4 months** · data platform **3 months → 3 weeks** | "$10M," "$5M"; "3 months deployment" for Deep Enterprise (your Drive notes still say this); "currently at Keystone" (you left in March; say "most recently") |
+| Threshold | About **99% precision, ~25% recall**, after a 3-week shadow run | Exact features |
+| Keystone | **$7.5M ARR** · 5 Fortune 500 clients, all renewed · 2 upgraded (+$500K ACV each) · 30+ engineers and scientists · deployment **6 → 4 months** · data platform **3 months → 3 weeks** | "3 months" for Deep Enterprise; "$10M," "$5M"; "currently at Keystone" |
 | Amazon financing | **50K+** business customers · **$71M** · SMB approval **4% → 15%** · launched **3 months earlier** (batch) | "millions of customers" |
-| APIs | SPORT: **3 partner teams** integrated; adoption **1% → ~10%** (combined with other work) · MOQ: Seller Central and 2 marketplaces, ~60% higher adherence | "Outside developers used SPORT"; "27% adoption" (that was the goal) |
+| APIs | SPORT: **3 partner teams** integrated; adoption **1% → ~10%** (combined with other work) · MOQ: Seller Central and 2 marketplaces, ~60% higher adherence, $20M seller savings | "Outside developers used SPORT"; "27%" |
 | Agents | **70%** recommendation acceptance at launch · **30% → 80%** action acceptance (name it) · run cost **~30%** lower | ">80%" |
 
----
+## 11. Open items (on hold until we align on the sections above)
 
-## 7. Study list (short)
-
-1. **Payments basics (1.5 hours):** a card payment end to end; authorization vs. settlement; issuer, acquirer, network; chargebacks and disputes; 3D Secure; authorization rate. You'll be asked even in a fraud role.
-2. **Radar as a product (1 hour):** rules, risk scores, review queue, dashboard, API; what Sessions 2026 added (account-level and multi-account abuse, free-trial abuse, bot abuse in preview, Signals); packaging and pricing changes. Use only what's confirmed in the recruiter-screen prep doc.
-3. **Developer onboarding at Stripe (45 minutes, JD2):** read Radar's docs and one integration guide, and write down three friction points. Then you can answer "how would you improve onboarding" from experience.
-4. **The manager:** find their background (LinkedIn, talks, Stripe blog) and ask Piyush Rohella for what this team is worried about.
-
----
-
-## 8. Open items (these make the answers stronger)
-
-From your library and the L4 story bank:
-1. **S5 PRFAQ:** what engineering or buyer risk pushed back on, and what you changed.
-2. **S6:** the hardest integration of the six, and a case where a partner's decision or metric improved.
-3. **S7:** what the VPs and Directors pushed back on.
-4. **S1:** your own "what would you do differently."
-5. **S4:** what you gave up by using the cache instead of the feature store.
-6. **SPORT:** how the 3 partner teams came to integrate (you pitched, negotiated, or leadership mandated).
-7. **Keystone agent guardrail:** did "escalate when data is missing" become a rule for all clients, or a one-retailer fix?
-8. **Design partnership:** anything where you worked with design on a user flow.
-9. **Fix your Drive doc:** "$8 billion credit business" in the intro, "Caught $18M" in the fraud result, and the stale "3 months deployment" line.
-
-## 9. Practice plan
-
-Adjust to the interview date. If you have 3 days or fewer, do 1, 2, 4 and 5.
-1. Fix the facts in section 8 and the numbers card; say the card aloud.
-2. Record S1, S2, S3 and S6, one at a time, under 90 seconds each. Check each against the Three Laws.
-3. One product-sense case, timed (users-first opening), and one metrics case.
-4. Payments and Radar study (section 7).
-5. Full mock hiring manager interview: `/mock-interview` with the manager's likely questions and the Stripe question bank; rerun your weakest answers.
-6. Night before: numbers card, three stories per role, your questions for the manager. Skip new material.
+1. S5 PRFAQ pushback · 2. S6 hardest of the six integrations · 3. S7 privacy policy pushback · 4. S1 "what I'd do differently" · 5. S4 what the cache gave up · 6. How the 3 SPORT partner teams came to integrate, and how you chose partners · 7. Keystone agent guardrail scope · 8. Any design partnership · 9. Fix your Drive doc: "$8 billion credit business," "Caught $18M," and the stale "3 months deployment."
