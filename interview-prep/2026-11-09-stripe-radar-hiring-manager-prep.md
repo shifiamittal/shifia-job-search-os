@@ -1,10 +1,10 @@
-# Stripe Radar: Hiring Manager Interview Prep (v5: adjusted for the 11/09 prep call with Colleen)
+# Stripe Radar: Hiring Manager Interview Prep (v6: competency answers merged with domain proof, L4 and gaps)
 
-Updated: 2026-11-10 (v5; adds Stripe's competency guidance from the 11/06 email and the 11/09 call) · Roles: PM, Radar – Fraud and Abuse Prevention (job 8306158, "JD1") · PM, Radar (job 8301646, integrations, partners, monetization, "JD2")
-**How the pieces fit (OS design):** the **stories** live in `context-library/experience-library.md` (one copy: A22–A27, A10, A6, K12, K32, A13). **This prep doc** holds the plan, the scripts for this interview (section 10), story cards that point to the library (section 11), the numbers card and the practice plan. The study content is in `2026-11-09-stripe-hm-study-guide.md`. Story gaps are tracked in `context-library/story-coverage.md`.
+Updated: 2026-11-10 (v6) · Roles: PM, Radar – Fraud and Abuse Prevention (job 8306158, "JD1") · PM, Radar (job 8301646, integrations, partners, monetization, "JD2")
+**How the pieces fit (OS design):** the **stories** live in `context-library/experience-library.md` (one copy: A22–A27, A10, A6, K12, K32, A13). **This prep doc** holds the plan, the scripts for this interview (section 9), story cards that point to the library (section 10), the numbers card and the practice plan. The study content is in `2026-11-09-stripe-hm-study-guide.md`. Story gaps are tracked in `context-library/story-coverage.md`.
 Frameworks used: `insider-data/behavioral-interview-frameworks.md` (Addressing-Weaknesses, Why-here, STAR-L, Three Laws) and `context-library/interview-answer-style-guide.md`.
 
-**Contents:** 0 Confirmed facts · 1 What the HM call covers · 2 Your recruiter screen · 3 What the HM is deciding · 4 **Competency plan (new)** · 5 Demonstrating L4 · 6 Two roles at a glance · 7 Your most relevant experience · 8 Gaps and the weakness framework · 9 Tiered autonomy and bot abuse · 10 Interview answers (10A competency answers, 10B other likely questions) · 11 Story cards · 12 Questions to ask the HM · 13 Numbers card · 14 Study · 15 Open items · 16 Practice plan
+**Contents:** 0 Confirmed facts · 1 What the HM call covers · 2 Your recruiter screen · 3 What the HM is deciding · 4 **Competency answers** (examples, domain proof, L4 signals, gaps, openings) · 5 L4 through the competency answers · 6 Two roles at a glance · 7 Gaps and how the answers handle them · 8 Tiered autonomy and bot abuse · 9 Other likely questions (Q1–Q15) · 10 Story cards · 11 Questions to ask the HM · 12 Numbers card · 13 Study · 14 Open items · 15 Practice plan
 
 ---
 
@@ -70,72 +70,121 @@ Gaps and slips to fix before the HM call:
 6. **User-first instinct and domain fit:** the product sense feedback was strong here; Radar's users are businesses with real pain.
 7. **Motivation, and tone:** why this team, and "humble, yet decisive": own your decisions, credit others, and say what you learned and what you'd do differently.
 
-## 4. Competency plan: which examples to use for each competency
-You'll use about six examples, one or two per competency. **Don't reuse a story across competencies** (style guide: one message per story). The fraud-score stories (A22–A24) are your domain proof; use them where they fit best and use other stories for the rest. The "need from you" column lists what only you can add; the open items are in section 15.
+## 4. Competency answers: the example for each question, with domain proof, L4 signals and the gap it bridges
+Stripe's hiring manager will ask about **stay curious, create with craft and beauty, and AI fluency**. This section is the plan **and** the script for each question. Every example is chosen to do three jobs at once: **(1) show the competency, (2) prove domain experience for both roles** (JD1 fraud and abuse; JD2 integrations, partners and monetization), and **(3) carry L4 signals** (scope across teams you didn't manage, influence, murky ambiguity). Each block also names the **gap it bridges** (section 7). You'll use about six examples; **don't reuse a program across competencies.** **[ASK]** = a fact only you can add; **[CONFIRM]** = a fact to check.
+
+**How the six programs divide:** BFS (C1) · model governance (C2) · the credit product (C3) · analyst or developer tooling (C4) · SPORT (C5) · TRACE (C6) · the Keystone agent (C7) · Keystone's business model (C9). Everything in the library; spoken versions are written for A22–A27 and a few others, and the rest come after you confirm these picks.
 
 ### Stay curious
-| Question type (Colleen) | Primary example | Backup | Angle to stress | Need from you |
-|---|---|---|---|---|
-| **Dive into the details of a problem**: who you talked with, questions you asked, data you looked at | **A23** BFS 2.0: a deep dive into worldwide customer data found fraudsters who passed sign-up but acted like bots before their first order | **K6** (evals showed that over 60% of diagnostic failures came from undescribed fields, not the model); K5 (traces showed a warehouse move) | The questions you asked and the data you pulled, in order; what surprised you; who you talked with (buyer risk, data science) | The actual questions you asked and who you talked to |
-| **Unfamiliar domain or stretch assignment** | **A10** ML privacy: new to EU/US privacy law for ML; read the requirements, asked privacy bar raisers and Legal whether model data was in scope | **K15/K33** SAP data at Keystone (reverse-engineering order, shipment and schedule-line tables with SQL); the MDLC move into ML deployment (in your "MDLC and MOQ" doc, not yet a library entry) | How you taught yourself, who you asked, and what you got wrong first | How you learned privacy law; what feedback you got when you joined the ML platform team |
-| **Take an established process and create something new** | **K1** Keystone: every client was a consulting project (about seven people on site, 6+ months); you turned it into a product | A22 (fraud controls only after checkout → an upfront score); A8 (engineers scripting pipelines → self-service) | Why you questioned the process in the first place | Nothing needed |
+
+**C1. "Tell me about a time you dove into the details of a problem": who you talked with, the questions you asked, the data you looked at**
+- **Example: the Business Fraud Score, 1.0 and 2.0 as one arc** (A22 + A23). Start with the strategy and the precision-first call, then the curiosity: what is the score missing?
+- **Why it shows curiosity:** you didn't stop at a score that worked; you asked what it missed, went into the worldwide customer data, and found behavior, not registration data, was the gap.
+- **Domain proof:** *JD1:* investigating an attack, finding a signal, detection vs. friction. *JD2:* the score as a shared service that six teams integrated.
+- **L4 signals:** a problem nobody owned; strategy beyond your product; six teams you didn't manage adopted it; you found the next gap yourself.
+- **Gaps it bridges:** payments-fraud breadth (you know the adversary: rings, bots, business accounts with thousands of users); "I didn't build the model" (data science built it; you set strategy, thresholds and launch gates); real-time decisions (the score gates sign-up and checkout).
+- **Opening (about 190 words):** "Amazon Business fraud exposure had grown 600%, to about $200 million, and the controls only ran after checkout. Good customers got held up while fraud rings registered thousands of accounts with bots. I wrote the strategy for a fraud score that assesses every business at sign-up. I set it at about 99% precision, so it blocks only when it's very sure, because a false positive suspends a real business's credit line, and checkout controls catch what it misses. Six teams adopted it.
+  But a score tuned for precision misses things by design, so I kept asking what it was missing. I went into the worldwide customer data and asked what the fraudsters who passed our check did differently from real businesses before their first order. **[ASK: who you talked to, and the next two questions you asked.]** They moved through sign-up and browsing in repetitive, machine-like ways. That became BFS 2.0: a behavioral model that keeps assessing a customer from registration to the first order, with an IP blocklist. It caught fraudsters about 10 days earlier, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines."
+- **Need from you:** what triggered the deep dive; what surprised you; the basis of the **$18M** figure (I left it out until we settle it; the model doc's estimate assumes much higher recall than the 0.95 launch threshold).
+
+**C2. "Tell me about taking on work in an unfamiliar domain or a stretch assignment"**
+- **Example: governing ML models in a regulated lending business (SR 11-7)** (A8, A9; your "MDLC and MOQ" doc). The ask was one ambiguous word, "governance," and you had no model-risk background.
+- **Why it shows curiosity:** you asked what governance meant, learned the Federal Reserve's model-risk guidance, mapped it to 100+ lending models, then asked scientists what hurt most.
+- **Domain proof:** *JD1:* ML models in a risk setting need drift monitoring because patterns change (fraud models especially); BFS itself ran on this platform **[CONFIRM that monitoring covered BFS]**. *JD2:* a platform adopted by 30+ scientists, with documentation and onboarding treated as a product.
+- **L4 signals:** a murky problem nobody had defined; org-wide default (monitoring went from 30 to all 100 models); influence over a senior technical manager and four technical and five science partners.
+- **Gaps it bridges:** software and data-science depth (monitoring, drift, versioning, inventory); reliability of ML products.
+- **Opening (about 170 words):** "I owned a platform for deploying credit models at Amazon, and the ask was one word: governance. I had no model-risk background. So I asked the risk team what it meant, and learned the Federal Reserve's guidance on model risk, which covers design, data, validation, monitoring and documentation. I read it end to end, mapped it to our hundred-plus lending models, and then asked the scientists what hurt most. Setting up monitoring took about four weeks per model, roughly ten scientist-years across all of them. **[ASK: what you got wrong first.]** We built monitoring as a default, with standard metrics and drift thresholds, and went from 30 models monitored to all 100, with no extra science effort. Unmonitored models had been a regulatory risk and could degrade without anyone noticing."
+- **Honest extra:** your first proposal didn't land with engineering because they weren't aligned on the pain points; you pivoted by reviewing with scientists first (your doc; A9). Use it if he asks what went wrong.
+- **Need from you:** how you learned the domain; whether to say "SR 11-7" by name; whether the platform monitored the fraud score.
+
+**C3. "Tell me about taking an established process and creating something new"**
+- **Example: rebuilding credit decisions for small businesses** (A1, A3, A4, A5, A14). Established process: bureau-based credit with large blanket credit lines. New: a layered decision on Amazon's own behavioral data.
+- **Why it shows the competency:** you questioned the premise (no bureau file doesn't mean not creditworthy) and rebuilt the decision in layers.
+- **Domain proof:** *JD1:* risk decisioning with approval vs. losses as the detection-vs-friction trade-off; layered fraud controls. *JD2:* a checkout decision API (batch-computed scores, a live eligibility check), and the batch-vs.-real-time architecture call.
+- **L4 signals:** you owned an S-team goal; a 0→1 product; 50K+ customers and $71M; monthly VP reviews; cross-functional across risk operations, fraud, legal, finance and engineering.
+- **Gaps it bridges:** real-time decisions and APIs (the checkout call); fraud-analyst and risk tooling (the manual review path); commercial sense (the economics, not just approvals).
+- **Opening (about 170 words):** "Small businesses drove about 60% of Amazon Business spend, but only 4% were approved for credit. The process leaned on credit-bureau data that didn't exist for about 60% of them, and on large blanket credit lines **[CONFIRM the minimum line]**. I asked a different question: not 'does this business have a bureau file,' but 'what does Amazon already know about how this business buys and pays?' We built the decision in layers: a customer-level risk score from Amazon's own data, a maximum exposure, and transaction-level rules that excluded high-loss categories, checked live at checkout. We launched to 5% of customers, and chose batch scoring over real time to launch about three months earlier. Approval went from 4% to 15%, for 50,000-plus customers and $71 million in incremental revenue."
+- **Need from you:** what was new compared with the first version of the product (the library flags this).
 
 ### Create with craft and beauty
-| Question type | Primary example | Backup | Angle to stress | Need from you |
-|---|---|---|---|---|
-| **Above and beyond for a better user experience** | **K9** planners didn't trust forecasts, so you built explainability per SKU, driver attribution (pricing, promotions) and plain-language narratives | **A24** care for the good customer: precision-first, a false-positive program targeting under 0.5% | The user, the detail you obsessed over, what "good enough" would have been | One specific detail you refused to ship without |
-| **Iterating on something that wasn't complete** | **A2** the 5% test of credit at checkout got a lukewarm response; interviews showed small businesses needed their monthly eligibility up front; you redesigned around it | A12 (SPORT missed adoption; research showed you'd neglected the experience of acting on the recommendation) | What you saw that told you it wasn't done; what you changed | What the lukewarm feedback sounded like |
-| **Meaty, complex, then simplified** | **A8** MDLC: months of scripted pipeline setup became a UI-first, self-service flow, plus documentation and a support community | K6 (a semantic layer so planners could ask in plain language); the 7-page → 1-page credit onboarding (abandonment −50%; facts in your PBI doc, no library entry yet) | The complexity you hid from the user and what you decided not to simplify | Which of these you'd rather use |
+
+**C4. "Tell me about a time you went above and beyond to create a better experience for users"**
+- **Example, first choice: the tools you built for credit analysts** (A14 note) **[ASK: this is the best fit for JD1's "tools for fraud analysts or risk teams," but the library has only one line]:** who the analysts were, what you automated, how you learned their work (shadowing?), the detail you refined, the impact.
+- **Example, fallback (documented): the data platform's API catalog and release notes for app developers** (K29). Care for developers as users.
+- **Why it shows craft:** craft is care for the user; here the users are analysts or developers, not end customers.
+- **Domain proof:** *JD1:* analyst tooling. *JD2:* developer experience, documentation and the path to production.
+- **L4 signals:** adoption by teams you didn't manage; a reusable interface, not a one-off.
+- **Gaps it bridges:** fraud-analyst tooling (JD1 preferred); external-developer empathy (JD2).
+- **Fallback opening (about 130 words):** "The app team wanted to build client dashboards, but the data was shaped like SAP tables, and every developer would have had to decode it. I designed generic data APIs and a data contract, then documented every endpoint: what it returns, the schema, how to authenticate, and an integration example. And I wrote the release notes myself every time one changed, so no one had to ask. The app team onboarded five new client dashboards with no extra effort." *(Don't claim the tooling: engineering built it; you owned the catalog and the release communication.)*
+
+**C5. "Tell me about a time you iterated on something you felt wasn't complete"**
+- **Example: SPORT, from emailed recommendations to partner APIs** (A12, A15). Adoption was 1% against a 27% goal.
+- **Why it shows craft and humility:** you interviewed sellers who acted and who didn't, found you'd neglected the experience of acting on a recommendation, and kept iterating.
+- **Domain proof:** *JD2:* APIs for partner teams, integration at design stage with the platform team, adoption as the metric. *JD1:* the same user-first loop on a decision product.
+- **L4 signals:** ownership of a miss; three partner teams you didn't manage integrated; the platform team engaged at design stage.
+- **Gaps it bridges:** external developers and partners (honestly: three Amazon partner teams, not outside developers); partnerships worth pursuing.
+- **Opening (about 170 words):** "SPORT recommended inventory moves to sellers by bi-weekly email, and adoption was 1%, against a goal of 27%. I interviewed sellers who acted on the recommendation and sellers who didn't, and found I'd ignored the experience of acting on it. So I kept going. We widened the recommendations, added an entry point inside Seller Central, tried an opt-in auto-adherence pilot, and built APIs so partner teams' tools could show the recommendations inside the workflows sellers already used. Three partner teams integrated. Adoption reached about 10% before I left the team, still well short of the goal. What I took from it: the experience after the recommendation matters as much as the model."
+- **Need from you:** how the three partner teams came to integrate (you pitched, negotiated, or leadership mandated); which partners you chose not to pursue.
+
+**C6. "Tell me about something meaty and complex that you simplified"**
+- **Example: TRACE, explaining shipping-cost changes** (A11). More than 50 cost drivers across 14 systems owned by 14 teams, simplified to two steps: explain why the cost changed, then recommend the top fix.
+- **Why it shows craft:** you reduced a very complex causal problem to something a seller could act on.
+- **Domain proof:** *JD1:* it's the same shape as "why did fraud spike, and what's the fix?" (root cause, then action). *JD2:* delivered through Seller Central APIs, with data contracts and SLAs with upstream owners.
+- **L4 signals:** 14 teams and 14 systems aligned; Finance, Ops, data science and data engineering; $40M in savings.
+- **Gaps it bridges:** software and data-science depth (causal model, data trade-offs, a multi-terabyte pipeline); technical dependencies and external relationships.
+- **Opening (about 160 words):** "Shipping was about half of item cost, and the drivers were spread across 14 systems owned by 14 teams: more than 50 factors. A seller just saw a bill that went up. I simplified it to two steps: explain why the cost changed, then recommend the one action that fixes the most. I aligned Finance, Ops, data science and data engineering on that. I pushed for 15 months of training data instead of the two years Finance wanted, because it met about 95% of their needs without huge compute, and I set data contracts and SLAs with the upstream owners. We delivered it through Seller Central APIs, and it drove about $40 million in savings. It's the same shape as 'why did fraud spike, and what do we do about it?'"
 
 ### AI fluency
-Stripe's question is about **day-to-day use as a PM**, not only products you built. Prepare both.
-| Question type | Primary example | Backup | Angle to stress | Need from you |
-|---|---|---|---|---|
-| **A workflow or product you built: what you solved, why AI, how you assess output** | **K2** forecasting agent (with K3, K4): planners spent about 4 hours a day reviewing forecasts; you used agents for the messy root-cause step and kept exception detection rules-based; human approval for anything that changes a forecast; outputs judged by expert reference cases, an LLM judge for grounding, and shadow-mode launch gates (over 70% acceptance, expert quality over 8/10); 4 hrs/day → 4 hrs/week; overstock $5M → $2M | K11 (a working prototype in Codex won 2 months of roadmap); K14 (model routing cut cost about 30%); S1 job-search system (agent vs. deterministic workflow) | "Why AI here, and why not everywhere": the hybrid rules-plus-agent design | Nothing needed |
-| **Day to day: how you use AI to be a more effective PM** | **HAT-AI** (Keystone): an assistant that automated roadmap reporting, leadership newsletters and knowledge discovery across 15 finance products; 30 PMs; about 120 hours a week saved | Your own daily workflows (this Job Search OS, prototyping, analysis) | Concrete, repeated use, what you check, and a time AI was wrong | **Your actual daily AI use: tools, 2–3 workflows, how you check output, one failure.** HAT-AI isn't a library story yet. |
 
-### One more example to have ready: "pushed the boundaries while bringing others along in a murky environment"
-**K1 / K12** (the move from consulting to product; managed service vs. SaaS against leadership and investors), or **A22** (the fraud strategy that nobody owned). This is also your L4 evidence, so choose the one you haven't used elsewhere in the call.
+**C7. "Describe your depth of experience with AI with a specific example: what you were solving for, why you chose AI, how you assess the output"**
+- **Example: the Keystone forecasting agent** (K2, with K3 and K4).
+- **Why it shows AI fluency:** you chose where AI fit (root-cause analysis) and where it didn't (rules-based exception detection), kept human approval, and built evaluation and launch gates.
+- **Domain proof:** *JD1:* graded responses by risk and reversibility (K3) mirror a block / step up / allow decision, and Radar's bot-abuse work has to separate legitimate AI agents from fraudulent ones (section 8). *JD2:* APIs and tools feeding client workflows.
+- **L4 signals:** a flagship client at stake; engineering, science and executives aligned; a launch process other agents reused.
+- **Gaps it bridges:** technical credibility on AI; reliability and evaluation.
+- **Opening (about 190 words):** "At Keystone, planners spent about four hours a day reviewing thousands of forecasts and overriding them without clear logic. I used agents for the messy part, root-cause analysis, and kept exception detection rules-based, because it's well defined and cheaper. Anything that changed a forecast needed human approval. We judged the output with expert reference cases, an LLM judge for grounding, and launch gates in shadow mode: over 70% acceptance and expert quality over 8 out of 10. Planner review time went from four hours a day to four a week, and client overstock from $5 million to $2 million. One failure: adoption fell from 70% to 50% at one client because the agent didn't know a warehouse had moved. It gave a confident answer instead of escalating, so we added the data and a rule to escalate when information is missing."
 
-### The product sense feedback: "more novel or unusual solutions"
-The HM may not raise it, but show novelty in your examples. Real novel ideas in your work: behavior, not just registration data, to catch bots (A23); an in-memory cache to unblock a launch in a week instead of 22 (A25); the PR/FAQ instead of a requirements doc (A26); trust tiers for AI-generated metadata (K7); graded autonomy for agents (K3).
+**C8. "How are you using AI in your day to day to be a more effective PM?"**
+- **Example: HAT-AI plus your own daily use.** HAT-AI automated roadmap reporting, leadership newsletters and knowledge discovery across 15 finance products for 30 PMs, saving about 120 hours a week.
+- **Structure to fill in:** (1) the two or three things you do with AI every week as a PM, naming the tool and the task; (2) one workflow end to end: the problem, why AI, how you check the output; (3) one time AI was wrong and what you changed. **[YOUR WORDS; see N1 and N2. This is the one answer only you can write.]**
+- **Domain proof:** the Radar team will want a PM who uses AI to understand attacks and customers faster (for example, synthesizing customer feedback or analyzing attack data). **[ASK whether you do this.]**
+- **Gaps it bridges:** none directly; it prevents the biggest risk, a thin answer to Stripe's most pointed question.
 
-## 5. Demonstrating L4 in the HM conversation
+### The L4 example Stripe asked for by name
+
+**C9. "Tell me about a time you pushed the boundaries of what's possible while bringing others along in a murky environment"**
+- **Example: moving Keystone from consulting to a product business, with the pricing and the managed-service call** (K1, K32, K12).
+- **Why it shows the competency:** nobody knew whether clients would pay for a product; leadership and investors wanted pure SaaS while clients needed their data in their own cloud; you brought the CEO, sales, finance and 30+ engineers and scientists along.
+- **Domain proof:** *JD2:* monetization (the pricing design), how technical capabilities turn into revenue; integrations into client environments. *JD1:* less direct; use C1 for fraud.
+- **L4 signals:** company-level strategy and business model; against leadership and investors, with the cost stated up front; a decision that outlasted you.
+- **Gaps it bridges:** pricing and monetization (JD2 required); level and scope.
+- **Opening (about 180 words):** "At Keystone, the flagship engagement brought in about $2 million a year but needed about seven people on site, so consulting lost money. Nobody knew whether clients would pay for a product. Leadership and investors wanted pure SaaS, while clients needed their data to stay in their own cloud. With the CEO, Sales and Finance, I split the offer into modules on annual subscriptions: forecasting at about $1.5 million a year and agents at about $500K more. I recommended a managed service inside each client's cloud, and told them up front it would cost a month. I rejected usage-based pricing, because forecast counts don't track value, and savings-based pricing, because savings depend on the client's execution. Five clients renewed, two upgraded to agents, and support per client went from about seven people to about one."
+
+### Novelty (the product sense feedback: "more novel or unusual solutions")
+Make sure at least two answers contain an idea that wasn't the obvious one: behavior instead of registration data to catch bots (C1); batch scoring so checkout never waits on a model (C3); "explain, then prescribe" (C6); the rules-plus-agent split (C7).
+
+## 5. Demonstrating L4 through the competency answers
 **What the recruiter told you:** level is set from interview performance, the HM calls, years and past scope. Your years (11+) put you in the L3 range, so scope and performance have to carry L4. Stripe doesn't publish its rubric; the L4 description in company-intel (changes direction across teams they don't manage, shapes strategy beyond their area, grows other PMs) is directional.
 
-**Seven signals, and your evidence for each:**
-| Signal | What the HM should hear | Your evidence |
+**L4 doesn't need its own answer. It shows in the examples you pick and how you open them.** Where each signal appears in section 4:
+
+| L4 signal | Where it shows | Strength |
 |---|---|---|
-| 1. A problem nobody owned | You saw a gap across teams and took it | BFS: no fraud checks before checkout (A22); ML privacy rules nobody had defined (A10) |
-| 2. Impact beyond your product | Other teams you didn't manage adopted it | BFS adopted by six teams (A27); privacy policy across ~20 Payments teams (A10) |
-| 3. Strategy, not features | You set the direction and the why | BFS PRFAQ (A26); Keystone's move to a product business (K1) |
-| 4. Business-model scope | You shaped how the company makes money | Keystone pricing: modules on annual subscriptions, all five clients renewed, two upgraded (K32) |
-| 5. Influence against resistance | You changed a senior person's mind | Managed service vs. SaaS against leadership and investors (K12); VP-level alignment on privacy policy (A10) |
-| 6. Decisions that outlasted you | The platform or policy continued | BFS as a shared score; MDLC defaults; privacy as platform policy |
-| 7. Growing others | You developed PMs | A Program Manager promoted L4 → L5 (A13); three dotted-line PMs (K20); 50+ hiring interviews |
+| A problem nobody owned | C1 (fraud controls only after checkout); C2 (undefined "governance") | **Strong** |
+| Impact beyond your product | C1 (six teams adopted the score); C6 (14 teams, 14 systems); C5 (three partner teams) | **Strong** |
+| Strategy, not features | C1 (the strategy and the PRFAQ); C9 (the business model) | **Strong** |
+| Business-model scope | C9 (pricing modules, managed service) | **Strong, one story** |
+| Influence against resistance | C9 (leadership and investors); C2 (a senior technical manager) | **Medium**: ask what pushed back (section 14) |
+| Decisions that outlasted you | C2 (monitoring as a default), C1 (a shared score) | **Thin**: the library doesn't record whether they continued after you left |
+| Growing others | Not covered by the competency questions | **Thin**: one report in 2016–18, three dotted-line PMs, no mentee story; use Q13 if it comes up |
+| Years and level mapping | n/a | **Gap you can't close:** 11+ years vs. the recruiter's "L4 = 15+"; L6 at Amazon maps to Stripe L3 |
 
-**L4 evidence check: where you're strong and where it's thin** (this is what to strengthen before the call; the numbers refer to the questions in section 15):
-
-| Signal | Strength | What would strengthen it |
-|---|---|---|
-| 1. A problem nobody owned | **Strong** (A22, A10) | Nothing needed. |
-| 2. Impact beyond your product | **Strong** (A27 six teams; A10 about 20 teams) | How the partner teams came to adopt (q6); one partner metric that moved (q5). |
-| 3. Strategy, not features | **Strong** (A26, K1) | What pushback the PRFAQ got (q3). |
-| 4. Business-model scope | **Strong, one story** (K32) | A backup story; the coverage grid shows none. |
-| 5. Influence against resistance | **Medium**: K12 is solid; the A10 and A26 stories lack the pushback detail | What the VPs pushed back on (q4); what engineering and buyer risk challenged (q3). |
-| 6. Decisions that outlasted you | **Thin**: the library doesn't record whether BFS, the privacy policy or the MDLC defaults continued after you left | Did the six teams keep using BFS, and is the policy still in force? (q8) |
-| 7. Growing others | **Thin**: one report in 2016–18, three dotted-line PMs, and no mentee story | A growth story beyond one person (q9). |
-| Years and level mapping | **Gap you can't close:** 11+ years vs. the recruiter's "L4 = 15+," and L6 at Amazon maps to Stripe L3 | Offset with scope and performance; ask the manager what would scope the role at L4. |
-
-**Practical moves in the competency-based call:**
-- The HM's questions will be about curiosity, craft and AI, so **L4 shows through the examples you choose and how you tell them**, not through a separate "L4 answer." Pick examples where other teams, other leaders or a murky situation were involved, and say so first ("six teams I didn't manage adopted it").
-- Use your **"pushed the boundaries while bringing others along"** example (K1/K12, or A22) as the clearest L4 story. Stripe asked for it by name.
+**Practical moves**
+- Open each example with the part that crosses teams ("six teams I didn't manage adopted it"), then the decision, then the number.
 - Talk about scope, never titles or past levels.
-- Ask one question about the team's strategy that shows altitude (section 12).
+- Ask one question about the team's strategy that shows altitude (section 11).
 - Near the end, ask: "What would you need to see from me to scope this role at L4?"
-- Optional: offer to send a one-page note after the call on how you'd approach the first 90 days. It shows initiative and Stripe's writing culture, but only if it's good.
-
----
+- Optional: offer a one-page note after the call on how you'd approach the first 90 days (only if it's good).
 
 ## 6. Two roles at a glance (one manager, both roles)
 | | JD1: Fraud and Abuse Prevention | JD2: Radar (integrations and partners) |
@@ -164,39 +213,23 @@ The recruiter framed JD1 as "ML-heavy fraud and abuse products with data science
 
 ---
 
-## 7. Your most relevant experience (ranked for Radar)
-Numbers are from `experience-library.md` canonical metrics and your call card. Use the **ownership words** in the style guide: "I led the strategy," "data science built the model."
+## 7. Gaps in both roles, and how the competency answers handle them
+**The OS framework (Addressing-Weaknesses):** the interviewer is already looking at your resume and has spotted two or three weaknesses. (1) Identify them from resume vs. JD. (2) Address them head-on and early, leading with strengths. (3) Make the role the natural next step. (4) Keep it tight. (5) Only say what you can discuss for five minutes. Name the gap neutrally, show the nearest real evidence, then say what you're doing about it. **In this call, the evidence comes through the section 4 answers, and the short "gap line" below goes into the role conversation.**
 
-1. **Business Fraud Score, Pay by Invoice (A21; S1–S3, S6).** You wrote the strategy (PRFAQ), were PM for 1.0 and 2.0, and six teams adopted it. About $18M in fraud losses avoided; BFS 2.0 caught fraudsters about 10 days earlier, lifted upfront detection about 15%, flagged about $2.7M in fraudulent credit lines; launch at about 99% precision after a 3-week shadow run. *Covers: JD1 items 1, 2, 4, 5; JD2 preferred "fraud/risk."*
-2. **SPORT and MOQ APIs (A15, A16).** SPORT APIs integrated by 3 Amazon partner teams (adoption 1% → ~10%, combined with other work); MOQ in Seller Central and 2 Asian marketplaces. *Covers: JD2 "dashboard and API products," "integration partners."*
-3. **Keystone pricing and business model (K32, S8).** Value-based modular pricing set with Sales, Finance and the CEO; all 5 clients renewed; 2 upgraded to agents (+$500K ACV each); $7.5M ARR. *Covers: JD2 "pricing and monetization," both JDs "commercial acumen."*
-4. **Agents with tiered autonomy and evals (K3, K4, K5).** Action acceptance 30% → 80% after tiered autonomy; 70% recommendation acceptance at launch. *Covers: Stripe's new bot-abuse and AI-agent angle; "detection vs. friction" in a different setting.*
-5. **ML privacy policy across ~20 Payments teams (S7/A10).** The L4 scope proof.
-6. **Data platform, API catalog, SQL (K29, K30, K33).** SQL for client data profiling; 5 client dashboards onboarded with no extra effort; data-availability monitoring and delivery SLAs with a client's IT team. *Covers: "SQL," "technical dependencies and external relationships."*
-7. **Developing PMs (A13, K20).** A Program Manager promoted L4 → L5; 3 dotted-line PMs; 50+ hiring interviews. *Covers: the L4 "grows other PMs" signal.*
-8. **Failure (A6, S11).** Credit losses in the 5% launch; blended portfolio simulation cut losses 6–8%. *Covers: ownership, validating economics separately.*
-
----
-
-## 8. Gaps in both roles, the experience that would close them, and how to handle them
-**The OS framework (Addressing-Weaknesses):** the interviewer is already looking at your resume and has spotted two or three weaknesses. (1) Identify them from resume vs. JD. (2) Address them head-on and early, leading with strengths. (3) Make the role the natural next step. (4) Keep it tight, about two minutes. (5) Only say what you can discuss for five minutes. Reframe a gap by naming it neutrally, showing the nearest real evidence, and pointing to what you're doing about it.
-
-| Gap | What a hiring manager would want to see | Your nearest real evidence | How to say it |
+| Gap | Handled in | How | Still needed |
 |---|---|---|---|
-| **Payments fraud breadth (JD1)**: card testing, disputes, chargebacks, 3D Secure, free-trial and bot abuse | You've owned detection against attackers who adapt, in payments or a payments-like flow, and you understand dispute economics | BFS 2.0: bot-like sign-up behavior found before the first order, IP blocklist, false-positive program (A21) | "My fraud work was at the account level, fake businesses and bot sign-ups, not card payments. That's the part of Radar that's growing. I've studied how Radar handles it." Say the last sentence only after the study in `study-guide`. |
-| **Fraud-analyst tooling and real-time decisions (JD1 preferred)** | Tools or decision APIs people use while the decision is live | Checkout credit API (decision lookup in real time, scores precomputed), human-review queue in the Keystone agent (K4), the challenge mechanism in BFS strategy | Be exact: "scores were precomputed; checkout looked up the answer." Don't claim analyst tooling you didn't build. |
-| **Software engineering or data science background (JD1 preferred)** | Hands-on technical credibility | SQL on client data (K33), a working agent prototype (K11), MLOps platform with CI/CD and containerization (A8/A20), B.E. in chemical engineering | "I write SQL to understand data and prototype to prove value; engineers and scientists own the build." |
-| **External developer ecosystem at Stripe's scale (JD2)** | You've shipped developer-facing APIs and watched integrators struggle | SPORT APIs integrated by 3 partner teams (A15); MOQ endpoints (A16); API catalog and release notes for app developers (K29) | "My APIs served partner teams and app developers, not an open ecosystem. The partner side is the same loop: find what blocks integration, fix the docs and the path to production." Then bring your friction-log observations from Stripe's own docs. |
-| **Pricing for usage-based or developer products (JD2)** | You've priced something and seen what customers paid | Keystone: modules on annual subscriptions; rejected usage-based pricing for stated reasons (K32) | Show the reasoning for rejecting usage-based pricing, then say how you'd test it for Radar's new tiers. |
-| **Partnerships "worth pursuing" (JD2, per the recruiter)** | A method for choosing partners and a case | Which of six BFS teams to integrate first; SPORT partner teams | [Open item: how you chose the partners and what you said no to.] |
-| **Level and scope (both)** | L4 scope, not L3 | Section 5 | Never argue years. |
-| **Didn't build the model (JD1)** | Clear ownership | A21 (data science built it) | "Data science built and validated the models. I set the strategy, goals, launch gates and integrations." |
-| **Numbers drift under live flow** | The same numbers every time, under pressure | Your mocks averaged 6.4 and 6.5; scripted answers scored 8, improvised 5–7. Slips: "caught" for "avoided," "3 months" for "4 months," "currently at Keystone" | Numbers card (section 13). Say each number once and rehearse aloud twice. Say "most recently at Keystone." |
-| **Still-open story details** | The second layer on every story (who pushed back, what you gave up) | The open items in section 15 | Answer the section 15 questions before the interview. |
+| **Payments-fraud breadth** (card testing, disputes, 3D Secure, free-trial and bot abuse) | **C1**, C7, your questions to the HM | C1 shows you know the adversary (rings, bots, business accounts with thousands of users). Gap line: "My fraud work was at the account level, fake businesses and bot sign-ups, not card payments. That's the part of Radar that's growing. I've studied how Radar handles it." (Say the last sentence only after the study guide.) | The Radar hands-on run |
+| **Fraud-analyst tooling and real-time decisions** | **C4** (analyst tools), **C3** (checkout decision API) | Be exact: "scores were precomputed; checkout looked up the answer." | The details of the analyst tools |
+| **Software or data-science depth** | **C2**, **C6**, **C7** | SQL, monitoring and drift, a causal model, an agent prototype | Nothing |
+| **External developer ecosystem at Stripe's scale** | **C5**, **C4 fallback** | "My APIs served partner teams and app developers, not an open ecosystem. The partner side is the same loop: find what blocks integration, fix the docs and the path to production." | How the partner teams came to integrate |
+| **Pricing for usage-based or developer products** | **C9**, Q10 | The reasoning for rejecting usage-based pricing; say how you'd test it for Radar's tiers | Nothing |
+| **Partnerships "worth pursuing" (JD2, per the recruiter)** | **C5**, C1 | Which partner teams, and why those first | How you chose them |
+| **Didn't build the model** | **C1**, C2 | "Data science built and validated the models. I set the strategy, goals, launch gates and integrations." | Nothing |
+| **Level and scope** | All answers (section 5) | Scope in every opening | Nothing |
+| **Numbers drift under live flow** | Practice | Numbers card (section 12). Say each number once and rehearse aloud twice. Say "most recently at Keystone." | Rehearsal |
+| **Still-open story details** | Section 14 | Answer the open items before the interview | Your answers |
 
----
-
-## 9. How tiered autonomy connects to bot abuse and AI agents (corrected)
+## 8. How tiered autonomy connects to bot abuse and AI agents (corrected)
 My earlier line, "tiered autonomy covers Stripe's bot-abuse and AI-agent angle," overstated it. Here is the accurate version.
 
 **What tiered autonomy is (K3):** a rule for which actions an agent may take alone, which need approval, and which it only surfaces, decided by risk, confidence and reversibility. You built it after early automation of mid-confidence reversible actions led to 60% of actions being reversed. Action acceptance went from 30% to 80%.
@@ -211,51 +244,13 @@ My earlier line, "tiered autonomy covers Stripe's bot-abuse and AI-agent angle,"
 
 ---
 
-## 10. Interview answers (scripts for this interview)
-**Priority 1 is 10A: the competency answers**, because Stripe told you the HM's questions will be about curiosity, craft and AI fluency. **10B is the earlier set (Q1–Q15)**, still useful for the role conversation, your motivation ("why this team"), and follow-ups. Story-based answers point to the story's library entry (full spoken version there, one copy) and add only what's specific to this interview.
+## 9. Interview answers (scripts for this interview)
+**Priority 1 is the competency answers in section 4**, because Stripe told you the HM's questions will be about curiosity, craft and AI fluency. **9B is the earlier set (Q1–Q15)**, still useful for the role conversation, your motivation ("why this team"), and follow-ups. Story-based answers point to the story's library entry (full spoken version there, one copy) and add only what's specific to this interview.
 
-### 10A. Competency answers (priority for this call)
-**[ASK]** = a fact only you can add. Each card gives the story, a draft **opening** (your voice; edit freely) and what to stress. Under the OS design the full spoken versions go in the library; the ones marked "not yet in the library" are the next to write once you confirm your picks (section 4) and answer section 15, N1–N9.
+### 9A. Competency answers
+These now live in **section 4** (each competency question has its example, domain proof, L4 signals, the gap it bridges and a draft opening), so there is one copy.
 
-**C1. Stay curious: a time you dove into the details of a problem** · story **A23** (spoken version in the library)
-*Opening:* "The fraud score was catching fraud at sign-up, but I wanted to know what it was missing. So I went into the worldwide customer data and asked one question: what do the fraudsters who pass our check do differently from real businesses before their first order? **[ASK: who you talked to and the next two questions you asked.]** The data showed machine-like, repetitive behavior in how they registered and browsed. That led to the behavioral model."
-*Stress:* the order of your questions, the data you pulled, what surprised you. *Numbers:* fraudsters caught about 10 days earlier; upfront detection up about 15%; about $2.7M in fraudulent credit lines.
-
-**C2. Stay curious: an unfamiliar domain or stretch assignment** · story **A10** (spoken version in the library; curiosity framing not yet written)
-*Opening:* "Nobody on my team knew how EU and US privacy rules applied to ML models, and every science team was guessing. I started by reading the requirements myself, then asked the privacy bar raisers and Legal the question nobody had asked: is a model's output data in scope? **[ASK: how you learned the domain and what you got wrong first.]** The answer became a policy for about 20 Payments teams."
-*Stress:* how you taught yourself, who you asked. Backups: SAP data at Keystone (K15/K33); moving into ML deployment (MDLC doc).
-
-**C3. Stay curious: taking an established process and creating something new** · story **K1** (spoken version not yet written; facts in the library)
-*Opening:* "At Keystone, every client project was a consulting engagement: about seven people on site for six months or more, and our revenue grew only as fast as our headcount. I asked why we kept rebuilding the same pieces for every client, and made the case for one product."
-*Stress:* why you questioned the process. *Numbers:* $7.5M ARR; all five clients renewed; deployment 6 → 4 months.
-
-**C4. Craft and beauty: going above and beyond for the user's experience** · story **K9** (spoken version not yet written); fraud-domain alternative **A24**
-*Opening:* "The forecasts were accurate, but planners still overrode half of them, because they couldn't see why a number changed. I treated that as a design problem, not a modeling one: an explanation for each SKU in plain language, the drivers behind each change, like pricing and promotions, and narratives a business user could read. Adoption went from 50% to 60%." **[ASK: one detail you refused to ship without.]**
-*Alternative (fraud):* care for the good customer: precision-first, so legitimate businesses weren't blocked, and a false-positive program targeting under half a percent.
-
-**C5. Craft and beauty: iterating on something you felt wasn't complete** · story **A2** (spoken version not yet written)
-*Opening:* "We launched credit at checkout to 5% of customers, and the response was lukewarm. It worked, but I didn't think it was finished. I interviewed small businesses and found they needed to know their monthly eligibility up front so they could plan purchases. We redesigned around that, with lower limits, transaction controls and a pause on delinquency." **[ASK: what the lukewarm feedback sounded like.]**
-*Numbers:* the product reached 50K+ customers and $71M incremental revenue; say the redesign contributed.
-
-**C6. Craft and beauty: something meaty and complex that you simplified** · story **A8** (spoken version not yet written)
-*Opening:* "Every new model took months of engineering to deploy, because each team scripted its own pipeline on SageMaker. I made pipeline setup a UI scientists could configure in a few clicks instead of a Python script, even though it cost more to build, because entry-level scientists couldn't ramp up on scripts. I treated documentation and a support community as part of the product too."
-*Numbers:* 100+ models with flat headcount; deployment time −40% (your doc also says "4 months to half a day of science effort": **[CONFIRM which to say]**).
-
-**C7. AI fluency: a workflow or product you built: what you solved, why AI, how you assess the output** · story **K2** with K3, K4 (spoken version not yet written)
-*Opening:* "At Keystone, planners spent about four hours a day reviewing thousands of forecasts and overriding them without clear logic. I used agents for the messy part, root-cause analysis, and kept exception detection rules-based, because it's well defined and cheaper. Anything that changed a forecast needed human approval. We judged the output with expert reference cases, an LLM judge for grounding, and launch gates in shadow mode: over 70% acceptance and expert quality over 8 out of 10. Planner review time went from four hours a day to four a week, and client overstock from $5M to $2M."
-*Stress:* why AI here and not everywhere; how you check output. *Add:* a time it failed (K5: adoption fell from 70% to 50% when the agent didn't know a warehouse had moved; you added the data and an escalate-when-missing rule).
-
-**C8. AI fluency: how you use AI day to day to be a more effective PM** · story **HAT-AI** plus your own daily use (not yet in the library)
-*Structure to fill in:* (1) the two or three things you do with AI every week as a PM, naming the tool and the task; (2) one workflow end to end: the problem, why AI, how you check the output; (3) one time AI was wrong and what you changed. **[YOUR WORDS: this is the answer only you can write; see N1.]**
-*Evidence already on record:* HAT-AI at Keystone, an assistant that automated roadmap reporting, leadership newsletters and knowledge discovery across 15 finance products, for 30 PMs, saving about 120 hours a week; the agent prototype you built in Codex (K11) that won two months of roadmap.
-
-**C9. "Pushed the boundaries of what's possible, while bringing others along in a murky environment"** · stories **K1 + K12** (spoken version of K12 is in the library)
-*Opening:* "At Keystone, nobody knew whether clients would accept a standard product instead of a custom project, and leadership and investors wanted pure SaaS while our clients needed their data to stay in their own cloud. I aligned the CEO and CTO on the move to a product, ran 30+ engineers and scientists in parallel lanes, and recommended deploying as a managed service, which cost a month and won two clients that SaaS couldn't."
-*Stress:* how you brought people along (who disagreed, what you showed them). This is your L4 example.
-
-**Also be ready for:** a 60-second "tell me about yourself" and "why this team" (Q1 and Q2 below), because the HM may open with them.
-
-### 10B. Other likely questions (Q1–Q15)
+### 9B. Other likely questions (Q1–Q15)
 Rules applied (`interview-answer-style-guide.md`): your voice, short spoken sentences, point first, under 200 words, one message per story, canonical numbers only, ownership words ("I set the strategy," "data science built the model"), "launched" only for what shipped.
 Tags: **[CONFIRM]** = a fact only you can confirm · **[YOUR WORDS]** = a personal line I've guessed at; replace it with yours · Three Laws self-check at the end of each answer (Structure / Specificity / Skill demonstration, my own estimate before you've practiced them aloud).
 
@@ -428,7 +423,7 @@ I'd check this against what you see as the most urgent problem, because that mat
 
 ---
 
-## 11. Story cards (full stories are in the library)
+## 10. Story cards (full stories are in the library)
 The full spoken versions, facts and follow-ups live in **`context-library/experience-library.md`** (one copy; A = Amazon, K = Keystone). This section is a card per story: where it lives, a one-line hook, what it's for, and the L4 signal it proves. To practice a story, open its library entry. To change a story, edit the library entry. The "S" numbers are labels from the earlier story bank only (the library's own "S1" is the job-search system).
 
 | Label | Library entry | Hook | L4 signal |
@@ -480,7 +475,7 @@ The full spoken versions, facts and follow-ups live in **`context-library/experi
 
 ---
 
-## 12. Questions to ask the HM (pick 4)
+## 11. Questions to ask the HM (pick 4)
 Colleen told you to bring questions; the HM will describe the role first, so ask follow-ups to what he said. Order by what you most need to know.
 
 **New, tied to the three competencies (use at least one):**
@@ -501,7 +496,7 @@ Colleen told you to bring questions; the HM will describe the role first, so ask
 
 ---
 
-## 13. Numbers card (say exactly)
+## 12. Numbers card (say exactly)
 | Topic | Say | Don't say |
 |---|---|---|
 | Fraud scope | Pay by Invoice (all of it); "I wrote the strategy and was PM for BFS 1.0 and 2.0; data science built the models" | "$8 billion credit business" for the fraud work; "I built the model" |
@@ -515,7 +510,7 @@ Colleen told you to bring questions; the HM will describe the role first, so ask
 
 ---
 
-## 14. Study (summary; exact content in the study guide)
+## 13. Study (summary; exact content in the study guide)
 The exact content to learn, with self-tests, a hands-on friction-log exercise and a schedule, is in `interview-prep/2026-11-09-stripe-hm-study-guide.md`. In short:
 
 1. **Payments basics (1.5 hours):** a card payment end to end; authorization vs. settlement; issuer, acquirer, network; chargebacks and disputes; 3D Secure; authorization rate. You'll be asked even in a fraud role.
@@ -525,7 +520,7 @@ The exact content to learn, with self-tests, a hands-on friction-log exercise an
 
 ---
 
-## 15. Open items: questions for you that would level up the answers (on hold until we align on the sections above)
+## 14. Open items: questions for you that would level up the answers (on hold until we align on the sections above)
 Ordered by value. "Levels up" names the answer or story each one improves.
 
 **New: from the 11/09 call (ask these first)**
@@ -539,7 +534,7 @@ Ordered by value. "Levels up" names the answer or story each one improves.
 | N5 | One detail you refused to ship without (planner narratives in K9, the false-positive work in A24, or the UI in A8). | C4, C6 | Craft needs one concrete detail |
 | N6 | What did the lukewarm feedback on credit at checkout sound like? | C5 | Makes the iteration real |
 | N7 | Which craft examples do you prefer: K9 or A24; A8 or the 7-page → 1-page onboarding? | Section 4 | Lets me write the spoken versions |
-| N8 | Any other unusual or novel solutions you shipped (the product sense feedback asked for more novelty)? | Sections 4, 10A | Shows creativity in the call |
+| N8 | Any other unusual or novel solutions you shipped (the product sense feedback asked for more novelty)? | Sections 4, 9A | Shows creativity in the call |
 | N9 | The HM's name spelling and the exact date and time; did Colleen send a bio? | Section 0 | Lets me tailor the opening and your questions |
 
 **Earlier items**
@@ -559,12 +554,12 @@ Ordered by value. "Levels up" names the answer or story each one improves.
 | 11 | Did "escalate when data is missing" become a rule for all Keystone clients, or a one-retailer fix? | K5 | Only if you use K5 |
 | 12 | Have you worked with design on a user flow? | Q11 | JD asks for design partnership; I won't invent one |
 | 13 | Do you want a written answer to "What's an area you're working on?" The Drive doc has one (stepping back from implementation detail) that scored 8; it isn't in Q1–Q15. | New Q16 | The HM may ask it |
-| 14 | **Logistics:** the hiring manager's name and the call date. | Section 10 | Lets me tailor Q2, Q15 and your questions |
+| 14 | **Logistics:** the hiring manager's name and the call date. | Section 9 | Lets me tailor Q2, Q15 and your questions |
 | 15 | **Action items, not questions:** fix the Drive doc ("$8 billion credit business," "Caught $18M," the stale "3 months deployment" line); do the hands-on Radar run so you can answer "have you used Radar?" | Q1, Q2 | Prevents slips like the recruiter-screen ones |
 
 ---
 
-## 16. Practice plan
+## 15. Practice plan
 The call is next Monday or Tuesday. About six days.
 1. **Day 1:** confirm your six examples (section 4) and answer N1–N9. I'll write the missing spoken versions in the library (A23 curiosity framing, K1, K9, A2, A8, K2 and HAT-AI).
 2. **Day 2:** fix the facts in your Drive doc and the numbers card; say the card aloud. Read your recruiter-call slips (section 2).
@@ -572,3 +567,4 @@ The call is next Monday or Tuesday. About six days.
 4. **Day 4:** the AI-fluency drill: tell K2 and your day-to-day answer back to back. Then the "pushed the boundaries" story (K1 + K12).
 5. **Day 5:** the Radar role conversation: read the study guide (payments and Radar basics) so you can follow what the HM says about the team, and rehearse your questions to him.
 6. **Day 6:** a full mock hiring-manager conversation with `/mock-interview`, using Colleen's example question types; rerun your weakest answer. Night before: the numbers card, your six examples, your questions. No new material.
+
