@@ -71,7 +71,7 @@ Gaps and slips to fix before the HM call:
 7. **Motivation, and tone:** why this team, and "humble, yet decisive": own your decisions, credit others, and say what you learned and what you'd do differently.
 
 ## 4. Competency answers: the example for each question, with domain proof, L4 signals and the gap it bridges
-Stripe's hiring manager will ask about **stay curious, create with craft and beauty, and AI fluency**. This section is the plan **and** the script for each question. Every example is chosen to do three jobs at once: **(1) show the competency, (2) prove domain experience for both roles** (JD1 fraud and abuse; JD2 integrations, partners and monetization), and **(3) carry L4 signals** (scope across teams you didn't manage, influence, murky ambiguity). Each block also names the **gap it bridges** (section 7). You'll use about six examples; **don't reuse a program across competencies.** **[ASK]** = a fact only you can add; **[CONFIRM]** = a fact to check.
+Stripe's hiring manager will ask about **stay curious, create with craft and beauty, and AI fluency**. This section is the plan **and** the script for each question. Every example is chosen to do three jobs at once: **(1) show the competency, (2) prove domain experience for both roles** (JD1 fraud and abuse; JD2 integrations, partners and monetization), and **(3) carry L4 signals** (scope across teams you didn't manage, influence, murky ambiguity). Each block also names the **gap it bridges** (section 7). You'll use about six examples; **don't reuse a program across competencies.** Each block now also names one **backup story** from the library for a different angle or a follow-up. **[ASK]** = a fact only you can add; **[CONFIRM]** = a fact to check.
 
 **How the six programs divide:** BFS (C1) · model governance (C2) · the credit product (C3) · analyst or developer tooling (C4) · SPORT (C5) · TRACE (C6) · the Keystone agent (C7) · Keystone's business model (C9). Everything in the library; spoken versions are written for A22–A27 and a few others, and the rest come after you confirm these picks.
 
@@ -79,6 +79,7 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 
 **C1. "Tell me about a time you dove into the details of a problem": who you talked with, the questions you asked, the data you looked at**
 - **Example: the Business Fraud Score, 1.0 and 2.0 as one arc** (A22 + A23). Start with the strategy and the precision-first call, then the curiosity: what is the score missing?
+- **Backup: A2, credit visibility vs. risk, the pivot from customer feedback.** Curiosity shown by listening to customers and changing course. Use it if the HM has already heard BFS in the role walkthrough or your recruiter notes.
 - **Why it shows curiosity:** you didn't stop at a score that worked; you asked what it missed, went into the worldwide customer data, and found behavior, not registration data, was the gap.
 - **Domain proof:** *JD1:* investigating an attack, finding a signal, detection vs. friction. *JD2:* the score as a shared service that six teams integrated.
 - **L4 signals:** a problem nobody owned; strategy beyond your product; six teams you didn't manage adopted it; you found the next gap yourself.
@@ -89,6 +90,7 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 
 **C2. "Tell me about taking on work in an unfamiliar domain or a stretch assignment"**
 - **Example: governing ML models in a regulated lending business (SR 11-7)** (A8, A9; your "MDLC and MOQ" doc). The ask was one ambiguous word, "governance," and you had no model-risk background.
+- **Backup: A10, privacy by default for ML across Amazon Payments** (about 20 teams, 5 science FTE per year). Same pattern: an unfamiliar regulatory domain learned quickly, then made a default. Use A10 if the HM probes privacy or data handling; keep A8/A9 for model risk.
 - **Why it shows curiosity:** you asked what governance meant, learned the Federal Reserve's model-risk guidance, mapped it to 100+ lending models, then asked scientists what hurt most.
 - **Domain proof:** *JD1:* ML models in a risk setting need drift monitoring because patterns change (fraud models especially); BFS itself ran on this platform **[CONFIRM that monitoring covered BFS]**. *JD2:* a platform adopted by 30+ scientists, with documentation and onboarding treated as a product.
 - **L4 signals:** a murky problem nobody had defined; org-wide default (monitoring went from 30 to all 100 models); influence over a senior technical manager and four technical and five science partners.
@@ -99,6 +101,7 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 
 **C3. "Tell me about taking an established process and creating something new"**
 - **Example: rebuilding credit decisions for small businesses** (A1, A3, A4, A5, A14). Established process: bureau-based credit with large blanket credit lines. New: a layered decision on Amazon's own behavioral data.
+- **Backup: K34, client onboarding: demo, proof of concept, land-and-expand pricing.** A new way of selling and onboarding replacing the consulting-led process. Weaker on JD1; strong on JD2 monetization.
 - **Why it shows the competency:** you questioned the premise (no bureau file doesn't mean not creditworthy) and rebuilt the decision in layers.
 - **Domain proof:** *JD1:* risk decisioning with approval vs. losses as the detection-vs-friction trade-off; layered fraud controls. *JD2:* a checkout decision API (batch-computed scores, a live eligibility check), and the batch-vs.-real-time architecture call.
 - **L4 signals:** you owned an S-team goal; a 0→1 product; 50K+ customers and $71M; monthly VP reviews; cross-functional across risk operations, fraud, legal, finance and engineering.
@@ -110,6 +113,7 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 
 **C4. "Tell me about a time you went above and beyond to create a better experience for users"**
 - **Example, first choice: the tools you built for credit analysts** (A14 note) **[ASK: this is the best fit for JD1's "tools for fraud analysts or risk teams," but the library has only one line]:** who the analysts were, what you automated, how you learned their work (shadowing?), the detail you refined, the impact.
+- **Backup: A16, MOQ recommendation APIs** (the seller-facing endpoints and home-page card). Craft for the seller as the user. **[CONFIRM what you refined on the seller experience before using it.]**
 - **Example, fallback (documented): the data platform's API catalog and release notes for app developers** (K29). Care for developers as users.
 - **Why it shows craft:** craft is care for the user; here the users are analysts or developers, not end customers.
 - **Domain proof:** *JD1:* analyst tooling. *JD2:* developer experience, documentation and the path to production.
@@ -119,6 +123,7 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 
 **C5. "Tell me about a time you iterated on something you felt wasn't complete"**
 - **Example: SPORT, from emailed recommendations to partner APIs** (A12, A15). Adoption was 1% against a 27% goal.
+- **Backup: K9, model sophistication vs. adoption.** Iterating toward what users adopt rather than what is technically best. Use it if the HM wants an example with a happier ending than SPORT.
 - **Why it shows craft and humility:** you interviewed sellers who acted and who didn't, found you'd neglected the experience of acting on a recommendation, and kept iterating.
 - **Domain proof:** *JD2:* APIs for partner teams, integration at design stage with the platform team, adoption as the metric. *JD1:* the same user-first loop on a decision product.
 - **L4 signals:** ownership of a miss; three partner teams you didn't manage integrated; the platform team engaged at design stage.
@@ -128,6 +133,7 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 
 **C6. "Tell me about something meaty and complex that you simplified"**
 - **Example: TRACE, explaining shipping-cost changes** (A11). More than 50 cost drivers across 14 systems owned by 14 teams, simplified to two steps: explain why the cost changed, then recommend the top fix.
+- **Backup: K6, data catalog and semantic layer for agent grounding.** Simplifying messy, many-system client data into something agents can use.
 - **Why it shows craft:** you reduced a very complex causal problem to something a seller could act on.
 - **Domain proof:** *JD1:* it's the same shape as "why did fraud spike, and what's the fix?" (root cause, then action). *JD2:* delivered through Seller Central APIs, with data contracts and SLAs with upstream owners.
 - **L4 signals:** 14 teams and 14 systems aligned; Finance, Ops, data science and data engineering; $40M in savings.
@@ -138,6 +144,7 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 
 **C7. "Describe your depth of experience with AI with a specific example: what you were solving for, why you chose AI, how you assess the output"**
 - **Example: the Keystone forecasting agent** (K2, with K3 and K4).
+- **Backup: K5, AI product quality slip** (the adoption drop and what you changed in evaluation). Also usable as the failure follow-up. **[CONFIRM details in the library entry.]**
 - **Why it shows AI fluency:** you chose where AI fit (root-cause analysis) and where it didn't (rules-based exception detection), kept human approval, and built evaluation and launch gates.
 - **Domain proof:** *JD1:* graded responses by risk and reversibility (K3) mirror a block / step up / allow decision, and Radar's bot-abuse work has to separate legitimate AI agents from fraudulent ones (section 8). *JD2:* APIs and tools feeding client workflows.
 - **L4 signals:** a flagship client at stake; engineering, science and executives aligned; a launch process other agents reused.
@@ -146,6 +153,7 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 
 **C8. "How are you using AI in your day to day to be a more effective PM?"**
 - **Example: HAT-AI plus your own daily use.** HAT-AI automated roadmap reporting, leadership newsletters and knowledge discovery across 15 finance products for 30 PMs, saving about 120 hours a week.
+- **Backup: S1, agent vs. deterministic workflow** (your personal project). Shows hands-on AI use outside work. **[ASK what you built, with which tools, and how you checked the output.]**
 - **Structure to fill in:** (1) the two or three things you do with AI every week as a PM, naming the tool and the task; (2) one workflow end to end: the problem, why AI, how you check the output; (3) one time AI was wrong and what you changed. **[YOUR WORDS; see N1 and N2. This is the one answer only you can write.]**
 - **Domain proof:** the Radar team will want a PM who uses AI to understand attacks and customers faster (for example, synthesizing customer feedback or analyzing attack data). **[ASK whether you do this.]**
 - **Gaps it bridges:** none directly; it prevents the biggest risk, a thin answer to Stripe's most pointed question.
@@ -154,6 +162,7 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 
 **C9. "Tell me about a time you pushed the boundaries of what's possible while bringing others along in a murky environment"**
 - **Example: moving Keystone from consulting to a product business, with the pricing and the managed-service call** (K1, K32, K12).
+- **Backup: A7, launching with limited information** (credit with thin data). Another murky-environment example, with a smaller cast of people brought along.
 - **Why it shows the competency:** nobody knew whether clients would pay for a product; leadership and investors wanted pure SaaS while clients needed their data in their own cloud; you brought the CEO, sales, finance and 30+ engineers and scientists along.
 - **Domain proof:** *JD2:* monetization (the pricing design), how technical capabilities turn into revenue; integrations into client environments. *JD1:* less direct; use C1 for fraud.
 - **L4 signals:** company-level strategy and business model; against leadership and investors, with the cost stated up front; a decision that outlasted you.
