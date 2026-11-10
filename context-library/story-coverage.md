@@ -1,6 +1,6 @@
 # Story Coverage Grid
 
-Last updated: 2026-11-09
+Last updated: 2026-11-10
 Built from: the Step 1 question list (8 target companies' intel, the 12 most common PM questions, all 4 of your interviews) and the Step 2 story scores. Stories and metrics live in `experience-library.md`; this file only maps them.
 
 **Rule:** every competency needs a primary story and a backup. No story is primary for more than 2 competencies.
@@ -65,3 +65,16 @@ Built from: the Step 1 question list (8 target companies' intel, the 12 most com
 | 30 | Developer-facing APIs | A15 SPORT APIs | A16 MOQ APIs, K29 API catalog | ✅ |
 | 31 | Pricing / monetization | K32 Keystone pricing | — | ⚠️ No backup story |
 | 32 | Real-time decision API / batch vs. real time | A4 Batch underwriting (+3 months sooner) | A14 checkout credit API | ✅ |
+
+## Tier 5: Stripe competencies (added 2026-11-10 from Stripe's hiring manager guidance)
+| # | Competency | Primary | Backup | Status |
+|---|---|---|---|---|
+| 33 | Stay curious: dive into the details of a problem | A23 BFS 2.0 | K6 Data catalog (evals showed the gap), K5 | ✅ A23 spoken version exists; the questions you asked and who you talked to are not recorded |
+| 34 | Stay curious: unfamiliar domain or stretch assignment | A10 Privacy for ML | K15/K33 SAP data | ⚠️ No spoken version framed for curiosity; how you learned the domain is not recorded |
+| 35 | Stay curious: established process → something new | K1 Consulting → product | A22, A8 | ✅ |
+| 36 | Craft: above and beyond for the user | K9 Explainability for planners | A24 (care for the good customer) | ⚠️ No spoken version; the detail you refused to ship without is not recorded |
+| 37 | Craft: iterating on something not complete | A2 Monthly eligibility pivot | A12 | ⚠️ No spoken version; thin story |
+| 38 | Craft: complex → simple | A8 UI-first self-service platform | K6; the 7-page → 1-page onboarding (no library entry) | ⚠️ No spoken version; conflicting number (−40% vs. "4 months to half a day") |
+| 39 | AI fluency: a workflow you built and how you assess output | K2 (with K3, K4) | K11, K14, S1 | ✅ facts; spoken version not yet written |
+| 40 | AI fluency: day-to-day use as a PM | HAT-AI (one line in the library) | S1 / your own daily use | ❌ Your daily AI use and HAT-AI detail are not recorded |
+| 41 | Pushed the boundaries while bringing others along in a murky environment | K1 + K12 | A22 | ✅ |

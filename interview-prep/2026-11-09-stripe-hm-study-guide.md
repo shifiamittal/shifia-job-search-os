@@ -1,11 +1,31 @@
 # Stripe Radar: What to Study Before the Hiring Manager Call
 
 Written: 2026-11-09 · Plan: `2026-11-09-stripe-radar-hiring-manager-prep.md`
-Time: about 7 hours over 4–5 days.
+Time: about 9 hours over 5–6 days. **Updated 2026-11-10:** Stripe told you the hiring manager call is behavioral and built on three competencies (stay curious, craft and beauty, AI fluency), so **Block 0 comes first.** The payments and Radar blocks (1–3) now mainly help you follow the role conversation and answer "why this team."
 
 **Read this first.** I couldn't open Stripe's website or documentation from this session (the host doesn't load), so I haven't verified any Stripe-specific detail below. The payments content is standard industry knowledge. The Radar details come from your recruiter-screen prep doc (2026-10-24) and from my general knowledge of Radar. Items marked **[VERIFY]** are ones to check on Stripe's own page before you say them aloud. If a page title below doesn't match, search the docs for the topic.
 
 Goal for each block: you can say the "exact content" aloud, and you pass the self-test.
+
+---
+
+## Block 0: Competency examples and AI fluency (about 2 hours). Do this first.
+
+**Where:** section 4 and section 10A of `2026-11-09-stripe-radar-hiring-manager-prep.md`; your answers to open items N1–N9.
+
+**Exact content to prepare:**
+1. **Six examples**, one or two per competency (Stay curious; Create with craft and beauty; AI fluency), plus one "pushed the boundaries while bringing others along in a murky environment" example. Say each one in about **three to four minutes, including the likely follow-up.**
+2. **For each example, write five beats on a card:** the situation in one sentence; the user; what you did and why (the decision, with the trade-off); the result with one number; what you learned or would do differently.
+3. **Stay curious drill:** for A23, list the questions you asked in order, who you talked to, and the data you looked at. Then do the same for one unfamiliar-domain example.
+4. **Craft drill:** for one example, name a detail you refused to ship without, and what "good enough" would have looked like.
+5. **AI fluency drill (the one people under-prepare):**
+   - **Your day to day:** the tools you use and two or three tasks you repeat each week as a PM.
+   - **One workflow end to end:** the problem, why AI instead of a rule or a person, what you built, and **how you check the output** (reference cases, a judge, human review, shadow mode, launch gates).
+   - **One failure:** a time AI was wrong, what it cost, what you changed.
+   - **Say why not AI** in at least one place; it shows judgment (your K2 design kept exception detection rules-based).
+6. **Read Stripe's own AI posture** (the recruiter said there's "a big push to leverage AI more and streamline workflows"): find what Stripe has said publicly about AI in its work. **[VERIFY; I couldn't open Stripe's site.]**
+
+**Self-test:** can you answer, in under four minutes each: (a) "Tell me about a time you dove into the details of a problem." (b) "Tell me about something unfamiliar you took on." (c) "Tell me about something you simplified." (d) "How do you use AI in your day-to-day work?"
 
 ---
 
@@ -165,17 +185,19 @@ Be able to say in 60 seconds: what a third-party vendor offers that a processor'
 
 ---
 
-## Suggested schedule (adjust to your date)
+## Suggested schedule (the call is next Monday or Tuesday; about six days)
 
 | Day | Do |
 |---|---|
-| 1 | Block 1 (payments) and Block 5 (metrics vocabulary). Fix the number slips in your Drive doc. |
-| 2 | Block 2 (Radar) and Block 6. Rewrite Q2 (Why Radar) in your own words. |
-| 3 | Block 3 (APIs) and Block 4 (friction log, first half). |
-| 4 | Block 4 (friction log, second half and the one-page summary). Block 7. Block 8 if the name arrives. |
-| 5 | Full mock hiring-manager conversation with `/mock-interview`; rerun the weakest answers. Night before: numbers card and questions only. |
+| 1 | Block 0: confirm your six examples; answer the open items; I write the missing spoken versions. |
+| 2 | Block 0 continued: fix the Drive doc and numbers card; write the five-beat cards. Block 1 (payments 101), about 45 minutes. |
+| 3 | Record each example aloud with its follow-up. Block 5 (metrics vocabulary). |
+| 4 | AI fluency drill and the "pushed the boundaries" story. Block 2 (Radar as a product). |
+| 5 | Blocks 3 and 4 (APIs and the hands-on friction log) so you can follow the role conversation and start the take-home. Block 8 if you have the manager's name. |
+| 6 | Full mock hiring-manager conversation with `/mock-interview`; rerun the weakest answer. Night before: numbers card, six examples, questions. |
 
 ## Final check (say each aloud without notes)
+0. Your six examples, each in under four minutes, and your day-to-day AI answer.
 1. A card payment, tap to settlement, in 90 seconds.
 2. What Radar is, what's new, and where you'd focus.
 3. Your account-level fraud work in one sentence, and how it maps to Radar.
