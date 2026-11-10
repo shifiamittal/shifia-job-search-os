@@ -69,12 +69,12 @@ Built from: the Step 1 question list (8 target companies' intel, the 12 most com
 ## Tier 5: Stripe competencies (added 2026-11-10 from Stripe's hiring manager guidance)
 | # | Competency | Primary | Backup | Status |
 |---|---|---|---|---|
-| 33 | Stay curious: dive into the details of a problem | A23 BFS 2.0 | K6 Data catalog (evals showed the gap), K5 | ✅ A23 spoken version exists; the questions you asked and who you talked to are not recorded |
-| 34 | Stay curious: unfamiliar domain or stretch assignment | A10 Privacy for ML | K15/K33 SAP data | ⚠️ No spoken version framed for curiosity; how you learned the domain is not recorded |
-| 35 | Stay curious: established process → something new | K1 Consulting → product | A22, A8 | ✅ |
-| 36 | Craft: above and beyond for the user | K9 Explainability for planners | A24 (care for the good customer) | ⚠️ No spoken version; the detail you refused to ship without is not recorded |
-| 37 | Craft: iterating on something not complete | A2 Monthly eligibility pivot | A12 | ⚠️ No spoken version; thin story |
-| 38 | Craft: complex → simple | A8 UI-first self-service platform | K6; the 7-page → 1-page onboarding (no library entry) | ⚠️ No spoken version; conflicting number (−40% vs. "4 months to half a day") |
+| 33 | Stay curious: dive into the details of a problem | A22 + A23 (BFS 1.0 + 2.0 as one arc) | A2 credit visibility pivot | ✅ A23 spoken version exists; the questions you asked and who you talked to are not recorded |
+| 34 | Stay curious: unfamiliar domain or stretch assignment | A8/A9 MDLC: the move from seller services into credit and lending (SR 11-7) | A10 Privacy for ML | ⚠️ Spoken version not written; how you ramped up on credit, lending and fraud is not recorded |
+| 35 | Stay curious: established process → something new | A1/A3/A4/A5/A14 PBI credit decisions | K32 pricing and packaging (with K34) | ⚠️ Spoken version not written |
+| 36 | Craft: above and beyond for the user | A14 credit-analyst tools (details pending) | K29 data platform API catalog and release notes | ❌ Analyst-tool details not recorded; K29 is the fallback |
+| 37 | Craft: iterating on something not complete | K9 + K10 forecast platform (explainability, sequencing) | A12/A15 SPORT | ⚠️ Spoken version not written |
+| 38 | Craft: complex → simple | A11 TRACE | K6 data catalog and semantic layer | ⚠️ No spoken version; conflicting number (−40% vs. "4 months to half a day") |
 | 39 | AI fluency: a workflow you built and how you assess output | K2 (with K3, K4) | K11, K14, S1 | ✅ facts; spoken version not yet written |
 | 40 | AI fluency: day-to-day use as a PM | HAT-AI (one line in the library) | S1 / your own daily use | ❌ Your daily AI use and HAT-AI detail are not recorded |
-| 41 | Pushed the boundaries while bringing others along in a murky environment | K1 + K12 | A22 | ✅ |
+| 41 | Pushed the boundaries while bringing others along in a murky environment | K1 + K12 (pricing K32 moved to row 35 backup) | A7 | ⚠️ Spoken version not written |
