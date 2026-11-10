@@ -84,20 +84,24 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 - **Domain proof:** *JD1:* investigating an attack, finding a signal, detection vs. friction. *JD2:* the score as a shared service that six teams integrated.
 - **L4 signals:** a problem nobody owned; strategy beyond your product; six teams you didn't manage adopted it; you found the next gap yourself.
 - **Gaps it bridges:** payments-fraud breadth (you know the adversary: rings, bots, business accounts with thousands of users); "I didn't build the model" (data science built it; you set strategy, thresholds and launch gates); real-time decisions (the score gates sign-up and checkout).
+- **Add at the very start (about 15 sec, in your words):** fraud was a new domain; say how you started learning it. **[ASK: use only what you did; see the ramp-up checklist in chat/section 14 N10.]**
 - **Opening (about 190 words):** "Amazon Business fraud exposure had grown 600%, to about $200 million, and the controls only ran after checkout. Good customers got held up while fraud rings registered thousands of accounts with bots. I wrote the strategy for a fraud score that assesses every business at sign-up. I set it at about 99% precision, so it blocks only when it's very sure, because a false positive suspends a real business's credit line, and checkout controls catch what it misses. Six teams adopted it.
   But a score tuned for precision misses things by design, so I kept asking what it was missing. I went into the worldwide customer data and asked what the fraudsters who passed our check did differently from real businesses before their first order. **[ASK: who you talked to, and the next two questions you asked.]** They moved through sign-up and browsing in repetitive, machine-like ways. That became BFS 2.0: a behavioral model that keeps assessing a customer from registration to the first order, with an IP blocklist. It caught fraudsters about 10 days earlier, lifted upfront detection about 15%, and flagged about $2.7 million in fraudulent credit lines."
 - **Need from you:** what triggered the deep dive; what surprised you; the basis of the **$18M** figure (I left it out until we settle it; the model doc's estimate assumes much higher recall than the 0.95 launch threshold).
 
 **C2. "Tell me about taking on work in an unfamiliar domain or a stretch assignment"**
-- **Example: governing ML models in a regulated lending business (SR 11-7)** (A8, A9; your "MDLC and MOQ" doc). The ask was one ambiguous word, "governance," and you had no model-risk background.
-- **Backup: A10, privacy by default for ML across Amazon Payments** (about 20 teams, 5 science FTE per year). Same pattern: an unfamiliar regulatory domain learned quickly, then made a default. Use A10 if the HM probes privacy or data handling; keep A8/A9 for model risk.
-- **Why it shows curiosity:** you asked what governance meant, learned the Federal Reserve's model-risk guidance, mapped it to 100+ lending models, then asked scientists what hurt most.
-- **Domain proof:** *JD1:* ML models in a risk setting need drift monitoring because patterns change (fraud models especially); BFS itself ran on this platform **[CONFIRM that monitoring covered BFS]**. *JD2:* a platform adopted by 30+ scientists, with documentation and onboarding treated as a product.
-- **L4 signals:** a murky problem nobody had defined; org-wide default (monitoring went from 30 to all 100 models); influence over a senior technical manager and four technical and five science partners.
-- **Gaps it bridges:** software and data-science depth (monitoring, drift, versioning, inventory); reliability of ML products.
-- **Opening (about 170 words):** "I owned a platform for deploying credit models at Amazon, and the ask was one word: governance. I had no model-risk background. So I asked the risk team what it meant, and learned the Federal Reserve's guidance on model risk, which covers design, data, validation, monitoring and documentation. I read it end to end, mapped it to our hundred-plus lending models, and then asked the scientists what hurt most. Setting up monitoring took about four weeks per model, roughly ten scientist-years across all of them. **[ASK: what you got wrong first.]** We built monitoring as a default, with standard metrics and drift thresholds, and went from 30 models monitored to all 100, with no extra science effort. Unmonitored models had been a regulatory risk and could degrade without anyone noticing."
-- **Honest extra:** your first proposal didn't land with engineering because they weren't aligned on the pain points; you pivoted by reviewing with scientists first (your doc; A9). Use it if he asks what went wrong.
-- **Need from you:** how you learned the domain; whether to say "SR 11-7" by name; whether the platform monitored the fraud score.
+- **Story structure (final; spoken answer to be written next).** The domain move: from seller services strategy (supply chain) into Amazon's credit and lending business, where you had to learn credit, lending, regulation and later fraud from scratch.
+  1. **The shift (about 20 sec):** you built strategy for seller services; you had not worked in credit, lending or fraud.
+  2. **How you ramped (about 60 sec):** through MDLC, the platform that deployed 100+ credit and underwriting models (Jul 2020 – Jul 2022). You read SR 11-7 end to end and understood each regulatory requirement. You worked with the science teams to learn what governance had to do for them, then prioritized the features that served the scientists and met the regulation. **[ASK: whom you learned from, what you read beyond SR 11-7, what you got wrong first.]**
+  3. **What it produced (about 40 sec):** monitoring as a default (30 to 100 models); onboarding treated as a product (**A8, A9**; A10 for privacy if he probes).
+  4. **What it set up (about 20 sec):** the credit and regulatory grounding let you later own PBI growth and PBI 2.0 and the fraud strategy for the credit business (one sentence each; the details are in C3 and C1).
+- **Backup: A10, privacy by default for ML across Amazon Payments** (about 20 teams, 5 science FTE per year). Use it if he probes data handling or regulation.
+- **Why it shows the competency:** the learning path is real and sequential, and you converted regulation into product priorities that scientists wanted.
+- **Don't say** "monitoring was a new domain." Say regulation, credit and lending were new. Monitoring was the feature you built once you understood them.
+- **Domain proof:** *JD1:* credit, lending and fraud are Radar's risk space; fraud models drift, so monitoring and governance matter. *JD2:* a platform adopted by teams you didn't manage, with documentation and onboarding treated as a product.
+- **L4 signals:** a regulated, high-stakes move; org-wide defaults (30 to 100 models; about 20 teams); influence over a senior technical manager (A9).
+- **Gaps it bridges:** software and data-science depth; reliability of ML products; breadth across risk (credit, lending, fraud).
+- **Need from you:** the ramp-up details above; whether the platform monitored the fraud score (**[CONFIRM]**).
 
 **C3. "Tell me about taking an established process and creating something new"**
 - **Example: rebuilding credit decisions for small businesses** (A1, A3, A4, A5, A14). Established process: bureau-based credit with large blanket credit lines. New: a layered decision on Amazon's own behavioral data.
@@ -544,6 +548,7 @@ Ordered by value. "Levels up" names the answer or story each one improves.
 | N6 | What did the lukewarm feedback on credit at checkout sound like? | C5 | Makes the iteration real |
 | N7 | Which craft examples do you prefer: K9 or A24; A8 or the 7-page → 1-page onboarding? | Section 4 | Lets me write the spoken versions |
 | N8 | Any other unusual or novel solutions you shipped (the product sense feedback asked for more novelty)? | Sections 4, 9A | Shows creativity in the call |
+| N10 | How you ramped up on fraud and on credit/lending (people you talked to, cases, data, what you read, first wrong assumption)? | Sections 4 (C1, C2), 7 | Replaces generic ramp-up text with your real steps |
 | N9 | The HM's name spelling and the exact date and time; did Colleen send a bio? | Section 0 | Lets me tailor the opening and your questions |
 
 **Earlier items**
