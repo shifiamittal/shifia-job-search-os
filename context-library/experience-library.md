@@ -801,6 +801,25 @@ It caught fraudsters about 10 days earlier on average than our buyer-risk system
 - *"Would you do it as a rule instead?"* "A rule would have caught one ring and broken when they adapted. Behavior generalizes."
 - Don't name exact features or blocklist mechanics; say "behavioral and IP signals."
 
+**Stripe competency version, C1 "Stay curious: dive into the details of a problem" (FINAL 2026-11-11, written by the user, reviewed with Claude; ~330 words, ~2 min):**
+"Fraud exposure at Amazon Business had grown 600%, to about $200 million, and up to 15% of orders on some payment methods were held for manual review, delaying legitimate customers. I wanted to understand why our controls were missing fraudsters and disrupting good businesses at the same time.
+
+I worked through three questions. First, why were the controls struggling? With Buyer Risk Prevention and fraud investigators, I reviewed checkout controls and fraud outcomes. They were built for consumers: large orders and fast purchasing looked suspicious, yet that's normal for a business. And they judged individual transactions, not the business behind them.
+
+Second, how did fraudsters actually operate? With Data Science and the investigators, I analyzed confirmed fraud cases, account relationships and registration patterns. What surprised me was that these weren't isolated bad actors. Coordinated rings were registering thousands of business accounts, with new email domains, repeated registrations on the same domain, and links to earlier fraud.
+
+Third, when could we have caught them? We traced those signals back to registration, looking at domain history, business profiles and credit bureau records. The signals existed before any order, but our defenses only acted at checkout.
+
+So instead of tightening checkout rules, I led the strategy for a Business Fraud Score that assesses each business at registration. I set a 99% precision target for blocking, because a false positive suspends a real business's credit line, and kept checkout controls as the backstop. Six teams adopted it.
+
+I kept asking what it missed: some fraudsters passed registration but behaved suspiciously before their first order. That became BFS 2.0, which caught them about 10 days earlier than our buyer-risk systems and improved upfront detection about 15%."
+- **Optional closer (cut first if long):** "What I took from it: the breakthrough wasn't a better model. It was questioning what we were assessing, and when."
+- **Combines:** A21/A22 (BFS 1.0 strategy and the precision call) and A23 (BFS 2.0). Told as one arc for the curiosity question, so don't tell A22 or A23 separately in the same interview.
+- **Ownership:** "I led the strategy for" (never "I built/developed the model"; data science built it).
+- **Left out on purpose:** the $18M figure (basis unresolved); the false-positive program (in development per the launch note); "customer complaints/surveys" as a data source and "based on initial estimates" (not in the sources; add only if true).
+- **[CONFIRM before the interview]:** that you personally reviewed the case analysis with Data Science and the investigators; whether the 10 days and 15% were launch-time estimates or measured (if estimates, say "initial estimates").
+- **Follow-ups:** why precision over recall (about 99% precision, about 25% recall at the 0.95 threshold, with checkout controls catching the rest; shadow run first); how you knew they were fraud (confirmed downstream outcomes; labels arrive late, so explicit timing assumptions); how long to assess a customer who never orders (detection vs. inference cost); why not tighten checkout rules (too late and too blunt, good customers absorb the friction).
+
 ### A24: Detection vs. customer friction
 - **Source:** Stripe L4 story bank S3 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
 **Use for:** hard trade-offs, ML product decisions, how you measure success. **This is the core trade-off in fraud and risk products.**
