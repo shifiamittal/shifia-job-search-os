@@ -563,6 +563,7 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Action:** The checkout-only credit reveal got a lukewarm response in the 5% test. Interviews showed SMBs needed to know monthly eligibility to plan purchases. Redesigned around monthly eligibility, with lower limits, transaction controls, and a pause on delinquency.
 - **Result:** $71M incremental revenue with positive economics.
 - **Tags:** customer insight, iteration
+- **Revised 2026-11-11 (user ruling, per PBI 2.0 project summary + dossier):** the lukewarm response came from **concept validation with 20-30 potential customers before building**, not from the 5% test. Fix: share each month's eligibility at the start of the month. The original design did not communicate the credit limit in advance, as a risk control. The "5% test" wording above is superseded. Full detail: `interview-prep/2026-11-11-pbi-2-0-fact-sheet.md`.
 
 ### A3: SMB Approvals vs. Credit Losses (Amazon)
 - **Action:** Redesigned underwriting rather than lowering thresholds. Capped exposure by risk tier and restricted financing on high-loss categories. Optimized for economic profit, not approvals.
@@ -597,11 +598,13 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Spoken version (~150 words; Stripe L4 story bank S11, 2026-10-25):**
 "When we launched credit for small businesses to 5% of customers, credit losses came in higher than expected, and we couldn't scale to the full segment. That was on me: I'd validated that customers wanted the product, but not that the controls would deliver acceptable portfolio economics. I worked with science to add a lower-risk group of larger businesses to the portfolio; our simulation showed the blended portfolio cut losses 6 to 8%. We relaunched to the blended segment with positive economics, and there were no credit losses after full launch. The lesson I still use: validate the customer opportunity and the economics separately, especially in risk products, where a good customer outcome can hide a bad portfolio."
 **L4 signals:** owning a portfolio-level miss; a fix that changed the strategy, not just the threshold.
+- **Revised 2026-11-11 (user ruling: the original documents are right):** per the PBI 2.0 project summary, the loss issue was found in **Data Science's pre-launch simulation** on the target SMBs; the user proposed adding less-risky unapproved enterprise customers; the updated simulation showed ~6-8% lower potential loss; engineering built the extra integrations. The "losses came in higher in the 5% soft launch" framing above is superseded unless the user confirms actual pilot losses. [CONFIRM whether the 5% launch showed any losses above plan; if not, tell this as a pre-launch simulation decision, not a launch miss, and drop the "I didn't sufficiently validate" line.] Full detail: `interview-prep/2026-11-11-pbi-2-0-fact-sheet.md`.
 
 ### A7: Launching with Limited Information (Amazon)
 - **Action:** 5% controlled launch, smaller limits, purchase-level controls; monitored approvals, acceptance, spend, and repayment before expanding. This surfaced the loss issue early (see A6).
 - **Learning:** With limited information, the decision should include a way to learn safely.
 - **Tags:** ambiguity, risk management
+- **Revised 2026-11-11:** "surfaced the loss issue early" referred to the pre-launch simulation (see A6 revision), not necessarily the 5% launch.
 
 ### A8: MDLC: Self-Serve ML Platform for Amazon Lending (Amazon)
 - **Situation:** Lending extended $8B in credit (usage note 2026-10-25: this is Amazon's lending business as a whole; when describing the Pay by Invoice fraud strategy, say "part of a lending business that extended $8B in credit," not "an $8B credit business"); 50+ risk models from 30+ scientists, growing 30% YoY. Each model took 3–4 months of engineering to ship, and there was no governance.
