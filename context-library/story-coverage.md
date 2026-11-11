@@ -70,7 +70,7 @@ Built from: the Step 1 question list (8 target companies' intel, the 12 most com
 | # | Competency | Primary | Backup | Status |
 |---|---|---|---|---|
 | 33 | Stay curious: dive into the details of a problem | A22 + A23 (BFS 1.0 + 2.0 as one arc) | A2 credit visibility pivot | ✅ Final spoken version in A23 (2026-11-11); confirm the two flagged facts | ✅ A23 spoken version exists; the questions you asked and who you talked to are not recorded |
-| 34 | Stay curious: unfamiliar domain or stretch assignment | A8/A9 MDLC: the move from seller services into credit and lending (SR 11-7) | A10 Privacy for ML | ⚠️ Spoken version not written; how you ramped up on credit, lending and fraud is not recorded |
+| 34 | Stay curious: unfamiliar domain or stretch assignment | A8/A9 MDLC: the move from seller services into credit and lending (SR 11-7) | A10 Privacy for ML | ✅ Final spoken version in A8 (2026-11-11); reserve failure answer noted |
 | 35 | Stay curious: established process → something new | A1/A3/A4/A5/A14 PBI credit decisions | K32 pricing and packaging (with K34) | ⚠️ Spoken version not written |
 | 36 | Craft: above and beyond for the user | A14 credit-analyst tools (details pending) | K29 data platform API catalog and release notes | ❌ Analyst-tool details not recorded; K29 is the fallback |
 | 37 | Craft: iterating on something not complete | K9 + K10 forecast platform (explainability, sequencing) | A12/A15 SPORT | ⚠️ Spoken version not written |
