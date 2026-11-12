@@ -62,6 +62,7 @@ This is the single source of truth. Every skill draws from this file. Anything m
     - **Enterprise AI design:** designed enterprise AI systems at Keystone with security, governance and cost in mind (see K-stories: security review, anonymization, evals, model routing). User has NOT stated admin/power-user experience on an enterprise AI vendor platform (seats, SSO, usage dashboards); don't claim it.
     - **Tool decisions:** yes, made or influenced tool choices and retired/consolidated tooling. [NEEDS DETAIL: which tools, outcome.]
     - **Vendor evaluation:** at Amazon, evaluated multiple vendors for Central Rules Engine capabilities. **Confirmed 2026-11-12 (user): evaluated 3 vendors and decided to build in-house.** [NEEDS DETAIL: vendor names, criteria, why build won; result of the MVP.]
+    - **Prompt design and token costs (confirmed 2026-11-12):** designed prompts and tracked token costs during forecasting-agent prototyping and deployment. Prompts were also compared in the evaluation harness.
     - **Cost tracking:** yes, tracked agent cost. Documented result is ~30% run-cost cut via model routing (K-story). [NEEDS DETAIL: unit tracked (per run / per token), budgets.]
     - **HAT-AI:** documented facts only: AI assistant for roadmap reporting, leadership newsletters and knowledge discovery across 15 finance products; 30 PMs; 120 hrs/week saved. Adoption path and measurement method are not documented.
 
