@@ -281,7 +281,7 @@ The system was not designed to maximize approval rate alone. The objective was t
 
 ## 7.4 Credit-bureau and Moody's integrations
 - **Bureau integrations:** +17% data coverage, +7% approvals. ✅ (implementation depth not in sources)
-- **Moody's integration (credit-data evaluation):** goal to add data for customers without bureau coverage and improve risk prediction for those with it; 3-year cost ~$2.8M; evaluated on a 100K sample (50K configured customers with ≥1 year of history, 50K non-configured); Moody's matched 46% automatically, grades A/B/C accepted; financial data for ~36% of the population, default-probability data ~45% coverage; revenue data staleness (95% from 2021). Headcount: 1.5 science, 1.1 tech. ✅
+- **Moody's integration (credit-data evaluation):** goal to add data for customers without bureau coverage and improve risk prediction for those with it; 3-year cost ~$2.8M; evaluated on a 100K sample (50K configured customers with ≥1 year of history, 50K non-configured); Moody's matched 46% automatically, grades A/B/C accepted; financial data for ~36% of the population, default-probability data (Moody's EDF-X, up to a 10-year term structure) ~45% coverage; revenue data staleness (95% from 2021). Headcount: 1.5 science, 1.1 tech. ✅
 
 ## 7.5 Central Rules Engine (3-year vision, 2023)
 - Credit Systems had 300+ business rules orchestrating credit decisions (e.g., a model predicts 0.7 default probability, a rule decides what that means). Portfolio managers changed ~50 rules a year. ✅
