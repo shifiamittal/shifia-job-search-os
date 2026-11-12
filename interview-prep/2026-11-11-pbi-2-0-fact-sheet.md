@@ -10,7 +10,10 @@ This is a **reference sheet**, not an answer. The story itself (C3) lives in the
 **Your rulings so far (2026-11-11):**
 - The lukewarm feedback came from **concept validation with 20–30 customers before building**, not from the 5% test.
 - The loss-reduction sequence in the **original document** is right: Data Science's simulation came first.
-- Threshold wording and customer count: you said "go with the documents." The customer count still needs your explicit confirmation (O1), because your resume, LinkedIn and library say 50K+.
+- Threshold wording: you said "go with the documents."
+- **Customer count (O1), confirmed 2026-11-12: 50K+.** Do not use 250K.
+- **Losses (O9), confirmed 2026-11-12:** you have no loss data from the 5% launch, so the loss story is the pre-launch simulation, not a launch miss.
+- **Credit-analyst tools (O12):** not the Central Rules Engine for now; you will share a different document, and we will then decide whether the Central Rules Engine belongs in it.
 
 **Contents**
 1. Overview: summary, key numbers, scope and timeline
@@ -44,7 +47,7 @@ Amazon Business's Pay by Invoice (PBI) gave business customers credit through in
 | New minimum credit line | $1,000 | ✅ Project summary |
 | Approval after | 15% (older docs: "10% increase in approval") | ✅ |
 | Incremental spend | $71M (~1% revenue) | ✅ |
-| Customers reached | **50K+** (library, resume, LinkedIn, and the older "Situation statements" and "Phase 3" docs: "10% increase in approval or 50K active customers") vs. **250K active** (Project summary; sizing sheet) | ⚠️ O1 |
+| Customers reached | **50K+** (confirmed 2026-11-12; library, resume, LinkedIn, and the older "Situation statements" and "Phase 3" docs). The Project summary and sizing sheet say 250K: do not use. | ✅ O1 resolved |
 | Economic profit | > 0 | ✅ |
 | Loss reduction from adding enterprise customers | ~6–8% (simulation) | ✅ |
 | Launch pulled forward by choosing batch | ~3 months | ✅ A4 |
@@ -288,7 +291,7 @@ The system was not designed to maximize approval rate alone. The objective was t
 - Problems: enumerating rules took 4–5 months across teams in 2022; each rule change took ~3 months of engineering/science roadmap; ~3 tech and ~1 science headcount a year went to rule changes; the business was expected to grow 3X. ✅
 - You designed: a UI to review rules, a UI to add/edit rules, rules simulation, deployment, and governance/access controls. Roadmap: 2023 alignment and enumeration; 2024 MVP; 2025 onboard small-business loans; 2026 onboard PBI. ✅
 - You prioritized loans over line-of-credit onboarding despite pushback (loans: easier lift, lower risk; line-of-credit was a ~$10B business vs. ~$3B). Result noted: 9 SDEs and 3 science HC over 3 years. ✅
-- **This may be your best C4 example** ("tools for credit analysts / risk teams"): its customers were portfolio managers and manual credit operations. ❓ Your evidence notes say an MVP was built and then reprioritized toward third-party lending; what shipped, who used it and the impact are not recorded (O12).
+- **This may be your best C4 example** ("tools for credit analysts / risk teams"): its customers were portfolio managers and manual credit operations. ❓ Your evidence notes say an MVP was built and then reprioritized toward third-party lending; what shipped, who used it and the impact are not recorded (O12: you will share a different document first).
 
 ## 7.6 Other PBI-area facts
 - **Headcount lines:** PBI 2.0 itself took ~1 science HC; model maintenance ~3 science HC and ~1 tech HC; data privacy/compliance ~0.6 HC. ✅
@@ -308,9 +311,9 @@ The system was not designed to maximize approval rate alone. The objective was t
 
 # 8. Conflicts and open items
 
-## 8.1 Needs your explicit confirmation
-- **O1. Customer count.** Resume, LinkedIn and library: **50K+** (confirmed 2026-10-20). The older "Situation statements" and "Phase 3 behavioral answers" docs also say "10% increase in approval or 50K active customers." The Project summary says "15% approval, or **250K active customers**," and the sizing sheet has a "PBI 2.0 = 250,000 customers / $1B" line that looks like a **projection** (its cells are unlabeled). The Dossier lists 250K among older/conflicting figures. You said "go with the document"; **changing to 250K contradicts the resume and every answer so far.** I recommend 50K+. Please confirm.
-- **O9. Pre-launch vs. post-launch losses.** Your ruling is that the simulation came first. ❓ Did the 5% launch show *any* actual losses above plan? If not, the miss story (A6) becomes a pre-launch simulation story.
+## 8.1 Resolved 2026-11-12
+- **O1. Customer count: 50K+** (your decision). The Project summary's "250K active customers" and the sizing sheet's 250,000 line (likely a projection) are not used.
+- **O9. Losses:** you have no loss data from the 5% launch. The loss story is Data Science's pre-launch simulation, which led you to add less-risky enterprise customers (~6–8% lower simulated loss). Do not tell it as a launch miss and do not claim "I hadn't validated the economics."
 
 ## 8.2 Source conflicts (decide wording)
 - **O2. Rollout sequence:** 5% → 15% → 100% (older doc); 10 → 5% → 15% → 50% → 100% (Project summary); 100 → 1,000 → all (another variant).
@@ -324,7 +327,7 @@ The system was not designed to maximize approval rate alone. The objective was t
 ## 8.3 Only you know
 - **O10.** When you moved onto PBI, relative to MDLC ending Jul 2022.
 - **O11.** What was new vs. PBI 1.0, beyond underwriting and checkout.
-- **O12.** What you built for credit analysts (is it the Central Rules Engine, and what shipped?).
+- **O12.** What you built for credit analysts: you will share a different document; we then decide whether the Central Rules Engine (7.5) is included. Not the Central Rules Engine for now.
 - **O13.** How you recruited the 20–30 customers for concept validation and what they said.
 
 ---
@@ -342,7 +345,7 @@ The system was not designed to maximize approval rate alone. The objective was t
 | Why batch? | Faster launch; only transaction eligibility must be live; real-time on roadmap | O5 |
 | How does checkout decide? | GET with customer id and cart value; reads the precomputed assessment; TAP rules | O5 |
 | What did customers say? | Lukewarm; wanted monthly eligibility to plan | O13 |
-| What went wrong? | Simulation showed potential loss; fixed by adding enterprise customers (6–8% lower) | O9 |
+| What went wrong? | Simulation showed potential loss before launch; fixed by adding enterprise customers (6–8% lower). No actual loss data from the 5% launch. | none |
 | Build vs. buy? | In-house for long-term capability; staged rollout; limited third-party analysis; alternatives (partners, multiple bureaus, category underwriting like Affirm) explored | none |
 | How did you work with Data Science? | 6.3 | none |
 | How did you handle fraud? | 3.3 and 7.7 | none |
@@ -351,7 +354,7 @@ The system was not designed to maximize approval rate alone. The objective was t
 | Biggest risk? | Short-term losses from risky customers; mitigated by exposure caps, small start, delinquency rules | none |
 | What did the checkout API return? | Approved or not for a customer and cart value; backward-compatible versions; exceptions defined in the contract | O8 |
 | What would you do differently? | ❓ your answer | yours |
-| How big was it? | 4% → 15%, $71M | O1 |
+| How big was it? | 4% → 15%, 50K+ customers, $71M | none |
 
 ---
 
