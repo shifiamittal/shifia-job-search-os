@@ -133,7 +133,7 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 - **Need from you:** the one thing planners said that changed what you built; whether explainability shipped before the agent (the library says yes).
 
 **C6. "Tell me about something meaty and complex that you simplified"**
-- **Example: TRACE, explaining shipping-cost changes** (A11). More than 50 cost drivers across 14 systems owned by 14 teams, simplified to two steps: explain why the cost changed, then recommend the top fix.
+- **Example: TRACE, explaining and reducing seller shipping cost** (A11). Spoken version: **FINAL, in the library (A11, "Stripe competency version, C6"; saved 2026-11-13).** About 300 words. The layers of complexity (about 50 drivers, cost per package vs. per item, about 14 data tables with different owners), then three simplifications (item-level cost allocation; explain the change in cost with primary and secondary drivers; rules that turn insights into actions). $40M.
 - **Backup: K6, data catalog and semantic layer for agent grounding.** Simplifying messy, many-system client data into something agents can use.
 - **Why it shows craft:** you reduced a very complex causal problem to something a seller could act on.
 - **Domain proof:** *JD1:* it's the same shape as "why did fraud spike, and what's the fix?" (root cause, then action). *JD2:* delivered through Seller Central APIs, with data contracts and SLAs with upstream owners.

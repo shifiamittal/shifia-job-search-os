@@ -55,3 +55,9 @@ Story: TRACE, explaining and reducing seller shipping cost (library A11; sources
 
 **18. A number looks inconsistent: how do you explain it?**
 "I quote the $40M that TRACE drove directly. Larger figures I've seen combine it with other programs." [CONFIRM what the $100M and $158M figures represent before saying this]
+
+**19. How did you allocate a package's cost to the items in it?** (new, from the final C6)
+"Costs are charged per package, but sellers act per item. For each shipment, I worked with Science to split the cost into used space and unused space: the used space was divided among items in proportion to their volume, and the unused space was divided equally among the items in the package." [CONFIRM against how you remember it; this is from your Summary doc]
+
+**20. What rules did you design to turn insights into recommendations?** (new, from the final C6)
+"The rules took the largest controllable drivers for an item and turned them into plain-language actions, such as reducing packaging, improving inventory placement, shipping more units per box, or switching from air to ground. I left out drivers sellers can't influence, like fuel prices, so every recommendation was something a seller could do." [YOURS: one concrete rule and its threshold]

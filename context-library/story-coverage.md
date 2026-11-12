@@ -74,7 +74,7 @@ Built from: the Step 1 question list (8 target companies' intel, the 12 most com
 | 35 | Stay curious: established process → something new | A1/A3/A4/A5/A14 PBI credit decisions | K32 pricing and packaging (with K34) | ✅ Final spoken version in A1 (2026-11-12) |
 | 36 | Craft: above and beyond for the user | K29 data platform API catalog and release notes | A14 credit-analyst tools and Central Rules Engine (facts recorded; answer not yet written) | ✅ Final spoken version in K29 (2026-11-12) |
 | 37 | Craft: iterating on something not complete | K9 + K10 forecast platform (stability, explainability, free support) | A12/A15 SPORT | ✅ Final spoken version in K9 (2026-11-13) |
-| 38 | Craft: complex → simple | A11 TRACE | K6 data catalog and semantic layer | ⚠️ No spoken version; conflicting number (−40% vs. "4 months to half a day") |
+| 38 | Craft: complex → simple | A11 TRACE | K6 data catalog and semantic layer | ✅ Final spoken version in A11 (2026-11-13) |
 | 39 | AI fluency: a workflow you built and how you assess output | K2 (with K3, K4) | K11, K14, S1 | ✅ facts; spoken version not yet written |
 | 40 | AI fluency: day-to-day use as a PM | HAT-AI (one line in the library) | S1 / your own daily use | ❌ Your daily AI use and HAT-AI detail are not recorded |
 | 41 | Pushed the boundaries while bringing others along in a murky environment | K1 + K12 (pricing K32 moved to row 35 backup) | A7 | ⚠️ Spoken version not written |
