@@ -56,7 +56,7 @@ Reviewer prompts are lenses applied by Claude, not independent models. The hirin
 ### ATS: PASS WITH WARNINGS
 - No tables, text boxes, headers or footers; headers standard; years-only dates consistent; name, email, phone, LinkedIn, location in body.
 - Found in bullets: AI, agent, agentic, MCP, LLMs (restored), evaluation, governance, security, privacy, legal, adoption, change management, vendors, usage-based, onboarding, trained, prototype, production, workflow.
-- Missing from the page: "compliance" and "firmwide" (no supporting evidence). "Prompts" and "token costs" were added to the cost bullet after the user confirmed them (2026-11-12). "Enablement" is in the summary.
+- Missing from the page: "firmwide" (no supporting evidence). "Compliance" added to the MDLC privacy bullet (user, 2026-11-12). "Prompts" and "token costs" were added to the cost bullet after the user confirmed them (2026-11-12). "Enablement" is in the summary.
 - Warning: the AI job-search entry has date "2026" while Keystone reads "Present" (overlap).
 
 ### Hiring manager (credibility and probes)

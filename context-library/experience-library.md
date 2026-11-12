@@ -63,6 +63,7 @@ This is the single source of truth. Every skill draws from this file. Anything m
     - **Tool decisions:** yes, made or influenced tool choices and retired/consolidated tooling. [NEEDS DETAIL: which tools, outcome.]
     - **Vendor evaluation:** at Amazon, evaluated multiple vendors for Central Rules Engine capabilities. **Confirmed 2026-11-12 (user): evaluated 3 vendors and decided to build in-house.** [NEEDS DETAIL: vendor names, criteria, why build won; result of the MVP.]
     - **Prompt design and token costs (confirmed 2026-11-12):** designed prompts and tracked token costs during forecasting-agent prototyping and deployment. Prompts were also compared in the evaluation harness.
+    - **GDPR and regulatory compliance (stated by user 2026-11-12):** led GDPR and regulatory compliance for the Amazon MLOps platform (MDLC). Backed by the privacy-by-default and SR 11-7 governance stories. [NEEDS DETAIL: regulators or audits involved, outcome.]
     - **Cost tracking:** yes, tracked agent cost. Documented result is ~30% run-cost cut via model routing (K-story). [NEEDS DETAIL: unit tracked (per run / per token), budgets.]
     - **HAT-AI:** documented facts only: AI assistant for roadmap reporting, leadership newsletters and knowledge discovery across 15 finance products; 30 PMs; 120 hrs/week saved. Adoption path and measurement method are not documented.
 
