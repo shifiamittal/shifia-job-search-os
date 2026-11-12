@@ -61,7 +61,7 @@ This is the single source of truth. Every skill draws from this file. Anything m
     - **Training and change management:** ran training for **30+ scientists and 15+ org leaders** on how the Amazon MLOps platform (MDLC) works. At Keystone, ran a **demo for 25+ scientists** to drive use of the Data Platform and **led change management at Keystone's clients**. [NEEDS DETAIL: format, dates, follow-up usage.]
     - **Enterprise AI design:** designed enterprise AI systems at Keystone with security, governance and cost in mind (see K-stories: security review, anonymization, evals, model routing). User has NOT stated admin/power-user experience on an enterprise AI vendor platform (seats, SSO, usage dashboards); don't claim it.
     - **Tool decisions:** yes, made or influenced tool choices and retired/consolidated tooling. [NEEDS DETAIL: which tools, outcome.]
-    - **Vendor evaluation:** at Amazon, evaluated multiple vendors for Central Rules Engine capabilities. [NEEDS DETAIL: vendors, criteria, decision, outcome. Not usable with specifics yet.]
+    - **Vendor evaluation:** at Amazon, evaluated multiple vendors for Central Rules Engine capabilities. **Confirmed 2026-11-12 (user): evaluated 3 vendors and decided to build in-house.** [NEEDS DETAIL: vendor names, criteria, why build won; result of the MVP.]
     - **Cost tracking:** yes, tracked agent cost. Documented result is ~30% run-cost cut via model routing (K-story). [NEEDS DETAIL: unit tracked (per run / per token), budgets.]
     - **HAT-AI:** documented facts only: AI assistant for roadmap reporting, leadership newsletters and knowledge discovery across 15 finance products; 30 PMs; 120 hrs/week saved. Adoption path and measurement method are not documented.
 
@@ -646,7 +646,7 @@ Five different metrics. Every story names the one it moved. No data access since
 
 #### MDLC developer-experience details (adds to A8; from "MDLC and MOQ.docx")
 - Deployment 4 months → half a day of science effort; MVP was a Python-script flow (−50% deployment time), then a UI. Secured 8+ engineering HC year over year.
-- Treated onboarding as a product: compared MDLC with a competing internal platform (ML Pigeon), whose docs and Slack community made it easier to adopt; prioritized documentation and community support. Onboarding maintenance 5 → 3 weeks per team; onboarded 3 more science teams without the 1-HC ask. [CONFIRM vs. A8's "5 teams onboarded outside lending."]
+- Treated onboarding as a product: compared MDLC with a competing internal platform (ML Pigeon), whose docs and Slack community made it easier to adopt; prioritized documentation and community support. Onboarding maintenance 5 → 3 weeks per team; onboarded 3 more science teams without the 1-HC ask. (MDLC onboarding facts confirmed by user 2026-11-12. [CONFIRM vs. A8's "5 teams onboarded outside lending."] remains for the team count only.)
 - Wrote an MDLC-vs-SageMaker feature comparison that the team then shared with prospective customers and partners.
 - Data-sourcing feature (internal storage → S3, auto-triggered workflows): −2 weeks per deployment. Auto-containerization from a git link: ~2 engineering HC saved over 2 years.
 - Model governance under Fed SR 11-7: monitoring, versioning, inventory; aligned 4 tech partners and 5 science partners.

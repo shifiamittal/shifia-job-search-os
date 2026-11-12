@@ -8,7 +8,7 @@ Deliverable: `Shifia_Mittal_Resume_Tower_AI_Enablement.docx` / `.pdf` (one page,
 | # | JD requirement | Status | Suggested response |
 |---|---|---|---|
 | 1 | Admin or power-user experience with an enterprise AI platform | None on record | Cover letter: "I haven't administered a vendor's enterprise AI seats. I have designed enterprise AI systems with security review, anonymization, evaluation gates and cost routing built in, so I know what an admin has to control." |
-| 2 | Influence vendor roadmaps | Partial (Central Rules Engine vendor evaluation; outcome undocumented) | Add vendor names, criteria and decision to the library, then add the result to the bullet. |
+| 2 | Influence vendor roadmaps | Partial (evaluated 3 vendors for Central Rules Engine, built in-house) | Shows build-vs-buy judgment, not roadmap influence. Frame it that way; don't claim roadmap influence. |
 | 3 | Track model and feature releases | Partial (model testing on cost, latency, quality, adoption) | Interview answer: how you decide when a new model is worth switching to. |
 | 4 | Daily coding-agent use | Stated by user (Claude Code, Cursor, Copilot, ChatGPT), not provable from a bullet | Keep off the resume (style guide: no Skills section); say it in the summary line of the cover letter and the first screen. |
 
@@ -22,9 +22,9 @@ Deliverable: `Shifia_Mittal_Resume_Tower_AI_Enablement.docx` / `.pdf` (one page,
 | Data platform, 8 engineers, 3 months to 3 weeks; 25+ scientist demo | R37 bullet; demo stated by user 2026-11-12 | REWORDED. **Confirm demo detail.** |
 | Agent run cost ~30% via model routing | Library (confirmed 2026-10-15) | REWORDED |
 | Tiered pricing, usage-based and savings-based rejected | Library item 17 and pricing trade-off | REWORDED |
-| Credit systems vision, vendor evaluation, Central Rules Engine MVP | Library 2026-11-12 plus user statement | INFERRED **[VERIFY: no outcome documented; confirm vendors evaluated and that you designed the MVP]** |
+| Credit systems vision, vendor evaluation, Central Rules Engine MVP | Library 2026-11-12 plus user statement | REWORDED (user confirmed 2026-11-12: 3 vendors evaluated, built in-house). No outcome metric on record. |
 | Bias, responsible AI, MLOps, privacy, Supply Chain, Pricing, Cognizant | R37 bullets | EXACT |
-| Onboarding as a product, 30+ scientists and 15+ leaders trained, 5 to 3 weeks | Library line on onboarding (marked [CONFIRM]) plus user statement | INFERRED **[VERIFY: 5 to 3 weeks is marked CONFIRM in the library]** |
+| Onboarding as a product, 30+ scientists and 15+ leaders trained, 5 to 3 weeks | Library line on onboarding (marked [CONFIRM]) plus user statement | REWORDED (MDLC facts confirmed by user 2026-11-12) |
 
 Removed for space and relevance: Amazon Business financing launch ($71M, 50K+ customers), TRACE ($40M), the Keystone product-lane and MVP bullet, the ROI-prototype bullet.
 
