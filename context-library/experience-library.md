@@ -559,6 +559,22 @@ Five different metrics. Every story names the one it moved. No data access since
 #### PBI 2.0 credit product was 0→1 (stated by user 2026-10-25)
 - The user confirms the ML credit product launched in Amazon Business Financing & Credit (A1, 50K+ customers, $71M incremental revenue) was a **0-to-1 product**. OK to say "developed a 0-to-1 credit product." [NEEDS DETAIL for follow-ups: what was new versus PBI 1.0.]
 
+**Stripe competency version, C3 "Stay curious: established process → something new" (FINAL 2026-11-12, written with the user in STAR-L; ~290 words, ~2 min; over the style guide's 200, so use the cut list if time is tight):**
+"At Amazon Business, credit underwriting relied on bureau data that didn't exist for about 60% of small businesses, plus a $10,000 minimum credit line. Small businesses drove about 60% of spend, yet only 4% were approved, and around 100,000 left each year, partly for lack of credit. I owned the S-team goal to expand their access to credit without hurting the lending economics.
+
+Manual reviews showed many declined businesses were creditworthy, so I challenged the assumption that credit history was the only basis. I partnered with Credit Science and Engineering to build on Amazon's own behavioral data, and I made two decisions. I optimized for economic profit rather than approval rate: a $1,000 minimum line instead of $10,000, and lower limits for riskier customers, because approving more people alone raises losses. And I scored customers in batches and had checkout look up the result, instead of running a live model, because creditworthiness changes slowly and only the purchase has to be checked live. That brought launch forward about three months.
+
+The hard part: a test with 20 to 30 customers got a lukewarm response, because they couldn't plan purchases without knowing their eligibility, so we shared it monthly. Data Science's simulation also showed potential losses, so I suggested adding less-risky enterprise customers, which cut the simulated loss 6 to 8%.
+
+We launched to 5% and scaled in phases. Approval went from 4% to 15%, reaching more than 50,000 customers and $71 million in incremental spend, with positive economic profit.
+
+What I took from it: you don't have to follow a process just because it's the status quo. Start from the customer's need, find another way to solve it, and balance that against the business's constraints."
+- **Cut list (to about 200 words):** (1) "Manual reviews showed… the only basis"; (2) "a $1,000 minimum line instead of $10,000, and lower limits for riskier customers"; (3) the Data Science simulation sentence.
+- **Confirmed by the user 2026-11-12:** the $1,000 minimum and the lower limits for riskier customers (exposure caps by risk tier) were her decisions; the batch-plus-live-check call was hers; 50K+ customers; no actual loss data from the 5% launch (the loss story is the pre-launch simulation); the 20-30 customer test came before building.
+- **Plain-language definitions (if asked):** exposure = the most credit Amazon is willing to have outstanding with one customer; economic profit = profit on the extra spend minus credit losses; batch scoring = each customer assessed in advance on a schedule, with checkout reading that result and applying purchase-level rules live.
+- **Left out on purpose:** the "I hadn't validated the economics" line (no 5% loss data); the 250K figure; the Central Rules Engine (C4 decision pending).
+- **Follow-ups:** full detail in `interview-prep/2026-11-11-pbi-2-0-fact-sheet.md` (CPA/TAP models, API, trade-offs, open items O2-O8).
+
 ### A2: Credit Visibility vs. Risk: Pivot from Customer Feedback (Amazon)
 - **Action:** The checkout-only credit reveal got a lukewarm response in the 5% test. Interviews showed SMBs needed to know monthly eligibility to plan purchases. Redesigned around monthly eligibility, with lower limits, transaction controls, and a pause on delinquency.
 - **Result:** $71M incremental revenue with positive economics.
