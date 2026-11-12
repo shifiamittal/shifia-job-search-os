@@ -1,6 +1,6 @@
 # Application Tracker
 
-Last updated: 2026-10-24
+Last updated: 2026-11-12
 Scope: current search (2026) only.
 Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applications made on company sites or through referrals aren't captured yet. Add them with `/app-tracker add`.
 
@@ -44,6 +44,25 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Next action:** Look for a Qualcomm connection or referral (AI Platforms / Windows on Snapdragon) before submitting; submit by 2026-10-24; then follow up by 2026-10-31.
 - **History:**
   - 2026-10-22 Evaluated JD; resume tailored
+
+### Tower Research Capital - AI Enablement Lead
+- **Status:** applying (resume and cover letter ready 2026-11-12; not yet submitted)
+- **Job ID / URL:** [not recorded; add when you apply]
+- **Date applied:** [not yet]
+- **Referral:** No
+- **Resume version:** `resumes/Shifia_Mittal_Resume_Tower_AI_Enablement.docx` / `.pdf` (analysis and reviews: `resumes/2026-11-12-tower-ai-enablement-lead.md`)
+- **Cover letter:** Yes, `resumes/2026-11-12-tower-cover-letter.md` (244 words)
+- **Connection at company:** None in connection-tracker.md
+- **Work product sent:** No
+- **Background check stage:** unknown
+- **Company tier:** Unranked (not in target-companies.md)
+- **Location:** NYC, Chicago or Remote (Core Engineering department). Confirm what "Remote" means for this role.
+- **Comp:** Not in the JD. Ask for base, bonus and equity at the first screen. Floor is $380-400K total comp.
+- **Fit:** Resume keyword coverage 17/19 (8 strong, 9 partial, 2 none). No `/job-fit-scorer` run. Gaps: enterprise AI platform admin, retiring redundant tooling, vendor roadmap influence. Level and track: internal enablement role, not a Principal PM or Head of Product track.
+- **Last action:** 2026-11-12 Resume tailored, reviewed (recruiter, ATS, hiring manager) and finalized; cover letter drafted.
+- **Next action:** Look for a Tower connection or referral before submitting. Update LinkedIn ARR to $7.5M. Prepare answers on HAT-AI adoption, the in-house rules engine decision, and tool standardization.
+- **History:**
+  - 2026-11-12 Evaluated JD; resume tailored and finalized; cover letter drafted
 
 ## Recruiter Screen
 
