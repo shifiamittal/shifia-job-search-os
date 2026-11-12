@@ -1,5 +1,5 @@
 # Cover Letter - Tower Research Capital, AI Enablement Lead
-**Word count:** 254/300 (body)
+**Word count:** 244/300 (body)
 **Top 3 JD requirements addressed:**
 1. Partner with InfoSec and Legal & Compliance to move capabilities through review --> MDLC GDPR and regulatory compliance, privacy by default (user stated 2026-11-12; library privacy-by-default story)
 2. Take tools from early adopters to broad use; build enablement material --> MDLC training (30+ scientists, 15+ org leaders), onboarding 5 to 3 weeks; HAT-AI (30 PMs, 120 hrs/week)
@@ -9,7 +9,7 @@
 
 Dear Tower Hiring Team,
 
-Your posting asks for someone who helps trading and research teams redesign how work gets done, not layer AI onto what they already do. That has been my job for 11 years, first with scientists and then with planners. My title was product manager; the work was getting technical users to adopt tools that change how they work.
+I'm applying for the AI Enablement Lead role. For 11 years, I have helped scientists and planners adopt new technical tools and redesigned their workflows around them. My title was product manager, but the work matches what you describe: helping technical teams change how they work with AI.
 
 Moving capabilities through review. At Amazon, I led GDPR and regulatory compliance for our ML platform. I made privacy the default with access controls, encryption and anonymization, and set the rules with Amazon's privacy and legal teams. About 20 Payments teams adopted them, saving 5 science FTE per year. I bring InfoSec and Legal in early, so review speeds adoption up.
 
