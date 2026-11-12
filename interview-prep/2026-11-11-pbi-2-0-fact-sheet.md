@@ -26,7 +26,7 @@ This is a **reference sheet**, not an answer. The story itself (C3) lives in the
 8. Conflicts and open items
 9. Follow-up question bank
 10. Delivery notes from past feedback
-11. Prepared follow-up answers for the C3 story
+11. Prepared follow-up answers for the C3 story (14 questions)
 
 ---
 
@@ -368,44 +368,47 @@ The system was not designed to maximize approval rate alone. The objective was t
 
 ---
 
-# 11. Prepared follow-up answers for the C3 story (spoken, about 60–90 words each)
-Written 2026-11-12 from the sources above. **[YOURS]** marks what only you can supply; **[CONFIRM]** marks a fact to verify before you say it. Do not state anything marked as unresolved in Part 8.
+# 11. Prepared follow-up answers for the C3 story (final 2026-11-12)
+Spoken, about 60–90 words each, written in plain language from the sources above. **[YOURS]** marks what only you can supply; **[CONFIRM]** marks a fact to verify before you say it. Do not state anything marked unresolved in Part 8. The questions follow what your answer actually says.
 
-**1. Why batch scoring plus a live check, not real-time? Walk me through checkout.**
-"A business's creditworthiness depends on its purchase and repayment history, which moves slowly, so I scored each customer in advance in batches. What has to be fresh is whether this particular purchase is eligible. At checkout, an API took the customer ID and cart value, read the precomputed assessment, and applied category rules. No live model ran in the checkout path, so we avoided latency and a model-availability dependency, and launched about three months sooner. Real-time scoring stayed on the roadmap." **[CONFIRM exactly what was synchronous: O5, O8]**
+**1. How did the credit decision work at checkout?** (follows "launched it at checkout while restricting credit-based purchases in high-risk categories")
+"Before a customer ever reached checkout, we had already assessed how risky they were, so checkout didn't have to do any heavy calculation. When they checked out, the system looked up that stored assessment and checked whether this particular purchase was allowed, for example whether the product was in a category we excluded. I chose this over scoring live at checkout because a business's creditworthiness changes slowly. It was simpler to build and launched about three months sooner." **[CONFIRM exactly what ran live: O5, O8]**
 
-**2. What is economic profit, and how did you set the cut-off?**
-"Economic profit is the profit on the extra spend minus the credit losses. Approval rate alone would have pushed us to approve riskier customers and raise losses. For different probability-of-default cut-offs, the model estimated economic profit, and we chose the cut-off that maximized it. I compared cut-offs from 0.1 upward on precision, recall and business metrics. The customer-level cut-off was deliberately tolerant, because the category rules then controlled losses."
+**2. What is economic profit, and why use it instead of approval rate?**
+"Approval rate only counts how many businesses we say yes to. But every yes can either make money or lose money. Economic profit is what we earn on the extra purchases minus what we lose when someone doesn't pay. If I had chased approvals, we would have said yes to risky customers and lost money. So I picked the cut-off where economic profit was highest, not the one where we approved the most."
 
 **3. How did you limit the risk of lending to riskier businesses?**
-"In layers. Riskier customers started with lower credit limits, and limits rose only with purchase history. Category rules excluded products that drove a disproportionate share of historical losses, for example a category responsible for about three-quarters of losses among risky customers, and we favored higher-margin categories. Any delinquency meant declining future purchases, and one day past due triggered suspension. The fraud score also ran before credit assessment."
+"In layers. Riskier customers started with lower credit limits, and limits rose only as they built a purchase history. We blocked product categories that caused most of the losses, and focused on higher-margin products. If a customer was ever late, we declined their next purchases, and one day past due triggered suspension. Fraud checks also ran before credit was extended."
 
-**4. How did you know non-bureau data predicts default?**
-"Two signals. Manual credit reviews of declined customers showed many were creditworthy. And customers our fraud model cleared did not default, so Amazon's own history was informative. The model used spend, tenure, Prime status and prior repayment, and I validated it with 15 months of training data, an 80/20 split, three months of out-of-sample data with known outcomes, and a 5% live experiment. We used SHAP to make it explainable to the business." (If asked the algorithm, say "a tree-based model." **[CONFIRM: O3]**)
+**4. How did you know Amazon's own data could predict who would repay?**
+"Three checks. First, we manually reviewed customers the old system had declined, and many looked creditworthy. Second, customers who passed our fraud checks and had a long history with Amazon almost never defaulted. Third, we tested it before trusting it: we built the model on 15 months of past data, checked it on three months it hadn't seen, then ran a 5% live launch before scaling." (If asked about the model: "a tree-based model, and we used feature importance so the business could understand it." **[CONFIRM O3]**)
 
-**5. Why did you originally hide credit limits, and then change?**
-"Not communicating the limit in advance was a risk control in the original design. But when I tested the concept with 20 to 30 customers, they told me they couldn't plan purchases without knowing their eligibility. So we shared eligibility at the start of each month." **[YOURS: one sentence on how you weighed the risk of showing it, for example that exposure stayed capped by lower limits and the category rules]**
+**5. What key metrics did you track?** (new)
+"Four numbers at each rollout stage: how many customers were approved, how many actually used the credit, how much extra spend it drove, and how many payments were even one day late. The first three told me whether it was working. The last was my early warning on risk, because one day past due triggered suspension. I only moved to the next stage when those looked healthy, and I checked repayment every three months. Overall, the test was whether economic profit stayed positive." **[CONFIRM the repayment-check cadence you used in the 5% stage (O2)]**
 
-**6. Tell me about the customer testing.**
-"Before investing in development, I validated the idea with 20 to 30 potential customers. The response was lukewarm. Their feedback was specific: without knowing their monthly eligibility, they couldn't plan purchases. That changed the product, so we shared eligibility monthly instead of only revealing it at checkout." **[YOURS: how you recruited them and one thing a customer said (O13)]**
+**6. Why did you originally hide credit limits, and then change?**
+"Not showing the limit in advance was a risk control in the original design. But when I tested the idea with 20 to 30 customers, they told me they couldn't plan their purchases without knowing their eligibility. So we shared it at the start of each month." **[YOURS: one sentence on how you weighed the risk of showing it]**
 
-**7. Why add enterprise customers to an SMB product?**
-"Data Science's simulation of the initial target customers showed potential losses. Some enterprise customers had been declined for non-risk reasons, such as being newly incorporated or having credit lines in multiple marketplaces. They are the safest customers, so adding them absorbed losses from riskier approvals. The updated simulation showed about 6 to 8% lower potential loss, and I aligned engineering to build the extra integrations." (The absolute loss figure is not on record: do not quote one.)
+**7. Tell me about the customer testing.**
+"Before investing in development, I tested the idea with 20 to 30 potential customers. The response was lukewarm, and the reason was specific: without knowing their monthly eligibility, they couldn't plan purchases. That changed the product, so we shared eligibility every month instead of only revealing it at checkout." **[YOURS: how you recruited them and one thing a customer said (O13)]**
 
-**8. What was your role versus Data Science's?**
-"Data Science built and validated the models. I defined the customer problem and the objective, pushed for economic profit instead of approval rate, suggested the cut-off approach and the data sources, and chose to include the enterprise customers. I aligned science, engineering, legal and leadership on the plan and ran the launch." (Use "I" for those; avoid "we.")
+**8. Why add enterprise customers to an SMB product?**
+"Data Science's simulation showed we could lose money on the riskier small businesses. Some enterprise customers had been declined for reasons that had nothing to do with risk, like being newly incorporated. They are the safest customers, so adding them offset losses from riskier ones. The updated simulation showed about 6 to 8% lower potential loss, and I got engineering to build the extra integrations." (No absolute loss figure is on record: don't quote one.)
 
-**9. Fairness and regulation?**
-"The model used business-level data only. Owner personal attributes and ZIP code were excluded, we produced reason codes for declined applicants, and Legal approved the model. I want to be clear that I did not run a fair-lending review myself; Amazon had its own practices for that." **[CONFIRM against library entry on regulated data]**
+**9. What was your role versus Data Science's?**
+"Data Science built and validated the models. I defined the customer problem and the goal, pushed for economic profit over approval rate, suggested how to set the cut-off and which data to use, and decided to include the enterprise customers. I aligned science, engineering, legal and leadership, and ran the launch."
 
-**10. What were the results, exactly?**
-"Approval went from 4% to 15%, reaching more than 50,000 customers and generating $71 million in incremental spend, about 1% of revenue, with positive economic profit. There were no credit losses after full launch. Adoption was a separate challenge: only 5% of approved smaller customers were actively using their credit line, which is what the personalization and onboarding work then addressed." **[CONFIRM the "no credit losses after full launch" wording against the library before saying it]**
+**10. Fairness and regulation?**
+"The model only used business-level data. We excluded owners' personal attributes and ZIP code, produced reasons for declined applicants, and Legal approved the model. I didn't run a fair-lending review myself; Amazon had its own practices for that." **[CONFIRM against the library's regulated-data entry]**
 
-**11. Build versus buy?**
-"I chose to build in-house. The in-house route built a credit-assessment capability that didn't depend on bureau data, which could approve many more customers over time. The risk was short-term losses, so I mitigated it with a phase-wise rollout. I looked at external partners, multiple bureau integrations and category-based underwriting like competitors such as Affirm, and chose on long-term benefit versus effort. I'll be upfront that I had limited time to analyze third-party providers."
+**11. What were the results, exactly?**
+"Approval went from 4% to 15%, reaching more than 50,000 customers and generating $71 million in incremental spend, about 1% of revenue, with positive economic profit. Getting people to use the credit was a separate challenge: only 5% of approved smaller customers were actively using it, which our personalization and onboarding work then addressed." **[CONFIRM the library's "no credit losses after full launch" wording before saying it]**
 
-**12. What would you do differently?**
-"One limitation I'd address earlier: the checkout rules judged the cart without considering a customer's own history with similar products, so a customer who had repaid luxury purchases looked the same as a first-time buyer. Real-time cart-level checks were on my roadmap, and I'd bring them forward." **[YOURS: confirm this is what you'd say; do not claim a launch miss, since there is no 5% loss data]**
+**12. Build versus buy?**
+"I built it in-house. It gave us a way to assess credit that didn't depend on bureau data, so we could approve many more customers over time. The risk was short-term losses, which I limited with a phased rollout. I looked at external partners, multiple credit bureaus and category-based approaches like Affirm's, and chose on long-term benefit versus effort. I'll be upfront that I had limited time to analyze third-party providers."
 
-**13. How does this relate to Radar?**
-"It is the same trade-off Radar makes: letting good customers through while keeping bad actors out. In credit, a false decline cost us a customer and sales, and a false approval cost us a loss. I used layers so no single control had to be perfect: a customer-level model tolerant of some misses, then category rules to control losses, with fraud signals feeding in from our fraud score. For Radar, I'd start by pricing each kind of error, then layer the controls."
+**13. What would you do differently?**
+"The checkout rules looked only at the cart, not at a customer's own history with similar products, so someone who had repaid luxury purchases looked the same as a first-time buyer. I had real-time cart-level checks on my roadmap, and I'd bring them forward." **[YOURS: confirm this is what you'd say; don't claim a launch miss]**
+
+**14. How does this relate to Radar?**
+"It's the same trade-off Radar makes: letting good customers through while keeping bad actors out. In credit, a wrong decline cost us a customer and sales, and a wrong approval cost us a loss. I used layers so no single control had to be perfect: a model that tolerated some misses, then category rules, with fraud checks feeding in. For Radar, I'd start by putting a cost on each kind of mistake, then layer the controls."

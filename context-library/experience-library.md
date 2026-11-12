@@ -568,7 +568,7 @@ Five different metrics. Every story names the one it moved. No data access since
 - **Wording notes:** the 3% figure is about 3% of annual GMS (sales), not revenue; say "sales" or "GMS." Keep "I" for what you did; past feedback says "we" was overused.
 - **Not in the answer but ready as follow-ups:** the batch-scoring-plus-live-check decision (about 3 months faster), the 20-30 customer test details, no 5% loss data (the loss story is the pre-launch simulation), 50K+ (not 250K).
 - **Confirmed by the user 2026-11-12:** the $1,000 minimum and lower limits for riskier customers were her decisions; the batch-plus-live-check call was hers; 50K+ customers; no actual loss data from the 5% launch; the 20-30 customer test came before building.
-- **Prepared follow-up answers:** `interview-prep/2026-11-11-pbi-2-0-fact-sheet.md`, section 11 (13 questions). Full project detail is in the rest of that sheet.
+- **Prepared follow-up answers:** `interview-prep/2026-11-11-pbi-2-0-fact-sheet.md`, section 11 (14 questions, final 2026-11-12). Full project detail is in the rest of that sheet.
 
 ### A2: Credit Visibility vs. Risk: Pivot from Customer Feedback (Amazon)
 - **Action:** The checkout-only credit reveal got a lukewarm response in the 5% test. Interviews showed SMBs needed to know monthly eligibility to plan purchases. Redesigned around monthly eligibility, with lower limits, transaction controls, and a pause on delinquency.
