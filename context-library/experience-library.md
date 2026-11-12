@@ -948,7 +948,7 @@ Six teams adopted it. Each integration had its own dependency to manage: data en
 - **Tags:** when NOT to use an agent, builder, evals
 
 #### S1 repo (confirmed 2026-10-24)
-- Job-search agent code: https://github.com/shifiamittal/pm-job-search-agent. Language and stack not recorded; don't name them until confirmed.
+- Job-search agent code: https://github.com/shifiamittal/pm-job-search-agent. Built with Claude Code and Codex (confirmed by user 2026-11-12); programming language not recorded.
 
 
 ### Notes and sources (not stories)
