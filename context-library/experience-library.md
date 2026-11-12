@@ -66,6 +66,14 @@ This is the single source of truth. Every skill draws from this file. Anything m
     - **GDPR and regulatory compliance (stated by user 2026-11-12):** led GDPR and regulatory compliance for the Amazon MLOps platform (MDLC). Backed by the privacy-by-default and SR 11-7 governance stories. [NEEDS DETAIL: regulators or audits involved, outcome.]
     - **Cost tracking:** yes, tracked agent cost. Documented result is ~30% run-cost cut via model routing (K-story). [NEEDS DETAIL: unit tracked (per run / per token), budgets.]
     - **HAT-AI:** documented facts only: AI assistant for roadmap reporting, leadership newsletters and knowledge discovery across 15 finance products; 30 PMs; 120 hrs/week saved. Adoption path and measurement method are not documented.
+29. **AI infrastructure PM intake (stated by user 2026-11-12, ExodusPoint AI Product Manager, Infrastructure Services):**
+    - **Location:** not open to New York; applying for interview practice only.
+    - **LLM experience start:** none before Keystone (Jun 2024), so about 2 years hands-on GenAI. The JD asks for 3+. Don't claim 3+.
+    - **Model evaluation:** evaluated models on cost and latency (documented: model routing, ~30% run-cost cut). User did NOT claim a managed vs self-hosted or open-weight decision; don't claim one.
+    - **Agent permissions:** OK to frame the launch rule "no direct forecast changes" as limiting agent permissions. No prompt injection, SSO or role-based access evidence recorded.
+    - **Operations:** user said yes to production operations and availability targets, with no detail. [NEEDS DETAIL: ITIL practices, incident process, SLAs signed or intended (K30 CONFIRM), uptime/latency targets.] Don't claim ITIL or an SLO until detailed.
+    - **Cloud:** AWS strong; Azure via client deployments (Pulumi); no Google Cloud.
+    - **Retrieval precision conflict:** line 96 says 0.58 to 0.87; K8 says 0.58 to 0.72 to 0.81. Resume uses 0.81 (K8) until settled. Qdrant listed as familiarity only; don't claim it for a specific system until confirmed.
 
 ---
 

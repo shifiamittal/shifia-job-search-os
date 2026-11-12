@@ -64,6 +64,25 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **History:**
   - 2026-11-12 Evaluated JD; resume tailored and finalized; cover letter drafted
 
+### ExodusPoint Capital - AI Product Manager, Infrastructure Services
+- **Status:** applying (resume ready 2026-11-12; for interview practice only)
+- **Job ID / URL:** [not recorded]
+- **Date applied:** [not yet]
+- **Referral:** No
+- **Resume version:** `resumes/Shifia_Mittal_Resume_ExodusPoint_AI_PM.docx` / `.pdf` (analysis: `resumes/2026-11-12-exoduspoint-ai-pm-infrastructure.md`)
+- **Cover letter:** No
+- **Connection at company:** None in connection-tracker.md
+- **Work product sent:** No
+- **Company tier:** Unranked (not in target-companies.md)
+- **Location:** New York. Conflicts with "Seattle, not open to relocation" in career-plan.md; user is applying for interview practice only.
+- **Hiring manager:** Arram Han, CISO / Head of Infrastructure (from the JD)
+- **Comp:** Not in the JD.
+- **Fit:** Resume keyword coverage 14/15 (5 strong, 9 partial, 1 none). No `/job-fit-scorer` run. Gaps: networking and architecture depth, 3+ years of LLM experience (you have about 2), ITIL, vector database, Google Cloud.
+- **Last action:** 2026-11-12 Resume tailored and reviewed.
+- **Next action:** Decide whether to submit. Settle the 0.81 vs 0.87 retrieval-precision figure first.
+- **History:**
+  - 2026-11-12 Evaluated JD; resume tailored
+
 ## Recruiter Screen
 
 ### Coinbase - Group Product Manager, Core Infrastructure & Reliability
