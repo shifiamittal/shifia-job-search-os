@@ -11,12 +11,12 @@ Deliverable: `Shifia_Mittal_Resume_ExodusPoint_AI_PM.docx` / `.pdf` (one page, b
 |---|---|---|---|
 | 1 | Strong architecture foundation: networking, distributed systems; challenge designs | None (library says don't claim Kubernetes, networking, multi-region, capacity planning) | Interview answer on trade-offs you did own: managed service in client cloud, model routing, build vs buy on the rules engine. |
 | 2 | 3+ years of practical LLM/AI services | Partial: about 2 years hands-on GenAI plus 8 years ML platforms | Frame as "2 years in production on LLM agents and RAG, 8 years running ML platforms." Never claim 3+. |
-| 3 | Vector databases | Not on resume. Qdrant is listed as familiarity only. | Confirm whether Qdrant ran in the Keystone RAG pipeline; add if yes. |
+| 3 | Vector databases | Matched: Qdrant ran in the Keystone RAG pipeline (user confirmed 2026-11-12) | Now on the resume. |
 | 4 | Managed vs self-hosted / open-weight inference | Cost and latency model evaluation only | Don't claim a managed vs self-hosted decision. |
 | 5 | IAM, authN/Z, prompt injection, data leakage | Partial: access controls, encryption, anonymization, PII blocking, blocked direct forecast changes | No prompt injection or SSO evidence recorded. Prepare an answer. |
-| 6 | ITIL, availability targets | User said yes with no detail | Not on resume until detailed (ITIL practices, SLAs signed or intended, uptime targets). |
+| 6 | ITIL, availability targets | User said she set these up as part of the Deep Enterprise platform; no detail given | Resume says "set up production operations" only. Add ITIL or numeric targets once detailed. |
 | 7 | Google Cloud | None | Say AWS and Azure. |
-| 8 | Observability | Monitoring and alerts present; the word "observability" is not | Add only if you describe it that way. |
+| 8 | Observability | Matched: user confirmed monitoring and observability for the AI agent and MDLC (2026-11-12) | Now on the resume (MLOps bullet and operations bullet). |
 
 ## Traceability
 | Bullet | Source | Match |
@@ -24,7 +24,7 @@ Deliverable: `Shifia_Mittal_Resume_ExodusPoint_AI_PM.docx` / `.pdf` (one page, b
 | Deep Enterprise platform, $7.5M ARR, $25M savings, 5 Fortune 500 clients | R37 bullet 1, library canonical | REWORDED |
 | Security review, managed service, AWS and Azure IaC, 2 additional clients | Managed-service story (2026-10-20); multi-cloud (2026-10-24) | REWORDED |
 | Multi-agent system, evals, blocked direct forecast changes, 70% acceptance, 4 hrs/day to 4 hrs/week | K2 story; launch thresholds ("no direct forecast changes") | REWORDED |
-| RAG retrieval precision 0.58 to 0.81 | K8 | REWORDED. **Conflict:** another library line says 0.87. Used 0.81. Settle before sending. |
+| RAG retrieval precision@5 0.58 to 0.87, Qdrant | Library embeddings line; user confirmed 0.87 and Qdrant 2026-11-12 | REWORDED |
 | Agent run cost ~30%, token costs, prompts and models | Library (2026-10-15); user confirmed token and prompt work 2026-11-12 | REWORDED |
 | Data platform, 8 engineers, 3 months to 3 weeks | R37 bullet | EXACT |
 | Production operations with client IT | K30 actions (monitoring, alerts, escalation forum) | REWORDED. SLAs left out (library [CONFIRM]). |
@@ -46,4 +46,4 @@ Removed vs R37: Amazon Business financing launch ($71M), SMB bias bullet, TRACE,
 ## Risks
 - Keystone shows "Present" (user decision); verification shows Mar 2026.
 - Location mismatch with career plan; used for practice only.
-- Precision metric conflict (0.81 vs 0.87).
+- ITIL and availability claims have no detail; prepare specifics before an interview.

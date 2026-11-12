@@ -73,7 +73,8 @@ This is the single source of truth. Every skill draws from this file. Anything m
     - **Agent permissions:** OK to frame the launch rule "no direct forecast changes" as limiting agent permissions. No prompt injection, SSO or role-based access evidence recorded.
     - **Operations:** user said yes to production operations and availability targets, with no detail. [NEEDS DETAIL: ITIL practices, incident process, SLAs signed or intended (K30 CONFIRM), uptime/latency targets.] Don't claim ITIL or an SLO until detailed.
     - **Cloud:** AWS strong; Azure via client deployments (Pulumi); no Google Cloud.
-    - **Retrieval precision conflict:** line 96 says 0.58 to 0.87; K8 says 0.58 to 0.72 to 0.81. Resume uses 0.81 (K8) until settled. Qdrant listed as familiarity only; don't claim it for a specific system until confirmed.
+    - **Retrieval precision (confirmed by user 2026-11-12):** use precision@5 0.58 to 0.87 (settles the 0.81 vs 0.87 conflict). Qdrant vector database ran in the Keystone RAG pipeline (confirmed).
+    - **Operations (user 2026-11-12):** set up production operations as part of the Deep Enterprise platform setup (ITIL-style practices and availability targets, no detail given). Monitoring and observability covered the AI agent and MDLC. Don't write ITIL or numeric targets until detailed.
 
 ---
 
