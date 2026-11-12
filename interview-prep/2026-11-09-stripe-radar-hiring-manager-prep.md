@@ -116,14 +116,12 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 ### Create with craft and beauty
 
 **C4. "Tell me about a time you went above and beyond to create a better experience for users"**
-- **Example, first choice: the tools you built for credit analysts** (A14 note) **[ASK: this is the best fit for JD1's "tools for fraud analysts or risk teams," but the library has only one line]:** who the analysts were, what you automated, how you learned their work (shadowing?), the detail you refined, the impact.
-- **Backup: the Keystone data platform's API catalog and release notes for app developers** (K29). Care for developers as users: documented every endpoint (what it returns, schema, authentication, an integration example) and wrote the release notes yourself. The app team onboarded five new client dashboards. *(Engineering built the tooling; you owned the catalog and the release communication.)* **If the analyst-tool details don't come back, this becomes the primary.**
-- **Example, fallback (documented): the data platform's API catalog and release notes for app developers** (K29). Care for developers as users.
-- **Why it shows craft:** craft is care for the user; here the users are analysts or developers, not end customers.
-- **Domain proof:** *JD1:* analyst tooling. *JD2:* developer experience, documentation and the path to production.
-- **L4 signals:** adoption by teams you didn't manage; a reusable interface, not a one-off.
-- **Gaps it bridges:** fraud-analyst tooling (JD1 preferred); external-developer empathy (JD2).
-- **Fallback opening (about 130 words):** "The app team wanted to build client dashboards, but the data was shaped like SAP tables, and every developer would have had to decode it. I designed generic data APIs and a data contract, then documented every endpoint: what it returns, the schema, how to authenticate, and an integration example. And I wrote the release notes myself every time one changed, so no one had to ask. The app team onboarded five new client dashboards with no extra effort." *(Don't claim the tooling: engineering built it; you owned the catalog and the release communication.)*
+- **Example (primary): the Keystone data platform's API catalog and release notes for application developers** (K29). Spoken version: **FINAL, in the library (K29, "Stripe competency version, C4"; saved 2026-11-12).** About 270 words (cut list in the library gets it to about 200). Developers depended on your team for every metric (about 50% of the sprint); you wrote the catalog, field definitions and release notes; five dashboards onboarded and the sprint share fell to about 10%.
+- **Backup: the credit-analyst tools and Central Rules Engine MVP** (A14 note; fact sheet `interview-prep/2026-11-12-credit-ops-tools-fact-sheet.md`). You wrote the convergence vision, shadowed and interviewed about 10 analysts, and designed the solution; features shipped; the rules engine MVP shipped without access control and credit ops used it without engineering. Answer not yet written; open items: the detail you cared about, impact numbers, an analyst moment.
+- **Why it shows craft:** craft is care for the user; here the users are developers (and analysts), not end customers. The catalog and field definitions are the product's user experience.
+- **Domain proof:** *JD2:* developer experience, documentation, the path to production, and an API service other teams build on. *JD1:* the backup covers analyst tooling and rules for risk teams.
+- **L4 signals:** a platform other teams built on without your team; freed about 40 points of sprint capacity for client work.
+- **Gaps it bridges:** external-developer empathy (JD2); fraud-analyst tooling (JD1, via the backup).
 
 **C5. "Tell me about a time you iterated on something you felt wasn't complete"**
 - **Example: the Keystone forecast platform, from accurate model to trusted product** (K9, K10; K21 for the early support). Story structure (spoken answer to be written next):
