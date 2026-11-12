@@ -23,7 +23,7 @@ Amazon Business's Pay by Invoice (PBI) gave business customers credit through in
 | New minimum credit line | $1,000 | ✅ Project summary |
 | Approval after | 15% | ✅ |
 | Incremental spend | $71M (~1% revenue) | ✅ |
-| Customers reached | **50K+ (library, resume, LinkedIn)** vs. **250K active (Project summary; sizing sheet)** | ⚠️ section 16, item 1 |
+| Customers reached | **50K+** (library, resume, LinkedIn, and your older "Situation statements" doc: "10% increase in approval or 50K active customers") vs. **250K active** (Project summary; sizing sheet) | ⚠️ section 16, item 1 |
 | Economic profit | > 0 | ✅ |
 | Loss reduction from adding enterprise customers | ~6–8% (simulation) | ✅ |
 | Launch pulled forward by choosing batch | ~3 months | ✅ A4 |
@@ -95,6 +95,7 @@ Timeline anchors: the Project summary's validation set covers customers approved
 
 ## 7. Launch and experimentation
 - Controlled launch to **~5% of customers**; you measured approvals, offer acceptance, downstream spend/revenue and loss rates and saw favorable results. ✅
+- Your older "Situation statements" doc: two phased experiments approving only **5% and then 15%** of model-approved customers, then a dial-up to **100%**, assessing approved customers, active customers, incremental spend and failed repayments before each step.
 - Rollout sequence in the sources: **10 customers → 5% → 15% → 50% → 100%**, with repayment checks every 3 months; another variant says 100 → 1,000 → all. ⚠️ item 9. (Your plan: say "5% first, then phased.")
 - Risk controls: lower initial credit limits; decline after any delinquency; raise limits with purchase history; **1 day past due triggers suspension**; loss-rate monitoring (a >25% loss-rate threshold appears in the notes, ❓ definition unclear).
 - Key metrics watched: approved customers, active customers, incremental spend, 1-day-past-due payments, loss rate.
@@ -150,7 +151,7 @@ Timeline anchors: the Project summary's validation set covers customers approved
 - Adjacent, not confirmed as PBI: no-code credit-strategy platform (~4% fintech revenue uplift). ❓
 
 ## 16. Conflicts and open items (you decide)
-1. **Customer count.** Resume, LinkedIn and library: **50K+** (confirmed 2026-10-20). Project summary: "15% approval, or **250K active customers**." The sizing spreadsheet has a "PBI 2.0 = 250,000 customers / $1B" line that looks like a **projection**; I cannot tell from its unlabeled cells. The Dossier lists 250K among older/conflicting figures. You said "go with the document"; **changing to 250K contradicts the resume and every answer so far. Please confirm explicitly: 50K+ (actual) or 250K.**
+1. **Customer count.** (New evidence: your older "Situation statements" and "Phase 3 behavioral answers" docs both say "10% increase in approval or 50K active customers," matching the resume and library; only the Project summary and the sizing sheet say 250K. I recommend 50K+.) Resume, LinkedIn and library: **50K+** (confirmed 2026-10-20). Project summary: "15% approval, or **250K active customers**." The sizing spreadsheet has a "PBI 2.0 = 250,000 customers / $1B" line that looks like a **projection**; I cannot tell from its unlabeled cells. The Dossier lists 250K among older/conflicting figures. You said "go with the document"; **changing to 250K contradicts the resume and every answer so far. Please confirm explicitly: 50K+ (actual) or 250K.**
 2. **Rollout sequence** (item 9 above): confirm the one you'll state.
 3. **Production algorithm:** balanced random forest vs. XGBoost.
 4. **Threshold wording** (your ruling: go with documents): "the model objective and cut-off were tied to maximizing economic profit; the customer-level cut-off was tolerant because TAP controls losses."
@@ -188,3 +189,17 @@ Timeline anchors: the Project summary's validation set covers customers approved
 | Biggest risk? | Short-term losses from risky customers; mitigated by exposure caps, small start, delinquency rules | none |
 | What would you do differently? | ❓ your answer | yours |
 | How big was it? | 4%→15%, $71M | item 1 |
+
+---
+
+## 18. Found later in your other interview-prep docs (Situation statements; Phase 3 behavioral answers)
+These two docs repeat the PBI 2.0 and CPA/TAP text and add the following. There is still **no separate CPA/TAP model doc** in your Drive; the Project summary is the fullest source, and its links point to Amazon-internal wiki pages that are not in Drive.
+- **Alternatives you explored for PBI 2.0:** external partner integration, multiple credit-bureau integrations, and underwriting by product category as competitors such as Affirm do. You chose on long-term benefit vs. effort. ✅
+- **"Net 30-day" naming and branding story (a separate story):** research with target customers favored "Net 30 day" over generic names like "Bill me later with Amazon Business"; benchmarked invoice/terms/net-30 language; the pilot split treatment names and the new name drove better adoption; hard-coded the 30-day term for the MVP because a variable term would need dynamic handling for 45/60-day terms; a Director challenged why a new name was needed; branding on some pages was >25 weeks of effort, so you limited it (a ~4-week workaround on one page). ✅
+- **Onboarding simplification specifics:** only 15% completed the 7-page setup, customers came back ~1.5 times, most abandonment was at adding the billing address; fix was pre-filling and auto-saving; the experiment showed higher configuration and activation, with slightly higher losses that were not significant, so you scaled it. ✅
+- **Central Rules Engine (3-year vision, 2023):** Credit Systems had 300+ business rules orchestrating credit decisions (e.g., a model predicts 0.7 default probability, a rule decides what that means); portfolio managers changed ~50 rules a year; enumerating rules took 4–5 months across teams in 2022; each rule change took ~3 months of engineering/science roadmap; ~3 tech and ~1 science headcount a year went to rule changes; the business was expected to grow 3X. You designed: a UI to review rules, a UI to add/edit rules, rules simulation, deployment, and governance/access controls. Roadmap: 2023 alignment and enumeration; 2024 MVP; 2025 onboard small-business loans; 2026 onboard PBI. You prioritized loans over line-of-credit onboarding despite pushback (loans: easier lift, lower risk; line-of-credit was a ~$10B business vs. ~$3B). Result noted: 9 SDEs and 3 science HC over 3 years. ✅ (the doc's figures; see open item below)
+  - **This may be your best C4 example** ("tools for credit analysts / risk teams"): its customers were portfolio managers and manual credit operations. ❓ Your evidence notes say an MVP was built and then reprioritized toward third-party lending; what shipped, who used it, and the impact are not recorded.
+- **Moody's integration (credit-data evaluation):** goal to add data for customers without bureau coverage and improve risk prediction for those with it; 3-year cost ~$2.8M; evaluated on a 100K sample (50K configured customers with ≥1 year of history, 50K non-configured); Moody's matched 46% automatically, grades A/B/C accepted; financial data for ~36% of the population, default-probability data ~45% coverage; revenue data staleness (95% from 2021). Headcount: 1.5 science, 1.1 tech. ✅
+- **Other PBI-area headcount lines:** PBI 2.0 itself took ~1 science HC; model maintenance ~3 science HC and ~1 tech HC; data privacy/compliance ~0.6 HC. ✅
+- **Pivot to third-party (external bank) lending** in the lending business, and a loan-cap increase from $750K to $1M (simulations suggested up to $4M; you chose a gradual increase). ✅ ❓ how these relate to PBI.
+- **Older figures in these docs:** SMBs "65% of revenue" and "10% increase in approval or 50K active customers." ✅ (50K matches the canonical figure)
