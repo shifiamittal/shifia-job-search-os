@@ -203,3 +203,65 @@ These two docs repeat the PBI 2.0 and CPA/TAP text and add the following. There 
 - **Other PBI-area headcount lines:** PBI 2.0 itself took ~1 science HC; model maintenance ~3 science HC and ~1 tech HC; data privacy/compliance ~0.6 HC. ✅
 - **Pivot to third-party (external bank) lending** in the lending business, and a loan-cap increase from $750K to $1M (simulations suggested up to $4M; you chose a gradual increase). ✅ ❓ how these relate to PBI.
 - **Older figures in these docs:** SMBs "65% of revenue" and "10% increase in approval or 50K active customers." ✅ (50K matches the canonical figure)
+
+---
+
+## 19. Added after a line-by-line re-read of "PBI 2.0 project summary and questions.docx"
+My first pass missed these. Source for everything in this section: that document.
+
+### 19a. Segments and adoption
+- Amazon Business customers split into **large businesses managed by a sales agent** and **small/private businesses without a sales agent** (the doc calls them CPS and SSR; the PBI sizing sheet also uses CPS/SSR). ✅
+- **Only 5% of the 15% approved SSR customers actively used their credit line.** That is the adoption gap that the enterprise/personalization work (section 15) went after. ✅
+- Customers approved in the first place: SMBs were ~65% of revenue in this doc (the library uses 60%).
+
+### 19b. The insight that unlocked the model (strong for "how did you know they were creditworthy?")
+- The previous approach did not match the business goal of giving credit to SMBs, yet manual credit assessment showed many were creditworthy. The old features leaned on bureau data; your research showed **non-bureau data also predicted creditworthiness**.
+- **The fraud model's features** (Prime customers, sales volume, business registration, etc.) correlated strongly with non-flagged customers, and **customers flagged non-fraud did not default.** Fraud-clean customers with a strong Amazon history were highly creditworthy on manual review. ✅
+- Data brainstorm with Data Engineering: internal purchase data, business history, historical credit data, other credit products' data; you also asked for access to credit-history data from another Amazon credit-card initiative. ✅
+
+### 19c. CPA (customer-level) model: details I had summarized too lightly
+- Two ML components were framed this way in the doc: (1) a classification model predicting probability of default, and (2) a heuristics model identifying highly profitable product categories that could be approved even at some loss (this is TAP). ✅
+- **Your threshold suggestion:** choose the PD cut-off that keeps out the most bad customers while giving the most customers access, because you wanted more customers to reach the second layer, where the profitability-vs-loss trade-off is made. You aligned this approach and expected results with product and ML leadership. ✅
+- **Cut-offs compared:** 0.1, 0.2, 0.3, 0.4 and so on, looking at precision, recall and PBI performance metrics. The chosen cut-off increased good customers without significantly increasing declined bad customers, because TAP optimizes losses further. ✅
+- The most important feature in the feature table is **active Prime (importance 0.08)**. ✅
+- **Two different "top feature" lists** appear in the doc. The CPA-checks list: active Prime, multi-user account, % of spend from office products, lifetime AB spend, spend in the 3 months before approval, SBCC approved, tenure, SBCC applied. The data-science-collaboration list: Prime status, last-3-months office-products revenue, lifetime Amazon revenue, **active credit-card usage**, AB tenure, applied for SBCC, and **customer segment (sales vs. non-sales)**. ⚠️ they overlap but differ; use the first.
+- **Interpretability:** feature-importance metrics, SHAP, and business-facing documentation (business problem, metrics, feature importance, A/B results, simple-language approach, assumptions and limitations). ✅
+- **Data you deprioritized for speed:** AB Wallet data, share of revenue by payment method, return-history data points. ✅
+
+### 19d. TAP details I had summarized too lightly
+- **Definitions:** profit = losses saved − revenue lost (expected profit from the product − potential loss). "Losses saved" is the cart value Amazon would lose if the customer never repaid; "revenue lost" is the expected profit from that product. For each category you weighed the profit from giving credit to extra customers against the potential losses. ✅
+- **Data for the rules:** PBI 1.0 purchase history to find categories with high contribution-profit margin; spend velocity; average order size; number of product groups purchased from; share of spend in high-risk groups; contribution profit from prior orders; share of returns in GMS; order frequency. ✅
+- **Risk control:** identify high-risk ASINs and product groups from historical PBI 1.0 repayment data and write rules that decline PBI 2.0 transactions for them; also use products with high return rates, and high/low margin. ✅
+- **Model design block under TAP:** 80/20 split; out-of-sample validation on customers approved **Apr–Jul 2022 with invoices through Jan 2023**; models explored: decision tree, random forest, balanced random forest, XGBoost; selection by ROC-AUC, F1, PR-AUC. This is why "is TAP rules, ML, or both" stays open. ⚠️
+- **Known limitation you named:** the cart-level checkout decision did not consider an individual customer's history with similar products, so a low-risk and a high-risk customer with the same cart got the same transaction-level assessment (a customer with a history of paying for luxury products should be less risky than a first-time luxury buyer). Real-time cart-level checks were on the roadmap. ✅
+
+### 19e. Who owned what across the flow (end-to-end ownership map)
+- **Assessment:** model output for the approved credit line goes to downstream systems that store it for checkout. **Pre-checkout:** customers are notified if approved. **Checkout:** banner, description and FAQs, collecting invoice details, preference selection, applying the transaction rules, invoice experience. **Post-checkout:** invoicing. ✅
+- **Credit Strategy Operations:** manual credit assessment for customers the model declined; SOP for approval, increase, suspension, fraud and insolvency criteria. **Fraud team:** passes fraud status to the credit model. **BRP:** designed transaction fraud controls that feed the CPA model. **Finance and Accounting:** P&L, payment-mix reporting, goal tracking. **PBI 2.0 ops metrics tracked:** spending customers, variable costs, actual write-offs, bad debt, past dues, accounts receivable. **GAR:** dunning and collections. **Customer service:** usage, refund and payment-policy queries. ✅
+
+### 19f. API and technical detail (for "walk me through the API")
+- **Suspension flow:** when the credit-assessment or credit-decision systems notify that a customer should be suspended or deactivated, a PBI initiator component listens and calls an update-payment-method API to change PBI 2.0 status in the database. ✅
+- **BFS API:** input is customer id and the registration domain; output is block or continue onboarding. ✅
+- **API contracts and versioning:** if a model output column changes or business logic changes, update the contract (input/output), manage versions and expose the new contract; keep it backward compatible; consider deployment cadence and operating cost; define request, response and exceptions (for example an exception for a customer-id case instead of a response). ✅
+- **Your role in API design reviews:** the PM catches what should be exposed that engineering missed. ✅
+- **Data:** moving data from S3 to internal data storage because S3 has no indexing (no key-value access, expensive reads and writes). Frequency of model refresh vs. frequency of API-output refresh. A "front-loading checklist" of which data comes from which team. ✅
+- **Customer-facing build:** the checkout flow, T&Cs, confirmation email, invoice by email, invoice in the Amazon account, credit note on return, autopay or manual payment, reminders. ✅
+
+### 19g. Rollout and risk (more precise)
+- In the in-house-vs-third-party trade-off you ran: **pilot to 10 customers, then 5%, 15%, 50%, 100%**, checking repayment rates every 3 months before each step. The doc's older impact line (about $10M losses balanced by about $1B revenue) is flagged as unreconciled. ✅
+- **Risk monitoring thresholds:** immediate suspension at **1 day past due**; a "loss rate above 25%" line also appears (❓ definition unclear). ✅
+
+### 19h. Delivery feedback recorded at the top of the doc (from a past interview)
+- Too many details across different problems; **the key problem (finding the risky customers) got lost.** Simplify the earlier points and summarize.
+- "No leading of teams": show leadership more clearly.
+- You said **"we" a lot**; say "I" for what you did.
+- Say something that catches the interviewer's eye early; give the number of users and your span of influence in the introduction.
+
+## 20. BFS model depth from the same doc (use for C1 follow-ups)
+- **Objective:** predict a US customer's fraud propensity at Amazon Business registration, from business profile, domain activity and credit-bureau data; runs daily. Binary classification. ✅
+- **Data:** ~15,000 fraud and ~150,000 non-fraud labels; 70/15/15 split; 165K customers registered in 2020 (13% of new registrations). ✅
+- **Feature groups:** consumer-account history; business profile (employee count, revenue, seller or not, city/state); web-traffic ranking; credit-bureau record; domain (WHOIS) age and usage frequency; other accounts under the same domain (suspensions, PBI line, write-offs); suspicious-behavior flags (multiple marketplaces, moving between legal entities, US business registered abroad); derived cross-checks between data sources; a BRP fraud email-domain blocklist. ✅
+- **Top patterns:** fewer days between domain creation and registration means higher fraud; US customers with foreign-registered domains are riskier; an email domain used more than 7 times (except big free providers) is riskier; domains with fewer inbound links are riskier. ✅
+- **Training:** SMOTE for class imbalance; random forest and XGBoost with random-search tuning and k-fold cross-validation. ✅
+- **Base model:** precision 0.88, recall 0.86, AUC 0.86, false-discovery rate 0.12. A false positive suspends a PBI line of **$8K–$250K**, giving a roughly $240K spend reduction per case in the doc's example. **Chosen threshold:** precision 0.99, recall 0.25, FDR 0.01, trading recall for fewer false positives, with BRP post-checkout controls catching the rest. Rule: fraud email-domain blocklist suspends regardless of score. ✅
+- **Label challenge:** not enough labels at the business ("leg") level; you inferred business-level fraud status from user-level labels using the fraud-user ratio, and **87% of confirmed fraud businesses had at least 20% of their users flagged as fraud at user level.** ✅
