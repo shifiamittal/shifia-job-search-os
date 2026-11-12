@@ -6,7 +6,7 @@ Story: the Keystone data platform's API catalog and release standard (library K2
 "Forcing every client into one schema would have meant weeks of mapping per client, and it would have made conversations with client teams harder, because their data would no longer look like what they sent us. I kept data in its native shape to keep communication simple and onboarding fast. The cost was that developers had to understand each client's fields, which is why the field definitions and mappings in the catalog mattered so much." [CONFIRM the onboarding saving you want to quote; the library says about two weeks per client]
 
 **2. How did you enforce the release standard?**
-"The rule was simple: no endpoint shipped without a plain-language definition for every field and a working example." [YOURS: how it was enforced. Candidates, say only what's true: part of the release checklist, you reviewed each before release, engineers wrote drafts and you edited.]
+"It was part of our release checklist: no endpoint shipped without a plain-language definition for every field and a working example. If either was missing, the endpoint wasn't ready to release." [CONFIRM the second sentence matches how the checklist worked; the checklist itself is confirmed]
 
 **3. What did Engineering build, and what did you own?**
 "Engineering built the API service and the tooling. I owned the product decisions: which data to expose as reusable APIs, keeping client fields in their native shape, and the documentation. I personally wrote the catalog, the field definitions and the release notes."
@@ -18,7 +18,7 @@ Story: the Keystone data platform's API catalog and release standard (library K2
 "Every new metric would have sent them back into our queue, and requests were already waiting about two sprints. Standard, reusable APIs let developers calculate their own metrics from the same data." [YOURS: whether you considered a pre-built metrics layer or BI tool, and why you rejected it]
 
 **6. Which APIs did you expose, and how did you choose them?**
-"Five kinds: demand and forecast series, order and shipment patterns, product data, customer data, and an event stream." [YOURS: how you chose them, for example by grouping the repeated dashboard requests]
+"Five kinds: demand and forecast series, order and shipment patterns, product data, customer data, and an event stream. I chose them based on the key types of analysis that clients and the app team needed, and which datasets could serve those requests, so one set of standard APIs covered most of what they kept asking us to build."
 
 **7. Why 10% and not zero?**
 "The remaining work was small enhancements, such as adding fields or new data. Genuinely new capabilities still need the platform team, but routine metrics no longer did." [CONFIRM]
