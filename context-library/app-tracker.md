@@ -32,7 +32,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Date applied:** [not yet]
 - **Referral:** No
 - **Resume version:** `resumes/Shifia_Mittal_Resume_Qualcomm.docx` / `.pdf` (analysis: `resumes/2026-10-22-qualcomm-staff-pdm-ai-platforms.md`)
-- **Cover letter:** Yes, `resumes/2026-11-12-exoduspoint-cover-letter.md` (240 words)
+- **Cover letter:** No
 - **Connection at company:** None in connection-tracker.md
 - **Work product sent:** No
 - **Background check stage:** unknown
@@ -92,7 +92,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Source:** Inbound email from Aga Weston-Ball, Principal Technical Recruiter (agnieszka.westonball@coinbase.com), 2026-10-16; follow-up 2026-10-22 offering a direct intro to Bryan Gough (Sr. Director, Infra). Role partners with Bryan Gough and Alex Rodriguez.
 - **Referral:** No (recruiter-sourced)
 - **Resume version:** `resumes/Shifia_Mittal_Resume_Coinbase.docx` / `.pdf` (built 2026-10-24, platform framing; analysis: `resumes/2026-10-24-coinbase-gpm-core-infra.md`). Not sent yet (booking form said "resume shared: No")
-- **Cover letter:** Yes, `resumes/2026-11-12-exoduspoint-cover-letter.md` (240 words)
+- **Cover letter:** No
 - **Connection at company:** None in connection-tracker.md
 - **Work product sent:** No
 - **Visa/sponsorship:** Not required
@@ -114,7 +114,7 @@ Sources: LinkedIn Easy Apply export (2026-10-14) and Otter transcripts. Applicat
 - **Source:** Recruiter outreach (recruiter name [CONFIRM])
 - **Referral:** No (Piyush Rohella not yet asked)
 - **Resume version:** `resumes/Shifia_Mittal_Resume_Stripe_Radar_Fraud_7.docx` / `.pdf` (v7, your edit of 2026-10-25: fraud bullets rebuilt from the BFS documents; retired 15%/5% claims removed). Not sent yet
-- **Cover letter:** Yes, `resumes/2026-11-12-exoduspoint-cover-letter.md` (240 words)
+- **Cover letter:** No
 - **Connection at company:** Piyush Rohella (1st degree; PM at Stripe; former teammate in Amazon B2B Payments & Lending)
 - **Work product sent:** No
 - **Visa/sponsorship:** Not required
