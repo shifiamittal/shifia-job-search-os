@@ -8,7 +8,7 @@ Story: the Keystone forecast platform at the flagship client (library K9/K10/K21
 **2. How did you know accuracy wasn't enough?**
 "Two signals. Planners overrode nearly half the forecasts even though they were more accurate than the old tool, and my team spent a lot of time answering their questions about why numbers changed. Interviews and the support sessions then showed me why: they couldn't explain the drivers, and forecasts swung from week to week."
 
-**3. Why offer free support, and how did you convince executives?**
+**3. Why offer free support, and how did you get executives to agree?**
 "It was a new product, not yet proven across many clients, so I expected planners to need help and wanted to build confidence early. Free hands-on support, about one person per client, also showed us which recurring issues needed product fixes. After the enhancements, support effort fell to 30% of where it started." **[YOURS: the argument you used with executives, for example the cost against the risk of losing the flagship client]**
 
 **4. How did you prioritize?**
@@ -43,3 +43,6 @@ Story: the Keystone forecast platform at the flagship client (library K9/K10/K21
 
 **14. How did free support affect the commercial side?**
 [YOURS. Your pricing notes say managed services were included in the subscription and extra support was given free in early deployments to learn recurring problems; say how that played out for revenue if asked.]
+
+**15. How did you measure the 30% drop in support effort?**
+[YOURS. For example, the people or hours across science, engineering and product for each client, compared with the starting level of about one person.]
