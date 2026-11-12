@@ -57,7 +57,7 @@ A press-release-style plan for the product ("Product XYZ"), including a 6-step s
 |---|---|---|
 | Explain the **change** in cost | Explain absolute cost | The base cost comes from a fixed rate card; sellers need what moved |
 | Model at the **shipment** level, grouped by MKN | Model at the order or item level | Sellers' controllable decisions sit at the shipment level; the first fulfillment decision can't be changed |
-| **15 months** of data | Finance's 2 years | 95% of Finance's comparisons were against the latest quarter or the same quarter a year earlier; two years would have doubled the data, let macro factors like fuel prices dominate, and raised month-to-month comparisons from 66 to 276 (about 4×) |
+| **15 months** of data | Finance's 2 years | 95% of Finance's comparisons were against the latest quarter or the same quarter a year earlier; two years would have doubled the data, let macro factors like fuel prices dominate, and more than doubled month-to-month comparisons (about 105 pairs for 15 months vs. 276 for 24) |
 | **Bin the long tail** (59M items → ~10K groups) | Remove those items, or give each its own result | Long-tail items were >90% of items; individual results would be unreliable; binning gives directional guidance |
 | **Reuse another team's distance model** to remove last-mile distance | Build a new model | Last-mile distance doesn't depend on the seller or item; reuse saved 3–4 months of science effort (needed data access and conversion from truck to shipment level) |
 | **Email first**, then Seller Central | Build the page first | First time sellers saw these recommendations; email was a low-tech lift |
