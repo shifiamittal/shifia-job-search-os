@@ -153,13 +153,8 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 - **Opening (about 190 words):** "At Keystone, planners spent about four hours a day reviewing thousands of forecasts and overriding them without clear logic. I used agents for the messy part, root-cause analysis, and kept exception detection rules-based, because it's well defined and cheaper. Anything that changed a forecast needed human approval. We judged the output with expert reference cases, an LLM judge for grounding, and launch gates in shadow mode: over 70% acceptance and expert quality over 8 out of 10. Planner review time went from four hours a day to four a week, and client overstock from $5 million to $2 million. One failure: adoption fell from 70% to 50% at one client because the agent didn't know a warehouse had moved. It gave a confident answer instead of escalating, so we added the data and a rule to escalate when information is missing."
 
 **C8. "How are you using AI in your day to day to be a more effective PM?"**
-- **Example: HAT-AI plus your own daily use.** HAT-AI automated roadmap reporting, leadership newsletters and knowledge discovery across 15 finance products for 30 PMs, saving about 120 hours a week.
-- **Backup: S1, agent vs. deterministic workflow** (your personal project). Shows hands-on AI use outside work. **[ASK what you built, with which tools, and how you checked the output.]**
-- **Structure to fill in:** (1) the two or three things you do with AI every week as a PM, naming the tool and the task; (2) one workflow end to end: the problem, why AI, how you check the output; (3) one time AI was wrong and what you changed. **[YOUR WORDS; see N1 and N2. This is the one answer only you can write.]**
-- **Domain proof:** the Radar team will want a PM who uses AI to understand attacks and customers faster (for example, synthesizing customer feedback or analyzing attack data). **[ASK whether you do this.]**
-- **Gaps it bridges:** none directly; it prevents the biggest risk, a thin answer to Stripe's most pointed question.
-
-### The L4 example Stripe asked for by name
+- **Spoken version: FINAL, in the library (section "Stripe competency version, C8"; saved 2026-11-13).** About 230 words. Three uses: the Job Search OS (with the discovery-agent failure and the 100% recall fix), the Forecast Agent prototype (over 70% acceptance, two months of roadmap), and AI-assisted SAP learning validated against client data.
+- **Do not repeat the Forecast Agent prototype in C7.**
 
 **C9. "Tell me about a time you pushed the boundaries of what's possible while bringing others along in a murky environment"**
 - **Example: moving Keystone from consulting to a product business, and the managed-service call against leadership and investors** (K1, K12). Story structure (spoken answer to be written next):

@@ -76,5 +76,5 @@ Built from: the Step 1 question list (8 target companies' intel, the 12 most com
 | 37 | Craft: iterating on something not complete | K9 + K10 forecast platform (stability, explainability, free support) | A12/A15 SPORT | ✅ Final spoken version in K9 (2026-11-13) |
 | 38 | Craft: complex → simple | A11 TRACE | K6 data catalog and semantic layer | ✅ Final spoken version in A11 (2026-11-13) |
 | 39 | AI fluency: a workflow you built and how you assess output | K2 (with K3, K4) | K11, K14, S1 | ✅ facts; spoken version not yet written |
-| 40 | AI fluency: day-to-day use as a PM | HAT-AI (one line in the library) | S1 / your own daily use | ❌ Your daily AI use and HAT-AI detail are not recorded |
+| 40 | AI fluency: day-to-day use as a PM | Job Search OS + Forecast Agent prototype + AI-assisted SAP learning | HAT-AI (as recorded, no detail) | ✅ Final spoken version in the library (2026-11-13) |
 | 41 | Pushed the boundaries while bringing others along in a murky environment | K1 + K12 (pricing K32 moved to row 35 backup) | A7 | ⚠️ Spoken version not written |

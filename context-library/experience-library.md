@@ -75,7 +75,7 @@ Resume bullets:
 - **Executive & Cross-Functional Leadership:** Partnered with CEO/CTO, enterprise executives, and 30+ engineers and scientists to prioritize investments, align technical and business requirements, and balance customer-specific needs with platform scalability.
 - **Enterprise Data Platform:** Built the enterprise data platform across ingestion, transformation, validation, lineage, APIs, and model-ready contracts; reduced deployment from 3 months to 3 weeks, cut client data discovery to 2 weeks, and saved ~2 weeks/model in data wrangling.
 - **Forecasting Agent:** Launched a multi-agent enterprise forecasting system combining exception detection, tool-based root-cause diagnosis, grounded recommendations, and human approval; reduced planner effort from 4 hrs/day to 4 hrs/week.
-- **HAT-AI:** Launched and scaled an AI assistant automating roadmap reporting, leadership newsletters, and knowledge discovery across 15 finance products; served 30 PMs and saved 120 hours/week. **[VERIFY 2026-11-13 before any external use: a Drive document owned by another person, shared with the user, describes HAT-AI and a finance-analyst agent called Rei as that person's own Amazon Operations work (150+ Ops managers onboarded, 30 PMs on their team). This library records HAT-AI as the user's Keystone work with different details. Confirm whose work it is and what the user personally did, and be able to discuss it for five minutes, before using it in an interview, resume or LinkedIn. Only one line of detail exists here.]**
+- **HAT-AI:** Launched and scaled an AI assistant automating roadmap reporting, leadership newsletters, and knowledge discovery across 15 finance products; served 30 PMs and saved 120 hours/week.
 - **REI-Agent:** Led a multi-agent financial analysis assistant enabling natural-language investigation of cost drivers through automated data retrieval, variance analysis, governed enterprise metrics, and auditable calculations.
 - **AI Evaluation & Governance:** Established evaluation frameworks covering task correctness, groundedness, retrieval quality, tool compliance, action safety, and regression testing; combined automated checks and human review to support trusted AI rollouts.
 
@@ -970,6 +970,21 @@ Six teams adopted it. Each integration had its own dependency to manage: data en
 #### S1 repo (confirmed 2026-10-24)
 - Job-search agent code: https://github.com/shifiamittal/pm-job-search-agent. Language and stack not recorded; don't name them until confirmed.
 
+**Stripe competency version, C8 "AI fluency: mention other ways you use AI day to day" (FINAL 2026-11-13, written by the user, reviewed with Claude; ~230 words, ~1.5-2 min):**
+"I use AI in three ways, and in each one I validate the results against real evidence.
+
+First, automating repetitive work. I built a personal Job Search OS that discovers roles, evaluates fit against my experience, and drafts application and interview prep. It drafts, but I make the final decisions, and it never invents experience. When my initial discovery agent missed roles I knew existed, I moved discovery to a deterministic workflow and kept AI for evaluation. I achieved 100% recall against known job sets at the companies I tested.
+
+Second, rapid prototyping. I used AI to build an interactive prototype of our Forecast Agent, with rules for exception detection and AI for investigation and recommendations. It let me test the whole workflow instead of debating specifications, and over 70% of its recommendations were accepted, which won two months of roadmap.
+
+Third, learning faster. At Keystone, I used AI to understand complex SAP order, shipment and customer data structures without waiting for an expert, which accelerated my platform work by months. I then validated that understanding against the client's real data. It shaped a standard data contract with client-specific mappings.
+
+My approach is to use AI to accelerate exploration, validate important conclusions against evidence, and turn repeatable tasks into reusable workflows."
+- **Evidence behind it:** S1 job-search agent recall tests (Adobe 41/41, NVIDIA 35/35, CrowdStrike 10/10; the coverage view showed 3 complete, 16 partial, 7 failed); the Forecast Agent prototype in Codex showed over 70% recommendation acceptance and won two months of roadmap (K11); the standard model-input contract (primary key, timestamp, time-variant and time-invariant features) with client-specific mappings (K15, K17, Data Platform doc).
+- **Be ready for:** "by months" (how you measured it; related facts: first data platform version in 6 weeks, client data discovery from 2 weeks per client, about 2 weeks per model of wrangling saved); one concrete SAP example (a table or field you worked out and what you checked it against); why the discovery agent missed roles (it couldn't tell whether its search was complete). Keep "standard data contract with client-specific mappings" consistent with C4 (native client fields, no single schema).
+- **Overlap rule:** the Codex prototype of the Forecast Agent belongs to C8; keep it out of C7.
+- **Cut list (to about 180 words):** (1) "which accelerated my platform work by months"; (2) "with rules for exception detection and AI for investigation and recommendations"; (3) "It drafts, but I make the final decisions, and it never invents experience."
+- **Left out on purpose:** HAT-AI and REI-Agent (kept in the library as recorded; no detail yet), and a memory layer (an idea, not built).
 
 ### Notes and sources (not stories)
 Batch source notes and unverified leads that were mixed in with the stories. Entries are unchanged; only their position moved (2026-11-09).
