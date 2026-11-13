@@ -91,6 +91,54 @@ Never say "managed a team of PMs."
 
 ---
 
+## 3b. When she asks "what projects have you worked on?"
+
+**Format for a recruiter screen:** a 20-second menu first, then one project at a time, 60–90 seconds each: headline → the decision you made (with the trade-off) → result → one-line bridge to Rippling. Stop and let her pick. Don't tell all four unprompted.
+
+**Menu (say this first):**
+> "Four things I'd point to. At Keystone: the data catalog and semantic layer that grounded our agent, the data platform underneath it, and the forecasting agent that sat on top. Before that, at Amazon: a self-serve ML platform and the privacy policy for ML across Payments. Which would be most useful to hear about?"
+
+**Order of preference for this role:** 1 → 2 → 3 → 4. If she asks for "the biggest," use project 3. If she asks about "governance," use project 4.
+
+### Project 1: Data catalog and semantic layer (Keystone). Lead with this one. (K6, K7, K18)
+- **Headline:** "Our agent kept hallucinating and users kept re-asking the same question. The root cause wasn't the model. More than 60% of diagnostic failures involved a field with no description."
+- **Decisions:** (1) I treated it as a grounding problem and rejected embedding fine-tuning, more chunks and prompt-only fixes. (2) I built a runtime catalog injected into prompts: descriptions, trust tiers, and sensitivity tiers that block PII. (3) I made metadata generation faster with confidence gates: above 0.85 auto-publish with an "AI-generated" label, 0.70–0.84 human review, below 0.70 blocked. (4) CI/CD fails on undescribed fields, so coverage can't decay. (5) When the Head of Data Science pushed back on adding a semantic layer, we agreed a decision rule, found 70% of queries were natural language, and built a minimal synonym index for the top 20 patterns first.
+- **Result:** Clarification rate 50% → 30%; similarity 0.6 → 0.8; undescribed-field failures 60% → 40%; planner approval of AI-generated descriptions 50% → 80%; coverage 60% → 80%.
+- **Bridge:** "This is the same problem Rippling's catalog has to solve: giving the AI the right objects, fields and definitions. At Rippling it would span many more domains."
+
+### Project 2: Data platform and API catalog (Keystone). (K15, K17, K29)
+- **Headline:** "Every client's data was rebuilt from scratch and scattered across SharePoint, Box, S3 and laptops. I led product strategy for a multi-tenant data platform: ingestion, transformation, validation, lineage, APIs and model-ready contracts, with 7–8 engineers."
+- **Decisions:** (1) The CEO wanted every client in one canonical schema. I quantified the weeks of mapping cost and proposed keeping client data native while standardizing only the contracts models see. (2) I stepped back from writing SQL myself and owned the guardrails, data model and requirements. The first version launched in 6 weeks. (3) I wrote the API catalog (field definitions, client-specific mappings, working examples) and set a release rule: no endpoint ships without plain-language definitions and an example.
+- **Result:** Client deployment 3 months → 3 weeks; client data discovery 2 weeks; ~2 weeks per model of wrangling saved; five client dashboards onboarded without extra platform support; platform-team load on app-team requests ~50% → 10%.
+- **Say:** "I owned the API catalog and release communication; engineering built the tooling."
+- **Bridge:** "That's the canonical-versus-customer-data tension in your JD, and the adoption problem of getting other teams to build on a shared layer."
+
+### Project 3: Forecasting agent (Keystone). The flagship. (K2, K3, K4)
+- **Headline:** "Our forecasts were 20% more accurate than the incumbent, but planners at the flagship client spent about 4 hours a day reviewing thousands of SKUs and overriding without logic. I reframed the problem from accuracy to actionability."
+- **Decisions:** (1) A multi-agent system: exception triage, root-cause diagnosis, and retrain/override recommendations, grounded in a RAG layer of past incidents. (2) Tiered autonomy by risk, with guardrails in the tool definitions rather than the prompts. Early automation of mid-confidence actions got 60% reversed, so I reset to autonomous only for low-risk, reversible actions. (3) Shadow-mode launch with gates: more than 70% exception recall and 70% recommendation acceptance, no autonomous forecast changes. (4) An independent LLM-as-judge eval running off the critical path.
+- **Result:** Planner time 4 hrs/day → 4 hrs/week; client overstock cost $5M → $2M; 70% of recommendations accepted at launch; action acceptance 30% → 80% after tiering.
+- **Caution:** the override rate 50% → 20% is cumulative across all improvements. Don't attribute it to the agent alone.
+- **Bridge:** "That's the action side of your JD: tool and action interfaces, permissions, and safe actions on top of context."
+
+### Project 4: ML platform and privacy-by-default (Amazon). (A8, A10)
+- **Headline:** "At Amazon Lending, each risk model took 3–4 months of engineering to ship and there was no governance. I led a self-serve ML platform for 30+ scientists."
+- **Decisions:** (1) UI-first self-service pipelines, a deliberate cost trade-off. (2) Governance built in: monitoring, versioning, lineage and a model inventory. (3) Onboarding treated as a product: templates, docs, community. (4) For privacy, nobody had defined how EU and US privacy rules applied to ML. I defined the requirements with Amazon-wide privacy bar raisers and Legal, shipped a semi-automated version in about 2 months instead of waiting 1.5 years for full automation, and presented the policy to the VP of Data Privacy and Payments leadership.
+- **Result:** 100+ models with no added headcount; audit-ready; NPS 8+ across 30+ scientists; 5 teams onboarded outside lending; privacy adopted as policy across about 20 Payments teams.
+- **Bridge:** "That's governance as part of the product and adoption across many teams without authority, which is the heart of your role."
+
+### If she wants more (one line each, only if asked)
+- **HAT-AI (Keystone):** AI assistant for roadmap reporting, newsletters and knowledge discovery across 15 finance products; 30 PMs, 120 hours/week saved.
+- **REI-Agent (Keystone):** multi-agent financial analysis assistant with governed enterprise metrics and auditable calculations (no metrics on record, so don't invent any).
+- **Growth strategy (Amazon, A1):** SMB credit approval 4% → 15%; $71M incremental revenue. Use only if she asks about business impact.
+
+### Don't say
+- Client names (Source Decision 12).
+- "I managed a team." Say "led product direction for a 30+ person group" or "led PMs on a dotted line."
+- Any number that isn't on the numbers card in section 2. If you're unsure, say "I'd have to check the exact figure."
+- The platform's older "onboarding 2 months → 2 weeks" figure from the story doc. Use the canonical "deployment 3 months → 3 weeks."
+
+---
+
 ## 4. JD requirement to evidence (use these to answer "tell me about X")
 
 | JD requirement | Your evidence | Say |
