@@ -49,6 +49,8 @@ The role is the context layer for AI. The resume leads with the Keystone data ca
 - Removed 6 bullets that don't serve this role (see Framing).
 - Removed "AI label" detail from the trust policy bullet to keep it on 2 lines.
 
+- v2 (after the three reviews): catalog and semantic layer bullet moved first; added the keywords metadata, retrieval, context and LLM (all in the library: K6, K7); added "privacy policy adopted by ~20 teams" to the summary; summary trimmed to 2 lines ("at scale" dropped to fit). Keystone dates left as "2024 - Present" by user decision. Permission-enforcement [CONFIRM] still open, so no permissions claim was added.
+
 ## Regression checks
 - **Keywords:** recounted from the rendered PDF (above).
 - **Facts:** every number matches `experience-library.md`; none of the dropped claims (recommendation acceptance 50% → 80%, "autonomous actions") appear.
