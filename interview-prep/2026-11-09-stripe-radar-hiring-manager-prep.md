@@ -144,13 +144,7 @@ Stripe's hiring manager will ask about **stay curious, create with craft and bea
 ### AI fluency
 
 **C7. "Describe your depth of experience with AI with a specific example: what you were solving for, why you chose AI, how you assess the output"**
-- **Example: the Keystone forecasting agent** (K2, with K3 and K4).
-- **Backup: K5, AI product quality slip** (the adoption drop and what you changed in evaluation). Also usable as the failure follow-up. **[CONFIRM details in the library entry.]**
-- **Why it shows AI fluency:** you chose where AI fit (root-cause analysis) and where it didn't (rules-based exception detection), kept human approval, and built evaluation and launch gates.
-- **Domain proof:** *JD1:* graded responses by risk and reversibility (K3) mirror a block / step up / allow decision, and Radar's bot-abuse work has to separate legitimate AI agents from fraudulent ones (section 8). *JD2:* APIs and tools feeding client workflows.
-- **L4 signals:** a flagship client at stake; engineering, science and executives aligned; a launch process other agents reused.
-- **Gaps it bridges:** technical credibility on AI; reliability and evaluation.
-- **Opening (about 190 words):** "At Keystone, planners spent about four hours a day reviewing thousands of forecasts and overriding them without clear logic. I used agents for the messy part, root-cause analysis, and kept exception detection rules-based, because it's well defined and cheaper. Anything that changed a forecast needed human approval. We judged the output with expert reference cases, an LLM judge for grounding, and launch gates in shadow mode: over 70% acceptance and expert quality over 8 out of 10. Planner review time went from four hours a day to four a week, and client overstock from $5 million to $2 million. One failure: adoption fell from 70% to 50% at one client because the agent didn't know a warehouse had moved. It gave a confident answer instead of escalating, so we added the data and a rule to escalate when information is missing."
+- **Spoken version: FINAL, in the library (K2-K5 area, "Stripe competency version, C7"; saved 2026-11-14).** Follow-ups: `interview-prep/2026-11-14-c7-forecast-agent-follow-ups.md`. Three decisions: where AI added value (rules for detection, agent for investigation), the approval boundary, and a multi-layer evaluation. Use the 70% (not >80%) acceptance figure.
 
 **C8. "How are you using AI in your day to day to be a more effective PM?"**
 - **Spoken version: FINAL, in the library (section "Stripe competency version, C8"; saved 2026-11-13).** About 230 words. Three uses: the Job Search OS (with the discovery-agent failure and the 100% recall fix), the Forecast Agent prototype (over 70% acceptance, two months of roadmap), and AI-assisted SAP learning validated against client data.
