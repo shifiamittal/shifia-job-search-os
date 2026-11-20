@@ -2,6 +2,8 @@
 
 Built 2026-11-20 from the job description Colleen Barnes sent (Payments Intelligence org, Disputes team, Dispute Prevention), your experience library and story-coverage grid, and public web sources. **Stripe's own docs were not reachable from this session** (docs.stripe.com is blocked), so product details below come from web-search summaries and third-party pages. Items marked **[VERIFY]** must be checked on Stripe's current pages before you rely on them in a conversation. The hiring manager is Ishan Virk (per Colleen's email).
 
+**Updated 2026-11-20:** merged with the Stripe disputes video transcript (Cindy Fashingbauer and Ishan Virk). Transcript numbers are from your pasted notes and should be re-checked against the video before you quote them. Sections 2, 5b, 5c, 6b and 7 are new or rewritten. Radar interview lessons: `2026-11-17-stripe-radar-hm-debrief.md`.
+
 ---
 
 ## 1. Disputes in plain language
@@ -27,18 +29,17 @@ Built 2026-11-20 from the job description Colleen Barnes sent (Payments Intellig
 
 **Monitoring programs (illustrative; thresholds change, VERIFY):** Visa's program is called VAMP. Search summaries say the merchant "excessive" threshold was set at a higher level at first and moves to **1.5% from April 2026**, with a minimum volume before a merchant is flagged. Mastercard has an equivalent excessive-chargeback program. Don't quote thresholds in the interview unless you've confirmed the current numbers.
 
-## 2. What Stripe offers in this space (what the JD describes)
+## 2. What Stripe offers in disputes (per the Stripe video transcript)
+**Three layers:**
+1. **Deflection (before a dispute exists):** alerts and pre-dispute resolution (Verifi / Ethoca-type programs), Radar early-fraud-warning rules, purchase recognition. **[VERIFY product names]**
+2. **Resolution (a dispute is filed):** Visa Compelling Evidence 3.0 / Order Insight style evidence so the issuer resolves it before it becomes a chargeback.
+3. **Representment:** Smart Disputes (automated evidence preparation and response; the transcript puts the fee at about 30% of recovered amount).
 
-From search summaries of Stripe's documentation and third-party pages. **[VERIFY all of these on Stripe's current pages]**
-- **Before a dispute happens (prevention):**
-  - **Visa Rapid Dispute Resolution (via Verifi):** merchants set rules so certain disputes are resolved automatically for a fee, before they count as chargebacks (the docs example is resolving potential fraud disputes under a set amount).
-  - **Mastercard alerts (Ethoca):** rules that automatically resolve would-be chargebacks.
-  - **Compelling Evidence 3.0 / Order Insight (Visa):** sending the issuer data about earlier successful transactions by the same cardholder so a dispute is blocked or defended. It needs prior transaction history.
-  - **Radar rules** such as an early-fraud-warning rule that blocks payments likely to draw early fraud warnings.
-- **After a dispute is filed:** **Smart Disputes** (automated evidence preparation and submission) **[VERIFY: described by a third-party blog, not Stripe's documentation]**.
-- **Purchase recognition:** helping cardholders recognize a purchase (statement descriptor, receipts, notifications) so confused customers don't dispute.
+**Numbers cited in the transcript:** 2.4%, 11%, 60%, 95%, 11x, $1.3B (revenue lost to missed dispute deadlines), $5B, 18% (average revenue increase with Stripe disputes), 3x (win-rate increase with AI-recommended evidence), 30% fee, 540 days, 29% growth, $425 all-in cost per dispute. Visa monitoring threshold moving to 1.5% from 2.2%. Re-check each against the video; do not quote any you cannot place.
 
-The JD's vision: make these capabilities "available to businesses of every size, including large platforms and businesses that process payments across multiple providers," moving toward "an automated, hands-off approach."
+**Is "Dispute Prevention" one product or the suite?** Inference: it is a **team and charter**, not one SKU. The transcript describes prevention as layers 1 and 2 (several tools). Smart Disputes (layer 3) sits next to it, and the JD says the role can expand into it. Ask Ishan: "Is Dispute Prevention the deflection and resolution layers, and how does the team relate to Smart Disputes?"
+
+**Earlier web-search summary (secondary; VERIFY):** Visa Rapid Dispute Resolution via Verifi; Mastercard alerts via Ethoca; Compelling Evidence 3.0 / Order Insight; Radar early-fraud-warning rule; Smart Disputes described by a third-party blog; purchase recognition (descriptors, receipts, notifications). The JD's vision: make these "available to businesses of every size, including large platforms and businesses that process payments across multiple providers," moving toward "an automated, hands-off approach."
 
 ## 3. The role in one paragraph
 You would be the product owner (the JD says the GM) of Dispute Prevention: set the vision and roadmap, own the business performance (P&L, pricing, commercial terms), partner with engineering and data science on ML-powered automation and forecast models, and build relationships with card networks, vendors and partners. Two growth directions: new customer types (platforms, multi-processor merchants, new markets) and automation ("hands-off"), with room to expand into Smart Disputes and LLM-powered capabilities.
@@ -68,6 +69,20 @@ You would be the product owner (the JD says the GM) of Dispute Prevention: set t
 - **Networks and commercials:** "I haven't negotiated with card networks. What I have done is evaluate and integrate an external data vendor, set data contracts and SLAs with upstream owners, and set pricing for an enterprise product. I'd expect to learn the network side quickly by pairing with the partnerships team."
 - **P&L:** "I've owned the economic-profit logic of a credit product and set pricing for Keystone's enterprise offer; this role would be my first formal P&L."
 
+## 5b. Biggest weaknesses and how to address them (Addressing-Weaknesses framework)
+Framework: name the 2-3 gaps the interviewer will see, address them early, make this role the natural next step, under 2 minutes, claim only what you can discuss for 5 minutes.
+| Gap the HM will see | Line to say (only true parts) | Evidence |
+|---|---|---|
+| No disputes/payments-network domain depth | "I haven't worked in disputes. I've spent this week on the lifecycle, reason codes and the three layers, and here is how I'd approach the first 90 days." | Section 7, then use terms correctly |
+| No card-network negotiation | "I haven't negotiated with Visa or Mastercard. I have run vendor and data-partner evaluations and contracts: Moody's (about $2.8M 3-year), data contracts and SLAs on TRACE, pricing K32." | K32, TRACE, Moody's |
+| No formal P&L ownership | "I owned economic profit on PBI and set pricing on Keystone; I haven't carried a P&L line." | PBI economic profit, K32 |
+Do not claim network relationships or a P&L you did not hold.
+
+## 5c. Card networks, negotiation and P&L (general knowledge, not Stripe internals)
+- **Card networks:** Visa, Mastercard, American Express, Discover, JCB, UnionPay, plus programs and acquired vendors (Verifi under Visa, Ethoca under Mastercard).
+- **What negotiation involves:** access to network programs and data (pre-dispute alerts, evidence sharing), fees and who pays them, dispute-rule and threshold changes (monitoring programs), liability for platform models, and timelines/SLAs. Leverage is volume and a credible case that a program lowers network losses. PMs usually prepare the business case and requirements; partnerships and legal lead the contract. Ask Ishan who leads it.
+- **Owning P&L here:** revenue (per-resolution fees, Smart Disputes share, adoption), costs (network and vendor fees, waived fees, ML and ops), margin, and the indirect value of protecting payment volume. Ask what metrics the role is held to.
+
 ## 6. How the hiring manager call may differ from the Radar one
 The Radar call was competency-based (Stripe told you: curious, craft and beauty, AI fluency). Expect the same competency flavor from Stripe, **plus** role-specific probing here: product vision and strategy for disputes, metrics, partner and network thinking, pricing and commercial judgment. Ask Colleen whether it's the same format. Questions you may get, with the story that fits:
 
@@ -89,12 +104,23 @@ The Radar call was competency-based (Stripe told you: curious, craft and beauty,
 | How do you work with partners and vendors? | K30, SPORT, Moody's evaluation, TRACE data contracts |
 | A time you owned business performance | PBI economic profit; Keystone pricing and ARR |
 
-## 7. Domain study plan (about 3 hours total)
-1. **How a card payment becomes a dispute (45 min):** authorization, settlement, chargeback, representment. Read a neutral overview and one network's dispute guide. Be able to explain it in 90 seconds.
-2. **Dispute prevention tools (45 min):** Verifi RDR, Ethoca alerts, Compelling Evidence 3.0 / Order Insight, Radar early-fraud-warning rules. **Read Stripe's current dispute pages** (docs.stripe.com/disputes), which I couldn't fetch. Write down three product limits for each (cost, eligibility, what it doesn't cover).
-3. **Network monitoring programs (30 min):** why dispute rate thresholds matter and what happens in a program. Confirm the current Visa and Mastercard thresholds from primary sources before quoting any.
-4. **Types of disputes (30 min):** fraud, friendly fraud, purchase confusion, merchant issues, and which tools address which.
-5. **Competitors (30 min):** how other processors and specialist dispute vendors position this (for example Adyen, PayPal, Chargeflow, Chargebacks911). Note their pricing models.
+**Extra stories for this role:**
+| Likely question | Story | Action |
+|---|---|---|
+| Risk vs friction | A24 detection vs friction | Add; ties directly to disputes |
+| Partner/vendor and commercials | Moody's, K32, K34 | Tell as a commercial-negotiation story |
+| Prove value without full data | PBI economic profit | Add; P&L-adjacent |
+| Pushed boundaries | C9 (K1 + K12) | **Draft: Stripe named it explicitly** |
+| Scrappy demo | K16 | Optional |
+Expand: C2/C1 with a "how I learned fast" line; C4/C6 with the detail you refused to ship without (open slot).
+
+## 6b. Lessons from the Radar HM interview (11/17)
+Full grading is in `2026-11-17-stripe-radar-hm-debrief.md`. Carry these: (1) learn the product first and say something specific about it; (2) pick an area and say why before you are asked; (3) lead with the fraud story and tie it to the role; (4) prepare two alternatives considered and one root-cause data point for every story; (5) give a number and a before/after for every result; (6) end with a 20-second closing tied to a story. Possible gaps in your story doc vs the feedback: a novel-solution moment, a "decisive" beat with incomplete data, risk/fraud framing, who you brought along.
+
+## 7. Domain study plan: exact items (about 6 hours across 3 days)
+**Day 1 (2h): the dispute lifecycle.** Terms: cardholder, issuer, network, acquirer, representment, pre-arbitration, arbitration. The four dispute types. Reason codes to recognize: Visa 10.4, 13.1, 13.2, 13.3, 13.6, 13.7; Mastercard 4837, 4853, 4863 **[VERIFY]**. Self-test: explain what happens to $100 from complaint to resolution and who pays which fee.
+**Day 2 (2h): tools and programs.** Monitoring programs (Visa VAMP, Mastercard excessive chargeback), Verifi RDR and Order Insight, Ethoca alerts, Compelling Evidence 3.0, Radar early-fraud-warning rules, Smart Disputes. Read Stripe's dispute pages yourself (docs.stripe.com is blocked from here). Write three limits per tool (cost, eligibility, what it doesn't cover). Self-test: draw the three layers and place each tool.
+**Day 3 (2h): numbers and product thinking.** Memorize the transcript numbers in section 2 (only those you can place). Platform liability (Connect: merchant of record, fee payer), card vs local payment method disputes, and the agentic-commerce dispute question. Competitors: Adyen, PayPal, Chargeflow, Chargebacks911, and their pricing. Self-test: a 2-minute answer to "how would you reduce disputes by 20%?" and "how would you price it?"
 
 ## 8. How to think about product questions (frameworks to practice)
 **A. "How would you reduce disputes for a merchant?"**
