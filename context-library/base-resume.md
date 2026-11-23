@@ -1,6 +1,6 @@
 # Base Resume (Master)
 
-Last updated: 2026-11-23 (rev 3, after Shifia's second round of edits)
+Last updated: 2026-11-23 (rev 4, after Shifia's third round of edits)
 Built from: `experience-library.md` (canonical metrics + story bank), `resume-style-guide.md`, and the 8 resumes in `resumes/` (R37, Qualcomm, Coinbase, Rose Intl, Stripe Radar x4).
 
 **How to use this file.** This is the bank, not a resume. It holds every project and bullet worth using, so it runs past one page. `/resume-tailor` picks the best 2-4 bullets per role for a JD and applies the style guide. Do not send this file to anyone.
@@ -79,11 +79,10 @@ Principal product manager with 11+ years shipping AI/ML products at scale, inclu
 **Project 4. Amazon Business credit products (SMB credit, fraud strategy, consumer credit)**
 
 - Launched a credit-based payment product for Amazon Business via experimentation and a 5% controlled launch, scaling to 50K+ customers and **$71M in incremental revenue**. <!-- GROWTH,EXECUTION | A1 -->
-- Built a segment-specific strategy for SMBs, who generated ~60% of GMS but had only 4% approval; corrected a data bias from thin credit files by rebuilding underwriting on Amazon behavioral data, **raising SMB approval to 15% with no credit losses after full launch**. <!-- STRATEGY,RISK,AI | A1, A3 -->
-- Capped exposure by risk tier and restricted high-loss categories rather than lowering approval thresholds. <!-- RISK | A3 -->
-- Led the fraud strategy for Amazon Business, assessing every business at sign-up and before order placement; **avoided ~$18M in potential fraud losses, caught fraud ~10 days earlier and reduced false positives by 35%**; adopted by 6 teams. Data science built the model. <!-- STRATEGY,RISK | A21, A22; 35% confirmed 2026-11-23 -->
-- Applied responsible AI to credit models in regulated lending: adverse-action reason codes for every declined application, model impact tested across SMB and enterprise customers, and parallel review with Amazon's financial risk teams. Do not claim a fair-lending (ECOA/Reg B) review. <!-- RISK | SD23 -->
-- Scaled a global consumer credit product through ML-personalized marketing (**$15M incremental revenue**), credit bureau integrations (**+17% data coverage, +7% approval**) and an onboarding redesign (**-50% abandonment**). [CONFIRM: library also lists the $15M under PBI 2.0 enterprise (A1)] <!-- GROWTH,CUSTOMER | Work History -->
+- Built a segment-specific credit product strategy for SMBs with thin credit files by rebuilding underwriting on Amazon behavioral data, **raising SMB approval from 4% to 15% with no credit losses after full launch**. <!-- STRATEGY,RISK,AI | A1, A3 -->
+- Redesigned credit risk management for the SMB credit product instead of lowering approval thresholds: exposure caps by risk tier, restricted high-loss categories, transaction-level controls, batch underwriting with a real-time eligibility check at checkout (**launched 3 months earlier**), and a blended portfolio that added lower-risk enterprise customers (**6-8% lower simulated losses**). <!-- RISK,STRATEGY,TECHNICAL | A3, A4, A6 revised -->
+- Led the fraud strategy for Amazon Business, assessing every business at sign-up and before order placement; **avoided ~$18M in potential fraud losses, caught fraud ~10 days earlier and reduced false positives by 35%**; adopted by 6 teams. <!-- STRATEGY,RISK | A21, A22; 35% confirmed 2026-11-23 -->
+- Scaled a global consumer credit product through ML-personalized marketing (**$15M incremental revenue**), credit bureau integrations (**+17% data coverage, +7% approval**) and an onboarding redesign (**-50% abandonment**). <!-- GROWTH,CUSTOMER | Work History; $15M confirmed 2026-11-23 -->
 
 
 
@@ -95,9 +94,9 @@ Principal product manager with 11+ years shipping AI/ML products at scale, inclu
 
 **Project 5. Self-service ML platform for Amazon lending**
 
-- Owned vision and roadmap for MDLC, a SageMaker-based MLOps platform covering pipelines, CI/CD, lineage and monitoring for 30+ risk and credit data scientists; secured 8+ engineering HC a year, **cut deployment time 40%, scaled to 100+ production models with flat headcount and saved 6 science HC a year**. <!-- PLATFORM,STRATEGY | A8 -->
+- Owned vision and roadmap for MDLC, a SageMaker-based MLOps platform including pipelines, CI/CD, lineage and monitoring used by 30+ data scientists; **reduced deployment time by 40% and scaled to 100+ production models with flat headcount**. <!-- PLATFORM,STRATEGY | A8 -->
 - Automated CI/CD so every mainline commit builds a versioned container image with identical dev and prod dependencies, removing a week of engineering work per model and **saving ~2 engineering HC over 2 years**. <!-- PLATFORM,TECHNICAL | A8; confirmed 2026-11-23 -->
-- Turned team onboarding into a product, investing in documentation, templates and community support; **cut maintenance time from 5 to 3 weeks per team**, with NPS 8+ across 30+ scientists. <!-- PLATFORM,CUSTOMER | A8 -->
+- Turned team onboarding into a product, through documentation, self-serve onboarding templates and community support; **reducing maintenance time from 5 to 3 weeks per team**, with NPS 8+ across 30+ scientists. <!-- PLATFORM,CUSTOMER | A8 -->
 - Made threshold-based monitoring and alerting the platform default to meet the Federal Reserve's model-risk guidance, **expanding coverage from 30 to all 100 production models and avoiding ~400 science-weeks of setup**. <!-- RISK,PLATFORM | A9 -->
 - Wrote the ML data privacy specification with Amazon's privacy and legal teams, presented it to the VP of Data Privacy and the Payments VP, and launched access controls, encryption and anonymization as platform defaults. **Adopted across ~20 Amazon Payments teams, saving 5 science FTE a year.** <!-- RISK,LEADERSHIP,PLATFORM | A10 -->
 
@@ -142,12 +141,12 @@ Principal product manager with 11+ years shipping AI/ML products at scale, inclu
 
 1. **"2 additional clients" is credited twice:** the go-to-market bullet and the client-cloud deployment bullet both claim it. The library ties the 2 clients to the client-cloud decision (K12).
 2. **Adoption 50% to 70%:** library credits explainability with 50% to 60% and the agent with 60% to 70%.
-3. **$15M personalization:** consumer credit product or PBI 2.0 enterprise?
-4. **MDLC self-serve provisioning bullet (~1.5 months of setup per model):** held out until you decide; it appears only in the Coinbase resume.
-5. **Credit-analyst tools and Central Rules Engine MVP:** what shipped, when, impact.
-6. **$100M+ as "seller savings":** the library says savings "across Amazon and thousands of sellers."
+3. **MDLC self-serve provisioning bullet (~1.5 months of setup per model):** held out until you decide; it appears only in the Coinbase resume.
+4. **Credit-analyst tools and Central Rules Engine MVP:** what shipped, when, impact.
+5. **$100M+ as "seller savings":** the library says savings "across Amazon and thousands of sellers."
+6. **35% false-positive reduction:** confirmed by you; basis (how it was measured) not recorded yet.
 7. **Retired or parked, kept out:** "fraud loss rate fell 15%," "repeat fraud incidents -5%," A17 in-house vs third-party lender, $17MM larger seller loans, Moody's integration, "promoted 2 of 3."
-8. **Removed by Shifia (2026-11-23):** Personal Projects section; Data Platform PRFAQ line; BFS threshold, BFS 2.0 and blocklist bullets; SMB offer redesign, simulation, batch-vs-real-time, API and fraud-integration bullets; TRACE item-level bullet; adoption-drop and trust-policy bullets; CPG rollout, reconciliation and client-interface bullets.
+8. **Removed by Shifia (2026-11-23):** Personal Projects section; Data Platform PRFAQ line; BFS threshold, BFS 2.0 and blocklist bullets; SMB offer redesign, simulation, batch-vs-real-time, API and fraud-integration bullets (folded into one credit risk bullet); responsible AI bullet; TRACE item-level bullet; adoption-drop and trust-policy bullets; CPG rollout, reconciliation and client-interface bullets.
 
 ---
 
