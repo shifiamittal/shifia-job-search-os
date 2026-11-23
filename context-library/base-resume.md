@@ -1,6 +1,6 @@
 # Base Resume (Master)
 
-Last updated: 2026-11-23 (rev 4, after Shifia's third round of edits)
+Last updated: 2026-11-23 (rev 5, after Shifia's fourth round of edits)
 Built from: `experience-library.md` (canonical metrics + story bank), `resume-style-guide.md`, and the 8 resumes in `resumes/` (R37, Qualcomm, Coinbase, Rose Intl, Stripe Radar x4).
 
 **How to use this file.** This is the bank, not a resume. It holds every project and bullet worth using, so it runs past one page. `/resume-tailor` picks the best 2-4 bullets per role for a JD and applies the style guide. Do not send this file to anyone.
@@ -41,17 +41,17 @@ Principal product manager with 11+ years shipping AI/ML products at scale, inclu
 
 **Project 1. Deep Enterprise platform, go-to-market and team**
 
-- Led 0→1 product strategy and roadmap for Deep Enterprise, an AI supply chain platform, delivering **$25M in client savings across 5 Fortune 500 clients** and leading Keystone's pivot from consulting to a product-led business model that reached **$7.5M ARR**. <!-- STRATEGY,GROWTH | K1, K32 -->
+- Led 0→1 product strategy and roadmap for Deep Enterprise, an AI supply chain platform for Fortune 500 enterprises, delivering **$25M in client savings across 5 clients** and enabling Keystone's pivot from consulting to a product-led business model that reached **$7.5M ARR**. <!-- STRATEGY,GROWTH | K1, K32 -->
 - Productized Deep Enterprise platform deployment with 30+ engineers and data scientists, **reducing deployment time from 6 months to 4 months**. <!-- LEADERSHIP,EXECUTION | K1 -->
 - Wrote the strategy document for Deep Enterprise that aligned the CEO and President on the move from consulting to product. <!-- STRATEGY,LEADERSHIP | Writing notes -->
-- Set modular, value-based subscription pricing for Deep Enterprise, aligning the CEO, Sales and Finance and rejecting usage-based and percent-of-savings models. Two clients upgraded from forecasting to the agent module (**+$500K ACV each**). <!-- STRATEGY,GROWTH | K32 -->
-- Built the go-to-market for Deep Enterprise: aligned a Fortune 500 CPG client as the reference customer after proving product value, designed a repeatable sales narrative, improved demos, and automated deployment to fast-track onboarding, **resulting in 2 additional clients**. [CONFIRM: the next bullet also credits the client-cloud decision with the same 2 additional clients] <!-- STRATEGY,CUSTOMER | K22, K34, K1 -->
+- Set modular, value-based subscription pricing for Deep Enterprise, aligning the CEO, Sales and Finance; two clients upgraded from forecasting to the agent module (**+$500K ACV each**). <!-- STRATEGY,GROWTH | K32 -->
+- Built the go-to-market for Deep Enterprise, aligned a Fortune 500 CPG client as the reference customer, designed a repeatable sales narrative, improved demos, and automated deployment to fast-track onboarding, **resulting in 2 additional clients**. <!-- STRATEGY,CUSTOMER | K22, K34, K1 -->
 - Persuaded leadership and investors to deploy in each client's cloud instead of pure SaaS, **winning 2 additional clients** with strict data-residency and cloud-environment requirements. <!-- STRATEGY,TECHNICAL | K12 -->
 - Designed Deep Enterprise as modular services instead of a monolith so clients could deploy selectively, spending 6 extra development weeks up front against a 10× rewrite later. <!-- TECHNICAL | K13 -->
 - Designed the Deep Enterprise product strategy around hierarchical forecasting as the MVP, replacing a univariate incumbent tool and **improving WAPE by up to 26%**. [NOTE: 26% is the item level; the range by level is 21-26%] <!-- STRATEGY,AI | K22 -->
 - Launched Deep Enterprise platform enhancements, including SHAP explainability and quarterly and on-demand retraining, **improving forecast adoption from 50% to 70%**. [NOTE: library credits explainability with 50% to 60% and the agent with 60% to 70%] <!-- AI,CUSTOMER | K9, K10 -->
 - Launched and scaled HAT-AI, an AI assistant that automates roadmap reporting, leadership newsletters and knowledge discovery; served 30 partners and **saved 120 hours a week**. <!-- AI,EXECUTION | Work History; verified 2026-11-23 -->
-- Led REI-Agent, a multi-agent analysis assistant that lets users investigate cost drivers in natural language, with automated data retrieval, variance analysis, governed enterprise metrics and auditable calculations. No metric on record. <!-- AI,TECHNICAL | Work History -->
+- Led REI-Agent, a multi-agent analysis assistant that lets users investigate cost drivers in natural language, with automated data retrieval, variance analysis, governed enterprise metrics and auditable calculations. <!-- AI,TECHNICAL | Work History -->
 - Mentored 3 dotted-line PMs, coaching one through a plan to weigh client requests against platform priorities so engineering met product goals with no delays. Also mentored 4-5 junior PMs and interns and ran 50+ hiring interviews across Keystone and Amazon. <!-- LEADERSHIP | K20 -->
 
 **Project 2. Forecast Agent (multi-agent system)**
@@ -80,7 +80,7 @@ Principal product manager with 11+ years shipping AI/ML products at scale, inclu
 
 - Launched a credit-based payment product for Amazon Business via experimentation and a 5% controlled launch, scaling to 50K+ customers and **$71M in incremental revenue**. <!-- GROWTH,EXECUTION | A1 -->
 - Built a segment-specific credit product strategy for SMBs with thin credit files by rebuilding underwriting on Amazon behavioral data, **raising SMB approval from 4% to 15% with no credit losses after full launch**. <!-- STRATEGY,RISK,AI | A1, A3 -->
-- Redesigned credit risk management for the SMB credit product instead of lowering approval thresholds: exposure caps by risk tier, restricted high-loss categories, transaction-level controls, batch underwriting with a real-time eligibility check at checkout (**launched 3 months earlier**), and a blended portfolio that added lower-risk enterprise customers (**6-8% lower simulated losses**). <!-- RISK,STRATEGY,TECHNICAL | A3, A4, A6 revised -->
+- Redesigned credit risk management for the SMB credit product, including exposure caps by risk tier, restricted financing on high-loss categories, batch underwriting with a real-time eligibility check at checkout, and a blended portfolio that added lower-risk enterprise customers (**6-8% lower simulated losses**). <!-- RISK,STRATEGY,TECHNICAL | A3, A4, A6 revised -->
 - Led the fraud strategy for Amazon Business, assessing every business at sign-up and before order placement; **avoided ~$18M in potential fraud losses, caught fraud ~10 days earlier and reduced false positives by 35%**; adopted by 6 teams. <!-- STRATEGY,RISK | A21, A22; 35% confirmed 2026-11-23 -->
 - Scaled a global consumer credit product through ML-personalized marketing (**$15M incremental revenue**), credit bureau integrations (**+17% data coverage, +7% approval**) and an onboarding redesign (**-50% abandonment**). <!-- GROWTH,CUSTOMER | Work History; $15M confirmed 2026-11-23 -->
 
@@ -133,6 +133,7 @@ Principal product manager with 11+ years shipping AI/ML products at scale, inclu
 ## EDUCATION
 
 **MBA, Marketing & Operations**, Indian Institute of Technology (IIT) Roorkee `2013 - 2015`
+
 **B.E., Chemical Engineering**, Thapar University `2009 - 2013`
 
 ---
