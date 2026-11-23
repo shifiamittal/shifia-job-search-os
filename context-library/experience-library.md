@@ -1057,3 +1057,9 @@ Sources: user-provided docs, read in full 2026-10-25: "Business Fraud Score PRFA
 | BFS 1.0 contribution | **contributing to ~60% of upfront fraud detection** | A21 ("62% upfront detection YTD") |
 | Flagship CPG first-phase rollout | **85% of SKUs** | |
 | Agent recommendation acceptance | **70%** at launch | Use 70% everywhere. Drop ">80%" and the K6 50% → 80% figure (confirmed 2026-10-15). K7's 50% → 80% is description approval, a different metric. See the adoption metrics table at the top of the Story Bank |
+### Confirmed 2026-11-23 (base resume review, user)
+- **K11 prototype:** the Codex prototype of the forecasting agent showed >70% of recommendations adopted **in shadow mode**, helped secure engineering investment and accelerated engineering development by 2 months (user-confirmed wording; supersedes "swap 2 months of accuracy work" as the only framing).
+- **HAT-AI:** served **30 partners** (not "30 PMs"); saved 120 hours a week.
+- **A21 / BFS:** **false positives reduced by 35%**. Basis not recorded yet [NEEDS DETAIL: how it was measured].
+- **A8 CI/CD:** automated CI/CD removed about a week of engineering work per model and saved ~2 engineering HC over 2 years (previously only in the Coinbase resume).
+- **Keystone go-to-market (K22, K34, K1):** CPG reference customer, repeatable sales narrative (forecast performance, adoption, then less planner investigation time via the agent), better demos, enterprise security capabilities, deployment automation; credited with 2 additional clients. [CONFIRM: same "2 additional clients" is credited to the client-cloud deployment decision in K12]
