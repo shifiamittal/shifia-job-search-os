@@ -906,6 +906,55 @@ I kept asking what it missed: some fraudsters passed registration but behaved su
 - **[CONFIRM before the interview]:** that you personally reviewed the case analysis with Data Science and the investigators; whether the 10 days and 15% were launch-time estimates or measured (if estimates, say "initial estimates").
 - **Follow-ups:** why precision over recall (about 99% precision, about 25% recall at the 0.95 threshold, with checkout controls catching the rest; shadow run first); how you knew they were fraud (confirmed downstream outcomes; labels arrive late, so explicit timing assumptions); how long to assess a customer who never orders (detection vs. inference cost); why not tighten checkout rules (too late and too blunt, good customers absorb the friction).
 
+#### A23 iteration version: "a time you iterated on something that wasn't complete" (STAR-L, saved 2026-11-25)
+- **Sources:** BFS 2.0 launch announcement and BFS US model doc (Google Drive, read 2026-11-24), plus the user's confirmation that BFS 2.0 was a **separate model** from BFS 1.0. Ownership words: "I led the strategy," "Data Science built the model." Never "I built the model."
+- **Use for:** iterating on something incomplete; shipping version one on purpose; learning from production. Backup if BFS is already used for curiosity (C1) in the same interview: K3 (tiered autonomy). Don't tell this and A22 or C1 separately in one interview.
+
+**S (Situation):** "At Amazon Business, I led the strategy for a fraud score that checked each business once, at registration. It contributed to about 60% of upfront detection, but I set it to block only at about 99% precision, because a false positive suspends a real business's credit line. So I shipped it knowing it would miss fraud."
+**T (Task):** "My job: find what it missed, without blocking good customers."
+**A (Action):**
+"First, I found the gap with data. A deep dive into our worldwide data showed fraudsters passing the score, then acting like bots before their first order: rapid clicks, very fast navigation, repetitive paths, suspicious IPs.
+Second, I launched a separate model that looks at how a customer behaves, not just who they say they are. It rechecks every new customer daily, using how long registration took, how they browsed and added payment methods, and how they set up their account, payment methods, and user groups. I added IP intelligence with a blocklist, and reused signals from the buyer-risk team.
+Third, I decided how long to keep checking. New customers place their first order anywhere from days to weeks after registering, and some never do. Checking longer catches more fraud but costs more, because we process clickstream data daily. Data Science compared how well the model performed for customers who ordered after different lengths of time, against the cost, and we stopped at the first order or 30 days."
+**R (Result):** "Early results: fraudsters caught about 10 days earlier, upfront detection up 14–15%."
+**L (Learning):** "I now name what version one will miss before launch and treat those blind spots as the roadmap. And I keep investigating after launch, because attackers adapt."
+- **Length:** ~260 words (~100 sec). To trim to ~230: shorten the pattern list in Action 1, or drop "and reused signals from the buyer-risk team."
+- **Optional follow-up material:** false-positive program (started; target <0.5%; no result claimed); $2.7M fraudulent PBI lines flagged; Keystone parallel (shadow mode first, then monitoring after launch: K2, K4); six teams adopting the score (A27); 22 weeks vs. 1 week cache decision (A25).
+- **Checks before using:**
+  - Keep "early results": the launch note calls the 10 days and 14–15% "initial estimates." Percentage points vs. relative lift on the ~62% base is still unknown.
+  - "About 99% precision" is BFS 1.0 **test-set** precision at the 0.95 threshold. Back-test precision at 0.95 was 0.94; live shadow run: 20 suspensions, all true fraud. Safe wording: "about 99% on test data."
+  - The action patterns (rapid clicks, fast navigation, repetitive paths) come from the launch note and the user's quick notes. Cut any that were not from the BFS 2.0 deep dive. No exact features or thresholds.
+  - Phased plan is documented: the model doc roadmap lists "BFS External IP Integration" and "BFS Enable Continuous Assessment (enable behavioral signals)."
+  - Don't claim "I kept the precision bar" for BFS 2.0: its threshold is not documented.
+
+#### A23 reconciliation: BFS 1.0 model-doc numbers (read 2026-11-24)
+- BFS 1.0 model: random forest with SMOTE; 15K fraud / 150K non-fraud training LEGs; 68 features; test precision 0.88 / recall 0.86 / AUC 0.86 (no threshold applied).
+- **Threshold table (test set → back-test):** 0.75: P 0.85 / R 0.60 → P 0.85 / R 0.43. 0.85: P 0.92 / R 0.48 → P 0.90 / R 0.32. **0.95: P 0.99 / R 0.25 → P 0.94 / R 0.16.** Launch threshold 0.95; reason: precision first, low recall acceptable because BRP post-checkout controls catch the rest.
+- **Resolves the recall conflict in the user's quick notes:** "16%" = back-test recall at 0.95; "25%" = test-set recall at 0.95; "13,201 of 15,000 (88%)" = recall of the model with **no** threshold applied. The "false positives reduced by 35%" line is not in any BFS document; don't pair it with BFS 2.0.
+- **CAUTION on the ~$18M figure:** the model doc computes $18.2M "if we take action on all fraudulent customers identified by the model" (the 88%-recall case), not at the 0.95 threshold (16–25% recall). It is a model-based estimate. The canonical metrics table still says "treat as actual" (user decision 2026-10-25); safer wording is "estimated about $18M." An interviewer who does the recall math could challenge "avoided."
+- The model doc also notes PBI impact was lower than expected because PBI fraud was low, with potential in non-PBI use cases (payment-agnostic scoring).
+
+#### BFS 2.0 recall sheet: how a system like this is typically designed
+**Everything below is HYPOTHESIS unless marked (documented). Use it to jog memory; state nothing as fact unless the user remembers it.**
+1. **Why a separate model:** behavior only exists after registration, so a registration-time model can't use it. A separate model runs daily, reads different data (clickstream, settings), and keeps scoring as evidence builds. (User confirmed it was a separate model.)
+2. **Behavioral model, plainly:** BFS 1.0 judged *who the customer says they are* (profile, domain, credit bureau); BFS 2.0 judged *what they do* (clickstream, settings). Real businesses browse in varied, natural ways; bots follow predefined, repetitive patterns (documented).
+3. **Signals (categories documented; specifics hypothetical):**
+   - Clickstream: registration time, browsing, adding payment methods (documented). Hypothesis: sessions, pages, time between steps, navigation speed, path repetition.
+   - Settings: B2B account settings incl. Prime configuration, wallet (payment methods), group settings (how users are organized) (documented). Hypothesis: fraudsters configure accounts quickly or unusually (e.g., adding payment methods immediately, many users).
+   - Network: IP intelligence from internal buyer-risk systems and external providers; IP blocklist (documented). Gestural-data insights from the BRP model fed in (documented).
+   - Aggregation: Data Science rolled millions of daily clickstream rows into per-customer features (documented).
+4. **Labels:** fraud confirmation is delayed; Data Science made assumptions about when fraud occurred (documented). BFS 1.0 doc: fraud status takes ~2 weeks to fully realize. Hypothesis: account-status labels as in BFS 1.0; count behavior only up to the label point; train on older customers, test on newer.
+5. **Model type:** NOT documented (the user doesn't remember). The random forest with SMOTE in the user's quick notes is BFS 1.0. Hypothesis: a supervised binary classifier, likely tree-based; imbalance handling is typical (fraud ~3% in BFS 1.0 data). Documented: hyperparameter tuning to select the best model.
+6. **Scoring pipeline:** hypothesis: daily batch on MDLC; scores customers still inside the window and not yet transacting; buyer-risk transaction models take over after the first order. Documented: daily behavior records; continuous evaluation until first transaction or 30 days.
+7. **Threshold and actions:** BFS 2.0 threshold NOT documented. Hypothesis: precision-first like BFS 1.0 (high cut-off from back-test + shadow run), with rules (IP blocklist) as a separate layer. Documented: blocklist proactively blocks registrations and orders from suspicious IPs. At launch the model "identified" $2.7MM fraudulent PBI lines; integrations to remove lines (credit system) and customers (sign-up verification) were "next" (Q1). False-positive target <0.5%.
+8. **Window decision (Action 3):** documented: Data Science assessed performance across customers with varying first-transaction windows, balancing performance and inference cost; cap = first order or 30 days. Hypotheses on what they compared: detection at fixed precision by days observed; share of real customers who order by each day; cost of each extra customer-day. Typical conclusion: most signal arrives early, so extra days add less.
+9. **Safe follow-up answers:**
+   - *What model?* "Data Science built it, a behavioral classifier on aggregated clickstream and account signals. I set the goals, the launch gates, and the window trade-off."
+   - *How did you pick 30 days?* "They compared performance across customers by time to first order, against scoring cost, and we capped it at 30 days."
+   - *What threshold?* "I don't remember the exact number. The principle was precision-first, with buyer-risk controls as the backstop." (Say only if true.)
+   - *How do you know the labels were right?* "Fraud confirmation is delayed, so Data Science made explicit assumptions about timing, and we tracked false positives separately."
+- **Open items for the user to confirm from memory:** (a) did a high behavioral score suspend, trigger verification, or only flag; (b) new score each day vs. one final score; (c) was 30 days the longest window tested or the winner; (d) any plateau in detection at later days.
+
 ### A24: Detection vs. customer friction
 - **Source:** Stripe L4 story bank S3 (2026-10-25), built on A21 and the BFS PRFAQ, model doc and BFS 2.0 launch note; moved into this library 2026-11-09. Ownership words: "I led the strategy," "data science built the model." Never "I built the model."
 **Use for:** hard trade-offs, ML product decisions, how you measure success. **This is the core trade-off in fraud and risk products.**
