@@ -328,6 +328,13 @@ Intel = profile exists in `insider-data/company-intel/`.
 - **Hiring status:** unknown
 - **Notes:** Added by request. Public (COIN). Remote-first per intel. Business is tied to crypto cycles. Intel: yes [VERIFY: Company intel last updated 2026-03-24, over 6 months old. Key details may have changed.]
 
+## Rank 63: Plaid
+- **Product focus:** Financial data infrastructure / APIs connecting banks to fintech apps
+- **Recent news:** — (run /company-research)
+- **Connections:** none yet
+- **Hiring status:** unknown
+- **Notes:** Added by request. Late-stage private (~$13B valuation per intel) [VERIFY]. SF-based (confirm remote/Seattle PM roles). Platform/API fit. Intel: yes [VERIFY: Company intel last updated 2026-03-24, over 6 months old. Key details may have changed.]
+
 ---
 
 To expand to ~100: run `/company-research generate target list` once you confirm the career plan.
