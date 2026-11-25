@@ -321,6 +321,13 @@ Intel = profile exists in `insider-data/company-intel/`.
 - **Hiring status:** unknown
 - **Notes:** Added by request. SF-based (confirm remote/Seattle PM roles). Public (AFRM). Intel: yes [VERIFY: Company intel last updated 2026-03-24, over 6 months old. Key details may have changed.]
 
+## Rank 62: Coinbase
+- **Product focus:** Crypto exchange, Wallet, Base (L2), institutional and commerce products
+- **Recent news:** — (run /company-research)
+- **Connections:** none yet
+- **Hiring status:** unknown
+- **Notes:** Added by request. Public (COIN). Remote-first per intel. Business is tied to crypto cycles. Intel: yes [VERIFY: Company intel last updated 2026-03-24, over 6 months old. Key details may have changed.]
+
 ---
 
 To expand to ~100: run `/company-research generate target list` once you confirm the career plan.
