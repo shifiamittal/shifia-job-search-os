@@ -1,7 +1,7 @@
 # Target Companies
 
 Generated: 2026-10-14
-Last updated: 2026-10-14
+Last updated: 2026-11-25
 
 **Status: First-pass draft (60 companies) generated from career-plan.md by judgment, not live research.** "Recent news" and "Hiring status" are blank on purpose. Run `/company-research [company]` to fill them in rather than trust guesses. Reorder freely.
 
@@ -313,6 +313,13 @@ Intel = profile exists in `insider-data/company-intel/`.
 ## Rank 60: Tanium / Icertis / Highspot (Seattle-area)
 - **Product focus:** Enterprise software with AI (endpoint, contracts, sales enablement)
 - **Notes:** Seattle-local options to research. Intel: no.
+
+## Rank 61: Affirm
+- **Product focus:** BNPL / consumer lending platform, merchant partner network, AI in underwriting and payments
+- **Recent news:** — (run /company-research)
+- **Connections:** none yet
+- **Hiring status:** unknown
+- **Notes:** Added by request. SF-based (confirm remote/Seattle PM roles). Public (AFRM). Intel: yes [VERIFY: Company intel last updated 2026-03-24, over 6 months old. Key details may have changed.]
 
 ---
 
