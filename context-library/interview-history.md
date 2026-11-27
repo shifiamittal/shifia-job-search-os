@@ -1,8 +1,8 @@
 # Interview History
 
-Last updated: 2026-10-15
-Total interviews: 4 (3 companies), plus a recruiter screen for Count (Albert Squiers, not recorded)
-Outcomes: 2 rejected (LawnStarter at HM review, Count after Round 2), 1 stalled (Ascerta)
+Last updated: 2026-11-27
+Total interviews: 5 (4 companies), plus a recruiter screen for Count (Albert Squiers, not recorded)
+Outcomes: 2 rejected (LawnStarter at HM review, Count after Round 2), 1 stalled (Ascerta), 1 pending (BrightHire)
 
 Auto-maintained by `/interview-debrief`. After each real interview, run the debrief and this file updates automatically with questions, scores, signals, and patterns. Full debriefs with rewrites are in `interview-debriefs/`.
 
@@ -16,12 +16,14 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 ### Weaknesses
 - **Leadership / people / process questions:** avg **4.8/10** (team alignment 4.5, underperformer 5, working with engineers 6, weakness 4). You answer with generic mechanics (SMART goals, standups, 1:1s) instead of a story. You have the stories: K20 (dotted-line PM turnaround), K13 (engineering pushback), K16 (CEO demo).
 - **Plans and vision questions:** avg **4.7/10** (30–60 days 4.5, 5-year vision 4.5, AI-native org 5). Generic and not tailored to the company, even when you had specific context from the same call.
-- **Length:** most answers run 350–650 words against a 200-word target. Filler words ("basically," "right?," "kind of," "like") show up throughout. **Confirmed habit (4 of 4 interviews).**
-- **Metric drift:** numbers changed between interviews: deployment 6 → 2 months (canonical 6 → 4), ">80% adopted" (canonical 70%), "if I remember, ~30%" cost cut (unconfirmed), Keystone team size changed three times in one answer. **Confirmed habit (3 of 4).**
-- **Current-employment claim:** "currently at Keystone" in **4 of 4** interviews. Role ended Mar 2026. Highest-risk issue in the pipeline.
+- **Length:** most answers run 350–650 words against a 200-word target. Filler words ("basically," "right?," "kind of," "like") show up throughout. **Confirmed habit (5 of 5 interviews).**
+- **Metric drift:** numbers changed between interviews: deployment 6 → 2 months (canonical 6 → 4), ">80% adopted" (canonical 70%), "if I remember, ~30%" cost cut (unconfirmed), Keystone team size changed three times in one answer. **Confirmed habit (4 of 5): BrightHire 2026-11-27 had "6 → 3 months" and "five additional clients."**
+- **Current-employment claim:** "currently at Keystone" in **4 of 4** interviews; **fixed on 2026-11-27** ("most recently at Keystone"). Keep it. Role ended Mar 2026. Highest-risk issue in the pipeline.
 - **Technical, non-AI (incident debugging):** 5/10 (one data point). Didn't segment the failing 5%, mitigate first, or use your payments background.
 
 ### Other patterns
+- **Stalling aloud (new, BrightHire):** "let me collect my thoughts" 4 times in 32 minutes with 25-38s silences, on predictable "why did they hire you" questions. Write 60-second role scripts.
+- **Comp improvised (BrightHire 4.5):** scripted comp answers score 8; improvised score 5. Implicitly agreed to the JD range without a target.
 - **Same closing question everywhere:** "What's the ideal candidate?" at Count R1, Pay-i, and LawnStarter. Replace it with a company-specific question.
 - **Story reuse:** the K16 demo story was told in both Count rounds; K2 appeared in every interview. K2 is strong, but rotate K6, K13, K17, A1, A11 so later rounds hear new evidence.
 - **Domain bridging missed:** at Count (accounting/payments) your Amazon B2B Payments & Lending work never came up.
@@ -36,6 +38,30 @@ Auto-maintained by `/interview-debrief`. After each real interview, run the debr
 ---
 
 ## Interview Log
+
+### 2026-11-27 - BrightHire (Zoom) - Principal Product Manager - Round 1 (recruiter screen)
+- **Interviewer:** Andres Cabezas, recruiter (outside US)
+- **Format:** Recruiter screen: company knowledge, TMAY, why us, role-by-role (Amazon, Keystone), GTM, logistics, comp, candidate questions. Full debrief: `interview-debriefs/2026-11-27-brighthire-recruiter-andres.md`
+- **Questions asked:**
+  1. What do you know about BrightHire - Score: 7/10 - Type: culture fit
+  2. Tell me who you are - Score: 7/10 - Type: behavioral (TMAY)
+  3. Why accept the invite / what are you looking for - Score: 7/10 - Type: behavioral (why here)
+  4. Responsibilities you want to take on - Score: 5/10 - Type: behavioral (role vision)
+  5. Amazon: why hired, early responsibilities - Score: 5/10 - Type: behavioral
+  6. Last Amazon role and SKUs owned - Score: 6.5/10 - Type: behavioral
+  7. Credit product from zero: ideation - Score: 6.5/10 - Type: behavioral (0→1)
+  8. Keystone: why hired, what you owned from zero - Score: 6/10 - Type: behavioral (0→1)
+  9. Working with sales / go-to-market - Score: 5/10 - Type: behavioral (cross-functional)
+  10. Logistics (location, visa, start, non-compete, other interviews) - Score: 8/10 - Type: logistics
+  11. Comp expectations - Score: 4.5/10 - Type: comp
+  12. Candidate question (key skills) - Score: 6/10
+- **Overall assessment:** adequate (6.1/10). Recruiter positive ("really did the homework"; "close to customers... that I know you are").
+- **Outcome:** Pending. Summary goes to CEO Ben and head of engineering Will; answer promised by Tuesday 2026-12-01.
+- **Signals:** One ask per question, no probing. Dug into ownership/origin of the credit product and GTM work. Accepted the comp non-answer ("it's in the range").
+- **Metric issues:** deployment "6 → 3 months" (canonical 6 → 4); "five additional clients" (canonical 5 total); Amazon pricing "20+ retailers, 15 geographies" (library: 800+, 17 countries). "Most recently at Keystone" was correct (first clean interview).
+- **New patterns:** "let me collect my thoughts" 4 times with 25-38s silences; K2 forecasting agent never told in an AI-agent role; comp improvised instead of using the qa-master script.
+- **Key improvement:** Tie plans to the company's stated bets; lead Keystone with the agent; comp from script; 200-word cap.
+- **Next round prediction:** Call with Ben or Will, then Sean (head of product), plus AI interviewer demo. Expect 0→1 decision depth, AI trust/evals, and business-judgment questions. Send level/band email first.
 
 ### 2026-10-12 - Count - Head of Product - Round 2
 - **Interviewer:** Chris Smith, co-founder (acting CTO; ex-Amazon, ex-Meta)
